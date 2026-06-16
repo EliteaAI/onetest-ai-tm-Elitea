@@ -4,15 +4,15 @@
 schema_version: 1
 
 # Identity -------------------------------------------------------------------
-source_key: TMS                 # ID prefix → cases get IDs like TMS-0001 (immutable; never reuse)
-name: TMS Scaffold              # human name of this test-management repo
+source_key: ELITEA
+name: Elitea
 product_type: webapp            # webapp | api | mobile
 id_format: "{source_key}-{seq:04d}"   # source-based identity; seq allocated per repo (allocate-id)
 
 # Routing --------------------------------------------------------------------
 # Target repos under test. A case may override via its front-matter `targets:`.
 # Empty = execution Issues are created in THIS repo (centralized-QA mode).
-default_targets: []             # e.g. [onetest-ai/app-web, onetest-ai/app-api]
+default_targets: [EliteaAI/onetest-ai-tm-Elitea]
 
 # Org Project (run/quality board). Created by scripts/bootstrap-project.sh.
 project:
