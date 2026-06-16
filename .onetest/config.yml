@@ -21,11 +21,14 @@ project:
 
 # Environments the runs target (run context).
 environments:
-  - name: staging
-    url: https://staging.example.com
+  - name: dev
+    url: https://dev.elitea.ai
+    default: false
+  - name: stage
+    url: https://stage2.elitea.ai
     default: true
-  - name: production
-    url: https://example.com
+  - name: next
+    url: https://next.elitea.ai
     default: false
 
 # Paths ----------------------------------------------------------------------
