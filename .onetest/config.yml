@@ -23,10 +23,10 @@ project:
 environments:
   - name: dev
     url: https://dev.elitea.ai
-    default: false
+    default: true
   - name: stage
     url: https://stage2.elitea.ai
-    default: true
+    default: false
   - name: next
     url: https://next.elitea.ai
     default: false
