@@ -4,9 +4,9 @@
 schema_version: 1
 
 project:
-  org: onetest-ai
+  org: EliteaAI
   title: "QA Runs"
-  number: 2                      # https://github.com/orgs/onetest-ai/projects/2
+  number: 6                      # https://github.com/orgs/EliteaAI/projects/6
 
 # Single-select + text fields the create_run / record_result tools set.
 fields:
