@@ -1,6 +1,33 @@
 {
   "cases": [
     {
+      "id": "ELITEA-0001",
+      "title": "[Chat] Multiple Toolkits — Parallel list_collection Execution Completes Without Error — GPT + Anthropic [Parametrized]",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:collections",
+        "feat:toolkits",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4959"
+      ],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_toolkits_section_visible",
+        "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_internal_tools_enum_usage"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-0001_chat-parallel-toolkit-list-collection.md"
+    },
+    {
       "id": "TMS-0001",
       "title": "Login with valid credentials",
       "status": "ready",
