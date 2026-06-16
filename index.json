@@ -19,8 +19,7 @@
         "EliteaAI/elitea_issues#4959"
       ],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_toolkits_section_visible",
-        "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_internal_tools_enum_usage"
+        "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_toolkits_section_visible"
       ],
       "targets": [],
       "dependencies": [],

@@ -3,12 +3,7 @@
     {
       "case_id": "ELITEA-0001",
       "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_toolkits_section_visible",
-      "status": "failed"
-    },
-    {
-      "case_id": "ELITEA-0001",
-      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_internal_tools_enum_usage",
-      "status": "failed"
+      "status": "passed"
     }
   ],
   "unmatched_refs": [
@@ -19,6 +14,7 @@
     "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_detail_page_loads",
     "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_information_section",
     "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_instructions_field",
+    "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_internal_tools_enum_usage",
     "tests.ui.agents.test_agent_management.TestAgentList.test_agent_search",
     "tests.ui.agents.test_agent_management.TestAgentList.test_agent_search_no_results",
     "tests.ui.agents.test_agent_management.TestAgentList.test_agents_dashboard_loads",
