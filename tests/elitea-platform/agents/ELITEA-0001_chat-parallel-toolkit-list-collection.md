@@ -7,6 +7,7 @@ module: agents
 status: ready
 execution_type: manual
 tags: [chat, toolkits, collections, parallel, parametrized]
+requirements: [EliteaAI/elitea_issues#4959]
 ---
 
 # ELITEA-0001: [Chat] Multiple Toolkits — Parallel list_collection Execution Completes Without Error — GPT + Anthropic [Parametrized]
