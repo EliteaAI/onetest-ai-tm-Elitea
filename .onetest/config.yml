@@ -16,8 +16,8 @@ default_targets: [EliteaAI/onetest-ai-tm-Elitea]
 
 # Org Project (run/quality board). Created by scripts/bootstrap-project.sh.
 project:
-  org: onetest-ai
-  number: 2                      # https://github.com/orgs/onetest-ai/projects/2 ("QA Runs")
+  org: EliteaAI
+  number: 6                      # https://github.com/orgs/onetest-ai/projects/2 ("QA Runs")
 
 # Environments the runs target (run context).
 environments:
