@@ -12,7 +12,7 @@ requirements: [EliteaAI/elitea_issues#4959]
 
 # ELITEA-0001: [Chat] Multiple Toolkits — Parallel list_collection Execution Completes Without Error — GPT + Anthropic [Parametrized]
 
-**Module:** Agents · **Priority:** High · **Type:** Regression
+**Module:** Agents · **Priority:** Critical · **Type:** Regression
 
 ## Preconditions
 
