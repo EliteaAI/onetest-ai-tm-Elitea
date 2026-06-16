@@ -6,7 +6,7 @@ type: regression
 module: agents
 status: ready
 execution_type: manual
-tags: [chat, toolkits, collections, parallel, parametrized]
+tags: [feat:collections, feat:toolkits, eng:backend]
 requirements: [EliteaAI/elitea_issues#4959]
 ---
 
