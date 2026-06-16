@@ -1,7 +1,7 @@
 ---
 id: ELITEA-0001
 title: "[Chat] Multiple Toolkits — Parallel list_collection Execution Completes Without Error — GPT + Anthropic [Parametrized]"
-priority: high
+priority: critical
 type: regression
 module: agents
 status: ready
