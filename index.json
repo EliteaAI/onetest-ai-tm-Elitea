@@ -2,7 +2,7 @@
   "cases": [
     {
       "id": "ELITEA-0001",
-      "title": "[Chat] Multiple Toolkits — Parallel list_collection Execution Completes Without Error — GPT + Anthropic [Parametrized]",
+      "title": "[Chat] Multiple Toolkits \u2014 Parallel list_collection Execution Completes Without Error \u2014 GPT + Anthropic [Parametrized]",
       "status": "ready",
       "execution_type": "automated",
       "type": "regression",
@@ -25,6 +25,30 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/agents/ELITEA-0001_chat-parallel-toolkit-list-collection.md"
+    },
+    {
+      "id": "ELITEA-0002",
+      "title": "[Agent] Repeated Parallel `list_collection` Calls in Same Session \u2014 No State Accumulation or Degradation",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:collections",
+        "feat:toolkits",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4959"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-0002_agent-repeated-parallel-list-collection-same-session.md"
     }
   ]
 }
