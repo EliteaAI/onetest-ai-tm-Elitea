@@ -18,7 +18,7 @@ requirements: [ProjectAlita/projectalita.github.io#3846]
 **Coverage:**
 - Settings panel re-renders cleanly when switching Dark→Light
 - Settings panel re-renders cleanly when switching Light→Dark
-- Dark mode color (EliteaAI/elitea_issues#101721) does not persist into Light mode
+- Dark mode color (#101721) does not persist into Light mode
 - No visual flash or stuck color state during theme switch
 
 ## Preconditions
@@ -28,18 +28,18 @@ requirements: [ProjectAlita/projectalita.github.io#3846]
 
 ## Test Data
 
-- Dark mode Settings panel expected background: rgb(16, 23, 33) (EliteaAI/elitea_issues#101721)
+- Dark mode Settings panel expected background: rgb(16, 23, 33) (#101721)
 
 ## Steps
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Enable Dark mode and open the Settings panel. | Settings panel open in Dark mode with correct background (EliteaAI/elitea_issues#101721). |
+| 1 | Enable Dark mode and open the Settings panel. | Settings panel open in Dark mode with correct background (#101721). |
 | 2 | While the Settings panel is open and visible, click the theme toggle in the sidebar to switch to Light mode. | Theme switches to Light mode. |
-| 3 | Immediately observe the Settings left navigation panel background. | Background re-renders to the correct Light mode color — dark gray (EliteaAI/elitea_issues#101721) does NOT persist. |
+| 3 | Immediately observe the Settings left navigation panel background. | Background re-renders to the correct Light mode color — dark gray (#101721) does NOT persist. |
 | 4 | Confirm no visual artifacts: no flash of wrong color, no half-rendered state, no ghost border visible. | Settings panel looks clean and fully re-rendered in Light mode. |
 | 5 | Click the theme toggle again to switch back to Dark mode. | Theme switches back to Dark mode. |
-| 6 | Confirm the Settings panel correctly shows the Dark mode background (EliteaAI/elitea_issues#101721) with no Light mode color artifacts. | Dark mode background restored cleanly. |
+| 6 | Confirm the Settings panel correctly shows the Dark mode background (#101721) with no Light mode color artifacts. | Dark mode background restored cleanly. |
 
 ## Expected Final State
 
