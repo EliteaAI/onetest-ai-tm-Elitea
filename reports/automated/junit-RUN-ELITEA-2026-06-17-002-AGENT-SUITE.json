@@ -1,0 +1,122 @@
+{
+  "launch": {
+    "total": 16,
+    "passed": 13,
+    "failed": 3,
+    "skipped": 0
+  },
+  "items": [
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_via_ui",
+      "name": "test_create_agent_via_ui",
+      "status": "passed",
+      "duration_ms": 75041,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_via_api_visible_in_ui",
+      "name": "test_create_agent_via_api_visible_in_ui",
+      "status": "passed",
+      "duration_ms": 22520,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_required_fields_validation",
+      "name": "test_create_agent_required_fields_validation",
+      "status": "passed",
+      "duration_ms": 30568,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_detail_page_loads",
+      "name": "test_agent_detail_page_loads",
+      "status": "passed",
+      "duration_ms": 25173,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_instructions_field",
+      "name": "test_agent_instructions_field",
+      "status": "passed",
+      "duration_ms": 18467,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_information_section",
+      "name": "test_agent_information_section",
+      "status": "passed",
+      "duration_ms": 16155,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_toolkits_section_visible",
+      "name": "test_agent_toolkits_section_visible",
+      "status": "passed",
+      "duration_ms": 18792,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_internal_tools_enum_usage",
+      "name": "test_internal_tools_enum_usage",
+      "status": "passed",
+      "duration_ms": 22566,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentList.test_agents_dashboard_loads",
+      "name": "test_agents_dashboard_loads",
+      "status": "passed",
+      "duration_ms": 19623,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentList.test_agent_search",
+      "name": "test_agent_search",
+      "status": "passed",
+      "duration_ms": 16805,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentList.test_agent_search_no_results",
+      "name": "test_agent_search_no_results",
+      "status": "passed",
+      "duration_ms": 25956,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentList.test_view_toggle_table_and_card",
+      "name": "test_view_toggle_table_and_card",
+      "status": "failed",
+      "duration_ms": 19141,
+      "failure_message": "AssertionError: Table view should be active after clicking table view button\nassert False\n +  where False = is_table_view_active()\n +    where is_table_view_active = <pages.agents_list_page.AgentsListPage object at 0x108a062d0>.is_table_view_active tests/ui/agents/test_agent_management.py:343: in test_view_toggle_table_and_card\n    assert list_page.is_table_view_active(), (\nE   AssertionError: Table view should be active after clicking table view button\nE   assert False\nE    +  where False = is_table_view_active()\nE    +    where is_table_view_active = <pages.agents_list_page.AgentsListPage object at 0x108a062d0>.is_table_view_active"
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_name",
+      "name": "test_edit_agent_name",
+      "status": "failed",
+      "duration_ms": 32891,
+      "failure_message": "AssertionError: Agent name should be 'autotest_renamed_agent' after save\nassert 'autautotest_test_edit_agent_name' == 'autotest_renamed_agent'\n  \n  - autotest_renamed_agent\n  + autautotest_test_edit_agent_name tests/ui/agents/test_agent_management.py:377: in test_edit_agent_name\n    assert detail_page.name_input.input_value() == new_name, (\nE   AssertionError: Agent name should be 'autotest_renamed_agent' after save\nE   assert 'autautotest_test_edit_agent_name' == 'autotest_renamed_agent'\nE     \nE     - autotest_renamed_agent\nE     + autautotest_test_edit_agent_name"
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_description",
+      "name": "test_edit_agent_description",
+      "status": "failed",
+      "duration_ms": 32735,
+      "failure_message": "AssertionError: Agent description should be 'Updated description by automation' after save\nassert 'Updated description by automationAuto-created for test test_edit_agent_description' == 'Updated description by automation'\n  \n  - Updated description by automation\n  + Updated description by automationAuto-created for test test_edit_agent_description tests/ui/agents/test_agent_management.py:397: in test_edit_agent_description\n    assert detail_page.description_input.input_value() == new_desc, (\nE   AssertionError: Agent description should be 'Updated description by automation' after save\nE   assert 'Updated description by automationAuto-created for test test_edit_agent_description' == 'Updated description by automation'\nE     \nE     - Updated description by automation\nE     + Updated description by automationAuto-created for test test_edit_agent_description"
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentActions.test_delete_agent_via_api",
+      "name": "test_delete_agent_via_api",
+      "status": "passed",
+      "duration_ms": 20055,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentActions.test_delete_agent_via_ui_menu",
+      "name": "test_delete_agent_via_ui_menu",
+      "status": "passed",
+      "duration_ms": 33431,
+      "failure_message": ""
+    }
+  ]
+}
