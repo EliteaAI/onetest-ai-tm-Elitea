@@ -1,0 +1,45 @@
+---
+id: ELITEA-0446
+title: "Chat + Image Gen → TestRail: AI-Generated Image Uploaded to TC Steps"
+priority: critical
+type: functional
+module: chat-interface
+status: draft
+execution_type: manual
+tags: [feat:image-generation, integration:testrail, image-generation, feat:toolkits, chat]
+requirements: [3180]
+---
+# ELITEA-0446: Chat + Image Gen → TestRail: AI-Generated Image Uploaded to TC Steps
+
+**Module:** Chat Interface · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that an AI-generated image produced in Chat (using gpt-5.2 with Image Creation toggle ON) is saved to an Artifact bucket and can be uploaded to the Steps field of a TestRail test case.
+
+## Preconditions
+
+- ELITEA Chat is accessible
+- gpt-5.2 model is available
+- Image Creation toggle is available in Chat settings
+- Artifact Toolkit is configured with a writable bucket
+- TestRail toolkit is configured with valid credentials and has 'Add file to case' tool enabled
+- A valid TestRail test case ID is available
+
+## Steps
+
+| # | Action | Expected Result |
+|---|--------|----------------|
+| 1 | Navigate to ELITEA Chat. Select gpt-5.2 model and enable the Image Creation toggle | Image Creation toggle is ON; gpt-5.2 is selected |
+| 2 | Ensure Artifact Toolkit and TestRail toolkit are connected to the Chat | Both toolkits are active in the current Chat session |
+| 3 | Send a prompt: 'Generate a step-by-step flow diagram and save it to /my-bucket/steps-diagram.png' | Image is generated and saved to the Artifact bucket; Chat confirms the file path |
+| 4 | Send a follow-up prompt: 'Upload /my-bucket/steps-diagram.png to the Steps field of TestRail test case [case_id]' | Chat invokes the upload tool targeting the Steps field and reports success |
+| 5 | Navigate to TestRail and open the test case | steps-diagram.png appears in the Steps field of the test case |
+
+## Expected Final State
+
+steps-diagram.png appears in the Steps field of the test case
+
+## Pass/Fail Criteria
+
+**Pass:** All steps complete as expected.
+
+**Fail:** Any step produces an unexpected result or error.
