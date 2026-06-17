@@ -41,20 +41,23 @@ requirements: [ProjectAlita/projectalita.github.io#3677]
 8. Click the Authors column header once more.
 9. Observe the row order and column sort indicators.
 
-**Expected Results:**
+## Preconditions
+
+- Logged in to ELITEA (`{{base_url}}`)
+
+## Steps
+
+| # | Action | Expected Result |
+|---|--------|----------------|
+| 1 | (See description above) |  |
+
+## Expected Final State
+
 - Step 4: Rows re-sort by Name (A→Z); Authors column header sort indicator disappears; Name column shows ascending indicator.
 - Step 6: Rows re-sort by Name Z→A; Name column shows descending indicator.
 - Step 8: Rows re-sort by Author (A→Z); Name column indicator disappears; Authors column shows ascending indicator.
 - At no point do two columns simultaneously show an active sort indicator.
 - No items are lost or duplicated during sort column switching.
-
-## Preconditions
-
-- Logged in to ELITEA (`{{base_url}}`)
-
-## Expected Final State
-
-Verify that after sorting by Authors, clicking a different sortable column (Name or Description) correctly re-sorts the table by the new column and clears the Authors sort indicator.
 
 ## Pass/Fail Criteria
 

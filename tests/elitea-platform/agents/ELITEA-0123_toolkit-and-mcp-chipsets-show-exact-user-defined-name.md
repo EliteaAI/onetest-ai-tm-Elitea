@@ -40,7 +40,7 @@ requirements: [ProjectAlita/projectalita.github.io#3535]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Log in to ELITEA at https://next.elitea.ai/app/. Navigate to Agents in the left sidebar and open the target agent. | Agent detail page loads. |
+| 1 | Log in to ELITEA at {{base_url}} Navigate to Agents in the left sidebar and open the target agent. | Agent detail page loads. |
 | 2 | Open the agent's Settings / Toolkits section. Locate the Toolkit entry and read its configured name character by character. | Toolkit is listed with the exact name 'myJiraTracker' (note mixed casing). |
 | 3 | Locate the MCP entry in the same section. Read its configured name. | MCP is listed with the exact name 'Slack-MCP' (note hyphen). |
 | 4 | Switch to the agent's Chat or Run tab. Enter a prompt that triggers both a Jira toolkit action and a Slack MCP action (e.g., 'Create a Jira issue for the new task and send a Slack message about it'). Press Send. | Agent processes the prompt and invokes both Toolkit and MCP tools. |

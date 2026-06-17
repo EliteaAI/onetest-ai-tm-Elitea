@@ -40,9 +40,9 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Open a browser or API tool and send a GET request to https://stage.elitea.ai/api/v1 (the API health endpoint). | The server responds with an HTTP status code less than 500 (e.g., 200 OK, or 401/403 are acceptable). |
+| 1 | Open a browser or API tool and send a GET request to {{base_url}} (the API health endpoint). | The server responds with an HTTP status code less than 500 (e.g., 200 OK, or 401/403 are acceptable). |
 | 2 | Check the response Content-Type header from the previous request. | If the status was 200, the Content-Type includes 'json' or 'text'. |
-| 3 | Send an authenticated GET request to the list agents endpoint: https://stage.elitea.ai/api/v2/elitea_core/applications/prompt_lib/23 with query parameter agents_type=classic. Include the API token in the Authorization header. | The response returns HTTP 200 with valid JSON data containing agent information. |
+| 3 | Send an authenticated GET request to the list agents endpoint: {{base_url}} with query parameter agents_type=classic. Include the API token in the Authorization header. | The response returns HTTP 200 with valid JSON data containing agent information. |
 
 ## Expected Final State
 

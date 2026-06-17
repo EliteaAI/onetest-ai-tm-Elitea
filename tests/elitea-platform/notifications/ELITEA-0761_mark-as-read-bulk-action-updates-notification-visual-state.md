@@ -35,7 +35,7 @@ requirements: [EliteaAI/elitea_issues#4431]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/notification-center | Notification Center table is displayed |
+| 1 | Navigate to {{base_url}} | Notification Center table is displayed |
 | 2 | Verify at least 2 notifications appear in an unread visual state (e.g., bold text, different background) | Unread notifications are visually distinct from read ones |
 | 3 | Select 2 unread notifications via their checkboxes | Both rows are selected and bulk actions activate |
 | 4 | Click Mark as read in the bulk actions area | Action is triggered |

@@ -39,19 +39,22 @@ requirements: [ProjectAlita/projectalita.github.io#3677]
 6. Click any other sortable column header (e.g., Name or Created).
 7. Observe the Authors column header.
 
-**Expected Results:**
-- Step 2: An ascending sort indicator (↑ arrow) appears on the Authors header; rows are ordered A→Z by author name.
-- Step 4: The sort indicator changes to descending (↓ arrow); rows reorder Z→A by author name.
-- Step 6: The Authors column header no longer shows any sort indicator; the newly clicked column shows its own sort indicator.
-- Only one column shows an active sort indicator at a time.
-
 ## Preconditions
 
 - Logged in to ELITEA (`{{base_url}}`)
 
+## Steps
+
+| # | Action | Expected Result |
+|---|--------|----------------|
+| 1 | (See description above) |  |
+
 ## Expected Final State
 
-Verify that clicking the Authors column header cycles through ascending → descending → cleared states, and that the sort indicator disappears when another column is clicked.
+- Step 2: An ascending sort indicator (↑ arrow) appears on the Authors header; rows are ordered A→Z by author name.
+- Step 4: The sort indicator changes to descending (↓ arrow); rows reorder Z→A by author name.
+- Step 6: The Authors column header no longer shows any sort indicator; the newly clicked column shows its own sort indicator.
+- Only one column shows an active sort indicator at a time.
 
 ## Pass/Fail Criteria
 

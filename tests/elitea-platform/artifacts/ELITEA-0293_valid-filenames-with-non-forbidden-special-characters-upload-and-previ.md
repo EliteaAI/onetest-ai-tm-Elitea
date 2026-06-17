@@ -44,7 +44,7 @@ Valid filenames:
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/ and open the Artifacts section. | Artifacts page is displayed. |
+| 1 | Navigate to {{base_url}} and open the Artifacts section. | Artifacts page is displayed. |
 | 2 | Open `tc-bucket`. | Bucket contents page is displayed. |
 | 3 | Click 'Upload files'; select `ts uplo@ad @!.txt` and confirm. | Upload begins; no forbidden-character error shown; `ts uplo@ad @!.txt` appears in the bucket with a correct, non-zero file size. |
 | 4 | Click 'Upload files'; select `New Text 子.txt` and confirm. | Upload begins; no forbidden-character error shown; `New Text 子.txt` appears in the bucket with a correct, non-zero file size. |

@@ -41,20 +41,23 @@ requirements: [ProjectAlita/projectalita.github.io#3677]
 7. Navigate back to page 1 and click Authors header again (descending sort).
 8. Navigate to page 2 again.
 
-**Expected Results:**
+## Preconditions
+
+- Logged in to ELITEA (`{{base_url}}`)
+
+## Steps
+
+| # | Action | Expected Result |
+|---|--------|----------------|
+| 1 | (See description above) |  |
+
+## Expected Final State
+
 - Step 3: Page 1 shows items with the earliest-alphabetical authors.
 - Step 6: Page 2 authors continue the sort sequence (later in alphabet) — they are NOT a re-ordering of the page-1 items.
 - Step 8: Page 2 shows items with relatively earlier-alphabet authors compared to page 1 (descending sequence continues).
 - No items are duplicated or missing across pages.
 - Total item count remains unchanged across sort operations.
-
-## Preconditions
-
-- Logged in to ELITEA (`{{base_url}}`)
-
-## Expected Final State
-
-Verify that sorting by Authors triggers a server-side sort of the complete dataset, not a client-side re-sort of only the currently visible page.
 
 ## Pass/Fail Criteria
 

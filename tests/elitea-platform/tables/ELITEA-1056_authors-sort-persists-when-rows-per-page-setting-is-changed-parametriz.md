@@ -39,19 +39,22 @@ requirements: [ProjectAlita/projectalita.github.io#3677]
 6. Change the rows-per-page value once more.
 7. Observe the Authors column header and the row order.
 
-**Expected Results:**
-- Step 5: The Authors sort indicator remains visible (ascending); items are still sorted by author name after the re-render.
-- Step 7: Sort is still active after a second rows-per-page change.
-- The first items visible on the new page follow the correct alphabetical sequence — they are not in default/creation order.
-- Total item count remains unchanged.
-
 ## Preconditions
 
 - Logged in to ELITEA (`{{base_url}}`)
 
+## Steps
+
+| # | Action | Expected Result |
+|---|--------|----------------|
+| 1 | (See description above) |  |
+
 ## Expected Final State
 
-Verify that changing the rows-per-page value while Authors sort is active does not reset or lose the sort — the table re-renders with the new page size while maintaining the sort order.
+- Step 5: The Authors sort indicator remains visible (ascending); items are still sorted by author name after the re-render.
+- Step 7: Sort is still active after a second rows-per-page change.
+- The first items visible on the new page follow the correct alphabetical sequence — they are not in default/creation order.
+- Total item count remains unchanged.
 
 ## Pass/Fail Criteria
 

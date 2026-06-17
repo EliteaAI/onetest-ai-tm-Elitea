@@ -39,19 +39,22 @@ requirements: [ProjectAlita/projectalita.github.io#3677]
 6. Navigate back to page 1 using the "Previous page" control.
 7. Observe the Authors column header and the row order on page 1.
 
-**Expected Results:**
-- Step 4: After navigating to page 2, the Authors sort indicator remains visible (ascending).
-- Step 5: Items on page 2 are a continuation of the ascending alphabetical author sort — no unsorted or randomly ordered rows.
-- Step 6: Returning to page 1 still shows the Authors ascending indicator and correct sorted items.
-- The sort is never silently reset by a page navigation event.
-
 ## Preconditions
 
 - Logged in to ELITEA (`{{base_url}}`)
 
+## Steps
+
+| # | Action | Expected Result |
+|---|--------|----------------|
+| 1 | (See description above) |  |
+
 ## Expected Final State
 
-Verify that when Authors sort is active and the user navigates to a different page (page 2, page 3, or back to page 1), the sort remains active — the sort indicator is still shown and items on the new page are correctly sorted.
+- Step 4: After navigating to page 2, the Authors sort indicator remains visible (ascending).
+- Step 5: Items on page 2 are a continuation of the ascending alphabetical author sort — no unsorted or randomly ordered rows.
+- Step 6: Returning to page 1 still shows the Authors ascending indicator and correct sorted items.
+- The sort is never silently reset by a page navigation event.
 
 ## Pass/Fail Criteria
 

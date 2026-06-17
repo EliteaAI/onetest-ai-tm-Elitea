@@ -34,7 +34,7 @@ requirements: [EliteaAI/elitea_issues#4431]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/notification-center | Notification Center table is displayed with pagination |
+| 1 | Navigate to {{base_url}} | Notification Center table is displayed with pagination |
 | 2 | Note the total notification count visible in the pagination indicator | Total count is noted (e.g., 45) |
 | 3 | Select 3 specific notifications on page 1 — note their text/timestamps | 3 rows are selected |
 | 4 | Click Delete and confirm the deletion | Deletion is triggered |

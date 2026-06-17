@@ -33,7 +33,7 @@ requirements: [EliteaAI/elitea_issues#4431]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/notification-center | Notification Center table is displayed with no rows selected |
+| 1 | Navigate to {{base_url}} | Notification Center table is displayed with no rows selected |
 | 2 | Verify no checkboxes are checked by default | All row checkboxes are in unchecked state |
 | 3 | Verify the Mark as read and Delete buttons are absent or visually disabled/greyed out | Both bulk action buttons are disabled or not visible |
 | 4 | Click the checkbox of one notification row | Row is selected |

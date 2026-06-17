@@ -38,7 +38,7 @@ requirements: [ProjectAlita/projectalita.github.io#2438]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to `https://dev.elitea.ai/app/toolkits/create/sharepoint?viewMode=owner` | Toolkit creation form |
+| 1 | Navigate to `{{base_url}}` | Toolkit creation form |
 | 2 | Scroll to the TOOLS section. Locate OneNote-related tools | OneNote tools visible: Create OneNote page, Get OneNote notebooks, Get OneNote sections, Read OneNote notebook, Read OneNote page sections |
 | 3 | Enable a Delegated toolkit (sp-delegated-oauth) and enable Get OneNote notebooks tool. Save toolkit | Toolkit saved |
 | 4 | Open the agent using this toolkit. Send: List all OneNote notebooks in my SharePoint site | Agent invokes OneNote tool. Returns notebook list |

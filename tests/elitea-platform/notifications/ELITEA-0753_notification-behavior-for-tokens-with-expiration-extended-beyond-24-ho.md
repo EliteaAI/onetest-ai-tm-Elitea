@@ -15,41 +15,39 @@ requirements: [EliteaAI/elitea_issues#3287]
 
 **Objective:** Verify the notification behavior when a token's expiration is extended AFTER a 24-hour expiration notification has already been sent — ensuring no duplicate notifications are created for the same token.
 
-**Preconditions:**
+## Preconditions
+
 - User is authenticated and has access to Private project → Personal Access Tokens
 - A Personal Access Token "Extension Test Token" with 2-day expiration exists
 - The token has already triggered a 24-hour expiration notification
 
-**Test Data:**
+## Test Data
+
 - Token name: "Extension Test Token"
 - Initial expiration: 2 days from creation
 - Current time: T+24h (notification already sent)
 - Extension action: Extend expiration by +3 days (new total: 5 days from creation)
 
-**Steps:**
-1. Create a Personal Access Token "Extension Test Token" with 2-day expiration
-2. Wait until T+24h (24 hours before initial expiration) — notification is sent
-3. Open Notification Center and verify the notification is present
-4. Navigate to Private project → Personal Access Tokens page
-5. Extend the expiration of "Extension Test Token" by +3 days (new expiration: 5 days from creation)
-6. Wait until the new 24-hour notification trigger point (T+24h + 72h = T+96h)
-7. Open Notification Center
-8. Verify that NO duplicate notification has been created
-9. Verify that only the original notification remains (or has been cleared if the extension logic clears stale notifications)
+## Steps
 
-**Expected Result:**
+| # | Action | Expected Result |
+|---|--------|----------------|
+| 1 | Create a Personal Access Token "Extension Test Token" with 2-day expiration |  |
+| 2 | Wait until T+24h (24 hours before initial expiration) — notification is sent |  |
+| 3 | Open Notification Center and verify the notification is present |  |
+| 4 | Navigate to Private project → Personal Access Tokens page |  |
+| 5 | Extend the expiration of "Extension Test Token" by +3 days (new expiration: 5 days from creation) |  |
+| 6 | Wait until the new 24-hour notification trigger point (T+24h + 72h = T+96h) |  |
+| 7 | Open Notification Center |  |
+| 8 | Verify that NO duplicate notification has been created |  |
+| 9 | Verify that only the original notification remains (or has been cleared if the extension logic clears stale notifications) |  |
+
+## Expected Final State
+
 - Original notification sent at T+24h
 - After expiration extension, NO duplicate notification is created
 - The notification system respects the "one notification per token" rule
 - Notification either remains as-is or is cleared after extension (behavior to be confirmed during implementation)
-
-## Preconditions
-
-- Logged in to ELITEA (`{{base_url}}`)
-
-## Expected Final State
-
-Verify the notification behavior when a token's expiration is extended AFTER a 24-hour expiration notification has already been sent — ensuring no duplicate notifications are created for the same token.
 
 ## Pass/Fail Criteria
 

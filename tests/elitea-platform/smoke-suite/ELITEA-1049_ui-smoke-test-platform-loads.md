@@ -36,7 +36,7 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Open a browser and navigate to https://stage.elitea.ai/. Log in if prompted. | The page loads successfully. The browser tab title shows a non-empty page title. |
+| 1 | Open a browser and navigate to {{base_url}} Log in if prompted. | The page loads successfully. The browser tab title shows a non-empty page title. |
 | 2 | Verify the main content area is visible — the page should not show a blank screen or error page. | The main application content is visible within 15 seconds. No broken layout or blank screen. |
 
 ## Expected Final State

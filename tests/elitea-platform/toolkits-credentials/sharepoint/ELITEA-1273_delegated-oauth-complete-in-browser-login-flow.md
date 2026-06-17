@@ -41,7 +41,7 @@ requirements: [ProjectAlita/projectalita.github.io#2438]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to `https://dev.elitea.ai/app/credentials` → Click Add Credential → Select SharePoint | Credential form opens |
+| 1 | Navigate to `{{base_url}}` → Click Add Credential → Select SharePoint | Credential form opens |
 | 2 | Fill in Display Name as `sp-delegated-oauth`, Client Id, and Site Url | Fields accept input |
 | 3 | Locate the Auth radio group and select Delegated | Delegated is selected. Oauth Discovery Endpoint * and Scopes * input fields become visible. A Login button appears |
 | 4 | Enter the Oauth Discovery Endpoint: `https://login.microsoftonline.com/<tenant_id>` | Field accepts the URL |

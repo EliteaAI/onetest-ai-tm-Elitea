@@ -36,7 +36,7 @@ requirements: [EliteaAI/elitea_issues#4431]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/notification-center | Notification Center table is displayed with pagination controls |
+| 1 | Navigate to {{base_url}} | Notification Center table is displayed with pagination controls |
 | 2 | Verify a rows-per-page selector is present with options including 10, 20, and 50 | Rows-per-page selector with multiple options is visible |
 | 3 | Change rows-per-page to 10 | Exactly 10 rows (or fewer on last page) are displayed |
 | 4 | Verify the range indicator shows correctly (e.g., '1–10 of 45') | Range indicator is accurate |

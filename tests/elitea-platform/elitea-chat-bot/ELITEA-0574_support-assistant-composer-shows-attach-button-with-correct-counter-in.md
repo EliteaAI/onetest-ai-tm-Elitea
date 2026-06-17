@@ -35,7 +35,7 @@ image.png (< 1 MB)
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/ | Floating Support Assistant launcher (circular button) is visible in the bottom-right corner |
+| 1 | Navigate to {{base_url}} | Floating Support Assistant launcher (circular button) is visible in the bottom-right corner |
 | 2 | Click the floating launcher to open the widget in compact mode | Widget opens; composer/input area is visible at the bottom |
 | 3 | Observe the composer toolbar | A paperclip (attach files) icon is visible in the composer toolbar |
 | 4 | Hover over the paperclip icon (do not click) | Tooltip reads "Attach files (10 left)" |

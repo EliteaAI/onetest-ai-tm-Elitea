@@ -34,7 +34,7 @@ requirements: [ProjectAlita/projectalita.github.io#2438]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to `https://dev.elitea.ai/app/credentials` → Click Add Credential → Select SharePoint | SharePoint credential form opens fresh |
+| 1 | Navigate to `{{base_url}}` → Click Add Credential → Select SharePoint | SharePoint credential form opens fresh |
 | 2 | Scroll to the Auth section of the form | A radio button group is visible |
 | 3 | Read the label of the first radio option | Label reads exactly App-only (not app_auth, App Auth, or SECRET) |
 | 4 | Read the label of the second radio option | Label reads exactly Delegated (not delegated_auth or OAUTH) |

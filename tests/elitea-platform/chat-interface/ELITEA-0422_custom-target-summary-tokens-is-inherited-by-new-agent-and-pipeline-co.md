@@ -46,7 +46,7 @@ requirements: [ProjectAlita/projectalita.github.io#3929]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/user-settings/profile. Expand 'Default Summarization'. Set Target Summary Tokens to 200. Click Save. | Save succeeds. Target Summary Tokens is 200. |
+| 1 | Navigate to {{base_url}} Expand 'Default Summarization'. Set Target Summary Tokens to 200. Click Save. | Save succeeds. Target Summary Tokens is 200. |
 | 2 | Navigate to Chat. Click Create to open a new conversation. Send the message 'Hello'. | Message is sent, AI responds, Context Budget widget appears. |
 | 3 | Click 'Edit context settings' on the Context Budget widget. Expand the Summarization section. Read the Target Summary Tokens field. | Target Summary Tokens = 200. Close modal. |
 | 4 | Navigate to the Agents page. Open any existing Agent. Start a new chat session (use a new/clear session to ensure a fresh conversation). | Agent chat interface opens with a new/empty session. |

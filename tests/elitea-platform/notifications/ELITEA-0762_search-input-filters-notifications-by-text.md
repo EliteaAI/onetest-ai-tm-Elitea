@@ -37,7 +37,7 @@ requirements: [EliteaAI/elitea_issues#4431]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/notification-center | Notification Center table is displayed |
+| 1 | Navigate to {{base_url}} | Notification Center table is displayed |
 | 2 | Locate the Search input field in the top-right area | Search input is visible |
 | 3 | Type 'Docs' (or another keyword present in at least 1 notification) into the search input | Table updates to show only notifications containing the search term |
 | 4 | Verify notifications NOT containing the term are hidden from view | Non-matching notifications are not shown |

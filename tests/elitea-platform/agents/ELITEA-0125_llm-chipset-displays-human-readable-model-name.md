@@ -39,7 +39,7 @@ requirements: [ProjectAlita/projectalita.github.io#3535]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Log in to ELITEA at https://next.elitea.ai/app/. In the left sidebar, click Agents. | The Agents list page loads. |
+| 1 | Log in to ELITEA at {{base_url}} In the left sidebar, click Agents. | The Agents list page loads. |
 | 2 | Locate and open an Agent configured with an LLM whose technical model ID is known (e.g., gpt-4o-mini). Open the agent's Settings / Configuration tab and note the exact technical model ID shown there. | Agent configuration page loads; technical model ID is visible in settings (e.g., gpt-4o-mini). |
 | 3 | Click the Run button or switch to the Chat tab within the agent. | Chat input is ready to accept a prompt. |
 | 4 | Type any short prompt (e.g., Hello) and press Send. | Agent sends the message and begins processing. |

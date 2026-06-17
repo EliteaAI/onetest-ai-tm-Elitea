@@ -35,7 +35,7 @@ requirements: [EliteaAI/elitea_issues#3886]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Open the Confluence-connected agent at https://dev.elitea.ai/app/406/agents/all/699/1262 | Agent chat interface is ready |
+| 1 | Open the Confluence-connected agent at {{base_url}} | Agent chat interface is ready |
 | 2 | Call read_page_by_id with page_id=43679747 and content_format=storage | Tool call is accepted without validation error |
 | 3 | Inspect the response body | Response body contains Confluence XHTML storage XML markup (e.g. <ac: tags, <ri: tags, or raw HTML storage format) |
 | 4 | Confirm response is non-empty and contains the page id | Page id 43679747 and title are present; body is non-empty |

@@ -37,20 +37,23 @@ requirements: [ProjectAlita/projectalita.github.io#3677]
 4. Click the Authors column header.
 5. Observe the table rows and the column header indicator.
 
-**Expected Results:**
+## Preconditions
+
+- Logged in to ELITEA (`{{base_url}}`)
+
+## Steps
+
+| # | Action | Expected Result |
+|---|--------|----------------|
+| 1 | (See description above) |  |
+
+## Expected Final State
+
 - Step 3: A sort affordance (hover icon or static sort arrow) is visible on the Authors column header.
 - Step 4: The table rows reorder — items sorted by author name (ascending by default).
 - Step 5: A directional sort indicator (ascending arrow) is displayed on the Authors column header.
 - No JavaScript console errors are thrown.
 - Behavior is identical across all 6 entity types.
-
-## Preconditions
-
-- Logged in to ELITEA (`{{base_url}}`)
-
-## Expected Final State
-
-Verify that the Authors column header in Table View is interactive (sortable) for all six entity types: Agents, Pipelines, Credentials, Toolkits, MCPs, and Apps.
 
 ## Pass/Fail Criteria
 

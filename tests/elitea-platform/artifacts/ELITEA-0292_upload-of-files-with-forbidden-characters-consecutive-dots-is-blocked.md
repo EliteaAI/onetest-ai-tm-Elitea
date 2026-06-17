@@ -45,7 +45,7 @@ Expected error snippet: "Filenames cannot contain the following symbols: #, ~, .
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/ and open the Artifacts section. | Artifacts page is displayed with the bucket list. |
+| 1 | Navigate to {{base_url}} and open the Artifacts section. | Artifacts page is displayed with the bucket list. |
 | 2 | Open `tc-bucket`. | Bucket contents page is displayed. |
 | 3 | Click 'Upload files'; select `test#.txt` and confirm in the OS file chooser. | Validation runs; no upload starts; no spinner persists; `test#.txt` does NOT appear in the bucket list; a descriptive error message referencing `#` is displayed. |
 | 4 | Dismiss the error; verify the 'Upload files' button is active. | Error dismissed without page reload; 'Upload files' button is clickable. |

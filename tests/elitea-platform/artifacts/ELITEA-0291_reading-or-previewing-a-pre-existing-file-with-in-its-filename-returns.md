@@ -39,7 +39,7 @@ Error must reference: # as the restricted/problematic character
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/ and open the Artifacts section. | Artifacts page is displayed. |
+| 1 | Navigate to {{base_url}} and open the Artifacts section. | Artifacts page is displayed. |
 | 2 | Open the bucket containing `test#.txt`. | Bucket content list is displayed; `test#.txt` is visible in the file list. |
 | 3 | Click the Preview (eye icon) next to `test#.txt`. | Preview action is triggered. |
 | 4 | Observe the displayed error message. | An error message appears; it is NOT simply 'Failed to fetch file: 403' or a generic network error. |

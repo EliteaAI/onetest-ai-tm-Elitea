@@ -38,12 +38,12 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| ? | Open browser and navigate to https://stage.elitea.ai | Home page loads within 5 seconds, page title is present |
+| ? | Open browser and navigate to {{base_url}} | Home page loads within 5 seconds, page title is present |
 | ? | Verify main content area is visible (check for main layout elements) | Main content area renders correctly, no broken layout |
 | ? | Open browser developer console and check for errors | No critical JavaScript errors or 500 HTTP errors in console |
 | ? | Login with test credentials (username: test user, password from .env.test) | Login successful, user redirected to dashboard/main interface |
 | ? | Verify user dashboard/main interface loads after login | Dashboard loads within 5 seconds, user menu/avatar visible |
-| ? | Check API health: Open https://stage.elitea.ai/api in new tab | API responds with HTTP status < 500 (200, 401, or similar), returns JSON content |
+| ? | Check API health: Open {{base_url}} in new tab | API responds with HTTP status < 500 (200, 401, or similar), returns JSON content |
 
 ## Expected Final State
 

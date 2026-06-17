@@ -37,7 +37,7 @@ requirements: [EliteaAI/elitea_issues#3886]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Open the Confluence-connected agent at https://dev.elitea.ai/app/406/agents/all/699/1262 | Agent chat interface opens and is ready to accept input |
+| 1 | Open the Confluence-connected agent at {{base_url}} | Agent chat interface opens and is ready to accept input |
 | 2 | Call read_page_by_id with page_id=43679747 and no content_format parameter | Tool call is accepted without validation error |
 | 3 | Inspect the response | Response contains page id 43679747, a title, and non-empty body content in view (HTML) format |
 | 4 | Verify no error message is returned | No error or exception is present in the response |

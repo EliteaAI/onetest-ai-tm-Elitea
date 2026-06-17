@@ -34,7 +34,7 @@ requirements: [EliteaAI/elitea_issues#4431]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/notification-center | Notification Center table is displayed |
+| 1 | Navigate to {{base_url}} | Notification Center table is displayed |
 | 2 | Click the checkbox of the first row | Row is selected, bulk actions area activates |
 | 3 | Click the Delete bulk action button. If a confirmation dialog appears, confirm it. | Deletion is triggered |
 | 4 | Verify the selected notification is no longer in the table | Deleted notification is removed from the list |

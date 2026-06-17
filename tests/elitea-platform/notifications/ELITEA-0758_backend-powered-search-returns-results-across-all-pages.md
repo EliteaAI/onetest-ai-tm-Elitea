@@ -35,7 +35,7 @@ requirements: [EliteaAI/elitea_issues#4431]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/notification-center and confirm you are on page 1 | Page 1 of notifications is displayed |
+| 1 | Navigate to {{base_url}} and confirm you are on page 1 | Page 1 of notifications is displayed |
 | 2 | Navigate to page 2 and identify a notification with a term NOT visible on page 1 — note the term | A unique page-2 notification term is identified |
 | 3 | Return to page 1 and type the noted search term into the Search input | Search is triggered |
 | 4 | Verify the page-2 notification appears in the filtered results | The page-2 notification is returned in search results from page 1 |

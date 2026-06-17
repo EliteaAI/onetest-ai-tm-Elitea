@@ -40,7 +40,7 @@ requirements: [ProjectAlita/projectalita.github.io#2438]
 | 1 | Open DevTools → Application → Session Storage for dev.elitea.ai. Locate the token entry for the OAuth discovery endpoint and delete it | Token entry is removed from session storage |
 | 2 | Navigate to the agent that uses the SharePoint delegated toolkit. Send prompt: List files in the document library | Agent attempts to invoke Get files list |
 | 3 | Observe the response in the agent chat | Agent returns an authentication error or McpAuthorizationRequired message — NOT a generic crash. The error message should guide the user to re-authenticate |
-| 4 | Navigate to `https://dev.elitea.ai/app/credentials` → Open sp-delegated-oauth | Credential form is displayed |
+| 4 | Navigate to `{{base_url}}` → Open sp-delegated-oauth | Credential form is displayed |
 | 5 | Click the Login button | Microsoft OAuth popup opens |
 | 6 | Complete authentication | Popup closes; token is stored in session storage again |
 | 7 | Return to the agent and re-send the same prompt | Agent executes the tool successfully. File list is returned |

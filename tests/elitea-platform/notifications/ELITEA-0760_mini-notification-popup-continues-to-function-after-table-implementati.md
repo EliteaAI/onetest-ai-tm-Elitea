@@ -35,7 +35,7 @@ requirements: [EliteaAI/elitea_issues#4431]
 |---|--------|----------------|
 | 1 | From any page in the application, click the Notifications icon in the left sidebar | Mini popup opens and displays recent notifications or 'No notifications right now' if empty |
 | 2 | Verify notifications in the popup are not cut off or visually broken | Popup content is properly displayed |
-| 3 | Click 'View all' in the mini popup | Page navigates to https://next.elitea.ai/app/notification-center and the table is displayed |
+| 3 | Click 'View all' in the mini popup | Page navigates to {{base_url}} and the table is displayed |
 | 4 | Navigate back and reopen the popup, then click anywhere outside the popup | Popup closes correctly without error |
 
 ## Expected Final State

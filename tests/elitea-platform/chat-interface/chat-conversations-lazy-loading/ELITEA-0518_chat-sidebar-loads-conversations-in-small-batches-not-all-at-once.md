@@ -49,6 +49,6 @@ requirements: [EliteaAI/elitea_issues#4834]
 - `offset` parameter present — pagination is active
 
 **Fail:**
-- Any request with `limit=1000` or no `limit` at all (https://next.elitea.ai/api/v2/elitea_core/folder/prompt_lib/5464?sort_by=created_at&sort_order=desc&limit=1000&offset=0
+- Any request with `limit=1000` or no `limit` at all ({{base_url}}
 )
 - `offset` is always absent or always 0

@@ -34,7 +34,7 @@ requirements: [EliteaAI/elitea_issues#4431]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/notification-center | Notification Center table is displayed |
+| 1 | Navigate to {{base_url}} | Notification Center table is displayed |
 | 2 | Locate the Select All checkbox in the table column header row | Select All checkbox is visible in the header |
 | 3 | Click Select All | All rows on the current page become selected |
 | 4 | If pagination is present, navigate to page 2 and verify its rows | Page 2 rows are NOT selected |

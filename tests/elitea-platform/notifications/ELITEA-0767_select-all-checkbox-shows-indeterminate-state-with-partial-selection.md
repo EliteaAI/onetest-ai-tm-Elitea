@@ -33,7 +33,7 @@ requirements: [EliteaAI/elitea_issues#4431]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/notification-center | Notification Center table is displayed |
+| 1 | Navigate to {{base_url}} | Notification Center table is displayed |
 | 2 | Select some but not all row checkboxes (e.g., rows 1 and 2 out of 5) | Rows 1 and 2 are selected |
 | 3 | Observe the Select All header checkbox | Select All shows an indeterminate visual state (dash/minus icon — neither fully checked nor empty) |
 | 4 | Click the indeterminate Select All | All rows on the page become selected |

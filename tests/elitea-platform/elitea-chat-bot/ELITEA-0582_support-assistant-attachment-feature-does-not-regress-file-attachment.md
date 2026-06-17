@@ -37,7 +37,7 @@ requirements: [EliteaAI/elitea_issues#4777]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/ and select a project from the sidebar dropdown (e.g., "Private") | Project selected. Chat page opens. |
+| 1 | Navigate to {{base_url}} and select a project from the sidebar dropdown (e.g., "Private") | Project selected. Chat page opens. |
 | 2 | Navigate to Chat in the sidebar | Regular Chat composer is visible (not the Support Assistant widget) |
 | 3 | Observe the composer area | Paperclip/attach icon is visible in the regular Chat composer toolbar |
 | 4 | Click the paperclip icon | OS file browser opens |

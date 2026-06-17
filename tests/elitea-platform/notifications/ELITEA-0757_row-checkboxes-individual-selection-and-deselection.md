@@ -35,7 +35,7 @@ requirements: [EliteaAI/elitea_issues#4431]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to https://next.elitea.ai/app/notification-center | Notification Center table is displayed |
+| 1 | Navigate to {{base_url}} | Notification Center table is displayed |
 | 2 | Verify each notification row has a checkbox on the left side | All rows display a checkbox |
 | 3 | Click the checkbox of the first row | Row receives a selected visual state (highlight or filled checkbox) and bulk actions bar activates |
 | 4 | Click the same checkbox again | Row returns to unselected/default state |
