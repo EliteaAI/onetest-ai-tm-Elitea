@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: draft
 execution_type: manual
 tags: [admin-control, guardrails, sidebar, toggle]
-requirements: [#4780, #4781]
+requirements: [EliteaAI/elitea_issues#4780, EliteaAI/elitea_issues#4781]
 ---
 # ELITEA-0633: Turning the Admin Guardrails toggle OFF removes the Support Assistant from the sidebar for regular users
 

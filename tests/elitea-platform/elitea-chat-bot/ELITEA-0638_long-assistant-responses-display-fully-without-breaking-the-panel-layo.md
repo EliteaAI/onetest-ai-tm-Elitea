@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [long-response, overflow, R-2.0.3, layout]
-requirements: [#4775]
+requirements: [EliteaAI/elitea_issues#4775]
 ---
 # ELITEA-0638: Long assistant responses display fully without breaking the panel layout
 

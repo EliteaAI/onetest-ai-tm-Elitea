@@ -31,7 +31,7 @@ requirements: [EliteaAI/elitea_issues#4497]
 ## Test Data
 
 - ADO Repository: [Test repo with PRs]
-- PR IDs with empty descriptions: [PR #111, PR #222, PR #333]
+- PR IDs with empty descriptions: [PR EliteaAI/elitea_issues#111, PR EliteaAI/elitea_issues#222, PR EliteaAI/elitea_issues#333]
 - Execution contexts to test: Toolkit Test Settings, Agent, Pipeline, Chat
 - Tool name: get_pull_request
 

@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#4772]
 
 **Module:** Resources Configuration · **Priority:** Critical · **Type:** Functional
 
-**Objective:** Verify that the Configuration → Resources page loads all five expected card configuration blocks: Information, Documentation, Release Notes, Video Library, and Tutorials. Covers AC2 of story #4772.
+**Objective:** Verify that the Configuration → Resources page loads all five expected card configuration blocks: Information, Documentation, Release Notes, Video Library, and Tutorials. Covers AC2 of story EliteaAI/elitea_issues#4772.
 
 ## Preconditions
 

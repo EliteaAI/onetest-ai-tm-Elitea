@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0334
-title: "[#4389] Regression — read_file Unchanged for Non-Excel Files; get_file_metadata Rename from get_file_type"
+title: "[EliteaAI/elitea_issues#4389] Regression — read_file Unchanged for Non-Excel Files; get_file_metadata Rename from get_file_type"
 priority: high
 type: functional
 module: artifacts-toolkit-read-file
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [get_file_metadata, feat:artifacts, regression, issue:4389, read_file, r-2.0.3]
 requirements: [4389]
 ---
-# ELITEA-0334: [#4389] Regression — read_file Unchanged for Non-Excel Files; get_file_metadata Rename from get_file_type
+# ELITEA-0334: [EliteaAI/elitea_issues#4389] Regression — read_file Unchanged for Non-Excel Files; get_file_metadata Rename from get_file_type
 
 **Module:** Artifacts Toolkit Read File · **Priority:** High · **Type:** Functional
 
@@ -20,7 +20,7 @@ requirements: [4389]
 User is logged in to ELITEA.
 Artifacts Toolkit is configured via Toolkit Test Settings.
 Test files uploaded to a bucket: sample.xlsx, sample.pdf, sample.docx, sample.txt, data.csv.
-PR for issue #4389 has been deployed to the environment.
+PR for issue EliteaAI/elitea_issues#4389 has been deployed to the environment.
 
 ## Steps
 

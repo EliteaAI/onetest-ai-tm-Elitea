@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [welcome-message, initial-state, regression, R-2.0.3, smoke]
-requirements: [#4775, #4773]
+requirements: [EliteaAI/elitea_issues#4775, EliteaAI/elitea_issues#4773]
 ---
 # ELITEA-0649: Support Assistant shows the configured welcome message when opened for the first time
 

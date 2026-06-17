@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0242
-title: "[#4919] New Wiki Generation Writes to `wiki-artifacts` Bucket"
+title: "[EliteaAI/elitea_issues#4919] New Wiki Generation Writes to `wiki-artifacts` Bucket"
 priority: high
 type: functional
 module: applications
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:artifacts, int:deepwiki, issue:4919, migration, r-2.0.3]
 requirements: [4919]
 ---
-# ELITEA-0242: [#4919] New Wiki Generation Writes to `wiki-artifacts` Bucket
+# ELITEA-0242: [EliteaAI/elitea_issues#4919] New Wiki Generation Writes to `wiki-artifacts` Bucket
 
 **Module:** Applications · **Priority:** High · **Type:** Functional
 

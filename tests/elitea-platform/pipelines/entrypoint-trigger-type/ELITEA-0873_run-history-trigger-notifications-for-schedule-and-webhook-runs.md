@@ -7,7 +7,7 @@ module: entrypoint-trigger-type
 status: ready
 execution_type: manual
 tags: [run-history, pipeline, R-2.0.3, trigger]
-requirements: [#4827]
+requirements: [EliteaAI/elitea_issues#4827]
 ---
 # ELITEA-0873: Run History — Trigger Notifications for Schedule and Webhook Runs
 

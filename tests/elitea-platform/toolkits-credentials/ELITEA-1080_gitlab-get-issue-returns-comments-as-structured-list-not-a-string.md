@@ -26,7 +26,7 @@ requirements: [EliteaAI/elitea_issues#4055]
 - Logged into {{base_url}} (stage environment)
 - GitLab toolkit configured with valid Personal Access Token credentials
 - `get_issue` tool enabled on the toolkit
-- Target issue (e.g., issue #1 in test repo) has at least 2 comments with distinct bodies
+- Target issue (e.g., issue EliteaAI/elitea_issues#1 in test repo) has at least 2 comments with distinct bodies
 
 ## Test Data
 
@@ -43,7 +43,7 @@ requirements: [EliteaAI/elitea_issues#4055]
 | 3 | Click Run / Execute | Tool executes and raw JSON output is displayed |
 | 4 | Inspect the `comments` field in the output | `comments` value is a JSON array [{...}, {...}] — NOT a string "[{...}]" |
 | 5 | Verify there is no surrounding pair of double quotes wrapping the array | The field is "comments": [...], not "comments": "[...]" |
-| 6 | Repeat via ELITEA Chat: send 'Get issue #1 from [repo]' using an agent with the GitLab toolkit | Agent response contains comments presented as list items, not a raw string dump |
+| 6 | Repeat via ELITEA Chat: send 'Get issue EliteaAI/elitea_issues#1 from [repo]' using an agent with the GitLab toolkit | Agent response contains comments presented as list items, not a raw string dump |
 
 ## Expected Final State
 

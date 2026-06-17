@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#4772]
 
 **Module:** Resources Configuration · **Priority:** Critical · **Type:** Functional
 
-**Objective:** Verify that toggling a card to Disabled removes it from the user-facing Resources page, and toggling it back to Enabled restores it. Parametrized across all 5 cards: Information, Documentation, Release Notes, Video Library, Tutorials. Covers AC3 of story #4772.
+**Objective:** Verify that toggling a card to Disabled removes it from the user-facing Resources page, and toggling it back to Enabled restores it. Parametrized across all 5 cards: Information, Documentation, Release Notes, Video Library, Tutorials. Covers AC3 of story EliteaAI/elitea_issues#4772.
 
 ## Preconditions
 

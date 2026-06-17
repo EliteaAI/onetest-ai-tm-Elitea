@@ -5854,7 +5854,7 @@
     },
     {
       "id": "ELITEA-0242",
-      "title": "[#4919] New Wiki Generation Writes to `wiki-artifacts` Bucket",
+      "title": "[EliteaAI/elitea_issues#4919] New Wiki Generation Writes to `wiki-artifacts` Bucket",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -5880,7 +5880,7 @@
     },
     {
       "id": "ELITEA-0243",
-      "title": "[#4919] No Data Loss \u2014 All Objects and Subfolder Structures Preserved in `wiki-artifacts` After Migration",
+      "title": "[EliteaAI/elitea_issues#4919] No Data Loss \u2014 All Objects and Subfolder Structures Preserved in `wiki-artifacts` After Migration",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -5907,7 +5907,7 @@
     },
     {
       "id": "ELITEA-0244",
-      "title": "[#4919] Pre-Migration Wikis Load Correctly After Code Deployment (Fallback Read from `wiki_artifacts`)",
+      "title": "[EliteaAI/elitea_issues#4919] Pre-Migration Wikis Load Correctly After Code Deployment (Fallback Read from `wiki_artifacts`)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -5934,7 +5934,7 @@
     },
     {
       "id": "ELITEA-0245",
-      "title": "[#4919] Pre-Migration Wikis Load Correctly After Data Migration (From New `wiki-artifacts` Bucket)",
+      "title": "[EliteaAI/elitea_issues#4919] Pre-Migration Wikis Load Correctly After Data Migration (From New `wiki-artifacts` Bucket)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -5960,7 +5960,7 @@
     },
     {
       "id": "ELITEA-0246",
-      "title": "[#4919] Artifact Toolkit Can Access `wiki-artifacts` Bucket After Migration",
+      "title": "[EliteaAI/elitea_issues#4919] Artifact Toolkit Can Access `wiki-artifacts` Bucket After Migration",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -7938,7 +7938,7 @@
     },
     {
       "id": "ELITEA-0325",
-      "title": "[#4389] read_file \u2014 Very Wide Sheet (Large Column Count)",
+      "title": "[EliteaAI/elitea_issues#4389] read_file \u2014 Very Wide Sheet (Large Column Count)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -7965,7 +7965,7 @@
     },
     {
       "id": "ELITEA-0326",
-      "title": "[#4389] get_file_metadata + read_file \u2014 Empty Sheet and Header-Only Sheet Handling",
+      "title": "[EliteaAI/elitea_issues#4389] get_file_metadata + read_file \u2014 Empty Sheet and Header-Only Sheet Handling",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -7992,7 +7992,7 @@
     },
     {
       "id": "ELITEA-0327",
-      "title": "[#4389] read_file / get_file_metadata \u2014 Sheet Names with Special Characters and Unicode",
+      "title": "[EliteaAI/elitea_issues#4389] read_file / get_file_metadata \u2014 Sheet Names with Special Characters and Unicode",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -8019,7 +8019,7 @@
     },
     {
       "id": "ELITEA-0328",
-      "title": "[#4389] get_file_metadata + read_file \u2014 Hidden Sheets Behavior",
+      "title": "[EliteaAI/elitea_issues#4389] get_file_metadata + read_file \u2014 Hidden Sheets Behavior",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -8046,7 +8046,7 @@
     },
     {
       "id": "ELITEA-0329",
-      "title": "[#4389] read_file \u2014 Formula and Computed-Value Cells in Excel",
+      "title": "[EliteaAI/elitea_issues#4389] read_file \u2014 Formula and Computed-Value Cells in Excel",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -8073,7 +8073,7 @@
     },
     {
       "id": "ELITEA-0330",
-      "title": "[#4389] read_file \u2014 Boundary Row Values (start_row=1, end_row=1, last row, full valid range)",
+      "title": "[EliteaAI/elitea_issues#4389] read_file \u2014 Boundary Row Values (start_row=1, end_row=1, last row, full valid range)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -8100,7 +8100,7 @@
     },
     {
       "id": "ELITEA-0331",
-      "title": "[#4389] read_file \u2014 Merged Cells in Excel Sheet",
+      "title": "[EliteaAI/elitea_issues#4389] read_file \u2014 Merged Cells in Excel Sheet",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -8127,7 +8127,7 @@
     },
     {
       "id": "ELITEA-0332",
-      "title": "[#4389] Integration \u2014 get_file_metadata + read_file Two-Step Workflow via Agent Chat and Pipeline Toolkit Node",
+      "title": "[EliteaAI/elitea_issues#4389] Integration \u2014 get_file_metadata + read_file Two-Step Workflow via Agent Chat and Pipeline Toolkit Node",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -8156,7 +8156,7 @@
     },
     {
       "id": "ELITEA-0333",
-      "title": "[#4389] get_file_metadata \u2014 Sheet Name Discovery for Excel Files (.xlsx, .xls, single/multi/large sheet)",
+      "title": "[EliteaAI/elitea_issues#4389] get_file_metadata \u2014 Sheet Name Discovery for Excel Files (.xlsx, .xls, single/multi/large sheet)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -8182,7 +8182,7 @@
     },
     {
       "id": "ELITEA-0334",
-      "title": "[#4389] Regression \u2014 read_file Unchanged for Non-Excel Files; get_file_metadata Rename from get_file_type",
+      "title": "[EliteaAI/elitea_issues#4389] Regression \u2014 read_file Unchanged for Non-Excel Files; get_file_metadata Rename from get_file_type",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -8209,7 +8209,7 @@
     },
     {
       "id": "ELITEA-0335",
-      "title": "[#4389] read_file Excel \u2014 Invalid Parameters Return Clear Errors (bad sheet name, invalid row range, out-of-bounds)",
+      "title": "[EliteaAI/elitea_issues#4389] read_file Excel \u2014 Invalid Parameters Return Clear Errors (bad sheet name, invalid row range, out-of-bounds)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -8236,7 +8236,7 @@
     },
     {
       "id": "ELITEA-0336",
-      "title": "[#4389] read_file \u2014 Row Range and Sheet Selection for Excel Files (start_row, end_row, sheet_name)",
+      "title": "[EliteaAI/elitea_issues#4389] read_file \u2014 Row Range and Sheet Selection for Excel Files (start_row, end_row, sheet_name)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -11167,7 +11167,7 @@
         "3709"
       ],
       "requirements": [
-        "GitHub Issue #3709"
+        "GitHub Issue EliteaAI/elitea_issues#3709"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -11195,7 +11195,7 @@
         "3709"
       ],
       "requirements": [
-        "GitHub Issue #3709"
+        "GitHub Issue EliteaAI/elitea_issues#3709"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -11223,7 +11223,7 @@
         "3709"
       ],
       "requirements": [
-        "GitHub Issue #3709"
+        "GitHub Issue EliteaAI/elitea_issues#3709"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -11251,7 +11251,7 @@
         "3709"
       ],
       "requirements": [
-        "GitHub Issue #3709"
+        "GitHub Issue EliteaAI/elitea_issues#3709"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -11279,7 +11279,7 @@
         "3709"
       ],
       "requirements": [
-        "GitHub Issue #3709"
+        "GitHub Issue EliteaAI/elitea_issues#3709"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -11307,7 +11307,7 @@
         "3709"
       ],
       "requirements": [
-        "GitHub Issue #3709"
+        "GitHub Issue EliteaAI/elitea_issues#3709"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -11335,7 +11335,7 @@
         "3709"
       ],
       "requirements": [
-        "GitHub Issue #3709"
+        "GitHub Issue EliteaAI/elitea_issues#3709"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -11363,7 +11363,7 @@
         "3709"
       ],
       "requirements": [
-        "GitHub Issue #3709"
+        "GitHub Issue EliteaAI/elitea_issues#3709"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -11391,7 +11391,7 @@
         "3709"
       ],
       "requirements": [
-        "GitHub Issue #3709"
+        "GitHub Issue EliteaAI/elitea_issues#3709"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -11419,7 +11419,7 @@
         "3709"
       ],
       "requirements": [
-        "GitHub Issue #3709"
+        "GitHub Issue EliteaAI/elitea_issues#3709"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -11447,7 +11447,7 @@
         "3709"
       ],
       "requirements": [
-        "GitHub Issue #3709"
+        "GitHub Issue EliteaAI/elitea_issues#3709"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -11475,7 +11475,7 @@
         "3709"
       ],
       "requirements": [
-        "GitHub Issue #3709"
+        "GitHub Issue EliteaAI/elitea_issues#3709"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -11503,7 +11503,7 @@
         "3709"
       ],
       "requirements": [
-        "GitHub Issue #3709"
+        "GitHub Issue EliteaAI/elitea_issues#3709"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -11531,7 +11531,7 @@
         "3709"
       ],
       "requirements": [
-        "GitHub Issue #3709"
+        "GitHub Issue EliteaAI/elitea_issues#3709"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15355,7 +15355,7 @@
         "icon"
       ],
       "requirements": [
-        "#4780"
+        "EliteaAI/elitea_issues#4780"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15379,8 +15379,8 @@
         "navigation"
       ],
       "requirements": [
-        "#4780",
-        "#4774"
+        "EliteaAI/elitea_issues#4780",
+        "EliteaAI/elitea_issues#4774"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15405,8 +15405,8 @@
         "layout"
       ],
       "requirements": [
-        "#4780",
-        "#4774"
+        "EliteaAI/elitea_issues#4780",
+        "EliteaAI/elitea_issues#4774"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15430,7 +15430,7 @@
         "smoke"
       ],
       "requirements": [
-        "#4780"
+        "EliteaAI/elitea_issues#4780"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15455,7 +15455,7 @@
         "smoke"
       ],
       "requirements": [
-        "#4780"
+        "EliteaAI/elitea_issues#4780"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15480,8 +15480,8 @@
         "toggle"
       ],
       "requirements": [
-        "#4780",
-        "#4781"
+        "EliteaAI/elitea_issues#4780",
+        "EliteaAI/elitea_issues#4781"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15505,7 +15505,7 @@
         "feature-flag"
       ],
       "requirements": [
-        "#4780"
+        "EliteaAI/elitea_issues#4780"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15530,8 +15530,8 @@
         "smoke"
       ],
       "requirements": [
-        "#4780",
-        "#4773"
+        "EliteaAI/elitea_issues#4780",
+        "EliteaAI/elitea_issues#4773"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15556,8 +15556,8 @@
         "R-2.0.3"
       ],
       "requirements": [
-        "#4775",
-        "#4774"
+        "EliteaAI/elitea_issues#4775",
+        "EliteaAI/elitea_issues#4774"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15582,7 +15582,7 @@
         "ux"
       ],
       "requirements": [
-        "#4775"
+        "EliteaAI/elitea_issues#4775"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15607,7 +15607,7 @@
         "layout"
       ],
       "requirements": [
-        "#4775"
+        "EliteaAI/elitea_issues#4775"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15632,8 +15632,8 @@
         "R-2.0.3"
       ],
       "requirements": [
-        "#4775",
-        "#4773"
+        "EliteaAI/elitea_issues#4775",
+        "EliteaAI/elitea_issues#4773"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15657,7 +15657,7 @@
         "R-2.0.3"
       ],
       "requirements": [
-        "#4775"
+        "EliteaAI/elitea_issues#4775"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15682,7 +15682,7 @@
         "smoke"
       ],
       "requirements": [
-        "#4775"
+        "EliteaAI/elitea_issues#4775"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15707,7 +15707,7 @@
         "R-2.0.3"
       ],
       "requirements": [
-        "#4775"
+        "EliteaAI/elitea_issues#4775"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15732,8 +15732,8 @@
         "R-2.0.3"
       ],
       "requirements": [
-        "#4775",
-        "#4774"
+        "EliteaAI/elitea_issues#4775",
+        "EliteaAI/elitea_issues#4774"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15758,8 +15758,8 @@
         "R-2.0.3"
       ],
       "requirements": [
-        "#4775",
-        "#4776"
+        "EliteaAI/elitea_issues#4775",
+        "EliteaAI/elitea_issues#4776"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15784,7 +15784,7 @@
         "R-2.0.3"
       ],
       "requirements": [
-        "#4775"
+        "EliteaAI/elitea_issues#4775"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15809,7 +15809,7 @@
         "smoke"
       ],
       "requirements": [
-        "#4775"
+        "EliteaAI/elitea_issues#4775"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15835,8 +15835,8 @@
         "smoke"
       ],
       "requirements": [
-        "#4775",
-        "#4773"
+        "EliteaAI/elitea_issues#4775",
+        "EliteaAI/elitea_issues#4773"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15861,7 +15861,7 @@
         "R-2.0.3"
       ],
       "requirements": [
-        "#4775"
+        "EliteaAI/elitea_issues#4775"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -15887,8 +15887,8 @@
         "smoke"
       ],
       "requirements": [
-        "#4775",
-        "#4773"
+        "EliteaAI/elitea_issues#4775",
+        "EliteaAI/elitea_issues#4773"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -17673,7 +17673,7 @@
     },
     {
       "id": "ELITEA-0725",
-      "title": "[#5116] MCP via Chat Conversation: Secret Field Shows \"New Secret\" Shortcut",
+      "title": "[EliteaAI/elitea_issues#5116] MCP via Chat Conversation: Secret Field Shows \"New Secret\" Shortcut",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -17696,7 +17696,7 @@
     },
     {
       "id": "ELITEA-0726",
-      "title": "[#5116] MCP Configuration (MCPs Page): Secret Field Shows \"New Secret\" Shortcut",
+      "title": "[EliteaAI/elitea_issues#5116] MCP Configuration (MCPs Page): Secret Field Shows \"New Secret\" Shortcut",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -18034,7 +18034,7 @@
         "r-2.0.3"
       ],
       "requirements": [
-        "#4698"
+        "EliteaAI/elitea_issues#4698"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -18058,7 +18058,7 @@
         "indexes"
       ],
       "requirements": [
-        "#4698"
+        "EliteaAI/elitea_issues#4698"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21068,7 +21068,7 @@
         "trigger"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21094,7 +21094,7 @@
         "trigger"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21120,7 +21120,7 @@
         "trigger"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21145,7 +21145,7 @@
         "trigger"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21170,7 +21170,7 @@
         "trigger"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21197,7 +21197,7 @@
         "api"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21223,7 +21223,7 @@
         "yaml"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21248,8 +21248,8 @@
         "trigger"
       ],
       "requirements": [
-        "#4827",
-        "#4975"
+        "EliteaAI/elitea_issues#4827",
+        "EliteaAI/elitea_issues#4975"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21274,7 +21274,7 @@
         "state"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21300,7 +21300,7 @@
         "gitlab"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21327,7 +21327,7 @@
         "github"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21355,7 +21355,7 @@
         "trigger"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21382,7 +21382,7 @@
         "trigger"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21408,7 +21408,7 @@
         "trigger"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21433,7 +21433,7 @@
         "trigger"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21459,7 +21459,7 @@
         "trigger"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21485,7 +21485,7 @@
         "trigger"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21510,8 +21510,8 @@
         "trigger"
       ],
       "requirements": [
-        "#4827",
-        "#4975"
+        "EliteaAI/elitea_issues#4827",
+        "EliteaAI/elitea_issues#4975"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21537,7 +21537,7 @@
         "smoke"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21561,7 +21561,7 @@
         "trigger"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21586,7 +21586,7 @@
         "smoke"
       ],
       "requirements": [
-        "#4827"
+        "EliteaAI/elitea_issues#4827"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21596,7 +21596,7 @@
     },
     {
       "id": "ELITEA-0890",
-      "title": "'input_attachments' State Variable Added/Removed When Toggling Attachments in Conversation Canvas Editor [Bug #5079]",
+      "title": "'input_attachments' State Variable Added/Removed When Toggling Attachments in Conversation Canvas Editor [Bug EliteaAI/elitea_issues#5079]",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -24902,7 +24902,7 @@
     },
     {
       "id": "ELITEA-1019",
-      "title": "Settings Menu Panel Background Color in Dark Mode Is #101721",
+      "title": "Settings Menu Panel Background Color in Dark Mode Is EliteaAI/elitea_issues#101721",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -26041,7 +26041,7 @@
     },
     {
       "id": "ELITEA-1069",
-      "title": "[#5116] \"New Project Secret\" Shortcut Visible in Credential Secret Dropdown (Team Project)",
+      "title": "[EliteaAI/elitea_issues#5116] \"New Project Secret\" Shortcut Visible in Credential Secret Dropdown (Team Project)",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -26065,7 +26065,7 @@
     },
     {
       "id": "ELITEA-1070",
-      "title": "[#5116] Full E2E: Create Secret via Shortcut, Refresh, Select, and Save Credential (Private + Team)",
+      "title": "[EliteaAI/elitea_issues#5116] Full E2E: Create Secret via Shortcut, Refresh, Select, and Save Credential (Private + Team)",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -26089,7 +26089,7 @@
     },
     {
       "id": "ELITEA-1071",
-      "title": "[#5116] Refresh Icon Reloads Secrets List Without Closing Dropdown",
+      "title": "[EliteaAI/elitea_issues#5116] Refresh Icon Reloads Secrets List Without Closing Dropdown",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -26113,7 +26113,7 @@
     },
     {
       "id": "ELITEA-1072",
-      "title": "[#5116] Permission: Viewer Role Cannot See CREATE Section or Secrets in Dropdown",
+      "title": "[EliteaAI/elitea_issues#5116] Permission: Viewer Role Cannot See CREATE Section or Secrets in Dropdown",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -26138,7 +26138,7 @@
     },
     {
       "id": "ELITEA-1073",
-      "title": "[#5116] Shortcut Opens Correct Settings \u2192 Secrets Page in New Tab",
+      "title": "[EliteaAI/elitea_issues#5116] Shortcut Opens Correct Settings \u2192 Secrets Page in New Tab",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -26162,7 +26162,7 @@
     },
     {
       "id": "ELITEA-1074",
-      "title": "[#5116] \"New Private Secret\" Shortcut Visible in Credential Secret Dropdown (Private Project)",
+      "title": "[EliteaAI/elitea_issues#5116] \"New Private Secret\" Shortcut Visible in Credential Secret Dropdown (Private Project)",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -29896,7 +29896,7 @@
     },
     {
       "id": "ELITEA-1228",
-      "title": "[#4660] SharePoint \u2014 Proactive Token Refresh at 75% Lifetime (Rate-Limited to 60s)",
+      "title": "[EliteaAI/elitea_issues#4660] SharePoint \u2014 Proactive Token Refresh at 75% Lifetime (Rate-Limited to 60s)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -29924,7 +29924,7 @@
     },
     {
       "id": "ELITEA-1229",
-      "title": "[#4660] SharePoint \u2014 Auto-Refresh End-to-End via Agent Chat and Pipeline Toolkit Node",
+      "title": "[EliteaAI/elitea_issues#4660] SharePoint \u2014 Auto-Refresh End-to-End via Agent Chat and Pipeline Toolkit Node",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -29952,7 +29952,7 @@
     },
     {
       "id": "ELITEA-1230",
-      "title": "[#4660] SharePoint OAuth \u2014 `resourceScopes` Takes Precedence Over `formScopes` in Auth Modal",
+      "title": "[EliteaAI/elitea_issues#4660] SharePoint OAuth \u2014 `resourceScopes` Takes Precedence Over `formScopes` in Auth Modal",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -29979,7 +29979,7 @@
     },
     {
       "id": "ELITEA-1231",
-      "title": "[#4660] SharePoint \u2014 Expired Access Token Without Refresh Token Is Excluded; Logon Prompt Shown",
+      "title": "[EliteaAI/elitea_issues#4660] SharePoint \u2014 Expired Access Token Without Refresh Token Is Excluded; Logon Prompt Shown",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -30007,7 +30007,7 @@
     },
     {
       "id": "ELITEA-1232",
-      "title": "[#4660] SharePoint \u2014 Expired Access Token with Valid Refresh Token Sent to Backend as `access_token: null`",
+      "title": "[EliteaAI/elitea_issues#4660] SharePoint \u2014 Expired Access Token with Valid Refresh Token Sent to Backend as `access_token: null`",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -30034,7 +30034,7 @@
     },
     {
       "id": "ELITEA-1233",
-      "title": "[#4660] SharePoint \u2014 Invalid or Expired Refresh Token Falls Back to Logon Prompt (McpAuthorizationRequired)",
+      "title": "[EliteaAI/elitea_issues#4660] SharePoint \u2014 Invalid or Expired Refresh Token Falls Back to Logon Prompt (McpAuthorizationRequired)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -30062,7 +30062,7 @@
     },
     {
       "id": "ELITEA-1234",
-      "title": "[#4660] SharePoint \u2014 Reactive 401 Auto-Refresh and Retry for READ and WRITE Operations",
+      "title": "[EliteaAI/elitea_issues#4660] SharePoint \u2014 Reactive 401 Auto-Refresh and Retry for READ and WRITE Operations",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -30090,7 +30090,7 @@
     },
     {
       "id": "ELITEA-1235",
-      "title": "[#4660] SharePoint OAuth \u2014 `offline_access` Always Included in Authorization Request + Both Tokens Stored",
+      "title": "[EliteaAI/elitea_issues#4660] SharePoint OAuth \u2014 `offline_access` Always Included in Authorization Request + Both Tokens Stored",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -31438,7 +31438,7 @@
     },
     {
       "id": "ELITEA-1290",
-      "title": "Speaking Mode \u2014 Manual Input Edit Resets Auto-Send Timer [Bug #5029]",
+      "title": "Speaking Mode \u2014 Manual Input Edit Resets Auto-Send Timer [Bug EliteaAI/elitea_issues#5029]",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -31463,7 +31463,7 @@
     },
     {
       "id": "ELITEA-1291",
-      "title": "Speaking Mode \u2014 Auto-Send Not Triggered by Natural Mid-Sentence Pauses [Bug #5028]",
+      "title": "Speaking Mode \u2014 Auto-Send Not Triggered by Natural Mid-Sentence Pauses [Bug EliteaAI/elitea_issues#5028]",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -31488,7 +31488,7 @@
     },
     {
       "id": "ELITEA-1292",
-      "title": "Speaking Mode \u2014 Voice Capture Blocked During TTS After Response Regeneration [Bug #5020]",
+      "title": "Speaking Mode \u2014 Voice Capture Blocked During TTS After Response Regeneration [Bug EliteaAI/elitea_issues#5020]",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -31513,7 +31513,7 @@
     },
     {
       "id": "ELITEA-1293",
-      "title": "Speaking Mode Available on Agent Page with No Prior Messages [Bug #4994]",
+      "title": "Speaking Mode Available on Agent Page with No Prior Messages [Bug EliteaAI/elitea_issues#4994]",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -31537,7 +31537,7 @@
     },
     {
       "id": "ELITEA-1294",
-      "title": "Speaking Mode Available in New Empty Chat Before First Message \u2014 Chat Page [Bug #4994]",
+      "title": "Speaking Mode Available in New Empty Chat Before First Message \u2014 Chat Page [Bug EliteaAI/elitea_issues#4994]",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -31561,7 +31561,7 @@
     },
     {
       "id": "ELITEA-1295",
-      "title": "Speaking Mode Cannot Be Enabled While Voice Input Is Active [Bug #5015]",
+      "title": "Speaking Mode Cannot Be Enabled While Voice Input Is Active [Bug EliteaAI/elitea_issues#5015]",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -31855,7 +31855,7 @@
     },
     {
       "id": "ELITEA-1307",
-      "title": "TTS Playback Auto-Stops on Response Deletion, Chat Clear, and Regeneration [Bug #4995, Parametrized: Delete | Clear | Regenerate]",
+      "title": "TTS Playback Auto-Stops on Response Deletion, Chat Clear, and Regeneration [Bug EliteaAI/elitea_issues#4995, Parametrized: Delete | Clear | Regenerate]",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -31905,7 +31905,7 @@
     },
     {
       "id": "ELITEA-1309",
-      "title": "TTS Read Out \u2014 File and Image Chips Not Read as \"Object object\" [Bug #4992]",
+      "title": "TTS Read Out \u2014 File and Image Chips Not Read as \"Object object\" [Bug EliteaAI/elitea_issues#4992]",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",

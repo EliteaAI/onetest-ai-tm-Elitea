@@ -17,7 +17,7 @@ requirements: [EliteaAI/elitea_issues#4416]
 
 **Coverage:**
 - AC6: Warning modal for any user including the author
-- Complementary to non-author scenario (Bug #4649)
+- Complementary to non-author scenario (Bug EliteaAI/elitea_issues#4649)
 
 ## Preconditions
 

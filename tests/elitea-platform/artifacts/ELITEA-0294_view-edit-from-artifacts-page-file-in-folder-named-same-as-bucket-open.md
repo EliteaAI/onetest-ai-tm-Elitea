@@ -15,7 +15,7 @@ requirements: [ProjectAlita/projectalita.github.io#3874]
 
 **Objective:** Verify that opening a file stored in a path that contains the bucket name as a folder segment opens the Canvas preview modal successfully — without returning "Failed to fetch file: 400". Both entry points on the Artifacts page are tested (click file name + View/Edit eye icon), across 3 path patterns each using a different file type.
 
-**Coverage (3 path patterns from bug #3874, one file type per pattern):**
+**Coverage (3 path patterns from bug EliteaAI/elitea_issues#3874, one file type per pattern):**
 - Pattern 1: `bucket → folder(=bucket_name) → file` — `.txt` — exact scenario from the bug report
 - Pattern 2: `bucket → folder(=bucket_name) → any_folder → file` — `.png` — binary image
 - Pattern 3: `bucket → any_folder → folder(=bucket_name) → file` — `.md` — markdown text

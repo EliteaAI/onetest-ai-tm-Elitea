@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1234
-title: "[#4660] SharePoint — Reactive 401 Auto-Refresh and Retry for READ and WRITE Operations"
+title: "[EliteaAI/elitea_issues#4660] SharePoint — Reactive 401 Auto-Refresh and Retry for READ and WRITE Operations"
 priority: high
 type: functional
 module: sharepoint
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:credentials, int:sharepoint, feat:toolkits, issue:4660, int:oauth, 401-retry, r-2.0.3]
 requirements: [4660]
 ---
-# ELITEA-1234: [#4660] SharePoint — Reactive 401 Auto-Refresh and Retry for READ and WRITE Operations
+# ELITEA-1234: [EliteaAI/elitea_issues#4660] SharePoint — Reactive 401 Auto-Refresh and Retry for READ and WRITE Operations
 
 **Module:** Sharepoint · **Priority:** High · **Type:** Functional
 

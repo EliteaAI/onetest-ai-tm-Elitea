@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1309
-title: "TTS Read Out — File and Image Chips Not Read as \"Object object\" [Bug #4992]"
+title: "TTS Read Out — File and Image Chips Not Read as \"Object object\" [Bug EliteaAI/elitea_issues#4992]"
 priority: critical
 type: functional
 module: text-to-speech-tts
@@ -9,13 +9,13 @@ execution_type: manual
 tags: [feature:4500, feat:voice, r-2.0.3]
 requirements: [EliteaAI/elitea_issues#4992, EliteaAI/elitea_issues#4500]
 ---
-# ELITEA-1309: TTS Read Out — File and Image Chips Not Read as "Object object" [Bug #4992]
+# ELITEA-1309: TTS Read Out — File and Image Chips Not Read as "Object object" [Bug EliteaAI/elitea_issues#4992]
 
 **Module:** Text To Speech Tts · **Priority:** Critical · **Type:** Functional
 
 **Objective:** Verify that the TTS "Read out" button does not read file or image chips as "Object object". Chips should either be skipped silently or replaced with a neutral phrase like "Attachment included".
 
-**Bug Reference:** #4992 — TTS reads generated file/image chips as "Object object" (one occurrence per chip) when the user manually clicks "Read out".
+**Bug Reference:** EliteaAI/elitea_issues#4992 — TTS reads generated file/image chips as "Object object" (one occurrence per chip) when the user manually clicks "Read out".
 
 **Important note:** This bug is reproducible ONLY when the user manually clicks the "Read out" button on the response. In Speaking Mode (auto-read after generation), "Object object" is NOT heard — this is an existing known distinction.
 

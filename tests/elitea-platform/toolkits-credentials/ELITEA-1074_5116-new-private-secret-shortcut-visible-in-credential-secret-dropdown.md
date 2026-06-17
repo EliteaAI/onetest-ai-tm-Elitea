@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1074
-title: "[#5116] \"New Private Secret\" Shortcut Visible in Credential Secret Dropdown (Private Project)"
+title: "[EliteaAI/elitea_issues#5116] \"New Private Secret\" Shortcut Visible in Credential Secret Dropdown (Private Project)"
 priority: critical
 type: functional
 module: toolkits-credentials
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:credentials, feat:settings, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5116]
 ---
-# ELITEA-1074: [#5116] "New Private Secret" Shortcut Visible in Credential Secret Dropdown (Private Project)
+# ELITEA-1074: [EliteaAI/elitea_issues#5116] "New Private Secret" Shortcut Visible in Credential Secret Dropdown (Private Project)
 
 **Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
 

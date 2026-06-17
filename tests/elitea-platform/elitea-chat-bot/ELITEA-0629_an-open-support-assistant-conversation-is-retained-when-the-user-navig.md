@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [state-persistence, cross-page, navigation]
-requirements: [#4780, #4774]
+requirements: [EliteaAI/elitea_issues#4780, EliteaAI/elitea_issues#4774]
 ---
 # ELITEA-0629: An open Support Assistant conversation is retained when the user navigates between pages
 

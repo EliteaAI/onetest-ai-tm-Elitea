@@ -55,5 +55,5 @@ Both files are read successfully without errors. No regressions for non-image fi
 - Correct file content is displayed in the chat response
 
 **Fail:**
-- Any non-image file read fails after the fix for issue #3644
+- Any non-image file read fails after the fix for issue EliteaAI/elitea_issues#3644
 - Reading .txt or .xlsx returns an error that was not present before the fix

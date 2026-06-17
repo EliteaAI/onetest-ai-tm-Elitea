@@ -27,7 +27,7 @@ requirements: [EliteaAI/elitea_issues#5222]
 
 - Logged in to {{base_url}} (Private project)
 - Bucket `test` exists and contains at least one file
-- Bug fix for issue #5222 is applied
+- Bug fix for issue EliteaAI/elitea_issues#5222 is applied
 
 ## Test Data
 
@@ -57,6 +57,6 @@ No JavaScript errors or network errors in the console
 - No error toasts or console errors
 
 **Fail:**
-- Click 2 does not collapse the tree (bug #5222 not fixed)
+- Click 2 does not collapse the tree (bug EliteaAI/elitea_issues#5222 not fixed)
 - File table clears or changes after collapse
 - Any console error or error toast appears

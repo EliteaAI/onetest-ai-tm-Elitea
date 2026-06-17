@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1069
-title: "[#5116] \"New Project Secret\" Shortcut Visible in Credential Secret Dropdown (Team Project)"
+title: "[EliteaAI/elitea_issues#5116] \"New Project Secret\" Shortcut Visible in Credential Secret Dropdown (Team Project)"
 priority: critical
 type: functional
 module: toolkits-credentials
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:credentials, feat:settings, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5116]
 ---
-# ELITEA-1069: [#5116] "New Project Secret" Shortcut Visible in Credential Secret Dropdown (Team Project)
+# ELITEA-1069: [EliteaAI/elitea_issues#5116] "New Project Secret" Shortcut Visible in Credential Secret Dropdown (Team Project)
 
 **Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
 

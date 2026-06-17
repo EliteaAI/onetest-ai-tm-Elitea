@@ -33,7 +33,7 @@ requirements: [EliteaAI/elitea_issues#4500]
 |---|--------|----------------|
 | 1 | Start TTS playback on an AI response. While audio is playing, click the Copy button on the same response. | Response text is copied to clipboard successfully. TTS playback is unaffected. |
 | 2 | While TTS is still playing, click Like or Dislike on the response. | Rating is registered (icon state changes). TTS playback is unaffected. |
-| 3 | While TTS is playing, verify the Regenerate button is visible and not greyed out or blocked. | Regenerate button is accessible. (Note: clicking Regenerate should stop TTS per bug #4995 fix — but the button itself must not be blocked.) |
+| 3 | While TTS is playing, verify the Regenerate button is visible and not greyed out or blocked. | Regenerate button is accessible. (Note: clicking Regenerate should stop TTS per bug EliteaAI/elitea_issues#4995 fix — but the button itself must not be blocked.) |
 | 4 | Inspect the response action bar layout while TTS is active. | All buttons are visible, not overlapping each other, and at the correct positions. |
 
 ## Expected Final State

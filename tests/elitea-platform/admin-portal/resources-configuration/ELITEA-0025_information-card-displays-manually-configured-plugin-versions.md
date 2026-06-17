@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#4772]
 
 **Module:** Resources Configuration · **Priority:** High · **Type:** Functional
 
-**Objective:** Verify that the plugin versions field on the Information card accepts manual input, persists after save and page reload, and is displayed on the user-facing Resources page. ELITEA version and install/upgrade date auto-sourcing are not yet implemented and are out of scope. Partially covers AC5 of story #4772.
+**Objective:** Verify that the plugin versions field on the Information card accepts manual input, persists after save and page reload, and is displayed on the user-facing Resources page. ELITEA version and install/upgrade date auto-sourcing are not yet implemented and are out of scope. Partially covers AC5 of story EliteaAI/elitea_issues#4772.
 
 ## Preconditions
 

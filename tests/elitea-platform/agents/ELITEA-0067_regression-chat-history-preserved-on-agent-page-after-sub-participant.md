@@ -24,7 +24,7 @@ requirements: [EliteaAI/elitea_issues#4790]
 
 - Logged in to {{base_url}}
 - An agent is open on the Agent page
-- Enhancement #4790 is deployed
+- Enhancement EliteaAI/elitea_issues#4790 is deployed
 
 ## Steps
 

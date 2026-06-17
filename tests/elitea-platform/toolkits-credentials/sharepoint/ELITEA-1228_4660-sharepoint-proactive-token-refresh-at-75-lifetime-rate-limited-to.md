@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1228
-title: "[#4660] SharePoint — Proactive Token Refresh at 75% Lifetime (Rate-Limited to 60s)"
+title: "[EliteaAI/elitea_issues#4660] SharePoint — Proactive Token Refresh at 75% Lifetime (Rate-Limited to 60s)"
 priority: medium
 type: functional
 module: sharepoint
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [proactive-refresh, feat:credentials, int:sharepoint, feat:toolkits, issue:4660, int:oauth, r-2.0.3]
 requirements: [4660]
 ---
-# ELITEA-1228: [#4660] SharePoint — Proactive Token Refresh at 75% Lifetime (Rate-Limited to 60s)
+# ELITEA-1228: [EliteaAI/elitea_issues#4660] SharePoint — Proactive Token Refresh at 75% Lifetime (Rate-Limited to 60s)
 
 **Module:** Sharepoint · **Priority:** Medium · **Type:** Functional
 

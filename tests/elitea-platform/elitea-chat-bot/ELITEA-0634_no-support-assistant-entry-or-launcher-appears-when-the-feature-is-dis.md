@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [disabled-state, not-hardwired, feature-flag]
-requirements: [#4780]
+requirements: [EliteaAI/elitea_issues#4780]
 ---
 # ELITEA-0634: No Support Assistant entry or launcher appears when the feature is disabled
 

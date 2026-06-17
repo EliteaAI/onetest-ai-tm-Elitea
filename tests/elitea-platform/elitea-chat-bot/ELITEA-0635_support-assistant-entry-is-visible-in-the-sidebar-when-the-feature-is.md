@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [feature-flag, presence, sidebar, smoke]
-requirements: [#4780, #4773]
+requirements: [EliteaAI/elitea_issues#4780, EliteaAI/elitea_issues#4773]
 ---
 # ELITEA-0635: Support Assistant entry is visible in the sidebar when the feature is enabled
 

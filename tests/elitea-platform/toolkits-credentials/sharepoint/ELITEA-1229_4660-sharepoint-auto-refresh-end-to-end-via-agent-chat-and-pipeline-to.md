@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1229
-title: "[#4660] SharePoint — Auto-Refresh End-to-End via Agent Chat and Pipeline Toolkit Node"
+title: "[EliteaAI/elitea_issues#4660] SharePoint — Auto-Refresh End-to-End via Agent Chat and Pipeline Toolkit Node"
 priority: medium
 type: functional
 module: sharepoint
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:credentials, int:sharepoint, feat:toolkits, integration, issue:4660, int:oauth, r-2.0.3]
 requirements: [4660]
 ---
-# ELITEA-1229: [#4660] SharePoint — Auto-Refresh End-to-End via Agent Chat and Pipeline Toolkit Node
+# ELITEA-1229: [EliteaAI/elitea_issues#4660] SharePoint — Auto-Refresh End-to-End via Agent Chat and Pipeline Toolkit Node
 
 **Module:** Sharepoint · **Priority:** Medium · **Type:** Functional
 

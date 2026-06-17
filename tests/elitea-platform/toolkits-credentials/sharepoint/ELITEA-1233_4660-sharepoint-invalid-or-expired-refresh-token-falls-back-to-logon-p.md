@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1233
-title: "[#4660] SharePoint — Invalid or Expired Refresh Token Falls Back to Logon Prompt (McpAuthorizationRequired)"
+title: "[EliteaAI/elitea_issues#4660] SharePoint — Invalid or Expired Refresh Token Falls Back to Logon Prompt (McpAuthorizationRequired)"
 priority: high
 type: functional
 module: sharepoint
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:credentials, int:sharepoint, error-handling, feat:toolkits, issue:4660, int:oauth, r-2.0.3]
 requirements: [4660]
 ---
-# ELITEA-1233: [#4660] SharePoint — Invalid or Expired Refresh Token Falls Back to Logon Prompt (McpAuthorizationRequired)
+# ELITEA-1233: [EliteaAI/elitea_issues#4660] SharePoint — Invalid or Expired Refresh Token Falls Back to Logon Prompt (McpAuthorizationRequired)
 
 **Module:** Sharepoint · **Priority:** High · **Type:** Functional
 

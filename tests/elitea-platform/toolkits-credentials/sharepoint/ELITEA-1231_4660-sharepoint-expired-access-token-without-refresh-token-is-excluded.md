@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1231
-title: "[#4660] SharePoint — Expired Access Token Without Refresh Token Is Excluded; Logon Prompt Shown"
+title: "[EliteaAI/elitea_issues#4660] SharePoint — Expired Access Token Without Refresh Token Is Excluded; Logon Prompt Shown"
 priority: medium
 type: functional
 module: sharepoint
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:credentials, int:sharepoint, error-handling, feat:toolkits, issue:4660, int:oauth, r-2.0.3]
 requirements: [4660]
 ---
-# ELITEA-1231: [#4660] SharePoint — Expired Access Token Without Refresh Token Is Excluded; Logon Prompt Shown
+# ELITEA-1231: [EliteaAI/elitea_issues#4660] SharePoint — Expired Access Token Without Refresh Token Is Excluded; Logon Prompt Shown
 
 **Module:** Sharepoint · **Priority:** Medium · **Type:** Functional
 

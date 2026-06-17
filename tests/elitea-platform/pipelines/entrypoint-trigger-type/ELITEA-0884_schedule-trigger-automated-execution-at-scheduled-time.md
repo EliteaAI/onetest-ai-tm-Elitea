@@ -7,7 +7,7 @@ module: entrypoint-trigger-type
 status: ready
 execution_type: manual
 tags: [execution, schedule, pipeline, R-2.0.3, trigger]
-requirements: [#4827]
+requirements: [EliteaAI/elitea_issues#4827]
 ---
 # ELITEA-0884: Schedule Trigger — Automated Execution at Scheduled Time
 

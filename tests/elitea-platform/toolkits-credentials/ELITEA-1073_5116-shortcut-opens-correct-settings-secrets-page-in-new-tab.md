@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1073
-title: "[#5116] Shortcut Opens Correct Settings → Secrets Page in New Tab"
+title: "[EliteaAI/elitea_issues#5116] Shortcut Opens Correct Settings → Secrets Page in New Tab"
 priority: critical
 type: functional
 module: toolkits-credentials
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:credentials, feat:settings, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5116]
 ---
-# ELITEA-1073: [#5116] Shortcut Opens Correct Settings → Secrets Page in New Tab
+# ELITEA-1073: [EliteaAI/elitea_issues#5116] Shortcut Opens Correct Settings → Secrets Page in New Tab
 
 **Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
 

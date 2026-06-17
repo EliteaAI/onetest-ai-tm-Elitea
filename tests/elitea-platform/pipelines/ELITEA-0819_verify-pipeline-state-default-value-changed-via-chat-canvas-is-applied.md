@@ -63,4 +63,4 @@ The Printer node outputs `another_value`. The second value change also takes eff
 
 **Fail:**
 - The pipeline still outputs `old_value` after saving the new default value via Chat Canvas (change not applied immediately)
-- The new value only takes effect after clearing the chat or reloading the page (regression of bug #3866)
+- The new value only takes effect after clearing the chat or reloading the page (regression of bug EliteaAI/elitea_issues#3866)

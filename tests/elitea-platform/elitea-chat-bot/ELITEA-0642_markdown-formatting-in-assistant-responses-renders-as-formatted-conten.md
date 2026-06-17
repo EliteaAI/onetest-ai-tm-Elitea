@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [markdown-rendering, response-rendering, rich-text, R-2.0.3]
-requirements: [#4775]
+requirements: [EliteaAI/elitea_issues#4775]
 ---
 # ELITEA-0642: Markdown formatting in assistant responses renders as formatted content, not raw syntax
 

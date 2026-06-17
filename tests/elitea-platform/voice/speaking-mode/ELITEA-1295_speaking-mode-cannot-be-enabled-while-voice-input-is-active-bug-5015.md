@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1295
-title: "Speaking Mode Cannot Be Enabled While Voice Input Is Active [Bug #5015]"
+title: "Speaking Mode Cannot Be Enabled While Voice Input Is Active [Bug EliteaAI/elitea_issues#5015]"
 priority: critical
 type: functional
 module: speaking-mode
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feature:5016, feat:voice, r-2.0.3]
 requirements: [EliteaAI/elitea_issues#5015, EliteaAI/elitea_issues#5016]
 ---
-# ELITEA-1295: Speaking Mode Cannot Be Enabled While Voice Input Is Active [Bug #5015]
+# ELITEA-1295: Speaking Mode Cannot Be Enabled While Voice Input Is Active [Bug EliteaAI/elitea_issues#5015]
 
 **Module:** Speaking Mode · **Priority:** Critical · **Type:** Functional
 

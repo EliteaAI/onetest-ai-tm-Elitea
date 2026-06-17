@@ -7,7 +7,7 @@ module: entrypoint-trigger-type
 status: ready
 execution_type: manual
 tags: [regression, pipeline, R-2.0.3, trigger, smoke]
-requirements: [#4827]
+requirements: [EliteaAI/elitea_issues#4827]
 ---
 # ELITEA-0887: Chat Message Trigger — Execution and Run History
 

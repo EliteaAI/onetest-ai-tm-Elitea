@@ -13,11 +13,11 @@ requirements: [EliteaAI/elitea_issues#4416]
 
 **Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
 
-**Objective:** Verify that the "Credential Configuration Change" confirmation modal is triggered for any team member (including non-authors) who changes the credential configuration of a team project toolkit — regression coverage for Bug #4649.
+**Objective:** Verify that the "Credential Configuration Change" confirmation modal is triggered for any team member (including non-authors) who changes the credential configuration of a team project toolkit — regression coverage for Bug EliteaAI/elitea_issues#4649.
 
 **Coverage:**
 - AC6: Warning modal shown on Team Toolkit credential change
-- Non-author user scenario (Bug #4649 regression)
+- Non-author user scenario (Bug EliteaAI/elitea_issues#4649 regression)
 - Modal content, buttons, and successful save after confirmation
 
 ## Preconditions

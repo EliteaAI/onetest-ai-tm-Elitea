@@ -70,5 +70,5 @@ requirements: [EliteaAI/elitea_issues#4896, EliteaAI/elitea_issues#4921]
 - Dropdown does not appear on `@`
 - Filter does not narrow the list
 - Either selection method fails to insert the mention or leaves the dropdown open
-- Selecting a mention replaces/clears all existing input content instead of appending (bug #4921)
+- Selecting a mention replaces/clears all existing input content instead of appending (bug EliteaAI/elitea_issues#4921)
 - Message is missing one or both mentions, or fails to send

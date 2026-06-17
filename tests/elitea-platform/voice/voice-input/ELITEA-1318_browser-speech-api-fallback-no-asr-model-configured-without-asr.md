@@ -19,7 +19,7 @@ requirements: [EliteaAI/elitea_issues#4499]
 - Chrome: mic button visible without ASR model (browser Web Speech API active)
 - Firefox: mic button NOT visible without ASR model (browser API unsupported — expected behavior)
 - Browser fallback transcription is word-by-word (real-time), unlike server ASR (sentence-by-sentence)
-- Known bug: manual edits during active recording are overridden by new speech — not planned to fix (issue #4885)
+- Known bug: manual edits during active recording are overridden by new speech — not planned to fix (issue EliteaAI/elitea_issues#4885)
 - Known limitation: spoken punctuation words not converted to symbols in fallback mode
 
 ## Preconditions
@@ -42,7 +42,7 @@ requirements: [EliteaAI/elitea_issues#4499]
 |---|--------|----------------|
 | 1 | Open the Chat page in Chrome with no ASR model configured. Check the input toolbar. | Microphone icon IS visible (Chrome supports Web Speech API as fallback even without a server ASR model). |
 | 2 | Click the microphone icon, speak "Hello world", and observe transcription appearing. | Words appear progressively in the input field in real-time as spoken (word-by-word), which differs from server ASR that appends sentence-by-sentence after a pause. |
-| 3 | While recording is still active, manually edit the transcribed text (change "Hello world" to "Hello edited"). Then speak "New words" while recording remains active. | [KNOWN BUG — not planned to fix, issue #4885] The manual edit is overridden — the input field is restored to the previous transcribed state when new speech is detected. Manual edits cannot be preserved during an active browser fallback recording session. |
+| 3 | While recording is still active, manually edit the transcribed text (change "Hello world" to "Hello edited"). Then speak "New words" while recording remains active. | [KNOWN BUG — not planned to fix, issue EliteaAI/elitea_issues#4885] The manual edit is overridden — the input field is restored to the previous transcribed state when new speech is detected. Manual edits cannot be preserved during an active browser fallback recording session. |
 | 4 | Stop the recording. Open the Chat page in Firefox with no ASR model configured. Check the input toolbar. | Microphone icon is NOT visible in Firefox. This is expected — Firefox does not support the browser Web Speech API and no server ASR is configured. |
 
 ## Expected Final State
@@ -62,5 +62,5 @@ Microphone icon is NOT visible in Firefox. This is expected — Firefox does not
 - Microphone button visible in Firefox with no ASR model (unexpected)
 
 **Known Bugs (won't-fix — not treated as test failure):**
-- Manual edits during active recording are overridden when new speech arrives — see issue #4885 (closed as not planned)
+- Manual edits during active recording are overridden when new speech arrives — see issue EliteaAI/elitea_issues#4885 (closed as not planned)
 - Spoken punctuation words ("comma", "period", "question mark") are not converted to symbols in browser fallback mode

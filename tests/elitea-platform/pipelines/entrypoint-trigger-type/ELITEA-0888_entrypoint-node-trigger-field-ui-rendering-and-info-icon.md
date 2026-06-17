@@ -7,7 +7,7 @@ module: entrypoint-trigger-type
 status: ready
 execution_type: manual
 tags: [pipeline, R-2.0.3, trigger]
-requirements: [#4827]
+requirements: [EliteaAI/elitea_issues#4827]
 ---
 # ELITEA-0888: Entrypoint Node — Trigger Field UI Rendering and Info Icon
 

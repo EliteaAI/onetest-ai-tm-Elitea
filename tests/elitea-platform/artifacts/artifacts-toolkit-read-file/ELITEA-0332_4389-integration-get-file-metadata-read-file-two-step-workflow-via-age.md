@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0332
-title: "[#4389] Integration — get_file_metadata + read_file Two-Step Workflow via Agent Chat and Pipeline Toolkit Node"
+title: "[EliteaAI/elitea_issues#4389] Integration — get_file_metadata + read_file Two-Step Workflow via Agent Chat and Pipeline Toolkit Node"
 priority: medium
 type: functional
 module: artifacts-toolkit-read-file
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:artifacts, integration, issue:4389, read_file, pipeline, r-2.0.3, agent, excel]
 requirements: [4389]
 ---
-# ELITEA-0332: [#4389] Integration — get_file_metadata + read_file Two-Step Workflow via Agent Chat and Pipeline Toolkit Node
+# ELITEA-0332: [EliteaAI/elitea_issues#4389] Integration — get_file_metadata + read_file Two-Step Workflow via Agent Chat and Pipeline Toolkit Node
 
 **Module:** Artifacts Toolkit Read File · **Priority:** Medium · **Type:** Functional
 

@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [critical-path, send-receive, regression, R-2.0.3, smoke]
-requirements: [#4775, #4773]
+requirements: [EliteaAI/elitea_issues#4775, EliteaAI/elitea_issues#4773]
 ---
 # ELITEA-0647: User sends a message via the Send button and receives a complete assistant response
 

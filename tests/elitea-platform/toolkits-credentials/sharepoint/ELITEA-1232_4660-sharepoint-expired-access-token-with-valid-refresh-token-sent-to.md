@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1232
-title: "[#4660] SharePoint — Expired Access Token with Valid Refresh Token Sent to Backend as `access_token: null`"
+title: "[EliteaAI/elitea_issues#4660] SharePoint — Expired Access Token with Valid Refresh Token Sent to Backend as `access_token: null`"
 priority: high
 type: functional
 module: sharepoint
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:credentials, int:sharepoint, feat:toolkits, issue:4660, int:oauth, r-2.0.3]
 requirements: [4660]
 ---
-# ELITEA-1232: [#4660] SharePoint — Expired Access Token with Valid Refresh Token Sent to Backend as `access_token: null`
+# ELITEA-1232: [EliteaAI/elitea_issues#4660] SharePoint — Expired Access Token with Valid Refresh Token Sent to Backend as `access_token: null`
 
 **Module:** Sharepoint · **Priority:** High · **Type:** Functional
 

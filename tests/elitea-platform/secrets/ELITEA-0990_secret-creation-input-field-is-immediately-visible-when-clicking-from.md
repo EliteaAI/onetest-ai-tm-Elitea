@@ -15,7 +15,7 @@ requirements: [EliteaAI/elitea_issues#4860]
 
 **Objective:** Verify that clicking the "+" (Create a Secret) button while on page 2 (or any non-first page) of the Secrets list makes the new secret creation input field immediately visible to the user — either by appearing on the current page or by auto-navigating to page 1 where the field is rendered.
 
-**Bug Reference:** #4860 — The creation input field is rendered on page 1 while the user remains on page 2, making it invisible and leaving the user unaware that any action occurred.
+**Bug Reference:** EliteaAI/elitea_issues#4860 — The creation input field is rendered on page 1 while the user remains on page 2, making it invisible and leaving the user unaware that any action occurred.
 
 ## Preconditions
 

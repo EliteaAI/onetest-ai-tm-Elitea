@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#5105]
 
 **Module:** Pipelines · **Priority:** High · **Type:** Functional
 
-**Objective:** Verify that after the toolkit-removal/discard fix (issue #5105), an LLM node with an attached toolkit and output variable type set to JSON or List still executes successfully without errors.
+**Objective:** Verify that after the toolkit-removal/discard fix (issue EliteaAI/elitea_issues#5105), an LLM node with an attached toolkit and output variable type set to JSON or List still executes successfully without errors.
 
 **Coverage:**
 - LLM Node with attached toolkit + JSON output type: execution completes without 'LLMOutput' object has no attribute 'content' error

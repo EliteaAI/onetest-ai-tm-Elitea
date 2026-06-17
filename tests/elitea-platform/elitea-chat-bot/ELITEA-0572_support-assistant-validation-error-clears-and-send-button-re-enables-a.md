@@ -15,7 +15,7 @@ requirements: [EliteaAI/elitea_issues#5017, EliteaAI/elitea_issues#4777]
 
 **Objective:** Verify that when a user attaches more than 10 files (triggering the "Max 10 attachments allowed" error state) and then removes files to bring the count to 10 or fewer, the red highlighting is automatically removed, the validation error clears, and the Send button becomes enabled.
 
-**Bug Reference:** #5017 — File attachment validation state persists after reducing attachments below the 10-file limit.
+**Bug Reference:** EliteaAI/elitea_issues#5017 — File attachment validation state persists after reducing attachments below the 10-file limit.
 
 **Coverage:**
 - Attaching 11+ files triggers "Max 10 attachments allowed" warning and red highlighting on attachment chips
@@ -62,7 +62,7 @@ Message sent successfully. Bot responds.
 - Send button becomes enabled once count is valid and text is present
 - Message sends successfully with ≤10 files after the error state clears
 
-**Fail (bug reproduced — #5017):**
+**Fail (bug reproduced — EliteaAI/elitea_issues#5017):**
 - Red highlighting persists on attachment chips even after reducing count to ≤10
 - "Max 10 attachments allowed" message remains visible even with ≤10 files
 - Send button remains disabled even after reducing to a valid file count

@@ -75,6 +75,6 @@ Pass:
 - Message and response are saved and visible in admin chat history for all file types
 
 Fail:
-- Socket error occurs for any file type (bug #4923 specifically triggers on .md, .txt, .docx and similar text/document types)
+- Socket error occurs for any file type (bug EliteaAI/elitea_issues#4923 specifically triggers on .md, .txt, .docx and similar text/document types)
 - Bot does not respond after sending a message with an attachment
 - Message or response is missing from admin chat history after the send

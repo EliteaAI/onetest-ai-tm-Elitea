@@ -15,7 +15,7 @@ requirements: [EliteaAI/elitea_issues#4995, EliteaAI/elitea_issues#5016]
 
 **Objective:** Verify that when Speaking Mode is active and TTS playback is interrupted by a destructive action (response deletion, chat clear), Speaking Mode itself remains enabled — only the current playback stops, the feature is not toggled off.
 
-**Bug Reference:** #4995 — notes that Speaking Mode should stay enabled when current read-out is stopped.
+**Bug Reference:** EliteaAI/elitea_issues#4995 — notes that Speaking Mode should stay enabled when current read-out is stopped.
 
 **Coverage:**
 - Speaking Mode toggle remains ON after playback is stopped by delete or clear

@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0725
-title: "[#5116] MCP via Chat Conversation: Secret Field Shows \"New Secret\" Shortcut"
+title: "[EliteaAI/elitea_issues#5116] MCP via Chat Conversation: Secret Field Shows \"New Secret\" Shortcut"
 priority: high
 type: functional
 module: mcp-servers
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:credentials, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5116]
 ---
-# ELITEA-0725: [#5116] MCP via Chat Conversation: Secret Field Shows "New Secret" Shortcut
+# ELITEA-0725: [EliteaAI/elitea_issues#5116] MCP via Chat Conversation: Secret Field Shows "New Secret" Shortcut
 
 **Module:** Mcp Servers · **Priority:** High · **Type:** Functional
 

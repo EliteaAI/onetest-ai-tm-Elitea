@@ -7,7 +7,7 @@ module: entrypoint-trigger-type
 status: draft
 execution_type: manual
 tags: [run-history, pipeline, R-2.0.3, trigger]
-requirements: [#4827]
+requirements: [EliteaAI/elitea_issues#4827]
 ---
 # ELITEA-0872: Run History — Trigger Notification Visibility Without Opening Run Detail
 

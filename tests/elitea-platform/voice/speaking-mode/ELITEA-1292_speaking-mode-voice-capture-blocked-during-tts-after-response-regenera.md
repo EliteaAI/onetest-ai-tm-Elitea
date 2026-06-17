@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1292
-title: "Speaking Mode — Voice Capture Blocked During TTS After Response Regeneration [Bug #5020]"
+title: "Speaking Mode — Voice Capture Blocked During TTS After Response Regeneration [Bug EliteaAI/elitea_issues#5020]"
 priority: high
 type: functional
 module: speaking-mode
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feature:5016, feat:voice, r-2.0.3]
 requirements: [EliteaAI/elitea_issues#5020, EliteaAI/elitea_issues#5016]
 ---
-# ELITEA-1292: Speaking Mode — Voice Capture Blocked During TTS After Response Regeneration [Bug #5020]
+# ELITEA-1292: Speaking Mode — Voice Capture Blocked During TTS After Response Regeneration [Bug EliteaAI/elitea_issues#5020]
 
 **Module:** Speaking Mode · **Priority:** High · **Type:** Functional
 

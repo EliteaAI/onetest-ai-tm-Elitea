@@ -13,11 +13,11 @@ requirements: [EliteaAI/elitea_issues#4777]
 
 **Module:** Elitea Chat Bot · **Priority:** Critical · **Type:** Functional
 
-**Objective:** Verify that attaching each supported file type in the Support Assistant composer and sending a message produces a valid bot response without socket errors and the exchange is persisted in history. Re-validates the fix for bug #4923.
+**Objective:** Verify that attaching each supported file type in the Support Assistant composer and sending a message produces a valid bot response without socket errors and the exchange is persisted in history. Re-validates the fix for bug EliteaAI/elitea_issues#4923.
 
 **Coverage:**
 - File attachment handling for all major supported types (.md, .txt, .docx, .pdf, .png, .jpg, .webp, .csv, .json, .xlsx)
-- No socket error produced for any file type (regression of bug #4923)
+- No socket error produced for any file type (regression of bug EliteaAI/elitea_issues#4923)
 - Bot returns a meaningful response
 - Sent message with attachment is visible in conversation history
 
@@ -64,7 +64,7 @@ All conversations are listed with their messages saved
 
 **Pass:**
 - Each file type attaches without error
-- No socket error for any file type (especially .md, .txt, .docx — regression #4923)
+- No socket error for any file type (especially .md, .txt, .docx — regression EliteaAI/elitea_issues#4923)
 - Bot responds with a meaningful reply for each type
 - All messages with attachments are saved in history
 

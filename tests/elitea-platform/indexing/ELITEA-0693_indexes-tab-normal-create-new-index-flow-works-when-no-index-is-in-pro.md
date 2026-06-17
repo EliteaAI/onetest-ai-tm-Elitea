@@ -18,7 +18,7 @@ requirements: [EliteaAI/elitea_issues#4838]
 **Coverage:**
 - Center panel shows new index creation form when no index is in-progress
 - Right panel is blank/empty for new index in baseline state
-- Regression guard for the panel focus fix applied to issue #4838
+- Regression guard for the panel focus fix applied to issue EliteaAI/elitea_issues#4838
 
 ## Preconditions
 

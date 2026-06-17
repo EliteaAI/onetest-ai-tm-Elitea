@@ -43,7 +43,7 @@ requirements: [ProjectAlita/projectalita.github.io#3846]
 |---|--------|----------------|
 | 1 | Navigate to a Private/Team project in ELITEA. | Project loads. |
 | 2 | Expand the sidebar and locate the Applications icon. | Icon is visible. |
-| 3 | Visually inspect the Applications icon: it must use an outlined (line-art, not filled/solid) icon style — comparable to the outlined style of Chat, Agents, Pipelines icons. | Applications icon displays the outlined icon as specified in issue #3846 (not the old filled icon). |
+| 3 | Visually inspect the Applications icon: it must use an outlined (line-art, not filled/solid) icon style — comparable to the outlined style of Chat, Agents, Pipelines icons. | Applications icon displays the outlined icon as specified in issue EliteaAI/elitea_issues#3846 (not the old filled icon). |
 | 4 | Repeat steps 2–3 for Personalization icon. | Personalization icon displays the correct outlined icon. |
 | 5 | Repeat steps 2–3 for Analytics icon. | Analytics icon displays the correct outlined icon. |
 | 6 | Switch to a Public project. Locate the Environment icon. | Environment icon is visible. |

@@ -31,7 +31,7 @@ requirements: [EliteaAI/elitea_issues#4497]
 ## Test Data
 
 - ADO Repository: [Test repo with PRs]
-- PR ID: [PR with empty description - e.g., PR #456]
+- PR ID: [PR with empty description - e.g., PR EliteaAI/elitea_issues#456]
 - Expected description value: "" or null
 - Tool name: get_pull_request
 

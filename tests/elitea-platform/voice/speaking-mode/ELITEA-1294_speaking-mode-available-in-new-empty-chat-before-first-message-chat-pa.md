@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1294
-title: "Speaking Mode Available in New Empty Chat Before First Message — Chat Page [Bug #4994]"
+title: "Speaking Mode Available in New Empty Chat Before First Message — Chat Page [Bug EliteaAI/elitea_issues#4994]"
 priority: critical
 type: functional
 module: speaking-mode
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feature:5016, r-2.0.3]
 requirements: [EliteaAI/elitea_issues#4994, EliteaAI/elitea_issues#5016]
 ---
-# ELITEA-1294: Speaking Mode Available in New Empty Chat Before First Message — Chat Page [Bug #4994]
+# ELITEA-1294: Speaking Mode Available in New Empty Chat Before First Message — Chat Page [Bug EliteaAI/elitea_issues#4994]
 
 **Module:** Speaking Mode · **Priority:** Critical · **Type:** Functional
 

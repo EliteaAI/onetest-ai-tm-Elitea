@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [persistence, regression, cross-page, layout]
-requirements: [#4780, #4774]
+requirements: [EliteaAI/elitea_issues#4780, EliteaAI/elitea_issues#4774]
 ---
 # ELITEA-0630: Support Assistant sidebar entry is present on all main application pages without disrupting layout
 

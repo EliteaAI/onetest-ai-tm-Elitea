@@ -22,7 +22,7 @@ requirements: [EliteaAI/elitea_issues#4693]
 - Subsequent version switches after the first request are applied correctly and remain stable
 - The user-selected version is used for all subsequent requests
 
-**Related bugs:** #4937 (version switch triggers LLM settings override error in chat), #4934 (LLM settings override error after save/version actions)
+**Related bugs:** EliteaAI/elitea_issues#4937 (version switch triggers LLM settings override error in chat), EliteaAI/elitea_issues#4934 (LLM settings override error after save/version actions)
 
 ## Preconditions
 

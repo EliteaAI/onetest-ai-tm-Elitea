@@ -14,7 +14,7 @@ requirements: [EliteaAI/elitea_issues#4961]
 **Module:** Agents · **Priority:** Critical · **Type:** Functional
 
 **Objective:** When Smart Tool Selection is enabled on Agent/Chat with attached subagents/subpipelines and toolkits: verify toolkit tools are selected differently (shown by `get_tool_schema` in Thoughts). 
-Bug #4961 was that this behavior was silently lost when subagents existed.
+Bug EliteaAI/elitea_issues#4961 was that this behavior was silently lost when subagents existed.
 
 ## Preconditions
 
@@ -38,4 +38,4 @@ Smart Tool Selection remains active (not silently disabled) - **`get_tool_schema
 ## Pass/Fail Criteria
 
 PASS: `get_tool_schema` chips appear in both Agent Run (step 3) and Chat Run (step 6); toggle on/off works consistently
-FAIL:  No `get_tool_schema` chips in step 3 or 6 (bug #4961 regressed); OR inconsistent behavior between Agent and Chat; OR toggles don't persist
+FAIL:  No `get_tool_schema` chips in step 3 or 6 (bug EliteaAI/elitea_issues#4961 regressed); OR inconsistent behavior between Agent and Chat; OR toggles don't persist

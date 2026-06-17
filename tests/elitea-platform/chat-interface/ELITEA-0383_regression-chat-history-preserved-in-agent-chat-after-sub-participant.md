@@ -25,7 +25,7 @@ requirements: [EliteaAI/elitea_issues#4790]
 - Logged in to {{base_url}}
 - An agent is configured (sub-agent setup is not required for this test)
 - A Chat session is open with the agent
-- Enhancement #4790 is deployed
+- Enhancement EliteaAI/elitea_issues#4790 is deployed
 
 ## Steps
 

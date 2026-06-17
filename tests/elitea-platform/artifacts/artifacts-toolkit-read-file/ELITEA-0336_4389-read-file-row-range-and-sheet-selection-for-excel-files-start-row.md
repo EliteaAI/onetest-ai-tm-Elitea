@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0336
-title: "[#4389] read_file — Row Range and Sheet Selection for Excel Files (start_row, end_row, sheet_name)"
+title: "[EliteaAI/elitea_issues#4389] read_file — Row Range and Sheet Selection for Excel Files (start_row, end_row, sheet_name)"
 priority: high
 type: functional
 module: artifacts-toolkit-read-file
@@ -9,11 +9,11 @@ execution_type: manual
 tags: [feat:artifacts, row_by_row, issue:4389, read_file, r-2.0.3, excel]
 requirements: [4389]
 ---
-# ELITEA-0336: [#4389] read_file — Row Range and Sheet Selection for Excel Files (start_row, end_row, sheet_name)
+# ELITEA-0336: [EliteaAI/elitea_issues#4389] read_file — Row Range and Sheet Selection for Excel Files (start_row, end_row, sheet_name)
 
 **Module:** Artifacts Toolkit Read File · **Priority:** High · **Type:** Functional
 
-**Objective:** Verify the new Excel-specific parameters of `read_file`: reading a specific sheet by name, and reading a row range with `start_row`/`end_row`. Both capabilities introduced by issue #4389.
+**Objective:** Verify the new Excel-specific parameters of `read_file`: reading a specific sheet by name, and reading a row range with `start_row`/`end_row`. Both capabilities introduced by issue EliteaAI/elitea_issues#4389.
 
 ## Preconditions
 

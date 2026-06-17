@@ -16,9 +16,9 @@ requirements: [EliteaAI/elitea_issues#4724, EliteaAI/elitea_issues#4726, EliteaA
 **Objective:** Verify that scrolling through the notifications popup appends each new group below the previously loaded ones (infinite scroll), all groups remain visible simultaneously, and the last group is always displayed — even when it contains fewer than 20 items.
 
 **Coverage:**
-- Previously loaded notification groups are NOT replaced when scrolling to load the next group (#4726)
+- Previously loaded notification groups are NOT replaced when scrolling to load the next group (EliteaAI/elitea_issues#4726)
 - Notifications from all loaded groups are visible at the same time
-- Last group (< 20 items) is displayed correctly and does not auto-trigger another load (#4724)
+- Last group (< 20 items) is displayed correctly and does not auto-trigger another load (EliteaAI/elitea_issues#4724)
 - "No notifications right now" empty state does NOT appear while real notifications exist
 
 ## Preconditions

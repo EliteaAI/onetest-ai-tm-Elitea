@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0890
-title: "'input_attachments' State Variable Added/Removed When Toggling Attachments in Conversation Canvas Editor [Bug #5079]"
+title: "'input_attachments' State Variable Added/Removed When Toggling Attachments in Conversation Canvas Editor [Bug EliteaAI/elitea_issues#5079]"
 priority: high
 type: functional
 module: pipeline-attachments
@@ -9,13 +9,13 @@ execution_type: manual
 tags: [feat:attachments, feat:pipelines, eng:frontend, feat:chat, r-2.0.3]
 requirements: [EliteaAI/elitea_issues#5079]
 ---
-# ELITEA-0890: 'input_attachments' State Variable Added/Removed When Toggling Attachments in Conversation Canvas Editor [Bug #5079]
+# ELITEA-0890: 'input_attachments' State Variable Added/Removed When Toggling Attachments in Conversation Canvas Editor [Bug EliteaAI/elitea_issues#5079]
 
 **Module:** Pipeline Attachments · **Priority:** High · **Type:** Functional
 
 **Objective:** Verify that the `input_attachments` state variable is automatically added to the pipeline's States list when the Attachments toggle is enabled via the conversation canvas editor, and automatically removed when the toggle is disabled.
 
-**Bug Reference:** #5079
+**Bug Reference:** EliteaAI/elitea_issues#5079
 
 ## Preconditions
 
@@ -42,4 +42,4 @@ input_attachments state variable is removed from the States list
 ## Pass/Fail Criteria
 
 PASS: `input_attachments` state variable automatically added to States on toggle ON, and removed on toggle OFF — via conversation canvas editor
-FAIL: `input_attachments` not added after enabling toggle (bug #5079); or not removed when disabled
+FAIL: `input_attachments` not added after enabling toggle (bug EliteaAI/elitea_issues#5079); or not removed when disabled

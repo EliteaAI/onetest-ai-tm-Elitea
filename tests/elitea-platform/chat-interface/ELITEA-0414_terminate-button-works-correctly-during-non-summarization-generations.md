@@ -13,7 +13,7 @@ requirements: [ProjectAlita/projectalita.github.io#3984]
 
 **Module:** Chat Interface · **Priority:** Medium · **Type:** Functional
 
-**Objective:** Verify that after the fix for issue #3984, the Terminate button still correctly interrupts active LLM generation when clicked — confirming the fix did not break the cancellation functionality.
+**Objective:** Verify that after the fix for issue EliteaAI/elitea_issues#3984, the Terminate button still correctly interrupts active LLM generation when clicked — confirming the fix did not break the cancellation functionality.
 
 **Coverage:**
 - Terminate button is still displayed during active LLM generation (no regression on appearance)

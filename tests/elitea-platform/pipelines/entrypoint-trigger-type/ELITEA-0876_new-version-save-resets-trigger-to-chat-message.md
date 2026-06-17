@@ -7,7 +7,7 @@ module: entrypoint-trigger-type
 status: draft
 execution_type: manual
 tags: [versioning, pipeline, R-2.0.3, trigger]
-requirements: [#4827, #4975]
+requirements: [EliteaAI/elitea_issues#4827, EliteaAI/elitea_issues#4975]
 ---
 # ELITEA-0876: New Version Save Resets Trigger to Chat Message
 

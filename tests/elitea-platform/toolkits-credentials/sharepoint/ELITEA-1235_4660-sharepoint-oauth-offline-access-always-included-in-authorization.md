@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1235
-title: "[#4660] SharePoint OAuth — `offline_access` Always Included in Authorization Request + Both Tokens Stored"
+title: "[EliteaAI/elitea_issues#4660] SharePoint OAuth — `offline_access` Always Included in Authorization Request + Both Tokens Stored"
 priority: high
 type: functional
 module: sharepoint
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:credentials, int:sharepoint, feat:toolkits, issue:4660, int:oauth, r-2.0.3]
 requirements: [4660]
 ---
-# ELITEA-1235: [#4660] SharePoint OAuth — `offline_access` Always Included in Authorization Request + Both Tokens Stored
+# ELITEA-1235: [EliteaAI/elitea_issues#4660] SharePoint OAuth — `offline_access` Always Included in Authorization Request + Both Tokens Stored
 
 **Module:** Sharepoint · **Priority:** High · **Type:** Functional
 

@@ -29,7 +29,7 @@ requirements: [ProjectAlita/projectalita.github.io#3985]
 - Target wiki (`Samvel_Simonyan.wiki`) contains a page at path `/test_parent_page/test_nested_child`
 - Scenario A: "Default Wiki Identifier" field is left **empty** in toolkit configuration
 - Scenario B: "Default Wiki Identifier" is set to `Samvel_Simonyan.wiki`
-- Fix from issue #3985 is deployed (branch: `auto_approve_fix` or later)
+- Fix from issue EliteaAI/elitea_issues#3985 is deployed (branch: `auto_approve_fix` or later)
 
 ## Test Data
 

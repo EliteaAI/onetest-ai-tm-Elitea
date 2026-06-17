@@ -7,7 +7,7 @@ module: entrypoint-trigger-type
 status: ready
 execution_type: manual
 tags: [regression, migration, pipeline, R-2.0.3, trigger]
-requirements: [#4827]
+requirements: [EliteaAI/elitea_issues#4827]
 ---
 # ELITEA-0871: Migration — Existing Pipelines Auto-Assigned Chat Message Trigger
 

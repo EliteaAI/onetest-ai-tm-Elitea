@@ -58,6 +58,6 @@ User C has received a notification for the `@Everyone` mention in that chat
 - Both User B and User C receive the notification in their Notification tab
 
 **Fail:**
-- `@Everyone` is not inserted when "All users" is clicked (original bug scenario from #2094)
+- `@Everyone` is not inserted when "All users" is clicked (original bug scenario from EliteaAI/elitea_issues#2094)
 - Any active participant (B or C) does not receive a notification
 - Notification appears for a user not listed in the participants panel

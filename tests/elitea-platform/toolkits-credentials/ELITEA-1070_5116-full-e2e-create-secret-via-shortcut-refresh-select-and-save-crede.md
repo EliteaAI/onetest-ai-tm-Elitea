@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1070
-title: "[#5116] Full E2E: Create Secret via Shortcut, Refresh, Select, and Save Credential (Private + Team)"
+title: "[EliteaAI/elitea_issues#5116] Full E2E: Create Secret via Shortcut, Refresh, Select, and Save Credential (Private + Team)"
 priority: high
 type: functional
 module: toolkits-credentials
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:credentials, feat:settings, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5116]
 ---
-# ELITEA-1070: [#5116] Full E2E: Create Secret via Shortcut, Refresh, Select, and Save Credential (Private + Team)
+# ELITEA-1070: [EliteaAI/elitea_issues#5116] Full E2E: Create Secret via Shortcut, Refresh, Select, and Save Credential (Private + Team)
 
 **Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
 

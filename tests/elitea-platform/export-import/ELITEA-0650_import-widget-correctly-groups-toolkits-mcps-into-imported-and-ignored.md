@@ -30,7 +30,7 @@ requirements: [ProjectAlita/projectalita.github.io#3791]
 ## Test Data
 
 - Project: `Bugs & Features`
-- Import file: `pipeline-to-import.md` (attached to GitHub issue #3791)
+- Import file: `pipeline-to-import.md` (attached to GitHub issue EliteaAI/elitea_issues#3791)
 - Conflicting name: name of a Toolkit/MCP already present in the destination project
 - New name: a Toolkit/MCP name not yet present in the destination project
 

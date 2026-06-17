@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0726
-title: "[#5116] MCP Configuration (MCPs Page): Secret Field Shows \"New Secret\" Shortcut"
+title: "[EliteaAI/elitea_issues#5116] MCP Configuration (MCPs Page): Secret Field Shows \"New Secret\" Shortcut"
 priority: critical
 type: functional
 module: mcp-servers
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:credentials, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5116]
 ---
-# ELITEA-0726: [#5116] MCP Configuration (MCPs Page): Secret Field Shows "New Secret" Shortcut
+# ELITEA-0726: [EliteaAI/elitea_issues#5116] MCP Configuration (MCPs Page): Secret Field Shows "New Secret" Shortcut
 
 **Module:** Mcp Servers · **Priority:** Critical · **Type:** Functional
 

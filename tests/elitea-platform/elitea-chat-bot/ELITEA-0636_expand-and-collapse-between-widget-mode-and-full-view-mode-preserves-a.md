@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [content-preservation, expand-collapse, display-modes, R-2.0.3]
-requirements: [#4775, #4774]
+requirements: [EliteaAI/elitea_issues#4775, EliteaAI/elitea_issues#4774]
 ---
 # ELITEA-0636: Expand and collapse between widget mode and full-view mode preserves all conversation content
 

@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [session-sharing, entry-point, same-widget, smoke]
-requirements: [#4780]
+requirements: [EliteaAI/elitea_issues#4780]
 ---
 # ELITEA-0632: Clicking the sidebar Support Assistant entry opens the same panel and conversation as the floating launcher
 

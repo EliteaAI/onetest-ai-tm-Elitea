@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0243
-title: "[#4919] No Data Loss — All Objects and Subfolder Structures Preserved in `wiki-artifacts` After Migration"
+title: "[EliteaAI/elitea_issues#4919] No Data Loss — All Objects and Subfolder Structures Preserved in `wiki-artifacts` After Migration"
 priority: high
 type: functional
 module: applications
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:artifacts, data-integrity, int:deepwiki, issue:4919, migration, r-2.0.3]
 requirements: [4919]
 ---
-# ELITEA-0243: [#4919] No Data Loss — All Objects and Subfolder Structures Preserved in `wiki-artifacts` After Migration
+# ELITEA-0243: [EliteaAI/elitea_issues#4919] No Data Loss — All Objects and Subfolder Structures Preserved in `wiki-artifacts` After Migration
 
 **Module:** Applications · **Priority:** High · **Type:** Functional
 

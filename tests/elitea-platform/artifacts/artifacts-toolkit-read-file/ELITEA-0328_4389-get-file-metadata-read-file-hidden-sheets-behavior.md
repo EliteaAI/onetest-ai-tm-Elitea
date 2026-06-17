@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0328
-title: "[#4389] get_file_metadata + read_file — Hidden Sheets Behavior"
+title: "[EliteaAI/elitea_issues#4389] get_file_metadata + read_file — Hidden Sheets Behavior"
 priority: medium
 type: functional
 module: artifacts-toolkit-read-file
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:artifacts, issue:4389, read_file, edge-case, r-2.0.3, excel]
 requirements: [4389]
 ---
-# ELITEA-0328: [#4389] get_file_metadata + read_file — Hidden Sheets Behavior
+# ELITEA-0328: [EliteaAI/elitea_issues#4389] get_file_metadata + read_file — Hidden Sheets Behavior
 
 **Module:** Artifacts Toolkit Read File · **Priority:** Medium · **Type:** Functional
 

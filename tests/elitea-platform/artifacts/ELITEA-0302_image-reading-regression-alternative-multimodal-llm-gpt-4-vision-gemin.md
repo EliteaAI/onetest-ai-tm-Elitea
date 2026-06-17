@@ -13,7 +13,7 @@ requirements: [ProjectAlita/projectalita.github.io#3644]
 
 **Module:** Artifacts · **Priority:** High · **Type:** Functional
 
-**Objective:** Verify that reading an image from an artifact bucket still works correctly with multimodal LLMs other than Claude (e.g., GPT-4 Vision or Gemini Pro Vision), ensuring the fix for #3644 does not break existing integrations.
+**Objective:** Verify that reading an image from an artifact bucket still works correctly with multimodal LLMs other than Claude (e.g., GPT-4 Vision or Gemini Pro Vision), ensuring the fix for EliteaAI/elitea_issues#3644 does not break existing integrations.
 
 **Coverage:**
 - readFile on an image via a non-Claude multimodal LLM succeeds
@@ -54,4 +54,4 @@ Agent returns a description of the image without errors. No regressions introduc
 
 **Fail:**
 - Image reading fails with a non-Claude multimodal LLM after the fix
-- Error introduced by changes for issues #3644 affects other LLM integrations
+- Error introduced by changes for issues EliteaAI/elitea_issues#3644 affects other LLM integrations

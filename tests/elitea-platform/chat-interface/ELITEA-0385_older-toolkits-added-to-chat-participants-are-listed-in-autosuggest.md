@@ -15,7 +15,7 @@ requirements: []
 
 **Objective:** Verify that the `/` autosuggest dropdown shows all Toolkits added to Conversation Participants — including ones that were created a long time ago (not at the top of the toolkits list sorted by creation date).
 
-**Root Cause Context (bug #4839):** The autosuggest fetches participants sorted by `created_at DESC` in pages of 20. Toolkits created long ago appear on later pages that may never be fully loaded, making them silently absent from the dropdown.
+**Root Cause Context (bug EliteaAI/elitea_issues#4839):** The autosuggest fetches participants sorted by `created_at DESC` in pages of 20. Toolkits created long ago appear on later pages that may never be fully loaded, making them silently absent from the dropdown.
 
 **Coverage:**
 - At least one recently created Toolkit and at least one old Toolkit are added to Conversation Participants

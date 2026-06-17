@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#4772]
 
 **Module:** Resources Configuration · **Priority:** Critical · **Type:** Functional
 
-**Objective:** Verify that changes made in Admin → Configuration → Resources (card visibility) take effect across all projects in the environment without requiring per-project configuration. Covers AC6 of story #4772.
+**Objective:** Verify that changes made in Admin → Configuration → Resources (card visibility) take effect across all projects in the environment without requiring per-project configuration. Covers AC6 of story EliteaAI/elitea_issues#4772.
 
 ## Preconditions
 

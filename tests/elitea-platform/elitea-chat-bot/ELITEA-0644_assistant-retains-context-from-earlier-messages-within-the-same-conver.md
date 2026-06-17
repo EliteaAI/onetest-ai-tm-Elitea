@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [conversation-memory, context-retention, multi-turn, R-2.0.3]
-requirements: [#4775, #4776]
+requirements: [EliteaAI/elitea_issues#4775, EliteaAI/elitea_issues#4776]
 ---
 # ELITEA-0644: Assistant retains context from earlier messages within the same conversation
 

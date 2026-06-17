@@ -25,7 +25,7 @@ requirements: [EliteaAI/elitea_issues#4790]
 
 - Logged in to {{base_url}}
 - A pipeline is configured and runnable
-- Enhancement #4790 is deployed
+- Enhancement EliteaAI/elitea_issues#4790 is deployed
 
 ## Steps
 

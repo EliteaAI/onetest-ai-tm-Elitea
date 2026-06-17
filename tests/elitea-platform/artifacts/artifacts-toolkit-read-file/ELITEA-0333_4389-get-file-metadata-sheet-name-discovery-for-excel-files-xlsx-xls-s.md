@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0333
-title: "[#4389] get_file_metadata — Sheet Name Discovery for Excel Files (.xlsx, .xls, single/multi/large sheet)"
+title: "[EliteaAI/elitea_issues#4389] get_file_metadata — Sheet Name Discovery for Excel Files (.xlsx, .xls, single/multi/large sheet)"
 priority: high
 type: functional
 module: artifacts-toolkit-read-file
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [get_file_metadata, feat:artifacts, issue:4389, r-2.0.3, excel]
 requirements: [4389]
 ---
-# ELITEA-0333: [#4389] get_file_metadata — Sheet Name Discovery for Excel Files (.xlsx, .xls, single/multi/large sheet)
+# ELITEA-0333: [EliteaAI/elitea_issues#4389] get_file_metadata — Sheet Name Discovery for Excel Files (.xlsx, .xls, single/multi/large sheet)
 
 **Module:** Artifacts Toolkit Read File · **Priority:** High · **Type:** Functional
 

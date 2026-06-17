@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#4772]
 
 **Module:** Resources Configuration · **Priority:** Critical · **Type:** Functional
 
-**Objective:** Verify that the new Resources subsection is visible in ELITEA Admin → Configuration and is positioned before the Banner section, as specified in AC1 of story #4772.
+**Objective:** Verify that the new Resources subsection is visible in ELITEA Admin → Configuration and is positioned before the Banner section, as specified in AC1 of story EliteaAI/elitea_issues#4772.
 
 ## Preconditions
 

@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#4772]
 
 **Module:** Resources Configuration · **Priority:** High · **Type:** Functional
 
-**Objective:** Verify that an admin can remove a link from a card, that the link is no longer present in the saved configuration after page reload, and that it no longer appears on the user-facing Resources page. Parametrized across Documentation, Release Notes, Video Library, and Tutorials. Covers AC4 of story #4772.
+**Objective:** Verify that an admin can remove a link from a card, that the link is no longer present in the saved configuration after page reload, and that it no longer appears on the user-facing Resources page. Parametrized across Documentation, Release Notes, Video Library, and Tutorials. Covers AC4 of story EliteaAI/elitea_issues#4772.
 
 ## Preconditions
 

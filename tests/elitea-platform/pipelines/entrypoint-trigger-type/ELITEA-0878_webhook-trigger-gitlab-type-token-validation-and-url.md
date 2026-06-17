@@ -7,7 +7,7 @@ module: entrypoint-trigger-type
 status: ready
 execution_type: manual
 tags: [pipeline, webhook, R-2.0.3, trigger, gitlab]
-requirements: [#4827]
+requirements: [EliteaAI/elitea_issues#4827]
 ---
 # ELITEA-0878: Webhook Trigger (GitLab Type) — Token Validation and URL
 

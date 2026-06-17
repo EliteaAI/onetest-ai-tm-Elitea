@@ -41,7 +41,7 @@ requirements: [EliteaAI/elitea_issues#4497]
 |---|--------|----------------|
 | 1 | Navigate to Agents from sidebar | Agents page loads |
 | 2 | Open an existing agent that was created before the enhancement and uses ADO toolkit get_pull_request | Agent opens |
-| 3 | Execute the agent in Chat with a prompt that triggers get_pull_request (e.g., "Get details for PR #123") | Agent executes |
+| 3 | Execute the agent in Chat with a prompt that triggers get_pull_request (e.g., "Get details for PR EliteaAI/elitea_issues#123") | Agent executes |
 | 4 | Verify the agent executes successfully and returns PR details | PR details returned |
 | 5 | Navigate to Pipelines from sidebar | Pipelines page loads |
 | 6 | Open an existing pipeline with ADO toolkit node using get_pull_request | Pipeline opens |

@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0325
-title: "[#4389] read_file — Very Wide Sheet (Large Column Count)"
+title: "[EliteaAI/elitea_issues#4389] read_file — Very Wide Sheet (Large Column Count)"
 priority: medium
 type: functional
 module: artifacts-toolkit-read-file
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:artifacts, issue:4389, read_file, edge-case, r-2.0.3, excel]
 requirements: [4389]
 ---
-# ELITEA-0325: [#4389] read_file — Very Wide Sheet (Large Column Count)
+# ELITEA-0325: [EliteaAI/elitea_issues#4389] read_file — Very Wide Sheet (Large Column Count)
 
 **Module:** Artifacts Toolkit Read File · **Priority:** Medium · **Type:** Functional
 

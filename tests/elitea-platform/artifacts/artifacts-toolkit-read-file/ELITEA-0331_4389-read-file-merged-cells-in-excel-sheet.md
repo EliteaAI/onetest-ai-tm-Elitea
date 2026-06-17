@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0331
-title: "[#4389] read_file — Merged Cells in Excel Sheet"
+title: "[EliteaAI/elitea_issues#4389] read_file — Merged Cells in Excel Sheet"
 priority: medium
 type: functional
 module: artifacts-toolkit-read-file
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:artifacts, issue:4389, read_file, edge-case, r-2.0.3, excel]
 requirements: [4389]
 ---
-# ELITEA-0331: [#4389] read_file — Merged Cells in Excel Sheet
+# ELITEA-0331: [EliteaAI/elitea_issues#4389] read_file — Merged Cells in Excel Sheet
 
 **Module:** Artifacts Toolkit Read File · **Priority:** Medium · **Type:** Functional
 

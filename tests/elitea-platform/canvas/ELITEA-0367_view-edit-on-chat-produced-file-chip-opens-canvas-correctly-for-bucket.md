@@ -26,8 +26,8 @@ requirements: [ProjectAlita/projectalita.github.io#3786]
 - No errors are returned for any path or operation type
 
 **Known failure modes covered (must not occur after the fix):**
-- Bug #3786: 404 / `NoSuchKey` — "The specified key does not exist" — incorrect path constructed when fetching the file from storage
-- Bug #3890: `"Filenames cannot contain '/'. Please rename your file and try again."` — slash in subfolder path incorrectly treated as part of the filename
+- Bug EliteaAI/elitea_issues#3786: 404 / `NoSuchKey` — "The specified key does not exist" — incorrect path constructed when fetching the file from storage
+- Bug EliteaAI/elitea_issues#3890: `"Filenames cannot contain '/'. Please rename your file and try again."` — slash in subfolder path incorrectly treated as part of the filename
 
 ## Preconditions
 
@@ -73,8 +73,8 @@ The Canvas modal opens as a full overlay. The file content "Nested content." is 
 
 **Fail:**
 - Canvas modal fails to open for any chip (create or update)
-- A 404 / `NoSuchKey` error is displayed ("The specified key does not exist") — bug #3786
-- A `"Filenames cannot contain '/'. Please rename your file and try again."` error is displayed — bug #3890
+- A 404 / `NoSuchKey` error is displayed ("The specified key does not exist") — bug EliteaAI/elitea_issues#3786
+- A `"Filenames cannot contain '/'. Please rename your file and try again."` error is displayed — bug EliteaAI/elitea_issues#3890
 - Eye icon chip does not appear in the chat response after an update operation
 - File content does not load (blank modal or error state)
 - Storage request is constructed with an incorrect path

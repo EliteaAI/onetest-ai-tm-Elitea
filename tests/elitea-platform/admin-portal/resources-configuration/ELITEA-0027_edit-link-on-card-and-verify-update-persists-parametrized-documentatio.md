@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#4772]
 
 **Module:** Resources Configuration · **Priority:** High · **Type:** Functional
 
-**Objective:** Verify that an admin can edit an existing link's title and URL on a card, that the updated values are persisted after save and page reload, and that the updated link is shown correctly on the user-facing Resources page. Parametrized across Documentation, Release Notes, Video Library, and Tutorials. Covers AC4 of story #4772.
+**Objective:** Verify that an admin can edit an existing link's title and URL on a card, that the updated values are persisted after save and page reload, and that the updated link is shown correctly on the user-facing Resources page. Parametrized across Documentation, Release Notes, Video Library, and Tutorials. Covers AC4 of story EliteaAI/elitea_issues#4772.
 
 ## Preconditions
 

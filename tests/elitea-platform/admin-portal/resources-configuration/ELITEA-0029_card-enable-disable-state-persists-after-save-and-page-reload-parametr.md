@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#4772]
 
 **Module:** Resources Configuration · **Priority:** High · **Type:** Functional
 
-**Objective:** Verify that the enabled/disabled toggle state of each card is persisted correctly after saving and reloading the Configuration → Resources page. Parametrized across all 5 cards. Covers AC3 persistence aspect of story #4772.
+**Objective:** Verify that the enabled/disabled toggle state of each card is persisted correctly after saving and reloading the Configuration → Resources page. Parametrized across all 5 cards. Covers AC3 persistence aspect of story EliteaAI/elitea_issues#4772.
 
 ## Preconditions
 

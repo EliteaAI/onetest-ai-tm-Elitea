@@ -7,7 +7,7 @@ module: entrypoint-trigger-type
 status: ready
 execution_type: manual
 tags: [pipeline, security, webhook, R-2.0.3, trigger, github]
-requirements: [#4827]
+requirements: [EliteaAI/elitea_issues#4827]
 ---
 # ELITEA-0879: Webhook Trigger (GitHub Type) — HMAC Signature Validation
 

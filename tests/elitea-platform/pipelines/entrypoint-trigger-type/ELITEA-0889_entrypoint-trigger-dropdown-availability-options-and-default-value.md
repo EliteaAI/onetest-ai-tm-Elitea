@@ -7,7 +7,7 @@ module: entrypoint-trigger-type
 status: ready
 execution_type: manual
 tags: [pipeline, R-2.0.3, trigger, smoke]
-requirements: [#4827]
+requirements: [EliteaAI/elitea_issues#4827]
 ---
 # ELITEA-0889: Entrypoint Trigger Dropdown — Availability, Options, and Default Value
 

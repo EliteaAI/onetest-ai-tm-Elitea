@@ -31,7 +31,7 @@ requirements: [EliteaAI/elitea_issues#4497]
 ## Test Data
 
 - ADO Repository: [Test repo with PRs]
-- PR ID: [PR with large description >10KB - e.g., PR #999]
+- PR ID: [PR with large description >10KB - e.g., PR EliteaAI/elitea_issues#999]
 - Expected description size: >10KB (approximately 10,000+ characters)
 - Tool name: get_pull_request
 - Performance target: < 30 seconds execution time

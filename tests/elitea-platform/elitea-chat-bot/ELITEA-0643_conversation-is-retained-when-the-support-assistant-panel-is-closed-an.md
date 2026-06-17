@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [session-continuity, state-persistence, open-close, R-2.0.3]
-requirements: [#4775, #4774]
+requirements: [EliteaAI/elitea_issues#4775, EliteaAI/elitea_issues#4774]
 ---
 # ELITEA-0643: Conversation is retained when the Support Assistant panel is closed and reopened
 

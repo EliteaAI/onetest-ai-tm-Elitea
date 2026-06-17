@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1230
-title: "[#4660] SharePoint OAuth — `resourceScopes` Takes Precedence Over `formScopes` in Auth Modal"
+title: "[EliteaAI/elitea_issues#4660] SharePoint OAuth — `resourceScopes` Takes Precedence Over `formScopes` in Auth Modal"
 priority: medium
 type: functional
 module: sharepoint
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:credentials, int:sharepoint, feat:toolkits, issue:4660, int:oauth, r-2.0.3]
 requirements: [4660]
 ---
-# ELITEA-1230: [#4660] SharePoint OAuth — `resourceScopes` Takes Precedence Over `formScopes` in Auth Modal
+# ELITEA-1230: [EliteaAI/elitea_issues#4660] SharePoint OAuth — `resourceScopes` Takes Precedence Over `formScopes` in Auth Modal
 
 **Module:** Sharepoint · **Priority:** Medium · **Type:** Functional
 

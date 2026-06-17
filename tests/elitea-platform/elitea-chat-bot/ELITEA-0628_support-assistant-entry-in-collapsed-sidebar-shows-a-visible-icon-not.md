@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [collapsed-sidebar, discoverability, icon]
-requirements: [#4780]
+requirements: [EliteaAI/elitea_issues#4780]
 ---
 # ELITEA-0628: Support Assistant entry in collapsed sidebar shows a visible icon, not an invisible click area
 

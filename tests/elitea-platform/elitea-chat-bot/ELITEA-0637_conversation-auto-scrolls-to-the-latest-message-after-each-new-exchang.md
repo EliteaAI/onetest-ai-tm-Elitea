@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [scroll-behavior, auto-scroll, R-2.0.3, ux]
-requirements: [#4775]
+requirements: [EliteaAI/elitea_issues#4775]
 ---
 # ELITEA-0637: Conversation auto-scrolls to the latest message after each new exchange
 

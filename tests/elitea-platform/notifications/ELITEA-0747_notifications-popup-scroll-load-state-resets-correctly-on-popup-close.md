@@ -16,7 +16,7 @@ requirements: [EliteaAI/elitea_issues#4725]
 **Objective:** Verify that closing and reopening the notifications popup fully resets the scroll load state — starting from the first group and correctly loading subsequent groups on scroll.
 
 **Coverage:**
-- Scroll load state is cleared when the popup is closed (#4725)
+- Scroll load state is cleared when the popup is closed (EliteaAI/elitea_issues#4725)
 - On reopen, the first group of notifications is shown (not a stale mid-session state)
 - Scrolling after reopen loads subsequent groups correctly
 - Behavior is consistent across multiple close/reopen cycles

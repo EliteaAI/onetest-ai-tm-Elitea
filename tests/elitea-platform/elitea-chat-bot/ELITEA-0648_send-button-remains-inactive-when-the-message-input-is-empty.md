@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [input-validation, empty-message, composer, R-2.0.3]
-requirements: [#4775]
+requirements: [EliteaAI/elitea_issues#4775]
 ---
 # ELITEA-0648: Send button remains inactive when the message input is empty
 

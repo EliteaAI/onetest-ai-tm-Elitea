@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0329
-title: "[#4389] read_file — Formula and Computed-Value Cells in Excel"
+title: "[EliteaAI/elitea_issues#4389] read_file — Formula and Computed-Value Cells in Excel"
 priority: medium
 type: functional
 module: artifacts-toolkit-read-file
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:artifacts, issue:4389, read_file, edge-case, r-2.0.3, excel]
 requirements: [4389]
 ---
-# ELITEA-0329: [#4389] read_file — Formula and Computed-Value Cells in Excel
+# ELITEA-0329: [EliteaAI/elitea_issues#4389] read_file — Formula and Computed-Value Cells in Excel
 
 **Module:** Artifacts Toolkit Read File · **Priority:** Medium · **Type:** Functional
 

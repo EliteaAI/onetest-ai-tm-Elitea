@@ -7,7 +7,7 @@ module: entrypoint-trigger-type
 status: ready
 execution_type: manual
 tags: [negative-testing, error-handling, pipeline, security, webhook, R-2.0.3, trigger]
-requirements: [#4827]
+requirements: [EliteaAI/elitea_issues#4827]
 ---
 # ELITEA-0880: Webhook Trigger (Custom) — Authentication Failures and Method Restrictions
 

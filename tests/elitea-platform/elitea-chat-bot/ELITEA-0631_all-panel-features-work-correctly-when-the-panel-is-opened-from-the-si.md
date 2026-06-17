@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [feature-parity, sidebar, smoke]
-requirements: [#4780]
+requirements: [EliteaAI/elitea_issues#4780]
 ---
 # ELITEA-0631: All panel features work correctly when the panel is opened from the sidebar entry
 

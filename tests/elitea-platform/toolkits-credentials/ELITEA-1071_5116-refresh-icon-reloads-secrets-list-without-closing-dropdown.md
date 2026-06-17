@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1071
-title: "[#5116] Refresh Icon Reloads Secrets List Without Closing Dropdown"
+title: "[EliteaAI/elitea_issues#5116] Refresh Icon Reloads Secrets List Without Closing Dropdown"
 priority: critical
 type: functional
 module: toolkits-credentials
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:credentials, feat:settings, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5116]
 ---
-# ELITEA-1071: [#5116] Refresh Icon Reloads Secrets List Without Closing Dropdown
+# ELITEA-1071: [EliteaAI/elitea_issues#5116] Refresh Icon Reloads Secrets List Without Closing Dropdown
 
 **Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
 

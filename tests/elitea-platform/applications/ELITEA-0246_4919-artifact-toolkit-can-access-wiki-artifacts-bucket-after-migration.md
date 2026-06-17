@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0246
-title: "[#4919] Artifact Toolkit Can Access `wiki-artifacts` Bucket After Migration"
+title: "[EliteaAI/elitea_issues#4919] Artifact Toolkit Can Access `wiki-artifacts` Bucket After Migration"
 priority: high
 type: functional
 module: applications
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:artifacts, int:deepwiki, issue:4919, migration, r-2.0.3]
 requirements: [4919]
 ---
-# ELITEA-0246: [#4919] Artifact Toolkit Can Access `wiki-artifacts` Bucket After Migration
+# ELITEA-0246: [EliteaAI/elitea_issues#4919] Artifact Toolkit Can Access `wiki-artifacts` Bucket After Migration
 
 **Module:** Applications · **Priority:** High · **Type:** Functional
 

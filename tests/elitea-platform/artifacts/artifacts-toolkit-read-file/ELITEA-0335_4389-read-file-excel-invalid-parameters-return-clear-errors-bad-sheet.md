@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0335
-title: "[#4389] read_file Excel — Invalid Parameters Return Clear Errors (bad sheet name, invalid row range, out-of-bounds)"
+title: "[EliteaAI/elitea_issues#4389] read_file Excel — Invalid Parameters Return Clear Errors (bad sheet name, invalid row range, out-of-bounds)"
 priority: medium
 type: functional
 module: artifacts-toolkit-read-file
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:artifacts, error-handling, issue:4389, read_file, r-2.0.3, excel]
 requirements: [4389]
 ---
-# ELITEA-0335: [#4389] read_file Excel — Invalid Parameters Return Clear Errors (bad sheet name, invalid row range, out-of-bounds)
+# ELITEA-0335: [EliteaAI/elitea_issues#4389] read_file Excel — Invalid Parameters Return Clear Errors (bad sheet name, invalid row range, out-of-bounds)
 
 **Module:** Artifacts Toolkit Read File · **Priority:** Medium · **Type:** Functional
 

@@ -15,7 +15,7 @@ requirements: [EliteaAI/elitea_issues#4931]
 
 **Objective:** Verify that triggering all Jira Toolkit tools in a single chat request — including approving sensitive tool executions — completes without an InternalSDKError or BadRequestError about missing `tool_call_id` responses.
 
-**Bug Reference:** #4931 — SDK error when executing all Jira Toolkit tools in a single request. The error (`AzureException BadRequestError: An assistant message with 'tool_calls' must be followed by tool messages responding to each 'tool_call_id'`) was consistently reproduced when all Jira tools were triggered at once and sensitive tools required manual approval.
+**Bug Reference:** EliteaAI/elitea_issues#4931 — SDK error when executing all Jira Toolkit tools in a single request. The error (`AzureException BadRequestError: An assistant message with 'tool_calls' must be followed by tool messages responding to each 'tool_call_id'`) was consistently reproduced when all Jira tools were triggered at once and sensitive tools required manual approval.
 
 **Coverage:**
 - All Jira Toolkit tools are triggered in one request

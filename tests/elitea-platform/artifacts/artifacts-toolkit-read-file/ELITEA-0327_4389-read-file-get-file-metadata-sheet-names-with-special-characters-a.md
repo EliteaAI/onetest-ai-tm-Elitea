@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0327
-title: "[#4389] read_file / get_file_metadata — Sheet Names with Special Characters and Unicode"
+title: "[EliteaAI/elitea_issues#4389] read_file / get_file_metadata — Sheet Names with Special Characters and Unicode"
 priority: medium
 type: functional
 module: artifacts-toolkit-read-file
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:artifacts, issue:4389, read_file, unicode, r-2.0.3, excel]
 requirements: [4389]
 ---
-# ELITEA-0327: [#4389] read_file / get_file_metadata — Sheet Names with Special Characters and Unicode
+# ELITEA-0327: [EliteaAI/elitea_issues#4389] read_file / get_file_metadata — Sheet Names with Special Characters and Unicode
 
 **Module:** Artifacts Toolkit Read File · **Priority:** Medium · **Type:** Functional
 

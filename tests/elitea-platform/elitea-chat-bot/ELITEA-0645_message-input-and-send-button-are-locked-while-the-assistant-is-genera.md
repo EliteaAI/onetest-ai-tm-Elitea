@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [double-send-prevention, loading-state, input-state, R-2.0.3]
-requirements: [#4775]
+requirements: [EliteaAI/elitea_issues#4775]
 ---
 # ELITEA-0645: Message input and Send button are locked while the assistant is generating a response
 

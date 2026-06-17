@@ -24,13 +24,13 @@ requirements: [ProjectAlita/projectalita.github.io#3780]
 ## Test Data
 
 - Non-sensitive tool to invoke: github > get_pull_request (or get_repository)
-- Prompt: 'Get the details of pull request #1 in repo elitea/backend-api'
+- Prompt: 'Get the details of pull request EliteaAI/elitea_issues#1 in repo elitea/backend-api'
 
 ## Steps
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Send the prompt that triggers the non-sensitive GitHub tool (get_pull_request): 'Get the details of pull request #1 in repo elitea/backend-api'. | Agent begins processing. |
+| 1 | Send the prompt that triggers the non-sensitive GitHub tool (get_pull_request): 'Get the details of pull request EliteaAI/elitea_issues#1 in repo elitea/backend-api'. | Agent begins processing. |
 | 2 | Observe the chat area for any authorization dialog. | No authorization dialog appears at any point. |
 | 3 | Verify the agent returns the expected result from the tool call. | Tool executes immediately. Agent returns the pull request details. |
 

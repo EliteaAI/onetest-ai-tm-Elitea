@@ -15,7 +15,7 @@ requirements: [ProjectAlita/projectalita.github.io#3874]
 
 **Objective:** Verify that clicking the View/Edit (eye) icon on a file chip in a Chat response, where the file path contains the bucket name as a folder segment, opens the Canvas preview successfully — without returning "Failed to fetch file: 400".
 
-**Coverage (3 parametrized path patterns from bug #3874):**
+**Coverage (3 parametrized path patterns from bug EliteaAI/elitea_issues#3874):**
 - Pattern 1: `bucket → folder(=bucket_name) → file` — exact scenario from the bug report
 - Pattern 2: `bucket → folder(=bucket_name) → any_folder → file` — bucket name in first position, deeper nesting
 - Pattern 3: `bucket → any_folder → folder(=bucket_name) → file` — bucket name in non-root subfolder position
@@ -32,7 +32,7 @@ Run once per row (create file via Chat prompt, then click View/Edit on the chip)
 
 | # | Filename in prompt | Expected full object path | Description |
 |---|---|---|---|
-| 1 | `preview-bucket/c1-file.txt` | `preview-bucket/preview-bucket/c1-file.txt` | Folder name = bucket name (exact bug #3874 path) |
+| 1 | `preview-bucket/c1-file.txt` | `preview-bucket/preview-bucket/c1-file.txt` | Folder name = bucket name (exact bug EliteaAI/elitea_issues#3874 path) |
 | 2 | `preview-bucket/sub/c2-file.txt` | `preview-bucket/preview-bucket/sub/c2-file.txt` | Bucket name in first folder, deeper nesting |
 | 3 | `other-folder/preview-bucket/c3-file.txt` | `preview-bucket/other-folder/preview-bucket/c3-file.txt` | Bucket name in second-level folder |
 

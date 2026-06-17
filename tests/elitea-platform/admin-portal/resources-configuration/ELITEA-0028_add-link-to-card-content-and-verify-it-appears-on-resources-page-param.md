@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#4772]
 
 **Module:** Resources Configuration · **Priority:** High · **Type:** Functional
 
-**Objective:** Verify that an admin can add a new link to a card, that the link is persisted after save and page reload, and that it becomes visible to users on the Resources page. Parametrized across Documentation, Release Notes, Video Library, and Tutorials. Covers AC4 of story #4772.
+**Objective:** Verify that an admin can add a new link to a card, that the link is persisted after save and page reload, and that it becomes visible to users on the Resources page. Parametrized across Documentation, Release Notes, Video Library, and Tutorials. Covers AC4 of story EliteaAI/elitea_issues#4772.
 
 ## Preconditions
 

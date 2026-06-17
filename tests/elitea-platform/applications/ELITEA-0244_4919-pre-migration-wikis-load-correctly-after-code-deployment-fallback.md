@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0244
-title: "[#4919] Pre-Migration Wikis Load Correctly After Code Deployment (Fallback Read from `wiki_artifacts`)"
+title: "[EliteaAI/elitea_issues#4919] Pre-Migration Wikis Load Correctly After Code Deployment (Fallback Read from `wiki_artifacts`)"
 priority: high
 type: functional
 module: applications
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:artifacts, int:deepwiki, issue:4919, migration, fallback, r-2.0.3]
 requirements: [4919]
 ---
-# ELITEA-0244: [#4919] Pre-Migration Wikis Load Correctly After Code Deployment (Fallback Read from `wiki_artifacts`)
+# ELITEA-0244: [EliteaAI/elitea_issues#4919] Pre-Migration Wikis Load Correctly After Code Deployment (Fallback Read from `wiki_artifacts`)
 
 **Module:** Applications · **Priority:** High · **Type:** Functional
 

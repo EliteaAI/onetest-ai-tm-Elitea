@@ -13,7 +13,7 @@ requirements: [ProjectAlita/projectalita.github.io#3668]
 
 **Module:** Export Import · **Priority:** High · **Type:** Functional
 
-**Objective:** Verify that importing an agent or pipeline `.md` file into the same currently active project still produces the correct post-import redirect after the fix for cross-project redirect (issue #3668) is applied.
+**Objective:** Verify that importing an agent or pipeline `.md` file into the same currently active project still produces the correct post-import redirect after the fix for cross-project redirect (issue EliteaAI/elitea_issues#3668) is applied.
 
 **Coverage:**
 - Same-project import flow for both agents and pipelines remains unbroken after the cross-project fix

@@ -7,7 +7,7 @@ module: notifications
 status: draft
 execution_type: manual
 tags: [feat:notifications, artifacts, buckets, r-2.0.3]
-requirements: [#4698]
+requirements: [EliteaAI/elitea_issues#4698]
 ---
 # ELITEA-0739: "Not Found" modal shown when clicking notification hyperlink for a deleted bucket
 
@@ -20,7 +20,7 @@ requirements: [#4698]
 - Error state UI (not found modal)
 - No blank page / silent failure
 
-**Linked to:** Enhancement #4698, Milestone R-2.0.3
+**Linked to:** Enhancement EliteaAI/elitea_issues#4698, Milestone R-2.0.3
 
 ## Preconditions
 

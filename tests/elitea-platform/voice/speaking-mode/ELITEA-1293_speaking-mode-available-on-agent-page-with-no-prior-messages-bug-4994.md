@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1293
-title: "Speaking Mode Available on Agent Page with No Prior Messages [Bug #4994]"
+title: "Speaking Mode Available on Agent Page with No Prior Messages [Bug EliteaAI/elitea_issues#4994]"
 priority: high
 type: functional
 module: speaking-mode
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feature:5016, r-2.0.3]
 requirements: [EliteaAI/elitea_issues#4994, EliteaAI/elitea_issues#5016]
 ---
-# ELITEA-1293: Speaking Mode Available on Agent Page with No Prior Messages [Bug #4994]
+# ELITEA-1293: Speaking Mode Available on Agent Page with No Prior Messages [Bug EliteaAI/elitea_issues#4994]
 
 **Module:** Speaking Mode · **Priority:** High · **Type:** Functional
 

@@ -21,7 +21,7 @@ requirements: [ProjectAlita/projectalita.github.io#3414]
 - No notification fires on creation for retention > 1 day
 - Notification message states: files will start being deleted in 24 hours, the bucket itself will remain
 - Notification scoped to bucket creator only
-- AC1 (timing), AC3 (message content) from issue #3414
+- AC1 (timing), AC3 (message content) from issue EliteaAI/elitea_issues#3414
 
 ## Preconditions
 

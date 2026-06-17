@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1072
-title: "[#5116] Permission: Viewer Role Cannot See CREATE Section or Secrets in Dropdown"
+title: "[EliteaAI/elitea_issues#5116] Permission: Viewer Role Cannot See CREATE Section or Secrets in Dropdown"
 priority: high
 type: functional
 module: toolkits-credentials
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:credentials, feat:settings, nfr:security, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5116]
 ---
-# ELITEA-1072: [#5116] Permission: Viewer Role Cannot See CREATE Section or Secrets in Dropdown
+# ELITEA-1072: [EliteaAI/elitea_issues#5116] Permission: Viewer Role Cannot See CREATE Section or Secrets in Dropdown
 
 **Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
 

@@ -72,7 +72,7 @@ Save button is disabled while the authentication warning and icon are shown.
 - User can clearly understand why Save is unavailable
 
 **Fail:**
-- No warning message is displayed (regression of bug #4906)
+- No warning message is displayed (regression of bug EliteaAI/elitea_issues#4906)
 - Warning message does not start with "Authentication failed:"
 - Warning/Error icon is absent
 - Tooltip on the icon is blank or missing

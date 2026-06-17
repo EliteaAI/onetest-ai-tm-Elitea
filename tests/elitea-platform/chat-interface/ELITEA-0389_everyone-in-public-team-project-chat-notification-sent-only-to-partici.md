@@ -61,4 +61,4 @@ User C has NOT received any notification — they have view access only, not par
 **Fail:**
 - User C receives a notification despite not being listed in the participants panel
 - User B does not receive a notification despite being an active participant
-- `@Everyone` is not inserted when triggered via "All users" (original bug from #2094)
+- `@Everyone` is not inserted when triggered via "All users" (original bug from EliteaAI/elitea_issues#2094)

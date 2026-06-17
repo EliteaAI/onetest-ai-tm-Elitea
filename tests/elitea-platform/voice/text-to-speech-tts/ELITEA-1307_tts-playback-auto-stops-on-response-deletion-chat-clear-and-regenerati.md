@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1307
-title: "TTS Playback Auto-Stops on Response Deletion, Chat Clear, and Regeneration [Bug #4995, Parametrized: Delete | Clear | Regenerate]"
+title: "TTS Playback Auto-Stops on Response Deletion, Chat Clear, and Regeneration [Bug EliteaAI/elitea_issues#4995, Parametrized: Delete | Clear | Regenerate]"
 priority: critical
 type: functional
 module: text-to-speech-tts
@@ -9,13 +9,13 @@ execution_type: manual
 tags: [feature:4500, feat:voice, r-2.0.3]
 requirements: [EliteaAI/elitea_issues#4995, EliteaAI/elitea_issues#4500]
 ---
-# ELITEA-1307: TTS Playback Auto-Stops on Response Deletion, Chat Clear, and Regeneration [Bug #4995, Parametrized: Delete | Clear | Regenerate]
+# ELITEA-1307: TTS Playback Auto-Stops on Response Deletion, Chat Clear, and Regeneration [Bug EliteaAI/elitea_issues#4995, Parametrized: Delete | Clear | Regenerate]
 
 **Module:** Text To Speech Tts · **Priority:** Critical · **Type:** Functional
 
 **Objective:** Verify that active TTS playback automatically stops when the related response is deleted, the chat is cleared, or response regeneration is triggered.
 
-**Bug Reference:** #4995 — TTS continues reading stale audio even after the response is gone.
+**Bug Reference:** EliteaAI/elitea_issues#4995 — TTS continues reading stale audio even after the response is gone.
 
 **Parameters:**
 | # | Action during active TTS playback |

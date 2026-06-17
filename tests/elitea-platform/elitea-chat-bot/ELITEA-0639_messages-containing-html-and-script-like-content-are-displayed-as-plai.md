@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [input-sanitization, xss-prevention, security, R-2.0.3]
-requirements: [#4775, #4773]
+requirements: [EliteaAI/elitea_issues#4775, EliteaAI/elitea_issues#4773]
 ---
 # ELITEA-0639: Messages containing HTML and script-like content are displayed as plain text and not executed
 

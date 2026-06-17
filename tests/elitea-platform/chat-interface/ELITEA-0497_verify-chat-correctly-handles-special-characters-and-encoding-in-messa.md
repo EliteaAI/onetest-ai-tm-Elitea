@@ -29,7 +29,7 @@ User has access to Chat functionality
 | 2 | Send a message containing HTML angle brackets: 'Test <div> tag and <script> content' | Message is displayed exactly as typed with angle brackets visible, not interpreted as HTML or stripped |
 | 3 | Send a message containing ampersand entities: 'Price is $5 & tax is 10% — total: $5.50' | Ampersand and special dash characters display correctly without being double-escaped (no visible &amp; or &mdash;) |
 | 4 | Send a message containing unicode characters: 'Emojis: 🎉🚀 \| Accented: café résumé \| CJK: 你好世界' | All unicode characters render correctly including emojis, accented Latin chars, and CJK characters |
-| 5 | Send a message containing quotes and apostrophes: 'She said "hello" and it\'s working' | Both double quotes and apostrophes display correctly without escaping artifacts (no &quot; or &#39;) |
+| 5 | Send a message containing quotes and apostrophes: 'She said "hello" and it\'s working' | Both double quotes and apostrophes display correctly without escaping artifacts (no &quot; or &EliteaAI/elitea_issues#39;) |
 | 6 | Send a message with code block containing special chars: '```<html>&amp;"test"</html>```' | Code block renders with proper syntax highlighting and special characters shown literally as code |
 | 7 | Reload the page and verify all previously sent messages still display correctly | Messages persist correctly after reload with no encoding corruption or character loss |
 | 8 | Copy one of the special-character messages using the copy button and paste into a text editor | Copied text matches the original input without additional escaping or encoding artifacts |

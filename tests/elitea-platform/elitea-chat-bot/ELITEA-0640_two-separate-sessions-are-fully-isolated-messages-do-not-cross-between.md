@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [session-isolation, regression, R-2.0.3]
-requirements: [#4775]
+requirements: [EliteaAI/elitea_issues#4775]
 ---
 # ELITEA-0640: Two separate sessions are fully isolated — messages do not cross between them
 

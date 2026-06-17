@@ -31,7 +31,7 @@ requirements: [EliteaAI/elitea_issues#4497]
 ## Test Data
 
 - ADO Repository: [Test repo with PRs]
-- PR ID: [PR with special chars/markdown - e.g., PR #101]
+- PR ID: [PR with special chars/markdown - e.g., PR EliteaAI/elitea_issues#101]
 - Expected content examples:
   - Special chars: !@#$%^&*()_+-={}[]|:";'<>?,./
   - Markdown: **bold**, *italic*, `code`, [link](url), - list item

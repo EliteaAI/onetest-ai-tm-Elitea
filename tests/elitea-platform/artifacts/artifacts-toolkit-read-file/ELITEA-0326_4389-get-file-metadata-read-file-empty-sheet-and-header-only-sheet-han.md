@@ -1,6 +1,6 @@
 ---
 id: ELITEA-0326
-title: "[#4389] get_file_metadata + read_file — Empty Sheet and Header-Only Sheet Handling"
+title: "[EliteaAI/elitea_issues#4389] get_file_metadata + read_file — Empty Sheet and Header-Only Sheet Handling"
 priority: medium
 type: functional
 module: artifacts-toolkit-read-file
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:artifacts, issue:4389, read_file, edge-case, r-2.0.3, excel]
 requirements: [4389]
 ---
-# ELITEA-0326: [#4389] get_file_metadata + read_file — Empty Sheet and Header-Only Sheet Handling
+# ELITEA-0326: [EliteaAI/elitea_issues#4389] get_file_metadata + read_file — Empty Sheet and Header-Only Sheet Handling
 
 **Module:** Artifacts Toolkit Read File · **Priority:** Medium · **Type:** Functional
 

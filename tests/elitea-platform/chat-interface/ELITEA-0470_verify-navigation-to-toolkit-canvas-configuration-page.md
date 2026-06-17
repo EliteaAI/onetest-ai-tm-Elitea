@@ -7,7 +7,7 @@ module: chat-interface
 status: draft
 execution_type: manual
 tags: [credential-validation, toolkit-management, participants-panel, health-indicator, ux-improvement, chat-ui, 3709]
-requirements: [GitHub Issue #3709]
+requirements: [GitHub Issue EliteaAI/elitea_issues#3709]
 ---
 # ELITEA-0470: Verify Navigation to Toolkit Canvas Configuration Page
 

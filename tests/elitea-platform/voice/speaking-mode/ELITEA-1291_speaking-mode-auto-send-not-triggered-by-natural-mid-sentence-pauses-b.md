@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1291
-title: "Speaking Mode — Auto-Send Not Triggered by Natural Mid-Sentence Pauses [Bug #5028]"
+title: "Speaking Mode — Auto-Send Not Triggered by Natural Mid-Sentence Pauses [Bug EliteaAI/elitea_issues#5028]"
 priority: high
 type: functional
 module: speaking-mode
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feature:5016, feat:voice, r-2.0.3]
 requirements: [EliteaAI/elitea_issues#5028, EliteaAI/elitea_issues#5016]
 ---
-# ELITEA-1291: Speaking Mode — Auto-Send Not Triggered by Natural Mid-Sentence Pauses [Bug #5028]
+# ELITEA-1291: Speaking Mode — Auto-Send Not Triggered by Natural Mid-Sentence Pauses [Bug EliteaAI/elitea_issues#5028]
 
 **Module:** Speaking Mode · **Priority:** High · **Type:** Functional
 

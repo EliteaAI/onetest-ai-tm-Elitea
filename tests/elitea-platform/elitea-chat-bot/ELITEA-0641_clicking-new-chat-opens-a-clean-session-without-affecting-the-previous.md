@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [session-management, new-chat, R-2.0.3, smoke]
-requirements: [#4775]
+requirements: [EliteaAI/elitea_issues#4775]
 ---
 # ELITEA-0641: Clicking New Chat opens a clean session without affecting the previous one
 

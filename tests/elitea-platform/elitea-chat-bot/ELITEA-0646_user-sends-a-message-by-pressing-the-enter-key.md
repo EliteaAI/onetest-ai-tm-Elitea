@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: manual
 tags: [keyboard-shortcut, send-receive, R-2.0.3, smoke]
-requirements: [#4775]
+requirements: [EliteaAI/elitea_issues#4775]
 ---
 # ELITEA-0646: User sends a message by pressing the Enter key
 

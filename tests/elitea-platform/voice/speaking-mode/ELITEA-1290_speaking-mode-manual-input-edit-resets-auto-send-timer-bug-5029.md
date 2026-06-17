@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1290
-title: "Speaking Mode — Manual Input Edit Resets Auto-Send Timer [Bug #5029]"
+title: "Speaking Mode — Manual Input Edit Resets Auto-Send Timer [Bug EliteaAI/elitea_issues#5029]"
 priority: high
 type: functional
 module: speaking-mode
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feature:5016, feat:voice, r-2.0.3]
 requirements: [EliteaAI/elitea_issues#5029, EliteaAI/elitea_issues#5016]
 ---
-# ELITEA-1290: Speaking Mode — Manual Input Edit Resets Auto-Send Timer [Bug #5029]
+# ELITEA-1290: Speaking Mode — Manual Input Edit Resets Auto-Send Timer [Bug EliteaAI/elitea_issues#5029]
 
 **Module:** Speaking Mode · **Priority:** High · **Type:** Functional
 
