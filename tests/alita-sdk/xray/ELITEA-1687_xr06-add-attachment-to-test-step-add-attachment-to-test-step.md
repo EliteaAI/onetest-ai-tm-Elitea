@@ -4,7 +4,7 @@ title: "XR06 - add_attachment_to_test_step: Add Attachment to Test Step"
 priority: medium
 type: functional
 module: xray
-status: failed
+status: ready
 execution_type: automated
 tags: []
 requirements: []

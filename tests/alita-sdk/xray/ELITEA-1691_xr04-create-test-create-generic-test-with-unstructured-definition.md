@@ -4,7 +4,7 @@ title: "XR04 - create_test: Create Generic Test with Unstructured Definition"
 priority: high
 type: functional
 module: xray
-status: failed
+status: ready
 execution_type: automated
 tags: []
 requirements: []

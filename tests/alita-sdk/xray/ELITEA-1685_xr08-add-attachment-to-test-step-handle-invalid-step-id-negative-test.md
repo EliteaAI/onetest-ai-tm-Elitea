@@ -4,7 +4,7 @@ title: "XR08 - add_attachment_to_test_step: Handle Invalid Step ID (Negative Tes
 priority: medium
 type: functional
 module: xray
-status: passed
+status: ready
 execution_type: automated
 tags: []
 requirements: []

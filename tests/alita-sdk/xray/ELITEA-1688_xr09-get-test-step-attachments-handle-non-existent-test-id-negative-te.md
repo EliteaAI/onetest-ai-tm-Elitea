@@ -4,7 +4,7 @@ title: "XR09 - get_test_step_attachments: Handle Non-existent Test ID (Negative 
 priority: medium
 type: functional
 module: xray
-status: passed
+status: ready
 execution_type: automated
 tags: []
 requirements: []

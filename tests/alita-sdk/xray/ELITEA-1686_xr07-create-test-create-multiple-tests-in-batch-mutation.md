@@ -4,7 +4,7 @@ title: "XR07 - create_test: Create Multiple Tests in Batch Mutation"
 priority: medium
 type: functional
 module: xray
-status: failed
+status: ready
 execution_type: automated
 tags: []
 requirements: []

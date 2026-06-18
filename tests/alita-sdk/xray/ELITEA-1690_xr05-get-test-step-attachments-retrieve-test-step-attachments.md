@@ -4,7 +4,7 @@ title: "XR05 - get_test_step_attachments: Retrieve Test Step Attachments"
 priority: medium
 type: functional
 module: xray
-status: failed
+status: ready
 execution_type: automated
 tags: []
 requirements: []

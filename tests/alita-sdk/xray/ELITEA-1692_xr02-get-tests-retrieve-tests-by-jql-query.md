@@ -4,7 +4,7 @@ title: "XR02 - get_tests: Retrieve Tests by JQL Query"
 priority: high
 type: functional
 module: xray
-status: passed
+status: ready
 execution_type: automated
 tags: []
 requirements: []

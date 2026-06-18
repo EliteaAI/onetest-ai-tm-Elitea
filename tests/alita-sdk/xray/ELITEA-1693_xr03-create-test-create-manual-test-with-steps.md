@@ -4,7 +4,7 @@ title: "XR03 - create_test: Create Manual Test with Steps"
 priority: high
 type: functional
 module: xray
-status: failed
+status: ready
 execution_type: automated
 tags: []
 requirements: []

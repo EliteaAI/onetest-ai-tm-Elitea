@@ -40652,7 +40652,7 @@
     {
       "id": "ELITEA-1684",
       "title": "XR10 - get_tests: Handle Invalid JQL Syntax (Negative Test)",
-      "status": "passed",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -40670,7 +40670,7 @@
     {
       "id": "ELITEA-1685",
       "title": "XR08 - add_attachment_to_test_step: Handle Invalid Step ID (Negative Test)",
-      "status": "passed",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -40688,7 +40688,7 @@
     {
       "id": "ELITEA-1686",
       "title": "XR07 - create_test: Create Multiple Tests in Batch Mutation",
-      "status": "failed",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -40706,7 +40706,7 @@
     {
       "id": "ELITEA-1687",
       "title": "XR06 - add_attachment_to_test_step: Add Attachment to Test Step",
-      "status": "failed",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -40724,7 +40724,7 @@
     {
       "id": "ELITEA-1688",
       "title": "XR09 - get_test_step_attachments: Handle Non-existent Test ID (Negative Test)",
-      "status": "passed",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -40742,7 +40742,7 @@
     {
       "id": "ELITEA-1689",
       "title": "XR01 - execute_graphql: Execute Custom GraphQL Query",
-      "status": "failed",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -40760,7 +40760,7 @@
     {
       "id": "ELITEA-1690",
       "title": "XR05 - get_test_step_attachments: Retrieve Test Step Attachments",
-      "status": "failed",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -40778,7 +40778,7 @@
     {
       "id": "ELITEA-1691",
       "title": "XR04 - create_test: Create Generic Test with Unstructured Definition",
-      "status": "failed",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",
@@ -40796,7 +40796,7 @@
     {
       "id": "ELITEA-1692",
       "title": "XR02 - get_tests: Retrieve Tests by JQL Query",
-      "status": "passed",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",
@@ -40814,7 +40814,7 @@
     {
       "id": "ELITEA-1693",
       "title": "XR03 - create_test: Create Manual Test with Steps",
-      "status": "failed",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",

@@ -4,7 +4,7 @@ title: "XR10 - get_tests: Handle Invalid JQL Syntax (Negative Test)"
 priority: medium
 type: functional
 module: xray
-status: passed
+status: ready
 execution_type: automated
 tags: []
 requirements: []
