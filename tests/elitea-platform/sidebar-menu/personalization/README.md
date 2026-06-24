@@ -3,7 +3,7 @@
 **Feature Issue:** [#5264 - Add "Bare" Personality Type](https://github.com/EliteaAI/elitea_issues/issues/5264)  
 **Related Sub-issue:** [#5394 - Personalization API returns legacy description field](https://github.com/EliteaAI/elitea_issues/issues/5394)  
 **Target Release:** R-2.0.4  
-**Test Case Count:** 7 (Initial batch - P0 Critical and P1 High Priority)
+**Test Case Count:** 6 (Initial batch - P0 Critical and P1 High Priority)
 
 ## Overview
 
@@ -22,18 +22,17 @@ The "Bare" personality type:
 
 ## Test Cases Included
 
-### P0 - Critical Functionality (6 test cases)
+### P0 - Critical Functionality (5 test cases)
 
-1. **TC-P0-01:** Verify "Bare" option appears in User Settings dropdown
-2. **TC-P0-02:** Verify "Bare" option appears in Context Management modal
-3. **TC-P0-04:** Verify "Bare" can be selected and saved in User Settings
-4. **TC-P0-07:** Verify empty system prompt with Bare mode (no custom instructions)
-5. **TC-P0-08:** Verify custom instructions only with Bare mode
-6. **TC-P0-11:** Verify LLM native identity in Bare mode
+1. **ELITEA-1718:** Verify "Bare" option appears in Context Management modal
+2. **ELITEA-1719:** Verify "Bare" can be selected and saved in User Settings
+3. **ELITEA-1720:** Verify empty system prompt with Bare mode (no custom instructions)
+4. **ELITEA-1721:** Verify custom instructions only with Bare mode
+5. **ELITEA-1722:** Verify LLM native identity in Bare mode
 
 ### P1 - High Priority (1 test case)
 
-7. **TC-P1-05:** Verify context management functions in Bare mode
+6. **ELITEA-1723:** Verify context management functions in Bare mode
 
 ## Test Coverage
 
@@ -108,9 +107,8 @@ The "Bare" personality type:
 ## Automation Potential
 
 The following test cases are good candidates for automation:
-- TC-P0-01, TC-P0-02: UI visibility (Playwright)
-- TC-P0-04: Selection and persistence (Playwright + API validation)
-- TC-P0-07, TC-P0-08: System prompt validation (API mocking)
+- ELITEA-1718, ELITEA-1719: UI visibility and selection (Playwright)
+- ELITEA-1720, ELITEA-1721: System prompt validation (API mocking)
 
 ## Reporting
 
