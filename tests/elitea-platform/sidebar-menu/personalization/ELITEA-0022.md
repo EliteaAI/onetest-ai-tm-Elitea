@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0022
-title: Verify full keyboard navigation works for personality dropdown
+title: "Verify full keyboard navigation works for personality dropdown"
 priority: high
 type: functional
 module: ui
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - ui
-  - accessibility
-  - keyboard-navigation
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, ui, accessibility, keyboard-navigation]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0022: Verify full keyboard navigation works for personality dropdown
 
-# Verify full keyboard navigation works for personality dropdown
+**Module:** UI · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that personality dropdown supports full keyboard navigation
 
 ## Preconditions
 

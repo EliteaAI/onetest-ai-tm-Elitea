@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0014
-title: Verify tools and agent capabilities work with Bare personality
+title: "Verify tools and agent capabilities work with Bare personality"
 priority: critical
 type: functional
 module: agents
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - bare-persona
-  - tools
-  - agents
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, bare-persona, tools, agents]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0014: Verify tools and agent capabilities work with Bare personality
 
-# Verify tools and agent capabilities work with Bare personality
+**Module:** Agents · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that tools and agent capabilities function correctly with Bare personality
 
 ## Preconditions
 

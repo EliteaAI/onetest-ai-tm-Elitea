@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0009
-title: Test Bare personality with custom instruction to respond in Spanish
+title: "Test Bare personality with custom instruction to respond in Spanish"
 priority: critical
 type: functional
 module: chat
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - bare-persona
-  - localization
-  - custom-instructions
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, bare-persona, localization, custom-instructions]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0009: Test Bare personality with custom instruction to respond in Spanish
 
-# Test Bare personality with custom instruction to respond in Spanish
+**Module:** Chat · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that Bare personality respects custom instructions to respond in Spanish with formal tone
 
 ## Preconditions
 

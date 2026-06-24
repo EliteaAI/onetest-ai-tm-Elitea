@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0032
-title: Verify different users can have independent default personalities
+title: "Verify different users can have independent default personalities"
 priority: high
 type: functional
 module: settings
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - settings
-  - multi-user
-  - isolation
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, settings, multi-user, isolation]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0032: Verify different users can have independent default personalities
 
-# Verify different users can have independent default personalities
+**Module:** Settings · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that different users can have independent default personality settings
 
 ## Preconditions
 

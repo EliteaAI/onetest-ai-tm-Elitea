@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0029
-title: Test rapid persona switching without race conditions
+title: "Test rapid persona switching without race conditions"
 priority: high
 type: functional
 module: context-management
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - stress-test
-  - race-condition
-  - reliability
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, stress-test, race-condition, reliability]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0029: Test rapid persona switching without race conditions
 
-# Test rapid persona switching without race conditions
+**Module:** Context Management · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that rapid persona switching does not cause race conditions or unexpected behavior
 
 ## Preconditions
 

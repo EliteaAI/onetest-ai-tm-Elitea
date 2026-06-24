@@ -1,23 +1,19 @@
 ---
 id: ELITEA-0019
-title: Verify API returns no description field for newly created users
+title: "Verify API returns no description field for newly created users"
 priority: critical
 type: functional
 module: api
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - api
-  - new-user
-  - schema-validation
-  - bug-env:next
-  - bug-env:dev
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, api, new-user, schema-validation, bug-env:next, bug-env:dev]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0019: Verify API returns no description field for newly created users
 
-# Verify API returns no description field for newly created users
+**Module:** API · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that API returns no description field for newly created users
 
 ## Preconditions
 

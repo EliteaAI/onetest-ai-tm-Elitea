@@ -9,6 +9,11 @@ execution_type: manual
 tags: [feat:personalization, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0005: Verify Bare option in Context Management USER INSTRUCTIONS dropdown
+
+**Module:** Context Management · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that the Bare option appears in Context Management modal's USER INSTRUCTIONS dropdown with correct description and persists when modal is reopened
 
 ## Preconditions
 

@@ -9,6 +9,11 @@ execution_type: manual
 tags: [feat:personalization, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0006: Create chat with Bare personality and verify raw model identity
+
+**Module:** Chat · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that chat with Bare personality returns raw model response without any EliteA branding or personality wrapper
 
 ## Preconditions
 

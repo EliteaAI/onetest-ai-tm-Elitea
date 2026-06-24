@@ -9,6 +9,11 @@ execution_type: manual
 tags: [feat:personalization, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0001: Verify Personalization page loads with Default Personality field
+
+**Module:** Personalization · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that the Personalization page loads correctly and displays the Default Personality field with proper UI elements
 
 ## Preconditions
 

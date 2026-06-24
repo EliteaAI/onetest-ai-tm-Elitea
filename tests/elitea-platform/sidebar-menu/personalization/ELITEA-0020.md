@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0020
-title: Verify personality dropdown displays all 7 options in correct order
+title: "Verify personality dropdown displays all 7 options in correct order"
 priority: high
 type: functional
 module: ui
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - ui
-  - dropdown
-  - display
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, ui, dropdown, display]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0020: Verify personality dropdown displays all 7 options in correct order
 
-# Verify personality dropdown displays all 7 options in correct order
+**Module:** UI · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that personality dropdown displays all 7 personality options in correct order
 
 ## Preconditions
 

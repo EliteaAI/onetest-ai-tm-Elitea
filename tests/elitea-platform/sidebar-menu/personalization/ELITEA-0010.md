@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0010
-title: Test Bare personality with custom JSON formatting instructions
+title: "Test Bare personality with custom JSON formatting instructions"
 priority: critical
 type: functional
 module: chat
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - bare-persona
-  - json-output
-  - custom-instructions
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, bare-persona, json-output, custom-instructions]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0010: Test Bare personality with custom JSON formatting instructions
 
-# Test Bare personality with custom JSON formatting instructions
+**Module:** Chat · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that Bare personality respects custom instructions for JSON formatting
 
 ## Preconditions
 

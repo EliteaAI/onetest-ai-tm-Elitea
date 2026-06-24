@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0027
-title: Verify each conversation can have independent persona setting
+title: "Verify each conversation can have independent persona setting"
 priority: high
 type: functional
 module: conversation
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - conversation
-  - independence
-  - multi-conversation
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, conversation, independence, multi-conversation]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0027: Verify each conversation can have independent persona setting
 
-# Verify each conversation can have independent persona setting
+**Module:** Conversation · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that each conversation can have independent persona settings without affecting other conversations
 
 ## Preconditions
 

@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0033
-title: Verify Default Personality persists across logout and login
+title: "Verify Default Personality persists across logout and login"
 priority: high
 type: functional
 module: settings
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - settings
-  - persistence
-  - session-management
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, settings, persistence, session-management]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0033: Verify Default Personality persists across logout and login
 
-# Verify Default Personality persists across logout and login
+**Module:** Settings · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that Default Personality setting persists correctly across logout and login
 
 ## Preconditions
 

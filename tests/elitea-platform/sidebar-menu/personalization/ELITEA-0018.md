@@ -1,23 +1,19 @@
 ---
 id: ELITEA-0018
-title: Verify API returns no legacy description field for existing users
+title: "Verify API returns no legacy description field for existing users"
 priority: critical
 type: functional
 module: api
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - api
-  - backwards-compatibility
-  - migration
-  - bug-env:next
-  - bug-env:dev
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, api, backwards-compatibility, migration, bug-env:next, bug-env:dev]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0018: Verify API returns no legacy description field for existing users
 
-# Verify API returns no legacy description field for existing users
+**Module:** API · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that API returns no legacy description field for existing users after migration
 
 ## Preconditions
 

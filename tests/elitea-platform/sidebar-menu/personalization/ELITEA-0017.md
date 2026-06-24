@@ -1,24 +1,19 @@
 ---
 id: ELITEA-0017
-title: Verify QA, Nerdy, Quirky, Cynical personalities unchanged
+title: "Verify QA, Nerdy, Quirky, Cynical personalities unchanged"
 priority: critical
 type: regression
 module: personalization
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - regression
-  - backwards-compatibility
-  - qa-persona
-  - nerdy-persona
-  - quirky-persona
-  - cynical-persona
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, regression, backwards-compatibility, qa-persona, nerdy-persona, quirky-persona, cynical-persona]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0017: Verify QA, Nerdy, Quirky, Cynical personalities unchanged
 
-# Verify QA, Nerdy, Quirky, Cynical personalities unchanged
+**Module:** Personalization · **Priority:** Critical · **Type:** Regression
+
+**Objective:** Verify that QA, Nerdy, Quirky, and Cynical personalities remain unchanged after Bare personality addition
 
 ## Preconditions
 

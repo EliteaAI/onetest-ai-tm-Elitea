@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0031
-title: Test Bare personality with custom instructions over 2000 characters
+title: "Test Bare personality with custom instructions over 2000 characters"
 priority: high
 type: functional
 module: chat
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - bare-persona
-  - edge-case
-  - limits
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, bare-persona, edge-case, limits]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0031: Test Bare personality with custom instructions over 2000 characters
 
-# Test Bare personality with custom instructions over 2000 characters
+**Module:** Chat · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that Bare personality handles custom instructions over 2000 characters correctly
 
 ## Preconditions
 

@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0028
-title: Verify changing Settings default doesn't modify existing conversation personas
+title: "Verify changing Settings default doesn't modify existing conversation personas"
 priority: high
 type: functional
 module: settings
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - settings
-  - backwards-compatibility
-  - existing-conversations
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, settings, backwards-compatibility, existing-conversations]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0028: Verify changing Settings default doesn't modify existing conversation personas
 
-# Verify changing Settings default doesn't modify existing conversation personas
+**Module:** Settings · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that changing default personality in Settings doesn't modify existing conversation personas
 
 ## Preconditions
 

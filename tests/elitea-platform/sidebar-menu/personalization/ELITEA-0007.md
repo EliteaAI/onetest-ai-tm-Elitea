@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0007
-title: Switch from Generic to Bare mid-conversation via Context Management
+title: "Switch from Generic to Bare mid-conversation via Context Management"
 priority: critical
 type: functional
 module: context-management
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - bare-persona
-  - context-management
-  - conversation
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, bare-persona, context-management, conversation]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0007: Switch from Generic to Bare mid-conversation via Context Management
 
-# Switch from Generic to Bare mid-conversation via Context Management
+**Module:** Context Management · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that users can switch conversation personality from Generic to Bare mid-conversation via Context Management modal
 
 ## Preconditions
 

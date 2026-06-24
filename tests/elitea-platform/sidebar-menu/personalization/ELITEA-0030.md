@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0030
-title: Test Bare personality with completely empty custom instructions
+title: "Test Bare personality with completely empty custom instructions"
 priority: high
 type: functional
 module: chat
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - bare-persona
-  - edge-case
-  - empty-input
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, bare-persona, edge-case, empty-input]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0030: Test Bare personality with completely empty custom instructions
 
-# Test Bare personality with completely empty custom instructions
+**Module:** Chat · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that Bare personality handles completely empty custom instructions correctly
 
 ## Preconditions
 

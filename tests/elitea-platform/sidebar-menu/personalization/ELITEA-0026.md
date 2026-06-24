@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0026
-title: Verify Default Personality from Settings applies to newly created chats
+title: "Verify Default Personality from Settings applies to newly created chats"
 priority: high
 type: functional
 module: settings
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - settings
-  - default-personality
-  - new-conversation
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, settings, default-personality, new-conversation]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0026: Verify Default Personality from Settings applies to newly created chats
 
-# Verify Default Personality from Settings applies to newly created chats
+**Module:** Settings · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that Default Personality from Settings applies correctly to newly created chats
 
 ## Preconditions
 

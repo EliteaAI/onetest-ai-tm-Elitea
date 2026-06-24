@@ -9,6 +9,11 @@ execution_type: manual
 tags: [feat:personalization, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0002: Verify Bare option appears in Default Personality dropdown
+
+**Module:** Personalization · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that the Bare personality option appears in the Default Personality dropdown with correct description and position
 
 ## Preconditions
 

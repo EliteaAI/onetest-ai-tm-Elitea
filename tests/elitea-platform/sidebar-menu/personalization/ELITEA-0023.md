@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0023
-title: Verify Context Management modal layout is correct with Bare persona
+title: "Verify Context Management modal layout is correct with Bare persona"
 priority: high
 type: functional
 module: ui
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - bare-persona
-  - ui
-  - layout
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, bare-persona, ui, layout]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0023: Verify Context Management modal layout is correct with Bare persona
 
-# Verify Context Management modal layout is correct with Bare persona
+**Module:** UI · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that Context Management modal layout displays correctly with Bare persona selected
 
 ## Preconditions
 

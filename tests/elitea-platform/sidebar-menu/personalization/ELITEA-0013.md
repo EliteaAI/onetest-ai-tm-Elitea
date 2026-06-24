@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0013
-title: Verify automatic summarization works with Bare personality
+title: "Verify automatic summarization works with Bare personality"
 priority: critical
 type: functional
 module: context-management
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - bare-persona
-  - summarization
-  - context-budget
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, bare-persona, summarization, context-budget]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0013: Verify automatic summarization works with Bare personality
 
-# Verify automatic summarization works with Bare personality
+**Module:** Context Management · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that automatic summarization functions correctly when using Bare personality
 
 ## Preconditions
 

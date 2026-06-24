@@ -9,6 +9,11 @@ execution_type: manual
 tags: [feat:personalization, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0004: Verify Context Management modal opens and displays Bare option
+
+**Module:** Context Management · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that the Context Management modal opens correctly and includes the Bare personality option in USER INSTRUCTIONS section
 
 ## Preconditions
 

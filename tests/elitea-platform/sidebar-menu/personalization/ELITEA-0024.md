@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0024
-title: Verify persona change in modal updates immediately without closing
+title: "Verify persona change in modal updates immediately without closing"
 priority: high
 type: functional
 module: ui
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - ui
-  - real-time-update
-  - modal
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, ui, real-time-update, modal]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0024: Verify persona change in modal updates immediately without closing
 
-# Verify persona change in modal updates immediately without closing
+**Module:** UI · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that persona changes in modal update immediately without requiring modal closure
 
 ## Preconditions
 

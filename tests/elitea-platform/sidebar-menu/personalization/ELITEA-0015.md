@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0015
-title: Verify Generic personality behavior is unchanged after Bare addition
+title: "Verify Generic personality behavior is unchanged after Bare addition"
 priority: critical
 type: regression
 module: personalization
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - generic-persona
-  - regression
-  - backwards-compatibility
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, generic-persona, regression, backwards-compatibility]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0015: Verify Generic personality behavior is unchanged after Bare addition
 
-# Verify Generic personality behavior is unchanged after Bare addition
+**Module:** Personalization · **Priority:** Critical · **Type:** Regression
+
+**Objective:** Verify that Generic personality behavior remains unchanged after Bare personality addition
 
 ## Preconditions
 

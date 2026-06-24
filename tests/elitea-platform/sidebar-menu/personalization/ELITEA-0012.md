@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0012
-title: Verify Context Budget widget tracks tokens correctly with Bare personality
+title: "Verify Context Budget widget tracks tokens correctly with Bare personality"
 priority: critical
 type: functional
 module: context-management
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - bare-persona
-  - context-budget
-  - tokens
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, bare-persona, context-budget, tokens]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0012: Verify Context Budget widget tracks tokens correctly with Bare personality
 
-# Verify Context Budget widget tracks tokens correctly with Bare personality
+**Module:** Context Management · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that Context Budget widget accurately tracks tokens when using Bare personality
 
 ## Preconditions
 

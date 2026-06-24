@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0016
-title: Verify None personality still falls back to DEFAULT_ASSISTANT
+title: "Verify None personality still falls back to DEFAULT_ASSISTANT"
 priority: critical
 type: regression
 module: personalization
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - none-persona
-  - regression
-  - fallback
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, none-persona, regression, fallback]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0016: Verify None personality still falls back to DEFAULT_ASSISTANT
 
-# Verify None personality still falls back to DEFAULT_ASSISTANT
+**Module:** Personalization · **Priority:** Critical · **Type:** Regression
+
+**Objective:** Verify that None personality correctly falls back to DEFAULT_ASSISTANT behavior
 
 ## Preconditions
 

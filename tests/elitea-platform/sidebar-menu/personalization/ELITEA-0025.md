@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0025
-title: Verify persona changes persist after closing Context Management modal
+title: "Verify persona changes persist after closing Context Management modal"
 priority: high
 type: functional
 module: context-management
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - persistence
-  - modal
-  - state-management
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, persistence, modal, state-management]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0025: Verify persona changes persist after closing Context Management modal
 
-# Verify persona changes persist after closing Context Management modal
+**Module:** Context Management · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that persona changes persist after closing Context Management modal
 
 ## Preconditions
 

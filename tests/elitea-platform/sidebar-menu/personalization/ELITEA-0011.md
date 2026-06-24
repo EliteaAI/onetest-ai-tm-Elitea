@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0011
-title: Test Bare personality with empty or no custom instructions
+title: "Test Bare personality with empty or no custom instructions"
 priority: critical
 type: functional
 module: chat
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - bare-persona
-  - edge-case
-  - custom-instructions
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, bare-persona, edge-case, custom-instructions]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0011: Test Bare personality with empty or no custom instructions
 
-# Test Bare personality with empty or no custom instructions
+**Module:** Chat · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that Bare personality behaves correctly with empty or no custom instructions
 
 ## Preconditions
 

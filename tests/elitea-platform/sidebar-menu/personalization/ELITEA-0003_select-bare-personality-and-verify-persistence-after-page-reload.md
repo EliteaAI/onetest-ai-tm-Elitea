@@ -9,6 +9,11 @@ execution_type: manual
 tags: [feat:personalization, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0003: Select Bare personality and verify persistence after page reload
+
+**Module:** Personalization · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that selecting Bare personality persists correctly after page reload with no errors
 
 ## Preconditions
 

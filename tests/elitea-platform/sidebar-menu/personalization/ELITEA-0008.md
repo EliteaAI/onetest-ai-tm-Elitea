@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0008
-title: Test Bare personality with Claude, GPT-4, and Gemini providers
+title: "Test Bare personality with Claude, GPT-4, and Gemini providers"
 priority: critical
 type: functional
 module: chat
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - bare-persona
-  - providers
-  - multi-provider
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, bare-persona, providers, multi-provider]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0008: Test Bare personality with Claude, GPT-4, and Gemini providers
 
-# Test Bare personality with Claude, GPT-4, and Gemini providers
+**Module:** Chat · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that Bare personality works consistently with Claude, GPT-4, and Gemini providers
 
 ## Preconditions
 

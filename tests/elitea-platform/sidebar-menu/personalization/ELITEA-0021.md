@@ -1,21 +1,19 @@
 ---
 id: ELITEA-0021
-title: Verify personality field info icon and tooltips work correctly
+title: "Verify personality field info icon and tooltips work correctly"
 priority: high
 type: functional
 module: ui
-status: approved
+status: draft
 execution_type: manual
-tags:
-  - personality
-  - ui
-  - tooltips
-  - accessibility
-requirements:
-  - "#5394"
+tags: [feat:personalization, r-2.0.4, personality, ui, tooltips, accessibility]
+requirements: [EliteaAI/elitea_issues#5264]
 ---
+# ELITEA-0021: Verify personality field info icon and tooltips work correctly
 
-# Verify personality field info icon and tooltips work correctly
+**Module:** UI · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that personality field info icon and tooltips display correctly and provide helpful information
 
 ## Preconditions
 
