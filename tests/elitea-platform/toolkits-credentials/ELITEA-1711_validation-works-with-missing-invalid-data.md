@@ -62,3 +62,6 @@ Form validation prevents submission of invalid or incomplete data with clear err
 - Error messages are unclear
 - Visual indicators are missing
 - Validation is inconsistent
+
+**Blocked** 
+Test connection is not yet implemented for this test case
