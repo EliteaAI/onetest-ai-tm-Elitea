@@ -9,6 +9,11 @@ execution_type: manual
 tags: [feat:pgvector, feat:toolkits, nfr:ui, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1696: Verify saved PGVector credentials are still displayed in the dropdown
+
+**Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that after removing creation options from the toolkit dropdown, all existing saved PGVector credentials remain visible and accessible under the "SAVED PGVECTOR CREDENTIALS" section.
 
 ## Preconditions
 

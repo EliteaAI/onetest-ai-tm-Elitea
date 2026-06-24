@@ -9,6 +9,11 @@ execution_type: manual
 tags: [feat:pgvector, feat:toolkits, nfr:ui, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1695: Verify "New pgvector configuration" option is removed from toolkit PGVector Configuration dropdown
+
+**Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that the "New pgvector configuration" creation option and any "CREATE" section have been completely removed from the toolkit PGVector Configuration dropdown, ensuring credential creation is only accessible via Settings.
 
 ## Preconditions
 

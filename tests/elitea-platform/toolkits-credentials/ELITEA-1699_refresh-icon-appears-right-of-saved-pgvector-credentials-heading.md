@@ -9,6 +9,11 @@ execution_type: manual
 tags: [feat:pgvector, feat:toolkits, nfr:ui, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1699: Verify refresh icon appears to the right of "SAVED PGVECTOR CREDENTIALS" heading
+
+**Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that the refresh icon (circular arrow) appears on the right side of the "SAVED PGVECTOR CREDENTIALS" heading without any "Refresh" text label, matching the reference design.
 
 ## Preconditions
 

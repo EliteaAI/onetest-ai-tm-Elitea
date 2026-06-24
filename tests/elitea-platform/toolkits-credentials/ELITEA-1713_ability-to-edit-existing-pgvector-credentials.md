@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:pgvector, feat:settings, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1713: Verify ability to edit existing PGVector credentials from Settings
+
+**Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that existing PGVector credentials can be edited from Settings with all fields pre-populated, changes save successfully, and persist correctly.
+
 
 ## Preconditions
 

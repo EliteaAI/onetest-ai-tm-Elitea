@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:embedding-models, feat:toolkits, nfr:ui, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1715: Verify "EMBEDDING MODELS" section heading is displayed in Embedding Model dropdown
+
+**Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that the "EMBEDDING MODELS" section heading is displayed in uppercase in the Embedding Model dropdown, matching the styling of the PGVector dropdown.
+
 
 ## Preconditions
 

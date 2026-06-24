@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:embedding-models, feat:toolkits, nfr:ui, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1716: Verify refresh icon appears to the right of "EMBEDDING MODELS" heading (icon only, no text)
+
+**Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that the refresh icon appears to the right of "EMBEDDING MODELS" heading with NO "Refresh" text label, matching the PGVector dropdown style exactly.
+
 
 ## Preconditions
 

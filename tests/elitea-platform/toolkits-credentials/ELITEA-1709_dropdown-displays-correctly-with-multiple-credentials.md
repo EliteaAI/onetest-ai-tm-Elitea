@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:pgvector, feat:toolkits, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1709: Verify dropdown displays correctly with multiple saved PGVector credentials (2+)
+
+**Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that the dropdown correctly displays and handles multiple PGVector credentials (3-5+) with proper layout, scrollability, and no visual overlap issues.
+
 
 ## Preconditions
 

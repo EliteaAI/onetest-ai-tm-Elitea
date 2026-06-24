@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:pgvector, feat:agents, feat:toolkits, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1717: Verify PGVector credential selection persists when saving agent/toolkit configuration
+
+**Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that PGVector credential selection persists correctly when saving agent configuration, surviving save/reload cycles without data loss.
+
 
 ## Preconditions
 

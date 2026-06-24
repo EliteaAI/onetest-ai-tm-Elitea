@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:pgvector, feat:toolkits, nfr:ui, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1707: Verify checkmark appears next to currently selected PGVector credential
+
+**Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that a checkmark icon appears next to the currently selected PGVector credential in the dropdown, with only one credential showing a checkmark at a time.
+
 
 ## Preconditions
 

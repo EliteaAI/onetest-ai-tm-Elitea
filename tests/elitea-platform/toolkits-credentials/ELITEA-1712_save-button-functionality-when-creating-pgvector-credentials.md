@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:pgvector, feat:settings, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1712: Verify "Save" button functionality when creating new PGVector credentials
+
+**Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that the Save button correctly enables/disables based on form validation state and successfully saves the PGVector credential when all required fields are valid.
+
 
 ## Preconditions
 

@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:pgvector, feat:toolkits, nfr:ui, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1708: Verify dropdown displays correctly when no saved credentials exist (empty state)
+
+**Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that the PGVector Configuration dropdown handles the empty state gracefully when no credentials exist, showing appropriate messaging without errors.
+
 
 ## Preconditions
 

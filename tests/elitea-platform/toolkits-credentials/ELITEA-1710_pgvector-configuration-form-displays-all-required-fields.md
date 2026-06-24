@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:pgvector, feat:settings, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1710: Verify PGVector configuration form displays all required fields correctly
+
+**Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that the PGVector configuration form in Settings displays all required fields (Configuration Name, Host, Port, Database, Username, Password) with proper labels and formatting.
+
 
 ## Preconditions
 

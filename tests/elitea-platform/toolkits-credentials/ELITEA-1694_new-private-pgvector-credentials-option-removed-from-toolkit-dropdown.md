@@ -9,6 +9,11 @@ execution_type: manual
 tags: [feat:pgvector, feat:toolkits, nfr:ui, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1694: Verify "New private pgvector credentials" option is removed from toolkit PGVector Configuration dropdown
+
+**Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that the "New private pgvector credentials" creation option has been removed from the toolkit-level PGVector Configuration dropdown as part of the UI simplification enhancement, ensuring users can only create credentials via Settings.
 
 ## Preconditions
 

@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:pgvector, feat:settings, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1711: Verify validation works when creating PGVector credentials with missing/invalid data
+
+**Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that form validation works correctly when creating PGVector credentials, rejecting empty required fields and invalid input formats with clear error messages.
+
 
 ## Preconditions
 

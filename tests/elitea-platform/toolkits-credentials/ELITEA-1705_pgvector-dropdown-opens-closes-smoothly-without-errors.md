@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:pgvector, feat:toolkits, nfr:ui, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1705: Verify dropdown opens/closes smoothly without errors
+
+**Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that the PGVector Configuration dropdown opens and closes smoothly without lag, flickering, or JavaScript errors through multiple open/close cycles.
+
 
 ## Preconditions
 

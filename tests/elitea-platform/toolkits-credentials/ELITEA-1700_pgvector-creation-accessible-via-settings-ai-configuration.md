@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:pgvector, feat:settings, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1700: Verify PGVector configuration creation is accessible via Settings → AI Configuration → New Integration
+
+**Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that PGVector credential creation functionality remains accessible through the Settings → AI Configuration → New Integration path after removal from toolkit dropdown.
+
 
 ## Preconditions
 

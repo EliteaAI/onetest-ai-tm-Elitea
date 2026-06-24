@@ -9,6 +9,11 @@ execution_type: manual
 tags: [feat:pgvector, feat:settings, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1702: Verify creating a new PGVector credential from Settings works successfully
+
+**Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that creating a new PGVector credential through Settings → AI Configuration → New Integration path works successfully with proper form validation and saves correctly.
 
 ## Preconditions
 

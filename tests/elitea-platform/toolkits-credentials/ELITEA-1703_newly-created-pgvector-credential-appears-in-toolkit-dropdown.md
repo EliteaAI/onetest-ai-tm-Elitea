@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:pgvector, feat:settings, feat:toolkits, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1703: Verify newly created PGVector credential from Settings appears in toolkit dropdown
+
+**Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that a PGVector credential created via Settings immediately appears in the toolkit PGVector Configuration dropdown without requiring page refresh.
+
 
 ## Preconditions
 

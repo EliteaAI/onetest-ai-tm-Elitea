@@ -9,6 +9,11 @@ execution_type: manual
 tags: [feat:pgvector, feat:toolkits, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1697: Verify selecting an existing saved PGVector credential from dropdown works correctly
+
+**Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that selecting a saved PGVector credential from the toolkit dropdown works correctly, the selection persists after saving, and is properly indicated with a checkmark.
 
 ## Preconditions
 

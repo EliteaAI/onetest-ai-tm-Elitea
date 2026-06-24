@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:pgvector, feat:settings, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1714: Verify ability to delete PGVector credentials from Settings
+
+**Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that PGVector credentials can be deleted from Settings with proper confirmation dialog, and deleted credentials no longer appear in toolkit dropdowns.
+
 
 ## Preconditions
 

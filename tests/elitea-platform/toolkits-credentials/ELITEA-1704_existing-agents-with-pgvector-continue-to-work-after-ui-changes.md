@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:pgvector, feat:agents, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1704: Verify existing agents configured with PGVector credentials continue to work after changes
+
+**Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that existing agents with PGVector configuration remain fully functional after the UI changes, with no data loss or need for reconfiguration (regression test).
+
 
 ## Preconditions
 

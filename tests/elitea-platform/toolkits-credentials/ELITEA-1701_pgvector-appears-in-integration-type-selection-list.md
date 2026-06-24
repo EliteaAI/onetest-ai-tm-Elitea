@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:pgvector, feat:settings, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1701: Verify "PgVector" appears in the integration type selection list (Settings → New Integration)
+
+**Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that "PgVector" is displayed as an available integration type in the Settings → AI Configuration → New Integration selection screen with appropriate icon and styling.
+
 
 ## Preconditions
 

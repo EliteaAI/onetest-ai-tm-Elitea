@@ -9,6 +9,11 @@ execution_type: manual
 tags: [feat:pgvector, feat:toolkits, nfr:ui, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1698: Verify "SAVED PGVECTOR CREDENTIALS" section heading is displayed correctly in dropdown
+
+**Module:** Toolkits Credentials · **Priority:** Critical · **Type:** Functional
+
+**Objective:** Verify that the "SAVED PGVECTOR CREDENTIALS" section heading is displayed in uppercase at the top of the PGVector Configuration dropdown with consistent styling matching the design system.
 
 ## Preconditions
 

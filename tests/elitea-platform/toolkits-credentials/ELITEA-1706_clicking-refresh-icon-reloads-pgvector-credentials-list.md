@@ -9,6 +9,12 @@ execution_type: manual
 tags: [feat:pgvector, feat:toolkits, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5356]
 ---
+# ELITEA-1706: Verify clicking refresh icon reloads PGVector credentials list
+
+**Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
+
+**Objective:** Verify that clicking the refresh icon to the right of "SAVED PGVECTOR CREDENTIALS" heading successfully reloads the credentials list with latest data without closing the dropdown.
+
 
 ## Preconditions
 
