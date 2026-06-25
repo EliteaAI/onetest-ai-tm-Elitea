@@ -5,7 +5,7 @@ priority: critical
 type: functional
 module: agents
 status: ready
-execution_type: automated
+execution_type: manual
 tags: [meta:reported-by-support, nfr:validation, nfr:usability, eng:frontend, feat:chat, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#4963]
 ---

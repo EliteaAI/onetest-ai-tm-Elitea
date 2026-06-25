@@ -8,8 +8,8 @@ status: ready
 execution_type: automated
 automation_test_id:
   - test_chat_interface.py:TestMessageActions.test_copy_message_to_clipboard
-test_chat_interface.py:TestMessageActions.test_delete_message
-test_chat_interface.py:TestConversationUIElements.test_clear_chat_history
+  - test_chat_interface.py:TestMessageActions.test_delete_message
+  - test_chat_interface.py:TestConversationUIElements.test_clear_chat_history
 tags: []
 requirements: []
 ---

@@ -7,9 +7,10 @@ module: toolkits-credentials
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_chat_interface.py:TestPageLoadAndRendering.test_chat_page_loads_successfully
-test_chat_interface.py:TestPageLoadAndRendering.test_message_input_is_functional
-test_chat_interface.py:TestPageLoadAndRendering.test_chat_message_history_displays
+  - test_chat_interface.py:test_chat_page_loads_with_functional_input
+  - test_chat_interface.py:test_chat_page_loads_successfully
+  - test_chat_interface.py:test_message_input_is_functional
+  - test_chat_interface.py:test_chat_message_history_displays
 tags: []
 requirements: []
 ---

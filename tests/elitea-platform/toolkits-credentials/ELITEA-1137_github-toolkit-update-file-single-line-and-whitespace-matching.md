@@ -5,7 +5,7 @@ priority: high
 type: functional
 module: toolkits-credentials
 status: draft
-execution_type: automated
+execution_type: manual
 tags: [backend, toolkit, github, sdk]
 requirements: []
 ---

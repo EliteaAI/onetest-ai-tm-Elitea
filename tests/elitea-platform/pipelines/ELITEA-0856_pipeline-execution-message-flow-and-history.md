@@ -7,11 +7,12 @@ module: pipelines
 status: ready
 execution_type: automated
 automation_test_id:
+  - test_pipeline_execution.py:TestExecutePipeline.test_message_count_starts_at_zero_and_grows
   - test_pipeline_execution.py:TestExecutePipeline.test_message_count_after_execution
-test_pipeline_execution.py:TestExecutePipeline.test_rerun_pipeline
-test_pipeline_execution.py:TestPipelineChatMessages.test_user_message_visible
-test_pipeline_execution.py:TestPipelineChatMessages.test_multiple_executions_accumulate
-test_pipeline_execution.py:TestPipelineExecutionEdgeCases.test_navigate_away_and_reexecute
+  - test_pipeline_execution.py:TestExecutePipeline.test_rerun_pipeline
+  - test_pipeline_execution.py:TestPipelineChatMessages.test_user_message_visible
+  - test_pipeline_execution.py:TestPipelineChatMessages.test_multiple_executions_accumulate
+  - test_pipeline_execution.py:TestPipelineExecutionEdgeCases.test_navigate_away_and_reexecute
 tags: []
 requirements: []
 ---

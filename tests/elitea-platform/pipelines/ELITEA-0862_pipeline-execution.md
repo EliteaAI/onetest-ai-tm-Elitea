@@ -8,9 +8,9 @@ status: ready
 execution_type: automated
 automation_test_id:
   - test_pipeline_execution.py:TestExecutePipeline.test_execute_simple_pipeline
-test_pipeline_execution.py:TestExecutePipeline.test_pipeline_response_is_meaningful
-test_pipeline_execution.py:TestExecutePipeline.test_rerun_pipeline
-test_pipeline_execution.py:TestPipelineChatMessages.test_user_message_visible
+  - test_pipeline_execution.py:TestExecutePipeline.test_pipeline_response_is_meaningful
+  - test_pipeline_execution.py:TestExecutePipeline.test_rerun_pipeline
+  - test_pipeline_execution.py:TestPipelineChatMessages.test_user_message_visible
 tags: []
 requirements: []
 ---

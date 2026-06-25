@@ -5,7 +5,9 @@ priority: high
 type: functional
 module: voice-configuration-settings
 status: ready
-execution_type: manual
+execution_type: automated
+automation_test_id:
+  - test_voice_configuration.py:TestVoiceConfiguration.test_voice_preview_personalization
 tags: [personalization, voice-settings, preview-voice, feat:voice, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5010]
 ---
