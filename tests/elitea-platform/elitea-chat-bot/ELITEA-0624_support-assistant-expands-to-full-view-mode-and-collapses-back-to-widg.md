@@ -5,7 +5,9 @@ priority: high
 type: functional
 module: elitea-chat-bot
 status: ready
-execution_type: manual
+execution_type: automated
+automation_test_id:
+  - test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_expand_collapse_fullview
 tags: [expand-collapse, display-modes, story:4774, full-view, r-2.0.3, widget]
 requirements: [4774]
 ---

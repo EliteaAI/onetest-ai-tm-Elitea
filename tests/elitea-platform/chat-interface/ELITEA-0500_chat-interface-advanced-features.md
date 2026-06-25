@@ -8,12 +8,13 @@ status: ready
 execution_type: automated
 automation_test_id:
   - test_chat_interface.py:TestContextAndSettings.test_model_settings_menu
-test_chat_interface.py:TestContextAndSettings.test_edit_context_settings
-test_chat_interface.py:TestConversationUIElements.test_attach_files_button_opens_picker
-test_chat_interface.py:TestSidebarNavigation.test_open_close_sidebar
-test_chat_interface.py:TestSidebarNavigation.test_navigate_to_agents_from_sidebar
-test_chat_interface.py:TestSearchAndErrorHandling.test_search_conversations_dialog
-test_chat_interface.py:TestSearchAndErrorHandling.test_handle_message_send_failure
+  - test_chat_interface.py:TestContextAndSettings.test_edit_context_settings
+  - test_chat_interface.py:TestConversationUIElements.test_attach_files_button_sends_file_with_message
+  - test_chat_interface.py:TestConversationUIElements.test_attach_files_button_opens_picker
+  - test_chat_interface.py:TestSidebarNavigation.test_open_close_sidebar
+  - test_chat_interface.py:TestSidebarNavigation.test_navigate_to_agents_from_sidebar
+  - test_chat_interface.py:TestSearchAndErrorHandling.test_search_conversations_dialog
+  - test_chat_interface.py:TestSearchAndErrorHandling.test_handle_message_send_failure
 tags: []
 requirements: []
 ---

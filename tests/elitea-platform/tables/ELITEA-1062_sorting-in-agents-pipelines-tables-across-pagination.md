@@ -5,7 +5,7 @@ priority: high
 type: functional
 module: tables
 status: draft
-execution_type: automated
+execution_type: manual
 tags: [pagination, pipelines, sorting, agents, ui]
 requirements: []
 ---

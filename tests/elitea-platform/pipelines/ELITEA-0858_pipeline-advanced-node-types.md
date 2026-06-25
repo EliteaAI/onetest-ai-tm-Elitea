@@ -8,12 +8,12 @@ status: ready
 execution_type: automated
 automation_test_id:
   - test_pipeline_advanced.py:TestAdditionalNodeTypes.test_add_decision_node
-test_pipeline_advanced.py:TestAdditionalNodeTypes.test_add_printer_node
-test_pipeline_advanced.py:TestAdditionalNodeTypes.test_add_router_node
-test_pipeline_advanced.py:TestMakeEntrypoint.test_make_node_entrypoint
-test_pipeline_advanced.py:TestMultiNodeTopology.test_save_multi_node_pipeline
-test_pipeline_advanced.py:TestMultiNodeTopology.test_three_node_chain
-test_pipeline_advanced.py:TestHistoryTab.test_history_tab_opens
+  - test_pipeline_advanced.py:TestAdditionalNodeTypes.test_add_printer_node
+  - test_pipeline_advanced.py:TestAdditionalNodeTypes.test_add_router_node
+  - test_pipeline_advanced.py:TestMakeEntrypoint.test_make_node_entrypoint
+  - test_pipeline_advanced.py:TestMultiNodeTopology.test_save_multi_node_pipeline
+  - test_pipeline_advanced.py:TestMultiNodeTopology.test_three_node_chain
+  - test_pipeline_advanced.py:TestHistoryTab.test_history_tab_opens
 tags: []
 requirements: []
 ---

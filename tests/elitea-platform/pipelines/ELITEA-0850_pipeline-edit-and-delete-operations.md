@@ -8,9 +8,9 @@ status: ready
 execution_type: automated
 automation_test_id:
   - test_pipeline_management.py:TestEditPipeline.test_edit_pipeline_name
-test_pipeline_management.py:TestEditPipeline.test_edit_pipeline_description
-test_pipeline_management.py:TestDeletePipeline.test_delete_pipeline_via_api
-test_pipeline_management.py:TestDeletePipeline.test_delete_pipeline_via_ui_menu
+  - test_pipeline_management.py:TestEditPipeline.test_edit_pipeline_description
+  - test_pipeline_management.py:TestDeletePipeline.test_delete_pipeline_via_api
+  - test_pipeline_management.py:TestDeletePipeline.test_delete_pipeline_via_ui_menu
 tags: []
 requirements: []
 ---

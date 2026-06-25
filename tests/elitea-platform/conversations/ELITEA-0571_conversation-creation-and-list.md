@@ -8,9 +8,9 @@ status: ready
 execution_type: automated
 automation_test_id:
   - test_conversation_management.py:TestCreateConversation.test_create_conversation_via_ui_button
-test_conversation_management.py:TestCreateConversation.test_create_conversation_via_api
-test_conversation_management.py:TestConversationList.test_conversation_appears_in_list
-test_conversation_management.py:TestConversationList.test_click_conversation_to_open
+  - test_conversation_management.py:TestCreateConversation.test_create_conversation_via_api
+  - test_conversation_management.py:TestConversationList.test_conversation_appears_in_list
+  - test_conversation_management.py:TestConversationList.test_click_conversation_to_open
 tags: []
 requirements: []
 ---

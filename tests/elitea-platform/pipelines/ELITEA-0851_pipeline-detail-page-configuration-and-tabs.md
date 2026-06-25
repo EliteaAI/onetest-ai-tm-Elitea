@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 automation_test_id:
   - test_pipeline_management.py:TestEditPipeline.test_pipeline_detail_page_loads
-test_pipeline_management.py:TestEditPipeline.test_pipeline_has_configuration_and_history_tabs
+  - test_pipeline_management.py:TestEditPipeline.test_pipeline_has_configuration_and_history_tabs
 tags: []
 requirements: []
 ---
