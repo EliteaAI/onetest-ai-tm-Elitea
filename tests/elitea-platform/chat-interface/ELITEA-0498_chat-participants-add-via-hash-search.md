@@ -7,6 +7,7 @@ module: chat-interface
 status: ready
 execution_type: automated
 automation_test_id:
+  - test_chat_interface.py:TestHashSearch.test_hash_search_participants
   - test_chat_interface.py:TestHashSearch.test_add_participant_via_hash_search
 tags: []
 requirements: []

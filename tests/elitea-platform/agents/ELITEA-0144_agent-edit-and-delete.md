@@ -8,9 +8,9 @@ status: ready
 execution_type: automated
 automation_test_id:
   - test_agent_management.py:TestAgentActions.test_edit_agent_name
-test_agent_management.py:TestAgentActions.test_edit_agent_description
-test_agent_management.py:TestAgentActions.test_delete_agent_via_api
-test_agent_management.py:TestAgentActions.test_delete_agent_via_ui_menu
+  - test_agent_management.py:TestAgentActions.test_edit_agent_description
+  - test_agent_management.py:TestAgentActions.test_delete_agent_via_api
+  - test_agent_management.py:TestAgentActions.test_delete_agent_via_ui_menu
 tags: []
 requirements: []
 ---

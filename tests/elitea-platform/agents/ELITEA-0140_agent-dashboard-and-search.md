@@ -8,9 +8,9 @@ status: ready
 execution_type: automated
 automation_test_id:
   - test_agent_management.py:TestAgentList.test_agents_dashboard_loads
-test_agent_management.py:TestAgentList.test_agent_search
-test_agent_management.py:TestAgentList.test_agent_search_no_results
-test_agent_management.py:TestAgentList.test_view_toggle_table_and_card
+  - test_agent_management.py:TestAgentList.test_agent_search
+  - test_agent_management.py:TestAgentList.test_agent_search_no_results
+  - test_agent_management.py:TestAgentList.test_view_toggle_table_and_card
 tags: []
 requirements: []
 ---

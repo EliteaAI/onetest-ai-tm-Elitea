@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 automation_test_id:
   - test_agent_management.py:TestAgentActions.test_edit_agent_name
-test_agent_management.py:TestAgentActions.test_edit_agent_description
+  - test_agent_management.py:TestAgentActions.test_edit_agent_description
 tags: []
 requirements: []
 ---

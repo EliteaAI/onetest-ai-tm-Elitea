@@ -8,13 +8,14 @@ status: ready
 execution_type: automated
 automation_test_id:
   - test_pipeline_nodes.py:TestAddNode.test_add_code_node
-test_pipeline_nodes.py:TestAddNode.test_add_llm_node
-test_pipeline_nodes.py:TestEditNode.test_edit_node_name
-test_pipeline_nodes.py:TestEditNode.test_node_default_name_matches_type
-test_pipeline_nodes.py:TestDeleteNode.test_delete_node_does_not_remove_end
-test_pipeline_nodes.py:TestDeleteNode.test_delete_node_via_menu
-test_pipeline_nodes.py:TestConnectNodes.test_connect_node_to_end
-test_pipeline_nodes.py:TestConnectNodes.test_connect_two_custom_nodes
+  - test_pipeline_nodes.py:TestAddNode.test_add_llm_node
+  - test_pipeline_nodes.py:TestEditNode.test_edit_node_name
+  - test_pipeline_nodes.py:TestEditNode.test_node_default_name_matches_type
+  - test_pipeline_nodes.py:TestDeleteNode.test_delete_node_does_not_remove_end
+  - test_pipeline_nodes.py:TestDeleteNode.test_delete_node_via_menu
+  - test_pipeline_nodes.py:TestConnectNodes.test_connect_node_to_end
+  - test_pipeline_nodes.py:TestConnectNodes.test_connect_two_custom_nodes
+  - test_pipeline_nodes.py:TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end
 tags: []
 requirements: []
 ---

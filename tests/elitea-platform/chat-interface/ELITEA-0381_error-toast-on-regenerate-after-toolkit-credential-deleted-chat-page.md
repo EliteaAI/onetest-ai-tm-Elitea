@@ -5,7 +5,7 @@ priority: critical
 type: functional
 module: chat-interface
 status: ready
-execution_type: automated
+execution_type: manual
 tags: [feat:chat, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#4721, https://github.com/EliteaAI/elitea-testing/pull/130]
 ---

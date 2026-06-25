@@ -5,7 +5,9 @@ priority: critical
 type: functional
 module: elitea-chat-bot
 status: ready
-execution_type: manual
+execution_type: automated
+automation_test_id:
+  - test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_launcher_visible_and_opens_widget
 tags: [open-close, story:4774, lifecycle, launcher, r-2.0.3, smoke]
 requirements: [4774]
 ---

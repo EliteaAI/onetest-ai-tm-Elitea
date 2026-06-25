@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 automation_test_id:
   - test_pipeline_advanced.py:TestActionsMenu.test_three_dot_menu_lists_items
-test_pipeline_advanced.py:TestActionsMenu.test_export_pipeline_if_available
+  - test_pipeline_advanced.py:TestActionsMenu.test_export_pipeline_if_available
 tags: []
 requirements: []
 ---

@@ -8,8 +8,8 @@ status: ready
 execution_type: automated
 automation_test_id:
   - test_export_import_prompts.py:TestExportImportRoundtrip.test_export_import_roundtrip_basic
-test_export_import_prompts.py:TestExportImportRoundtrip.test_export_import_preserves_all_fields
-test_export_import_prompts.py:TestExportImportConflicts.test_import_with_conflicting_name_creates_new
+  - test_export_import_prompts.py:TestExportImportRoundtrip.test_export_import_preserves_all_fields
+  - test_export_import_prompts.py:TestExportImportConflicts.test_import_with_conflicting_name_creates_new
 tags: []
 requirements: []
 ---

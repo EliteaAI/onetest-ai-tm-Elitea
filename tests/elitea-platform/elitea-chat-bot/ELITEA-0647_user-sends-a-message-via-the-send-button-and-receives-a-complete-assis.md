@@ -5,7 +5,9 @@ priority: critical
 type: functional
 module: elitea-chat-bot
 status: ready
-execution_type: manual
+execution_type: automated
+automation_test_id:
+  - test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_send_message_and_receive_response
 tags: [critical-path, send-receive, regression, R-2.0.3, smoke]
 requirements: [EliteaAI/elitea_issues#4775, EliteaAI/elitea_issues#4773]
 ---

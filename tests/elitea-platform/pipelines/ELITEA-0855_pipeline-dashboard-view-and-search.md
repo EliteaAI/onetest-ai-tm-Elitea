@@ -8,10 +8,10 @@ status: ready
 execution_type: automated
 automation_test_id:
   - test_pipeline_management.py:TestPipelineDashboard.test_pipeline_dashboard_loads
-test_pipeline_management.py:TestPipelineDashboard.test_pipeline_created_via_api_visible_in_dashboard
-test_pipeline_management.py:TestPipelineDashboard.test_view_toggle_table_and_card
-test_pipeline_management.py:TestSearchPipeline.test_search_pipeline_by_name
-test_pipeline_management.py:TestSearchPipeline.test_search_pipeline_no_results
+  - test_pipeline_management.py:TestPipelineDashboard.test_pipeline_created_via_api_visible_in_dashboard
+  - test_pipeline_management.py:TestPipelineDashboard.test_view_toggle_table_and_card
+  - test_pipeline_management.py:TestSearchPipeline.test_search_pipeline_by_name
+  - test_pipeline_management.py:TestSearchPipeline.test_search_pipeline_no_results
 tags: []
 requirements: []
 ---

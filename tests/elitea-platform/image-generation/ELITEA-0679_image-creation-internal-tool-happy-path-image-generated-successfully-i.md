@@ -5,7 +5,9 @@ priority: critical
 type: functional
 module: image-generation
 status: ready
-execution_type: manual
+execution_type: automated
+automation_test_id:
+  - test_image_creation.py:TestImageCreation.test_create_image
 tags: [feat:image-generation, feat:chat, r-2.0.3]
 requirements: []
 ---

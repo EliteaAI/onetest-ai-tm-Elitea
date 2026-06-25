@@ -8,9 +8,9 @@ status: ready
 execution_type: automated
 automation_test_id:
   - test_pipeline_advanced.py:TestYamlEditor.test_yaml_view_toggle
-test_pipeline_advanced.py:TestYamlEditor.test_yaml_content_reflects_pipeline
-test_pipeline_advanced.py:TestYamlEditor.test_flow_yaml_round_trip
-test_pipeline_advanced.py:TestDiscardChanges.test_discard_reverts_name_change
+  - test_pipeline_advanced.py:TestYamlEditor.test_yaml_content_reflects_pipeline
+  - test_pipeline_advanced.py:TestYamlEditor.test_flow_yaml_round_trip
+  - test_pipeline_advanced.py:TestDiscardChanges.test_discard_reverts_name_change
 tags: []
 requirements: []
 ---
