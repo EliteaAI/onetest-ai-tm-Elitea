@@ -1,4 +1,5 @@
 ---
+Deprecate
 id: ELITEA-1022
 title: "Tooltips for Bottom-Bar Items Appear on the Right Side [Parametrized]"
 priority: high
