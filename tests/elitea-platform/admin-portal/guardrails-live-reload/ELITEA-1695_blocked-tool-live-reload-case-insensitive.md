@@ -5,7 +5,7 @@ priority: critical
 type: functional
 module: admin-portal/guardrails
 status: ready
-execution_type: manual
+execution_type: automated
 tags: [user_story:5199, feat:guardrails, feat:admin-platform, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5199]
 ---
