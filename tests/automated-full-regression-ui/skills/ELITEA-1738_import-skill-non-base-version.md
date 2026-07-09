@@ -33,7 +33,6 @@ requirements: []
 | Initial skill version | base |
 | Additional version name | ver_1 |
 | Version to export | ver_1 |
-| Expected imported version | base |
 
 ---
 
@@ -42,7 +41,7 @@ requirements: []
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Create a Skill with a `base` version, modify the instructions, and save as a new version named `ver_1` | Skill has both `base` and `ver_1` versions saved successfully |
-| 2 | Switch to the `ver_1` version and export the Skill | A `.md` file is downloaded representing the `ver_1` version |
+| 2 | Switch to the `ver_1` version and export this version of the Skill | A `.md` file is downloaded representing the `ver_1` version |
 | 3 | Import the exported `.md` file via the Skills import feature | Import completes without errors; a new Skill entry appears in the Skills list |
 | 4 | Open the imported Skill and verify it has a `base` version created | The imported Skill shows a `base` version (not `ver_1`) |
 | 5 | Verify all fields (name, description, instructions, tags) are populated correctly | All fields match the content from the exported `ver_1` version |
