@@ -1,0 +1,983 @@
+{
+  "launch": {
+    "total": 139,
+    "passed": 128,
+    "failed": 2,
+    "skipped": 9
+  },
+  "items": [
+    {
+      "code_ref": "tests.ui.admin.test_guardrails_live_reload.TestBlockedToolkitLiveReload.test_blocked_toolkit_live_reload_case_insensitive",
+      "name": "test_blocked_toolkit_live_reload_case_insensitive",
+      "status": "passed",
+      "duration_ms": 68350,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.admin.test_guardrails_live_reload.TestBlockedToolLiveReload.test_blocked_tool_live_reload_case_insensitive",
+      "name": "test_blocked_tool_live_reload_case_insensitive",
+      "status": "passed",
+      "duration_ms": 56350,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.admin.test_guardrails_live_reload.TestSensitiveToolLiveReload.test_sensitive_tool_live_reload_case_insensitive",
+      "name": "test_sensitive_tool_live_reload_case_insensitive",
+      "status": "passed",
+      "duration_ms": 67736,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_counter_visible_and_updates_realtime",
+      "name": "test_welcome_message_counter_visible_and_updates_realtime",
+      "status": "passed",
+      "duration_ms": 9896,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_counter_turns_red_at_limit",
+      "name": "test_welcome_message_counter_turns_red_at_limit",
+      "status": "passed",
+      "duration_ms": 4841,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_fullscreen_counter_and_warning",
+      "name": "test_welcome_message_fullscreen_counter_and_warning",
+      "status": "passed",
+      "duration_ms": 37594,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_text_truncated_with_warning",
+      "name": "test_welcome_message_text_truncated_with_warning",
+      "status": "passed",
+      "duration_ms": 36942,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_counter_visible_and_updates",
+      "name": "test_conversation_starter_counter_visible_and_updates",
+      "status": "passed",
+      "duration_ms": 6752,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_counter_turns_red_at_limit",
+      "name": "test_conversation_starter_counter_turns_red_at_limit",
+      "status": "passed",
+      "duration_ms": 5896,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_fullscreen_counter_and_warning",
+      "name": "test_conversation_starter_fullscreen_counter_and_warning",
+      "status": "passed",
+      "duration_ms": 38266,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_text_truncated_with_warning",
+      "name": "test_conversation_starter_text_truncated_with_warning",
+      "status": "passed",
+      "duration_ms": 42573,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_multiple_conversation_starters_have_counters",
+      "name": "test_multiple_conversation_starters_have_counters",
+      "status": "passed",
+      "duration_ms": 6871,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_via_ui",
+      "name": "test_create_agent_via_ui",
+      "status": "passed",
+      "duration_ms": 19145,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_via_api_visible_in_ui",
+      "name": "test_create_agent_via_api_visible_in_ui",
+      "status": "passed",
+      "duration_ms": 3610,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_required_fields_validation",
+      "name": "test_create_agent_required_fields_validation",
+      "status": "passed",
+      "duration_ms": 12169,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_detail_page_loads",
+      "name": "test_agent_detail_page_loads",
+      "status": "passed",
+      "duration_ms": 4167,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_instructions_field",
+      "name": "test_agent_instructions_field",
+      "status": "passed",
+      "duration_ms": 4022,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_information_section",
+      "name": "test_agent_information_section",
+      "status": "passed",
+      "duration_ms": 4217,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_toolkits_section_visible",
+      "name": "test_agent_toolkits_section_visible",
+      "status": "passed",
+      "duration_ms": 5217,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_internal_tools_enum_usage",
+      "name": "test_internal_tools_enum_usage",
+      "status": "passed",
+      "duration_ms": 9324,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentList.test_agents_dashboard_loads",
+      "name": "test_agents_dashboard_loads",
+      "status": "passed",
+      "duration_ms": 3786,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentList.test_agent_search",
+      "name": "test_agent_search",
+      "status": "passed",
+      "duration_ms": 4778,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentList.test_agent_search_no_results",
+      "name": "test_agent_search_no_results",
+      "status": "passed",
+      "duration_ms": 7869,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentList.test_view_toggle_table_and_card",
+      "name": "test_view_toggle_table_and_card",
+      "status": "passed",
+      "duration_ms": 4285,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_name",
+      "name": "test_edit_agent_name",
+      "status": "passed",
+      "duration_ms": 8901,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_description",
+      "name": "test_edit_agent_description",
+      "status": "passed",
+      "duration_ms": 9593,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentActions.test_delete_agent_via_api",
+      "name": "test_delete_agent_via_api",
+      "status": "passed",
+      "duration_ms": 10171,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentActions.test_delete_agent_via_ui_menu",
+      "name": "test_delete_agent_via_ui_menu",
+      "status": "passed",
+      "duration_ms": 10754,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_with_github_toolkit.TestAddToolkitToAgent.test_add_toolkit_to_agent",
+      "name": "test_add_toolkit_to_agent",
+      "status": "passed",
+      "duration_ms": 32164,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_with_github_toolkit.TestRemoveToolkitFromAgent.test_remove_toolkit_from_agent",
+      "name": "test_remove_toolkit_from_agent",
+      "status": "passed",
+      "duration_ms": 14758,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_with_github_toolkit.TestChatWithAgentToolkit.test_agent_chat_with_github_toolkit",
+      "name": "test_agent_chat_with_github_toolkit",
+      "status": "passed",
+      "duration_ms": 48009,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_multi_file.TestArtifactMultiFileDownload.test_agent_creates_files_at_root_and_in_subfolder",
+      "name": "test_agent_creates_files_at_root_and_in_subfolder",
+      "status": "failed",
+      "duration_ms": 35566,
+      "failure_message": "AssertionError: Artifact file cards missing from chat response: ['report1.txt', 'report2.txt', 'report3.txt', 'a.txt', 'b.txt', 'c.txt']. Cards found: []. ELITEA-1327: all 6 files must appear as cards in the agent response immediately after creation.\nassert not ['report1.txt', 'report2.txt', 'report3.txt', 'a.txt', 'b.txt', 'c.txt'] tests/ui/artifacts/test_artifacts_multi_file.py:172: in test_agent_creates_files_at_root_and_in_subfolder\n    assert not missing_cards, (\nE   AssertionError: Artifact file cards missing from chat response: ['report1.txt', 'report2.txt', 'report3.txt', 'a.txt', 'b.txt', 'c.txt']. Cards found: []. ELITEA-1327: all 6 files must appear as cards in the agent response immediately after creation.\nE   assert not ['report1.txt', 'report2.txt', 'report3.txt', 'a.txt', 'b.txt', 'c.txt']"
+    },
+    {
+      "code_ref": "tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat",
+      "name": "test_agent_with_toolkit_executes_in_chat",
+      "status": "passed",
+      "duration_ms": 43589,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestPageLoadAndRendering.test_chat_page_loads_with_functional_input",
+      "name": "test_chat_page_loads_with_functional_input",
+      "status": "passed",
+      "duration_ms": 4132,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSendingMessages.test_send_text_message",
+      "name": "test_send_text_message",
+      "status": "passed",
+      "duration_ms": 4454,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSendingMessages.test_shift_enter_adds_new_line",
+      "name": "test_shift_enter_adds_new_line",
+      "status": "passed",
+      "duration_ms": 4378,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSendingMessages.test_cannot_send_empty_message",
+      "name": "test_cannot_send_empty_message",
+      "status": "passed",
+      "duration_ms": 3768,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestMessageActions.test_copy_message_to_clipboard",
+      "name": "test_copy_message_to_clipboard",
+      "status": "passed",
+      "duration_ms": 14007,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestMessageActions.test_delete_message",
+      "name": "test_delete_message",
+      "status": "passed",
+      "duration_ms": 12913,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_model_selector_opens_menu",
+      "name": "test_model_selector_opens_menu",
+      "status": "passed",
+      "duration_ms": 4278,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_sends_file_with_message",
+      "name": "test_attach_files_button_sends_file_with_message",
+      "status": "passed",
+      "duration_ms": 14693,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_internal_tools_panel_shows_all_tools",
+      "name": "test_internal_tools_panel_shows_all_tools",
+      "status": "passed",
+      "duration_ms": 4715,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestHashSearch.test_hash_search_participants",
+      "name": "test_hash_search_participants",
+      "status": "passed",
+      "duration_ms": 4755,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestHashSearch.test_add_participant_via_hash_search",
+      "name": "test_add_participant_via_hash_search",
+      "status": "passed",
+      "duration_ms": 5440,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestContextAndSettings.test_edit_context_settings",
+      "name": "test_edit_context_settings",
+      "status": "skipped",
+      "duration_ms": 9394,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_open_close_sidebar",
+      "name": "test_open_close_sidebar",
+      "status": "passed",
+      "duration_ms": 4957,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_navigate_to_agents_from_sidebar",
+      "name": "test_navigate_to_agents_from_sidebar",
+      "status": "passed",
+      "duration_ms": 4392,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSearchAndErrorHandling.test_search_conversations_dialog",
+      "name": "test_search_conversations_dialog",
+      "status": "failed",
+      "duration_ms": 9391,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 5000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=\"Search conversations\") to be visible tests/ui/chat/test_chat_interface.py:710: in test_search_conversations_dialog\n    chat.open_search_conversations()\npages/chat_page.py:959: in open_search_conversations\n    search_btn.wait_for(state=\"visible\", timeout=5000)\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20298: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:741: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:69: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:563: in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nE   playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 5000ms exceeded.\nE   Call log:\nE     - waiting for get_by_role(\"button\", name=\"Search conversations\") to be visible"
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSearchAndErrorHandling.test_handle_message_send_failure",
+      "name": "test_handle_message_send_failure",
+      "status": "passed",
+      "duration_ms": 19087,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[10k_tokens]",
+      "name": "test_context_budget_reflects_profile_max_tokens[10k_tokens]",
+      "status": "passed",
+      "duration_ms": 26160,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[32k_tokens]",
+      "name": "test_context_budget_reflects_profile_max_tokens[32k_tokens]",
+      "status": "passed",
+      "duration_ms": 26647,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestCreateConversation.test_create_conversation_via_ui_button",
+      "name": "test_create_conversation_via_ui_button",
+      "status": "passed",
+      "duration_ms": 5572,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestCreateConversation.test_create_conversation_via_api",
+      "name": "test_create_conversation_via_api",
+      "status": "passed",
+      "duration_ms": 4519,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestCreateConversation.test_new_conversation_default_settings",
+      "name": "test_new_conversation_default_settings",
+      "status": "passed",
+      "duration_ms": 4917,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationList.test_click_conversation_to_open",
+      "name": "test_click_conversation_to_open",
+      "status": "passed",
+      "duration_ms": 14217,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationList.test_search_conversations_button",
+      "name": "test_search_conversations_button",
+      "status": "passed",
+      "duration_ms": 4404,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationNavigation.test_navigate_between_conversations",
+      "name": "test_navigate_between_conversations",
+      "status": "passed",
+      "duration_ms": 15069,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationNavigation.test_send_message_persists_conversation",
+      "name": "test_send_message_persists_conversation",
+      "status": "passed",
+      "duration_ms": 10947,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationActions.test_rename_conversation_via_ui",
+      "name": "test_rename_conversation_via_ui",
+      "status": "passed",
+      "duration_ms": 18757,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_with_confirmation",
+      "name": "test_delete_conversation_with_confirmation",
+      "status": "passed",
+      "duration_ms": 20230,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_cancel",
+      "name": "test_delete_conversation_cancel",
+      "status": "passed",
+      "duration_ms": 14677,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationActions.test_multiple_conversations_listed",
+      "name": "test_multiple_conversations_listed",
+      "status": "passed",
+      "duration_ms": 14198,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationIsolation.test_fixture_creates_fresh_conversation",
+      "name": "test_fixture_creates_fresh_conversation",
+      "status": "passed",
+      "duration_ms": 3664,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationIsolation.test_fixture_cleanup_cycle",
+      "name": "test_fixture_cleanup_cycle",
+      "status": "passed",
+      "duration_ms": 495,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[detailed_description]",
+      "name": "test_create_image[detailed_description]",
+      "status": "passed",
+      "duration_ms": 56051,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[minimal_prompt]",
+      "name": "test_create_image[minimal_prompt]",
+      "status": "passed",
+      "duration_ms": 51576,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestYamlEditor.test_yaml_view_toggle",
+      "name": "test_yaml_view_toggle",
+      "status": "passed",
+      "duration_ms": 6259,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestYamlEditor.test_yaml_content_reflects_pipeline",
+      "name": "test_yaml_content_reflects_pipeline",
+      "status": "passed",
+      "duration_ms": 5372,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestYamlEditor.test_flow_yaml_round_trip",
+      "name": "test_flow_yaml_round_trip",
+      "status": "passed",
+      "duration_ms": 7924,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestDiscardChanges.test_discard_reverts_name_change",
+      "name": "test_discard_reverts_name_change",
+      "status": "passed",
+      "duration_ms": 6625,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestMakeEntrypoint.test_make_node_entrypoint",
+      "name": "test_make_node_entrypoint",
+      "status": "passed",
+      "duration_ms": 13096,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestActionsMenu.test_three_dot_menu_lists_items",
+      "name": "test_three_dot_menu_lists_items",
+      "status": "passed",
+      "duration_ms": 4784,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestActionsMenu.test_export_pipeline_if_available",
+      "name": "test_export_pipeline_if_available",
+      "status": "passed",
+      "duration_ms": 6254,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestMultiNodeTopology.test_three_node_chain",
+      "name": "test_three_node_chain",
+      "status": "passed",
+      "duration_ms": 12985,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestMultiNodeTopology.test_save_multi_node_pipeline",
+      "name": "test_save_multi_node_pipeline",
+      "status": "passed",
+      "duration_ms": 10615,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_pipeline_response_is_meaningful",
+      "name": "test_pipeline_response_is_meaningful",
+      "status": "passed",
+      "duration_ms": 12240,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_message_count_starts_at_zero_and_grows",
+      "name": "test_message_count_starts_at_zero_and_grows",
+      "status": "passed",
+      "duration_ms": 19881,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_execution.TestPipelineExecutionEdgeCases.test_empty_pipeline_execution",
+      "name": "test_empty_pipeline_execution",
+      "status": "passed",
+      "duration_ms": 10019,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_execution.TestPipelineExecutionEdgeCases.test_navigate_away_and_reexecute",
+      "name": "test_navigate_away_and_reexecute",
+      "status": "passed",
+      "duration_ms": 25674,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_user_message_visible",
+      "name": "test_user_message_visible",
+      "status": "passed",
+      "duration_ms": 12612,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_multiple_executions_accumulate",
+      "name": "test_multiple_executions_accumulate",
+      "status": "passed",
+      "duration_ms": 28235,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_pipeline_dashboard_loads",
+      "name": "test_pipeline_dashboard_loads",
+      "status": "passed",
+      "duration_ms": 3047,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_pipeline_created_via_api_visible_in_dashboard",
+      "name": "test_pipeline_created_via_api_visible_in_dashboard",
+      "status": "passed",
+      "duration_ms": 3315,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_view_toggle_table_and_card",
+      "name": "test_view_toggle_table_and_card",
+      "status": "passed",
+      "duration_ms": 4021,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestCreatePipeline.test_create_pipeline_via_ui",
+      "name": "test_create_pipeline_via_ui",
+      "status": "passed",
+      "duration_ms": 7637,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestCreatePipeline.test_create_pipeline_required_fields_validation",
+      "name": "test_create_pipeline_required_fields_validation",
+      "status": "passed",
+      "duration_ms": 5295,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_edit_pipeline_name",
+      "name": "test_edit_pipeline_name",
+      "status": "passed",
+      "duration_ms": 10721,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_edit_pipeline_description",
+      "name": "test_edit_pipeline_description",
+      "status": "passed",
+      "duration_ms": 10462,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_pipeline_detail_page_loads",
+      "name": "test_pipeline_detail_page_loads",
+      "status": "passed",
+      "duration_ms": 4113,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_pipeline_has_configuration_and_history_tabs",
+      "name": "test_pipeline_has_configuration_and_history_tabs",
+      "status": "passed",
+      "duration_ms": 3912,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_api",
+      "name": "test_delete_pipeline_via_api",
+      "status": "passed",
+      "duration_ms": 8920,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_ui_menu",
+      "name": "test_delete_pipeline_via_ui_menu",
+      "status": "passed",
+      "duration_ms": 11677,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestSearchPipeline.test_search_pipeline_by_name",
+      "name": "test_search_pipeline_by_name",
+      "status": "passed",
+      "duration_ms": 3787,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestSearchPipeline.test_search_pipeline_no_results",
+      "name": "test_search_pipeline_no_results",
+      "status": "passed",
+      "duration_ms": 6700,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestPipelineIsolation.test_fixture_creates_fresh_pipeline",
+      "name": "test_fixture_creates_fresh_pipeline",
+      "status": "passed",
+      "duration_ms": 4461,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestPipelineIsolation.test_fixture_cleanup_cycle",
+      "name": "test_fixture_cleanup_cycle",
+      "status": "passed",
+      "duration_ms": 387,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end",
+      "name": "test_add_human_in_the_loop_node_and_connect_to_end",
+      "status": "passed",
+      "duration_ms": 7770,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_management.TestCreateSkill.test_create_skill_and_verify_execution",
+      "name": "test_create_skill_and_verify_execution",
+      "status": "passed",
+      "duration_ms": 19296,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads",
+      "name": "test_page_loads",
+      "status": "passed",
+      "duration_ms": 3026,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible",
+      "name": "test_main_content_visible",
+      "status": "passed",
+      "duration_ms": 3131,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_launcher_visible_and_opens_widget",
+      "name": "test_launcher_visible_and_opens_widget",
+      "status": "passed",
+      "duration_ms": 3549,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_widget_state_persists_after_close_reopen",
+      "name": "test_widget_state_persists_after_close_reopen",
+      "status": "passed",
+      "duration_ms": 43404,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantMessaging.test_send_message_and_receive_response",
+      "name": "test_send_message_and_receive_response",
+      "status": "passed",
+      "duration_ms": 41614,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantNewSession.test_new_chat_creates_fresh_session",
+      "name": "test_new_chat_creates_fresh_session",
+      "status": "passed",
+      "duration_ms": 42768,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantHistory.test_history_restore_and_continue",
+      "name": "test_history_restore_and_continue",
+      "status": "passed",
+      "duration_ms": 85150,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantViewModes.test_expand_collapse_fullview",
+      "name": "test_expand_collapse_fullview",
+      "status": "passed",
+      "duration_ms": 6278,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantAttachments.test_attach_button_present_and_opens_picker",
+      "name": "test_attach_button_present_and_opens_picker",
+      "status": "passed",
+      "duration_ms": 3622,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_github_toolkit.TestCreateGitHubCredential.test_create_github_credential",
+      "name": "test_create_github_credential",
+      "status": "passed",
+      "duration_ms": 10394,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_github_toolkit.TestCreateGitHubToolkit.test_create_github_toolkit",
+      "name": "test_create_github_toolkit",
+      "status": "passed",
+      "duration_ms": 27388,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_github_toolkit.TestGitHubToolkitTestSettings.test_github_toolkit_test_settings",
+      "name": "test_github_toolkit_test_settings",
+      "status": "passed",
+      "duration_ms": 18726,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_github_toolkit.TestChatWithGitHubToolkit.test_chat_with_github_toolkit",
+      "name": "test_chat_with_github_toolkit",
+      "status": "passed",
+      "duration_ms": 27857,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e",
+      "name": "test_toolkit_credential_indicators_e2e",
+      "status": "passed",
+      "duration_ms": 23934,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestPipelineCredentialIndicators.test_pipeline_credential_indicators_e2e",
+      "name": "test_pipeline_credential_indicators_e2e",
+      "status": "passed",
+      "duration_ms": 23209,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestAgentCredentialIndicators.test_agent_credential_indicators_e2e",
+      "name": "test_agent_credential_indicators_e2e",
+      "status": "passed",
+      "duration_ms": 43391,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[github]",
+      "name": "test_create_credential[github]",
+      "status": "passed",
+      "duration_ms": 15098,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[jira]",
+      "name": "test_create_credential[jira]",
+      "status": "passed",
+      "duration_ms": 20228,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[gitlab]",
+      "name": "test_create_credential[gitlab]",
+      "status": "skipped",
+      "duration_ms": 385,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[bitbucket]",
+      "name": "test_create_credential[bitbucket]",
+      "status": "skipped",
+      "duration_ms": 312,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[confluence]",
+      "name": "test_create_credential[confluence]",
+      "status": "passed",
+      "duration_ms": 20572,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[github]",
+      "name": "test_create_toolkit[github]",
+      "status": "passed",
+      "duration_ms": 14787,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[jira]",
+      "name": "test_create_toolkit[jira]",
+      "status": "passed",
+      "duration_ms": 13520,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[gitlab]",
+      "name": "test_create_toolkit[gitlab]",
+      "status": "skipped",
+      "duration_ms": 376,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[bitbucket]",
+      "name": "test_create_toolkit[bitbucket]",
+      "status": "skipped",
+      "duration_ms": 336,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[confluence]",
+      "name": "test_create_toolkit[confluence]",
+      "status": "passed",
+      "duration_ms": 14757,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[github]",
+      "name": "test_toolkit_test_settings[github]",
+      "status": "passed",
+      "duration_ms": 15335,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[jira]",
+      "name": "test_toolkit_test_settings[jira]",
+      "status": "passed",
+      "duration_ms": 15866,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[gitlab]",
+      "name": "test_toolkit_test_settings[gitlab]",
+      "status": "skipped",
+      "duration_ms": 427,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[bitbucket]",
+      "name": "test_toolkit_test_settings[bitbucket]",
+      "status": "skipped",
+      "duration_ms": 305,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[confluence]",
+      "name": "test_toolkit_test_settings[confluence]",
+      "status": "passed",
+      "duration_ms": 15623,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[github]",
+      "name": "test_chat_with_toolkit[github]",
+      "status": "passed",
+      "duration_ms": 29096,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[jira]",
+      "name": "test_chat_with_toolkit[jira]",
+      "status": "passed",
+      "duration_ms": 25777,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[gitlab]",
+      "name": "test_chat_with_toolkit[gitlab]",
+      "status": "skipped",
+      "duration_ms": 539,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[bitbucket]",
+      "name": "test_chat_with_toolkit[bitbucket]",
+      "status": "skipped",
+      "duration_ms": 533,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[confluence]",
+      "name": "test_chat_with_toolkit[confluence]",
+      "status": "passed",
+      "duration_ms": 27750,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_selection_from_chat",
+      "name": "test_voice_selection_from_chat",
+      "status": "passed",
+      "duration_ms": 21120,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_speed_and_volume_controls",
+      "name": "test_speed_and_volume_controls",
+      "status": "passed",
+      "duration_ms": 26494,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_sync",
+      "name": "test_voice_settings_sync",
+      "status": "passed",
+      "duration_ms": 25444,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_preview_personalization",
+      "name": "test_voice_preview_personalization",
+      "status": "passed",
+      "duration_ms": 12077,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_not_visible_by_default",
+      "name": "test_voice_settings_not_visible_by_default",
+      "status": "passed",
+      "duration_ms": 13745,
+      "failure_message": ""
+    }
+  ]
+}
