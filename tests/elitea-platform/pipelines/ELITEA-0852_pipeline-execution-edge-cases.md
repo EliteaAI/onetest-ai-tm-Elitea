@@ -7,7 +7,7 @@ module: pipelines
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_pipeline_execution.py:TestPipelineExecutionEdgeCases.test_empty_pipeline_execution
+  - tests.ui.pipelines.test_pipeline_execution.TestPipelineExecutionEdgeCases.test_empty_pipeline_execution
 tags: []
 requirements: []
 ---

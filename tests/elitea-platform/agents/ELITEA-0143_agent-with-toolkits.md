@@ -7,10 +7,10 @@ module: agents
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_agent_with_github_toolkit.py:TestAddToolkitToAgent.test_add_toolkit_to_agent
-  - test_agent_with_github_toolkit.py:TestChatWithAgentToolkit.test_agent_chat_with_github_toolkit
-  - test_agent_with_github_toolkit.py:TestRemoveToolkitFromAgent.test_remove_toolkit_from_agent
-  - test_agent_with_toolkit_chat.py:TestAgentWithToolkitChat.test_agent_with_toolkit_executes_in_chat
+  - tests.ui.agents.test_agent_with_github_toolkit.TestAddToolkitToAgent.test_add_toolkit_to_agent
+  - tests.ui.agents.test_agent_with_github_toolkit.TestChatWithAgentToolkit.test_agent_chat_with_github_toolkit
+  - tests.ui.agents.test_agent_with_github_toolkit.TestRemoveToolkitFromAgent.test_remove_toolkit_from_agent
+  - tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat
 tags: []
 requirements: []
 ---

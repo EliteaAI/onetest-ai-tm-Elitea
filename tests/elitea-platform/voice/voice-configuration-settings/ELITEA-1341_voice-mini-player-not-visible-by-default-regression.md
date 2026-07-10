@@ -7,7 +7,7 @@ module: voice
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_voice_configuration.py:test_voice_settings_not_visible_by_default
+  - tests.ui.voice.test_voice_configuration.test_voice_settings_not_visible_by_default
 tags: []
 requirements: []
 ---

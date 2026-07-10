@@ -7,7 +7,7 @@ module: chat-interface
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_chat_interface.py:TestConversationUIElements.test_clear_chat_history
+  - tests.ui.chat.test_chat_interface.TestConversationUIElements.test_clear_chat_history
 tags: []
 requirements: []
 ---

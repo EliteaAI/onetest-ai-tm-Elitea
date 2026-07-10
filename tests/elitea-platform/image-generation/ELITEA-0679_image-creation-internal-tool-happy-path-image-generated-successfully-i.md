@@ -7,7 +7,7 @@ module: image-generation
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_image_creation.py:TestImageCreation.test_create_image
+  - tests.ui.chat.test_image_creation.TestImageCreation.test_create_image
 tags: [feat:image-generation, feat:chat, r-2.0.3]
 requirements: []
 ---

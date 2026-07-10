@@ -7,10 +7,10 @@ module: agents
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_agent_character_limits.py:TestWelcomeMessageCharacterLimit.test_welcome_message_counter_visible_and_updates_realtime
-  - test_agent_character_limits.py:TestWelcomeMessageCharacterLimit.test_welcome_message_fullscreen_counter_and_warning
-  - test_agent_character_limits.py:TestConversationStarterCharacterLimit.test_conversation_starter_counter_visible_and_updates
-  - test_agent_character_limits.py:TestConversationStarterCharacterLimit.test_conversation_starter_fullscreen_counter_and_warning
+  - tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_counter_visible_and_updates_realtime
+  - tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_fullscreen_counter_and_warning
+  - tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_counter_visible_and_updates
+  - tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_fullscreen_counter_and_warning
 tags: [meta:reported-by-support, nfr:validation, nfr:usability, eng:frontend, feat:chat, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#4963]
 ---

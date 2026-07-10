@@ -7,10 +7,10 @@ module: agents
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_agent_management.py:TestAgentList.test_agents_dashboard_loads
-  - test_agent_management.py:TestAgentList.test_agent_search
-  - test_agent_management.py:TestAgentList.test_agent_search_no_results
-  - test_agent_management.py:TestAgentList.test_view_toggle_table_and_card
+  - tests.ui.agents.test_agent_management.TestAgentList.test_agents_dashboard_loads
+  - tests.ui.agents.test_agent_management.TestAgentList.test_agent_search
+  - tests.ui.agents.test_agent_management.TestAgentList.test_agent_search_no_results
+  - tests.ui.agents.test_agent_management.TestAgentList.test_view_toggle_table_and_card
 tags: []
 requirements: []
 ---

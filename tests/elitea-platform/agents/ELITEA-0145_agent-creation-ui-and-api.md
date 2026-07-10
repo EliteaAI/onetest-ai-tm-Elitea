@@ -7,9 +7,9 @@ module: agents
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_agent_management.py:TestCreateAgent.test_create_agent_via_ui
-  - test_agent_management.py:TestCreateAgent.test_create_agent_via_api_visible_in_ui
-  - test_agent_management.py:TestCreateAgent.test_create_agent_required_fields_validation
+  - tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_via_ui
+  - tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_via_api_visible_in_ui
+  - tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_required_fields_validation
 tags: []
 requirements: []
 ---

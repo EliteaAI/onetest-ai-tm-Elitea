@@ -7,8 +7,8 @@ module: elitea-chat-bot
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_widget_state_persists_after_close_reopen
-  - test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_history_restore_and_continue
+  - tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantSmoke.test_widget_state_persists_after_close_reopen
+  - tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantSmoke.test_history_restore_and_continue
 tags: [session-continuity, state-persistence, open-close, R-2.0.3]
 requirements: [EliteaAI/elitea_issues#4775, EliteaAI/elitea_issues#4774]
 ---

@@ -7,7 +7,7 @@ module: credential-actions-and-status-indicators
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_toolkit_indicators_for_credentials.py:TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e
+  - tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e
 tags: []
 requirements: [EliteaAI/elitea_issues#4906, EliteaAI/elitea_issues#5114]
 ---

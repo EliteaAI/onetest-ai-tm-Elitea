@@ -7,15 +7,15 @@ module: agents
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_export_import_prompts.py:TestExportImportRoundtrip.test_export_import_roundtrip_basic
-  - test_export_import_prompts.py:TestExportImportRoundtrip.test_export_import_preserves_all_fields
-  - test_export_import_prompts.py:TestExportImportRoundtrip.test_export_format_is_valid_yaml_frontmatter
-  - test_export_import_prompts.py:TestExportImportConflicts.test_import_preserves_original_when_conflict
-  - test_export_import_prompts.py:TestExportImportConflicts.test_import_with_conflicting_name_creates_new
-  - test_export_import_prompts.py:TestExportImportEdgeCases.test_export_import_empty_optional_fields
-  - test_export_import_prompts.py:TestExportImportEdgeCases.test_export_import_special_characters_in_name
-  - test_export_import_prompts.py:TestExportImportEdgeCases.test_export_import_large_instructions
-  - test_export_import_prompts.py:TestExportImportEdgeCases.test_import_via_constructed_payload
+  - tests.ui.agents.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_roundtrip_basic
+  - tests.ui.agents.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_preserves_all_fields
+  - tests.ui.agents.test_export_import_prompts.TestExportImportRoundtrip.test_export_format_is_valid_yaml_frontmatter
+  - tests.ui.agents.test_export_import_prompts.TestExportImportConflicts.test_import_preserves_original_when_conflict
+  - tests.ui.agents.test_export_import_prompts.TestExportImportConflicts.test_import_with_conflicting_name_creates_new
+  - tests.ui.agents.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_empty_optional_fields
+  - tests.ui.agents.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_special_characters_in_name
+  - tests.ui.agents.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_large_instructions
+  - tests.ui.agents.test_export_import_prompts.TestExportImportEdgeCases.test_import_via_constructed_payload
 tags: []
 requirements: []
 ---

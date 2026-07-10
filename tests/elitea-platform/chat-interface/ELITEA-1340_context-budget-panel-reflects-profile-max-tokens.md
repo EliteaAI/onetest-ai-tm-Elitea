@@ -7,7 +7,7 @@ module: chat-interface
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_context_management.py:test_context_budget_reflects_profile_max_tokens
+  - tests.ui.chat.test_context_management.test_context_budget_reflects_profile_max_tokens
 tags: []
 requirements: []
 ---

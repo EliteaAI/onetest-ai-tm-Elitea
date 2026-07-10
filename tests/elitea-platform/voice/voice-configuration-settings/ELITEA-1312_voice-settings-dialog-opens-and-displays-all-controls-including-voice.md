@@ -7,7 +7,7 @@ module: voice-configuration-settings
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_voice_configuration.py:TestVoiceConfiguration.test_voice_selection_from_chat
+  - tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_selection_from_chat
 tags: [voice-selection, voice-settings, feat:voice, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5010]
 ---

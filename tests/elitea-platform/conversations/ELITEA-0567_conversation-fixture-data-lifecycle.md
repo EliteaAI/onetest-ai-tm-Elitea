@@ -7,8 +7,8 @@ module: conversations
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_conversation_management.py:TestConversationIsolation.test_fixture_creates_fresh_conversation
-test_conversation_management.py:TestConversationIsolation.test_fixture_cleanup_cycle
+  - tests.ui.chat.test_conversation_management.TestConversationIsolation.test_fixture_creates_fresh_conversation
+  - tests.ui.chat.test_conversation_management.TestConversationIsolation.test_fixture_cleanup_cycle
 tags: []
 requirements: []
 ---
