@@ -1,7 +1,15 @@
 {
-  "matched": [],
-  "unmatched_refs": [
-    "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible",
-    "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads"
-  ]
+  "matched": [
+    {
+      "case_id": "ELITEA-1052",
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1052",
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible",
+      "status": "passed"
+    }
+  ],
+  "unmatched_refs": []
 }
