@@ -4,8 +4,9 @@ title: "Import Skill (Base Version)"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.skills.test_skill_export_import.TestSkillExportImport.test_export_and_import_skill_base_version
 tags: [automated:UI:regression, feat:skills]
 requirements: []
 ---
