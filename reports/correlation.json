@@ -1,26 +1,7 @@
 {
-  "matched": [
-    {
-      "case_id": "ELITEA-0001",
-      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_toolkits_section_visible",
-      "status": "passed"
-    }
-  ],
+  "matched": [],
   "unmatched_refs": [
-    "tests.ui.agents.test_agent_management.TestAgentActions.test_delete_agent_via_api",
-    "tests.ui.agents.test_agent_management.TestAgentActions.test_delete_agent_via_ui_menu",
-    "tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_description",
-    "tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_name",
-    "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_detail_page_loads",
-    "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_information_section",
-    "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_instructions_field",
-    "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_internal_tools_enum_usage",
-    "tests.ui.agents.test_agent_management.TestAgentList.test_agent_search",
-    "tests.ui.agents.test_agent_management.TestAgentList.test_agent_search_no_results",
-    "tests.ui.agents.test_agent_management.TestAgentList.test_agents_dashboard_loads",
-    "tests.ui.agents.test_agent_management.TestAgentList.test_view_toggle_table_and_card",
-    "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_required_fields_validation",
-    "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_via_api_visible_in_ui",
-    "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_via_ui"
+    "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible",
+    "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads"
   ]
 }
