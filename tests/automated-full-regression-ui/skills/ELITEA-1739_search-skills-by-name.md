@@ -5,8 +5,7 @@ priority: medium
 type: functional
 module: skills
 status: draft
-execution_type: automated
-automation_test_id: bermudas/EliteaPlaywrightAutomation/tests/skills.spec.ts::ELITEA-1739: search skills by name
+execution_type: manual
 tags: [automated:UI:regression, feat:skills]
 requirements: []
 ---
