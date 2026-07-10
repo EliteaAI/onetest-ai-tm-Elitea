@@ -5,7 +5,8 @@ priority: medium
 type: functional
 module: skills
 status: draft
-execution_type: manual
+execution_type: automated
+automation_test_id: bermudas/EliteaPlaywrightAutomation/tests/skills.spec.ts::ELITEA-1739: search skills by name
 tags: [automated:UI:regression, feat:skills]
 requirements: []
 ---
@@ -67,3 +68,4 @@ The Skills list search correctly filters by name with partial and exact match su
 **Fail:**
 - Any step produces an error or unexpected result.
 - Search returns incorrect results, does not filter the list, fails to show empty state, or does not restore the full list after clearing.
+
