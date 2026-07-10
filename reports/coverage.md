@@ -4,20 +4,20 @@
 
 | Metric | Count |
 |--------|-------|
-| Total test cases | 1790 |
-| Marked automated | 396 |
-| ✅ Linked to CI results | 44 |
-| 🟧 No automation ref set | 325 |
-| 🟥 Automation gap (ref, no CI match) | 27 |
-| Automation gap % | 6.8% |
+| Total test cases | 1749 |
+| Marked automated | 393 |
+| ✅ Linked to CI results | 0 |
+| 🟧 No automation ref set | 322 |
+| 🟥 Automation gap (ref, no CI match) | 71 |
+| Automation gap % | 18.1% |
 
 ## Coverage by priority
 
 | Priority | Total | Automated | Gap % |
 |----------|-------|-----------|-------|
-| critical | 464 | 64 | 86.2% |
-| high | 887 | 205 | 76.9% |
-| medium | 435 | 127 | 70.8% |
+| critical | 449 | 61 | 86.4% |
+| high | 869 | 205 | 76.4% |
+| medium | 427 | 127 | 70.3% |
 | low | 4 | 0 | 100.0% |
 
 > 🟥 gaps = cases marked automated with an `automation_test_id` that matched no CI `code_ref`. Fix the ref, or revert to manual.
