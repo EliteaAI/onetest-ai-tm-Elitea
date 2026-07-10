@@ -7,7 +7,7 @@ module: agents
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_agent_character_limits.py:TestConversationStarterCharacterLimit.test_multiple_conversation_starters_have_counters
+  - tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_multiple_conversation_starters_have_counters
 tags: [meta:reported-by-support, nfr:validation, nfr:usability, eng:frontend, feat:chat, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#4963]
 ---

@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: draft
 execution_type: automated
 automation_test_id:
-  - test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_attach_button_present_and_opens_picker
+  - tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantSmoke.test_attach_button_present_and_opens_picker
 tags: [user_story:4777, r-2.0.3, 4777]
 requirements: [EliteaAI/elitea_issues#4777]
 ---

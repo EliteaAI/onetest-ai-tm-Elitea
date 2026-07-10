@@ -915,6 +915,132 @@
       "path": "tests/pipeline-nodes/ELITEA-1362_hitl-node-input-field-tooltip-text-is-correct-and-functional.md"
     },
     {
+      "id": "ELITEA-1735",
+      "title": "Interact with Skills from Agent",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-1735_interact-with-skills-from-agent.md"
+    },
+    {
+      "id": "ELITEA-1736",
+      "title": "Interact with Skills from Conversation",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-1736_interact-with-skills-from-conversation.md"
+    },
+    {
+      "id": "ELITEA-1737",
+      "title": "Import Skill (Base Version)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-1737_import-skill-base-version.md"
+    },
+    {
+      "id": "ELITEA-1738",
+      "title": "Import Skill Non-Base Version",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-1738_import-skill-non-base-version.md"
+    },
+    {
+      "id": "ELITEA-1739",
+      "title": "Search Skills by Name",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-1739_search-skills-by-name.md"
+    },
+    {
+      "id": "ELITEA-1740",
+      "title": "Search Skills by Tag",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "search-and-tag-filtering",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:search"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-1740_search-skills-by-tag.md"
+    },
+    {
       "id": "ELITEA-1363",
       "title": "[Swarm Mode + HITL] All HITL Routes (Approve / Reject / Edit) Are Functional When Swarm Mode Is Enabled",
       "status": "ready",
@@ -15476,8 +15602,8 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_chat_interface.py:TestHashSearch.test_hash_search_participants",
-        "test_chat_interface.py:TestHashSearch.test_add_participant_via_hash_search"
+        "tests.ui.chat.test_chat_interface.TestHashSearch.test_hash_search_participants",
+        "tests.ui.chat.test_chat_interface.TestHashSearch.test_add_participant_via_hash_search"
       ],
       "targets": [],
       "dependencies": [],
@@ -15497,7 +15623,7 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_chat_interface.py:TestConversationUIElements.test_clear_chat_history"
+        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_clear_chat_history"
       ],
       "targets": [],
       "dependencies": [],
@@ -15517,14 +15643,14 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_chat_interface.py:TestContextAndSettings.test_model_settings_menu",
-        "test_chat_interface.py:TestContextAndSettings.test_edit_context_settings",
-        "test_chat_interface.py:TestConversationUIElements.test_attach_files_button_sends_file_with_message",
-        "test_chat_interface.py:TestConversationUIElements.test_attach_files_button_opens_picker",
-        "test_chat_interface.py:TestSidebarNavigation.test_open_close_sidebar",
-        "test_chat_interface.py:TestSidebarNavigation.test_navigate_to_agents_from_sidebar",
-        "test_chat_interface.py:TestSearchAndErrorHandling.test_search_conversations_dialog",
-        "test_chat_interface.py:TestSearchAndErrorHandling.test_handle_message_send_failure"
+        "tests.ui.chat.test_chat_interface.TestContextAndSettings.test_model_settings_menu",
+        "tests.ui.chat.test_chat_interface.TestContextAndSettings.test_edit_context_settings",
+        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_sends_file_with_message",
+        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_opens_picker",
+        "tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_open_close_sidebar",
+        "tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_navigate_to_agents_from_sidebar",
+        "tests.ui.chat.test_chat_interface.TestSearchAndErrorHandling.test_search_conversations_dialog",
+        "tests.ui.chat.test_chat_interface.TestSearchAndErrorHandling.test_handle_message_send_failure"
       ],
       "targets": [],
       "dependencies": [],
@@ -15544,12 +15670,12 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_chat_interface.py:TestConversationUIElements.test_model_selector_opens_menu",
-        "test_chat_interface.py:TestConversationUIElements.test_model_selector_functional",
-        "test_chat_interface.py:TestConversationUIElements.test_internal_tools_panel_shows_all_tools",
-        "test_chat_interface.py:TestConversationUIElements.test_internal_tools_toggle",
-        "test_chat_interface.py:TestHashSearch.test_hash_search_participants",
-        "test_chat_interface.py:TestHashSearch.test_add_participant_via_hash_search"
+        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_model_selector_opens_menu",
+        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_model_selector_functional",
+        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_internal_tools_panel_shows_all_tools",
+        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_internal_tools_toggle",
+        "tests.ui.chat.test_chat_interface.TestHashSearch.test_hash_search_participants",
+        "tests.ui.chat.test_chat_interface.TestHashSearch.test_add_participant_via_hash_search"
       ],
       "targets": [],
       "dependencies": [],
@@ -15569,9 +15695,9 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_chat_interface.py:TestMessageActions.test_copy_message_to_clipboard",
-        "test_chat_interface.py:TestMessageActions.test_delete_message",
-        "test_chat_interface.py:TestConversationUIElements.test_clear_chat_history"
+        "tests.ui.chat.test_chat_interface.TestMessageActions.test_copy_message_to_clipboard",
+        "tests.ui.chat.test_chat_interface.TestMessageActions.test_delete_message",
+        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_clear_chat_history"
       ],
       "targets": [],
       "dependencies": [],
@@ -15591,10 +15717,10 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_chat_interface.py:TestSendingMessages.test_send_text_message",
-        "test_chat_interface.py:TestSendingMessages.test_send_message_with_enter_key",
-        "test_chat_interface.py:TestSendingMessages.test_shift_enter_adds_new_line",
-        "test_chat_interface.py:TestSendingMessages.test_cannot_send_empty_message"
+        "tests.ui.chat.test_chat_interface.TestSendingMessages.test_send_text_message",
+        "tests.ui.chat.test_chat_interface.TestSendingMessages.test_send_message_with_enter_key",
+        "tests.ui.chat.test_chat_interface.TestSendingMessages.test_shift_enter_adds_new_line",
+        "tests.ui.chat.test_chat_interface.TestSendingMessages.test_cannot_send_empty_message"
       ],
       "targets": [],
       "dependencies": [],
@@ -15614,7 +15740,7 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_context_management.py:test_context_budget_reflects_profile_max_tokens"
+        "tests.ui.chat.test_context_management.test_context_budget_reflects_profile_max_tokens"
       ],
       "targets": [],
       "dependencies": [],
@@ -17239,7 +17365,7 @@
         "EliteaAI/elitea_issues#4777"
       ],
       "automation_test_id": [
-        "test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_attach_button_present_and_opens_picker"
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantSmoke.test_attach_button_present_and_opens_picker"
       ],
       "targets": [],
       "dependencies": [],
@@ -18409,7 +18535,7 @@
         "4774"
       ],
       "automation_test_id": [
-        "test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_expand_collapse_fullview"
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantSmoke.test_expand_collapse_fullview"
       ],
       "targets": [],
       "dependencies": [],
@@ -18438,7 +18564,7 @@
         "4774"
       ],
       "automation_test_id": [
-        "test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_launcher_visible_and_opens_widget"
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantSmoke.test_launcher_visible_and_opens_widget"
       ],
       "targets": [],
       "dependencies": [],
@@ -18468,7 +18594,7 @@
         "4773"
       ],
       "automation_test_id": [
-        "test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_launcher_visible_and_opens_widget"
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantSmoke.test_launcher_visible_and_opens_widget"
       ],
       "targets": [],
       "dependencies": [],
@@ -18844,8 +18970,8 @@
         "EliteaAI/elitea_issues#4775"
       ],
       "automation_test_id": [
-        "test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_new_chat_creates_fresh_session",
-        "test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_history_restore_and_continue"
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantSmoke.test_new_chat_creates_fresh_session",
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantSmoke.test_history_restore_and_continue"
       ],
       "targets": [],
       "dependencies": [],
@@ -18898,8 +19024,8 @@
         "EliteaAI/elitea_issues#4774"
       ],
       "automation_test_id": [
-        "test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_widget_state_persists_after_close_reopen",
-        "test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_history_restore_and_continue"
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantSmoke.test_widget_state_persists_after_close_reopen",
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantSmoke.test_history_restore_and_continue"
       ],
       "targets": [],
       "dependencies": [],
@@ -19004,7 +19130,7 @@
         "EliteaAI/elitea_issues#4773"
       ],
       "automation_test_id": [
-        "test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_send_message_and_receive_response"
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantSmoke.test_send_message_and_receive_response"
       ],
       "targets": [],
       "dependencies": [],
@@ -19080,7 +19206,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "test_image_creation.py:TestImageCreation.test_create_image"
+        "tests.ui.chat.test_image_creation.TestImageCreation.test_create_image"
       ],
       "targets": [],
       "dependencies": [],
@@ -21900,10 +22026,10 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_toolkit_parameterized.py:test_create_credential",
-        "test_toolkit_parameterized.py:test_create_toolkit",
-        "test_toolkit_parameterized.py:test_toolkit_test_settings",
-        "test_toolkit_parameterized.py:test_chat_with_toolkit"
+        "tests.ui.toolkits.test_toolkit_parameterized.test_create_credential",
+        "tests.ui.toolkits.test_toolkit_parameterized.test_create_toolkit",
+        "tests.ui.toolkits.test_toolkit_parameterized.test_toolkit_test_settings",
+        "tests.ui.toolkits.test_toolkit_parameterized.test_chat_with_toolkit"
       ],
       "targets": [],
       "dependencies": [],
@@ -21923,10 +22049,10 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_github_toolkit.py:test_create_github_credential",
-        "test_github_toolkit.py:test_create_github_toolkit",
-        "test_github_toolkit.py:test_github_toolkit_test_settings",
-        "test_github_toolkit.py:test_chat_with_github_toolkit"
+        "tests.ui.toolkits.test_github_toolkit.test_create_github_credential",
+        "tests.ui.toolkits.test_github_toolkit.test_create_github_toolkit",
+        "tests.ui.toolkits.test_github_toolkit.test_github_toolkit_test_settings",
+        "tests.ui.toolkits.test_github_toolkit.test_chat_with_github_toolkit"
       ],
       "targets": [],
       "dependencies": [],
@@ -21946,10 +22072,10 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_chat_interface.py:test_chat_page_loads_with_functional_input",
-        "test_chat_interface.py:test_chat_page_loads_successfully",
-        "test_chat_interface.py:test_message_input_is_functional",
-        "test_chat_interface.py:test_chat_message_history_displays"
+        "tests.ui.chat.test_chat_interface.test_chat_page_loads_with_functional_input",
+        "tests.ui.chat.test_chat_interface.test_chat_page_loads_successfully",
+        "tests.ui.chat.test_chat_interface.test_message_input_is_functional",
+        "tests.ui.chat.test_chat_interface.test_chat_message_history_displays"
       ],
       "targets": [],
       "dependencies": [],
@@ -21969,11 +22095,11 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_api_health.py:test_api_root_reachable",
-        "test_api_health.py:test_api_returns_json",
-        "test_api_health.py:test_list_agents",
-        "test_ui_smoke.py:test_page_loads",
-        "test_ui_smoke.py:test_main_content_visible"
+        "tests.ui.smoke.test_api_health.test_api_root_reachable",
+        "tests.ui.smoke.test_api_health.test_api_returns_json",
+        "tests.ui.smoke.test_api_health.test_list_agents",
+        "tests.ui.smoke.test_ui_smoke.test_page_loads",
+        "tests.ui.smoke.test_ui_smoke.test_main_content_visible"
       ],
       "targets": [],
       "dependencies": [],
@@ -22851,7 +22977,7 @@
         "EliteaAI/elitea_issues#5114"
       ],
       "automation_test_id": [
-        "test_toolkit_indicators_for_credentials.py:TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e"
+        "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e"
       ],
       "targets": [],
       "dependencies": [],
@@ -22877,7 +23003,7 @@
         "EliteaAI/elitea_issues#5114"
       ],
       "automation_test_id": [
-        "test_toolkit_indicators_for_credentials.py:TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e"
+        "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e"
       ],
       "targets": [],
       "dependencies": [],
@@ -22903,8 +23029,8 @@
         "EliteaAI/elitea_issues#5114"
       ],
       "automation_test_id": [
-        "test_toolkit_indicators_for_credentials.py:TestToolkitCredentialIndicators.test_agent_credential_indicators_e2e",
-        "test_toolkit_indicators_for_credentials.py:TestToolkitCredentialIndicators.test_pipeline_credential_indicators_e2e"
+        "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_agent_credential_indicators_e2e",
+        "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_pipeline_credential_indicators_e2e"
       ],
       "targets": [],
       "dependencies": [],
@@ -22927,7 +23053,7 @@
         "EliteaAI/elitea_issues#5114"
       ],
       "automation_test_id": [
-        "test_toolkit_indicators_for_credentials.py:TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e"
+        "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e"
       ],
       "targets": [],
       "dependencies": [],
@@ -25745,6 +25871,585 @@
       "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1274_app-only-authentication-regression-after-oauth-deployment.md"
     },
     {
+      "id": "ELITEA-1768",
+      "title": "SharePoint Personal URL — Delegated Auth Flow Completes Successfully",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "delegated-auth",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1768_sharepoint-personal-url-delegated-auth-flow-completes-successfully.md"
+    },
+    {
+      "id": "ELITEA-1769",
+      "title": "SharePoint Personal URL — Test Connection Validation Succeeds",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "test-connection",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1769_sharepoint-personal-url-test-connection-validation-succeeds.md"
+    },
+    {
+      "id": "ELITEA-1770",
+      "title": "SharePoint Personal URL — Read .txt File from Sharing Link",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "file-operations",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1770_sharepoint-personal-url-read-txt-file-from-sharing-link.md"
+    },
+    {
+      "id": "ELITEA-1771",
+      "title": "SharePoint Personal URL — Read .docx File from Sharing Link",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "file-operations",
+        "docx",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1771_sharepoint-personal-url-read-docx-file-from-sharing-link.md"
+    },
+    {
+      "id": "ELITEA-1772",
+      "title": "SharePoint Personal URL — Read .pdf File from Sharing Link",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "file-operations",
+        "pdf",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1772_sharepoint-personal-url-read-pdf-file-from-sharing-link.md"
+    },
+    {
+      "id": "ELITEA-1773",
+      "title": "SharePoint Personal URL — Read .xlsx File from Sharing Link",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "file-operations",
+        "xlsx",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1773_sharepoint-personal-url-read-xlsx-file-from-sharing-link.md"
+    },
+    {
+      "id": "ELITEA-1774",
+      "title": "SharePoint Personal URL — Site URL Format Accepted in Configuration",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "configuration",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1774_sharepoint-personal-site-url-format-accepted-in-configuration.md"
+    },
+    {
+      "id": "ELITEA-1775",
+      "title": "SharePoint Personal URL — Auto Refresh Token Checkbox Functional",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "oauth",
+        "token-refresh",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1775_sharepoint-auto-refresh-token-checkbox-functional.md"
+    },
+    {
+      "id": "ELITEA-1776",
+      "title": "SharePoint Personal URL — Frontend Stable with Large Files (10MB+)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "large-files",
+        "frontend-stability",
+        "bug-5212",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054",
+        "EliteaAI/elitea_issues#5212"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1776_sharepoint-personal-url-frontend-stable-with-large-files-10mb.md"
+    },
+    {
+      "id": "ELITEA-1777",
+      "title": "SharePoint Personal URL — Unsupported Files Show Error Without Crash",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "unsupported-files",
+        "error-handling",
+        "bug-5212",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054",
+        "EliteaAI/elitea_issues#5212"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1777_sharepoint-personal-url-unsupported-files-show-error-no-crash.md"
+    },
+    {
+      "id": "ELITEA-1778",
+      "title": "SharePoint Personal URL — No False OAuth Warning After Successful Connection",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "oauth",
+        "false-warning",
+        "bug-5263",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054",
+        "EliteaAI/elitea_issues#5263"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1778_sharepoint-personal-url-no-false-oauth-warning-after-success.md"
+    },
+    {
+      "id": "ELITEA-1779",
+      "title": "SharePoint Personal URL — Consistent Error Format for Unsupported File Types",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "error-messages",
+        "consistency",
+        "bug-5279",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054",
+        "EliteaAI/elitea_issues#5279"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1779_sharepoint-personal-url-consistent-error-format-unsupported-types.md"
+    },
+    {
+      "id": "ELITEA-1780",
+      "title": "SharePoint Personal URL — PowerPoint .pptx File Support",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "pptx",
+        "file-support",
+        "bug-5299",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054",
+        "EliteaAI/elitea_issues#5299"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1780_sharepoint-personal-url-pptx-file-support.md"
+    },
+    {
+      "id": "ELITEA-1781",
+      "title": "SharePoint Personal URL — Delegated Auth Read Document by Path (No 404)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "delegated-auth",
+        "404-error",
+        "bug-5323",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054",
+        "EliteaAI/elitea_issues#5323"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1781_sharepoint-personal-url-delegated-auth-no-404-error.md"
+    },
+    {
+      "id": "ELITEA-1782",
+      "title": "SharePoint Personal URL — .docx Embedded Objects Extraction",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "docx",
+        "embedded-objects",
+        "bug-5333",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054",
+        "EliteaAI/elitea_issues#5333"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1782_sharepoint-personal-url-docx-embedded-objects-extraction.md"
+    },
+    {
+      "id": "ELITEA-1783",
+      "title": "SharePoint Personal URL — Large PDF Display (No Empty Response Box)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "large-pdf",
+        "display-issue",
+        "bug-5341",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054",
+        "EliteaAI/elitea_issues#5341"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1783_sharepoint-personal-url-large-pdf-display-no-empty-response.md"
+    },
+    {
+      "id": "ELITEA-1784",
+      "title": "SharePoint Personal URL — Malformed URL Validation Error Propagated",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "url-validation",
+        "error-propagation",
+        "bug-5349",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054",
+        "EliteaAI/elitea_issues#5349"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1784_sharepoint-personal-url-malformed-url-validation-error-propagated.md"
+    },
+    {
+      "id": "ELITEA-1785",
+      "title": "SharePoint Personal URL — Read Document by Path (Not Sharing Link)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "document-path",
+        "file-operations",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1785_sharepoint-personal-url-read-document-by-path-not-sharing-link.md"
+    },
+    {
+      "id": "ELITEA-1786",
+      "title": "SharePoint Personal URL — Agent Integration End-to-End",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "integration",
+      "priority": "high",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:agents",
+        "feat:toolkits",
+        "personal-urls",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1786_sharepoint-personal-url-agent-integration-end-to-end.md"
+    },
+    {
+      "id": "ELITEA-1787",
+      "title": "SharePoint Personal URL — Logout Functionality Disconnects Successfully",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "logout",
+        "session-management",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1787_sharepoint-personal-url-logout-functionality.md"
+    },
+    {
+      "id": "ELITEA-1788",
+      "title": "SharePoint Personal URL — Credential Persistence After Browser Refresh",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "integration:sharepoint",
+        "feat:toolkits",
+        "personal-urls",
+        "persistence",
+        "session-management",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3054"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1788_sharepoint-personal-url-credential-persistence-after-refresh.md"
+    },
+    {
       "id": "ELITEA-1171",
       "title": "content_format parameter visible with correct description in ELITEA Confluence toolkit UI",
       "status": "ready",
@@ -26668,8 +27373,8 @@
         "EliteaAI/elitea_issues#4963"
       ],
       "automation_test_id": [
-        "test_agent_character_limits.py:TestWelcomeMessageCharacterLimit.test_welcome_message_fullscreen_counter_and_warning",
-        "test_agent_character_limits.py:TestConversationStarterCharacterLimit.test_conversation_starter_fullscreen_counter_and_warning"
+        "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_fullscreen_counter_and_warning",
+        "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_fullscreen_counter_and_warning"
       ],
       "targets": [],
       "dependencies": [],
@@ -26725,8 +27430,8 @@
         "EliteaAI/elitea_issues#4963"
       ],
       "automation_test_id": [
-        "test_agent_character_limits.py:TestWelcomeMessageCharacterLimit.test_welcome_message_counter_turns_red_at_limit",
-        "test_agent_character_limits.py:TestConversationStarterCharacterLimit.test_conversation_starter_counter_turns_red_at_limit"
+        "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_counter_turns_red_at_limit",
+        "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_counter_turns_red_at_limit"
       ],
       "targets": [],
       "dependencies": [],
@@ -26755,8 +27460,8 @@
         "EliteaAI/elitea_issues#4963"
       ],
       "automation_test_id": [
-        "test_agent_character_limits.py:TestWelcomeMessageCharacterLimit.test_welcome_message_text_truncated_with_warning",
-        "test_agent_character_limits.py:TestConversationStarterCharacterLimit.test_conversation_starter_text_truncated_with_warning"
+        "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_text_truncated_with_warning",
+        "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_text_truncated_with_warning"
       ],
       "targets": [],
       "dependencies": [],
@@ -26785,7 +27490,7 @@
         "EliteaAI/elitea_issues#4963"
       ],
       "automation_test_id": [
-        "test_agent_character_limits.py:TestConversationStarterCharacterLimit.test_multiple_conversation_starters_have_counters"
+        "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_multiple_conversation_starters_have_counters"
       ],
       "targets": [],
       "dependencies": [],
@@ -26814,10 +27519,10 @@
         "EliteaAI/elitea_issues#4963"
       ],
       "automation_test_id": [
-        "test_agent_character_limits.py:TestWelcomeMessageCharacterLimit.test_welcome_message_counter_visible_and_updates_realtime",
-        "test_agent_character_limits.py:TestWelcomeMessageCharacterLimit.test_welcome_message_fullscreen_counter_and_warning",
-        "test_agent_character_limits.py:TestConversationStarterCharacterLimit.test_conversation_starter_counter_visible_and_updates",
-        "test_agent_character_limits.py:TestConversationStarterCharacterLimit.test_conversation_starter_fullscreen_counter_and_warning"
+        "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_counter_visible_and_updates_realtime",
+        "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_fullscreen_counter_and_warning",
+        "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_counter_visible_and_updates",
+        "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_fullscreen_counter_and_warning"
       ],
       "targets": [],
       "dependencies": [],
@@ -28544,7 +29249,7 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_agent_management.py:TestCreateAgent.test_create_agent_required_fields_validation"
+        "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_required_fields_validation"
       ],
       "targets": [],
       "dependencies": [],
@@ -28564,7 +29269,8 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_agent_management.py:TestAgentIsolation.test_fixture_creates_fresh_agent"
+        "tests.ui.agents.test_agent_management.TestAgentIsolation.test_fixture_creates_fresh_agent",
+        "tests.ui.agents.test_agent_management.TestAgentIsolation.test_fixture_cleanup_cycle"
       ],
       "targets": [],
       "dependencies": [],
@@ -28584,8 +29290,8 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_agent_management.py:TestAgentActions.test_edit_agent_name",
-        "test_agent_management.py:TestAgentActions.test_edit_agent_description"
+        "tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_name",
+        "tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_description"
       ],
       "targets": [],
       "dependencies": [],
@@ -28605,15 +29311,15 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_export_import_prompts.py:TestExportImportRoundtrip.test_export_import_roundtrip_basic",
-        "test_export_import_prompts.py:TestExportImportRoundtrip.test_export_import_preserves_all_fields",
-        "test_export_import_prompts.py:TestExportImportRoundtrip.test_export_format_is_valid_yaml_frontmatter",
-        "test_export_import_prompts.py:TestExportImportConflicts.test_import_preserves_original_when_conflict",
-        "test_export_import_prompts.py:TestExportImportConflicts.test_import_with_conflicting_name_creates_new",
-        "test_export_import_prompts.py:TestExportImportEdgeCases.test_export_import_empty_optional_fields",
-        "test_export_import_prompts.py:TestExportImportEdgeCases.test_export_import_special_characters_in_name",
-        "test_export_import_prompts.py:TestExportImportEdgeCases.test_export_import_large_instructions",
-        "test_export_import_prompts.py:TestExportImportEdgeCases.test_import_via_constructed_payload"
+        "tests.ui.agents.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_roundtrip_basic",
+        "tests.ui.agents.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_preserves_all_fields",
+        "tests.ui.agents.test_export_import_prompts.TestExportImportRoundtrip.test_export_format_is_valid_yaml_frontmatter",
+        "tests.ui.agents.test_export_import_prompts.TestExportImportConflicts.test_import_preserves_original_when_conflict",
+        "tests.ui.agents.test_export_import_prompts.TestExportImportConflicts.test_import_with_conflicting_name_creates_new",
+        "tests.ui.agents.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_empty_optional_fields",
+        "tests.ui.agents.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_special_characters_in_name",
+        "tests.ui.agents.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_large_instructions",
+        "tests.ui.agents.test_export_import_prompts.TestExportImportEdgeCases.test_import_via_constructed_payload"
       ],
       "targets": [],
       "dependencies": [],
@@ -28633,10 +29339,10 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_agent_management.py:TestAgentList.test_agents_dashboard_loads",
-        "test_agent_management.py:TestAgentList.test_agent_search",
-        "test_agent_management.py:TestAgentList.test_agent_search_no_results",
-        "test_agent_management.py:TestAgentList.test_view_toggle_table_and_card"
+        "tests.ui.agents.test_agent_management.TestAgentList.test_agents_dashboard_loads",
+        "tests.ui.agents.test_agent_management.TestAgentList.test_agent_search",
+        "tests.ui.agents.test_agent_management.TestAgentList.test_agent_search_no_results",
+        "tests.ui.agents.test_agent_management.TestAgentList.test_view_toggle_table_and_card"
       ],
       "targets": [],
       "dependencies": [],
@@ -28656,12 +29362,12 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_agent_management.py:TestAgentConfiguration.test_agent_detail_page_loads",
-        "test_agent_management.py:TestAgentConfiguration.test_agent_has_configuration_and_history_tabs",
-        "test_agent_management.py:TestAgentConfiguration.test_agent_instructions_field",
-        "test_agent_management.py:TestAgentConfiguration.test_agent_information_section",
-        "test_agent_management.py:TestAgentConfiguration.test_agent_toolkits_section_visible",
-        "test_agent_management.py:test_internal_tools_enum_usage"
+        "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_detail_page_loads",
+        "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_has_configuration_and_history_tabs",
+        "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_instructions_field",
+        "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_information_section",
+        "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_toolkits_section_visible",
+        "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_internal_tools_enum_usage"
       ],
       "targets": [],
       "dependencies": [],
@@ -28681,9 +29387,9 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_export_import_prompts.py:TestExportImportRoundtrip.test_export_import_roundtrip_basic",
-        "test_export_import_prompts.py:TestExportImportRoundtrip.test_export_import_preserves_all_fields",
-        "test_export_import_prompts.py:TestExportImportConflicts.test_import_with_conflicting_name_creates_new"
+        "tests.ui.agents.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_roundtrip_basic",
+        "tests.ui.agents.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_preserves_all_fields",
+        "tests.ui.agents.test_export_import_prompts.TestExportImportConflicts.test_import_with_conflicting_name_creates_new"
       ],
       "targets": [],
       "dependencies": [],
@@ -28703,10 +29409,10 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_agent_with_github_toolkit.py:TestAddToolkitToAgent.test_add_toolkit_to_agent",
-        "test_agent_with_github_toolkit.py:TestChatWithAgentToolkit.test_agent_chat_with_github_toolkit",
-        "test_agent_with_github_toolkit.py:TestRemoveToolkitFromAgent.test_remove_toolkit_from_agent",
-        "test_agent_with_toolkit_chat.py:TestAgentWithToolkitChat.test_agent_with_toolkit_executes_in_chat"
+        "tests.ui.agents.test_agent_with_github_toolkit.TestAddToolkitToAgent.test_add_toolkit_to_agent",
+        "tests.ui.agents.test_agent_with_github_toolkit.TestChatWithAgentToolkit.test_agent_chat_with_github_toolkit",
+        "tests.ui.agents.test_agent_with_github_toolkit.TestRemoveToolkitFromAgent.test_remove_toolkit_from_agent",
+        "tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat"
       ],
       "targets": [],
       "dependencies": [],
@@ -28726,10 +29432,10 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_agent_management.py:TestAgentActions.test_edit_agent_name",
-        "test_agent_management.py:TestAgentActions.test_edit_agent_description",
-        "test_agent_management.py:TestAgentActions.test_delete_agent_via_api",
-        "test_agent_management.py:TestAgentActions.test_delete_agent_via_ui_menu"
+        "tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_name",
+        "tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_description",
+        "tests.ui.agents.test_agent_management.TestAgentActions.test_delete_agent_via_api",
+        "tests.ui.agents.test_agent_management.TestAgentActions.test_delete_agent_via_ui_menu"
       ],
       "targets": [],
       "dependencies": [],
@@ -28749,9 +29455,9 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_agent_management.py:TestCreateAgent.test_create_agent_via_ui",
-        "test_agent_management.py:TestCreateAgent.test_create_agent_via_api_visible_in_ui",
-        "test_agent_management.py:TestCreateAgent.test_create_agent_required_fields_validation"
+        "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_via_ui",
+        "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_via_api_visible_in_ui",
+        "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_required_fields_validation"
       ],
       "targets": [],
       "dependencies": [],
@@ -30437,10 +31143,10 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_pipeline_management.py:TestEditPipeline.test_edit_pipeline_name",
-        "test_pipeline_management.py:TestEditPipeline.test_edit_pipeline_description",
-        "test_pipeline_management.py:TestDeletePipeline.test_delete_pipeline_via_api",
-        "test_pipeline_management.py:TestDeletePipeline.test_delete_pipeline_via_ui_menu"
+        "tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_edit_pipeline_name",
+        "tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_edit_pipeline_description",
+        "tests.ui.pipelines.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_api",
+        "tests.ui.pipelines.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_ui_menu"
       ],
       "targets": [],
       "dependencies": [],
@@ -30460,8 +31166,8 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_pipeline_management.py:TestEditPipeline.test_pipeline_detail_page_loads",
-        "test_pipeline_management.py:TestEditPipeline.test_pipeline_has_configuration_and_history_tabs"
+        "tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_pipeline_detail_page_loads",
+        "tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_pipeline_has_configuration_and_history_tabs"
       ],
       "targets": [],
       "dependencies": [],
@@ -30481,7 +31187,7 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_pipeline_execution.py:TestPipelineExecutionEdgeCases.test_empty_pipeline_execution"
+        "tests.ui.pipelines.test_pipeline_execution.TestPipelineExecutionEdgeCases.test_empty_pipeline_execution"
       ],
       "targets": [],
       "dependencies": [],
@@ -30501,15 +31207,15 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_pipeline_nodes.py:TestAddNode.test_add_code_node",
-        "test_pipeline_nodes.py:TestAddNode.test_add_llm_node",
-        "test_pipeline_nodes.py:TestEditNode.test_edit_node_name",
-        "test_pipeline_nodes.py:TestEditNode.test_node_default_name_matches_type",
-        "test_pipeline_nodes.py:TestDeleteNode.test_delete_node_does_not_remove_end",
-        "test_pipeline_nodes.py:TestDeleteNode.test_delete_node_via_menu",
-        "test_pipeline_nodes.py:TestConnectNodes.test_connect_node_to_end",
-        "test_pipeline_nodes.py:TestConnectNodes.test_connect_two_custom_nodes",
-        "test_pipeline_nodes.py:TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end"
+        "tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_code_node",
+        "tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_llm_node",
+        "tests.ui.pipelines.test_pipeline_nodes.TestEditNode.test_edit_node_name",
+        "tests.ui.pipelines.test_pipeline_nodes.TestEditNode.test_node_default_name_matches_type",
+        "tests.ui.pipelines.test_pipeline_nodes.TestDeleteNode.test_delete_node_does_not_remove_end",
+        "tests.ui.pipelines.test_pipeline_nodes.TestDeleteNode.test_delete_node_via_menu",
+        "tests.ui.pipelines.test_pipeline_nodes.TestConnectNodes.test_connect_node_to_end",
+        "tests.ui.pipelines.test_pipeline_nodes.TestConnectNodes.test_connect_two_custom_nodes",
+        "tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end"
       ],
       "targets": [],
       "dependencies": [],
@@ -30529,7 +31235,8 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_pipeline_management.py:TestPipelineIsolation.test_fixture_creates_fresh_pipeline"
+        "tests.ui.pipelines.test_pipeline_management.TestPipelineIsolation.test_fixture_creates_fresh_pipeline",
+        "tests.ui.pipelines.test_pipeline_management.TestPipelineIsolation.test_fixture_cleanup_cycle"
       ],
       "targets": [],
       "dependencies": [],
@@ -30549,11 +31256,11 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_pipeline_management.py:TestPipelineDashboard.test_pipeline_dashboard_loads",
-        "test_pipeline_management.py:TestPipelineDashboard.test_pipeline_created_via_api_visible_in_dashboard",
-        "test_pipeline_management.py:TestPipelineDashboard.test_view_toggle_table_and_card",
-        "test_pipeline_management.py:TestSearchPipeline.test_search_pipeline_by_name",
-        "test_pipeline_management.py:TestSearchPipeline.test_search_pipeline_no_results"
+        "tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_pipeline_dashboard_loads",
+        "tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_pipeline_created_via_api_visible_in_dashboard",
+        "tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_view_toggle_table_and_card",
+        "tests.ui.pipelines.test_pipeline_management.TestSearchPipeline.test_search_pipeline_by_name",
+        "tests.ui.pipelines.test_pipeline_management.TestSearchPipeline.test_search_pipeline_no_results"
       ],
       "targets": [],
       "dependencies": [],
@@ -30573,12 +31280,12 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_pipeline_execution.py:TestExecutePipeline.test_message_count_starts_at_zero_and_grows",
-        "test_pipeline_execution.py:TestExecutePipeline.test_message_count_after_execution",
-        "test_pipeline_execution.py:TestExecutePipeline.test_rerun_pipeline",
-        "test_pipeline_execution.py:TestPipelineChatMessages.test_user_message_visible",
-        "test_pipeline_execution.py:TestPipelineChatMessages.test_multiple_executions_accumulate",
-        "test_pipeline_execution.py:TestPipelineExecutionEdgeCases.test_navigate_away_and_reexecute"
+        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_message_count_starts_at_zero_and_grows",
+        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_message_count_after_execution",
+        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_rerun_pipeline",
+        "tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_user_message_visible",
+        "tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_multiple_executions_accumulate",
+        "tests.ui.pipelines.test_pipeline_execution.TestPipelineExecutionEdgeCases.test_navigate_away_and_reexecute"
       ],
       "targets": [],
       "dependencies": [],
@@ -30598,7 +31305,8 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_pipeline_nodes.py:TestCanvasInteractions.test_zoom_controls_exist"
+        "tests.ui.pipelines.test_pipeline_nodes.TestCanvasInteractions.test_zoom_controls_exist",
+        "tests.ui.pipelines.test_pipeline_nodes.TestCanvasInteractions.test_fit_view_adjusts_viewport"
       ],
       "targets": [],
       "dependencies": [],
@@ -30618,13 +31326,13 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_pipeline_advanced.py:TestAdditionalNodeTypes.test_add_decision_node",
-        "test_pipeline_advanced.py:TestAdditionalNodeTypes.test_add_printer_node",
-        "test_pipeline_advanced.py:TestAdditionalNodeTypes.test_add_router_node",
-        "test_pipeline_advanced.py:TestMakeEntrypoint.test_make_node_entrypoint",
-        "test_pipeline_advanced.py:TestMultiNodeTopology.test_save_multi_node_pipeline",
-        "test_pipeline_advanced.py:TestMultiNodeTopology.test_three_node_chain",
-        "test_pipeline_advanced.py:TestHistoryTab.test_history_tab_opens"
+        "tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_decision_node",
+        "tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_printer_node",
+        "tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_router_node",
+        "tests.ui.pipelines.test_pipeline_advanced.TestMakeEntrypoint.test_make_node_entrypoint",
+        "tests.ui.pipelines.test_pipeline_advanced.TestMultiNodeTopology.test_save_multi_node_pipeline",
+        "tests.ui.pipelines.test_pipeline_advanced.TestMultiNodeTopology.test_three_node_chain",
+        "tests.ui.pipelines.test_pipeline_advanced.TestHistoryTab.test_history_tab_opens"
       ],
       "targets": [],
       "dependencies": [],
@@ -30644,8 +31352,8 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_pipeline_advanced.py:TestActionsMenu.test_three_dot_menu_lists_items",
-        "test_pipeline_advanced.py:TestActionsMenu.test_export_pipeline_if_available"
+        "tests.ui.pipelines.test_pipeline_advanced.TestActionsMenu.test_three_dot_menu_lists_items",
+        "tests.ui.pipelines.test_pipeline_advanced.TestActionsMenu.test_export_pipeline_if_available"
       ],
       "targets": [],
       "dependencies": [],
@@ -30665,10 +31373,10 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_pipeline_advanced.py:TestYamlEditor.test_yaml_view_toggle",
-        "test_pipeline_advanced.py:TestYamlEditor.test_yaml_content_reflects_pipeline",
-        "test_pipeline_advanced.py:TestYamlEditor.test_flow_yaml_round_trip",
-        "test_pipeline_advanced.py:TestDiscardChanges.test_discard_reverts_name_change"
+        "tests.ui.pipelines.test_pipeline_advanced.TestYamlEditor.test_yaml_view_toggle",
+        "tests.ui.pipelines.test_pipeline_advanced.TestYamlEditor.test_yaml_content_reflects_pipeline",
+        "tests.ui.pipelines.test_pipeline_advanced.TestYamlEditor.test_flow_yaml_round_trip",
+        "tests.ui.pipelines.test_pipeline_advanced.TestDiscardChanges.test_discard_reverts_name_change"
       ],
       "targets": [],
       "dependencies": [],
@@ -30688,16 +31396,16 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_export_import_pipelines.py:TestPipelineExportImportRoundtrip.test_pipeline_export_import_roundtrip_basic",
-        "test_export_import_pipelines.py:TestPipelineExportImportRoundtrip.test_pipeline_export_import_preserves_all_fields",
-        "test_export_import_pipelines.py:TestPipelineExportImportRoundtrip.test_pipeline_export_format_is_valid_yaml",
-        "test_export_import_pipelines.py:TestPipelineExportImportConflicts.test_pipeline_import_with_conflicting_name",
-        "test_export_import_pipelines.py:TestPipelineExportImportConflicts.test_pipeline_import_preserves_original_when_conflict",
-        "test_export_import_pipelines.py:TestPipelineExportImportEdgeCases.test_pipeline_export_import_empty_description",
-        "test_export_import_pipelines.py:TestPipelineExportImportEdgeCases.test_pipeline_export_import_special_characters_in_name",
-        "test_export_import_pipelines.py:TestPipelineExportImportEdgeCases.test_pipeline_export_import_complex_topology",
-        "test_export_import_pipelines.py:TestPipelineExportImportEdgeCases.test_pipeline_export_import_all_node_types",
-        "test_export_import_pipelines.py:TestPipelineExportImportEdgeCases.test_pipeline_import_via_constructed_payload"
+        "tests.ui.pipelines.test_export_import_pipelines.TestPipelineExportImportRoundtrip.test_pipeline_export_import_roundtrip_basic",
+        "tests.ui.pipelines.test_export_import_pipelines.TestPipelineExportImportRoundtrip.test_pipeline_export_import_preserves_all_fields",
+        "tests.ui.pipelines.test_export_import_pipelines.TestPipelineExportImportRoundtrip.test_pipeline_export_format_is_valid_yaml",
+        "tests.ui.pipelines.test_export_import_pipelines.TestPipelineExportImportConflicts.test_pipeline_import_with_conflicting_name",
+        "tests.ui.pipelines.test_export_import_pipelines.TestPipelineExportImportConflicts.test_pipeline_import_preserves_original_when_conflict",
+        "tests.ui.pipelines.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_empty_description",
+        "tests.ui.pipelines.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_special_characters_in_name",
+        "tests.ui.pipelines.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_complex_topology",
+        "tests.ui.pipelines.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_all_node_types",
+        "tests.ui.pipelines.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_import_via_constructed_payload"
       ],
       "targets": [],
       "dependencies": [],
@@ -30717,10 +31425,10 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_pipeline_execution.py:TestExecutePipeline.test_execute_simple_pipeline",
-        "test_pipeline_execution.py:TestExecutePipeline.test_pipeline_response_is_meaningful",
-        "test_pipeline_execution.py:TestExecutePipeline.test_rerun_pipeline",
-        "test_pipeline_execution.py:TestPipelineChatMessages.test_user_message_visible"
+        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_execute_simple_pipeline",
+        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_pipeline_response_is_meaningful",
+        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_rerun_pipeline",
+        "tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_user_message_visible"
       ],
       "targets": [],
       "dependencies": [],
@@ -30740,7 +31448,11 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_pipeline_nodes.py:TestAddNode.test_add_llm_node"
+        "tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_llm_node",
+        "tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_code_node",
+        "tests.ui.pipelines.test_pipeline_nodes.TestEditNode.test_edit_node_name",
+        "tests.ui.pipelines.test_pipeline_nodes.TestConnectNodes.test_connect_node_to_end",
+        "tests.ui.pipelines.test_pipeline_nodes.TestDeleteNode.test_delete_node_via_menu"
       ],
       "targets": [],
       "dependencies": [],
@@ -30760,9 +31472,9 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_pipeline_management.py:TestCreatePipeline.test_create_pipeline_via_ui",
-        "test_pipeline_management.py:TestCreatePipeline.test_create_pipeline_required_fields_validation",
-        "test_pipeline_management.py:TestPipelineDashboard.test_pipeline_created_via_api_visible_in_dashboard"
+        "tests.ui.pipelines.test_pipeline_management.TestCreatePipeline.test_create_pipeline_via_ui",
+        "tests.ui.pipelines.test_pipeline_management.TestCreatePipeline.test_create_pipeline_required_fields_validation",
+        "tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_pipeline_created_via_api_visible_in_dashboard"
       ],
       "targets": [],
       "dependencies": [],
@@ -32961,6 +33673,131 @@
       "path": "tests/elitea-platform/admin-portal/agent-publishing-guardrails/ELITEA-0020_publish-button-disabled-when-publishing-blocked-for-current-project.md"
     },
     {
+      "id": "ELITEA-1694",
+      "title": "Blocked Toolkit: Live-Reload and Case-Insensitive Matching",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "admin-portal/guardrails",
+      "owner": "",
+      "tags": [
+        "user_story:5199",
+        "feat:guardrails",
+        "feat:admin-platform",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5199"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/admin-portal/guardrails-live-reload/ELITEA-1694_blocked-toolkit-live-reload-case-insensitive.md"
+    },
+    {
+      "id": "ELITEA-1695",
+      "title": "Blocked Tool: Live-Reload and Case-Insensitive Matching",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "admin-portal/guardrails",
+      "owner": "",
+      "tags": [
+        "user_story:5199",
+        "feat:guardrails",
+        "feat:admin-platform",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5199"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/admin-portal/guardrails-live-reload/ELITEA-1695_blocked-tool-live-reload-case-insensitive.md"
+    },
+    {
+      "id": "ELITEA-1696",
+      "title": "Sensitive Tool: Live-Reload and Case-Insensitive Matching",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "admin-portal/guardrails",
+      "owner": "",
+      "tags": [
+        "user_story:5199",
+        "feat:guardrails",
+        "feat:admin-platform",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5199"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/admin-portal/guardrails-live-reload/ELITEA-1696_sensitive-tool-live-reload-case-insensitive.md"
+    },
+    {
+      "id": "ELITEA-1697",
+      "title": "Artifacts Tool Behavior Not Affected by Guardrails Changes",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "admin-portal/guardrails",
+      "owner": "",
+      "tags": [
+        "user_story:5199",
+        "feat:guardrails",
+        "feat:artifacts",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5199"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/admin-portal/guardrails-live-reload/ELITEA-1697_artifacts-tool-not-affected.md"
+    },
+    {
+      "id": "ELITEA-1698",
+      "title": "Existing Guardrails Enforcement Behavior Not Regressed",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "admin-portal/guardrails",
+      "owner": "",
+      "tags": [
+        "user_story:5199",
+        "feat:guardrails",
+        "feat:admin-platform",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5199"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/admin-portal/guardrails-live-reload/ELITEA-1698_guardrails-enforcement-no-regression.md"
+    },
+    {
       "id": "ELITEA-0021",
       "title": "Removing All Links From a Card Shows Placeholder Text Without Network Errors [Parametrized: Documentation, Release Notes, Video Library, Tutorials]",
       "status": "ready",
@@ -34264,7 +35101,7 @@
         "EliteaAI/elitea_issues#5010"
       ],
       "automation_test_id": [
-        "test_voice_configuration.py:TestVoiceConfiguration.test_voice_selection_from_chat"
+        "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_selection_from_chat"
       ],
       "targets": [],
       "dependencies": [],
@@ -34292,7 +35129,7 @@
         "EliteaAI/elitea_issues#5010"
       ],
       "automation_test_id": [
-        "test_voice_configuration.py:TestVoiceConfiguration.test_speed_and_volume_controls"
+        "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_speed_and_volume_controls"
       ],
       "targets": [],
       "dependencies": [],
@@ -34320,7 +35157,7 @@
         "EliteaAI/elitea_issues#5010"
       ],
       "automation_test_id": [
-        "test_voice_configuration.py:TestVoiceConfiguration.test_voice_settings_sync"
+        "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_sync"
       ],
       "targets": [],
       "dependencies": [],
@@ -34348,7 +35185,7 @@
         "EliteaAI/elitea_issues#5010"
       ],
       "automation_test_id": [
-        "test_voice_configuration.py:TestVoiceConfiguration.test_voice_selection_from_chat"
+        "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_selection_from_chat"
       ],
       "targets": [],
       "dependencies": [],
@@ -34376,7 +35213,7 @@
         "EliteaAI/elitea_issues#5010"
       ],
       "automation_test_id": [
-        "test_voice_configuration.py:TestVoiceConfiguration.test_voice_preview_personalization"
+        "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_preview_personalization"
       ],
       "targets": [],
       "dependencies": [],
@@ -34396,7 +35233,7 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_voice_configuration.py:test_voice_settings_not_visible_by_default"
+        "tests.ui.voice.test_voice_configuration.test_voice_settings_not_visible_by_default"
       ],
       "targets": [],
       "dependencies": [],
@@ -35619,7 +36456,7 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_conversation_management.py:TestConversationActions.test_conversation_api_rename"
+        "tests.ui.chat.test_conversation_management.TestConversationActions.test_conversation_api_rename"
       ],
       "targets": [],
       "dependencies": [],
@@ -35639,7 +36476,8 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_conversation_management.py:TestConversationIsolation.test_fixture_creates_fresh_conversation"
+        "tests.ui.chat.test_conversation_management.TestConversationIsolation.test_fixture_creates_fresh_conversation",
+        "tests.ui.chat.test_conversation_management.TestConversationIsolation.test_fixture_cleanup_cycle"
       ],
       "targets": [],
       "dependencies": [],
@@ -35659,9 +36497,9 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_conversation_management.py:TestConversationActions.test_delete_conversation_with_confirmation",
-        "test_conversation_management.py:TestConversationActions.test_delete_conversation_cancel",
-        "test_conversation_management.py:TestConversationActions.test_delete_conversation_and_verify_ui"
+        "tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_with_confirmation",
+        "tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_cancel",
+        "tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_and_verify_ui"
       ],
       "targets": [],
       "dependencies": [],
@@ -35681,14 +36519,14 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_conversation_management.py:TestCreateConversation.test_new_conversation_default_settings",
-        "test_conversation_management.py:TestConversationList.test_click_conversation_to_open",
-        "test_conversation_management.py:TestConversationList.test_conversation_appears_in_list",
-        "test_conversation_management.py:TestConversationList.test_search_conversations_button",
-        "test_conversation_management.py:TestConversationNavigation.test_send_message_persists_conversation",
-        "test_conversation_management.py:TestConversationParticipants.test_add_teammate_to_conversation",
-        "test_conversation_management.py:test_multiple_conversations_listed",
-        "test_conversation_management.py:test_navigate_between_conversations"
+        "tests.ui.chat.test_conversation_management.TestCreateConversation.test_new_conversation_default_settings",
+        "tests.ui.chat.test_conversation_management.TestConversationList.test_click_conversation_to_open",
+        "tests.ui.chat.test_conversation_management.TestConversationList.test_conversation_appears_in_list",
+        "tests.ui.chat.test_conversation_management.TestConversationList.test_search_conversations_button",
+        "tests.ui.chat.test_conversation_management.TestConversationNavigation.test_send_message_persists_conversation",
+        "tests.ui.chat.test_conversation_management.TestConversationParticipants.test_add_teammate_to_conversation",
+        "tests.ui.chat.test_conversation_management.TestConversationActions.test_multiple_conversations_listed",
+        "tests.ui.chat.test_conversation_management.TestConversationNavigation.test_navigate_between_conversations"
       ],
       "targets": [],
       "dependencies": [],
@@ -35708,10 +36546,10 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_conversation_management.py:TestConversationActions.test_rename_conversation_via_ui",
-        "test_conversation_management.py:TestConversationActions.test_conversation_api_rename",
-        "test_conversation_management.py:TestConversationActions.test_delete_conversation_with_confirmation",
-        "test_conversation_management.py:TestConversationActions.test_delete_conversation_and_verify_ui"
+        "tests.ui.chat.test_conversation_management.TestConversationActions.test_rename_conversation_via_ui",
+        "tests.ui.chat.test_conversation_management.TestConversationActions.test_conversation_api_rename",
+        "tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_with_confirmation",
+        "tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_and_verify_ui"
       ],
       "targets": [],
       "dependencies": [],
@@ -35731,10 +36569,10 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_conversation_management.py:TestCreateConversation.test_create_conversation_via_ui_button",
-        "test_conversation_management.py:TestCreateConversation.test_create_conversation_via_api",
-        "test_conversation_management.py:TestConversationList.test_conversation_appears_in_list",
-        "test_conversation_management.py:TestConversationList.test_click_conversation_to_open"
+        "tests.ui.chat.test_conversation_management.TestCreateConversation.test_create_conversation_via_ui_button",
+        "tests.ui.chat.test_conversation_management.TestCreateConversation.test_create_conversation_via_api",
+        "tests.ui.chat.test_conversation_management.TestConversationList.test_conversation_appears_in_list",
+        "tests.ui.chat.test_conversation_management.TestConversationList.test_click_conversation_to_open"
       ],
       "targets": [],
       "dependencies": [],
@@ -39805,6 +40643,213 @@
       "path": "tests/elitea-platform/sensitive-tool-calling/ELITEA-1015_verify-sensitive-tool-execution-intercepted-in-agent-chat.md"
     },
     {
+      "id": "ELITEA-1735",
+      "title": "Block with Comment — Button Visible and Expands Comment Input Field",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sensitive-tool-calling",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5318"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/sensitive-tool-calling/ELITEA-1735_block-with-comment-button-visible-and-expands-comment-input.md"
+    },
+    {
+      "id": "ELITEA-1736",
+      "title": "Block with Comment — Tool Does NOT Execute and Comment Is Sent to LLM",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sensitive-tool-calling",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5318"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/sensitive-tool-calling/ELITEA-1736_block-with-comment-tool-does-not-execute-comment-sent-to-llm.md"
+    },
+    {
+      "id": "ELITEA-1737",
+      "title": "Block with Comment — Empty Comment Treated as Standard Block",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "sensitive-tool-calling",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5318"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/sensitive-tool-calling/ELITEA-1737_block-with-comment-empty-comment-treated-as-standard-block.md"
+    },
+    {
+      "id": "ELITEA-1738",
+      "title": "Block with Comment — Cancel Returns Dialog to Three-Button State",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "sensitive-tool-calling",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5318"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/sensitive-tool-calling/ELITEA-1738_block-with-comment-cancel-returns-to-three-button-state.md"
+    },
+    {
+      "id": "ELITEA-1739",
+      "title": "Block with Comment — Long Comment Handled Gracefully",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "sensitive-tool-calling",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5318"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/sensitive-tool-calling/ELITEA-1739_block-with-comment-long-comment-handled-gracefully.md"
+    },
+    {
+      "id": "ELITEA-1740",
+      "title": "Block and Authorize Actions Regression — Unaffected by Block with Comment Addition",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "sensitive-tool-calling",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5318"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/sensitive-tool-calling/ELITEA-1740_block-and-authorize-regression-unaffected-by-block-with-comment.md"
+    },
+    {
+      "id": "ELITEA-1741",
+      "title": "Block with Comment — Action and Comment Recorded in hitl_decisions Audit State",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "sensitive-tool-calling",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5318"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/sensitive-tool-calling/ELITEA-1741_block-with-comment-recorded-in-hitl-decisions-audit-state.md"
+    },
+    {
+      "id": "ELITEA-1742",
+      "title": "Auto-Approve Mode Unaffected — Block with Comment Not Shown When Auto-Approve Is Active",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "sensitive-tool-calling",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5318"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/sensitive-tool-calling/ELITEA-1742_auto-approve-mode-unaffected-block-with-comment-not-shown.md"
+    },
+    {
+      "id": "ELITEA-1743",
+      "title": "Block with Comment in Nested Sub-Agent — Comment Propagates to Parent as user_feedback",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "sensitive-tool-calling",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5318"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/sensitive-tool-calling/ELITEA-1743_block-with-comment-nested-sub-agent-comment-propagates-to-parent.md"
+    },
+    {
       "id": "ELITEA-0930",
       "title": "Published Agent Respects Project Context Injection and Toggle",
       "status": "ready",
@@ -40590,8 +41635,8 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_ui_smoke.py:test_page_loads",
-        "test_ui_smoke.py:test_main_content_visible"
+        "tests.ui.smoke.test_ui_smoke.test_page_loads",
+        "tests.ui.smoke.test_ui_smoke.test_main_content_visible"
       ],
       "targets": [],
       "dependencies": [],
@@ -40611,7 +41656,9 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_api_health.py:TestAPIHealth.test_api_root_reachable"
+        "tests.ui.smoke.test_api_health.TestAPIHealth.test_api_root_reachable",
+        "tests.ui.smoke.test_api_health.TestAPIHealth.test_api_returns_json",
+        "tests.ui.smoke.test_api_health.TestAuthenticatedAPI.test_list_agents"
       ],
       "targets": [],
       "dependencies": [],
@@ -40631,10 +41678,10 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_chat_interface.py:test_chat_page_loads_with_functional_input",
-        "test_chat_interface.py:test_chat_page_loads_successfully",
-        "test_chat_interface.py:test_message_input_is_functional",
-        "test_chat_interface.py:test_chat_message_history_displays"
+        "tests.ui.chat.test_chat_interface.test_chat_page_loads_with_functional_input",
+        "tests.ui.chat.test_chat_interface.test_chat_page_loads_successfully",
+        "tests.ui.chat.test_chat_interface.test_message_input_is_functional",
+        "tests.ui.chat.test_chat_interface.test_chat_message_history_displays"
       ],
       "targets": [],
       "dependencies": [],
@@ -40654,7 +41701,11 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "test_api_health.py:TestAPIHealth.test_api_root_reachable"
+        "tests.ui.smoke.test_api_health.TestAPIHealth.test_api_root_reachable",
+        "tests.ui.smoke.test_api_health.TestAPIHealth.test_api_returns_json",
+        "tests.ui.smoke.test_api_health.TestAuthenticatedAPI.test_list_agents",
+        "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads",
+        "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible"
       ],
       "targets": [],
       "dependencies": [],

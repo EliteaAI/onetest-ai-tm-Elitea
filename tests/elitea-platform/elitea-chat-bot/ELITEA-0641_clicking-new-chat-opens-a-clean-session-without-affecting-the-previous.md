@@ -7,8 +7,8 @@ module: elitea-chat-bot
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_new_chat_creates_fresh_session
-  - test_support_assistant_smoke.py:TestSupportAssistantSmoke.test_history_restore_and_continue
+  - tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantSmoke.test_new_chat_creates_fresh_session
+  - tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantSmoke.test_history_restore_and_continue
 tags: [session-management, new-chat, R-2.0.3, smoke]
 requirements: [EliteaAI/elitea_issues#4775]
 ---

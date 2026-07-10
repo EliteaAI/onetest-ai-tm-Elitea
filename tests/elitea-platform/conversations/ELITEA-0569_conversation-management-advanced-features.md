@@ -7,14 +7,14 @@ module: conversations
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_conversation_management.py:TestCreateConversation.test_new_conversation_default_settings
-  - test_conversation_management.py:TestConversationList.test_click_conversation_to_open
-  - test_conversation_management.py:TestConversationList.test_conversation_appears_in_list
-  - test_conversation_management.py:TestConversationList.test_search_conversations_button
-  - test_conversation_management.py:TestConversationNavigation.test_send_message_persists_conversation
-  - test_conversation_management.py:TestConversationParticipants.test_add_teammate_to_conversation
-  - test_conversation_management.py:test_multiple_conversations_listed
-  - test_conversation_management.py:test_navigate_between_conversations
+  - tests.ui.chat.test_conversation_management.TestCreateConversation.test_new_conversation_default_settings
+  - tests.ui.chat.test_conversation_management.TestConversationList.test_click_conversation_to_open
+  - tests.ui.chat.test_conversation_management.TestConversationList.test_conversation_appears_in_list
+  - tests.ui.chat.test_conversation_management.TestConversationList.test_search_conversations_button
+  - tests.ui.chat.test_conversation_management.TestConversationNavigation.test_send_message_persists_conversation
+  - tests.ui.chat.test_conversation_management.TestConversationParticipants.test_add_teammate_to_conversation
+  - tests.ui.chat.test_conversation_management.TestConversationActions.test_multiple_conversations_listed
+  - tests.ui.chat.test_conversation_management.TestConversationNavigation.test_navigate_between_conversations
 tags: []
 requirements: []
 ---

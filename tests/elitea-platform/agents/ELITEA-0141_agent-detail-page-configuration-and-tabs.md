@@ -7,12 +7,12 @@ module: agents
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_agent_management.py:TestAgentConfiguration.test_agent_detail_page_loads
-  - test_agent_management.py:TestAgentConfiguration.test_agent_has_configuration_and_history_tabs
-  - test_agent_management.py:TestAgentConfiguration.test_agent_instructions_field
-  - test_agent_management.py:TestAgentConfiguration.test_agent_information_section
-  - test_agent_management.py:TestAgentConfiguration.test_agent_toolkits_section_visible
-  - test_agent_management.py:test_internal_tools_enum_usage
+  - tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_detail_page_loads
+  - tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_has_configuration_and_history_tabs
+  - tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_instructions_field
+  - tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_information_section
+  - tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_toolkits_section_visible
+  - tests.ui.agents.test_agent_management.TestAgentConfiguration.test_internal_tools_enum_usage
 tags: []
 requirements: []
 ---

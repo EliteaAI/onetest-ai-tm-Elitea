@@ -7,8 +7,8 @@ module: pipelines
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_pipeline_nodes.py:TestCanvasInteractions.test_zoom_controls_exist
-test_pipeline_nodes.py:TestCanvasInteractions.test_fit_view_adjusts_viewport
+  - tests.ui.pipelines.test_pipeline_nodes.TestCanvasInteractions.test_zoom_controls_exist
+  - tests.ui.pipelines.test_pipeline_nodes.TestCanvasInteractions.test_fit_view_adjusts_viewport
 tags: []
 requirements: []
 ---

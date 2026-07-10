@@ -7,10 +7,10 @@ module: toolkits-credentials
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_toolkit_parameterized.py:test_create_credential
-  - test_toolkit_parameterized.py:test_create_toolkit
-  - test_toolkit_parameterized.py:test_toolkit_test_settings
-  - test_toolkit_parameterized.py:test_chat_with_toolkit
+  - tests.ui.toolkits.test_toolkit_parameterized.test_create_credential
+  - tests.ui.toolkits.test_toolkit_parameterized.test_create_toolkit
+  - tests.ui.toolkits.test_toolkit_parameterized.test_toolkit_test_settings
+  - tests.ui.toolkits.test_toolkit_parameterized.test_chat_with_toolkit
 tags: []
 requirements: []
 ---

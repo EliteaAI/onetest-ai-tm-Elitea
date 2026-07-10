@@ -7,11 +7,11 @@ module: smoke-suite
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_api_health.py:TestAPIHealth.test_api_root_reachable
-test_api_health.py:TestAPIHealth.test_api_returns_json
-test_api_health.py:TestAuthenticatedAPI.test_list_agents
-test_ui_smoke.py:TestHomePage.test_page_loads
-test_ui_smoke.py:TestHomePage.test_main_content_visible
+  - tests.ui.smoke.test_api_health.TestAPIHealth.test_api_root_reachable
+  - tests.ui.smoke.test_api_health.TestAPIHealth.test_api_returns_json
+  - tests.ui.smoke.test_api_health.TestAuthenticatedAPI.test_list_agents
+  - tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads
+  - tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible
 tags: []
 requirements: []
 ---

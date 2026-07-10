@@ -7,10 +7,10 @@ module: chat-interface
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_chat_interface.py:TestSendingMessages.test_send_text_message
-  - test_chat_interface.py:TestSendingMessages.test_send_message_with_enter_key
-  - test_chat_interface.py:TestSendingMessages.test_shift_enter_adds_new_line
-  - test_chat_interface.py:TestSendingMessages.test_cannot_send_empty_message
+  - tests.ui.chat.test_chat_interface.TestSendingMessages.test_send_text_message
+  - tests.ui.chat.test_chat_interface.TestSendingMessages.test_send_message_with_enter_key
+  - tests.ui.chat.test_chat_interface.TestSendingMessages.test_shift_enter_adds_new_line
+  - tests.ui.chat.test_chat_interface.TestSendingMessages.test_cannot_send_empty_message
 tags: []
 requirements: []
 ---

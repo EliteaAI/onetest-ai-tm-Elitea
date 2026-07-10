@@ -7,8 +7,8 @@ module: agents
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_agent_management.py:TestAgentIsolation.test_fixture_creates_fresh_agent
-test_agent_management.py:TestAgentIsolation.test_fixture_cleanup_cycle
+  - tests.ui.agents.test_agent_management.TestAgentIsolation.test_fixture_creates_fresh_agent
+  - tests.ui.agents.test_agent_management.TestAgentIsolation.test_fixture_cleanup_cycle
 tags: []
 requirements: []
 ---

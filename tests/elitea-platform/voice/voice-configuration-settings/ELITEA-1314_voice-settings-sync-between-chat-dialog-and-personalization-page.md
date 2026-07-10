@@ -7,7 +7,7 @@ module: voice-configuration-settings
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_voice_configuration.py:TestVoiceConfiguration.test_voice_settings_sync
+  - tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_sync
 tags: [personalization, voice-settings, settings-sync, feat:voice, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5010]
 ---

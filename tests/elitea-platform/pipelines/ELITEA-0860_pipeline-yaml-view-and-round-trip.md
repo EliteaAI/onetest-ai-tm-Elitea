@@ -7,10 +7,10 @@ module: pipelines
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_pipeline_advanced.py:TestYamlEditor.test_yaml_view_toggle
-  - test_pipeline_advanced.py:TestYamlEditor.test_yaml_content_reflects_pipeline
-  - test_pipeline_advanced.py:TestYamlEditor.test_flow_yaml_round_trip
-  - test_pipeline_advanced.py:TestDiscardChanges.test_discard_reverts_name_change
+  - tests.ui.pipelines.test_pipeline_advanced.TestYamlEditor.test_yaml_view_toggle
+  - tests.ui.pipelines.test_pipeline_advanced.TestYamlEditor.test_yaml_content_reflects_pipeline
+  - tests.ui.pipelines.test_pipeline_advanced.TestYamlEditor.test_flow_yaml_round_trip
+  - tests.ui.pipelines.test_pipeline_advanced.TestDiscardChanges.test_discard_reverts_name_change
 tags: []
 requirements: []
 ---

@@ -7,7 +7,7 @@ module: voice-configuration-settings
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_voice_configuration.py:TestVoiceConfiguration.test_speed_and_volume_controls
+  - tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_speed_and_volume_controls
 tags: [voice-settings, volume-slider, speed-slider, feat:voice, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#5010]
 ---

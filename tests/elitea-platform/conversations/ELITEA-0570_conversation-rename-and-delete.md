@@ -7,10 +7,10 @@ module: conversations
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_conversation_management.py:TestConversationActions.test_rename_conversation_via_ui
-  - test_conversation_management.py:TestConversationActions.test_conversation_api_rename
-  - test_conversation_management.py:TestConversationActions.test_delete_conversation_with_confirmation
-  - test_conversation_management.py:TestConversationActions.test_delete_conversation_and_verify_ui
+  - tests.ui.chat.test_conversation_management.TestConversationActions.test_rename_conversation_via_ui
+  - tests.ui.chat.test_conversation_management.TestConversationActions.test_conversation_api_rename
+  - tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_with_confirmation
+  - tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_and_verify_ui
 tags: []
 requirements: []
 ---

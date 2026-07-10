@@ -7,10 +7,10 @@ module: conversations
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_conversation_management.py:TestCreateConversation.test_create_conversation_via_ui_button
-  - test_conversation_management.py:TestCreateConversation.test_create_conversation_via_api
-  - test_conversation_management.py:TestConversationList.test_conversation_appears_in_list
-  - test_conversation_management.py:TestConversationList.test_click_conversation_to_open
+  - tests.ui.chat.test_conversation_management.TestCreateConversation.test_create_conversation_via_ui_button
+  - tests.ui.chat.test_conversation_management.TestCreateConversation.test_create_conversation_via_api
+  - tests.ui.chat.test_conversation_management.TestConversationList.test_conversation_appears_in_list
+  - tests.ui.chat.test_conversation_management.TestConversationList.test_click_conversation_to_open
 tags: []
 requirements: []
 ---

@@ -7,9 +7,9 @@ module: pipelines
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_pipeline_management.py:TestCreatePipeline.test_create_pipeline_via_ui
-  - test_pipeline_management.py:TestCreatePipeline.test_create_pipeline_required_fields_validation
-  - test_pipeline_management.py:TestPipelineDashboard.test_pipeline_created_via_api_visible_in_dashboard
+  - tests.ui.pipelines.test_pipeline_management.TestCreatePipeline.test_create_pipeline_via_ui
+  - tests.ui.pipelines.test_pipeline_management.TestCreatePipeline.test_create_pipeline_required_fields_validation
+  - tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_pipeline_created_via_api_visible_in_dashboard
 tags: []
 requirements: []
 ---

@@ -7,9 +7,9 @@ module: conversations
 status: ready
 execution_type: automated
 automation_test_id:
-  - test_conversation_management.py:TestConversationActions.test_delete_conversation_with_confirmation
-  - test_conversation_management.py:TestConversationActions.test_delete_conversation_cancel
-  - test_conversation_management.py:TestConversationActions.test_delete_conversation_and_verify_ui
+  - tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_with_confirmation
+  - tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_cancel
+  - tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_and_verify_ui
 tags: []
 requirements: []
 ---
