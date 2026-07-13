@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1962
 title: "Create Credential"
-priority: high
+priority: critical
 type: functional
 module: toolkits-credentials
 status: draft

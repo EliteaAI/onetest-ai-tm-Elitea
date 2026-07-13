@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1924
 title: "Create Remote MCP — Validation Error on Missing Name"
-priority: medium
+priority: high
 type: functional
 module: elitea-platform
 status: draft

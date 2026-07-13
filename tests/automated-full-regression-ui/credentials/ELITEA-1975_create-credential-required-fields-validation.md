@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1975
 title: "Create Credential — Required Fields Validation"
-priority: medium
+priority: critical
 type: functional
 module: toolkits-credentials
 status: draft

@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1870
 title: "Agent listing — \"+Create\" button navigates to Create Agent page"
-priority: high
+priority: critical
 type: functional
 module: agents
 status: draft

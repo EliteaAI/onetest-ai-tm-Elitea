@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1872
 title: "Edit agent instructions and verify persistence"
-priority: high
+priority: critical
 type: functional
 module: agents
 status: draft

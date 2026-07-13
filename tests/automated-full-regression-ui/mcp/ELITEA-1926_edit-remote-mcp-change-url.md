@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1926
 title: "Edit Remote MCP — Change URL"
-priority: medium
+priority: critical
 type: functional
 module: elitea-platform
 status: draft

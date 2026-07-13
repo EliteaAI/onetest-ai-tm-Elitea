@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1942
 title: "MCP Dashboard — Filter by Type (Remote only)"
-priority: medium
+priority: high
 type: functional
 module: elitea-platform
 status: draft

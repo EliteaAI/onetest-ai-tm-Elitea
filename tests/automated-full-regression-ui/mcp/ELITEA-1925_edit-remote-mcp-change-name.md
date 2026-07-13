@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1925
 title: "Edit Remote MCP — Change Name"
-priority: medium
+priority: critical
 type: functional
 module: elitea-platform
 status: draft

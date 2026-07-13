@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1974
 title: "Credential — Pin/Unpin"
-priority: medium
+priority: high
 type: functional
 module: toolkits-credentials
 status: draft

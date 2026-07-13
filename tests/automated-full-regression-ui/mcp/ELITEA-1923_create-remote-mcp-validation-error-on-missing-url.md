@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1923
 title: "Create Remote MCP — Validation Error on Missing URL"
-priority: medium
+priority: high
 type: functional
 module: elitea-platform
 status: draft

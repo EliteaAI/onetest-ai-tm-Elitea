@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1927
 title: "Edit Remote MCP — Modify Configuration via Raw JSON"
-priority: medium
+priority: critical
 type: functional
 module: elitea-platform
 status: draft

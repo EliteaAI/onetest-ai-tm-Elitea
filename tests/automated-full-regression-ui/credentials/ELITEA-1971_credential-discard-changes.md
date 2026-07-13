@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1971
 title: "Credential — Discard Changes"
-priority: medium
+priority: critical
 type: functional
 module: toolkits-credentials
 status: draft

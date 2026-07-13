@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1932
 title: "Edit Remote MCP — Client Secret with Secret/Password Toggle"
-priority: medium
+priority: critical
 type: functional
 module: elitea-platform
 status: draft

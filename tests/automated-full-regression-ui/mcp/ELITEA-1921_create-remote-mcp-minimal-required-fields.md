@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1921
 title: "Create Remote MCP — Minimal Required Fields"
-priority: high
+priority: critical
 type: functional
 module: elitea-platform
 status: draft

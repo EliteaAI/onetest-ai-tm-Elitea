@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1930
 title: "Edit Remote MCP — Toggle SSL Verify"
-priority: medium
+priority: critical
 type: functional
 module: elitea-platform
 status: draft

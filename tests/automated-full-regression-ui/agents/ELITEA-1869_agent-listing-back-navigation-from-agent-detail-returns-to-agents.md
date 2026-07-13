@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1869
 title: "Agent listing — back navigation from agent detail returns to Agents list"
-priority: high
+priority: critical
 type: functional
 module: agents
 status: draft

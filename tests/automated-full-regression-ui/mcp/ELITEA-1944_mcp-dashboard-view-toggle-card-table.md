@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1944
 title: "MCP Dashboard — View Toggle (Card/Table)"
-priority: medium
+priority: high
 type: functional
 module: elitea-platform
 status: draft

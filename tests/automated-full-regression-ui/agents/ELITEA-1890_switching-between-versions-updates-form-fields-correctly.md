@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1890
 title: "Switching between versions updates form fields correctly"
-priority: high
+priority: critical
 type: functional
 module: agents
 status: draft

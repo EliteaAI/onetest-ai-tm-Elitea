@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1972
 title: "Credential — ID Auto-Generation"
-priority: medium
+priority: critical
 type: functional
 module: toolkits-credentials
 status: draft

@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1963
 title: "Edit Credential — Rename"
-priority: high
+priority: critical
 type: functional
 module: toolkits-credentials
 status: draft

@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1928
 title: "Edit Remote MCP — Discard Changes"
-priority: medium
+priority: critical
 type: functional
 module: elitea-platform
 status: draft

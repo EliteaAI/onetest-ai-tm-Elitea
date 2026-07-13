@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1943
 title: "MCP Dashboard — Filter by Type (Local only)"
-priority: medium
+priority: high
 type: functional
 module: elitea-platform
 status: draft

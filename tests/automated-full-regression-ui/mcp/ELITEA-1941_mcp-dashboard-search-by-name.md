@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1941
 title: "MCP Dashboard — Search by Name"
-priority: medium
+priority: high
 type: functional
 module: elitea-platform
 status: draft

@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1889
 title: "Agent \"Save As Version\" preserves all attached Skills"
-priority: high
+priority: critical
 type: functional
 module: agents
 status: draft

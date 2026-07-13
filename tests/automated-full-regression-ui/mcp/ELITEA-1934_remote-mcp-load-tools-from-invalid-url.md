@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1934
 title: "Remote MCP — Load Tools from Invalid URL"
-priority: medium
+priority: high
 type: functional
 module: elitea-platform
 status: draft

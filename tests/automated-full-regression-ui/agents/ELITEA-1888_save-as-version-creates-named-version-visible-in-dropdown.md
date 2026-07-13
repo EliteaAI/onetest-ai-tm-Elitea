@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1888
 title: "Save As Version creates a named version visible in version dropdown"
-priority: high
+priority: critical
 type: functional
 module: agents
 status: draft

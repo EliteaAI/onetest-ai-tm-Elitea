@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1931
 title: "Edit Remote MCP — Modify Headers JSON"
-priority: medium
+priority: critical
 type: functional
 module: elitea-platform
 status: draft

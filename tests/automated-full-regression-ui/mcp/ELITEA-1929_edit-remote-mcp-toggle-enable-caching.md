@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1929
 title: "Edit Remote MCP — Toggle Enable Caching"
-priority: medium
+priority: critical
 type: functional
 module: elitea-platform
 status: draft

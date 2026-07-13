@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1922
 title: "Create Remote MCP — All Fields Populated"
-priority: medium
+priority: critical
 type: functional
 module: elitea-platform
 status: draft

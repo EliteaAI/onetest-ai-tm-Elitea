@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1873
 title: "Discard changes resets all unsaved edits"
-priority: high
+priority: critical
 type: functional
 module: agents
 status: draft

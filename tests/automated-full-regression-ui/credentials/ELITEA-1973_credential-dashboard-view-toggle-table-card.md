@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1973
 title: "Credential Dashboard — View Toggle (Table/Card)"
-priority: medium
+priority: high
 type: functional
 module: toolkits-credentials
 status: draft

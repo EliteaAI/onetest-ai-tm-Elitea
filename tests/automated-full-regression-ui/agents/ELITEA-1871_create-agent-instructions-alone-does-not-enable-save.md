@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1871
 title: "Create agent — instructions field alone does not enable Save (name+description both required)"
-priority: high
+priority: critical
 type: functional
 module: agents
 status: draft

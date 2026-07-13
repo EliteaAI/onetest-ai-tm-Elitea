@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1935
 title: "Remote MCP — Deselect/Select Specific Tools"
-priority: medium
+priority: high
 type: functional
 module: elitea-platform
 status: draft
