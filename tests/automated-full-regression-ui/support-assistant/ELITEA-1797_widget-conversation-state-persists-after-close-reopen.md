@@ -5,8 +5,7 @@ priority: high
 type: functional
 module: support-assistant
 status: draft
-execution_type: automated
-automation_test_id: tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_widget_state_persists_after_close_and_reopen
+execution_type: manual
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
 ---

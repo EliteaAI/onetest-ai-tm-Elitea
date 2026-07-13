@@ -5,8 +5,7 @@ priority: high
 type: functional
 module: support-assistant
 status: draft
-execution_type: automated
-automation_test_id: tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantMessaging.test_send_message_and_receive_response
+execution_type: manual
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
 ---
