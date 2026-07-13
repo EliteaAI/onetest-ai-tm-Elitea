@@ -4,10 +4,11 @@ title: "Import Skill Non-Base Version"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: tests.ui.skills.test_skill_export_import.TestSkillExportImportNonBaseVersion.test_import_skill_non_base_version
 ---
 
 # ELITEA-1738: Import Skill Non-Base Version
