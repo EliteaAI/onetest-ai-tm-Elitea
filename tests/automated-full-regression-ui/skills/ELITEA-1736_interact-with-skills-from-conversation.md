@@ -4,10 +4,12 @@ title: "Interact with Skills from Conversation"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: automation/tests/ui/skills/test_skill_conversation_interaction.py::TestInteractWithSkillsFromConversation::test_interact_with_skills_from_conversation
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/41
 ---
 
 # ELITEA-1736: Interact with Skills from Conversation
