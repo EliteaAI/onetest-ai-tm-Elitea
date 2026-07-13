@@ -5,8 +5,7 @@ priority: medium
 type: functional
 module: support-assistant
 status: draft
-execution_type: automated
-automation_test_id: tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantAttachments.test_attach_button_is_present_and_opens_file_picker
+execution_type: manual
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
 ---

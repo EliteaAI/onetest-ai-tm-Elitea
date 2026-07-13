@@ -5,8 +5,7 @@ priority: medium
 type: functional
 module: support-assistant
 status: draft
-execution_type: automated
-automation_test_id: tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantViewModes.test_expand_and_collapse_to_full_view
+execution_type: manual
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
 ---
