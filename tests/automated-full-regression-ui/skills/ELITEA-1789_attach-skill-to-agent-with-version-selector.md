@@ -4,10 +4,12 @@ title: "Attach a Skill to an Agent and verify it appears with version selector"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: tests.ui.skills.test_skill_agent_version_selector.TestAttachSkillToAgentWithVersionSelector.test_attach_skill_to_agent_with_version_selector
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/47
 ---
 
 # ELITEA-1789: Attach a Skill to an Agent and verify it appears with version selector
