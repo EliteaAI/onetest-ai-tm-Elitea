@@ -4,10 +4,12 @@ title: "Search Skills by Name"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: tests.ui.skills.test_skill_search.TestSkillSearch.test_search_skills_by_name
+automation_pr: EliteaAI/elitea-testing-public#208
 ---
 
 # ELITEA-1739: Search Skills by Name
