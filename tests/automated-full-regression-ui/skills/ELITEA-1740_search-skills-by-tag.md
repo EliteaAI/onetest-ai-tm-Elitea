@@ -4,8 +4,9 @@ title: "Search Skills by Tag"
 priority: medium
 type: functional
 module: search-and-tag-filtering
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.skills.test_skill_tag_filter.TestSkillTagFilter.test_filter_skills_by_tag
 tags: [automated:UI:regression, feat:search]
 requirements: []
 ---
