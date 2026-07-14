@@ -4,10 +4,12 @@ title: "Remove attached Skill from Agent"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: tests.ui.skills.test_remove_attached_skill_from_agent.TestRemoveAttachedSkillFromAgent.test_remove_attached_skill_from_agent
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/50
 ---
 
 # ELITEA-1792: Remove attached Skill from Agent
