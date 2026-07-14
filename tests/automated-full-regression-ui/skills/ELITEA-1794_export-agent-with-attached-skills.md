@@ -4,10 +4,12 @@ title: "Export Agent with attached Skills — exported .md contains Skill conten
 priority: high
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: automation/tests/ui/skills/test_export_agent_with_attached_skills.py::TestExportAgentWithAttachedSkills::test_export_agent_with_attached_skills
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/53
 ---
 
 # ELITEA-1794: Export Agent with attached Skills — exported .md contains Skill content
