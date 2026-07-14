@@ -4,10 +4,12 @@ title: "Maximum 5 Skills can be attached to one Agent"
 priority: high
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: tests.ui.skills.test_agent_max_five_skills_limit.TestAgentMaxFiveSkillsLimit.test_max_five_skills_attach_limit
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/48
 ---
 
 # ELITEA-1790: Maximum 5 Skills can be attached to one Agent
