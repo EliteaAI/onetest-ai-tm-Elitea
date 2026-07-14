@@ -4,10 +4,12 @@ title: "Import Agent with attached Skills recreates Skills with new IDs"
 priority: high
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: automation/tests/ui/skills/test_import_agent_recreates_skills_with_new_ids.py::TestImportAgentRecreatesSkillsWithNewIds::test_import_agent_recreates_skills_with_new_ids
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/54
 ---
 
 # ELITEA-1795: Import Agent with attached Skills recreates Skills with new IDs
