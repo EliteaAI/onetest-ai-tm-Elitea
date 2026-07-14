@@ -1,0 +1,983 @@
+{
+  "launch": {
+    "total": 139,
+    "passed": 109,
+    "failed": 21,
+    "skipped": 9
+  },
+  "items": [
+    {
+      "code_ref": "tests.ui.admin.test_guardrails_live_reload.TestBlockedToolkitLiveReload.test_blocked_toolkit_live_reload_case_insensitive",
+      "name": "test_blocked_toolkit_live_reload_case_insensitive",
+      "status": "failed",
+      "duration_ms": 136234,
+      "failure_message": "AssertionError: Toolkit 'guardrails_test_github_toolkit' should show 'blocked by your organization' indicator\nassert False\n +  where False = is_toolkit_blocked('guardrails_test_github_toolkit', timeout=10000)\n +    where is_toolkit_blocked = <pages.agent_detail_page.AgentDetailPage object at 0x7f99dae4c710>.is_toolkit_blocked tests/ui/admin/test_guardrails_live_reload.py:355: in test_blocked_toolkit_live_reload_case_insensitive\n    assert agent_page.is_toolkit_blocked(toolkit_name, timeout=UI_ELEMENT_TIMEOUT), (\nE   AssertionError: Toolkit 'guardrails_test_github_toolkit' should show 'blocked by your organization' indicator\nE   assert False\nE    +  where False = is_toolkit_blocked('guardrails_test_github_toolkit', timeout=10000)\nE    +    where is_toolkit_blocked = <pages.agent_detail_page.AgentDetailPage object at 0x7f99dae4c710>.is_toolkit_blocked"
+    },
+    {
+      "code_ref": "tests.ui.admin.test_guardrails_live_reload.TestBlockedToolLiveReload.test_blocked_tool_live_reload_case_insensitive",
+      "name": "test_blocked_tool_live_reload_case_insensitive",
+      "status": "failed",
+      "duration_ms": 117337,
+      "failure_message": "AssertionError: Toolkit 'guardrails_test_github_toolkit' should show 'Some tools are not available anymore' indicator\nassert False\n +  where False = is_tool_blocked_in_toolkit('guardrails_test_github_toolkit', timeout=10000)\n +    where is_tool_blocked_in_toolkit = <pages.agent_detail_page.AgentDetailPage object at 0x7f99e04de690>.is_tool_blocked_in_toolkit tests/ui/admin/test_guardrails_live_reload.py:469: in test_blocked_tool_live_reload_case_insensitive\n    assert agent_page.is_tool_blocked_in_toolkit(toolkit_name, timeout=UI_ELEMENT_TIMEOUT), (\nE   AssertionError: Toolkit 'guardrails_test_github_toolkit' should show 'Some tools are not available anymore' indicator\nE   assert False\nE    +  where False = is_tool_blocked_in_toolkit('guardrails_test_github_toolkit', timeout=10000)\nE    +    where is_tool_blocked_in_toolkit = <pages.agent_detail_page.AgentDetailPage object at 0x7f99e04de690>.is_tool_blocked_in_toolkit"
+    },
+    {
+      "code_ref": "tests.ui.admin.test_guardrails_live_reload.TestSensitiveToolLiveReload.test_sensitive_tool_live_reload_case_insensitive",
+      "name": "test_sensitive_tool_live_reload_case_insensitive",
+      "status": "failed",
+      "duration_ms": 115459,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.click: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text(\\\"Add\\\")\").last\n    - locator resolved to <button disabled tabindex=\"-1\" type=\"button\" class=\"MuiButtonBase-root Mui-disabled MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeSmall MuiButton-outlinedSizeSmall MuiButton-colorPrimary css-1lno195\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not enabled\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not enabled\n    - retrying click action\n      - waiting 100ms\n    29 × waiting for element to be visible, enabled and stable\n       - element is not enabled\n     - retrying click action\n       - waiting 500ms tests/ui/admin/test_guardrails_live_reload.py:589: in test_sensitive_tool_live_reload_case_insensitive\n    guardrails.add_sensitive_tool(TEST_TOOLKIT, TEST_TOOL)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/guardrails_admin_page.py:331: in add_sensitive_tool\n    add_btn.click()\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:17672: in click\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:163: in click\n    return await self._frame._click(self._selector, strict=True, **params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:591: in _click\n    await self._channel.send(\"click\", self._timeout, locals_to_params(locals()))\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:69: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:563: in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nE   playwright._impl._errors.TimeoutError: Locator.click: Timeout 15000ms exceeded.\nE   Call log:\nE     - waiting for locator(\"button:has-text(\\\"Add\\\")\").last\nE       - locator resolved to <button disabled tabindex=\"-1\" type=\"button\" class=\"MuiButtonBase-root Mui-disabled MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeSmall MuiButton-outlinedSizeSmall MuiButton-colorPrimary css-1lno195\">…</button>\nE     - attempting click action\nE       2 × waiting for element to be visible, enabled and stable\nE         - element is not enabled\nE       - retrying click action\nE       - waiting 20ms\nE       2 × waiting for element to be visible, enabled and stable\nE         - element is not enabled\nE       - retrying click action\nE         - waiting 100ms\nE       29 × waiting for element to be visible, enabled and stable\nE          - element is not enabled\nE        - retrying click action\nE          - waiting 500ms"
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_counter_visible_and_updates_realtime",
+      "name": "test_welcome_message_counter_visible_and_updates_realtime",
+      "status": "passed",
+      "duration_ms": 8428,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_counter_turns_red_at_limit",
+      "name": "test_welcome_message_counter_turns_red_at_limit",
+      "status": "passed",
+      "duration_ms": 4935,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_fullscreen_counter_and_warning",
+      "name": "test_welcome_message_fullscreen_counter_and_warning",
+      "status": "passed",
+      "duration_ms": 33252,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_text_truncated_with_warning",
+      "name": "test_welcome_message_text_truncated_with_warning",
+      "status": "passed",
+      "duration_ms": 34676,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_counter_visible_and_updates",
+      "name": "test_conversation_starter_counter_visible_and_updates",
+      "status": "passed",
+      "duration_ms": 6905,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_counter_turns_red_at_limit",
+      "name": "test_conversation_starter_counter_turns_red_at_limit",
+      "status": "passed",
+      "duration_ms": 6178,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_fullscreen_counter_and_warning",
+      "name": "test_conversation_starter_fullscreen_counter_and_warning",
+      "status": "passed",
+      "duration_ms": 34338,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_text_truncated_with_warning",
+      "name": "test_conversation_starter_text_truncated_with_warning",
+      "status": "passed",
+      "duration_ms": 36161,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_multiple_conversation_starters_have_counters",
+      "name": "test_multiple_conversation_starters_have_counters",
+      "status": "passed",
+      "duration_ms": 6674,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_via_ui",
+      "name": "test_create_agent_via_ui",
+      "status": "passed",
+      "duration_ms": 19423,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_via_api_visible_in_ui",
+      "name": "test_create_agent_via_api_visible_in_ui",
+      "status": "passed",
+      "duration_ms": 3629,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_required_fields_validation",
+      "name": "test_create_agent_required_fields_validation",
+      "status": "passed",
+      "duration_ms": 12223,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_detail_page_loads",
+      "name": "test_agent_detail_page_loads",
+      "status": "passed",
+      "duration_ms": 4681,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_instructions_field",
+      "name": "test_agent_instructions_field",
+      "status": "passed",
+      "duration_ms": 4726,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_information_section",
+      "name": "test_agent_information_section",
+      "status": "passed",
+      "duration_ms": 5045,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_toolkits_section_visible",
+      "name": "test_agent_toolkits_section_visible",
+      "status": "passed",
+      "duration_ms": 5431,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentConfiguration.test_internal_tools_enum_usage",
+      "name": "test_internal_tools_enum_usage",
+      "status": "passed",
+      "duration_ms": 9773,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentList.test_agents_dashboard_loads",
+      "name": "test_agents_dashboard_loads",
+      "status": "passed",
+      "duration_ms": 3812,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentList.test_agent_search",
+      "name": "test_agent_search",
+      "status": "passed",
+      "duration_ms": 4786,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentList.test_agent_search_no_results",
+      "name": "test_agent_search_no_results",
+      "status": "passed",
+      "duration_ms": 7743,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentList.test_view_toggle_table_and_card",
+      "name": "test_view_toggle_table_and_card",
+      "status": "passed",
+      "duration_ms": 4478,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_name",
+      "name": "test_edit_agent_name",
+      "status": "passed",
+      "duration_ms": 9542,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_description",
+      "name": "test_edit_agent_description",
+      "status": "passed",
+      "duration_ms": 10284,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentActions.test_delete_agent_via_api",
+      "name": "test_delete_agent_via_api",
+      "status": "passed",
+      "duration_ms": 9656,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_management.TestAgentActions.test_delete_agent_via_ui_menu",
+      "name": "test_delete_agent_via_ui_menu",
+      "status": "passed",
+      "duration_ms": 11839,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_with_github_toolkit.TestAddToolkitToAgent.test_add_toolkit_to_agent",
+      "name": "test_add_toolkit_to_agent",
+      "status": "failed",
+      "duration_ms": 1335,
+      "failure_message": "failed on setup with \"requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Mon, 13 Jul 2026 23:54:31 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}\" api/client.py:75: in _raise_for_status\n    resp.raise_for_status()\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py:1167: in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399\n\nThe above exception was the direct cause of the following exception:\nfixtures/data_fixtures.py:260: in github_toolkit\n    toolkit = toolkit_api.create_github_toolkit(\napi/client.py:1382: in create_github_toolkit\n    _raise_for_status(resp)\napi/client.py:85: in _raise_for_status\n    raise requests.HTTPError(error_msg, response=resp) from exc\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Mon, 13 Jul 2026 23:54:31 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}"
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_with_github_toolkit.TestRemoveToolkitFromAgent.test_remove_toolkit_from_agent",
+      "name": "test_remove_toolkit_from_agent",
+      "status": "failed",
+      "duration_ms": 1258,
+      "failure_message": "failed on setup with \"requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Mon, 13 Jul 2026 23:54:32 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}\" api/client.py:75: in _raise_for_status\n    resp.raise_for_status()\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py:1167: in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399\n\nThe above exception was the direct cause of the following exception:\nfixtures/data_fixtures.py:260: in github_toolkit\n    toolkit = toolkit_api.create_github_toolkit(\napi/client.py:1382: in create_github_toolkit\n    _raise_for_status(resp)\napi/client.py:85: in _raise_for_status\n    raise requests.HTTPError(error_msg, response=resp) from exc\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Mon, 13 Jul 2026 23:54:32 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}"
+    },
+    {
+      "code_ref": "tests.ui.agents.test_agent_with_github_toolkit.TestChatWithAgentToolkit.test_agent_chat_with_github_toolkit",
+      "name": "test_agent_chat_with_github_toolkit",
+      "status": "failed",
+      "duration_ms": 2121,
+      "failure_message": "failed on setup with \"requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Mon, 13 Jul 2026 23:54:34 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}\" api/client.py:75: in _raise_for_status\n    resp.raise_for_status()\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py:1167: in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399\n\nThe above exception was the direct cause of the following exception:\nfixtures/data_fixtures.py:260: in github_toolkit\n    toolkit = toolkit_api.create_github_toolkit(\napi/client.py:1382: in create_github_toolkit\n    _raise_for_status(resp)\napi/client.py:85: in _raise_for_status\n    raise requests.HTTPError(error_msg, response=resp) from exc\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Mon, 13 Jul 2026 23:54:34 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}"
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_multi_file.TestArtifactMultiFileDownload.test_agent_creates_files_at_root_and_in_subfolder",
+      "name": "test_agent_creates_files_at_root_and_in_subfolder",
+      "status": "passed",
+      "duration_ms": 201474,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat",
+      "name": "test_agent_with_toolkit_executes_in_chat",
+      "status": "failed",
+      "duration_ms": 1240,
+      "failure_message": "failed on setup with \"requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Mon, 13 Jul 2026 23:57:57 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}\" api/client.py:75: in _raise_for_status\n    resp.raise_for_status()\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py:1167: in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399\n\nThe above exception was the direct cause of the following exception:\nfixtures/data_fixtures.py:260: in github_toolkit\n    toolkit = toolkit_api.create_github_toolkit(\napi/client.py:1382: in create_github_toolkit\n    _raise_for_status(resp)\napi/client.py:85: in _raise_for_status\n    raise requests.HTTPError(error_msg, response=resp) from exc\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Mon, 13 Jul 2026 23:57:57 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}"
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestPageLoadAndRendering.test_chat_page_loads_with_functional_input",
+      "name": "test_chat_page_loads_with_functional_input",
+      "status": "passed",
+      "duration_ms": 4436,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSendingMessages.test_send_text_message",
+      "name": "test_send_text_message",
+      "status": "passed",
+      "duration_ms": 4404,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSendingMessages.test_shift_enter_adds_new_line",
+      "name": "test_shift_enter_adds_new_line",
+      "status": "passed",
+      "duration_ms": 4722,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSendingMessages.test_cannot_send_empty_message",
+      "name": "test_cannot_send_empty_message",
+      "status": "passed",
+      "duration_ms": 3709,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestMessageActions.test_copy_message_to_clipboard",
+      "name": "test_copy_message_to_clipboard",
+      "status": "passed",
+      "duration_ms": 13879,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestMessageActions.test_delete_message",
+      "name": "test_delete_message",
+      "status": "passed",
+      "duration_ms": 13385,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_model_selector_opens_menu",
+      "name": "test_model_selector_opens_menu",
+      "status": "passed",
+      "duration_ms": 4544,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_sends_file_with_message",
+      "name": "test_attach_files_button_sends_file_with_message",
+      "status": "passed",
+      "duration_ms": 16295,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_internal_tools_panel_shows_all_tools",
+      "name": "test_internal_tools_panel_shows_all_tools",
+      "status": "failed",
+      "duration_ms": 4854,
+      "failure_message": "AssertionError: Internal tool 'Elitea MCP Tools' should be visible in the panel\nassert False\n +  where False = is_visible()\n +    where is_visible = <Locator frame=<Frame name= url='https://dev.elitea.ai/app/chat/5218?name=autotest_test_internal_tools_pan'> selector='internal:role=switch[name=\"Elitea MCP Tools\"i]'>.is_visible tests/ui/chat/test_chat_interface.py:493: in test_internal_tools_panel_shows_all_tools\n    assert tool_switch.is_visible(), (\nE   AssertionError: Internal tool 'Elitea MCP Tools' should be visible in the panel\nE   assert False\nE    +  where False = is_visible()\nE    +    where is_visible = <Locator frame=<Frame name= url='https://dev.elitea.ai/app/chat/5218?name=autotest_test_internal_tools_pan'> selector='internal:role=switch[name=\"Elitea MCP Tools\"i]'>.is_visible"
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestHashSearch.test_hash_search_participants",
+      "name": "test_hash_search_participants",
+      "status": "passed",
+      "duration_ms": 4912,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestHashSearch.test_add_participant_via_hash_search",
+      "name": "test_add_participant_via_hash_search",
+      "status": "passed",
+      "duration_ms": 4934,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestContextAndSettings.test_edit_context_settings",
+      "name": "test_edit_context_settings",
+      "status": "skipped",
+      "duration_ms": 11165,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_open_close_sidebar",
+      "name": "test_open_close_sidebar",
+      "status": "passed",
+      "duration_ms": 6344,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_navigate_to_agents_from_sidebar",
+      "name": "test_navigate_to_agents_from_sidebar",
+      "status": "passed",
+      "duration_ms": 5252,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSearchAndErrorHandling.test_search_conversations_dialog",
+      "name": "test_search_conversations_dialog",
+      "status": "failed",
+      "duration_ms": 10474,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 5000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=\"Search conversations\") to be visible tests/ui/chat/test_chat_interface.py:710: in test_search_conversations_dialog\n    chat.open_search_conversations()\npages/chat_page.py:959: in open_search_conversations\n    search_btn.wait_for(state=\"visible\", timeout=5000)\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20298: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:741: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:69: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:563: in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nE   playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 5000ms exceeded.\nE   Call log:\nE     - waiting for get_by_role(\"button\", name=\"Search conversations\") to be visible"
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSearchAndErrorHandling.test_handle_message_send_failure",
+      "name": "test_handle_message_send_failure",
+      "status": "passed",
+      "duration_ms": 22108,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[10k_tokens]",
+      "name": "test_context_budget_reflects_profile_max_tokens[10k_tokens]",
+      "status": "failed",
+      "duration_ms": 7147,
+      "failure_message": "playwright._impl._errors.Error: Locator.is_checked: Error: Not a checkbox or radio button\nCall log:\n  - waiting for get_by_test_id(\"context-management-toggle\") tests/ui/chat/test_context_management.py:87: in test_context_budget_reflects_profile_max_tokens\n    profile.enable_context_management()\npages/user_profile_settings_page.py:191: in enable_context_management\n    if not self.is_context_management_enabled():\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/user_profile_settings_page.py:181: in is_context_management_enabled\n    checked = self.context_management_toggle.is_checked()\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:19293: in is_checked\n    self._sync(self._impl_obj.is_checked(timeout=to_milliseconds(timeout)))\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:509: in is_checked\n    return await self._frame.is_checked(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:402: in is_checked\n    return await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:69: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:563: in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nE   playwright._impl._errors.Error: Locator.is_checked: Error: Not a checkbox or radio button\nE   Call log:\nE     - waiting for get_by_test_id(\"context-management-toggle\")"
+    },
+    {
+      "code_ref": "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[32k_tokens]",
+      "name": "test_context_budget_reflects_profile_max_tokens[32k_tokens]",
+      "status": "failed",
+      "duration_ms": 6061,
+      "failure_message": "playwright._impl._errors.Error: Locator.is_checked: Error: Not a checkbox or radio button\nCall log:\n  - waiting for get_by_test_id(\"context-management-toggle\") tests/ui/chat/test_context_management.py:87: in test_context_budget_reflects_profile_max_tokens\n    profile.enable_context_management()\npages/user_profile_settings_page.py:191: in enable_context_management\n    if not self.is_context_management_enabled():\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/user_profile_settings_page.py:181: in is_context_management_enabled\n    checked = self.context_management_toggle.is_checked()\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:19293: in is_checked\n    self._sync(self._impl_obj.is_checked(timeout=to_milliseconds(timeout)))\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:509: in is_checked\n    return await self._frame.is_checked(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:402: in is_checked\n    return await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:69: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:563: in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nE   playwright._impl._errors.Error: Locator.is_checked: Error: Not a checkbox or radio button\nE   Call log:\nE     - waiting for get_by_test_id(\"context-management-toggle\")"
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestCreateConversation.test_create_conversation_via_ui_button",
+      "name": "test_create_conversation_via_ui_button",
+      "status": "passed",
+      "duration_ms": 9831,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestCreateConversation.test_create_conversation_via_api",
+      "name": "test_create_conversation_via_api",
+      "status": "passed",
+      "duration_ms": 4594,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestCreateConversation.test_new_conversation_default_settings",
+      "name": "test_new_conversation_default_settings",
+      "status": "passed",
+      "duration_ms": 4425,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationList.test_click_conversation_to_open",
+      "name": "test_click_conversation_to_open",
+      "status": "passed",
+      "duration_ms": 14741,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationList.test_search_conversations_button",
+      "name": "test_search_conversations_button",
+      "status": "passed",
+      "duration_ms": 4629,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationNavigation.test_navigate_between_conversations",
+      "name": "test_navigate_between_conversations",
+      "status": "passed",
+      "duration_ms": 16354,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationNavigation.test_send_message_persists_conversation",
+      "name": "test_send_message_persists_conversation",
+      "status": "passed",
+      "duration_ms": 11618,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationActions.test_rename_conversation_via_ui",
+      "name": "test_rename_conversation_via_ui",
+      "status": "failed",
+      "duration_ms": 24852,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"menuitem\\\"]:has-text(\\\"Edit\\\")\") tests/ui/chat/test_conversation_management.py:407: in test_rename_conversation_via_ui\n    chat.rename_conversation_via_menu(\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/chat_page.py:1300: in rename_conversation_via_menu\n    self.page.locator('[role=\"menuitem\"]:has-text(\"Edit\")').click()\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:17672: in click\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:163: in click\n    return await self._frame._click(self._selector, strict=True, **params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:591: in _click\n    await self._channel.send(\"click\", self._timeout, locals_to_params(locals()))\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:69: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:563: in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nE   playwright._impl._errors.TimeoutError: Locator.click: Timeout 10000ms exceeded.\nE   Call log:\nE     - waiting for locator(\"[role=\\\"menuitem\\\"]:has-text(\\\"Edit\\\")\")"
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_with_confirmation",
+      "name": "test_delete_conversation_with_confirmation",
+      "status": "failed",
+      "duration_ms": 14855,
+      "failure_message": "AssertionError: Expected 'Delete conversation' in title, got: \nassert 'Delete conversation' in '' tests/ui/chat/test_conversation_management.py:480: in test_delete_conversation_with_confirmation\n    assert \"Delete conversation\" in title_text, f\"Expected 'Delete conversation' in title, got: {title_text}\"\nE   AssertionError: Expected 'Delete conversation' in title, got: \nE   assert 'Delete conversation' in ''"
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_cancel",
+      "name": "test_delete_conversation_cancel",
+      "status": "passed",
+      "duration_ms": 15001,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationActions.test_multiple_conversations_listed",
+      "name": "test_multiple_conversations_listed",
+      "status": "passed",
+      "duration_ms": 14546,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationIsolation.test_fixture_creates_fresh_conversation",
+      "name": "test_fixture_creates_fresh_conversation",
+      "status": "passed",
+      "duration_ms": 4206,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_conversation_management.TestConversationIsolation.test_fixture_cleanup_cycle",
+      "name": "test_fixture_cleanup_cycle",
+      "status": "passed",
+      "duration_ms": 497,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[detailed_description]",
+      "name": "test_create_image[detailed_description]",
+      "status": "passed",
+      "duration_ms": 73627,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[minimal_prompt]",
+      "name": "test_create_image[minimal_prompt]",
+      "status": "passed",
+      "duration_ms": 47192,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestYamlEditor.test_yaml_view_toggle",
+      "name": "test_yaml_view_toggle",
+      "status": "passed",
+      "duration_ms": 6623,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestYamlEditor.test_yaml_content_reflects_pipeline",
+      "name": "test_yaml_content_reflects_pipeline",
+      "status": "passed",
+      "duration_ms": 5330,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestYamlEditor.test_flow_yaml_round_trip",
+      "name": "test_flow_yaml_round_trip",
+      "status": "passed",
+      "duration_ms": 8157,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestDiscardChanges.test_discard_reverts_name_change",
+      "name": "test_discard_reverts_name_change",
+      "status": "passed",
+      "duration_ms": 6763,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestMakeEntrypoint.test_make_node_entrypoint",
+      "name": "test_make_node_entrypoint",
+      "status": "passed",
+      "duration_ms": 13467,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestActionsMenu.test_three_dot_menu_lists_items",
+      "name": "test_three_dot_menu_lists_items",
+      "status": "passed",
+      "duration_ms": 5148,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestActionsMenu.test_export_pipeline_if_available",
+      "name": "test_export_pipeline_if_available",
+      "status": "passed",
+      "duration_ms": 6642,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestMultiNodeTopology.test_three_node_chain",
+      "name": "test_three_node_chain",
+      "status": "passed",
+      "duration_ms": 13524,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestMultiNodeTopology.test_save_multi_node_pipeline",
+      "name": "test_save_multi_node_pipeline",
+      "status": "passed",
+      "duration_ms": 11879,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_pipeline_response_is_meaningful",
+      "name": "test_pipeline_response_is_meaningful",
+      "status": "passed",
+      "duration_ms": 13973,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_message_count_starts_at_zero_and_grows",
+      "name": "test_message_count_starts_at_zero_and_grows",
+      "status": "passed",
+      "duration_ms": 21300,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_execution.TestPipelineExecutionEdgeCases.test_empty_pipeline_execution",
+      "name": "test_empty_pipeline_execution",
+      "status": "passed",
+      "duration_ms": 12064,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_execution.TestPipelineExecutionEdgeCases.test_navigate_away_and_reexecute",
+      "name": "test_navigate_away_and_reexecute",
+      "status": "passed",
+      "duration_ms": 27058,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_user_message_visible",
+      "name": "test_user_message_visible",
+      "status": "passed",
+      "duration_ms": 13124,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_multiple_executions_accumulate",
+      "name": "test_multiple_executions_accumulate",
+      "status": "passed",
+      "duration_ms": 29543,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_pipeline_dashboard_loads",
+      "name": "test_pipeline_dashboard_loads",
+      "status": "passed",
+      "duration_ms": 3311,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_pipeline_created_via_api_visible_in_dashboard",
+      "name": "test_pipeline_created_via_api_visible_in_dashboard",
+      "status": "passed",
+      "duration_ms": 3603,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_view_toggle_table_and_card",
+      "name": "test_view_toggle_table_and_card",
+      "status": "passed",
+      "duration_ms": 4187,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestCreatePipeline.test_create_pipeline_via_ui",
+      "name": "test_create_pipeline_via_ui",
+      "status": "passed",
+      "duration_ms": 7882,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestCreatePipeline.test_create_pipeline_required_fields_validation",
+      "name": "test_create_pipeline_required_fields_validation",
+      "status": "passed",
+      "duration_ms": 5237,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_edit_pipeline_name",
+      "name": "test_edit_pipeline_name",
+      "status": "passed",
+      "duration_ms": 10121,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_edit_pipeline_description",
+      "name": "test_edit_pipeline_description",
+      "status": "passed",
+      "duration_ms": 10668,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_pipeline_detail_page_loads",
+      "name": "test_pipeline_detail_page_loads",
+      "status": "passed",
+      "duration_ms": 4415,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_pipeline_has_configuration_and_history_tabs",
+      "name": "test_pipeline_has_configuration_and_history_tabs",
+      "status": "passed",
+      "duration_ms": 4138,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_api",
+      "name": "test_delete_pipeline_via_api",
+      "status": "passed",
+      "duration_ms": 9684,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_ui_menu",
+      "name": "test_delete_pipeline_via_ui_menu",
+      "status": "passed",
+      "duration_ms": 12012,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestSearchPipeline.test_search_pipeline_by_name",
+      "name": "test_search_pipeline_by_name",
+      "status": "passed",
+      "duration_ms": 3952,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestSearchPipeline.test_search_pipeline_no_results",
+      "name": "test_search_pipeline_no_results",
+      "status": "passed",
+      "duration_ms": 7119,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestPipelineIsolation.test_fixture_creates_fresh_pipeline",
+      "name": "test_fixture_creates_fresh_pipeline",
+      "status": "passed",
+      "duration_ms": 4430,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestPipelineIsolation.test_fixture_cleanup_cycle",
+      "name": "test_fixture_cleanup_cycle",
+      "status": "passed",
+      "duration_ms": 393,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end",
+      "name": "test_add_human_in_the_loop_node_and_connect_to_end",
+      "status": "passed",
+      "duration_ms": 7829,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_management.TestCreateSkill.test_create_skill_and_verify_execution",
+      "name": "test_create_skill_and_verify_execution",
+      "status": "passed",
+      "duration_ms": 19541,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads",
+      "name": "test_page_loads",
+      "status": "passed",
+      "duration_ms": 13916,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible",
+      "name": "test_main_content_visible",
+      "status": "passed",
+      "duration_ms": 13865,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_launcher_visible_and_opens_widget",
+      "name": "test_launcher_visible_and_opens_widget",
+      "status": "passed",
+      "duration_ms": 14201,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_widget_state_persists_after_close_reopen",
+      "name": "test_widget_state_persists_after_close_reopen",
+      "status": "passed",
+      "duration_ms": 79561,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantMessaging.test_send_message_and_receive_response",
+      "name": "test_send_message_and_receive_response",
+      "status": "passed",
+      "duration_ms": 65507,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantNewSession.test_new_chat_creates_fresh_session",
+      "name": "test_new_chat_creates_fresh_session",
+      "status": "failed",
+      "duration_ms": 74412,
+      "failure_message": "playwright._impl._errors.TimeoutError: Page.wait_for_function: Timeout 60000ms exceeded. tests/ui/support_assistant/test_support_assistant_smoke.py:226: in test_new_chat_creates_fresh_session\n    support_page.wait_for_response(initial_count=initial_count, timeout=AI_RESPONSE_TIMEOUT)\npages/support_assistant_page.py:225: in wait_for_response\n    self.page.wait_for_function(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:12594: in wait_for_function\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_page.py:1144: in wait_for_function\n    return await self._main_frame.wait_for_function(**locals_to_params(locals()))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:932: in wait_for_function\n    await self._channel.send(\"waitForFunction\", self._timeout, params)\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:69: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:563: in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nE   playwright._impl._errors.TimeoutError: Page.wait_for_function: Timeout 60000ms exceeded."
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantHistory.test_history_restore_and_continue",
+      "name": "test_history_restore_and_continue",
+      "status": "passed",
+      "duration_ms": 102923,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantViewModes.test_expand_collapse_fullview",
+      "name": "test_expand_collapse_fullview",
+      "status": "passed",
+      "duration_ms": 16293,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantAttachments.test_attach_button_present_and_opens_picker",
+      "name": "test_attach_button_present_and_opens_picker",
+      "status": "passed",
+      "duration_ms": 14203,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_github_toolkit.TestCreateGitHubCredential.test_create_github_credential",
+      "name": "test_create_github_credential",
+      "status": "passed",
+      "duration_ms": 10303,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_github_toolkit.TestCreateGitHubToolkit.test_create_github_toolkit",
+      "name": "test_create_github_toolkit",
+      "status": "failed",
+      "duration_ms": 61102,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"GitHub\").first to be visible tests/ui/toolkits/test_github_toolkit.py:235: in test_create_github_toolkit\n    github_card.wait_for(state=\"visible\", timeout=UI_ELEMENT_TIMEOUT)\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20298: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:741: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:69: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:563: in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nE   playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nE   Call log:\nE     - waiting for get_by_text(\"GitHub\").first to be visible"
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_github_toolkit.TestGitHubToolkitTestSettings.test_github_toolkit_test_settings",
+      "name": "test_github_toolkit_test_settings",
+      "status": "failed",
+      "duration_ms": 3953,
+      "failure_message": "failed on setup with \"requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Tue, 14 Jul 2026 00:18:14 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}\" api/client.py:75: in _raise_for_status\n    resp.raise_for_status()\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py:1167: in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399\n\nThe above exception was the direct cause of the following exception:\ntests/ui/toolkits/test_github_toolkit.py:393: in toolkit_id\n    toolkit = toolkit_api.create_github_toolkit(\napi/client.py:1382: in create_github_toolkit\n    _raise_for_status(resp)\napi/client.py:85: in _raise_for_status\n    raise requests.HTTPError(error_msg, response=resp) from exc\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Tue, 14 Jul 2026 00:18:14 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}"
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_github_toolkit.TestChatWithGitHubToolkit.test_chat_with_github_toolkit",
+      "name": "test_chat_with_github_toolkit",
+      "status": "failed",
+      "duration_ms": 4468,
+      "failure_message": "failed on setup with \"requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Tue, 14 Jul 2026 00:18:26 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}\" api/client.py:75: in _raise_for_status\n    resp.raise_for_status()\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py:1167: in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399\n\nThe above exception was the direct cause of the following exception:\ntests/ui/toolkits/test_github_toolkit.py:393: in toolkit_id\n    toolkit = toolkit_api.create_github_toolkit(\napi/client.py:1382: in create_github_toolkit\n    _raise_for_status(resp)\napi/client.py:85: in _raise_for_status\n    raise requests.HTTPError(error_msg, response=resp) from exc\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Tue, 14 Jul 2026 00:18:26 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}"
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e",
+      "name": "test_toolkit_credential_indicators_e2e",
+      "status": "passed",
+      "duration_ms": 24479,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestPipelineCredentialIndicators.test_pipeline_credential_indicators_e2e",
+      "name": "test_pipeline_credential_indicators_e2e",
+      "status": "passed",
+      "duration_ms": 23810,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestAgentCredentialIndicators.test_agent_credential_indicators_e2e",
+      "name": "test_agent_credential_indicators_e2e",
+      "status": "passed",
+      "duration_ms": 43336,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[github]",
+      "name": "test_create_credential[github]",
+      "status": "passed",
+      "duration_ms": 15487,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[jira]",
+      "name": "test_create_credential[jira]",
+      "status": "passed",
+      "duration_ms": 20478,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[gitlab]",
+      "name": "test_create_credential[gitlab]",
+      "status": "skipped",
+      "duration_ms": 394,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[bitbucket]",
+      "name": "test_create_credential[bitbucket]",
+      "status": "skipped",
+      "duration_ms": 322,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[confluence]",
+      "name": "test_create_credential[confluence]",
+      "status": "passed",
+      "duration_ms": 21329,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[github]",
+      "name": "test_create_toolkit[github]",
+      "status": "failed",
+      "duration_ms": 17053,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"GitHub\").first to be visible tests/ui/toolkits/test_toolkit_parameterized.py:310: in test_create_toolkit\n    card.wait_for(state=\"visible\", timeout=UI_ELEMENT_TIMEOUT)\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20298: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:741: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:69: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:563: in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nE   playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nE   Call log:\nE     - waiting for get_by_text(\"GitHub\").first to be visible"
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[jira]",
+      "name": "test_create_toolkit[jira]",
+      "status": "passed",
+      "duration_ms": 13645,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[gitlab]",
+      "name": "test_create_toolkit[gitlab]",
+      "status": "skipped",
+      "duration_ms": 356,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[bitbucket]",
+      "name": "test_create_toolkit[bitbucket]",
+      "status": "skipped",
+      "duration_ms": 326,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[confluence]",
+      "name": "test_create_toolkit[confluence]",
+      "status": "passed",
+      "duration_ms": 14917,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[github]",
+      "name": "test_toolkit_test_settings[github]",
+      "status": "failed",
+      "duration_ms": 1275,
+      "failure_message": "failed on setup with \"requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Tue, 14 Jul 2026 00:21:44 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}\" api/client.py:75: in _raise_for_status\n    resp.raise_for_status()\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py:1167: in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399\n\nThe above exception was the direct cause of the following exception:\ntests/ui/toolkits/test_toolkit_parameterized.py:157: in managed_toolkit\n    toolkit = toolkit_api.create_toolkit(\napi/client.py:1408: in create_toolkit\n    _raise_for_status(resp)\napi/client.py:85: in _raise_for_status\n    raise requests.HTTPError(error_msg, response=resp) from exc\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Tue, 14 Jul 2026 00:21:44 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}"
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[jira]",
+      "name": "test_toolkit_test_settings[jira]",
+      "status": "passed",
+      "duration_ms": 16568,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[gitlab]",
+      "name": "test_toolkit_test_settings[gitlab]",
+      "status": "skipped",
+      "duration_ms": 308,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[bitbucket]",
+      "name": "test_toolkit_test_settings[bitbucket]",
+      "status": "skipped",
+      "duration_ms": 346,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[confluence]",
+      "name": "test_toolkit_test_settings[confluence]",
+      "status": "passed",
+      "duration_ms": 17606,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[github]",
+      "name": "test_chat_with_toolkit[github]",
+      "status": "failed",
+      "duration_ms": 1946,
+      "failure_message": "failed on setup with \"requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Tue, 14 Jul 2026 00:22:20 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}\" api/client.py:75: in _raise_for_status\n    resp.raise_for_status()\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py:1167: in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399\n\nThe above exception was the direct cause of the following exception:\ntests/ui/toolkits/test_toolkit_parameterized.py:157: in managed_toolkit\n    toolkit = toolkit_api.create_toolkit(\napi/client.py:1408: in create_toolkit\n    _raise_for_status(resp)\napi/client.py:85: in _raise_for_status\n    raise requests.HTTPError(error_msg, response=resp) from exc\nE   requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/399 — headers: {'Content-Length': '84', 'Content-Type': 'application/json', 'Date': 'Tue, 14 Jul 2026 00:22:20 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': \"Toolkit type 'github' is not available in this deployment\"}"
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[jira]",
+      "name": "test_chat_with_toolkit[jira]",
+      "status": "failed",
+      "duration_ms": 15916,
+      "failure_message": "AssertionError: Expected keywords ['project', 'jira'] in response: Waking the agent…\nassert False\n +  where False = any(<generator object TestChatWithToolkit.test_chat_with_toolkit.<locals>.<genexpr> at 0x7f99d9d0be60>) tests/ui/toolkits/test_toolkit_parameterized.py:568: in test_chat_with_toolkit\n    assert any(kw in last_msg.lower() for kw in cfg.chat_response_keywords), (\nE   AssertionError: Expected keywords ['project', 'jira'] in response: Waking the agent…\nE   assert False\nE    +  where False = any(<generator object TestChatWithToolkit.test_chat_with_toolkit.<locals>.<genexpr> at 0x7f99d9d0be60>)"
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[gitlab]",
+      "name": "test_chat_with_toolkit[gitlab]",
+      "status": "skipped",
+      "duration_ms": 671,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[bitbucket]",
+      "name": "test_chat_with_toolkit[bitbucket]",
+      "status": "skipped",
+      "duration_ms": 759,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[confluence]",
+      "name": "test_chat_with_toolkit[confluence]",
+      "status": "passed",
+      "duration_ms": 26845,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_selection_from_chat",
+      "name": "test_voice_selection_from_chat",
+      "status": "passed",
+      "duration_ms": 32094,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_speed_and_volume_controls",
+      "name": "test_speed_and_volume_controls",
+      "status": "passed",
+      "duration_ms": 39419,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_sync",
+      "name": "test_voice_settings_sync",
+      "status": "passed",
+      "duration_ms": 37556,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_preview_personalization",
+      "name": "test_voice_preview_personalization",
+      "status": "passed",
+      "duration_ms": 13337,
+      "failure_message": ""
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_not_visible_by_default",
+      "name": "test_voice_settings_not_visible_by_default",
+      "status": "passed",
+      "duration_ms": 26366,
+      "failure_message": ""
+    }
+  ]
+}
