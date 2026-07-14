@@ -4,10 +4,11 @@ title: "`~` mention in Agent instructions lists only currently attached Skills"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: tests.ui.skills.test_agent_instructions_tilde_mention.TestTildeMentionListsOnlyAttachedSkills.test_tilde_mention_in_instructions_lists_only_attached_skills
 ---
 
 # ELITEA-1791: `~` mention in Agent instructions lists only currently attached Skills
