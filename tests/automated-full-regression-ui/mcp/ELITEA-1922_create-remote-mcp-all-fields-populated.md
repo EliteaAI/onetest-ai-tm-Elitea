@@ -4,8 +4,10 @@ title: "Create Remote MCP — All Fields Populated"
 priority: critical
 type: functional
 module: elitea-platform
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.toolkits.test_mcp_create_remote.test_create_remote_mcp_all_fields_populated
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/292
 tags: [automated:UI:regression]
 requirements: []
 ---
