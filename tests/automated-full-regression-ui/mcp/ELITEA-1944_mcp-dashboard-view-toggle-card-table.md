@@ -4,10 +4,12 @@ title: "MCP Dashboard — View Toggle (Card/Table)"
 priority: high
 type: functional
 module: elitea-platform
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_mcp_view_toggle.test_mcp_dashboard_view_toggle_card_table
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/523
 ---
 
 # ELITEA-1944: MCP Dashboard — View Toggle (Card/Table)
