@@ -5,7 +5,7 @@ priority: medium
 type: functional
 module: pipelines
 status: draft
-execution_type: automated
+execution_type: manual
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---
