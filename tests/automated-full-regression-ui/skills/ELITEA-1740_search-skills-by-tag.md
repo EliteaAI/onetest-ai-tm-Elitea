@@ -7,6 +7,7 @@ module: search-and-tag-filtering
 status: ready
 execution_type: automated
 automation_test_id: tests.ui.skills.test_skill_tag_filter.TestSkillTagFilter.test_filter_skills_by_tag
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/276
 tags: [automated:UI:regression, feat:search]
 requirements: []
 ---
