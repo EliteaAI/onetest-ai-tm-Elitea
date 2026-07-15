@@ -4,8 +4,10 @@ title: "MCP Integration in Pipeline — Change MCP Toolkit and Tool Selection"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.pipelines.test_pipeline_mcp_node_change_toolkit_and_tool.test_mcp_node_change_toolkit_and_tool
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/513
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---
