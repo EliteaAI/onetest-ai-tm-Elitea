@@ -4,8 +4,10 @@ title: "MCP Integration in Agent — Attach MCP via Tools Section"
 priority: medium
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.agents.test_mcp_attach_via_tools_section.TestMcpAttachViaToolsSection.test_mcp_attach_via_tools_section
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/531
 tags: [automated:UI:regression, feat:agents]
 requirements: []
 ---
