@@ -4,8 +4,10 @@ title: "Launcher is visible and Support Assistant widget opens and closes"
 priority: high
 type: functional
 module: support-assistant
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_launcher_visible_and_opens_widget
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/289
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
 ---
