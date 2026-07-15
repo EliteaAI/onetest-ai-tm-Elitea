@@ -4,10 +4,12 @@ title: "Save As Version creates a named version visible in version dropdown"
 priority: critical
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id: tests.ui.agents.test_agent_save_as_version.TestAgentSaveAsVersion.test_save_as_version_creates_named_version_visible_in_dropdown
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/533
 ---
 
 # ELITEA-1888: Save As Version creates a named version visible in version dropdown
