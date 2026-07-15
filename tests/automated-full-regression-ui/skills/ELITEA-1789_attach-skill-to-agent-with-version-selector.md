@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
 automation_test_id: tests.ui.skills.test_skill_agent_version_selector.TestAttachSkillToAgentWithVersionSelector.test_attach_skill_to_agent_with_version_selector
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/47
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/278
 ---
 
 # ELITEA-1789: Attach a Skill to an Agent and verify it appears with version selector
