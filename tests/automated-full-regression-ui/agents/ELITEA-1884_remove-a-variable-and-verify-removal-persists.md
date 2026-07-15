@@ -4,10 +4,12 @@ title: "Remove a variable and verify removal persists"
 priority: low
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id: tests.ui.agents.test_agent_remove_variable.TestAgentRemoveVariable.test_remove_variable_and_verify_removal_persists
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/536
 ---
 
 # ELITEA-1884: Remove a variable and verify removal persists
