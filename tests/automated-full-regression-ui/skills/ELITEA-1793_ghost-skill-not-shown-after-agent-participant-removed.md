@@ -8,8 +8,8 @@ status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
-automation_test_id: automation/tests/ui/skills/test_ghost_skill_after_agent_removed.py::TestGhostSkillAfterAgentRemoved::test_ghost_skill_not_shown_after_agent_participant_removed
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/52
+automation_test_id: automation.tests.ui.skills.test_ghost_skill_after_agent_removed.TestGhostSkillAfterAgentRemoved.test_ghost_skill_not_shown_after_agent_participant_removed
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/284
 ---
 
 # ELITEA-1793: Skills from a removed Agent participant are not shown via `~` in Chat
