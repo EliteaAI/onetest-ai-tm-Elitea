@@ -9,6 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
 automation_test_id: tests.ui.skills.test_agent_instructions_tilde_mention.TestTildeMentionListsOnlyAttachedSkills.test_tilde_mention_in_instructions_lists_only_attached_skills
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/282
 ---
 
 # ELITEA-1791: `~` mention in Agent instructions lists only currently attached Skills
