@@ -4,10 +4,12 @@ title: "Send message and receive AI response via Send button"
 priority: high
 type: functional
 module: support-assistant
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
+automation_test_id: tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantMessaging.test_send_message_and_receive_response
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/580
 ---
 
 # ELITEA-1798: Send message and receive AI response via Send button
