@@ -4,10 +4,12 @@ title: "Fork agent version to a different project"
 priority: high
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id: tests.ui.agents.test_fork_agent_to_different_project.TestForkAgentToDifferentProject.test_fork_agent_to_different_project
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/571
 ---
 
 # ELITEA-1893: Fork agent version to a different project
