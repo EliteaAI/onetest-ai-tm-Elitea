@@ -4,10 +4,12 @@ title: "Agent \"Save As Version\" preserves all attached Skills"
 priority: critical
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id: automation.tests.ui.agents.test_agent_save_as_version_preserves_skills.TestAgentSaveAsVersionPreservesSkills.test_agent_save_as_version_preserves_skills
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/558
 ---
 
 # ELITEA-1889: Agent "Save As Version" preserves all attached Skills
