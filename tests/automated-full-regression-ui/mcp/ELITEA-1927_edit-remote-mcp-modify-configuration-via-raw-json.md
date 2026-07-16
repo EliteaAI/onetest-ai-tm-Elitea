@@ -4,10 +4,12 @@ title: "Edit Remote MCP — Modify Configuration via Raw JSON"
 priority: critical
 type: functional
 module: elitea-platform
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_mcp_edit_raw_json_description.test_mcp_edit_raw_json_description
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/576
 ---
 
 # ELITEA-1927: Edit Remote MCP — Modify Configuration via Raw JSON
