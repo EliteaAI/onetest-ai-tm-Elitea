@@ -4,10 +4,12 @@ title: "Agent listing — \"+Create\" button navigates to Create Agent page"
 priority: critical
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id: tests.ui.agents.test_agent_create_button_navigation.test_create_button_navigates_to_create_agent_page
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/547
 ---
 
 # ELITEA-1870: Agent listing — "+Create" button navigates to Create Agent page
