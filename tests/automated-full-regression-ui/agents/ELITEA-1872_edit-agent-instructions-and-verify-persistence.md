@@ -4,10 +4,12 @@ title: "Edit agent instructions and verify persistence"
 priority: critical
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id: tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_instructions
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/540
 ---
 
 # ELITEA-1872: Edit agent instructions and verify persistence
