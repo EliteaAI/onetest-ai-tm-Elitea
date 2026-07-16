@@ -4,10 +4,12 @@ title: "LLM selector — Anthropic models are available and functional (Claude 4
 priority: medium
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id: tests.ui.agents.test_agent_llm_selector_anthropic_models.TestAgentLlmSelectorAnthropicModels.test_llm_selector_anthropic_models_are_available_and_functional
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/583
 ---
 
 # ELITEA-1881: LLM selector — Anthropic models are available and functional (Claude 4.5 Sonnet, Claude 4.6 Sonnet, Claude Haiku 4.5)
