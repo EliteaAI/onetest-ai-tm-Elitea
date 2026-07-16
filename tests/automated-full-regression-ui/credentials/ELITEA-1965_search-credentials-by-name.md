@@ -4,10 +4,12 @@ title: "Search Credentials by Name"
 priority: medium
 type: functional
 module: toolkits-credentials
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:toolkits]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_credential_search_by_name.TestCredentialSearchByName.test_search_credentials_by_name
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/555
 ---
 
 # ELITEA-1965: Search Credentials by Name
