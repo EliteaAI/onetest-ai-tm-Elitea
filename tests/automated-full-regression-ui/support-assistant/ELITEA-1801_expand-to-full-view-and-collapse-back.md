@@ -4,10 +4,12 @@ title: "Expand widget to full-view mode and collapse back"
 priority: medium
 type: functional
 module: support-assistant
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
+automation_test_id: tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantViewModes.test_expand_collapse_fullview
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/584
 ---
 
 # ELITEA-1801: Expand widget to full-view mode and collapse back
