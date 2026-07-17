@@ -5,9 +5,11 @@ priority: high
 type: functional
 module: support-assistant
 status: draft
-execution_type: manual
+execution_type: automated
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
+automation_test_id: tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantNewSession.test_new_chat_creates_fresh_session
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/608
 ---
 
 # ELITEA-1799: New Chat button creates fresh session and moves previous to history
