@@ -4,10 +4,12 @@ title: "Create Skill from draft saves Skill and redirects to Skill details page"
 priority: high
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIReviewFormEditableFields.test_create_skill_from_unmodified_draft_persists_generated_values
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/604
 ---
 
 # ELITEA-1991: Create Skill from draft saves Skill and redirects to Skill details page
