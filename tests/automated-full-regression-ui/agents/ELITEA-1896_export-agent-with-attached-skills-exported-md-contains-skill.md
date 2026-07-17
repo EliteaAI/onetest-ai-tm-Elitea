@@ -4,10 +4,17 @@ title: "Export Agent with attached Skills — exported .md contains Skill conten
 priority: high
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id: automation.tests.ui.skills.test_export_agent_with_attached_skills.TestExportAgentWithAttachedSkills.test_export_agent_with_attached_skills
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/597
+duplicate_of: ELITEA-1794
+note: "Behavioural duplicate of ELITEA-1794 (same objective/steps/pass-criteria under
+  different literal test-data names) — covered by ELITEA-1794's merged test; this PR
+  only added a second @allure.issue traceability decorator so the test's own coverage
+  metadata links both TMS cases."
 ---
 
 # ELITEA-1896: Export Agent with attached Skills — exported .md contains Skill content
