@@ -4,10 +4,12 @@ title: "MCP Integration in Pipeline — MCP Node Without Tool Attached First"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id: tests.ui.pipelines.test_pipeline_mcp_node_empty_toolkit_before_attach.test_mcp_node_empty_toolkit_before_attach
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/620
 ---
 
 # ELITEA-1955: MCP Integration in Pipeline — MCP Node Without Tool Attached First
