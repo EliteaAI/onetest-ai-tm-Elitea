@@ -4,10 +4,12 @@ title: "Import valid agent .md file — agent appears in list with correct confi
 priority: high
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id: automation.tests.ui.agents.test_import_agent_valid_md_file.TestImportAgentValidMdFile.test_import_agent_valid_md_file
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/629
 ---
 
 # ELITEA-1901: Import valid agent .md file — agent appears in list with correct config
