@@ -4,10 +4,12 @@ title: "Create agent — instructions field alone does not enable Save (name+des
 priority: critical
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id: tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_required_fields_validation
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/623
 ---
 
 # ELITEA-1871: Create agent — instructions field alone does not enable Save (name+description both required)
