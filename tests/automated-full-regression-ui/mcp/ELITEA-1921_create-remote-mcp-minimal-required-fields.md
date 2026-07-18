@@ -4,10 +4,12 @@ title: "Create Remote MCP — Minimal Required Fields"
 priority: critical
 type: functional
 module: elitea-platform
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_mcp_create_remote.test_create_remote_mcp_minimal_required_fields
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/634
 ---
 
 # ELITEA-1921: Create Remote MCP — Minimal Required Fields
