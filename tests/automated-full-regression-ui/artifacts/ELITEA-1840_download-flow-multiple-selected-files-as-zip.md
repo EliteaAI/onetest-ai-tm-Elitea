@@ -4,8 +4,10 @@ title: "Download Flow – Download Multiple Selected Files as ZIP via Download I
 priority: high
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
+automation_test_id: tests.ui.artifacts.test_artifacts_download_multiple_files_zip.TestArtifactDownloadMultipleFilesZip.test_download_multiple_files_as_zip
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/644
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
