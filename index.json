@@ -1022,7 +1022,7 @@
     {
       "id": "ELITEA-1808",
       "title": "Create Artifact Bucket via \\\"+ Artifact Bucket\\\" Button (Path 1) and Upload File",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",
@@ -1034,7 +1034,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_create_bucket_upload_file.TestArtifactCreateBucketAndUploadFile.test_create_bucket_via_form_and_upload_file_via_bucket_menu"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1526,7 +1528,7 @@
     {
       "id": "ELITEA-1832",
       "title": "Upload Flow – Duplicate Handling: Cancel Stops Entire Upload Including Non-Duplicate Files",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -1538,7 +1540,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_upload_duplicate_cancel.TestArtifactUploadDuplicateCancel.test_cancel_stops_entire_upload_including_non_duplicate"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1673,7 +1677,7 @@
     {
       "id": "ELITEA-1839",
       "title": "Download Flow – Download Single File via Actions Dropdown",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",
@@ -1685,7 +1689,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_download_single_file_dropdown.TestArtifactDownloadSingleFileDropdown.test_download_single_file_via_dropdown"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1694,7 +1700,7 @@
     {
       "id": "ELITEA-1840",
       "title": "Download Flow – Download Multiple Selected Files as ZIP via Download Icon",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",
@@ -1706,7 +1712,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_download_multiple_files_zip.TestArtifactDownloadMultipleFilesZip.test_download_multiple_files_as_zip"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
