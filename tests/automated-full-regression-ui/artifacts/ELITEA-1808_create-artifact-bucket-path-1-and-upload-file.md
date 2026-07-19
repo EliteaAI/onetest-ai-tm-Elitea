@@ -4,10 +4,12 @@ title: "Create Artifact Bucket via \"+ Artifact Bucket\" Button (Path 1) and Upl
 priority: high
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
+automation_test_id: tests.ui.artifacts.test_artifacts_create_bucket_upload_file.TestArtifactCreateBucketAndUploadFile.test_create_bucket_via_form_and_upload_file_via_bucket_menu
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/643
 ---
 
 # ELITEA-1808: Create Artifact Bucket via "+ Artifact Bucket" Button (Path 1) and Upload File
