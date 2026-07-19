@@ -4,8 +4,10 @@ title: "Duplicate Bucket Name Is Not Allowed"
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
+automation_test_id: tests.ui.artifacts.test_artifacts_duplicate_bucket_name.TestArtifactDuplicateBucketName.test_duplicate_bucket_name_is_not_allowed
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/648
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
