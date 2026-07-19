@@ -4,10 +4,12 @@ title: "Upload Flow – Duplicate Handling: Cancel Stops Entire Upload Including
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
+automation_test_id: tests.ui.artifacts.test_artifacts_upload_duplicate_cancel.TestArtifactUploadDuplicateCancel.test_cancel_stops_entire_upload_including_non_duplicate
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/635
 ---
 
 # ELITEA-1832: Upload Flow – Duplicate Handling: Cancel Stops Entire Upload Including Non-Duplicate Files
