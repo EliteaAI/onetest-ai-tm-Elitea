@@ -4,8 +4,10 @@ title: "Upload Flow – Upload Multiple Files at Once"
 priority: high
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
+automation_test_id: tests.ui.artifacts.test_artifacts_upload_multiple_files.TestArtifactsUploadMultipleFiles.test_upload_multiple_files_at_once
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/647
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
