@@ -4,8 +4,10 @@ title: "Download Flow – Download Single File via Actions Dropdown"
 priority: high
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
+automation_test_id: tests.ui.artifacts.test_artifacts_download_single_file_dropdown.TestArtifactDownloadSingleFileDropdown.test_download_single_file_via_dropdown
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/639
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
