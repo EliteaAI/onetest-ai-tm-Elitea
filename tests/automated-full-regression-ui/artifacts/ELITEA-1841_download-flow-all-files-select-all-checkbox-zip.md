@@ -4,8 +4,10 @@ title: "Download Flow – Download All Files Using Select All Checkbox as ZIP"
 priority: high
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
+automation_test_id: tests.ui.artifacts.test_artifacts_download_all_files_select_all_zip.TestArtifactDownloadAllFilesSelectAllZip.test_download_all_files_via_select_all_as_zip
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/676
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
