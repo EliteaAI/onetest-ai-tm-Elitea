@@ -4,8 +4,10 @@ title: "Upload Flow – File Uploaded to Bucket Root When Bucket (Not Subfolder)
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
+automation_test_id: tests.ui.artifacts.test_artifacts_upload_three_options_verify_selection.TestArtifactsUploadThreeOptionsVerifySelection.test_upload_via_three_options_and_verify_selection
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/675
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
