@@ -4,8 +4,10 @@ title: "Delete Flow – Delete Multiple Selected Files (Partial Selection) via D
 priority: high
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
+automation_test_id: tests.ui.artifacts.test_artifacts_delete_subfolder_checkbox.TestArtifactDeleteSubfolderCheckbox.test_delete_multiple_files_partial_selection
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/678
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
