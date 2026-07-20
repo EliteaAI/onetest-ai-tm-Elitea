@@ -143,7 +143,7 @@
     {
       "case_id": "ELITEA-0502",
       "code_ref": "tests.ui.chat.test_chat_interface.TestMessageActions.test_delete_message",
-      "status": "skipped"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-0503",
@@ -313,7 +313,7 @@
     {
       "case_id": "ELITEA-0143",
       "code_ref": "tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0144",
