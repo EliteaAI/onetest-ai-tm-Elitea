@@ -4,8 +4,10 @@ title: "Delete Flow – Delete Subfolder via Checkbox Deletes Folder and Its Con
 priority: high
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
+automation_test_id: tests.ui.artifacts.test_artifacts_delete_subfolder_checkbox.TestArtifactDeleteSubfolderCheckbox.test_delete_subfolder_via_checkbox
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/661
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
