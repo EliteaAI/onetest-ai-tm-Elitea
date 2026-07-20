@@ -4,10 +4,12 @@ title: "Create New Conversation from Private Project via +Chat with default LLM"
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:chat]
 requirements: []
+automation_test_id: tests.ui.chat.test_conversation_management.TestCreateConversation.test_create_conversation_via_ui_button
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/682
 ---
 
 # ELITEA-2090: Create New Conversation from Private Project via +Chat with default LLM
