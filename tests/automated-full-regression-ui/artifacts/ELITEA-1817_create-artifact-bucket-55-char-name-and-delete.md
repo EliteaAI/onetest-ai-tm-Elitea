@@ -4,8 +4,10 @@ title: "Create Artifact Bucket with 55-Character Name and Delete It"
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
+automation_test_id: tests.ui.artifacts.test_artifacts_create_bucket_55char_name_and_delete.TestArtifactCreateBucketMaxLengthNameAndDelete.test_create_bucket_max_length_name_and_delete
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/668
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
