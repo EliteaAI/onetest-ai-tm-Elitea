@@ -18,12 +18,12 @@
     {
       "case_id": "ELITEA-1872",
       "code_ref": "tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_instructions",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1884",
       "code_ref": "tests.ui.agents.test_agent_remove_variable.TestAgentRemoveVariable.test_remove_variable_and_verify_removal_persists",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1888",
@@ -53,17 +53,17 @@
     {
       "case_id": "ELITEA-1798",
       "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantMessaging.test_send_message_and_receive_response",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1799",
       "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantNewSession.test_new_chat_creates_fresh_session",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1800",
       "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantHistory.test_history_restore_and_continue",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1801",
@@ -303,7 +303,7 @@
     {
       "case_id": "ELITEA-0143",
       "code_ref": "tests.ui.agents.test_agent_with_github_toolkit.TestChatWithAgentToolkit.test_agent_chat_with_github_toolkit",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0143",
