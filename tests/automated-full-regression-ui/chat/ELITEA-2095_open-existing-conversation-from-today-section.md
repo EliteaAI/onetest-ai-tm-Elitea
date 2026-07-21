@@ -4,10 +4,12 @@ title: "Open Existing Conversation from Today Section"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:chat]
 requirements: []
+automation_test_id: tests.ui.chat.test_open_conversation_today_section.TestOpenConversationFromTodaySection.test_open_conversation_from_today_section
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/693
 ---
 
 # ELITEA-2095: Open Existing Conversation from Today Section
