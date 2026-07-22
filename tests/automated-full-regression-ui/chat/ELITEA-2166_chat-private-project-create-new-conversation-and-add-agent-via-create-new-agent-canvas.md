@@ -4,10 +4,12 @@ title: "Chat – Private Project – Create New Conversation and Add Agent via C
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:chat]
 requirements: []
+automation_test_id: tests.ui.chat.test_create_agent_via_chat_canvas.TestCreateAgentViaChatCanvas.test_create_new_conversation_and_add_agent_via_canvas
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/710
 ---
 
 # ELITEA-2166: Chat – Private Project – Create New Conversation and Add Agent via Create New Agent Canvas
