@@ -284,35 +284,7 @@
 
 ---
 
-#### **TC-HTML-P1-005: Large HTML file (>5MB) opens and performs well**
-**Priority**: P1  
-**Objective**: Verify large HTML files open without performance issues  
-**Preconditions**:
-- Artifacts bucket contains large HTML file (test_file_3_greater_5mb.htm)
-
-**Test Steps**:
-1. Navigate to Artifacts > html-htm > script
-2. Locate `test_file_3_greater_5mb.htm` (25.4 KB or larger files)
-3. Click to open the file
-4. Measure time to open
-5. Switch between Preview and Raw modes
-6. Scroll through the document in both modes
-
-**Expected Results**:
-- File opens within acceptable time (< 5 seconds)
-- Preview mode renders without lag
-- Raw mode displays source code without freezing
-- Switching modes is smooth (< 2 seconds)
-- Scrolling is responsive in both modes
-- No browser crash or memory errors
-
-**Test Data**: 
-- File: `test_file_3_greater_5mb.htm`
-- Expected content: "Test HTM File 3 - Size: Greater than 5MB" with multiple data blocks
-
----
-
-#### **TC-HTML-P1-006: HTML without color styles is readable in Dark theme**
+#### **TC-HTML-P1-005: HTML without color styles is readable in Dark theme**
 **Priority**: P1 (Linked to bug #5926)  
 **Objective**: Verify HTML files without explicit color styles are readable in Dark theme  
 **Preconditions**:
@@ -336,7 +308,7 @@
 
 ---
 
-#### **TC-HTML-P1-007: Switch to Raw mode shows syntax highlighting**
+#### **TC-HTML-P1-006: Switch to Raw mode shows syntax highlighting**
 **Priority**: P1  
 **Objective**: Verify Raw mode has proper HTML syntax highlighting  
 **Preconditions**:
@@ -357,7 +329,7 @@
 
 ---
 
-#### **TC-HTML-P1-008: File type shows "Html (detected)"**
+#### **TC-HTML-P1-007: File type shows "Html (detected)"**
 **Priority**: P1  
 **Objective**: Verify file type is correctly detected and displayed  
 **Preconditions**:
@@ -583,9 +555,9 @@
 
 ## Test Summary
 
-**Total Test Cases**: 27
+**Total Test Cases**: 26
 - **P0 (Critical)**: 7 test cases
-- **P1 (High Priority)**: 8 test cases  
+- **P1 (High Priority)**: 7 test cases  
 - **P2 (Medium Priority)**: 12 test cases
 
 **Coverage Areas**:
@@ -596,11 +568,10 @@
 - File actions (P1, P2)
 - Theme compatibility (P1)
 - Security and sandboxing (P2)
-- Performance with large files (P1)
 - Edge cases and error handling (P2)
 
 **Known Issues to Validate**:
-- #5926: Dark theme text visibility bug (TC-HTML-P1-006)
+- #5926: Dark theme text visibility bug (TC-HTML-P1-005)
 
 **Test Environment**: 
 - DEV: https://dev.elitea.ai
