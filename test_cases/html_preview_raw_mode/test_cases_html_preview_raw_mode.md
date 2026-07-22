@@ -103,16 +103,18 @@
 2. Make changes to HTML source (e.g., change a heading text)
 3. Observe Save and Discard buttons are active
 4. Click "Discard" button
-5. Observe confirmation dialog appears
-6. Click "Discard" in the confirmation dialog
+5. Observe warning dialog appears
+6. Click "Confirm" button in the warning dialog
 
 **Expected Results**:
 - Discard button is active when changes are made
-- Confirmation dialog displays with message: "Are you sure you want to discard changes?"
-- Dialog has "Cancel" and "Discard" buttons
-- Clicking "Discard" restores the original content
-- Changes made are reverted
-- Save button becomes inactive after discard
+- Warning dialog displays with:
+  - Title: "Warning"
+  - Message: "You are editing now. Do you want to discard current changes and continue?"
+  - Buttons: "Cancel" and "Confirm" (red button)
+- Clicking "Cancel" keeps the editor open with changes intact
+- Clicking "Confirm" restores the original content and discards changes
+- Save button becomes inactive after confirming discard
 
 ---
 
@@ -188,11 +190,12 @@
 4. Observe warning dialog appears
 
 **Expected Results**:
-- Warning dialog displays before closing
-- Dialog shows message: "Are you sure you want to discard changes?"
-- Dialog has "Cancel" and "Discard" buttons
+- Warning dialog displays before closing with:
+  - Title: "Warning"
+  - Message: "You are editing now. Do you want to discard current changes and continue?"
+  - Buttons: "Cancel" and "Confirm" (red button)
 - Clicking "Cancel" keeps Canvas open with changes intact
-- Clicking "Discard" closes Canvas and discards changes
+- Clicking "Confirm" closes Canvas and discards changes
 
 ---
 
@@ -208,15 +211,16 @@
 1. Open HTML file in Raw mode
 2. Make a change (e.g., modify a heading text)
 3. Do NOT save
-4. Switch to Preview mode
-5. Observe the Preview
-6. Switch back to Raw mode
+4. Click to switch to Preview mode
+5. Observe warning dialog appears (if applicable)
+6. Confirm switching if prompted
+7. Switch back to Raw mode
 
 **Expected Results**:
-- Changes are preserved when switching to Preview mode
-- Preview shows the modified content (not saved to file, but rendered from current edit state)
-- Switching back to Raw mode shows the changes are still there
-- Save button remains active throughout mode switching
+- Warning dialog may appear: "You are editing now. Do you want to discard current changes and continue?"
+- If warning appears, clicking "Confirm" switches to Preview mode
+- Preview shows the modified content (if unsaved changes are preserved) or original content (if changes discarded)
+- Mode switching behavior is consistent
 
 ---
 
