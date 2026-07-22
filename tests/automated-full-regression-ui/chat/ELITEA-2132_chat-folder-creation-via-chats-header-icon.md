@@ -4,10 +4,12 @@ title: "Chat – Folder Creation via CHATS Header Icon"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:chat]
 requirements: []
+automation_test_id: tests.ui.chat.test_folder_creation.TestChatFolderCreation.test_create_folder_via_chats_header_icon
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/698
 ---
 
 # ELITEA-2132: Chat – Folder Creation via CHATS Header Icon
