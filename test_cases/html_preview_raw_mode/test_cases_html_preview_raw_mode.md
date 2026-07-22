@@ -11,6 +11,7 @@
 ### **P0 - Critical Test Cases**
 
 #### **TC-HTML-P0-001: Open HTML file from Artifacts in Preview mode**
+**ID**: ELITEA-2219  
 **Priority**: P0  
 **Objective**: Verify HTML files open correctly from Artifacts bucket in Preview mode by default  
 **Preconditions**:
@@ -40,6 +41,7 @@
 ---
 
 #### **TC-HTML-P0-002: Switch from Preview to Raw mode**
+**ID**: ELITEA-2220  
 **Priority**: P0  
 **Objective**: Verify user can switch from Preview mode to Raw mode to view HTML source code  
 **Preconditions**:
@@ -64,6 +66,7 @@
 ---
 
 #### **TC-HTML-P0-003: Edit HTML in Raw mode and save changes**
+**ID**: ELITEA-2221  
 **Priority**: P0  
 **Objective**: Verify user can edit HTML source in Raw mode and save changes  
 **Preconditions**:
@@ -92,6 +95,7 @@
 ---
 
 #### **TC-HTML-P0-004: Discard unsaved changes**
+**ID**: ELITEA-2222  
 **Priority**: P0  
 **Objective**: Verify Discard functionality restores the last saved version  
 **Preconditions**:
@@ -119,6 +123,7 @@
 ---
 
 #### **TC-HTML-P0-005: Preview mode renders HTML content correctly**
+**ID**: ELITEA-2223  
 **Priority**: P0  
 **Objective**: Verify HTML content renders properly in Preview mode with all formatting  
 **Preconditions**:
@@ -148,6 +153,7 @@
 ---
 
 #### **TC-HTML-P0-006: Open HTML file generated in chat with View/Edit button**
+**ID**: ELITEA-2224  
 **Priority**: P0  
 **Objective**: Verify HTML files generated in chat can be opened in Canvas from chat interface  
 **Preconditions**:
@@ -177,6 +183,7 @@
 ---
 
 #### **TC-HTML-P0-007: Close Canvas with unsaved changes shows warning**
+**ID**: ELITEA-2225  
 **Priority**: P0  
 **Objective**: Verify closing Canvas with unsaved changes triggers warning dialog  
 **Preconditions**:
@@ -202,6 +209,7 @@
 ### **P1 - High Priority Test Cases**
 
 #### **TC-HTML-P1-001: Unsaved changes preserved when switching modes**
+**ID**: ELITEA-2226  
 **Priority**: P1  
 **Objective**: Verify unsaved changes are preserved when switching between Preview and Raw modes  
 **Preconditions**:
@@ -225,6 +233,7 @@
 ---
 
 #### **TC-HTML-P1-002: Preview refreshes after saving changes in Raw mode**
+**ID**: ELITEA-2227  
 **Priority**: P1  
 **Objective**: Verify Preview mode updates to show saved changes  
 **Preconditions**:
@@ -244,6 +253,7 @@
 ---
 
 #### **TC-HTML-P1-003: Copy Content from three-dot menu**
+**ID**: ELITEA-2228  
 **Priority**: P1  
 **Objective**: Verify Copy Content option copies HTML source to clipboard  
 **Preconditions**:
@@ -265,6 +275,7 @@
 ---
 
 #### **TC-HTML-P1-004: Download HTML file from three-dot menu**
+**ID**: ELITEA-2229  
 **Priority**: P1  
 **Objective**: Verify Download option downloads HTML file to local machine  
 **Preconditions**:
@@ -285,6 +296,7 @@
 ---
 
 #### **TC-HTML-P1-005: HTML without color styles is readable in Dark theme**
+**ID**: ELITEA-2230  
 **Priority**: P1 (Linked to bug #5926)  
 **Objective**: Verify HTML files without explicit color styles are readable in Dark theme  
 **Preconditions**:
@@ -309,6 +321,7 @@
 ---
 
 #### **TC-HTML-P1-006: Switch to Raw mode shows syntax highlighting**
+**ID**: ELITEA-2231  
 **Priority**: P1  
 **Objective**: Verify Raw mode has proper HTML syntax highlighting  
 **Preconditions**:
@@ -330,6 +343,7 @@
 ---
 
 #### **TC-HTML-P1-007: File type shows "Html (detected)"**
+**ID**: ELITEA-2232  
 **Priority**: P1  
 **Objective**: Verify file type is correctly detected and displayed  
 **Preconditions**:
@@ -349,6 +363,7 @@
 ### **P2 - Medium Priority Test Cases**
 
 #### **TC-HTML-P2-001: Open .htm file (alternate extension)**
+**ID**: ELITEA-2233  
 **Priority**: P2  
 **Objective**: Verify .htm extension files are treated same as .html  
 **Preconditions**:
@@ -368,6 +383,7 @@
 ---
 
 #### **TC-HTML-P2-002: Delete HTML file from three-dot menu**
+**ID**: ELITEA-2234  
 **Priority**: P2  
 **Objective**: Verify Delete option removes file from Artifacts  
 **Preconditions**:
@@ -394,6 +410,7 @@
 ---
 
 #### **TC-HTML-P2-003: HTML with images renders images correctly**
+**ID**: ELITEA-2235  
 **Priority**: P2  
 **Objective**: Verify images within HTML are displayed in Preview mode  
 **Preconditions**:
@@ -413,6 +430,7 @@
 ---
 
 #### **TC-HTML-P2-004: HTML with external CSS references**
+**ID**: ELITEA-2236  
 **Priority**: P2  
 **Objective**: Verify HTML with external CSS links handles gracefully  
 **Preconditions**:
@@ -432,6 +450,7 @@
 ---
 
 #### **TC-HTML-P2-005: Empty HTML file opens without error**
+**ID**: ELITEA-2237  
 **Priority**: P2  
 **Objective**: Verify empty HTML files can be opened  
 **Preconditions**:
@@ -452,6 +471,7 @@
 ---
 
 #### **TC-HTML-P2-006: Malformed HTML renders with best effort**
+**ID**: ELITEA-2238  
 **Priority**: P2  
 **Objective**: Verify malformed HTML doesn't crash Canvas and shows content  
 **Preconditions**:
@@ -472,6 +492,7 @@
 ---
 
 #### **TC-HTML-P2-007: Multiple HTML files can be opened simultaneously**
+**ID**: ELITEA-2239  
 **Priority**: P2  
 **Objective**: Verify multiple HTML files can be opened in separate Canvas instances  
 **Preconditions**:
@@ -493,6 +514,7 @@
 ---
 
 #### **TC-HTML-P2-008: Script tags do not execute in Preview mode (Security)**
+**ID**: ELITEA-2240  
 **Priority**: P2  
 **Objective**: Verify JavaScript in HTML does not execute for security  
 **Preconditions**:
@@ -515,6 +537,7 @@
 ---
 
 #### **TC-HTML-P2-009: HTML with special characters renders correctly**
+**ID**: ELITEA-2241  
 **Priority**: P2  
 **Objective**: Verify HTML with special characters (UTF-8, symbols, etc.) displays properly  
 **Preconditions**:
@@ -535,6 +558,7 @@
 ---
 
 #### **TC-HTML-P2-010: File breadcrumb navigation works correctly**
+**ID**: ELITEA-2242  
 **Priority**: P2  
 **Objective**: Verify file path breadcrumb is displayed and functional  
 **Preconditions**:
@@ -556,9 +580,11 @@
 ## Test Summary
 
 **Total Test Cases**: 26
-- **P0 (Critical)**: 7 test cases
-- **P1 (High Priority)**: 7 test cases  
-- **P2 (Medium Priority)**: 12 test cases
+- **P0 (Critical)**: 7 test cases (ELITEA-2219 to ELITEA-2225)
+- **P1 (High Priority)**: 7 test cases (ELITEA-2226 to ELITEA-2232)
+- **P2 (Medium Priority)**: 12 test cases (ELITEA-2233 to ELITEA-2244)
+
+**ID Range**: ELITEA-2219 to ELITEA-2244
 
 **Coverage Areas**:
 - Artifacts HTML file opening (P0)
@@ -571,7 +597,7 @@
 - Edge cases and error handling (P2)
 
 **Known Issues to Validate**:
-- #5926: Dark theme text visibility bug (TC-HTML-P1-005)
+- #5926: Dark theme text visibility bug (ELITEA-2230)
 
 **Test Environment**: 
 - DEV: https://dev.elitea.ai
