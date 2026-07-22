@@ -43,7 +43,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/514
 | 2 | Select the version to export from the version dropdown | The desired version is selected |
 | 3 | Click the three-dot menu (⋮) → select "Export" | The export action is triggered |
 | 4 | Verify a .md file is downloaded automatically | A .md file download is initiated |
-| 5 | Open the file and verify it contains YAML frontmatter with: name, description, model settings, instructions body | The file includes all required YAML frontmatter fields |
+| 5 | Open the file and verify it contains YAML frontmatter with: name, description, model settings (model, max_tokens, agent_type, step_limit), instructions body | The file includes all required YAML frontmatter fields. **Note**: `temperature` is NOT included for reasoning-capable models (platform behavior as of 2026-07-22, refs EliteaAI/elitea_issues#5821) |
 | 6 | Verify the file does NOT contain any toolkit API keys or authentication credentials | No API keys or credentials are present in the exported file |
 
 ---
