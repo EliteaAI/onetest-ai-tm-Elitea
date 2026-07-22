@@ -53,17 +53,17 @@
     {
       "case_id": "ELITEA-1798",
       "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantMessaging.test_send_message_and_receive_response",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1799",
       "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantNewSession.test_new_chat_creates_fresh_session",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1800",
       "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantHistory.test_history_restore_and_continue",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1801",
@@ -143,7 +143,7 @@
     {
       "case_id": "ELITEA-0502",
       "code_ref": "tests.ui.chat.test_chat_interface.TestMessageActions.test_delete_message",
-      "status": "failed"
+      "status": "skipped"
     },
     {
       "case_id": "ELITEA-0503",
@@ -333,7 +333,7 @@
     {
       "case_id": "ELITEA-0144",
       "code_ref": "tests.ui.agents.test_agent_management.TestAgentActions.test_delete_agent_via_ui_menu",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-0145",
