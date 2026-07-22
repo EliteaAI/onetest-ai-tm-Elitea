@@ -41,9 +41,9 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/696
 |---|--------|--------------------|
 | 1 | Navigate to Chats and verify conversations list is displayed grouped by date | Conversations listed under Today, This Week, Older |
 | 2 | Hover over any conversation and verify three-dot icon appears | Three-dot icon is visible |
-| 3 | Click the three-dot icon and verify context menu shows: Delete, Edit, Move to, Export, Playback, Pin on top | Context menu visible |
-| 4 | Click Delete | Confirmation modal appears: "Delete conversation?" |
-| 5 | Verify modal body reads "Are you sure to delete conversation? It can't be restored." | Modal text is correct |
+| 3 | Click the three-dot icon and verify context menu shows: Rename, Move to, Playback, Make public (project-dependent), Share (project-dependent), Pin on top/Unpin, Delete | Context menu visible |
+| 4 | Click Delete | Confirmation modal appears: "Delete confirmation" |
+| 5 | Verify modal body reads "Are you sure to delete the <conversation name> chat? It can't be restored." | Modal text is correct |
 | 6 | Verify modal has Cancel (secondary) and Delete (red/primary) buttons | Both buttons visible |
 | 7 | Click the Cancel button | Modal closes; conversation remains in the list |
 | 8 | Hover over the same conversation, open context menu, click Delete again | Confirmation modal appears again |
