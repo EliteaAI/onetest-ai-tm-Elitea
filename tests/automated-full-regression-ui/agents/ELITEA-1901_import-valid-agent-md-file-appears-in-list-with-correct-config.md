@@ -31,7 +31,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/629
 
 | Field | Value |
 |-------|-------|
-| Import file | Valid .md file with YAML frontmatter: name, description, model, instructions |
+| Import file | Valid .md file with YAML frontmatter: name, description, model + instructions as markdown body |
 
 ---
 
