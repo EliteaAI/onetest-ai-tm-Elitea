@@ -23,7 +23,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/629
 ## Preconditions
 
 - User is logged in to the Elitea platform.
-- A valid .md file with YAML frontmatter (name, description, model, instructions) is available for import.
+- A valid .md file with YAML frontmatter (name, description, model settings and the Agent's instructions as the markdown body below the frontmatter) is available for import.
 
 ---
 
