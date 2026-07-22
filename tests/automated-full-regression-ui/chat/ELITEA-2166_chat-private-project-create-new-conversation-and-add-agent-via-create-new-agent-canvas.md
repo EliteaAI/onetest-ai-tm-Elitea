@@ -47,7 +47,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/710
 | 6 | Verify Save button becomes active | Save button enabled |
 | 7 | Click Save | Canvas transitions to saved agent view showing 'echo' and 'base' version |
 | 8 | Verify PARTICIPANTS shows 'echo' under AGENTS | Agent is listed |
-| 9 | Click X to close canvas | Verify  composer shows 'echo | base'; canvas closes; conversation view shown |
+| 9 | Click X to close canvas | Verify  composer shows 'echo/base'; canvas closes; conversation view shown |
 | 10 | Type 'hi' and click Send | Message sent; agent responds; no errors |
 
 ---
