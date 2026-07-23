@@ -3928,8 +3928,8 @@
     {
       "id": "ELITEA-2167",
       "title": "Chat – Team Project – Create New Conversation and Add Users via Invite Users with Add Confirmation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -3940,7 +3940,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_invite_users_add_cancel_close.TestInviteUsersAddCancelClose.test_invite_users_add_persists_cancel_and_close_discard"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
