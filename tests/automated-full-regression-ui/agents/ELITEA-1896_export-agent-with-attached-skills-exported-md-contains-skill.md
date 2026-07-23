@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
-automation_test_id: automation.tests.ui.skills.test_export_agent_with_attached_skills.TestExportAgentWithAttachedSkills.test_export_agent_with_attached_skills
+automation_test_id: tests.ui.skills.test_export_agent_with_attached_skills.TestExportAgentWithAttachedSkills.test_export_agent_with_attached_skills
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/597
 duplicate_of: ELITEA-1794
 note: "Behavioural duplicate of ELITEA-1794 (same objective/steps/pass-criteria under

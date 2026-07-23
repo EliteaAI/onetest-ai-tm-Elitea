@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
-automation_test_id: automation/tests/ui/skills/test_skill_conversation_interaction.py::TestInteractWithSkillsFromConversation::test_interact_with_skills_from_conversation
+automation_test_id: tests.ui.skills.test_skill_conversation_interaction.TestInteractWithSkillsFromConversation.test_interact_with_skills_from_conversation
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/205
 ---
 

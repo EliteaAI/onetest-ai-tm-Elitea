@@ -5830,7 +5830,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "automation.tests.ui.agents.test_agent_save_as_version_preserves_skills.TestAgentSaveAsVersionPreservesSkills.test_agent_save_as_version_preserves_skills"
+        "tests.ui.agents.test_agent_save_as_version_preserves_skills.TestAgentSaveAsVersionPreservesSkills.test_agent_save_as_version_preserves_skills"
       ],
       "targets": [],
       "dependencies": [],
@@ -5987,7 +5987,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "automation.tests.ui.skills.test_export_agent_with_attached_skills.TestExportAgentWithAttachedSkills.test_export_agent_with_attached_skills"
+        "tests.ui.skills.test_export_agent_with_attached_skills.TestExportAgentWithAttachedSkills.test_export_agent_with_attached_skills"
       ],
       "targets": [],
       "dependencies": [],
@@ -6010,7 +6010,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "automation.tests.ui.agents.test_agent_management.TestAgentExecution.test_agent_executes_with_name_description_instructions_only"
+        "tests.ui.agents.test_agent_management.TestAgentExecution.test_agent_executes_with_name_description_instructions_only"
       ],
       "targets": [],
       "dependencies": [],
@@ -6098,7 +6098,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "automation.tests.ui.agents.test_import_agent_valid_md_file.TestImportAgentValidMdFile.test_import_agent_valid_md_file"
+        "tests.ui.agents.test_import_agent_valid_md_file.TestImportAgentValidMdFile.test_import_agent_valid_md_file"
       ],
       "targets": [],
       "dependencies": [],
@@ -9051,7 +9051,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "automation/tests/ui/skills/test_skill_conversation_interaction.py::TestInteractWithSkillsFromConversation::test_interact_with_skills_from_conversation"
+        "tests.ui.skills.test_skill_conversation_interaction.TestInteractWithSkillsFromConversation.test_interact_with_skills_from_conversation"
       ],
       "targets": [],
       "dependencies": [],
@@ -9258,7 +9258,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "automation.tests.ui.skills.test_ghost_skill_after_agent_removed.TestGhostSkillAfterAgentRemoved.test_ghost_skill_not_shown_after_agent_participant_removed"
+        "tests.ui.skills.test_ghost_skill_after_agent_removed.TestGhostSkillAfterAgentRemoved.test_ghost_skill_not_shown_after_agent_participant_removed"
       ],
       "targets": [],
       "dependencies": [],
@@ -9281,7 +9281,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "automation/tests/ui/skills/test_export_agent_with_attached_skills.py::TestExportAgentWithAttachedSkills::test_export_agent_with_attached_skills"
+        "tests.ui.skills.test_export_agent_with_attached_skills.TestExportAgentWithAttachedSkills.test_export_agent_with_attached_skills"
       ],
       "targets": [],
       "dependencies": [],
@@ -9304,7 +9304,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "automation/tests/ui/skills/test_import_agent_recreates_skills_with_new_ids.py::TestImportAgentRecreatesSkillsWithNewIds::test_import_agent_recreates_skills_with_new_ids"
+        "tests.ui.skills.test_import_agent_recreates_skills_with_new_ids.TestImportAgentRecreatesSkillsWithNewIds.test_import_agent_recreates_skills_with_new_ids"
       ],
       "targets": [],
       "dependencies": [],
