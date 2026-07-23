@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
-automation_test_id: automation/tests/ui/skills/test_export_agent_with_attached_skills.py::TestExportAgentWithAttachedSkills::test_export_agent_with_attached_skills
+automation_test_id: tests.ui.skills.test_export_agent_with_attached_skills.TestExportAgentWithAttachedSkills.test_export_agent_with_attached_skills
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/285
 ---
 

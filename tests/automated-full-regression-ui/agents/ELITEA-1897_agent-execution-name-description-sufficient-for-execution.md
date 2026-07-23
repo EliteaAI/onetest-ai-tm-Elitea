@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
-automation_test_id: automation.tests.ui.agents.test_agent_management.TestAgentExecution.test_agent_executes_with_name_description_instructions_only
+automation_test_id: tests.ui.agents.test_agent_management.TestAgentExecution.test_agent_executes_with_name_description_instructions_only
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/561
 ---
 
