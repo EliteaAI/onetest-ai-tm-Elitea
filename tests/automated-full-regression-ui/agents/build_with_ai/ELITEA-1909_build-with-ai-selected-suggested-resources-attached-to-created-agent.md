@@ -24,7 +24,10 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/573
 
 - User is logged in to the Elitea platform with admin or editor role.
 - A GitHub toolkit exists in the project.
+- **An Agent relevant to the generation prompt (e.g., GitHub/Jira-related) exists in the project.** The "Build with AI" suggestion engine populates the "Suggested Agents:" section only when the project has Agents whose name/description are semantically relevant to the submitted prompt. With zero relevant Agents in inventory, the suggested agents array is empty and steps 4 and 8 cannot be executed. Create at least one Agent with a GitHub-related name and description before starting this test. (Clarification per elitea-testing-public#572)
 - The GenerateAgentModal is accessible from the New Agent creation page.
+
+**Note on Agent Suggestion**: The "Suggested Agents:" section appears only when the project contains Agents semantically relevant to the generation prompt. If no relevant Agent exists, the section will not render, and steps 4 and 8 cannot be executed. This is expected platform behavior, not a defect.
 
 ---
 
@@ -33,6 +36,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/573
 | Field | Value |
 |-------|-------|
 | Toolkit to select | GitHub toolkit (pre-existing) |
+| Fixture Agent (for suggestion) | At least one Agent with GitHub-related name/description (e.g., "GitHub Issue Bot", "GitHub PR Reviewer") to populate the "Suggested Agents:" section |
 
 ---
 
