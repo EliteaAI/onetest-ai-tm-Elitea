@@ -318,7 +318,7 @@
     {
       "case_id": "ELITEA-0143",
       "code_ref": "tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0144",
