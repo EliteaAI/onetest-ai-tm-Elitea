@@ -213,7 +213,7 @@
     {
       "case_id": "ELITEA-0062",
       "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_text_truncated_with_warning",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-0063",
