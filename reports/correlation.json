@@ -213,7 +213,7 @@
     {
       "case_id": "ELITEA-0062",
       "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_text_truncated_with_warning",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0063",
@@ -303,17 +303,17 @@
     {
       "case_id": "ELITEA-0143",
       "code_ref": "tests.ui.agents.test_agent_with_github_toolkit.TestAddToolkitToAgent.test_add_toolkit_to_agent",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0143",
       "code_ref": "tests.ui.agents.test_agent_with_github_toolkit.TestChatWithAgentToolkit.test_agent_chat_with_github_toolkit",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0143",
       "code_ref": "tests.ui.agents.test_agent_with_github_toolkit.TestRemoveToolkitFromAgent.test_remove_toolkit_from_agent",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0143",
@@ -632,6 +632,8 @@
     }
   ],
   "unmatched_refs": [
+    "tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_after",
+    "tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_before",
     "tests.ui.admin.test_guardrails_live_reload.TestBlockedToolLiveReload.test_blocked_tool_live_reload_case_insensitive",
     "tests.ui.admin.test_guardrails_live_reload.TestBlockedToolkitLiveReload.test_blocked_toolkit_live_reload_case_insensitive",
     "tests.ui.admin.test_guardrails_live_reload.TestSensitiveToolLiveReload.test_sensitive_tool_live_reload_case_insensitive",
