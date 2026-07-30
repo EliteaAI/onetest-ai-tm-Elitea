@@ -36,6 +36,16 @@
       "status": "passed"
     },
     {
+      "case_id": "ELITEA-1894",
+      "code_ref": "tests.ui.skills.test_export_agent_no_nested_dependencies.TestExportAgentNoNestedDependencies.test_export_agent_no_nested_dependencies",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1896",
+      "code_ref": "tests.ui.skills.test_export_agent_with_attached_skills.TestExportAgentWithAttachedSkills.test_export_agent_with_attached_skills",
+      "status": "passed"
+    },
+    {
       "case_id": "ELITEA-1907",
       "code_ref": "tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAISuggestedResources.test_generated_draft_includes_suggested_resources_section",
       "status": "passed"
@@ -43,7 +53,7 @@
     {
       "case_id": "ELITEA-1915",
       "code_ref": "tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAIGenerationFailureRetry.test_generation_failure_shows_error_and_allows_retry",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1950",
@@ -78,6 +88,86 @@
     {
       "case_id": "ELITEA-1802",
       "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantAttachments.test_attach_button_present_and_opens_picker",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1735",
+      "code_ref": "tests.ui.skills.test_skill_agent_interaction.TestInteractWithSkillsFromAgent.test_interact_with_skills_from_agent",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1736",
+      "code_ref": "tests.ui.skills.test_skill_conversation_interaction.TestInteractWithSkillsFromConversation.test_interact_with_skills_from_conversation",
+      "status": "failed"
+    },
+    {
+      "case_id": "ELITEA-1737",
+      "code_ref": "tests.ui.skills.test_skill_export_import.TestSkillExportImport.test_export_and_import_skill_base_version",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1738",
+      "code_ref": "tests.ui.skills.test_skill_export_import.TestSkillExportImportNonBaseVersion.test_import_skill_non_base_version",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1739",
+      "code_ref": "tests.ui.skills.test_skill_search.TestSkillSearch.test_search_skills_by_name",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1740",
+      "code_ref": "tests.ui.skills.test_skill_tag_filter.TestSkillTagFilter.test_filter_skills_by_tag",
+      "status": "failed"
+    },
+    {
+      "case_id": "ELITEA-1789",
+      "code_ref": "tests.ui.skills.test_skill_agent_version_selector.TestAttachSkillToAgentWithVersionSelector.test_attach_skill_to_agent_with_version_selector",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1790",
+      "code_ref": "tests.ui.skills.test_agent_max_five_skills_limit.TestAgentMaxFiveSkillsLimit.test_max_five_skills_attach_limit",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1791",
+      "code_ref": "tests.ui.skills.test_agent_instructions_tilde_mention.TestTildeMentionListsOnlyAttachedSkills.test_tilde_mention_in_instructions_lists_only_attached_skills",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1792",
+      "code_ref": "tests.ui.skills.test_remove_attached_skill_from_agent.TestRemoveAttachedSkillFromAgent.test_remove_attached_skill_from_agent",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1793",
+      "code_ref": "tests.ui.skills.test_ghost_skill_after_agent_removed.TestGhostSkillAfterAgentRemoved.test_ghost_skill_not_shown_after_agent_participant_removed",
+      "status": "failed"
+    },
+    {
+      "case_id": "ELITEA-1794",
+      "code_ref": "tests.ui.skills.test_export_agent_with_attached_skills.TestExportAgentWithAttachedSkills.test_export_agent_with_attached_skills",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1795",
+      "code_ref": "tests.ui.skills.test_import_agent_recreates_skills_with_new_ids.TestImportAgentRecreatesSkillsWithNewIds.test_import_agent_recreates_skills_with_new_ids",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1989",
+      "code_ref": "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIReviewFormEditableFields.test_loading_state_shows_exact_text_and_review_form_has_no_extra_sections",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1990",
+      "code_ref": "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIReviewFormEditableFields.test_review_form_fields_are_editable_before_creation",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2001",
+      "code_ref": "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIGenerationFailureRetry.test_generation_failure_shows_error_and_allows_retry",
       "status": "passed"
     },
     {
@@ -318,7 +408,7 @@
     {
       "case_id": "ELITEA-0143",
       "code_ref": "tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-0144",
@@ -643,6 +733,7 @@
     "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[32k_tokens]",
     "tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[detailed_description]",
     "tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[minimal_prompt]",
+    "tests.ui.skills.test_skill_management.TestCreateSkill.test_create_skill_and_verify_execution",
     "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_widget_state_persists_after_close_reopen",
     "tests.ui.toolkits.test_github_toolkit.TestChatWithGitHubToolkit.test_chat_with_github_toolkit",
     "tests.ui.toolkits.test_github_toolkit.TestCreateGitHubCredential.test_create_github_credential",
