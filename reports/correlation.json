@@ -53,7 +53,7 @@
     {
       "case_id": "ELITEA-1915",
       "code_ref": "tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAIGenerationFailureRetry.test_generation_failure_shows_error_and_allows_retry",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1950",
@@ -93,7 +93,7 @@
     {
       "case_id": "ELITEA-1735",
       "code_ref": "tests.ui.skills.test_skill_agent_interaction.TestInteractWithSkillsFromAgent.test_interact_with_skills_from_agent",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1736",
@@ -408,7 +408,7 @@
     {
       "case_id": "ELITEA-0143",
       "code_ref": "tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0144",
