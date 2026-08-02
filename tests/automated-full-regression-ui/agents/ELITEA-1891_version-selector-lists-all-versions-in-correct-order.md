@@ -4,9 +4,11 @@ title: "Version selector lists all versions in correct order with expected metad
 priority: high
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
+automation_test_id:
+  - tests.ui.agents.test_agent_version_selector_order.TestAgentVersionSelectorOrder.test_version_selector_lists_versions_in_correct_order
 requirements: []
 ---
 

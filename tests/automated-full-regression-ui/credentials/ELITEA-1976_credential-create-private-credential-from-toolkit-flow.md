@@ -4,9 +4,11 @@ title: "Credential — Create Private Credential from Toolkit Flow"
 priority: high
 type: functional
 module: toolkits-credentials
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:toolkits]
+automation_test_id:
+  - tests.ui.toolkits.test_credential_create_private_from_toolkit_dropdown.TestCredentialCreatePrivateFromToolkitDropdown.test_create_private_credential_from_toolkit_dropdown
 requirements: []
 ---
 

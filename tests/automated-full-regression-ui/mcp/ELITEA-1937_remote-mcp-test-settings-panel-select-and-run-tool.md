@@ -4,9 +4,11 @@ title: "Remote MCP — Test Settings Panel — Select and Run Tool"
 priority: medium
 type: functional
 module: elitea-platform
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression]
+automation_test_id:
+  - tests.ui.toolkits.test_mcp_test_settings_select_and_run_tool.test_mcp_test_settings_select_and_run_tool
 requirements: []
 ---
 

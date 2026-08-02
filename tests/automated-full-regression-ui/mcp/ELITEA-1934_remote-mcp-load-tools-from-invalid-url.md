@@ -4,9 +4,11 @@ title: "Remote MCP — Load Tools from Invalid URL"
 priority: high
 type: functional
 module: elitea-platform
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression]
+automation_test_id:
+  - tests.ui.toolkits.test_mcp_load_tools_invalid_url.test_mcp_load_tools_invalid_url
 requirements: []
 ---
 
