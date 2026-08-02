@@ -39629,6 +39629,465 @@
       "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2251_5808-attachment-persistence.md"
     },
     {
+      "id": "ELITEA-2570",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: process_images Parameter Configuration",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2570_5889-parameter-configuration.md"
+    },
+    {
+      "id": "ELITEA-2571",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Image Detection (HTML tags & Attachments)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2571_5889-image-detection.md"
+    },
+    {
+      "id": "ELITEA-2572",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Image Download & Binary Validation",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2572_5889-image-download-validation.md"
+    },
+    {
+      "id": "ELITEA-2573",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: LLM Vision Integration & Content Extraction",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2573_5889-llm-vision-integration.md"
+    },
+    {
+      "id": "ELITEA-2574",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Image Description Caching (MD5)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2574_5889-image-caching.md"
+    },
+    {
+      "id": "ELITEA-2575",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Response Structure with Image Content",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2575_5889-response-structure.md"
+    },
+    {
+      "id": "ELITEA-2576",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Agent Integration with Image Content",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2576_5889-agent-integration.md"
+    },
+    {
+      "id": "ELITEA-2577",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Backward Compatibility (process_images=false)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2577_5889-backward-compatibility.md"
+    },
+    {
+      "id": "ELITEA-2578",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Error Handling (URLs, Timeouts, Corruption)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2578_5889-error-handling.md"
+    },
+    {
+      "id": "ELITEA-2579",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Supported Image Formats (JPEG, PNG, GIF, WebP)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2579_5889-image-formats.md"
+    },
+    {
+      "id": "ELITEA-2580",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Edge Cases (Large, Many, Corrupt, Dedup)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2580_5889-edge-cases.md"
+    },
+    {
+      "id": "ELITEA-2581",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Configuration Flexibility",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2581_5889-configuration-flexibility.md"
+    },
+    {
+      "id": "ELITEA-2582",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Performance Baseline",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2582_5889-performance-baseline.md"
+    },
+    {
+      "id": "ELITEA-2583",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Dedicated get_image_by_url Tool (Alternative)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2583_5889-dedicated-tool.md"
+    },
+    {
+      "id": "ELITEA-2584",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Monitoring and Logging",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2584_5889-monitoring-logging.md"
+    },
+    {
+      "id": "ELITEA-2585",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Memory & Stability (No Leaks, Consistency)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2585_5889-memory-stability.md"
+    },
+    {
+      "id": "ELITEA-2586",
+      "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Error Recovery & Resilience",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5889",
+        "r-2.0.5",
+        "feat:toolkits",
+        "int:ado-boards",
+        "eng:ai",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5889"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2586_5889-error-recovery.md"
+    },
+    {
       "id": "ELITEA-1184",
       "title": "Credential ID error message visible across all toolkit types [Parametrized]",
       "status": "ready",
