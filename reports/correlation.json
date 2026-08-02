@@ -38,7 +38,7 @@
     {
       "case_id": "ELITEA-1894",
       "code_ref": "tests.ui.skills.test_export_agent_no_nested_dependencies.TestExportAgentNoNestedDependencies.test_export_agent_no_nested_dependencies",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1896",
@@ -93,7 +93,7 @@
     {
       "case_id": "ELITEA-1735",
       "code_ref": "tests.ui.skills.test_skill_agent_interaction.TestInteractWithSkillsFromAgent.test_interact_with_skills_from_agent",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1736",
