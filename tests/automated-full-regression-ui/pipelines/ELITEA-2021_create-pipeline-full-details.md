@@ -4,9 +4,11 @@ title: "Create Pipeline — Full Details"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_create_full_details_persist.test_create_pipeline_full_details_persist_after_reload
 requirements: []
 ---
 

@@ -4,9 +4,11 @@ title: "Upload Flow – Duplicate File Detected and Resolve Duplicates Modal App
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_upload_duplicate_detected_modal.TestArtifactUploadDuplicateDetectedModal.test_duplicate_detected_opens_resolve_duplicates_modal
 requirements: []
 ---
 

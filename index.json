@@ -4344,7 +4344,7 @@
     {
       "id": "ELITEA-1811",
       "title": "Bucket Name Cannot Start with a Number",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4356,7 +4356,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4407,7 +4409,7 @@
     {
       "id": "ELITEA-1814",
       "title": "Bucket Name Rejects Non-Alphanumeric Characters (Except Hyphen)",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4419,7 +4421,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4709,7 +4713,7 @@
     {
       "id": "ELITEA-1828",
       "title": "Upload Flow – Duplicate File Detected and Resolve Duplicates Modal Appears",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4721,7 +4725,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_upload_duplicate_detected_modal.TestArtifactUploadDuplicateDetectedModal.test_duplicate_detected_opens_resolve_duplicates_modal"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4730,7 +4736,7 @@
     {
       "id": "ELITEA-1829",
       "title": "Upload Flow – Duplicate Handling: Skip Skips Duplicate and Saves Non-Duplicate Files",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4742,7 +4748,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_upload_duplicate_skip.TestArtifactUploadDuplicateSkip.test_skip_uploads_only_non_duplicate_file"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4772,7 +4780,7 @@
     {
       "id": "ELITEA-1831",
       "title": "Upload Flow – Duplicate Handling: Keep Both Saves Both Files with copy Suffix",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4784,7 +4792,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_upload_duplicate_keep_both.TestArtifactUploadDuplicateKeepBoth.test_keep_both_uploads_renamed_copy_alongside_original"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7633,8 +7643,8 @@
     {
       "id": "ELITEA-2181",
       "title": "Chat – Streaming Response Displayed While LLM Generates Output",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -7645,7 +7655,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_streaming_response.TestStreamingResponse.test_streaming_response_progressive_display"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10776,8 +10788,8 @@
     {
       "id": "ELITEA-1920",
       "title": "Build with AI — generating agent draft from in-chat AgentEditor works end-to-end",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -10788,7 +10800,9 @@
         "feat:agents"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_build_with_ai_from_chat_canvas.TestBuildWithAIFromChatCanvas.test_build_with_ai_from_chat_canvas_adds_participant"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11049,8 +11063,8 @@
     {
       "id": "ELITEA-2014",
       "title": "Pipeline HITL Node — Configuration and Router Mapping",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11061,7 +11075,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_hitl_node_configuration.test_hitl_node_configuration_and_router_mapping"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11070,8 +11086,8 @@
     {
       "id": "ELITEA-2015",
       "title": "Pipeline HITL Node — Runtime Behavior",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11082,7 +11098,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_hitl_node_runtime_behavior.test_hitl_node_runtime_behavior"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11196,8 +11214,8 @@
     {
       "id": "ELITEA-2021",
       "title": "Create Pipeline — Full Details",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11208,7 +11226,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_create_full_details_persist.test_create_pipeline_full_details_persist_after_reload"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14910,8 +14930,8 @@
     {
       "id": "ELITEA-1999",
       "title": "Build with AI from Agent — created Skill is auto-attached and user is redirected back to Agent",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -14922,7 +14942,9 @@
         "feat:agents"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_build_with_ai_skill_from_agent.TestBuildWithAISkillFromAgent.test_build_with_ai_skill_auto_attaches_and_redirects_to_agent"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

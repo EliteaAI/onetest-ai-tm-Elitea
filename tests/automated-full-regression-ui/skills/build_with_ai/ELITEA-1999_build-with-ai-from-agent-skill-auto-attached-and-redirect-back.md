@@ -4,9 +4,11 @@ title: "Build with AI from Agent — created Skill is auto-attached and user is 
 priority: high
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
+automation_test_id:
+  - tests.ui.agents.test_build_with_ai_skill_from_agent.TestBuildWithAISkillFromAgent.test_build_with_ai_skill_auto_attaches_and_redirects_to_agent
 requirements: []
 ---
 

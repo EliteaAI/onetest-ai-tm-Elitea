@@ -4,9 +4,11 @@ title: "Upload Flow – Duplicate Handling: Skip Skips Duplicate and Saves Non-D
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_upload_duplicate_skip.TestArtifactUploadDuplicateSkip.test_skip_uploads_only_non_duplicate_file
 requirements: []
 ---
 

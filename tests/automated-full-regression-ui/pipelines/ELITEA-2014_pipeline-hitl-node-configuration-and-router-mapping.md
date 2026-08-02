@@ -4,9 +4,11 @@ title: "Pipeline HITL Node — Configuration and Router Mapping"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_hitl_node_configuration.test_hitl_node_configuration_and_router_mapping
 requirements: []
 ---
 

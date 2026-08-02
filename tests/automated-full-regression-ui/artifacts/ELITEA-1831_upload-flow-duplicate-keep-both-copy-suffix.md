@@ -4,9 +4,11 @@ title: "Upload Flow – Duplicate Handling: Keep Both Saves Both Files with copy
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_upload_duplicate_keep_both.TestArtifactUploadDuplicateKeepBoth.test_keep_both_uploads_renamed_copy_alongside_original
 requirements: []
 ---
 
