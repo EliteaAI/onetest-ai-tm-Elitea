@@ -1,6 +1,11 @@
 {
   "matched": [
     {
+      "case_id": "ELITEA-2090",
+      "code_ref": "tests.ui.chat.test_conversation_management.TestCreateConversation.test_create_conversation_via_ui_button",
+      "status": "passed"
+    },
+    {
       "case_id": "ELITEA-1869",
       "code_ref": "tests.ui.agents.test_agent_back_navigation.test_back_button_from_agent_detail_returns_to_intact_agents_list",
       "status": "passed"
@@ -36,9 +41,14 @@
       "status": "passed"
     },
     {
+      "case_id": "ELITEA-1890",
+      "code_ref": "tests.ui.agents.test_agent_save_as_version.TestAgentSaveAsVersion.test_save_as_version_creates_named_version_visible_in_dropdown",
+      "status": "passed"
+    },
+    {
       "case_id": "ELITEA-1894",
       "code_ref": "tests.ui.skills.test_export_agent_no_nested_dependencies.TestExportAgentNoNestedDependencies.test_export_agent_no_nested_dependencies",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1896",
