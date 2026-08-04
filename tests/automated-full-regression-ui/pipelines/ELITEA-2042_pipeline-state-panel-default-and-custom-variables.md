@@ -4,10 +4,13 @@ title: "Pipeline — State Panel (Default and Custom Variables)"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_state_panel_default_and_custom_variables.test_state_panel_default_and_custom_variables
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1158
 ---
 
 # ELITEA-2042: Pipeline — State Panel (Default and Custom Variables)
