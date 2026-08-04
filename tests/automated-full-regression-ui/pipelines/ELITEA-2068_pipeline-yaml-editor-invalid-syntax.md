@@ -4,10 +4,13 @@ title: "Pipeline — YAML Editor Invalid Syntax"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_yaml_editor_invalid_syntax.test_yaml_editor_invalid_syntax_blocks_save
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1160
 ---
 
 # ELITEA-2068: Pipeline — YAML Editor Invalid Syntax
