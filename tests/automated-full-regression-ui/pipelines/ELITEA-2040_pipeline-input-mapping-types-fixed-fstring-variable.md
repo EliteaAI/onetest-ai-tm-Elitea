@@ -4,10 +4,13 @@ title: "Pipeline — Input Mapping Types (Fixed, F-String, Variable)"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_type_walks_fixed_fstring_variable
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1153
 ---
 
 # ELITEA-2040: Pipeline — Input Mapping Types (Fixed, F-String, Variable)
