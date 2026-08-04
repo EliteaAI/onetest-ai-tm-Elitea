@@ -153,7 +153,7 @@
     {
       "case_id": "ELITEA-1793",
       "code_ref": "tests.ui.skills.test_ghost_skill_after_agent_removed.TestGhostSkillAfterAgentRemoved.test_ghost_skill_not_shown_after_agent_participant_removed",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1794",
@@ -403,7 +403,7 @@
     {
       "case_id": "ELITEA-0143",
       "code_ref": "tests.ui.agents.test_agent_with_github_toolkit.TestAddToolkitToAgent.test_add_toolkit_to_agent",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-0143",
