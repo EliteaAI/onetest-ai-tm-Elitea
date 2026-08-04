@@ -11534,8 +11534,8 @@
     {
       "id": "ELITEA-2033",
       "title": "Pipeline — Router Node Configuration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11546,7 +11546,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_router_node_configuration.test_router_node_configuration_and_edge_wiring"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
