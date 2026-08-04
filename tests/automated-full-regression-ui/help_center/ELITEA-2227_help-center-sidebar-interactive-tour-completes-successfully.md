@@ -4,10 +4,13 @@ title: "Help Center — Sidebar Interactive Tour completes successfully by click
 priority: high
 type: functional
 module: help-center
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:help-center]
 requirements: []
+automation_test_id:
+  - tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTour.test_sidebar_interactive_tour_completes_via_next
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1163
 ---
 
 # ELITEA-2227: Help Center — Sidebar Interactive Tour completes successfully by clicking Next through all steps

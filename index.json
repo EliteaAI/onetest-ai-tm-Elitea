@@ -14027,8 +14027,8 @@
     {
       "id": "ELITEA-2227",
       "title": "Help Center — Sidebar Interactive Tour completes successfully by clicking Next through all steps",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -14039,7 +14039,9 @@
         "feat:help-center"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTour.test_sidebar_interactive_tour_completes_via_next"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
