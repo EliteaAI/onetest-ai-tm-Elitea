@@ -4,10 +4,12 @@ title: "Notification text content renders correctly for known notification types
 priority: high
 type: functional
 module: settings-notifications
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id: [tests.ui.admin.test_notification_text_content.TestNotificationTextContent.test_notification_text_content_renders_correctly]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1165
 ---
 
 # ELITEA-2257: Notification text content renders correctly for known notification types
