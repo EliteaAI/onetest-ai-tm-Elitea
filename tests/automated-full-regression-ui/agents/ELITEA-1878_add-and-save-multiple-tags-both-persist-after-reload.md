@@ -29,7 +29,7 @@ requirements: []
 
 | Field | Value |
 |-------|-------|
-| Tag 1 | regression-test |
+| Tag 1 | regression_test |
 | Tag 2 | automation |
 
 ---
@@ -39,10 +39,10 @@ requirements: []
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Navigate to an agent detail page | The agent detail page loads |
-| 2 | Add tag "regression-test" and tag "automation" | Both tags appear as chips in the Tags field |
+| 2 | Add tag "regression_test" and tag "automation" | Both tags appear as chips in the Tags field |
 | 3 | Click Save | Save completes successfully |
 | 4 | Reload the page | The page reloads |
-| 5 | Verify both "regression-test" and "automation" tags are shown in the Tags field | Both tag chips are displayed in the Tags field |
+| 5 | Verify both "regression_test" and "automation" tags are shown in the Tags field | Both tag chips are displayed in the Tags field |
 
 ---
 
