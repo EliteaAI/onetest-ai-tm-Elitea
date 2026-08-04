@@ -11557,8 +11557,8 @@
     {
       "id": "ELITEA-2034",
       "title": "Pipeline — Decision Node Configuration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11569,7 +11569,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_decision_node_configuration.test_decision_node_configuration_and_edge_wiring"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11620,8 +11622,8 @@
     {
       "id": "ELITEA-2037",
       "title": "Pipeline — MCP Node Integration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11632,7 +11634,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_mcp_node_fresh_attach.test_mcp_node_fresh_attach"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
