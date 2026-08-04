@@ -11687,8 +11687,8 @@
     {
       "id": "ELITEA-2040",
       "title": "Pipeline — Input Mapping Types (Fixed, F-String, Variable)",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11699,7 +11699,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_type_walks_fixed_fstring_variable"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
