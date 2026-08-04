@@ -4,8 +4,10 @@ title: "Pipeline Canvas — Delete Node"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_canvas_delete_node.test_delete_middle_node_removes_its_edges_and_persists
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---

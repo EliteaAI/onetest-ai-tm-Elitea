@@ -4,8 +4,10 @@ title: "Pipeline — Edge Creation Between Nodes"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_edge_creation.test_drag_connect_creates_edge_replacing_prior_transition
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---

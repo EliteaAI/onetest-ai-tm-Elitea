@@ -4,8 +4,10 @@ title: "File Preview/Edit – Markdown File Raw Tab Enables Editing with Save an
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_file_preview_markdown_raw_edit_save.TestArtifactFilePreviewMarkdownRawEditSave.test_raw_tab_enables_editing_and_save_persists
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---

@@ -4,8 +4,10 @@ title: "Chat – Edit Generated Table in Canvas Mode – Open Editor and Verify 
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_edit_generated_table_canvas_open_and_verify_display.TestEditGeneratedTableCanvasOpenAndVerifyDisplay.test_edit_generated_table_canvas_open_and_verify_display
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

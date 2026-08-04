@@ -4,8 +4,10 @@ title: "Chat – Agent Hub Agent – Verify Only LLM and LLM Settings Can Be Cha
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_agent_hub_participant_readonly_canvas_llm_override.TestAgentHubParticipantReadonlyCanvasLlmOverride.test_agent_hub_participant_readonly_canvas_llm_override
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

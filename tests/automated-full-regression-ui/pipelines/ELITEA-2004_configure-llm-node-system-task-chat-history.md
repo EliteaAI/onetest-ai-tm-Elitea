@@ -4,8 +4,10 @@ title: "Configure LLM Node — System, Task, Chat History"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_task_chat_history_config
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---

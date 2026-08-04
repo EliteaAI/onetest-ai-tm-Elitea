@@ -4,8 +4,10 @@ title: "Chat – Pipeline Flow Editor – Add LLM Node, Verify YAML, Save Pipeli
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_pipeline_flow_editor_add_llm_node_from_chat_canvas.TestPipelineFlowEditorAddLlmNodeFromChatCanvas.test_add_llm_node_save_pipeline_and_verify_participant
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

@@ -4,8 +4,10 @@ title: "Chat – Move Conversation to Existing Folder via Move To Menu"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_move_conversation_to_folder.TestMoveConversationToExistingFolder.test_move_conversation_to_existing_folder
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

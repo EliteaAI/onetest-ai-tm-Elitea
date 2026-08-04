@@ -4,8 +4,10 @@ title: "Chat – Search Icon Opens Search Input Field, Returns Partial Results, 
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_chat_search_and_modules_panel.TestChatSearchAndModulesPanel.test_search_filters_and_modules_panel_toggles
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

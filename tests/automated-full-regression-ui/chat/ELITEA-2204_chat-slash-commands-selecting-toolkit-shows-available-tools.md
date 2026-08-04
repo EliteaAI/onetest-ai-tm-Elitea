@@ -4,8 +4,10 @@ title: "Chat – Slash Commands – Verify Selecting Toolkit from / Dropdown and
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_slash_mention_toolkit_tool_selection.TestSlashMentionToolkitToolSelection.test_select_toolkit_from_slash_mention_shows_its_tools
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

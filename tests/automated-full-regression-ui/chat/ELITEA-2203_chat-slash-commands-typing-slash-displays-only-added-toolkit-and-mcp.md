@@ -4,8 +4,10 @@ title: "Chat – Slash Commands – Verify Typing / Displays Only Added Toolkit 
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_slash_mention_toolkit_and_mcp_participants.TestSlashMentionToolkitAndMcpParticipants.test_slash_mention_shows_only_added_toolkit_and_mcp
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

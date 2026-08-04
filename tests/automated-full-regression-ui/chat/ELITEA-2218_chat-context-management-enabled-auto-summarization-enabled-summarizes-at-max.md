@@ -4,8 +4,10 @@ title: "Context Management – Global Setting Enabled, Auto-Summarization Enable
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_context_auto_summarization.TestContextAutoSummarization.test_auto_summarization_triggers_at_max_context_tokens
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

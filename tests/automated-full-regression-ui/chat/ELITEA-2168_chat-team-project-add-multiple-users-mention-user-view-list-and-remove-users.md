@@ -4,8 +4,10 @@ title: "Chat – Team Project – Add Multiple Users, Mention User, View User Li
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_team_users_mention_and_remove_participants.TestTeamUsersMentionAndRemoveParticipants.test_team_users_mention_and_remove_participants
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

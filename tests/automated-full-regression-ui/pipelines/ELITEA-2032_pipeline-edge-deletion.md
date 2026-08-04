@@ -4,8 +4,10 @@ title: "Pipeline — Edge Deletion"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_edge_deletion.test_delete_edge_resets_source_transition_and_persists
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---

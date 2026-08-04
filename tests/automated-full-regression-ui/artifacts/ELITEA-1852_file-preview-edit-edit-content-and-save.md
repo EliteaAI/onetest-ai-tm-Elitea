@@ -4,8 +4,10 @@ title: "File Preview/Edit – Edit File Content and Save Changes Successfully"
 priority: high
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_file_preview_edit_save.TestArtifactFilePreviewEditSave.test_edit_file_content_and_save_changes
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---

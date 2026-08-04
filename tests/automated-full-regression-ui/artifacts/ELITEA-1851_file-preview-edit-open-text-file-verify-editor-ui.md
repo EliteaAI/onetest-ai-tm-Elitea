@@ -4,8 +4,10 @@ title: "File Preview/Edit – Open Supported Text File via View/Edit Icon and Ve
 priority: high
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_file_preview_open_editor_ui.TestArtifactFilePreviewOpenEditorUI.test_open_supported_text_file_shows_editor_ui
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---

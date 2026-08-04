@@ -4,8 +4,10 @@ title: "Chat – Edit Table in Canvas Mode – Modify Cell Value and Save Change
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_edit_table_canvas_modify_cell_and_save.TestEditTableCanvasModifyCellAndSave.test_edit_table_canvas_modify_cell_and_save
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

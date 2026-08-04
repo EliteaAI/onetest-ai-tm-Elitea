@@ -4,8 +4,10 @@ title: "File Preview/Edit – Actions Dropdown in Editor Contains Copy Content, 
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_file_preview_actions_dropdown.TestArtifactFilePreviewActionsDropdown.test_actions_dropdown_copy_download_delete
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---

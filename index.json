@@ -5216,7 +5216,7 @@
     {
       "id": "ELITEA-1851",
       "title": "File Preview/Edit – Open Supported Text File via View/Edit Icon and Verify Editor UI",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",
@@ -5228,7 +5228,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_file_preview_open_editor_ui.TestArtifactFilePreviewOpenEditorUI.test_open_supported_text_file_shows_editor_ui"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5237,7 +5239,7 @@
     {
       "id": "ELITEA-1852",
       "title": "File Preview/Edit – Edit File Content and Save Changes Successfully",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",
@@ -5249,7 +5251,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_file_preview_edit_save.TestArtifactFilePreviewEditSave.test_edit_file_content_and_save_changes"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5321,7 +5325,7 @@
     {
       "id": "ELITEA-1856",
       "title": "File Preview/Edit – Actions Dropdown in Editor Contains Copy Content, Download, Delete",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -5333,7 +5337,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_file_preview_actions_dropdown.TestArtifactFilePreviewActionsDropdown.test_actions_dropdown_copy_download_delete"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5342,7 +5348,7 @@
     {
       "id": "ELITEA-1857",
       "title": "File Preview/Edit – Markdown File Opens in Preview Mode by Default with Save/Discard Inactive",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -5354,7 +5360,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_file_preview_markdown_default_mode.TestArtifactFilePreviewMarkdownDefaultMode.test_markdown_file_opens_in_preview_mode_by_default"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5363,7 +5371,7 @@
     {
       "id": "ELITEA-1858",
       "title": "File Preview/Edit – Markdown File Raw Tab Enables Editing with Save and Discard Active",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -5375,7 +5383,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_file_preview_markdown_raw_edit_save.TestArtifactFilePreviewMarkdownRawEditSave.test_raw_tab_enables_editing_and_save_persists"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5447,7 +5457,7 @@
     {
       "id": "ELITEA-1862",
       "title": "File Preview/Edit – Image File Opens Directly as Image Preview with Inactive Edit Controls",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -5459,7 +5469,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_file_preview_image_restricted_controls.TestArtifactFilePreviewImageRestrictedControls.test_image_file_opens_directly_with_restricted_controls"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6673,8 +6685,8 @@
     {
       "id": "ELITEA-2135",
       "title": "Chat – Move Conversation to Existing Folder via Move To Menu",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6685,7 +6697,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_move_conversation_to_folder.TestMoveConversationToExistingFolder.test_move_conversation_to_existing_folder"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6715,8 +6729,8 @@
     {
       "id": "ELITEA-2137",
       "title": "Chat – Move Conversation to a New Folder via Move To Menu",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6727,7 +6741,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_move_conversation_to_folder.TestMoveConversationToExistingFolder.test_move_conversation_to_new_folder"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6967,8 +6983,8 @@
     {
       "id": "ELITEA-2149",
       "title": "Chat – Pin a Conversation via Pin on Top Option",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6979,7 +6995,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pin_conversation.TestPinConversationViaPinOnTop.test_pin_conversation_via_pin_on_top"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7240,8 +7258,8 @@
     {
       "id": "ELITEA-2162",
       "title": "Chat – Search Icon Opens Search Input Field, Returns Partial Results, Conversation Interactable and Modules Panel Accessible",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -7252,7 +7270,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_search_and_modules_panel.TestChatSearchAndModulesPanel.test_search_filters_and_modules_panel_toggles"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7370,8 +7390,8 @@
     {
       "id": "ELITEA-2168",
       "title": "Chat – Team Project – Add Multiple Users, Mention User, View User List and Remove Users from Conversation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -7382,7 +7402,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_team_users_mention_and_remove_participants.TestTeamUsersMentionAndRemoveParticipants.test_team_users_mention_and_remove_participants"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7981,8 +8003,8 @@
     {
       "id": "ELITEA-2197",
       "title": "Chat – File Attachments – Upload Maximum 10 Files and Verify Limit Warning",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7993,7 +8015,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_attach_files_10_file_limit_warning.TestAttachFiles10FileLimitWarning.test_attach_11_files_shows_10_file_limit_warning"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8044,8 +8068,8 @@
     {
       "id": "ELITEA-2200",
       "title": "Chat – File Error States – Verify Unsupported File Format Displays Error Message",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8056,7 +8080,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_attach_unsupported_file_format_error.TestAttachUnsupportedFileFormatError.test_attach_unsupported_file_shows_error_toast"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8086,8 +8112,8 @@
     {
       "id": "ELITEA-2202",
       "title": "Chat – Slash Commands – Verify Typing / When No Toolkits or MCPs Are Added Displays Empty Results",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8098,7 +8124,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_slash_mention_empty_state.TestSlashMentionEmptyState.test_slash_mention_empty_dropdown_with_no_participants"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8107,8 +8135,8 @@
     {
       "id": "ELITEA-2203",
       "title": "Chat – Slash Commands – Verify Typing / Displays Only Added Toolkit and MCP Participants",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8119,7 +8147,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_slash_mention_toolkit_and_mcp_participants.TestSlashMentionToolkitAndMcpParticipants.test_slash_mention_shows_only_added_toolkit_and_mcp"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8128,8 +8158,8 @@
     {
       "id": "ELITEA-2204",
       "title": "Chat – Slash Commands – Verify Selecting Toolkit from / Dropdown and Viewing Available Tools",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8140,7 +8170,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_slash_mention_toolkit_tool_selection.TestSlashMentionToolkitToolSelection.test_select_toolkit_from_slash_mention_shows_its_tools"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8422,8 +8454,8 @@
     {
       "id": "ELITEA-2218",
       "title": "Context Management – Global Setting Enabled, Auto-Summarization Enabled – Verify Automatic Summarization Occurs When Max Token Count Reached",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8434,7 +8466,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_context_auto_summarization.TestContextAutoSummarization.test_auto_summarization_triggers_at_max_context_tokens"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8905,8 +8939,8 @@
     {
       "id": "ELITEA-2075",
       "title": "Chat – Agent Hub Agent – Verify Only LLM and LLM Settings Can Be Changed and Changes Are Saved Per Conversation Only",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8917,7 +8951,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_agent_hub_participant_readonly_canvas_llm_override.TestAgentHubParticipantReadonlyCanvasLlmOverride.test_agent_hub_participant_readonly_canvas_llm_override"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8989,8 +9025,8 @@
     {
       "id": "ELITEA-2079",
       "title": "Chat – Pipeline Flow Editor – Add LLM Node, Verify YAML, Save Pipeline, and Add to Conversation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -9001,7 +9037,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pipeline_flow_editor_add_llm_node_from_chat_canvas.TestPipelineFlowEditorAddLlmNodeFromChatCanvas.test_add_llm_node_save_pipeline_and_verify_participant"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9115,8 +9153,8 @@
     {
       "id": "ELITEA-2085",
       "title": "Chat – Create MCP from Conversation – Save Configuration and Verify MCP is Created",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -9127,7 +9165,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_create_mcp_from_conversation.TestCreateMcpFromConversation.test_create_mcp_from_conversation_save_and_verify"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9136,8 +9176,8 @@
     {
       "id": "ELITEA-2086",
       "title": "Chat – Edit Generated Table in Canvas Mode – Open Editor and Verify Table Display",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9148,7 +9188,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_edit_generated_table_canvas_open_and_verify_display.TestEditGeneratedTableCanvasOpenAndVerifyDisplay.test_edit_generated_table_canvas_open_and_verify_display"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9157,8 +9199,8 @@
     {
       "id": "ELITEA-2087",
       "title": "Chat – Edit Table in Canvas Mode – Modify Cell Value and Save Changes",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9169,7 +9211,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_edit_table_canvas_modify_cell_and_save.TestEditTableCanvasModifyCellAndSave.test_edit_table_canvas_modify_cell_and_save"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10853,8 +10897,8 @@
     {
       "id": "ELITEA-2004",
       "title": "Configure LLM Node — System, Task, Chat History",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -10865,7 +10909,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_task_chat_history_config"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10874,8 +10920,8 @@
     {
       "id": "ELITEA-2005",
       "title": "Entry Point Node — Trigger Types (Chat Message, Schedule, Webhook)",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -10886,7 +10932,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_entry_point_trigger_types_persist.test_entry_point_trigger_types_persist"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10895,8 +10943,8 @@
     {
       "id": "ELITEA-2006",
       "title": "Entry Point Node — Webhook Trigger Settings Modal",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -10907,7 +10955,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_webhook_trigger_settings_modal.test_webhook_trigger_settings_modal"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10916,8 +10966,8 @@
     {
       "id": "ELITEA-2007",
       "title": "Entry Point Node — Schedule Trigger Settings Modal",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -10928,7 +10978,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_schedule_trigger_settings_modal.test_schedule_trigger_settings_modal"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10937,8 +10989,8 @@
     {
       "id": "ELITEA-2008",
       "title": "Entry Point Node — Trigger Restricted When HITL/Printer/Interrupts Present",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -10949,7 +11001,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_entry_point_trigger_restricted_interactive_nodes.test_entry_point_trigger_restricted_interactive_nodes"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10979,8 +11033,8 @@
     {
       "id": "ELITEA-2010",
       "title": "Pipeline with Toolkit Node",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -10991,7 +11045,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_toolkit_node_config_and_input_mapping.test_toolkit_node_config_and_input_mapping"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11151,8 +11207,8 @@
     {
       "id": "ELITEA-2018",
       "title": "Pipeline Canvas — Delete Node",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11163,7 +11219,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_canvas_delete_node.test_delete_middle_node_removes_its_edges_and_persists"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11363,8 +11421,8 @@
     {
       "id": "ELITEA-2028",
       "title": "Pipeline — YAML to Flow Sync",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11375,7 +11433,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_yaml_flow_sync.test_yaml_edit_transition_syncs_to_flow_canvas_and_enables_save"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11405,8 +11465,8 @@
     {
       "id": "ELITEA-2030",
       "title": "Pipeline — Add Node Menu",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11417,7 +11477,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_add_node_menu.test_add_node_menu_lists_types_adds_node_and_dismisses"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11426,8 +11488,8 @@
     {
       "id": "ELITEA-2031",
       "title": "Pipeline — Edge Creation Between Nodes",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11438,7 +11500,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_edge_creation.test_drag_connect_creates_edge_replacing_prior_transition"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11447,8 +11511,8 @@
     {
       "id": "ELITEA-2032",
       "title": "Pipeline — Edge Deletion",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11459,7 +11523,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_edge_deletion.test_delete_edge_resets_source_transition_and_persists"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

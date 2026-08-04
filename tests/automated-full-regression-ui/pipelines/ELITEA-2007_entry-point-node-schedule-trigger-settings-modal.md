@@ -4,8 +4,10 @@ title: "Entry Point Node — Schedule Trigger Settings Modal"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_schedule_trigger_settings_modal.test_schedule_trigger_settings_modal
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---

@@ -4,8 +4,10 @@ title: "File Preview/Edit – Image File Opens Directly as Image Preview with In
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_file_preview_image_restricted_controls.TestArtifactFilePreviewImageRestrictedControls.test_image_file_opens_directly_with_restricted_controls
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---

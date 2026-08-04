@@ -4,8 +4,10 @@ title: "Pipeline — YAML to Flow Sync"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_yaml_flow_sync.test_yaml_edit_transition_syncs_to_flow_canvas_and_enables_save
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---

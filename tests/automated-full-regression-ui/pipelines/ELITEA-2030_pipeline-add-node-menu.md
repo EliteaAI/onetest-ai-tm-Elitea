@@ -4,8 +4,10 @@ title: "Pipeline — Add Node Menu"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_add_node_menu.test_add_node_menu_lists_types_adds_node_and_dismisses
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---

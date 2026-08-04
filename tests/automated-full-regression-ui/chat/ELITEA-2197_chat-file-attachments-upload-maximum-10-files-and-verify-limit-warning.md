@@ -4,8 +4,10 @@ title: "Chat – File Attachments – Upload Maximum 10 Files and Verify Limit W
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_attach_files_10_file_limit_warning.TestAttachFiles10FileLimitWarning.test_attach_11_files_shows_10_file_limit_warning
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

@@ -4,8 +4,10 @@ title: "Entry Point Node — Trigger Restricted When HITL/Printer/Interrupts Pre
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_entry_point_trigger_restricted_interactive_nodes.test_entry_point_trigger_restricted_interactive_nodes
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---
