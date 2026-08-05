@@ -4,10 +4,13 @@ title: "Agent Hub — open agent detail modal"
 priority: medium
 type: functional
 module: agent-hub
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
+automation_test_id:
+  - tests.ui.agents.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1220
 ---
 
 # ELITEA-2356: Agent Hub — open agent detail modal
