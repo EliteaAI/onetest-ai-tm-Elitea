@@ -9386,8 +9386,8 @@
     {
       "id": "ELITEA-2354",
       "title": "Agent Hub — like an agent from the list view",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9398,7 +9398,9 @@
         "feat:agent-hub"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_hub_like_agent_list_view.TestAgentHubLikeAgentListView.test_agent_hub_like_agent_from_list_view"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
