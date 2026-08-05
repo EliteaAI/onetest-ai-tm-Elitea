@@ -4,8 +4,11 @@ title: "Expired tokens show ⊗ icon and active tokens show ✅ icon with remain
 priority: high
 type: functional
 module: settings-personal-tokens
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_expired_token_shows_expired_icon_and_label
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1176
 tags: [automated:UI:regression, feat:settings]
 requirements: []
 ---

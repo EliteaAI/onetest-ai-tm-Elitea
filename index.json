@@ -2435,8 +2435,8 @@
     {
       "id": "ELITEA-2284",
       "title": "Expired tokens show ⊗ icon and active tokens show ✅ icon with remaining days",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -2447,7 +2447,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_expired_token_shows_expired_icon_and_label"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
