@@ -2479,8 +2479,8 @@
     {
       "id": "ELITEA-2286",
       "title": "Token name validation — only alphanumeric characters, underscores, and hyphens are allowed",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -2491,7 +2491,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_invalid_token_name_shows_error_and_keeps_generate_disabled"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3806,8 +3808,8 @@
     {
       "id": "ELITEA-2292",
       "title": "Users page loads with correct layout and components",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -3818,7 +3820,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_users_page_layout.TestUsersPageLayout.test_users_page_layout_and_components"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10114,7 +10118,7 @@
     },
     {
       "id": "ELITEA-1887",
-      "title": "Agent cannot be added to its own toolkit picker (self-attachment blocked)",
+      "title": "Agent cannot be added to its own tool picker (self-attachment blocked)",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
