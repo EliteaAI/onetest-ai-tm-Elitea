@@ -4,10 +4,12 @@ title: "Users page loads with correct layout and components"
 priority: high
 type: functional
 module: settings-users-and-roles
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id: [tests.ui.admin.test_users_page_layout.TestUsersPageLayout.test_users_page_layout_and_components]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1180
 ---
 
 # ELITEA-2292: Users page loads with correct layout and components
