@@ -2284,8 +2284,8 @@
     {
       "id": "ELITEA-2277",
       "title": "Personal Tokens page loads with correct layout and components",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2296,7 +2296,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_tokens_page_layout.TestPersonalTokensPageLayout.test_personal_tokens_page_layout_and_components"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
