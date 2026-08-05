@@ -1595,8 +1595,8 @@
     {
       "id": "ELITEA-2338",
       "title": "Delete a secret via three-dot menu and verify removal",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1607,7 +1607,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_secret_delete_via_three_dot_menu.TestSecretDeleteViaThreeDotMenu.test_delete_secret_via_three_dot_menu"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9430,8 +9432,8 @@
     {
       "id": "ELITEA-2356",
       "title": "Agent Hub — open agent detail modal",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9442,7 +9444,9 @@
         "feat:agent-hub"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

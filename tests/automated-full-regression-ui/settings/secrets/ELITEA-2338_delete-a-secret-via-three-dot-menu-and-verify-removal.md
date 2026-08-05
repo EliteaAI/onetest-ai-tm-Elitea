@@ -4,10 +4,13 @@ title: "Delete a secret via three-dot menu and verify removal"
 priority: medium
 type: functional
 module: settings-secrets
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_secret_delete_via_three_dot_menu.TestSecretDeleteViaThreeDotMenu.test_delete_secret_via_three_dot_menu
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1223
 ---
 
 # ELITEA-2338: Delete a secret via three-dot menu and verify removal
