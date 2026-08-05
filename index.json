@@ -2349,8 +2349,8 @@
     {
       "id": "ELITEA-2280",
       "title": "Create a new personal token and verify it appears in the table",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2361,7 +2361,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_create_personal_token_and_verify_in_table"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
