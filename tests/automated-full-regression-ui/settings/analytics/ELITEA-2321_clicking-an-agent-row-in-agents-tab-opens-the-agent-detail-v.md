@@ -4,10 +4,13 @@ title: "Clicking an agent row in Agents tab opens the agent detail view"
 priority: medium
 type: functional
 module: settings-analytics
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_analytics_agent_detail_view.TestAnalyticsAgentDetailView.test_agent_row_click_opens_detail_view
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1201
 ---
 
 # ELITEA-2321: Clicking an agent row in Agents tab opens the agent detail view
