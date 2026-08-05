@@ -4,10 +4,13 @@ title: "Eye icon reveals the actual secret value and changes to crossed-out eye"
 priority: medium
 type: functional
 module: settings-secrets
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_secret_eye_icon_reveal_and_mask_toggle.TestSecretEyeIconRevealAndMaskToggle.test_secret_eye_icon_reveal_and_mask_toggle
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1225
 ---
 
 # ELITEA-2343: Eye icon reveals the actual secret value and changes to crossed-out eye
