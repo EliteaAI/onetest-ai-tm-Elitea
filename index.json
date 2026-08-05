@@ -3388,8 +3388,8 @@
     {
       "id": "ELITEA-2310",
       "title": "Analytics page loads with default date range and all six tabs visible",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -3400,7 +3400,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_default_load.TestAnalyticsDefaultLoad.test_analytics_page_default_load"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4127,8 +4129,8 @@
     {
       "id": "ELITEA-2307",
       "title": "User with invalid email format shows validation error",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -4139,7 +4141,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_invite_user_invalid_email_validation.TestInviteUserInvalidEmailValidation.test_invite_user_invalid_email_validation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
