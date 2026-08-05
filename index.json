@@ -3604,8 +3604,8 @@
     {
       "id": "ELITEA-2320",
       "title": "Agents tab displays Chat Messages chart, Most Active Agents bar chart, and Agent Activity table",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -3616,7 +3616,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_agents_pipelines_tab.TestAnalyticsAgentsPipelinesTab.test_agents_pipelines_tab_charts_and_activity_table"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3625,8 +3627,8 @@
     {
       "id": "ELITEA-2321",
       "title": "Clicking an agent row in Agents tab opens the agent detail view",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -3637,7 +3639,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_agent_detail_view.TestAnalyticsAgentDetailView.test_agent_row_click_opens_detail_view"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
