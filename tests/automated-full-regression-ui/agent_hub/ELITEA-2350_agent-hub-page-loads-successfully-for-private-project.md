@@ -4,10 +4,13 @@ title: "Agent Hub — page loads successfully for Private project"
 priority: high
 type: functional
 module: agent-hub
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
+automation_test_id:
+  - tests.ui.agents.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1211
 ---
 
 # ELITEA-2350: Agent Hub — page loads successfully for Private project

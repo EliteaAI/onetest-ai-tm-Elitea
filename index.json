@@ -1572,8 +1572,8 @@
     {
       "id": "ELITEA-2337",
       "title": "Secret name only allows letters, numbers, and underscores — hyphens not permitted",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -1584,7 +1584,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_secret_create_inline_checkmark_x_cancel.TestSecretCreateInlineCheckmarkXCancel.test_secret_name_rejects_hyphen_and_special_chars_valid_name_clears_error"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
