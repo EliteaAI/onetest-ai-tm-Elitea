@@ -4,10 +4,13 @@ title: "Mark selected notifications as read and unread using checkboxes"
 priority: high
 type: functional
 module: settings-notifications
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_notification_mark_read_unread.TestNotificationMarkReadUnread.test_mark_selected_notifications_read_and_unread
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1168
 ---
 
 # ELITEA-2259: Mark selected notifications as read and unread using checkboxes
