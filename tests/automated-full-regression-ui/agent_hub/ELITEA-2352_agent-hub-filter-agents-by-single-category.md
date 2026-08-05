@@ -4,10 +4,13 @@ title: "Agent Hub — filter agents by single category"
 priority: medium
 type: functional
 module: agent-hub
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
+automation_test_id:
+  - tests.ui.agents.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1214
 ---
 
 # ELITEA-2352: Agent Hub — filter agents by single category

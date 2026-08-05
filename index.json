@@ -9298,8 +9298,8 @@
     {
       "id": "ELITEA-2350",
       "title": "Agent Hub — page loads successfully for Private project",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -9310,7 +9310,9 @@
         "feat:agent-hub"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9340,8 +9342,8 @@
     {
       "id": "ELITEA-2352",
       "title": "Agent Hub — filter agents by single category",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9352,7 +9354,9 @@
         "feat:agent-hub"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
