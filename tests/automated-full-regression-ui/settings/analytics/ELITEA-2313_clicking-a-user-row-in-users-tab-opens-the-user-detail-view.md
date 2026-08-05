@@ -4,10 +4,13 @@ title: "Clicking a user row in Users tab opens the user detail view"
 priority: medium
 type: functional
 module: settings-analytics
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_analytics_user_detail_view.TestAnalyticsUserDetailView.test_users_tab_row_click_opens_detail_view
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1194
 ---
 
 # ELITEA-2313: Clicking a user row in Users tab opens the user detail view
