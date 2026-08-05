@@ -4,10 +4,13 @@ title: "Token name validation — only alphanumeric characters, underscores, and
 priority: high
 type: functional
 module: settings-personal-tokens
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_invalid_token_name_shows_error_and_keeps_generate_disabled
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1178
 ---
 
 # ELITEA-2286: Token name validation — only alphanumeric characters, underscores, and hyphens are allowed
