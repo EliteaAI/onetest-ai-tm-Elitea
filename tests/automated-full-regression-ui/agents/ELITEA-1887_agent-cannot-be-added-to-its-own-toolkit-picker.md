@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1887
-title: "Agent cannot be added to its own toolkit picker (self-attachment blocked)"
+title: "Agent cannot be added to its own tool picker (self-attachment blocked)"
 priority: medium
 type: functional
 module: agents
@@ -12,7 +12,7 @@ automation_test_id: tests.ui.agents.test_agent_self_attachment_blocked.TestAgent
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/601
 ---
 
-# ELITEA-1887: Agent cannot be added to its own toolkit picker (self-attachment blocked)
+# ELITEA-1887: Agent cannot be added to its own tool picker (self-attachment blocked)
 
 **Module:** agents · **Priority:** medium · **Type:** functional
 
@@ -40,15 +40,15 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/601
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Navigate to an agent detail page | The agent detail page loads |
-| 2 | Click "+ Toolkit" to open the toolkit picker | The toolkit picker dialog opens |
+| 2 | Click "+ Agent" to open the tool picker | The tool picker dialog opens |
 | 3 | Search for the current agent's own name in the search field | Search results are returned |
-| 4 | Verify the agent itself does NOT appear in the toolkit picker list | The current agent is absent from the search results |
+| 4 | Verify the agent itself does NOT appear in the tool picker list | The current agent is absent from the search results |
 
 ---
 
 ## Expected Final State
 
-The current agent does not appear in its own toolkit picker, preventing self-attachment.
+The current agent does not appear in its own tool picker, preventing self-attachment.
 
 ---
 
@@ -56,8 +56,8 @@ The current agent does not appear in its own toolkit picker, preventing self-att
 
 **Pass:**
 - All steps complete without errors.
-- The current agent is not present in its own toolkit picker search results.
+- The current agent is not present in its own tool picker search results.
 
 **Fail:**
 - Any step produces an error or unexpected result.
-- The current agent appears in its own toolkit picker and could be attached to itself.
+- The current agent appears in its own tool picker and could be attached to itself.
