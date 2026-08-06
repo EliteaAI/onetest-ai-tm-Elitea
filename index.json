@@ -14696,8 +14696,8 @@
     {
       "id": "ELITEA-2438",
       "title": "Import Skill with missing required frontmatter shows validation error",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14708,7 +14708,9 @@
         "feat:skills"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_export_import.TestSkillImportMissingFrontmatter.test_import_skill_missing_frontmatter_shows_validation_error"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
