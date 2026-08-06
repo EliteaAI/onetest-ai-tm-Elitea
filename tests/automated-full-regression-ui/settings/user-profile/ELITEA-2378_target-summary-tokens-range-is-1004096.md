@@ -4,10 +4,13 @@ title: "Target Summary Tokens range is 100–4096"
 priority: medium
 type: functional
 module: settings-user-profile
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_target_summary_tokens_range_validation
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1246
 ---
 
 # ELITEA-2378: Target Summary Tokens range is 100–4096

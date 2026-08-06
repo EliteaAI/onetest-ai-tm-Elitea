@@ -1918,8 +1918,8 @@
     {
       "id": "ELITEA-2374",
       "title": "Context management toggle enables and disables token fields",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1930,7 +1930,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_context_management_toggle_enables_disables_fields"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1981,8 +1983,8 @@
     {
       "id": "ELITEA-2377",
       "title": "Summarization toggle enables and disables summarization fields",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1993,7 +1995,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_automatic_summarization_toggle_enables_disables_own_fields"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2002,8 +2006,8 @@
     {
       "id": "ELITEA-2378",
       "title": "Target Summary Tokens range is 100–4096",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2014,7 +2018,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_target_summary_tokens_range_validation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
