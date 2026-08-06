@@ -4,10 +4,13 @@ title: "Summarization toggle enables and disables summarization fields"
 priority: medium
 type: functional
 module: settings-user-profile
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_automatic_summarization_toggle_enables_disables_own_fields
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1243
 ---
 
 # ELITEA-2377: Summarization toggle enables and disables summarization fields
