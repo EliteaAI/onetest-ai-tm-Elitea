@@ -4,10 +4,12 @@ title: "Skill pin and unpin flow"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: tests.ui.skills.test_skill_pin_unpin.TestSkillPinUnpin.test_skill_pin_moves_to_top_and_unpin_reverts
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1257
 ---
 
 # ELITEA-2435: Skill pin and unpin flow
