@@ -2734,8 +2734,8 @@
     {
       "id": "ELITEA-2397",
       "title": "Set a LLM model as Default / High-tier / Low-tier",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2746,7 +2746,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_set_llm_model_default_high_low_tier.TestSetLLMModelTiers.test_set_llm_model_default_high_low_tier"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
