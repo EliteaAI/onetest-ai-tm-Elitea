@@ -4,10 +4,13 @@ title: "AI Configuration page loads all integration sections without error"
 priority: medium
 type: functional
 module: settings-ai-configuration
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1252
 ---
 
 # ELITEA-2392: AI Configuration page loads all integration sections without error
