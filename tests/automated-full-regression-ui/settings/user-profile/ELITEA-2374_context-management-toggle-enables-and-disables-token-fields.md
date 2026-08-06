@@ -4,10 +4,13 @@ title: "Context management toggle enables and disables token fields"
 priority: medium
 type: functional
 module: settings-user-profile
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_context_management_toggle_enables_disables_fields
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1241
 ---
 
 # ELITEA-2374: Context management toggle enables and disables token fields
