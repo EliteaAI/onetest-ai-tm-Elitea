@@ -4,10 +4,13 @@ title: "Max Context Tokens does not accept non-numeric or negative values"
 priority: medium
 type: functional
 module: settings-user-profile
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_max_context_tokens_rejects_non_numeric_and_negative_input
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1249
 ---
 
 # ELITEA-2391: Max Context Tokens does not accept non-numeric or negative values
