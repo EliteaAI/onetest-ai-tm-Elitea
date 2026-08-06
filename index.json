@@ -9587,8 +9587,8 @@
     {
       "id": "ELITEA-2363",
       "title": "Agent Hub — search bar filters agents in real time",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9599,7 +9599,9 @@
         "feat:agent-hub"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_hub_search_bar_filters_in_real_time.TestAgentHubSearchBarFiltersInRealTime.test_agent_hub_search_bar_filters_in_real_time"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

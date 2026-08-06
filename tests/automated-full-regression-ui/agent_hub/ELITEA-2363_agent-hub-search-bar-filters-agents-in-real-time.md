@@ -4,10 +4,13 @@ title: "Agent Hub — search bar filters agents in real time"
 priority: medium
 type: functional
 module: agent-hub
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
+automation_test_id:
+  - tests.ui.agents.test_agent_hub_search_bar_filters_in_real_time.TestAgentHubSearchBarFiltersInRealTime.test_agent_hub_search_bar_filters_in_real_time
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1230
 ---
 
 # ELITEA-2363: Agent Hub — search bar filters agents in real time
