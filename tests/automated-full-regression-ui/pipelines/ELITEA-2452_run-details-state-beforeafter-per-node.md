@@ -4,10 +4,13 @@ title: "Run Details — State Before/After per Node"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_run_details_state_before_after.test_run_details_state_before_after_per_node
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1273
 ---
 
 # ELITEA-2452: Run Details — State Before/After per Node
