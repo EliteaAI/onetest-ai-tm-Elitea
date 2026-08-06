@@ -4,10 +4,13 @@ title: "Version dropdown shows pin/set-as-default button and confirmation messag
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id:
+  - tests.ui.skills.test_skill_version_set_default.TestSkillVersionSetDefault.test_version_dropdown_set_default_shows_control_and_confirmation
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1261
 ---
 
 # ELITEA-2437: Version dropdown shows pin/set-as-default button and confirmation message
