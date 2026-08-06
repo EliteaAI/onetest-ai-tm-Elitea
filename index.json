@@ -1702,8 +1702,8 @@
     {
       "id": "ELITEA-2343",
       "title": "Eye icon reveals the actual secret value and changes to crossed-out eye",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1714,7 +1714,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_secret_eye_icon_reveal_and_mask_toggle.TestSecretEyeIconRevealAndMaskToggle.test_secret_eye_icon_reveal_and_mask_toggle"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1723,8 +1725,8 @@
     {
       "id": "ELITEA-2344",
       "title": "Hide option permanently removes the secret from the Secrets table",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1735,7 +1737,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_secret_hide_via_three_dot_menu.TestSecretHideViaThreeDotMenu.test_hide_secret_via_three_dot_menu"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1786,8 +1790,8 @@
     {
       "id": "ELITEA-2347",
       "title": "Edit secret value inline — name field is read-only after creation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1798,7 +1802,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_secret_edit_value_name_field_readonly.TestSecretEditValueNameFieldReadonly.test_edit_secret_value_name_field_readonly"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
