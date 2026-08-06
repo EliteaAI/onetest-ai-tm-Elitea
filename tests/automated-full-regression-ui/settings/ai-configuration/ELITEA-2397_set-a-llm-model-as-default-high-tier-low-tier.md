@@ -4,10 +4,13 @@ title: "Set a LLM model as Default / High-tier / Low-tier"
 priority: medium
 type: functional
 module: settings-ai-configuration
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.settings.test_set_llm_model_default_high_low_tier.TestSetLLMModelTiers.test_set_llm_model_default_high_low_tier
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1255
 ---
 
 # ELITEA-2397: Set a LLM model as Default / High-tier / Low-tier
