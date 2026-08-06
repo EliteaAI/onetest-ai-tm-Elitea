@@ -4,8 +4,10 @@ title: "Import Skill with missing required frontmatter shows validation error"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: [tests.ui.skills.test_skill_export_import.TestSkillImportMissingFrontmatter.test_import_skill_missing_frontmatter_shows_validation_error]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1263
 tags: [automated:UI:regression, feat:skills]
 requirements: []
 ---
