@@ -4,10 +4,13 @@ title: "Agent Hub — E2E start conversation with agent that has no conversation
 priority: medium
 type: functional
 module: agent-hub
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
+automation_test_id:
+  - tests.ui.chat.test_agent_hub_start_conversation_no_starters.TestAgentHubStartConversationNoStarters.test_agent_hub_start_conversation_no_starters
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1234
 ---
 
 # ELITEA-2368: Agent Hub — E2E start conversation with agent that has no conversation starters, type and send message, receive reply
