@@ -4,10 +4,13 @@ title: "Hide option permanently removes the secret from the Secrets table"
 priority: medium
 type: functional
 module: settings-secrets
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_secret_hide_via_three_dot_menu.TestSecretHideViaThreeDotMenu.test_hide_secret_via_three_dot_menu
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1228
 ---
 
 # ELITEA-2344: Hide option permanently removes the secret from the Secrets table
