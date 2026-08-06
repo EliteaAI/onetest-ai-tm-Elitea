@@ -4,10 +4,14 @@ title: "Run Details — Multiple State Variables of Different Types"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_run_details_multiple_state_variables.test_run_details_multiple_state_variables_different_types
+  - tests.ui.pipelines.test_pipeline_run_details_state_before_after.test_run_details_state_before_after_per_node
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1276
 ---
 
 # ELITEA-2453: Run Details — Multiple State Variables of Different Types
