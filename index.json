@@ -11471,8 +11471,8 @@
     {
       "id": "ELITEA-2026",
       "title": "Pipeline — YAML Editor View",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11483,7 +11483,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_yaml_editor_view.test_pipeline_yaml_editor_view"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
