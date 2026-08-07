@@ -8617,8 +8617,8 @@
     {
       "id": "ELITEA-2459",
       "title": "Chat – Folder rename – validation tooltip for invalid input and first character cannot be a space",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8629,7 +8629,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_folder_rename_checkmark_special_chars_and_leading_space_invalid"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
