@@ -4,10 +4,13 @@ title: "Chat – Folder rename – validation tooltip for invalid input and firs
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:chat]
 requirements: []
+automation_test_id:
+  - tests.ui.chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_folder_rename_checkmark_special_chars_and_leading_space_invalid
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1313
 ---
 
 # ELITEA-2459: Chat – Folder rename – validation tooltip for invalid input and first character cannot be a space
