@@ -4,8 +4,11 @@ title: "Pipeline Dashboard — Search"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_management.TestSearchPipeline.test_search_placeholder_and_dashboard_grid_filters_and_clears
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1304
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---
