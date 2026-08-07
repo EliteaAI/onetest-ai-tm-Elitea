@@ -4,10 +4,13 @@ title: "MCP Integration in Agent — Nested Agent with MCP"
 priority: medium
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id:
+  - tests.ui.agents.test_nested_agent_with_mcp_tool_output.TestNestedAgentWithMcpToolOutput.test_nested_agent_with_mcp_tool_output
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1292
 ---
 
 # ELITEA-1951: MCP Integration in Agent — Nested Agent with MCP

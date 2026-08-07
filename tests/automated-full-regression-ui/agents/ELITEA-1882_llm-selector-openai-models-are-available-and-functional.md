@@ -4,10 +4,13 @@ title: "LLM selector — OpenAI models are available and functional (GPT-4.1, GP
 priority: medium
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id:
+  - tests.ui.agents.test_agent_llm_selector_openai_models.TestAgentLlmSelectorOpenaiModels.test_llm_selector_openai_models_are_available_and_functional
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1292
 ---
 
 # ELITEA-1882: LLM selector — OpenAI models are available and functional (GPT-4.1, GPT-5 mini, GPT-5.2, GPT-5.4, GPT-5.4-mini)

@@ -9867,8 +9867,8 @@
     {
       "id": "ELITEA-1873",
       "title": "Discard changes resets all unsaved edits",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -9879,7 +9879,9 @@
         "feat:agents"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_management.TestAgentActions.test_discard_changes_reverts_all_unsaved_edits"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9888,8 +9890,8 @@
     {
       "id": "ELITEA-1874",
       "title": "Embedded chat — send message and verify response is non-empty",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -9900,7 +9902,9 @@
         "feat:agents"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_embedded_chat_send_message.TestAgentEmbeddedChatSendMessage.test_send_message_via_enter_and_verify_non_empty_response"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9909,8 +9913,8 @@
     {
       "id": "ELITEA-1875",
       "title": "Embedded chat — Shift+Enter inserts new line, Enter sends message",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -9921,7 +9925,9 @@
         "feat:agents"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_embedded_chat_shift_enter.TestAgentEmbeddedChatShiftEnter.test_shift_enter_new_line_enter_sends"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9930,8 +9936,8 @@
     {
       "id": "ELITEA-1876",
       "title": "Run history panel shows past runs with timestamp and preview",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -9942,7 +9948,9 @@
         "feat:agents"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_run_history_select_past_run.TestAgentRunHistorySelectPastRun.test_select_past_run_loads_chat_messages"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9974,8 +9982,8 @@
     {
       "id": "ELITEA-1878",
       "title": "Add and save multiple tags — both persist after reload",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9986,7 +9994,9 @@
         "feat:agents"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_management.TestAgentActions.test_add_multiple_tags_persist_after_reload"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9995,8 +10005,8 @@
     {
       "id": "ELITEA-1879",
       "title": "Remove a tag from agent — removal persists after reload",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -10007,7 +10017,9 @@
         "feat:agents"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_management.TestAgentActions.test_remove_tag_from_agent_persists_after_reload"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10062,8 +10074,8 @@
     {
       "id": "ELITEA-1882",
       "title": "LLM selector — OpenAI models are available and functional (GPT-4.1, GPT-5 mini, GPT-5.2, GPT-5.4, GPT-5.4-mini)",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -10074,7 +10086,9 @@
         "feat:agents"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_llm_selector_openai_models.TestAgentLlmSelectorOpenaiModels.test_llm_selector_openai_models_are_available_and_functional"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10152,8 +10166,8 @@
     {
       "id": "ELITEA-1886",
       "title": "Conversation starter chips appear in chat panel and are clickable",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -10164,7 +10178,9 @@
         "feat:agents"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_embedded_chat_conversation_starter_chips.TestConversationStarterChipsVisibleAndClickable.test_conversation_starter_chips_visible_and_clickable"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10426,8 +10442,8 @@
     {
       "id": "ELITEA-1898",
       "title": "Copy version link produces a version-specific URL",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -10438,7 +10454,9 @@
         "feat:agents"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_copy_version_link.TestAgentCopyVersionLink.test_copy_version_link_produces_version_specific_url"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10470,8 +10488,8 @@
     {
       "id": "ELITEA-1900",
       "title": "Agent name character limit enforced at 32 characters",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "low",
       "size": "",
@@ -10482,7 +10500,9 @@
         "feat:agents"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_name_character_limit.test_agent_name_truncated_at_32_characters"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12603,8 +12623,8 @@
     {
       "id": "ELITEA-2450",
       "title": "Run Details — Open Panel After Execution",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12615,7 +12635,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_run_details_panel.test_run_details_panel_opens_after_execution"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12645,8 +12667,8 @@
     {
       "id": "ELITEA-2452",
       "title": "Run Details — State Before/After per Node",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12657,7 +12679,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_run_details_state_before_after.test_run_details_state_before_after_per_node"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12666,8 +12690,8 @@
     {
       "id": "ELITEA-2453",
       "title": "Run Details — Multiple State Variables of Different Types",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12678,7 +12702,10 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_run_details_multiple_state_variables.test_run_details_multiple_state_variables_different_types",
+        "tests.ui.pipelines.test_pipeline_run_details_state_before_after.test_run_details_state_before_after_per_node"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -13331,8 +13358,8 @@
     {
       "id": "ELITEA-1951",
       "title": "MCP Integration in Agent — Nested Agent with MCP",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -13343,7 +13370,9 @@
         "feat:agents"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_nested_agent_with_mcp_tool_output.TestNestedAgentWithMcpToolOutput.test_nested_agent_with_mcp_tool_output"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14740,8 +14769,8 @@
     {
       "id": "ELITEA-2440",
       "title": "Test panel uses the currently selected Skill version's instructions",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14752,7 +14781,9 @@
         "feat:skills"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_test_panel_version_instructions.TestSkillTestPanelVersionInstructions.test_test_panel_uses_selected_skill_version_instructions"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

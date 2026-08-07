@@ -4,10 +4,13 @@ title: "Agent name character limit enforced at 32 characters"
 priority: low
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id:
+  - tests.ui.agents.test_agent_name_character_limit.test_agent_name_truncated_at_32_characters
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1292
 ---
 
 # ELITEA-1900: Agent name character limit enforced at 32 characters

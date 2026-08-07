@@ -4,10 +4,13 @@ title: "Run history panel shows past runs with timestamp and preview"
 priority: high
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id:
+  - tests.ui.agents.test_agent_run_history_select_past_run.TestAgentRunHistorySelectPastRun.test_select_past_run_loads_chat_messages
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1292
 ---
 
 # ELITEA-1876: Run history panel shows past runs with timestamp and preview

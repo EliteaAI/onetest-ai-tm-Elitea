@@ -4,10 +4,13 @@ title: "Embedded chat — send message and verify response is non-empty"
 priority: high
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id:
+  - tests.ui.agents.test_agent_embedded_chat_send_message.TestAgentEmbeddedChatSendMessage.test_send_message_via_enter_and_verify_non_empty_response
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1292
 ---
 
 # ELITEA-1874: Embedded chat — send message and verify response is non-empty
