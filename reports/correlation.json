@@ -228,7 +228,7 @@
     {
       "case_id": "ELITEA-0501",
       "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_internal_tools_panel_shows_all_tools",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0501",
@@ -268,17 +268,17 @@
     {
       "case_id": "ELITEA-1180",
       "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1181",
       "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1183",
       "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-0001",
