@@ -4,10 +4,13 @@ title: "Chat – Folder rename – checkmark inactive when empty, less than 3 ch
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:chat]
 requirements: []
+automation_test_id:
+  - tests.ui.chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_folder_rename_checkmark_validation
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1311
 ---
 
 # ELITEA-2458: Chat – Folder rename – checkmark inactive when empty, less than 3 characters, or no changes made
