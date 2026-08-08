@@ -56,6 +56,11 @@
       "status": "passed"
     },
     {
+      "case_id": "ELITEA-1905",
+      "code_ref": "tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAIGenerationFailureRetry.test_generation_failure_shows_error_and_allows_retry",
+      "status": "passed"
+    },
+    {
       "case_id": "ELITEA-1907",
       "code_ref": "tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAISuggestedResources.test_generated_draft_includes_suggested_resources_section",
       "status": "passed"
@@ -63,6 +68,16 @@
     {
       "case_id": "ELITEA-1915",
       "code_ref": "tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAIGenerationFailureRetry.test_generation_failure_shows_error_and_allows_retry",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2022",
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_ui_menu",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2024",
+      "code_ref": "tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_view_toggle_table_and_card",
       "status": "passed"
     },
     {
@@ -108,7 +123,7 @@
     {
       "case_id": "ELITEA-1736",
       "code_ref": "tests.ui.skills.test_skill_conversation_interaction.TestInteractWithSkillsFromConversation.test_interact_with_skills_from_conversation",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1737",
@@ -178,7 +193,7 @@
     {
       "case_id": "ELITEA-2001",
       "code_ref": "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIGenerationFailureRetry.test_generation_failure_shows_error_and_allows_retry",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-0498",
