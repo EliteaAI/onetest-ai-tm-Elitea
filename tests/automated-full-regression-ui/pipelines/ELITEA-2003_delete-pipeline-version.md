@@ -4,10 +4,13 @@ title: "Delete Pipeline Version"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_delete_version.test_delete_pipeline_version_falls_back_to_base
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1343
 ---
 
 # ELITEA-2003: Delete Pipeline Version

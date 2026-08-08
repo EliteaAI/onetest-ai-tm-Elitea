@@ -4,10 +4,13 @@ title: "Pipeline — Version Dropdown and Switch"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_create_version.test_create_pipeline_version_save_list_switch_preserves_canvas_state
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1308
 ---
 
 # ELITEA-2063: Pipeline — Version Dropdown and Switch

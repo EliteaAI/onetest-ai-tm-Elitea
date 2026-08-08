@@ -4,10 +4,13 @@ title: "Delete Pipeline"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_ui_menu
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1343
 ---
 
 # ELITEA-2022: Delete Pipeline

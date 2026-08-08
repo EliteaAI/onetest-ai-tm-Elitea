@@ -10998,8 +10998,8 @@
     {
       "id": "ELITEA-2003",
       "title": "Delete Pipeline Version",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11010,7 +11010,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_delete_version.test_delete_pipeline_version_falls_back_to_base"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11201,8 +11203,8 @@
     {
       "id": "ELITEA-2012",
       "title": "Pipeline Import via File",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -11213,7 +11215,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_import_via_file.test_pipeline_import_via_file"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11222,8 +11226,8 @@
     {
       "id": "ELITEA-2013",
       "title": "Pipeline Tags — Add and Filter",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -11234,7 +11238,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_tags_add_and_filter.test_pipeline_tags_add_and_filter"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11421,8 +11427,8 @@
     {
       "id": "ELITEA-2022",
       "title": "Delete Pipeline",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11433,7 +11439,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_ui_menu"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11465,8 +11473,8 @@
     {
       "id": "ELITEA-2024",
       "title": "Pipeline Dashboard — View Toggle (Card vs Table)",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -11477,7 +11485,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_view_toggle_table_and_card"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11486,8 +11496,8 @@
     {
       "id": "ELITEA-2025",
       "title": "Pipeline Dashboard — Pin to Top",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -11498,7 +11508,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_dashboard_pin_to_top.test_pipeline_dashboard_pin_to_top"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12024,8 +12036,8 @@
     {
       "id": "ELITEA-2049",
       "title": "Pipeline — Three-dot Menu Actions",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12036,7 +12048,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_three_dot_menu_actions.test_pipeline_three_dot_menu_actions"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12045,8 +12059,8 @@
     {
       "id": "ELITEA-2050",
       "title": "Pipeline — Export",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12057,7 +12071,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_import_via_file.test_pipeline_import_via_file"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12066,8 +12082,8 @@
     {
       "id": "ELITEA-2051",
       "title": "Pipeline — Fork",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12078,7 +12094,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_fork_to_different_project.TestPipelineForkToDifferentProject.test_pipeline_fork_to_different_project"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12318,8 +12336,8 @@
     {
       "id": "ELITEA-2063",
       "title": "Pipeline — Version Dropdown and Switch",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12330,7 +12348,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_create_version.test_create_pipeline_version_save_list_switch_preserves_canvas_state"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
