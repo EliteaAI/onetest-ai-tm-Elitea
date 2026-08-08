@@ -4,10 +4,13 @@ title: "Pipeline — YAML Editor Edit and Save"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_yaml_flow_sync.test_yaml_edit_persists_after_save_and_reload
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1350
 ---
 
 # ELITEA-2067: Pipeline — YAML Editor Edit and Save

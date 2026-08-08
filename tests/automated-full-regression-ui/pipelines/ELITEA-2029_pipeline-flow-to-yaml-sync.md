@@ -4,10 +4,13 @@ title: "Pipeline — Flow to YAML Sync"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_flow_to_yaml_sync.test_add_node_in_flow_view_syncs_to_yaml
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1350
 ---
 
 # ELITEA-2029: Pipeline — Flow to YAML Sync

@@ -4,10 +4,13 @@ title: "Pipeline with Multiple Branches (Decision Node)"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_decision_node_execution.test_decision_node_routes_execution_to_correct_branch
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1350
 ---
 
 # ELITEA-2016: Pipeline with Multiple Branches (Decision Node)

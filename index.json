@@ -11295,8 +11295,8 @@
     {
       "id": "ELITEA-2016",
       "title": "Pipeline with Multiple Branches (Decision Node)",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11307,7 +11307,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_decision_node_execution.test_decision_node_routes_execution_to_correct_branch"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11542,8 +11544,8 @@
     {
       "id": "ELITEA-2027",
       "title": "Pipeline — Verify Node Configuration via YAML (Automation Approach)",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11554,7 +11556,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_config_verified_via_yaml"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11586,8 +11590,8 @@
     {
       "id": "ELITEA-2029",
       "title": "Pipeline — Flow to YAML Sync",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11598,7 +11602,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_flow_to_yaml_sync.test_add_node_in_flow_view_syncs_to_yaml"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11860,8 +11866,8 @@
     {
       "id": "ELITEA-2041",
       "title": "Pipeline — Trigger Shown on Entry Point Node Only",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -11872,7 +11878,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_entry_point_trigger_types_persist.test_entry_point_trigger_shown_only_on_entry_point_node"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12422,8 +12430,8 @@
     {
       "id": "ELITEA-2067",
       "title": "Pipeline — YAML Editor Edit and Save",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -12434,7 +12442,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_yaml_flow_sync.test_yaml_edit_persists_after_save_and_reload"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

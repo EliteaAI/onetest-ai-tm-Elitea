@@ -4,10 +4,13 @@ title: "Pipeline — Verify Node Configuration via YAML (Automation Approach)"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_config_verified_via_yaml
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1350
 ---
 
 # ELITEA-2027: Pipeline — Verify Node Configuration via YAML (Automation Approach)

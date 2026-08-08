@@ -4,10 +4,13 @@ title: "Pipeline — Trigger Shown on Entry Point Node Only"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_entry_point_trigger_types_persist.test_entry_point_trigger_shown_only_on_entry_point_node
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1350
 ---
 
 # ELITEA-2041: Pipeline — Trigger Shown on Entry Point Node Only
