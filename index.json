@@ -11134,8 +11134,8 @@
     {
       "id": "ELITEA-2009",
       "title": "Configure Code Node",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11146,7 +11146,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_code_node_configuration.test_code_node_configuration_and_persistence"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11708,8 +11710,8 @@
     {
       "id": "ELITEA-2035",
       "title": "Pipeline — State Modifier Node Configuration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -11720,7 +11722,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_state_modifier_node_configuration.test_state_modifier_node_configuration_and_persistence"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11729,8 +11733,8 @@
     {
       "id": "ELITEA-2036",
       "title": "Pipeline — Custom Node Configuration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -11741,7 +11745,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_custom_node_configuration.test_custom_node_configuration"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11773,8 +11779,8 @@
     {
       "id": "ELITEA-2038",
       "title": "Pipeline — Agent Node Integration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11785,7 +11791,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_agent_node_integration.test_agent_node_fresh_attach"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11794,8 +11802,8 @@
     {
       "id": "ELITEA-2039",
       "title": "Pipeline — Printer Node Configuration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -11806,7 +11814,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_printer_node_configuration.test_printer_node_configuration_and_persistence"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11924,8 +11934,8 @@
     {
       "id": "ELITEA-2045",
       "title": "Pipeline — Structured Output (Parse LLM Response into State Variables)",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11936,7 +11946,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_llm_structured_output_state_variables.test_llm_structured_output_parses_into_state_variables"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11945,8 +11957,8 @@
     {
       "id": "ELITEA-2046",
       "title": "Pipeline — Structured Output Toggle Persistence",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -11957,7 +11969,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_structured_output_toggle_persistence.test_pipeline_structured_output_toggle_persistence"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -11966,8 +11980,8 @@
     {
       "id": "ELITEA-2047",
       "title": "Pipeline — Interrupt Before/After Toggles",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -11978,7 +11992,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_interrupt_before_after_toggles.test_interrupt_after_toggle_pauses_and_attempts_resume"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

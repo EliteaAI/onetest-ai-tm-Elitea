@@ -4,10 +4,13 @@ title: "Pipeline — Structured Output (Parse LLM Response into State Variables)
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_llm_structured_output_state_variables.test_llm_structured_output_parses_into_state_variables
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1329
 ---
 
 # ELITEA-2045: Pipeline — Structured Output (Parse LLM Response into State Variables)

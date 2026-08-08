@@ -4,10 +4,13 @@ title: "Pipeline — Custom Node Configuration"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_custom_node_configuration.test_custom_node_configuration
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1329
 ---
 
 # ELITEA-2036: Pipeline — Custom Node Configuration
