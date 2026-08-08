@@ -4,10 +4,13 @@ title: "Build with AI opens GenerateAgentModal"
 priority: high
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id:
+  - tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAIGenerationFailureRetry.test_generation_failure_shows_error_and_allows_retry
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1319
 ---
 
 # ELITEA-1905: Build with AI opens GenerateAgentModal

@@ -4,10 +4,13 @@ title: "Build with AI — Suggested Skills section is shown with up to 5 skills"
 priority: medium
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
+automation_test_id:
+  - tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAISuggestedResources.test_suggested_skills_section_capped_at_5_skills
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1319
 ---
 
 # ELITEA-1910: Build with AI — Suggested Skills section is shown with up to 5 skills
