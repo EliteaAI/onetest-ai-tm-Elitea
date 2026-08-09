@@ -4,10 +4,13 @@ title: "Pipeline — Collapse Left Panel"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_collapse_left_panel.test_collapse_and_expand_left_configuration_panel
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1356
 ---
 
 # ELITEA-2072: Pipeline — Collapse Left Panel

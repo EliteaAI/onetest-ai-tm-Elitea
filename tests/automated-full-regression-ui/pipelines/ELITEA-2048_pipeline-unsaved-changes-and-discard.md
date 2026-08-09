@@ -4,10 +4,13 @@ title: "Pipeline — Unsaved Changes and Discard"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_advanced.TestDiscardChanges.test_discard_reverts_name_change
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1356
 ---
 
 # ELITEA-2048: Pipeline — Unsaved Changes and Discard

@@ -11362,8 +11362,8 @@
     {
       "id": "ELITEA-2019",
       "title": "Pipeline Canvas — Zoom and Pan",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -11374,7 +11374,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_canvas_zoom_and_pan.test_canvas_zoom_pan_and_fit_view"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12023,8 +12025,8 @@
     {
       "id": "ELITEA-2048",
       "title": "Pipeline — Unsaved Changes and Discard",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -12035,7 +12037,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_advanced.TestDiscardChanges.test_discard_reverts_name_change"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12218,8 +12222,8 @@
     {
       "id": "ELITEA-2057",
       "title": "Pipeline — Canvas Control Panel",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12230,7 +12234,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_canvas_zoom_and_pan.test_canvas_control_panel_zoom_out_interactivity_cards_size_and_auto_arrange"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12281,8 +12287,8 @@
     {
       "id": "ELITEA-2060",
       "title": "Pipeline — Node Deletion via Node Menu",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -12293,7 +12299,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_canvas_delete_node.test_delete_middle_node_removes_its_edges_and_persists"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12302,8 +12310,8 @@
     {
       "id": "ELITEA-2061",
       "title": "Pipeline — Node Duplicate via Node Menu",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12314,7 +12322,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_node_auto_increment_naming.test_node_auto_increment_naming_by_type"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12539,8 +12549,8 @@
     {
       "id": "ELITEA-2072",
       "title": "Pipeline — Collapse Left Panel",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12551,7 +12561,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_collapse_left_panel.test_collapse_and_expand_left_configuration_panel"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
