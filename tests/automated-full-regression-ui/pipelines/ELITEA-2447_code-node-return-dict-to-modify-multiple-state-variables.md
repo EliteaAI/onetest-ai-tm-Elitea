@@ -4,10 +4,13 @@ title: "Code Node — Return Dict to Modify Multiple State Variables"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_code_node_multi_var_dict_return.test_code_node_return_dict_multiple_state_vars
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
 ---
 
 # ELITEA-2447: Code Node — Return Dict to Modify Multiple State Variables

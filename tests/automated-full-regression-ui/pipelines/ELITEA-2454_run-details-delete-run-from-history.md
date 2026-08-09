@@ -4,10 +4,13 @@ title: "Run Details — Delete Run from History"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_run_details_delete_run_from_history.test_run_details_delete_run_from_history
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
 ---
 
 # ELITEA-2454: Run Details — Delete Run from History

@@ -4,10 +4,13 @@ title: "Code Node — Input Filtering (Selective State Access)"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_code_node_input_filtering.test_code_node_input_filtering_selective_state_access
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
 ---
 
 # ELITEA-2449: Code Node — Input Filtering (Selective State Access)

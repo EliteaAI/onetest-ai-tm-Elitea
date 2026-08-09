@@ -11182,8 +11182,8 @@
     {
       "id": "ELITEA-2011",
       "title": "Pipeline Run History — View Executions",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11194,7 +11194,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_run_history_view_executions.TestPipelineRunHistoryViewExecutions.test_run_history_panel_lists_and_shows_execution_details"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12535,8 +12537,8 @@
     {
       "id": "ELITEA-2070",
       "title": "Pipeline — Run History Panel",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -12547,7 +12549,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_run_history_view_executions.TestPipelineRunHistoryPanelClose.test_run_history_panel_closes_and_restores_chat"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12600,8 +12604,8 @@
     {
       "id": "ELITEA-2443",
       "title": "Subgraph State Sharing — Common State Variables",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12612,7 +12616,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_subgraph_state_sharing.test_subgraph_state_sharing_common_vars"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12621,8 +12627,8 @@
     {
       "id": "ELITEA-2444",
       "title": "Subgraph State Sharing — Non-Common State Isolation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -12633,7 +12639,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_subgraph_state_isolation.test_subgraph_state_sharing_non_common_state_isolation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12642,8 +12650,8 @@
     {
       "id": "ELITEA-2445",
       "title": "Subgraph Execution — Verify State Flow in Run Details",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12654,7 +12662,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_subgraph_state_sharing.test_subgraph_state_sharing_node_c_state_propagation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12663,8 +12673,8 @@
     {
       "id": "ELITEA-2446",
       "title": "Code Node — Read elitea_state Variables",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12675,7 +12685,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_code_node_reads_state_variable.test_code_node_reads_elitea_state_variable"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12684,8 +12696,8 @@
     {
       "id": "ELITEA-2447",
       "title": "Code Node — Return Dict to Modify Multiple State Variables",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12696,7 +12708,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_code_node_multi_var_dict_return.test_code_node_return_dict_multiple_state_vars"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12705,8 +12719,8 @@
     {
       "id": "ELITEA-2448",
       "title": "Code Node — elitea_client Access",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12717,7 +12731,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_code_node_elitea_client_user_info.test_code_node_elitea_client_user_info"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12726,8 +12742,8 @@
     {
       "id": "ELITEA-2449",
       "title": "Code Node — Input Filtering (Selective State Access)",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12738,7 +12754,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_code_node_input_filtering.test_code_node_input_filtering_selective_state_access"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12770,8 +12788,8 @@
     {
       "id": "ELITEA-2451",
       "title": "Run Details — Timeline Steps Display",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12782,7 +12800,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_run_details_timeline_steps.test_run_details_timeline_steps_display"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12838,8 +12858,8 @@
     {
       "id": "ELITEA-2454",
       "title": "Run Details — Delete Run from History",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -12850,7 +12870,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_run_details_delete_run_from_history.test_run_details_delete_run_from_history"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

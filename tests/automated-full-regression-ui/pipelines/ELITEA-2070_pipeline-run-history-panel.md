@@ -4,10 +4,13 @@ title: "Pipeline — Run History Panel"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_run_history_view_executions.TestPipelineRunHistoryPanelClose.test_run_history_panel_closes_and_restores_chat
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
 ---
 
 # ELITEA-2070: Pipeline — Run History Panel

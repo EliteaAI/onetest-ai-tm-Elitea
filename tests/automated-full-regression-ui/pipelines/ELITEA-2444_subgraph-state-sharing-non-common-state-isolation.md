@@ -4,10 +4,13 @@ title: "Subgraph State Sharing — Non-Common State Isolation"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_subgraph_state_isolation.test_subgraph_state_sharing_non_common_state_isolation
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
 ---
 
 # ELITEA-2444: Subgraph State Sharing — Non-Common State Isolation

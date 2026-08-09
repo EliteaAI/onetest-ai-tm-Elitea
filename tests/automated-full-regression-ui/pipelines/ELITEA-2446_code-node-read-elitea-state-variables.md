@@ -4,10 +4,13 @@ title: "Code Node — Read elitea_state Variables"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_code_node_reads_state_variable.test_code_node_reads_elitea_state_variable
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
 ---
 
 # ELITEA-2446: Code Node — Read elitea_state Variables
