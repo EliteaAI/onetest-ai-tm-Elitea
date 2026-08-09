@@ -4,10 +4,13 @@ title: "Pipeline — Attach Files in Chat"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_attach_files_in_chat.test_attach_files_in_chat
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1364
 ---
 
 # ELITEA-2059: Pipeline — Attach Files in Chat

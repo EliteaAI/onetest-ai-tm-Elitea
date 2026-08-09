@@ -4,10 +4,13 @@ title: "Pipeline — Welcome Message"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_welcome_message_shown_before_first_input.test_pipeline_welcome_message_shown_before_first_input
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1364
 ---
 
 # ELITEA-2052: Pipeline — Welcome Message

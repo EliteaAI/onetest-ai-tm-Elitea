@@ -4,10 +4,13 @@ title: "Pipeline — Chat Starters"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_chat_starters_visible_and_clickable.test_pipeline_chat_starters_visible_and_clickable
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1364
 ---
 
 # ELITEA-2053: Pipeline — Chat Starters

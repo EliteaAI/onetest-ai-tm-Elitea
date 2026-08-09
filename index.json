@@ -11318,8 +11318,8 @@
     {
       "id": "ELITEA-2017",
       "title": "Pipeline Execution — Long Response Streaming",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -11330,7 +11330,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipelineStreaming.test_long_response_streams_progressively"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12117,8 +12119,8 @@
     {
       "id": "ELITEA-2052",
       "title": "Pipeline — Welcome Message",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12129,7 +12131,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_welcome_message_shown_before_first_input.test_pipeline_welcome_message_shown_before_first_input"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12138,8 +12142,8 @@
     {
       "id": "ELITEA-2053",
       "title": "Pipeline — Chat Starters",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12150,7 +12154,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_chat_starters_visible_and_clickable.test_pipeline_chat_starters_visible_and_clickable"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12245,8 +12251,8 @@
     {
       "id": "ELITEA-2058",
       "title": "Pipeline — LLM Model Selection in Chat Panel",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12257,7 +12263,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipelineStreaming.test_long_response_streams_progressively"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12266,8 +12274,8 @@
     {
       "id": "ELITEA-2059",
       "title": "Pipeline — Attach Files in Chat",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12278,7 +12286,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_attach_files_in_chat.test_attach_files_in_chat"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -12333,8 +12343,8 @@
     {
       "id": "ELITEA-2062",
       "title": "Pipeline — Multiple Tabs",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -12345,7 +12355,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_multiple_browser_tabs.test_pipeline_multiple_browser_tabs"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
