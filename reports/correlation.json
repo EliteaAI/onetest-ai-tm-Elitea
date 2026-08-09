@@ -81,6 +81,11 @@
       "status": "passed"
     },
     {
+      "case_id": "ELITEA-2048",
+      "code_ref": "tests.ui.pipelines.test_pipeline_advanced.TestDiscardChanges.test_discard_reverts_name_change",
+      "status": "passed"
+    },
+    {
       "case_id": "ELITEA-1950",
       "code_ref": "tests.ui.agents.test_mcp_attach_via_tools_section.TestMcpAttachViaToolsSection.test_mcp_attach_via_tools_section",
       "status": "passed"
@@ -123,7 +128,7 @@
     {
       "case_id": "ELITEA-1736",
       "code_ref": "tests.ui.skills.test_skill_conversation_interaction.TestInteractWithSkillsFromConversation.test_interact_with_skills_from_conversation",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1737",
@@ -193,7 +198,7 @@
     {
       "case_id": "ELITEA-2001",
       "code_ref": "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIGenerationFailureRetry.test_generation_failure_shows_error_and_allows_retry",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0498",
