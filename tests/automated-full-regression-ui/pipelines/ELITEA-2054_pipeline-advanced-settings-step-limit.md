@@ -4,10 +4,13 @@ title: "Pipeline — Advanced Settings (Step Limit)"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_create_full_details_persist.test_create_pipeline_full_details_persist_after_reload
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1107
 ---
 
 # ELITEA-2054: Pipeline — Advanced Settings (Step Limit)
