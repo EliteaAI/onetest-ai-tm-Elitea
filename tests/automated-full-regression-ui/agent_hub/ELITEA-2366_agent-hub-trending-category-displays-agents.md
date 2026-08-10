@@ -4,10 +4,13 @@ title: "Agent Hub — Trending category displays agents"
 priority: medium
 type: functional
 module: agent-hub
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
+automation_test_id:
+  - tests.ui.agent-hub.test_agent_hub_trending_category.TestAgentHubTrendingCategory.test_agent_hub_trending_category_displays_agents
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1429
 ---
 
 # ELITEA-2366: Agent Hub — Trending category displays agents

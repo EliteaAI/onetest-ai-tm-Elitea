@@ -9682,8 +9682,8 @@
     {
       "id": "ELITEA-2366",
       "title": "Agent Hub — Trending category displays agents",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9694,7 +9694,9 @@
         "feat:agent-hub"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agent-hub.test_agent_hub_trending_category.TestAgentHubTrendingCategory.test_agent_hub_trending_category_displays_agents"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9703,8 +9705,8 @@
     {
       "id": "ELITEA-2367",
       "title": "Agent Hub — empty state when no agents match filter or search",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -9715,7 +9717,9 @@
         "feat:agent-hub"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agent_hub.test_empty_state.TestCatalogEmptyState.test_empty_state_when_search_matches_no_agents"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

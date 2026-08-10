@@ -4,10 +4,13 @@ title: "Agent Hub — empty state when no agents match filter or search"
 priority: high
 type: functional
 module: agent-hub
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
+automation_test_id:
+  - tests.ui.agent_hub.test_empty_state.TestCatalogEmptyState.test_empty_state_when_search_matches_no_agents
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1429
 ---
 
 # ELITEA-2367: Agent Hub — empty state when no agents match filter or search
