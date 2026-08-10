@@ -9527,8 +9527,8 @@
     {
       "id": "ELITEA-2359",
       "title": "Agent Hub — copy link from agent detail modal navigates to agent",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9539,7 +9539,9 @@
         "feat:agent-hub"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_hub_copy_link_from_modal.TestAgentHubCopyLinkFromModal.test_copy_link_from_modal_navigates_to_agent"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

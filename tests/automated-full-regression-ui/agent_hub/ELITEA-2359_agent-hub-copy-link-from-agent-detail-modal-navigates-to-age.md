@@ -4,10 +4,13 @@ title: "Agent Hub — copy link from agent detail modal navigates to agent"
 priority: medium
 type: functional
 module: agent-hub
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
+automation_test_id:
+  - tests.ui.agents.test_agent_hub_copy_link_from_modal.TestAgentHubCopyLinkFromModal.test_copy_link_from_modal_navigates_to_agent
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1421
 ---
 
 # ELITEA-2359: Agent Hub — copy link from agent detail modal navigates to agent
