@@ -4,10 +4,13 @@ title: "Agent Hub — filter agents by multiple categories simultaneously"
 priority: high
 type: functional
 module: agent-hub
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
+automation_test_id:
+  - tests.ui.agents.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1439
 ---
 
 # ELITEA-2353: Agent Hub — filter agents by multiple categories simultaneously
