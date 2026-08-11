@@ -123,7 +123,7 @@
     {
       "case_id": "ELITEA-1735",
       "code_ref": "tests.ui.skills.test_skill_agent_interaction.TestInteractWithSkillsFromAgent.test_interact_with_skills_from_agent",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1736",
@@ -148,7 +148,7 @@
     {
       "case_id": "ELITEA-1740",
       "code_ref": "tests.ui.skills.test_skill_tag_filter.TestSkillTagFilter.test_filter_skills_by_tag",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1789",
@@ -288,17 +288,17 @@
     {
       "case_id": "ELITEA-1180",
       "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1181",
       "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1183",
       "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0001",
