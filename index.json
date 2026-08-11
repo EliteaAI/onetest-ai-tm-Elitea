@@ -9780,8 +9780,8 @@
     {
       "id": "ELITEA-2370",
       "title": "Catalog — default view opens on Agents tab and user must click Skills to navigate to Skills",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -9792,7 +9792,9 @@
         "feat:agent-hub"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agent_hub.test_catalog_default_agents_tab.TestCatalogDefaultAgentsTab.test_catalog_default_agents_tab_and_skills_navigation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

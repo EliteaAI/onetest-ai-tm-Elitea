@@ -4,10 +4,13 @@ title: "Catalog — default view opens on Agents tab and user must click Skills 
 priority: high
 type: functional
 module: agent-hub
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
+automation_test_id:
+  - tests.ui.agent_hub.test_catalog_default_agents_tab.TestCatalogDefaultAgentsTab.test_catalog_default_agents_tab_and_skills_navigation
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1437
 ---
 
 # ELITEA-2370: Catalog — default view opens on Agents tab and user must click Skills to navigate to Skills
