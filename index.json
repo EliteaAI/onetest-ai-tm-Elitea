@@ -9573,8 +9573,8 @@
     {
       "id": "ELITEA-2361",
       "title": "Agent Hub — started conversation has agent added as participant",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9585,7 +9585,9 @@
         "feat:agent-hub"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agent_hub.test_agent_hub_started_conversation_has_agent_as_participant.TestAgentHubStartedConversationHasAgentAsParticipant.test_started_conversation_has_agent_as_participant"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
