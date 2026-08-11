@@ -4,10 +4,13 @@ title: "Agent Hub — start conversation creates new chat and redirects to Chat 
 priority: medium
 type: functional
 module: agent-hub
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
+automation_test_id:
+  - tests.ui.agent_hub.test_agent_hub_start_conversation_creates_new_chat.TestAgentHubStartConversationCreatesNewChat.test_agent_hub_start_conversation_creates_new_chat
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1433
 ---
 
 # ELITEA-2360: Agent Hub — start conversation creates new chat and redirects to Chat page

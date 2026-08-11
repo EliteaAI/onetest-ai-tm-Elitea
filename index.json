@@ -9550,8 +9550,8 @@
     {
       "id": "ELITEA-2360",
       "title": "Agent Hub — start conversation creates new chat and redirects to Chat page",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9562,7 +9562,9 @@
         "feat:agent-hub"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agent_hub.test_agent_hub_start_conversation_creates_new_chat.TestAgentHubStartConversationCreatesNewChat.test_agent_hub_start_conversation_creates_new_chat"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
