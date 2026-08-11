@@ -4,10 +4,13 @@ title: "Agent Hub — unlike an agent from the list view"
 priority: medium
 type: functional
 module: agent-hub
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
+automation_test_id:
+  - tests.ui.agents.test_agent_hub_unlike_agent_list_view.TestAgentHubUnlikeAgentListView.test_agent_hub_unlike_agent_from_list_view
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1438
 ---
 
 # ELITEA-2355: Agent Hub — unlike an agent from the list view
