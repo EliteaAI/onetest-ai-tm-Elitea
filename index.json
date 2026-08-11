@@ -9596,8 +9596,8 @@
     {
       "id": "ELITEA-2362",
       "title": "Agent Hub — agent chip visible in message input with version and settings",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9608,7 +9608,9 @@
         "feat:agent-hub"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agent_hub.test_agent_hub_agent_chip_visible_in_message_input.TestAgentHubAgentChipVisibleInMessageInput.test_agent_chip_visible_in_message_input"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
