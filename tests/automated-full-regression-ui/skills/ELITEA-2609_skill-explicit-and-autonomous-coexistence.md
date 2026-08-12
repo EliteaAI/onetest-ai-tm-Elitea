@@ -4,10 +4,12 @@ title: "Skill Explicit and Autonomous Invocation Coexistence"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills, feat:autonomous-invocation, feat:backward-compatibility]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_agent_interaction.TestInteractWithSkillsFromAgent.test_skill_explicit_and_autonomous_invocation_coexistence]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1482
 ---
 
 # ELITEA-2609: Skill Explicit and Autonomous Invocation Coexistence

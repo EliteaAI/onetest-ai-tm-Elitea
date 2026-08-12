@@ -4,10 +4,12 @@ title: "Edit with AI — Skill Permissions"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills, feat:edit-with-ai, feat:permissions]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_edit_with_ai_role_visibility.TestSkillEditWithAIRoleVisibility.test_edit_with_ai_button_visible_for_admin_role, tests.ui.skills.test_skill_edit_with_ai_role_visibility.TestSkillEditWithAICharacterLimit.test_edit_with_ai_summary_instructions_truncates_at_character_limit]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1482
 ---
 
 # ELITEA-2613: Edit with AI — Skill Permissions

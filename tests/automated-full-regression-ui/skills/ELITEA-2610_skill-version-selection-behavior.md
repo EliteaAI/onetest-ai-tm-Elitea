@@ -4,10 +4,12 @@ title: "Skill Version Selection Behavior"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills, feat:versioning, feat:autonomous-invocation]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_agent_version_selection_behavior.TestSkillAgentVersionSelectionBehavior.test_skill_version_selection_drives_agent_chat_behavior]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1482
 ---
 
 # ELITEA-2610: Skill Version Selection Behavior

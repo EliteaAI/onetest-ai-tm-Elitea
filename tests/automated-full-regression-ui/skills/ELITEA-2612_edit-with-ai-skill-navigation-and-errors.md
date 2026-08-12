@@ -4,10 +4,12 @@ title: "Edit with AI — Skill Navigation and Error Handling"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills, feat:edit-with-ai]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_edit_with_ai_navigation_error_handling.TestSkillEditWithAINavigationErrorHandling.test_edit_with_ai_navigation_and_error_handling]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1482
 ---
 
 # ELITEA-2612: Edit with AI — Skill Navigation and Error Handling

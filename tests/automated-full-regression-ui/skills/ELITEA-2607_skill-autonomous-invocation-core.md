@@ -4,10 +4,12 @@ title: "Skill Autonomous Invocation — Core Functionality"
 priority: high
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills, feat:autonomous-invocation]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_agent_interaction.TestInteractWithSkillsFromAgent.test_skill_autonomous_invocation_thought_process_and_security]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1482
 ---
 
 # ELITEA-2607: Skill Autonomous Invocation — Core Functionality
