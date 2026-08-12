@@ -148,7 +148,7 @@
     {
       "case_id": "ELITEA-1740",
       "code_ref": "tests.ui.skills.test_skill_tag_filter.TestSkillTagFilter.test_filter_skills_by_tag",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1789",
