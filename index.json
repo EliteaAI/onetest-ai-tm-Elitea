@@ -14936,8 +14936,8 @@
     {
       "id": "ELITEA-2439",
       "title": "Copy Link copies a valid URL pointing to the correct Skill and version",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14948,7 +14948,9 @@
         "feat:skills"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_copy_link.TestSkillCopyLink.test_copy_link_copies_valid_url_to_correct_skill_and_version"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14980,8 +14982,8 @@
     {
       "id": "ELITEA-2441",
       "title": "Test panel does not create a new Chat conversation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14992,7 +14994,9 @@
         "feat:skills"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_test_panel_no_new_conversation.TestSkillTestPanelNoNewConversation.test_test_panel_does_not_create_new_chat_conversation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15001,8 +15005,8 @@
     {
       "id": "ELITEA-2442",
       "title": "Read aloud and Copy to clipboard are enabled on test panel responses",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15013,7 +15017,9 @@
         "feat:skills"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_test_panel_response_actions.TestSkillTestPanelResponseActions.test_test_panel_response_actions_enabled"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15182,8 +15188,8 @@
     {
       "id": "ELITEA-2602",
       "title": "Fork Skill End-to-End",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -15195,7 +15201,9 @@
         "feat:fork"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_fork_end_to_end.TestSkillForkEndToEnd.test_fork_skill_end_to_end"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15204,8 +15212,8 @@
     {
       "id": "ELITEA-2603",
       "title": "Fork Non-Base Skill Version",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15218,7 +15226,9 @@
         "feat:versioning"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_fork_non_base_version.TestSkillForkNonBaseVersion.test_fork_non_base_skill_version"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15227,8 +15237,8 @@
     {
       "id": "ELITEA-2604",
       "title": "Skill Custom Icon Upload and Validation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -15240,7 +15250,9 @@
         "feat:icon"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_custom_icon_upload_and_validation.TestSkillCustomIconUploadAndValidation.test_skill_custom_icon_upload_and_validation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15249,8 +15261,8 @@
     {
       "id": "ELITEA-2605",
       "title": "Skill Custom Icon Visibility Across UI",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15262,7 +15274,9 @@
         "feat:icon"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_custom_icon_visibility_across_ui.TestSkillCustomIconVisibilityAcrossUI.test_skill_custom_icon_visible_across_ui"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15271,8 +15285,8 @@
     {
       "id": "ELITEA-2606",
       "title": "Skill Custom Icon Persistence on Save As Version",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "low",
       "size": "",
@@ -15285,7 +15299,9 @@
         "feat:versioning"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_icon_persists_on_save_as_version.TestSkillIconPersistsOnSaveAsVersion.test_skill_custom_icon_persists_on_save_as_version"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41275,7 +41291,7 @@
       "id": "ELITEA-2602",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: LLM Vision Integration & Content Extraction",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41292,7 +41308,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_fork_end_to_end.TestSkillForkEndToEnd.test_fork_skill_end_to_end"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41302,7 +41320,7 @@
       "id": "ELITEA-2603",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Image Description Caching (MD5)",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41319,7 +41337,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_fork_non_base_version.TestSkillForkNonBaseVersion.test_fork_non_base_skill_version"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41329,7 +41349,7 @@
       "id": "ELITEA-2604",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Response Structure with Image Content",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41346,7 +41366,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_custom_icon_upload_and_validation.TestSkillCustomIconUploadAndValidation.test_skill_custom_icon_upload_and_validation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41356,7 +41378,7 @@
       "id": "ELITEA-2605",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Agent Integration with Image Content",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41373,7 +41395,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_custom_icon_visibility_across_ui.TestSkillCustomIconVisibilityAcrossUI.test_skill_custom_icon_visible_across_ui"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41383,7 +41407,7 @@
       "id": "ELITEA-2606",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Backward Compatibility (process_images=false)",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41400,7 +41424,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_icon_persists_on_save_as_version.TestSkillIconPersistsOnSaveAsVersion.test_skill_custom_icon_persists_on_save_as_version"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
