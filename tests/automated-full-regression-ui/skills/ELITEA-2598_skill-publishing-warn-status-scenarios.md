@@ -4,10 +4,12 @@ title: "Skill Publishing — WARN Status Allows Publishing with Warnings"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills, feat:publishing, feat:validation]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_publish_warn_status_allows_publishing.TestSkillPublishWarnStatusAllowsPublishing.test_warn_status_does_not_block_publish]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1472
 ---
 
 # ELITEA-2598: Skill Publishing — WARN Status Allows Publishing with Warnings

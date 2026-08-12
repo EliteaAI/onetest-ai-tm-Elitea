@@ -4,10 +4,12 @@ title: "Published Agent Version Cannot Be Modified"
 priority: high
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills, feat:agents, feat:publishing, feat:immutability]
 requirements: []
+automation_test_id: [tests.ui.skills.test_published_agent_version_cannot_be_modified.TestPublishedAgentVersionCannotBeModified.test_published_agent_version_cannot_be_modified]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1472
 ---
 
 # ELITEA-2614: Published Agent Version Cannot Be Modified

@@ -4,10 +4,12 @@ title: "Skill Publishing — Token Invalidation and TTL Expiration"
 priority: high
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills, feat:publishing, feat:security]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_publish_token_invalidation_and_ttl.TestSkillPublishTokenInvalidationAndTTL.test_publish_token_invalidated_by_modification, tests.ui.skills.test_skill_publish_token_invalidation_and_ttl.TestSkillPublishTokenInvalidationAndTTL.test_publish_token_expires_after_ttl]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1472
 ---
 
 # ELITEA-2597: Skill Publishing — Token Invalidation and TTL Expiration

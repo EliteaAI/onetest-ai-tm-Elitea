@@ -4,10 +4,12 @@ title: "Skill Publishing Wizard — Happy Path"
 priority: high
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills, feat:publishing]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_publish_wizard_happy_path.TestSkillPublishWizardHappyPath.test_publish_skill_happy_path]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1472
 ---
 
 # ELITEA-2595: Skill Publishing Wizard — Happy Path
