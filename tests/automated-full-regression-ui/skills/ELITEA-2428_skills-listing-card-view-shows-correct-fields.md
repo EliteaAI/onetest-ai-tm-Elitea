@@ -4,10 +4,12 @@ title: "Skills listing — card view shows correct fields"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_card_view_fields.TestSkillCardViewFields.test_skill_card_shows_icon_name_description_and_tags]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1450
 ---
 
 # ELITEA-2428: Skills listing — card view shows correct fields

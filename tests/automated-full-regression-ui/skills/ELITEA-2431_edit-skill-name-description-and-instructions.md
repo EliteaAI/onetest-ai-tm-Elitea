@@ -4,10 +4,12 @@ title: "Edit Skill name, description, and instructions"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_management.TestEditSkill.test_edit_name_description_instructions_persist]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1449
 ---
 
 # ELITEA-2431: Edit Skill name, description, and instructions

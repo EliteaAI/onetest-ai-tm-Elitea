@@ -4,10 +4,12 @@ title: "Skill instructions — Markdown edit and preview toggle"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_management.TestSkillInstructionsMarkdownTogglePersistence.test_markdown_edit_preview_toggle_and_persist]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1449
 ---
 
 # ELITEA-2432: Skill instructions — Markdown edit and preview toggle

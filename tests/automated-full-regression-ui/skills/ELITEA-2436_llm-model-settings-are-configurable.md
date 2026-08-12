@@ -4,10 +4,12 @@ title: "LLM model settings are configurable"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_test_panel_llm_model_settings.TestSkillTestPanelLlmModelSettings.test_llm_model_settings_configurable]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1449
 ---
 
 # ELITEA-2436: LLM model settings are configurable

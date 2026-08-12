@@ -4,10 +4,12 @@ title: "Add, save, and remove a tag on a Skill"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_tag_add_remove.TestSkillTagAddRemove.test_add_save_and_remove_skill_tag]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1449
 ---
 
 # ELITEA-2433: Add, save, and remove a tag on a Skill

@@ -4,10 +4,12 @@ title: "Skills editor back button returns to Skills list"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_back_navigation.test_back_button_from_skill_editor_returns_to_skills_list]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1449
 ---
 
 # ELITEA-2429: Skills editor back button returns to Skills list
