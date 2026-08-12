@@ -4,10 +4,12 @@ title: "Copy Link copies a valid URL pointing to the correct Skill and version"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_copy_link.TestSkillCopyLink.test_copy_link_copies_valid_url_to_correct_skill_and_version]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1462
 ---
 
 # ELITEA-2439: Copy Link copies a valid URL pointing to the correct Skill and version

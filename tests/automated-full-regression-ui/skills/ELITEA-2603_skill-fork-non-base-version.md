@@ -4,10 +4,12 @@ title: "Fork Non-Base Skill Version"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills, feat:fork, feat:versioning]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_fork_non_base_version.TestSkillForkNonBaseVersion.test_fork_non_base_skill_version]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1462
 ---
 
 # ELITEA-2603: Fork Non-Base Skill Version
