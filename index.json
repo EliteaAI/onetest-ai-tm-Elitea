@@ -15325,8 +15325,8 @@
     {
       "id": "ELITEA-2607",
       "title": "Skill Autonomous Invocation — Core Functionality",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -15338,7 +15338,9 @@
         "feat:autonomous-invocation"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_agent_interaction.TestInteractWithSkillsFromAgent.test_skill_autonomous_invocation_thought_process_and_security"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15347,8 +15349,8 @@
     {
       "id": "ELITEA-2608",
       "title": "Subagent Skills Isolation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15361,7 +15363,9 @@
         "feat:autonomous-invocation"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_subagent_skills_isolation.TestSubagentSkillsIsolation.test_subagent_uses_only_its_own_attached_skill"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15370,8 +15374,8 @@
     {
       "id": "ELITEA-2609",
       "title": "Skill Explicit and Autonomous Invocation Coexistence",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15384,7 +15388,9 @@
         "feat:backward-compatibility"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_agent_interaction.TestInteractWithSkillsFromAgent.test_skill_explicit_and_autonomous_invocation_coexistence"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15393,8 +15399,8 @@
     {
       "id": "ELITEA-2610",
       "title": "Skill Version Selection Behavior",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15407,7 +15413,9 @@
         "feat:autonomous-invocation"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_agent_version_selection_behavior.TestSkillAgentVersionSelectionBehavior.test_skill_version_selection_drives_agent_chat_behavior"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15416,8 +15424,8 @@
     {
       "id": "ELITEA-2611",
       "title": "Edit with AI — Skill Happy Path",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -15429,7 +15437,9 @@
         "feat:edit-with-ai"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_edit_with_ai_happy_path.TestSkillEditWithAIHappyPath.test_edit_with_ai_happy_path"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15438,8 +15448,8 @@
     {
       "id": "ELITEA-2612",
       "title": "Edit with AI — Skill Navigation and Error Handling",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15451,7 +15461,9 @@
         "feat:edit-with-ai"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_edit_with_ai_navigation_error_handling.TestSkillEditWithAINavigationErrorHandling.test_edit_with_ai_navigation_and_error_handling"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15460,8 +15472,8 @@
     {
       "id": "ELITEA-2613",
       "title": "Edit with AI — Skill Permissions",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15474,7 +15486,10 @@
         "feat:permissions"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_edit_with_ai_role_visibility.TestSkillEditWithAIRoleVisibility.test_edit_with_ai_button_visible_for_admin_role",
+        "tests.ui.skills.test_skill_edit_with_ai_role_visibility.TestSkillEditWithAICharacterLimit.test_edit_with_ai_summary_instructions_truncates_at_character_limit"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41468,7 +41483,7 @@
       "id": "ELITEA-2607",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Error Handling (URLs, Timeouts, Corruption)",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41485,7 +41500,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_agent_interaction.TestInteractWithSkillsFromAgent.test_skill_autonomous_invocation_thought_process_and_security"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41495,7 +41512,7 @@
       "id": "ELITEA-2608",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Supported Image Formats (JPEG, PNG, GIF, WebP)",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41512,7 +41529,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_subagent_skills_isolation.TestSubagentSkillsIsolation.test_subagent_uses_only_its_own_attached_skill"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41522,7 +41541,7 @@
       "id": "ELITEA-2609",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Edge Cases (Large, Many, Corrupt, Dedup)",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41539,7 +41558,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_agent_interaction.TestInteractWithSkillsFromAgent.test_skill_explicit_and_autonomous_invocation_coexistence"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41549,7 +41570,7 @@
       "id": "ELITEA-2610",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Configuration Flexibility",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41566,7 +41587,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_agent_version_selection_behavior.TestSkillAgentVersionSelectionBehavior.test_skill_version_selection_drives_agent_chat_behavior"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41576,7 +41599,7 @@
       "id": "ELITEA-2611",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Performance Baseline",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -41593,7 +41616,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_edit_with_ai_happy_path.TestSkillEditWithAIHappyPath.test_edit_with_ai_happy_path"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41603,7 +41628,7 @@
       "id": "ELITEA-2612",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Dedicated get_image_by_url Tool (Alternative)",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -41620,7 +41645,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_edit_with_ai_navigation_error_handling.TestSkillEditWithAINavigationErrorHandling.test_edit_with_ai_navigation_and_error_handling"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41630,7 +41657,7 @@
       "id": "ELITEA-2613",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Monitoring and Logging",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -41647,7 +41674,10 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_edit_with_ai_role_visibility.TestSkillEditWithAIRoleVisibility.test_edit_with_ai_button_visible_for_admin_role",
+        "tests.ui.skills.test_skill_edit_with_ai_role_visibility.TestSkillEditWithAICharacterLimit.test_edit_with_ai_summary_instructions_truncates_at_character_limit"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
