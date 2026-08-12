@@ -15028,8 +15028,8 @@
     {
       "id": "ELITEA-2595",
       "title": "Skill Publishing Wizard — Happy Path",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -15041,7 +15041,9 @@
         "feat:publishing"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_publish_wizard_happy_path.TestSkillPublishWizardHappyPath.test_publish_skill_happy_path"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15050,8 +15052,8 @@
     {
       "id": "ELITEA-2596",
       "title": "Skill Publishing — AI Validation Blockers",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -15064,7 +15066,9 @@
         "feat:validation"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_publish_ai_validation_blockers.TestSkillPublishAiValidationBlockers.test_short_content_placeholder_and_secrets_block_publish"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15073,8 +15077,8 @@
     {
       "id": "ELITEA-2597",
       "title": "Skill Publishing — Token Invalidation and TTL Expiration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -15087,7 +15091,10 @@
         "feat:security"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_publish_token_invalidation_and_ttl.TestSkillPublishTokenInvalidationAndTTL.test_publish_token_invalidated_by_modification",
+        "tests.ui.skills.test_skill_publish_token_invalidation_and_ttl.TestSkillPublishTokenInvalidationAndTTL.test_publish_token_expires_after_ttl"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15096,8 +15103,8 @@
     {
       "id": "ELITEA-2598",
       "title": "Skill Publishing — WARN Status Allows Publishing with Warnings",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15110,7 +15117,9 @@
         "feat:validation"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_publish_warn_status_allows_publishing.TestSkillPublishWarnStatusAllowsPublishing.test_warn_status_does_not_block_publish"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15119,8 +15128,8 @@
     {
       "id": "ELITEA-2599",
       "title": "Skill Unpublish and Republish Lifecycle",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15132,7 +15141,9 @@
         "feat:publishing"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_unpublish_republish_lifecycle.TestSkillUnpublishRepublishLifecycle.test_unpublish_republish_lifecycle"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15141,8 +15152,8 @@
     {
       "id": "ELITEA-2600",
       "title": "Agent with Skills Publishing Flow",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -15155,7 +15166,9 @@
         "feat:publishing"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_agent_with_skills_publishing_flow.TestAgentWithSkillsPublishingFlow.test_agent_with_skills_publishing_flow"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15164,8 +15177,8 @@
     {
       "id": "ELITEA-2601",
       "title": "Agent with Skills — Validation Attribution and Token Invalidation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -15179,7 +15192,9 @@
         "feat:validation"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_agent_skills_validation_attribution_and_token_invalidation.TestAgentSkillsValidationAttributionAndTokenInvalidation.test_agent_skills_validation_attribution_and_token_invalidation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15468,8 +15483,8 @@
     {
       "id": "ELITEA-2614",
       "title": "Published Agent Version Cannot Be Modified",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -15483,7 +15498,9 @@
         "feat:immutability"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_published_agent_version_cannot_be_modified.TestPublishedAgentVersionCannotBeModified.test_published_agent_version_cannot_be_modified"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41098,7 +41115,7 @@
       "id": "ELITEA-2595",
       "title": "[EliteaAI/elitea_issues#5844] ADO Boards: process_images=false (Unchanged Behavior)",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41116,7 +41133,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5844"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_publish_wizard_happy_path.TestSkillPublishWizardHappyPath.test_publish_skill_happy_path"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41126,7 +41145,7 @@
       "id": "ELITEA-2596",
       "title": "[EliteaAI/elitea_issues#5844] ADO Toolkit: Session Boundary (Cache Persistence)",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41144,7 +41163,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5844"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_publish_ai_validation_blockers.TestSkillPublishAiValidationBlockers.test_short_content_placeholder_and_secrets_block_publish"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41154,7 +41175,7 @@
       "id": "ELITEA-2597",
       "title": "[EliteaAI/elitea_issues#5844] ADO Toolkit: Log Verification (LLM Call Count)",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -41172,7 +41193,10 @@
       "requirements": [
         "EliteaAI/elitea_issues#5844"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_publish_token_invalidation_and_ttl.TestSkillPublishTokenInvalidationAndTTL.test_publish_token_invalidated_by_modification",
+        "tests.ui.skills.test_skill_publish_token_invalidation_and_ttl.TestSkillPublishTokenInvalidationAndTTL.test_publish_token_expires_after_ttl"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41182,7 +41206,7 @@
       "id": "ELITEA-2598",
       "title": "[EliteaAI/elitea_issues#5844] ADO Toolkit: Latency Verification (Performance Proof)",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -41200,7 +41224,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5844"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_publish_warn_status_allows_publishing.TestSkillPublishWarnStatusAllowsPublishing.test_warn_status_does_not_block_publish"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41210,7 +41236,7 @@
       "id": "ELITEA-2599",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: process_images Parameter Configuration",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41227,7 +41253,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_unpublish_republish_lifecycle.TestSkillUnpublishRepublishLifecycle.test_unpublish_republish_lifecycle"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41237,7 +41265,7 @@
       "id": "ELITEA-2600",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Image Detection (HTML tags & Attachments)",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41254,7 +41282,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_agent_with_skills_publishing_flow.TestAgentWithSkillsPublishingFlow.test_agent_with_skills_publishing_flow"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41264,7 +41294,7 @@
       "id": "ELITEA-2601",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Image Download & Binary Validation",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41281,7 +41311,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_agent_skills_validation_attribution_and_token_invalidation.TestAgentSkillsValidationAttributionAndTokenInvalidation.test_agent_skills_validation_attribution_and_token_invalidation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41625,7 +41657,7 @@
       "id": "ELITEA-2614",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Memory & Stability (No Leaks, Consistency)",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -41642,7 +41674,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_published_agent_version_cannot_be_modified.TestPublishedAgentVersionCannotBeModified.test_published_agent_version_cannot_be_modified"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
