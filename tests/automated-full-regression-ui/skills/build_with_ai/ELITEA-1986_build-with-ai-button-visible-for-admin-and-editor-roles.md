@@ -4,10 +4,12 @@ title: "Build with AI button is visible for admin and editor roles"
 priority: high
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_build_with_ai_role_visibility.TestSkillBuildWithAIButtonRoleVisibility.test_build_with_ai_button_visible_for_admin_role]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1491
 ---
 
 # ELITEA-1986: Build with AI button is visible for admin and editor roles

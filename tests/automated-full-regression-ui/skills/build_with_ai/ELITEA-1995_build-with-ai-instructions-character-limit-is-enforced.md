@@ -4,10 +4,12 @@ title: "Build with AI — instructions character limit is enforced"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIReviewFormCharacterLimits.test_review_form_field_character_limit_is_enforced[ELITEA-1995-instructions]]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1491
 ---
 
 # ELITEA-1995: Build with AI — instructions character limit is enforced

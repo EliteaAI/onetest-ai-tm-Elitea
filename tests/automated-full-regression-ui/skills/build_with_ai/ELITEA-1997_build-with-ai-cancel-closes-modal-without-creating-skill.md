@@ -4,10 +4,12 @@ title: "Build with AI — Cancel closes the modal without creating a Skill"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAICancelFromPromptStep.test_cancel_from_prompt_step_closes_modal_without_creating_skill]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1491
 ---
 
 # ELITEA-1997: Build with AI — Cancel closes the modal without creating a Skill

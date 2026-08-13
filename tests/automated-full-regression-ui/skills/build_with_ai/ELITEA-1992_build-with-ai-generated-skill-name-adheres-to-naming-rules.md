@@ -4,10 +4,12 @@ title: "Build with AI — generated Skill name adheres to naming rules"
 priority: medium
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
+automation_test_id: [tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIGeneratedNameNamingRules.test_generated_skill_name_adheres_to_naming_rules]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1491
 ---
 
 # ELITEA-1992: Build with AI — generated Skill name adheres to naming rules
