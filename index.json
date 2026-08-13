@@ -15524,8 +15524,8 @@
     {
       "id": "ELITEA-1986",
       "title": "Build with AI button is visible for admin and editor roles",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -15536,7 +15536,9 @@
         "feat:skills"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_build_with_ai_role_visibility.TestSkillBuildWithAIButtonRoleVisibility.test_build_with_ai_button_visible_for_admin_role"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15658,8 +15660,8 @@
     {
       "id": "ELITEA-1992",
       "title": "Build with AI — generated Skill name adheres to naming rules",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15670,7 +15672,9 @@
         "feat:skills"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIGeneratedNameNamingRules.test_generated_skill_name_adheres_to_naming_rules"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15702,8 +15706,8 @@
     {
       "id": "ELITEA-1994",
       "title": "Build with AI — description character limit is enforced",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15714,7 +15718,9 @@
         "feat:skills"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIReviewFormCharacterLimits.test_review_form_field_character_limit_is_enforced[ELITEA-1994-description]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15723,8 +15729,8 @@
     {
       "id": "ELITEA-1995",
       "title": "Build with AI — instructions character limit is enforced",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15735,7 +15741,9 @@
         "feat:skills"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIReviewFormCharacterLimits.test_review_form_field_character_limit_is_enforced[ELITEA-1995-instructions]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15744,8 +15752,8 @@
     {
       "id": "ELITEA-1996",
       "title": "Build with AI — Back to prompt returns to input step without losing the prompt",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15756,7 +15764,9 @@
         "feat:skills"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIBackToPromptFromReviewStep.test_back_to_prompt_returns_to_input_step_and_preserves_prompt_text"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15765,8 +15775,8 @@
     {
       "id": "ELITEA-1997",
       "title": "Build with AI — Cancel closes the modal without creating a Skill",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15777,7 +15787,9 @@
         "feat:skills"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAICancelFromPromptStep.test_cancel_from_prompt_step_closes_modal_without_creating_skill"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15786,8 +15798,8 @@
     {
       "id": "ELITEA-1998",
       "title": "Build with AI — Cancel from review step does not create a Skill",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15798,7 +15810,9 @@
         "feat:skills"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAICancelFromReviewStep.test_cancel_from_review_step_does_not_create_skill"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15830,8 +15844,8 @@
     {
       "id": "ELITEA-2000",
       "title": "Build with AI — Skill creation failure stays on review step for correction",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -15842,7 +15856,9 @@
         "feat:skills"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAICreationFailureRecovery.test_creation_failure_stays_on_review_step_and_retry_succeeds"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
