@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
 automation_test_id: [tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIBackToPromptFromReviewStep.test_back_to_prompt_returns_to_input_step_and_preserves_prompt_text]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1491
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1504
 ---
 
 # ELITEA-1996: Build with AI — Back to prompt returns to input step without losing the prompt
