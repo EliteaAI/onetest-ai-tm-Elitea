@@ -14151,8 +14151,8 @@
     {
       "id": "ELITEA-2220",
       "title": "Help Center — Documentation card link redirects to external resource",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14163,7 +14163,9 @@
         "feat:help-center"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_resource_links.TestHelpCenterResourceLinks.test_resource_card_link_redirects_to_external_page[ELITEA-2220-documentation-getting-started]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14172,8 +14174,8 @@
     {
       "id": "ELITEA-2221",
       "title": "Help Center — Release Notes card link redirects to release notes page",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14184,7 +14186,9 @@
         "feat:help-center"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_resource_links.TestHelpCenterResourceLinks.test_resource_card_link_redirects_to_external_page[ELITEA-2221-release-notes-latest]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14193,8 +14197,8 @@
     {
       "id": "ELITEA-2222",
       "title": "Help Center — Tutorials card link redirects to tutorial resource",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14205,7 +14209,9 @@
         "feat:help-center"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_resource_links.TestHelpCenterResourceLinks.test_resource_card_link_redirects_to_external_page[ELITEA-2222-tutorials-how-to-create-an-agent]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14214,8 +14220,8 @@
     {
       "id": "ELITEA-2223",
       "title": "Help Center — Video Library \\\"More...\\\" redirects to full video portal",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -14226,7 +14232,9 @@
         "feat:help-center"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_resource_links.TestHelpCenterResourceLinks.test_video_library_more_redirects_to_external_portal"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14235,8 +14243,8 @@
     {
       "id": "ELITEA-2224",
       "title": "Help Center — Tutorials \\\"More...\\\" redirects to full tutorials list",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14247,7 +14255,9 @@
         "feat:help-center"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_resource_links.TestHelpCenterResourceLinks.test_resource_card_link_redirects_to_external_page[ELITEA-2224-tutorials-more]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14256,8 +14266,8 @@
     {
       "id": "ELITEA-2225",
       "title": "Help Center — version info tooltip displays component versions and can be copied",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -14268,7 +14278,9 @@
         "feat:help-center"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_version_info.TestHelpCenterVersionInfo.test_version_info_tooltip_displays_and_copies"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14277,8 +14289,8 @@
     {
       "id": "ELITEA-2226",
       "title": "Help Center — Sidebar Interactive Tour starts when clicking the link",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14289,7 +14301,9 @@
         "feat:help-center"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTourExtras.test_sidebar_interactive_tour_starts_on_link_click"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14321,8 +14335,8 @@
     {
       "id": "ELITEA-2228",
       "title": "Help Center — completed Sidebar Interactive Tour can be restarted from Help Center",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14333,7 +14347,9 @@
         "feat:help-center"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTourExtras.test_sidebar_interactive_tour_restarts_after_completion"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14342,8 +14358,8 @@
     {
       "id": "ELITEA-2229",
       "title": "Help Center — clicking Skip during Sidebar Interactive Tour terminates the tour",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -14354,7 +14370,9 @@
         "feat:help-center"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTourExtras.test_sidebar_interactive_tour_skip_terminates"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14363,8 +14381,8 @@
     {
       "id": "ELITEA-2230",
       "title": "Help Center — Back button navigates to previous step during Interactive Tour",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14375,7 +14393,9 @@
         "feat:help-center"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTourExtras.test_sidebar_interactive_tour_back_returns_to_step_one"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15719,7 +15739,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIReviewFormCharacterLimits.test_review_form_field_character_limit_is_enforced[ELITEA-1994-description]"
+        "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIReviewFormCharacterLimits.test_review_form_field_character_limit_is_enforced[ELITEA-1994-description"
       ],
       "targets": [],
       "dependencies": [],
@@ -15742,7 +15762,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIReviewFormCharacterLimits.test_review_form_field_character_limit_is_enforced[ELITEA-1995-instructions]"
+        "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIReviewFormCharacterLimits.test_review_form_field_character_limit_is_enforced[ELITEA-1995-instructions"
       ],
       "targets": [],
       "dependencies": [],
@@ -41146,7 +41166,7 @@
       "id": "ELITEA-2595",
       "title": "[EliteaAI/elitea_issues#5844] ADO Boards: process_images=false (Unchanged Behavior)",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41164,9 +41184,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5844"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_publish_wizard_happy_path.TestSkillPublishWizardHappyPath.test_publish_skill_happy_path"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41176,7 +41194,7 @@
       "id": "ELITEA-2596",
       "title": "[EliteaAI/elitea_issues#5844] ADO Toolkit: Session Boundary (Cache Persistence)",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41194,9 +41212,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5844"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_publish_ai_validation_blockers.TestSkillPublishAiValidationBlockers.test_short_content_placeholder_and_secrets_block_publish"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41206,7 +41222,7 @@
       "id": "ELITEA-2597",
       "title": "[EliteaAI/elitea_issues#5844] ADO Toolkit: Log Verification (LLM Call Count)",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -41224,10 +41240,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5844"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_publish_token_invalidation_and_ttl.TestSkillPublishTokenInvalidationAndTTL.test_publish_token_invalidated_by_modification",
-        "tests.ui.skills.test_skill_publish_token_invalidation_and_ttl.TestSkillPublishTokenInvalidationAndTTL.test_publish_token_expires_after_ttl"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41237,7 +41250,7 @@
       "id": "ELITEA-2598",
       "title": "[EliteaAI/elitea_issues#5844] ADO Toolkit: Latency Verification (Performance Proof)",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -41255,9 +41268,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5844"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_publish_warn_status_allows_publishing.TestSkillPublishWarnStatusAllowsPublishing.test_warn_status_does_not_block_publish"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41267,7 +41278,7 @@
       "id": "ELITEA-2599",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: process_images Parameter Configuration",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41284,9 +41295,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_unpublish_republish_lifecycle.TestSkillUnpublishRepublishLifecycle.test_unpublish_republish_lifecycle"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41296,7 +41305,7 @@
       "id": "ELITEA-2600",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Image Detection (HTML tags & Attachments)",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41313,9 +41322,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_agent_with_skills_publishing_flow.TestAgentWithSkillsPublishingFlow.test_agent_with_skills_publishing_flow"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41325,7 +41332,7 @@
       "id": "ELITEA-2601",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Image Download & Binary Validation",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41342,9 +41349,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_agent_skills_validation_attribution_and_token_invalidation.TestAgentSkillsValidationAttributionAndTokenInvalidation.test_agent_skills_validation_attribution_and_token_invalidation"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41354,7 +41359,7 @@
       "id": "ELITEA-2602",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: LLM Vision Integration & Content Extraction",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41371,9 +41376,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_fork_end_to_end.TestSkillForkEndToEnd.test_fork_skill_end_to_end"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41383,7 +41386,7 @@
       "id": "ELITEA-2603",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Image Description Caching (MD5)",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41400,9 +41403,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_fork_non_base_version.TestSkillForkNonBaseVersion.test_fork_non_base_skill_version"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41412,7 +41413,7 @@
       "id": "ELITEA-2604",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Response Structure with Image Content",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41429,9 +41430,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_custom_icon_upload_and_validation.TestSkillCustomIconUploadAndValidation.test_skill_custom_icon_upload_and_validation"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41441,7 +41440,7 @@
       "id": "ELITEA-2605",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Agent Integration with Image Content",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41458,9 +41457,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_custom_icon_visibility_across_ui.TestSkillCustomIconVisibilityAcrossUI.test_skill_custom_icon_visible_across_ui"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41470,7 +41467,7 @@
       "id": "ELITEA-2606",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Backward Compatibility (process_images=false)",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41487,9 +41484,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_icon_persists_on_save_as_version.TestSkillIconPersistsOnSaveAsVersion.test_skill_custom_icon_persists_on_save_as_version"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41499,7 +41494,7 @@
       "id": "ELITEA-2607",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Error Handling (URLs, Timeouts, Corruption)",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41516,9 +41511,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_agent_interaction.TestInteractWithSkillsFromAgent.test_skill_autonomous_invocation_thought_process_and_security"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41528,7 +41521,7 @@
       "id": "ELITEA-2608",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Supported Image Formats (JPEG, PNG, GIF, WebP)",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41545,9 +41538,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_subagent_skills_isolation.TestSubagentSkillsIsolation.test_subagent_uses_only_its_own_attached_skill"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41557,7 +41548,7 @@
       "id": "ELITEA-2609",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Edge Cases (Large, Many, Corrupt, Dedup)",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41574,9 +41565,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_agent_interaction.TestInteractWithSkillsFromAgent.test_skill_explicit_and_autonomous_invocation_coexistence"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41586,7 +41575,7 @@
       "id": "ELITEA-2610",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Configuration Flexibility",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -41603,9 +41592,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_agent_version_selection_behavior.TestSkillAgentVersionSelectionBehavior.test_skill_version_selection_drives_agent_chat_behavior"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41615,7 +41602,7 @@
       "id": "ELITEA-2611",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Performance Baseline",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -41632,9 +41619,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_edit_with_ai_happy_path.TestSkillEditWithAIHappyPath.test_edit_with_ai_happy_path"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41644,7 +41629,7 @@
       "id": "ELITEA-2612",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Dedicated get_image_by_url Tool (Alternative)",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -41661,9 +41646,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_edit_with_ai_navigation_error_handling.TestSkillEditWithAINavigationErrorHandling.test_edit_with_ai_navigation_and_error_handling"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41673,7 +41656,7 @@
       "id": "ELITEA-2613",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Monitoring and Logging",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -41690,10 +41673,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_edit_with_ai_role_visibility.TestSkillEditWithAIRoleVisibility.test_edit_with_ai_button_visible_for_admin_role",
-        "tests.ui.skills.test_skill_edit_with_ai_role_visibility.TestSkillEditWithAICharacterLimit.test_edit_with_ai_summary_instructions_truncates_at_character_limit"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -41703,7 +41683,7 @@
       "id": "ELITEA-2614",
       "title": "[EliteaAI/elitea_issues#5889] ADO Toolkit: Memory & Stability (No Leaks, Consistency)",
       "status": "ready",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -41720,9 +41700,7 @@
       "requirements": [
         "EliteaAI/elitea_issues#5889"
       ],
-      "automation_test_id": [
-        "tests.ui.skills.test_published_agent_version_cannot_be_modified.TestPublishedAgentVersionCannotBeModified.test_published_agent_version_cannot_be_modified"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
