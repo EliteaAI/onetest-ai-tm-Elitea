@@ -4,8 +4,10 @@ title: "Chat – Conversation Rename – Check Icon Inactive for 1 Character Inp
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: "tests.ui.chat.test_conversation_rename_checkmark_active_state.TestConversationRenameCheckmarkActiveState.test_rename_checkmark_inactive_click_has_no_effect[ELITEA-2107-1-char]"
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1522
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

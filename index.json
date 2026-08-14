@@ -6123,8 +6123,8 @@
     {
       "id": "ELITEA-2105",
       "title": "Chat – Conversation Rename – Check Icon Inactive When No Changes Made",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6135,7 +6135,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_rename_checkmark_active_state.TestConversationRenameCheckmarkActiveState.test_rename_checkmark_inactive_click_has_no_effect[ELITEA-2105-no-changes]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6144,8 +6146,8 @@
     {
       "id": "ELITEA-2106",
       "title": "Chat – Conversation Rename – Check Icon Inactive When Name Field is Empty",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6156,7 +6158,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_rename_checkmark_active_state.TestConversationRenameCheckmarkActiveState.test_rename_checkmark_inactive_click_has_no_effect[ELITEA-2106-empty-field]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6165,8 +6169,8 @@
     {
       "id": "ELITEA-2107",
       "title": "Chat – Conversation Rename – Check Icon Inactive for 1 Character Input",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6177,7 +6181,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_rename_checkmark_active_state.TestConversationRenameCheckmarkActiveState.test_rename_checkmark_inactive_click_has_no_effect[ELITEA-2107-1-char]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6186,8 +6192,8 @@
     {
       "id": "ELITEA-2108",
       "title": "Chat – Conversation Rename – Check Icon Inactive for 2 Character Input",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6198,7 +6204,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_rename_checkmark_active_state.TestConversationRenameCheckmarkActiveState.test_rename_checkmark_inactive_click_has_no_effect[ELITEA-2108-2-char]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6207,8 +6215,8 @@
     {
       "id": "ELITEA-2109",
       "title": "Chat – Conversation Rename – Check Icon Becomes Active at 3 Characters",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6219,7 +6227,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_rename_checkmark_active_state.TestConversationRenameCheckmarkActiveState.test_rename_checkmark_activates_at_three_characters"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6228,8 +6238,8 @@
     {
       "id": "ELITEA-2110",
       "title": "Chat – Conversation Rename – Check Icon Inactive When Name Contains Special Characters",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6240,7 +6250,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_rename_invalid_chars_and_recovery.TestConversationRenameInvalidCharsAndRecovery.test_rename_checkmark_inactive_for_invalid_input_shows_tooltip[ELITEA-2110-special-characters]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6249,8 +6261,8 @@
     {
       "id": "ELITEA-2111",
       "title": "Chat – Conversation Rename – Tooltip Validation Message Content",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6261,7 +6273,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_rename_invalid_chars_and_recovery.TestConversationRenameInvalidCharsAndRecovery.test_rename_checkmark_inactive_for_invalid_input_shows_tooltip[ELITEA-2111-dollar-percent-at-characters]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6270,8 +6284,8 @@
     {
       "id": "ELITEA-2112",
       "title": "Chat – Conversation Rename – First Character Cannot Be a Space",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6282,7 +6296,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_rename_invalid_chars_and_recovery.TestConversationRenameInvalidCharsAndRecovery.test_rename_checkmark_inactive_for_invalid_input_shows_tooltip[ELITEA-2112-leading-space]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6291,8 +6307,8 @@
     {
       "id": "ELITEA-2113",
       "title": "Chat – Conversation Rename – Valid Characters Are Accepted and Saved after invalid values are deleted",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6303,7 +6319,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_rename_invalid_chars_and_recovery.TestConversationRenameInvalidCharsAndRecovery.test_rename_recovers_and_saves_after_invalid_value_replaced"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
