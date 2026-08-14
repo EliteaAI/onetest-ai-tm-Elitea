@@ -5809,8 +5809,8 @@
     {
       "id": "ELITEA-2091",
       "title": "Create New Conversation from Team Project with File Attachments and changing LLM",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -5821,7 +5821,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_create_new_conversation_team_project_attachments_and_llm.TestCreateNewConversationTeamProjectAttachmentsAndLLM.test_create_conversation_team_project_attachments_and_llm"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5851,8 +5853,8 @@
     {
       "id": "ELITEA-2093",
       "title": "Create New Conversation via Agent HUB — Using a Conversation Starter",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -5863,7 +5865,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_agent_hub_create_conversation_via_starter.TestAgentHubCreateConversationViaStarter.test_agent_hub_create_conversation_via_starter"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5958,8 +5962,8 @@
     {
       "id": "ELITEA-2098",
       "title": "Open Existing Conversation from a Folder",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -5970,7 +5974,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_open_conversation_from_folder.TestOpenExistingConversationFromFolder.test_open_existing_conversation_from_folder"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
