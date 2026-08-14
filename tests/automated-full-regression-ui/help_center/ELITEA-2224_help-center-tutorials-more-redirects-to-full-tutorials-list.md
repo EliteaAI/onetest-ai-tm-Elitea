@@ -4,10 +4,13 @@ title: "Help Center — Tutorials \"More...\" redirects to full tutorials list"
 priority: medium
 type: functional
 module: help-center
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:help-center]
 requirements: []
+automation_test_id:
+  - tests.ui.help_center.test_help_center_resource_links.TestHelpCenterResourceLinks.test_resource_card_link_redirects_to_external_page[ELITEA-2224-tutorials-more]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1493
 ---
 
 # ELITEA-2224: Help Center — Tutorials \"More...\" redirects to full tutorials list
