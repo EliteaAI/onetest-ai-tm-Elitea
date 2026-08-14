@@ -4,8 +4,10 @@ title: "Chat – Conversation Rename – Save with 49 Characters"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: "tests.ui.chat.test_conversation_rename_length_boundaries.TestConversationRenameLengthBoundaries.test_rename_conversation_length_boundary[ELITEA-2101-49-chars]"
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1518
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

@@ -5985,8 +5985,8 @@
     {
       "id": "ELITEA-2099",
       "title": "Chat – Conversation Rename – Basic Rename via Edit Option",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -5997,7 +5997,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_rename_basic_via_edit_option.TestConversationRenameBasicViaEditOption.test_rename_conversation_basic_via_edit_option"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6006,8 +6008,8 @@
     {
       "id": "ELITEA-2100",
       "title": "Chat – Conversation Rename – Cancel Discards Changes",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6018,7 +6020,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_rename_cancel_discards_changes.TestConversationRenameCancelDiscardsChanges.test_rename_conversation_cancel_discards_changes"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6027,8 +6031,8 @@
     {
       "id": "ELITEA-2101",
       "title": "Chat – Conversation Rename – Save with 49 Characters",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6039,7 +6043,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_rename_length_boundaries.TestConversationRenameLengthBoundaries.test_rename_conversation_length_boundary[ELITEA-2101-49-chars]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6048,8 +6054,8 @@
     {
       "id": "ELITEA-2102",
       "title": "Chat – Conversation Rename – Save with 50 Characters (Boundary)",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6060,7 +6066,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_rename_length_boundaries.TestConversationRenameLengthBoundaries.test_rename_conversation_length_boundary[ELITEA-2102-50-chars]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6069,8 +6077,8 @@
     {
       "id": "ELITEA-2103",
       "title": "Chat – Conversation Rename – Cannot Type Beyond 50 Characters",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6081,7 +6089,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_rename_length_boundaries.TestConversationRenameLengthBoundaries.test_rename_conversation_type_beyond_max_length_truncates"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6090,8 +6100,8 @@
     {
       "id": "ELITEA-2104",
       "title": "Chat – Conversation Rename – Cannot Paste More Than 50 Characters",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6102,7 +6112,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_rename_length_boundaries.TestConversationRenameLengthBoundaries.test_rename_conversation_paste_beyond_max_length_truncates"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

@@ -4,8 +4,10 @@ title: "Chat – Conversation Rename – Cannot Paste More Than 50 Characters"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.chat.test_conversation_rename_length_boundaries.TestConversationRenameLengthBoundaries.test_rename_conversation_paste_beyond_max_length_truncates
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1518
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

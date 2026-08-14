@@ -4,8 +4,10 @@ title: "Chat – Conversation Rename – Basic Rename via Edit Option"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.chat.test_conversation_rename_basic_via_edit_option.TestConversationRenameBasicViaEditOption.test_rename_conversation_basic_via_edit_option
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1518
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
