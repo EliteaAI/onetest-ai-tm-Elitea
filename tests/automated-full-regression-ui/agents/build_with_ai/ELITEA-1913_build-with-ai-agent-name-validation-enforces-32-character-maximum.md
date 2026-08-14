@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:agents]
 requirements: []
 automation_test_id:
   - tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAIReviewNameValidation.test_review_name_validation_enforces_32_character_maximum
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1319
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1507
 ---
 
 # ELITEA-1913: Build with AI — agent name validation enforces 32-character maximum

@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:agents]
 requirements: []
 automation_test_id:
   - tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAIDraftFieldPopulation.test_edited_fields_persist_after_approve
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1319
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1507
 ---
 
 # ELITEA-1912: Build with AI — all generated draft fields are editable before approval

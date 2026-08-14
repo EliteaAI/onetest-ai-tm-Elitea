@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:agents]
 requirements: []
 automation_test_id:
   - tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAICancelFromReviewStep.test_cancel_from_review_step_closes_modal_without_creating_agent
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1319
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1507
 ---
 
 # ELITEA-1918: Build with AI — Cancel from review step closes modal without creating an agent
