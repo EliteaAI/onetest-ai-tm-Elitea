@@ -4,8 +4,10 @@ title: "Chat – Move To Submenu Folder List is Scrollable When Many Folders Exi
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.chat.test_folder_list_scrollability_and_expand_states.TestMoveToSubmenuFolderListScrollable.test_move_to_submenu_folder_list_scrollable
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1545
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

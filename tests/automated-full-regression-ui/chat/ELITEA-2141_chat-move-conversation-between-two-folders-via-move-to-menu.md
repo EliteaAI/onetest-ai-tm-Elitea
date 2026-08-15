@@ -4,8 +4,10 @@ title: "Chat – Move Conversation Between Two Folders via Move To Menu"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.chat.test_move_conversation_to_folder.TestMoveConversationBetweenTwoFolders.test_move_conversation_between_two_folders
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1545
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
