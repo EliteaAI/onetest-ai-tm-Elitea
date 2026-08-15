@@ -4,8 +4,10 @@ title: "Chat – Folder Rename – Cannot Type or Paste Beyond 50 Characters"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.chat.test_chat_folder_rename_length_boundaries.TestChatFolderRenameLengthBoundaries.test_rename_folder_type_and_paste_beyond_max_length_truncates
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1539
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

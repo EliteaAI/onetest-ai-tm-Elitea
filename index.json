@@ -6492,8 +6492,8 @@
     {
       "id": "ELITEA-2121",
       "title": "Chat – Folder Rename via Edit Option in Context Menu",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6504,7 +6504,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_folder_rename_via_context_menu_edit_option"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6513,8 +6515,8 @@
     {
       "id": "ELITEA-2122",
       "title": "Chat – Folder Rename – Cancel via X Icon Discards Changes",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6525,7 +6527,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_folder_rename_cancel_via_x_icon_discards_changes"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6534,8 +6538,8 @@
     {
       "id": "ELITEA-2123",
       "title": "Chat – Folder Rename – Validation Tooltip Displayed for Invalid Input",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6546,7 +6550,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_folder_rename_checkmark_special_chars_and_leading_space_invalid"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6555,8 +6561,8 @@
     {
       "id": "ELITEA-2124",
       "title": "Chat – Folder Rename – Check Icon Inactive When Name is Empty",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6567,7 +6573,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_folder_rename_checkmark_validation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6576,8 +6584,8 @@
     {
       "id": "ELITEA-2125",
       "title": "Chat – Folder Rename – Check Icon Inactive for Less Than 3 Characters",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6588,7 +6596,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_folder_rename_checkmark_validation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6597,8 +6607,8 @@
     {
       "id": "ELITEA-2126",
       "title": "Chat – Folder Rename – Check Icon Becomes Active at 3 Characters",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6609,7 +6619,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_folder_rename_checkmark_validation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6618,8 +6630,8 @@
     {
       "id": "ELITEA-2127",
       "title": "Chat – Folder Rename – First Character Cannot Be a Space",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6630,7 +6642,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_folder_rename_checkmark_special_chars_and_leading_space_invalid"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6639,8 +6653,8 @@
     {
       "id": "ELITEA-2128",
       "title": "Chat – Folder Rename – Maximum 50 Characters Accepted",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6651,7 +6665,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_rename_length_boundaries.TestChatFolderRenameLengthBoundaries.test_rename_folder_length_boundary_50_chars_accepted"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6660,8 +6676,8 @@
     {
       "id": "ELITEA-2129",
       "title": "Chat – Folder Rename – Cannot Type or Paste Beyond 50 Characters",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6672,7 +6688,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_rename_length_boundaries.TestChatFolderRenameLengthBoundaries.test_rename_folder_type_and_paste_beyond_max_length_truncates"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6681,8 +6699,8 @@
     {
       "id": "ELITEA-2130",
       "title": "Chat – Pinned Folder Can Be Renamed",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6693,7 +6711,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_pinned_folder_rename_retains_pin_state"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6702,8 +6722,8 @@
     {
       "id": "ELITEA-2131",
       "title": "Chat – Folder Rename – No Changes Made Checkmark Inactive",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6714,7 +6734,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_folder_rename_no_changes_close_via_x_icon"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
