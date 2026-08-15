@@ -4,8 +4,11 @@ title: "Chat – Pin a folder and verify it appears at the top of the left panel
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_pin_folder.TestPinFolderViaPinOnTop.test_pin_folder_via_pin_on_top
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1555
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

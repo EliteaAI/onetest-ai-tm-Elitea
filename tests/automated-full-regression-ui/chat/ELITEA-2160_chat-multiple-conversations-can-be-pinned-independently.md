@@ -4,8 +4,11 @@ title: "Chat – Multiple Conversations Can Be Pinned Independently"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_pin_conversation.TestMultipleConversationsPinnedIndependently.test_pin_two_conversations_independently
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1555
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

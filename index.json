@@ -7318,8 +7318,8 @@
     {
       "id": "ELITEA-2157",
       "title": "Chat – Conversation Inside a Folder Cannot Be Pinned Separately",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7330,7 +7330,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pin_conversation.TestPinDisabledInFolderThenMovedAndPinned.test_pin_disabled_in_folder_then_moved_and_pinned"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7339,8 +7341,8 @@
     {
       "id": "ELITEA-2158",
       "title": "Chat – Pin Conversation Inside Folder by Moving It Out First",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7351,7 +7353,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pin_conversation.TestPinDisabledInFolderThenMovedAndPinned.test_pin_disabled_in_folder_then_moved_and_pinned"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7360,8 +7364,8 @@
     {
       "id": "ELITEA-2159",
       "title": "Chat – Left Panel Order Verified After Multiple Pin Actions",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7372,7 +7376,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pin_conversation.TestChatPanelOrderingPinnedFoldersAndConversations.test_pinned_folder_and_conversation_render_above_unpinned_panel_order"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7381,8 +7387,8 @@
     {
       "id": "ELITEA-2160",
       "title": "Chat – Multiple Conversations Can Be Pinned Independently",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7393,7 +7399,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pin_conversation.TestMultipleConversationsPinnedIndependently.test_pin_two_conversations_independently"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7402,8 +7410,8 @@
     {
       "id": "ELITEA-2161",
       "title": "Chat – Multiple Folders Can Be Pinned Independently",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7414,7 +7422,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pin_folder.TestMultipleFoldersPinnedIndependently.test_pin_two_folders_independently"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8761,8 +8771,8 @@
     {
       "id": "ELITEA-2460",
       "title": "Chat – Folder displays conversations when expanded and empty state when no conversations",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8773,7 +8783,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_folder_list_scrollability_and_expand_states.TestFolderDisplaysConversationsOrEmptyState.test_folder_displays_conversations_or_empty_state"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8782,8 +8794,8 @@
     {
       "id": "ELITEA-2461",
       "title": "Chat – Pin a conversation and verify it appears above folders and date groups",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8794,7 +8806,10 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pin_conversation.TestPinConversationViaPinOnTop.test_pin_conversation_via_pin_on_top",
+        "tests.ui.chat.test_pin_conversation.TestChatPanelOrderingPinnedFoldersAndConversations.test_pinned_folder_and_conversation_render_above_unpinned_panel_order"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8803,8 +8818,8 @@
     {
       "id": "ELITEA-2462",
       "title": "Chat – Pin a folder and verify it appears at the top of the left panel",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8815,7 +8830,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pin_folder.TestPinFolderViaPinOnTop.test_pin_folder_via_pin_on_top"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
