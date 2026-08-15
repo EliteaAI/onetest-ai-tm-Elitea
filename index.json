@@ -7157,8 +7157,8 @@
     {
       "id": "ELITEA-2150",
       "title": "Chat – Unpin a Pinned Conversation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7169,7 +7169,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pin_conversation.TestUnpinConversationViaContextMenu.test_unpin_conversation_via_context_menu"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7178,8 +7180,8 @@
     {
       "id": "ELITEA-2151",
       "title": "Chat – Pinned Conversation Appears Above Unpinned Folders and Conversations",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7190,7 +7192,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pin_conversation.TestChatPanelOrderingPinnedFoldersAndConversations.test_pinned_folder_and_conversation_render_above_unpinned_panel_order"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7199,8 +7203,8 @@
     {
       "id": "ELITEA-2152",
       "title": "Chat – Pin a Folder via Pin on Top Option",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7211,7 +7215,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pin_folder.TestPinFolderViaPinOnTop.test_pin_folder_via_pin_on_top"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7220,8 +7226,8 @@
     {
       "id": "ELITEA-2153",
       "title": "Chat – Unpin a Pinned Folder",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7232,7 +7238,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pin_folder.TestUnpinFolderViaContextMenu.test_unpin_folder_via_context_menu"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7241,8 +7249,8 @@
     {
       "id": "ELITEA-2154",
       "title": "Chat – Pinned Folder Retains All Conversations After Pinning",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7253,7 +7261,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pin_folder.TestPinFolderViaPinOnTop.test_pin_folder_with_multiple_conversations_retains_all"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7262,8 +7272,8 @@
     {
       "id": "ELITEA-2155",
       "title": "Chat – Empty Folder Can Be Pinned",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7274,7 +7284,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pin_folder.TestPinFolderViaPinOnTop.test_pin_empty_folder_retains_empty_state"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7283,8 +7295,8 @@
     {
       "id": "ELITEA-2156",
       "title": "Chat – Empty Folder Can Be Unpinned",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7295,7 +7307,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_pin_folder.TestUnpinFolderViaContextMenu.test_unpin_empty_folder_retains_empty_state"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

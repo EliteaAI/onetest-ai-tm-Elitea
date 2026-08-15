@@ -4,8 +4,11 @@ title: "Chat – Pinned Conversation Appears Above Unpinned Folders and Conversa
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_pin_conversation.TestChatPanelOrderingPinnedFoldersAndConversations.test_pinned_folder_and_conversation_render_above_unpinned_panel_order
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1552
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

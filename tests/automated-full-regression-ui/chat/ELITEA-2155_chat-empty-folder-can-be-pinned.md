@@ -4,8 +4,11 @@ title: "Chat – Empty Folder Can Be Pinned"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_pin_folder.TestPinFolderViaPinOnTop.test_pin_empty_folder_retains_empty_state
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1552
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
