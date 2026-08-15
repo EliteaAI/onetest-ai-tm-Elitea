@@ -4,8 +4,11 @@ title: "Chat – Team Project – Add Users as Conversation Participants"
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_invite_users_add_cancel_close.TestInviteUsersAddCancelClose.test_invite_users_add_persists_cancel_and_close_discard
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1561
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
