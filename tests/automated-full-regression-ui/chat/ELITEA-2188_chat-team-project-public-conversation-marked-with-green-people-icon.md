@@ -4,8 +4,11 @@ title: "Chat – Team Project – Public Conversation Marked with Green People I
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_public_conversation_green_icon.TestPublicConversationGreenIcon.test_public_conversation_shows_green_icon_in_chat_list
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1566
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
