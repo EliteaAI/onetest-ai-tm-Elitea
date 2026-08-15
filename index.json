@@ -6423,8 +6423,8 @@
     {
       "id": "ELITEA-2118",
       "title": "Chat – Folder Name Edited Inline During Creation with Default Name Saved",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6435,7 +6435,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_folder_creation.TestChatFolderCreation.test_create_folder_default_name_checkmark_active"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6444,8 +6446,8 @@
     {
       "id": "ELITEA-2119",
       "title": "Chat – Folder Name Edited Inline During Creation with Custom Name",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6456,7 +6458,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_creation_custom_name_and_cancel.TestChatFolderCreationCustomNameAndCancel.test_create_folder_with_custom_name"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6465,8 +6469,8 @@
     {
       "id": "ELITEA-2120",
       "title": "Chat – Folder Name Edited Inline During Creation – Cancel Discards Folder",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6477,7 +6481,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_creation_custom_name_and_cancel.TestChatFolderCreationCustomNameAndCancel.test_cancel_folder_creation_discards_folder"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6740,8 +6746,8 @@
     {
       "id": "ELITEA-2133",
       "title": "Chat – Folder Creation with Custom Name via CHATS Header Icon",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6752,7 +6758,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_creation_custom_name_and_cancel.TestChatFolderCreationCustomNameAndCancel.test_create_folder_with_custom_name"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6761,8 +6769,8 @@
     {
       "id": "ELITEA-2134",
       "title": "Chat – Folder Creation Cancel Discards New Folder",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6773,7 +6781,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_creation_custom_name_and_cancel.TestChatFolderCreationCustomNameAndCancel.test_cancel_folder_creation_discards_folder"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8624,8 +8634,8 @@
     {
       "id": "ELITEA-2457",
       "title": "Chat – Create folder with custom name",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8636,7 +8646,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_folder_creation_custom_name_and_cancel.TestChatFolderCreationCustomNameAndCancel.test_create_folder_with_custom_name"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

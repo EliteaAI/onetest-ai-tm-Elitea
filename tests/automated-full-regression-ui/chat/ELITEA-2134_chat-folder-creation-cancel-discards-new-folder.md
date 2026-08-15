@@ -4,8 +4,10 @@ title: "Chat – Folder Creation Cancel Discards New Folder"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.chat.test_chat_folder_creation_custom_name_and_cancel.TestChatFolderCreationCustomNameAndCancel.test_cancel_folder_creation_discards_folder
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1532
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
