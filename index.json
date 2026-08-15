@@ -6353,8 +6353,8 @@
     {
       "id": "ELITEA-2115",
       "title": "Chat – Conversation Deletion – Conversation Inside a Folder",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6365,7 +6365,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_deletion_inside_folder.TestConversationDeletionInsideFolder.test_delete_conversation_inside_folder_preserves_folder"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6374,8 +6376,8 @@
     {
       "id": "ELITEA-2116",
       "title": "Chat – Delete Confirmation Modal UI Validation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6386,7 +6388,10 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_delete_confirmation_modal_ui_validation.TestDeleteConfirmationModalUIValidation.test_delete_confirmation_modal_title_body_and_button_styling",
+        "tests.ui.chat.test_delete_confirmation_modal_ui_validation.TestDeleteConfirmationModalUIValidation.test_delete_confirmation_modal_dismisses_via_escape_and_outside_click"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6395,8 +6400,8 @@
     {
       "id": "ELITEA-2117",
       "title": "Chat – Deletion of the Last Remaining Conversation in a Project",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -6407,7 +6412,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_last_remaining_conversation_deletion.TestLastRemainingConversationDeletion.test_delete_last_remaining_conversation_shows_welcome_state"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7371,8 +7378,8 @@
     {
       "id": "ELITEA-2163",
       "title": "Chat – Search No Results State",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7383,7 +7390,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_search_and_modules_panel.TestChatSearchAndModulesPanel.test_search_no_results_state"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7392,8 +7401,8 @@
     {
       "id": "ELITEA-2164",
       "title": "Chat – Search Cleared by Clicking X Icon Restores Default View",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7404,7 +7413,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_search_and_modules_panel.TestChatSearchAndModulesPanel.test_search_cleared_by_x_icon_restores_default_view"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7413,8 +7424,8 @@
     {
       "id": "ELITEA-2165",
       "title": "Chat – Search Input Cleared by Deleting Text Updates Results Dynamically",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7425,7 +7436,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_search_and_modules_panel.TestChatSearchAndModulesPanel.test_search_input_cleared_by_deleting_text_updates_dynamically"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8588,8 +8601,8 @@
     {
       "id": "ELITEA-2456",
       "title": "Chat – Conversation deletion with cancel and confirm flow",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8600,7 +8613,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_conversation_deletion_flow.TestConversationDeletionFlow.test_conversation_deletion_cancel_then_delete_active_conversation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8739,8 +8754,8 @@
     {
       "id": "ELITEA-2463",
       "title": "Chat – Search input opens, filters results dynamically, conversation is interactable",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8751,7 +8766,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_search_and_modules_panel.TestChatSearchAndModulesPanel.test_search_filters_and_modules_panel_toggles"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

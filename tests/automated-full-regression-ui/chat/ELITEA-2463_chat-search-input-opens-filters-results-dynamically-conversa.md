@@ -4,8 +4,10 @@ title: "Chat – Search input opens, filters results dynamically, conversation i
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.chat.test_chat_search_and_modules_panel.TestChatSearchAndModulesPanel.test_search_filters_and_modules_panel_toggles
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1528
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

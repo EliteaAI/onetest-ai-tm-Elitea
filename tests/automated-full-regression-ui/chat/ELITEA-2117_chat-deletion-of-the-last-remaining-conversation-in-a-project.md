@@ -4,8 +4,10 @@ title: "Chat – Deletion of the Last Remaining Conversation in a Project"
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.chat.test_last_remaining_conversation_deletion.TestLastRemainingConversationDeletion.test_delete_last_remaining_conversation_shows_welcome_state
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1528
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

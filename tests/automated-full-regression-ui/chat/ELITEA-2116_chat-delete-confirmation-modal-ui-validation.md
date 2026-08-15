@@ -4,8 +4,12 @@ title: "Chat – Delete Confirmation Modal UI Validation"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_delete_confirmation_modal_ui_validation.TestDeleteConfirmationModalUIValidation.test_delete_confirmation_modal_title_body_and_button_styling
+  - tests.ui.chat.test_delete_confirmation_modal_ui_validation.TestDeleteConfirmationModalUIValidation.test_delete_confirmation_modal_dismisses_via_escape_and_outside_click
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1528
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

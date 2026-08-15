@@ -18,6 +18,10 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/696
 
 **Objective:** Verify that the conversation deletion flow works correctly including the confirmation modal, Cancel preserves the conversation, and Delete removes it from the list.
 
+**Also satisfies:** ELITEA-2456 (Chat – Conversation deletion with cancel and confirm flow) — a
+Rule-6 already-covered dedup, 2026-08-15; ELITEA-2456's 13 steps are a strict subset of this
+test's own steps. See `test-specs/chat-interface/lcovered_conversation-deletion-cancel-confirm-flow_ELITEA-2456.md`.
+
 ---
 
 ## Preconditions

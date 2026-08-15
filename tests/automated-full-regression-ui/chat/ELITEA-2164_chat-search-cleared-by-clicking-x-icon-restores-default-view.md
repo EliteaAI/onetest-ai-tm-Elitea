@@ -4,8 +4,10 @@ title: "Chat – Search Cleared by Clicking X Icon Restores Default View"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.chat.test_chat_search_and_modules_panel.TestChatSearchAndModulesPanel.test_search_cleared_by_x_icon_restores_default_view
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1528
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

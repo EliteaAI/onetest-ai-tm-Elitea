@@ -4,8 +4,10 @@ title: "Chat – Conversation Deletion – Conversation Inside a Folder"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.chat.test_conversation_deletion_inside_folder.TestConversationDeletionInsideFolder.test_delete_conversation_inside_folder_preserves_folder
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1528
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
