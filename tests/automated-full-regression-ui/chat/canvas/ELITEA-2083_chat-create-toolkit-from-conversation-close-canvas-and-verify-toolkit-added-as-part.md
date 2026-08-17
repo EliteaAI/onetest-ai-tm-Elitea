@@ -4,8 +4,10 @@ title: "Chat – Create Toolkit from Conversation – Close Canvas and Verify To
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.chat.test_create_toolkit_from_conversation.TestCreateToolkitFromConversation.test_create_toolkit_from_conversation_close_canvas_and_verify_participant
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1576
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
