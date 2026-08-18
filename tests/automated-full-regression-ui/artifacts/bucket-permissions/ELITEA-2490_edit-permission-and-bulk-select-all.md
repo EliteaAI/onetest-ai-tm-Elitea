@@ -5,7 +5,7 @@ priority: high
 type: functional
 module: artifacts
 status: draft
-execution_type: automated
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
 requirements: [EliteaAI/elitea_issues#5832, EliteaAI/elitea_issues#5912]
 ---
