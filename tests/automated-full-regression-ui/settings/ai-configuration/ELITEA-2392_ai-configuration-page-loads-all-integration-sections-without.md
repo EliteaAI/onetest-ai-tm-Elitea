@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
 automation_test_id:
-  - tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error
+  - tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error_test
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1252
 ---
 
