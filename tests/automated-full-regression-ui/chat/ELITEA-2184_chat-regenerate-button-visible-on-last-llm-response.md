@@ -4,8 +4,10 @@ title: "Chat – Regenerate Button Visible on Last LLM Response"
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: "tests.ui.chat.test_regenerate_response.TestRegenerateResponse.test_regenerate_visible_only_on_last_response"
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1586
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

@@ -4,8 +4,10 @@ title: "Chat – Remove Agent from Conversation Clears Conversation Starters"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: "tests.ui.chat.test_chat_agent_starters_add_remove.TestChatRemoveAgentClearsConversationStarters.test_remove_agent_clears_conversation_starters"
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1586
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
