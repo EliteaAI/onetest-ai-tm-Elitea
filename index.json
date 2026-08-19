@@ -8176,8 +8176,8 @@
     {
       "id": "ELITEA-2195",
       "title": "Chat – File Attachments – Verify Attach Files Option Displays 10 Left Counter",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8188,7 +8188,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_attach_files_10_left_counter.TestAttachFiles10LeftCounter.test_attach_files_menuitem_shows_10_left_counter"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8197,8 +8199,8 @@
     {
       "id": "ELITEA-2196",
       "title": "Chat – File Attachments – Upload Multiple Files and Verify They Display Above Message Input Field",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8209,7 +8211,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_attach_files_multiple_chips_display.TestAttachFilesMultipleChipsDisplay.test_attach_multiple_files_displays_chips_above_composer"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8241,8 +8245,8 @@
     {
       "id": "ELITEA-2198",
       "title": "Chat – Attachment Removal – Remove Individual Files by Clicking X Button",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8253,7 +8257,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_attach_files_multiple_chips_display.TestAttachFilesMultipleChipsDisplay.test_attach_files_then_remove_two_individually_sequentially"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8262,8 +8268,8 @@
     {
       "id": "ELITEA-2199",
       "title": "Chat – Attachment Preview – Verify Attached Files Display with Filenames and Icons",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8274,7 +8280,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_attach_files_multiple_chips_display.TestAttachFilesMultipleChipsDisplay.test_attach_files_of_different_types_shows_identical_icon_and_long_filename_truncates"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8306,8 +8314,8 @@
     {
       "id": "ELITEA-2201",
       "title": "Chat – File Attachments – Send Message with Attached Files and Verify Files Are Included",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8318,7 +8326,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_send_message_with_attachments_verify_included.TestSendMessageWithAttachmentsVerifyIncluded.test_send_message_with_attachments_verify_included"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8967,8 +8977,8 @@
     {
       "id": "ELITEA-2467",
       "title": "Chat – Attached files display with filenames, icons, and truncation for long names",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8979,7 +8989,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_attach_files_multiple_chips_display.TestAttachFilesMultipleChipsDisplay.test_long_filename_truncates_and_overflow_indicator_click_expands"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
