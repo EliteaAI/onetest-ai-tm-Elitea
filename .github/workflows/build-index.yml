@@ -1,10 +1,11 @@
-# Function: build-index — scans test-case front-matter into index.json (backs OQL search).
-# STUB until onetest-gh ships.
+# Function: build-index — scans test-case front-matter into index files (backs OQL search & correlation).
 name: build-index
 on:
   push:
     branches: [main]
-    paths: ["tests/**", ".onetest/fields.yml"]
+    paths:
+      - "tests/automated-full-regression-ui/**"
+      - ".onetest/fields.yml"
   workflow_dispatch:
 permissions:
   contents: write
@@ -13,7 +14,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Build front-matter index
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build automated test index
         run: |
-          echo "TODO: npx -y onetest-gh-mcp build-index"
-          echo "Writes index.json from tests/**. Placeholder (see docs/github-native/onetest-gh-mcp-spec.md §G)."
+          python3 onetest-tms/scripts/_index.py \
+            --dir tests/automated-full-regression-ui \
+            --out index_automated.json
+          echo "Indexed $(jq '.cases | length' index_automated.json) cases"
+
+      - name: Commit index if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index_automated.json
+          git diff --cached --quiet || git commit -m "chore: rebuild index_automated.json"
+          git push
