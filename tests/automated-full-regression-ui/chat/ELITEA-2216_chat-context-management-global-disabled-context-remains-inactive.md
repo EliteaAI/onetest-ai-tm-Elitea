@@ -4,8 +4,10 @@ title: "Context Management – Global Setting Disabled – Verify Context Manage
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: "tests.ui.chat.test_context_management_disabled.TestContextManagementDisabledWidgetStaysZero.test_context_management_disabled_widget_stays_at_zero"
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1608
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
