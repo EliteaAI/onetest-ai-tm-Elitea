@@ -4,8 +4,12 @@ title: "Chat – Slash Commands – Verify Selecting MCP from / Dropdown"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - "tests.ui.chat.test_slash_mention_mcp_selection_and_available_tools.TestSlashMentionMcpSelectionAndAvailableTools.test_select_mcp_from_slash_mention_shows_its_tools"
+  - "tests.ui.chat.test_slash_mention_mcp_selection_and_available_tools.TestSlashMentionMcpSelectionAndAvailableTools.test_select_mcp_from_slash_mention_no_tools_shows_empty_panel"
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1601
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

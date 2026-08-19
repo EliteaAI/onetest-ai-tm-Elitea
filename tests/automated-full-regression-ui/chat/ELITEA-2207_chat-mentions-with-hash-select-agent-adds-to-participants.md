@@ -4,8 +4,11 @@ title: "Chat – Mentions with # – Select Agent from List and Verify Agent is 
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - "tests.ui.chat.test_chat_interface.TestHashSearch.test_add_agent_via_hash_search_joins_participants_and_responds"
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1601
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
