@@ -2623,8 +2623,8 @@
     {
       "id": "ELITEA-2205",
       "title": "Chat – Slash Commands – Verify Selecting MCP from / Dropdown",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2635,7 +2635,10 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_slash_mention_mcp_selection_and_available_tools.TestSlashMentionMcpSelectionAndAvailableTools.test_select_mcp_from_slash_mention_shows_its_tools",
+        "tests.ui.chat.test_slash_mention_mcp_selection_and_available_tools.TestSlashMentionMcpSelectionAndAvailableTools.test_select_mcp_from_slash_mention_no_tools_shows_empty_panel"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2644,8 +2647,8 @@
     {
       "id": "ELITEA-2206",
       "title": "Chat – Mentions with # – Verify Typing # Displays All Available Agents and Pipelines",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2656,7 +2659,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_interface.TestHashSearch.test_hash_search_shows_agents_and_pipelines_from_all_sources"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2665,8 +2670,8 @@
     {
       "id": "ELITEA-2207",
       "title": "Chat – Mentions with # – Select Agent from List and Verify Agent is Added to Participants",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2677,7 +2682,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_interface.TestHashSearch.test_add_agent_via_hash_search_joins_participants_and_responds"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2686,8 +2693,8 @@
     {
       "id": "ELITEA-2208",
       "title": "Chat – Mentions with # – Select Pipeline from List and Verify Pipeline is Added to Participants",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2698,7 +2705,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_interface.TestHashSearch.test_add_pipeline_via_hash_search_joins_participants_and_responds"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3217,8 +3226,8 @@
     {
       "id": "ELITEA-2468",
       "title": "Chat – Select MCP from / dropdown",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -3229,7 +3238,10 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_slash_mention_mcp_selection_and_available_tools.TestSlashMentionMcpSelectionAndAvailableTools.test_select_mcp_from_slash_mention_shows_its_tools",
+        "tests.ui.chat.test_slash_mention_mcp_selection_and_available_tools.TestSlashMentionMcpSelectionAndAvailableTools.test_select_mcp_from_slash_mention_no_tools_shows_empty_panel"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3238,8 +3250,8 @@
     {
       "id": "ELITEA-2469",
       "title": "Chat – Select agent from # list adds it to participants and it can respond",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -3250,7 +3262,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_interface.TestHashSearch.test_add_agent_via_hash_search_joins_participants_and_responds"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3259,8 +3273,8 @@
     {
       "id": "ELITEA-2470",
       "title": "Chat – Select pipeline from # list adds it to participants and it can respond",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -3271,7 +3285,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_interface.TestHashSearch.test_add_pipeline_via_hash_search_joins_participants_and_responds"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
