@@ -1,4 +1,45 @@
 {
-  "matched": [],
+  "matched": [
+    {
+      "case_id": "ELITEA-2374",
+      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_context_management_toggle_enables_disables_fields",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2377",
+      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_automatic_summarization_toggle_enables_disables_own_fields",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2378",
+      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_target_summary_tokens_range_validation",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2391",
+      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_max_context_tokens_rejects_non_numeric_and_negative_input",
+      "status": "failed"
+    },
+    {
+      "case_id": "ELITEA-2392",
+      "code_ref": "tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2397",
+      "code_ref": "tests.ui.settings.test_set_llm_model_default_high_low_tier.TestSetLLMModelTiers.test_set_llm_model_default_high_low_tier",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1052",
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1052",
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible",
+      "status": "passed"
+    }
+  ],
   "unmatched_refs": []
 }
