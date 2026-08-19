@@ -6,8 +6,8 @@ type: functional
 module: default-modules
 status: ready
 execution_type: manual
-tags: [feat:settings, feat:chat, eng:frontend, issue:6122, r-2.0.6]
-requirements: [EliteaAI/elitea_issues#6122]
+tags: [feat:settings, feat:chat, eng:frontend, r-2.0.6]
+requirements: [EliteaAI/elitea_issues#6115]
 ---
 # ELITEA-2650: Mid-turn Input (Beta) Toggle in Chat Section
 
@@ -39,7 +39,7 @@ Feature description: "Send a message to an agent while it is still working, to s
 | 2 | Scroll down to locate the "Chat" section below Default Modules. | Chat section is visible. |
 | 3 | Verify "Mid-turn Input (Beta)" toggle is present. | Toggle is visible with label "Mid-turn Input (Beta)". |
 | 4 | Verify the description text is displayed. | Description reads: "Send a message to an agent while it is still working, to steer the rest of the run." |
-| 5 | Check the initial state of the toggle. | Toggle is either ON or OFF (document initial state). |
+| 5 | Check the initial state of the toggle. | Toggle is  OFF. |
 | 6 | Click the toggle to change its state. | Toggle switches to the opposite state. |
 | 7 | Refresh the page. | Page reloads. |
 | 8 | Navigate to Settings → General → Chat section. | Chat section displayed. |
