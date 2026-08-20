@@ -1,0 +1,487 @@
+{
+  "launch": {
+    "total": 52,
+    "passed": 46,
+    "failed": 6,
+    "skipped": 0,
+    "reruns": 8
+  },
+  "items": [
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_agent_chip_visible_in_message_input.TestAgentHubAgentChipVisibleInMessageInput.test_agent_chip_visible_in_message_input",
+      "name": "test_agent_chip_visible_in_message_input",
+      "status": "failed",
+      "duration_ms": 82469,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"chat-switch-participant-button\").locator(\"[data-testid=\\\"chat-switch-participant-avatar\\\"]\") to be visible tests/ui/agent_hub/test_agent_hub_agent_chip_visible_in_message_input.py:143: in test_agent_chip_visible_in_message_input\n    avatar_img = chat.get_switch_participant_avatar(timeout=UI_ELEMENT_TIMEOUT)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/chat_page.py:5167: in get_switch_participant_avatar\n    avatar.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20539: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:748: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:632: in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nE   playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nE   Call log:\nE     - waiting for get_by_test_id(\"chat-switch-participant-button\").locator(\"[data-testid=\\\"chat-switch-participant-avatar\\\"]\") to be visible",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_agent_chip_visible_in_message_input.py:143: in test_agent_chip_visible_in_message_input\n    avatar_img = chat.get_switch_participant_avatar(timeout=UI_ELEMENT_TIMEOUT)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/chat_page.py:5167: in get_switch_participant_avatar\n    avatar.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20539: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:748: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send\n    return await self._connection.wrap_api_call"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_start_conversation_creates_new_chat.TestAgentHubStartConversationCreatesNewChat.test_agent_hub_start_conversation_creates_new_chat",
+      "name": "test_agent_hub_start_conversation_creates_new_chat",
+      "status": "passed",
+      "duration_ms": 13483,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_started_conversation_has_agent_as_participant.TestAgentHubStartedConversationHasAgentAsParticipant.test_started_conversation_has_agent_as_participant",
+      "name": "test_started_conversation_has_agent_as_participant",
+      "status": "failed",
+      "duration_ms": 70000,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid^=\\\"chat-participant-row-\\\"]\").filter(has_text=\"User Story Creator\").first.locator(\"[data-testid=\\\"chat-participant-avatar\\\"]\") to be visible tests/ui/agent_hub/test_agent_hub_started_conversation_has_agent_as_participant.py:181: in test_started_conversation_has_agent_as_participant\n    avatar_img = chat.get_participant_avatar(participant_row, timeout=UI_ELEMENT_TIMEOUT)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/chat_page.py:3970: in get_participant_avatar\n    avatar.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20539: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:748: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:632: in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nE   playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nE   Call log:\nE     - waiting for locator(\"[data-testid^=\\\"chat-participant-row-\\\"]\").filter(has_text=\"User Story Creator\").first.locator(\"[data-testid=\\\"chat-participant-avatar\\\"]\") to be visible",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_started_conversation_has_agent_as_participant.py:181: in test_started_conversation_has_agent_as_participant\n    avatar_img = chat.get_participant_avatar(participant_row, timeout=UI_ELEMENT_TIMEOUT)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/chat_page.py:3970: in get_participant_avatar\n    avatar.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20539: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:748: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send\n    return awa"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_catalog_default_agents_tab.TestCatalogDefaultAgentsTab.test_catalog_default_agents_tab_and_skills_navigation",
+      "name": "test_catalog_default_agents_tab_and_skills_navigation",
+      "status": "failed",
+      "duration_ms": 6079,
+      "failure_message": "AssertionError: Skills tab's icon should be visible\nassert False\n +  where False = is_visible()\n +    where is_visible = <Locator frame=<Frame name= url='https://dev.elitea.ai/app/elitea-catalog'> selector='internal:testid=[data-testid=\"catalog-skills-tab-icon\"s]'>.is_visible\n +      where <Locator frame=<Frame name= url='https://dev.elitea.ai/app/elitea-catalog'> selector='internal:testid=[data-testid=\"catalog-skills-tab-icon\"s]'> = <pages.agent_hub_page.AgentHubPage object at 0x7f0b6a83d6d0>.skills_tab_icon tests/ui/agent_hub/test_catalog_default_agents_tab.py:59: in test_catalog_default_agents_tab_and_skills_navigation\n    assert agent_hub.skills_tab_icon.is_visible(), \"Skills tab's icon should be visible\"\nE   AssertionError: Skills tab's icon should be visible\nE   assert False\nE    +  where False = is_visible()\nE    +    where is_visible = <Locator frame=<Frame name= url='https://dev.elitea.ai/app/elitea-catalog'> selector='internal:testid=[data-testid=\"catalog-skills-tab-icon\"s]'>.is_visible\nE    +      where <Locator frame=<Frame name= url='https://dev.elitea.ai/app/elitea-catalog'> selector='internal:testid=[data-testid=\"catalog-skills-tab-icon\"s]'> = <pages.agent_hub_page.AgentHubPage object at 0x7f0b6a83d6d0>.skills_tab_icon",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_empty_state.TestCatalogEmptyState.test_empty_state_when_search_matches_no_agents",
+      "name": "test_empty_state_when_search_matches_no_agents",
+      "status": "passed",
+      "duration_ms": 6681,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_launcher_visible_and_opens_widget",
+      "name": "test_launcher_visible_and_opens_widget",
+      "status": "passed",
+      "duration_ms": 8296,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_widget_state_persists_after_close_reopen",
+      "name": "test_widget_state_persists_after_close_reopen",
+      "status": "passed",
+      "duration_ms": 50216,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantMessaging.test_send_message_and_receive_response",
+      "name": "test_send_message_and_receive_response",
+      "status": "passed",
+      "duration_ms": 41478,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantNewSession.test_new_chat_creates_fresh_session",
+      "name": "test_new_chat_creates_fresh_session",
+      "status": "passed",
+      "duration_ms": 42132,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantHistory.test_history_restore_and_continue",
+      "name": "test_history_restore_and_continue",
+      "status": "passed",
+      "duration_ms": 73115,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantViewModes.test_expand_collapse_fullview",
+      "name": "test_expand_collapse_fullview",
+      "status": "passed",
+      "duration_ms": 22884,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantAttachments.test_attach_button_present_and_opens_picker",
+      "name": "test_attach_button_present_and_opens_picker",
+      "status": "passed",
+      "duration_ms": 33887,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1811-leading-digit]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[ELITEA-1811-leading-digit]",
+      "status": "passed",
+      "duration_ms": 54772,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-special-char]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-special-char]",
+      "status": "passed",
+      "duration_ms": 26386,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-underscore]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-underscore]",
+      "status": "passed",
+      "duration_ms": 27075,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-space]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-space]",
+      "status": "passed",
+      "duration_ms": 22983,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_create_bucket_55char_name_and_delete.TestArtifactCreateBucketMaxLengthNameAndDelete.test_create_bucket_max_length_name_and_delete",
+      "name": "test_create_bucket_max_length_name_and_delete",
+      "status": "failed",
+      "duration_ms": 79783,
+      "failure_message": "playwright._impl._errors.TimeoutError: Timeout 15000ms exceeded while waiting for event \"response\" tests/ui/artifacts/test_artifacts_create_bucket_55char_name_and_delete.py:226: in test_create_bucket_max_length_name_and_delete\n    create_response = artifacts_page.click_bucket_save_button(\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/artifacts_page.py:1136: in click_bucket_save_button\n    with self.page.expect_response(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_sync_base.py:85: in __exit__\n    self._event.value\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_sync_base.py:59: in value\n    raise exception\nE   playwright._impl._errors.TimeoutError: Timeout 15000ms exceeded while waiting for event \"response\"",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/artifacts/test_artifacts_create_bucket_55char_name_and_delete.py:226: in test_create_bucket_max_length_name_and_delete\n    create_response = artifacts_page.click_bucket_save_button(\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/artifacts_page.py:1136: in click_bucket_save_button\n    with self.page.expect_response(\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_sync_base.py:85: in __exit__\n    self._event.value\n/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/playwright/_impl/_sync_base.py:59: in value\n    raise exception\nE   playwright._impl._errors.TimeoutError: Timeout 15000ms exceeded while waiting for event \"response\""
+      ]
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_create_bucket_upload_file.TestArtifactCreateBucketAndUploadFile.test_create_bucket_via_form_and_upload_file_via_bucket_menu",
+      "name": "test_create_bucket_via_form_and_upload_file_via_bucket_menu",
+      "status": "passed",
+      "duration_ms": 39871,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_delete_subfolder_checkbox.TestArtifactDeleteSubfolderCheckbox.test_delete_subfolder_via_checkbox",
+      "name": "test_delete_subfolder_via_checkbox",
+      "status": "passed",
+      "duration_ms": 42750,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_delete_subfolder_checkbox.TestArtifactDeleteSubfolderCheckbox.test_delete_multiple_files_partial_selection",
+      "name": "test_delete_multiple_files_partial_selection",
+      "status": "passed",
+      "duration_ms": 50139,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_download_all_files_select_all_zip.TestArtifactDownloadAllFilesSelectAllZip.test_download_all_files_via_select_all_as_zip",
+      "name": "test_download_all_files_via_select_all_as_zip",
+      "status": "passed",
+      "duration_ms": 39043,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_download_multiple_files_zip.TestArtifactDownloadMultipleFilesZip.test_download_multiple_files_as_zip",
+      "name": "test_download_multiple_files_as_zip",
+      "status": "passed",
+      "duration_ms": 35445,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_download_single_file_dropdown.TestArtifactDownloadSingleFileDropdown.test_download_single_file_via_dropdown",
+      "name": "test_download_single_file_via_dropdown",
+      "status": "passed",
+      "duration_ms": 30975,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_duplicate_bucket_name.TestArtifactDuplicateBucketName.test_duplicate_bucket_name_is_not_allowed",
+      "name": "test_duplicate_bucket_name_is_not_allowed",
+      "status": "passed",
+      "duration_ms": 110888,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_actions_dropdown.TestArtifactFilePreviewActionsDropdown.test_actions_dropdown_copy_download_delete",
+      "name": "test_actions_dropdown_copy_download_delete",
+      "status": "passed",
+      "duration_ms": 38412,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_edit_save.TestArtifactFilePreviewEditSave.test_edit_file_content_and_save_changes",
+      "name": "test_edit_file_content_and_save_changes",
+      "status": "passed",
+      "duration_ms": 31871,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_image_restricted_controls.TestArtifactFilePreviewImageRestrictedControls.test_image_file_opens_directly_with_restricted_controls",
+      "name": "test_image_file_opens_directly_with_restricted_controls",
+      "status": "passed",
+      "duration_ms": 23430,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_markdown_default_mode.TestArtifactFilePreviewMarkdownDefaultMode.test_markdown_file_opens_in_preview_mode_by_default",
+      "name": "test_markdown_file_opens_in_preview_mode_by_default",
+      "status": "passed",
+      "duration_ms": 21469,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_markdown_raw_edit_save.TestArtifactFilePreviewMarkdownRawEditSave.test_raw_tab_enables_editing_and_save_persists",
+      "name": "test_raw_tab_enables_editing_and_save_persists",
+      "status": "passed",
+      "duration_ms": 32509,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_open_editor_ui.TestArtifactFilePreviewOpenEditorUI.test_open_supported_text_file_shows_editor_ui",
+      "name": "test_open_supported_text_file_shows_editor_ui",
+      "status": "passed",
+      "duration_ms": 23477,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_multi_file.TestArtifactMultiFileDownload.test_agent_creates_files_at_root_and_in_subfolder",
+      "name": "test_agent_creates_files_at_root_and_in_subfolder",
+      "status": "passed",
+      "duration_ms": 77126,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_cancel.TestArtifactUploadDuplicateCancel.test_cancel_stops_entire_upload_including_non_duplicate",
+      "name": "test_cancel_stops_entire_upload_including_non_duplicate",
+      "status": "passed",
+      "duration_ms": 26301,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_detected_modal.TestArtifactUploadDuplicateDetectedModal.test_duplicate_detected_opens_resolve_duplicates_modal",
+      "name": "test_duplicate_detected_opens_resolve_duplicates_modal",
+      "status": "passed",
+      "duration_ms": 15654,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_keep_both.TestArtifactUploadDuplicateKeepBoth.test_keep_both_uploads_renamed_copy_alongside_original",
+      "name": "test_keep_both_uploads_renamed_copy_alongside_original",
+      "status": "passed",
+      "duration_ms": 28318,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_skip.TestArtifactUploadDuplicateSkip.test_skip_uploads_only_non_duplicate_file",
+      "name": "test_skip_uploads_only_non_duplicate_file",
+      "status": "passed",
+      "duration_ms": 27374,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_multiple_files.TestArtifactsUploadMultipleFiles.test_upload_multiple_files_at_once",
+      "name": "test_upload_multiple_files_at_once",
+      "status": "passed",
+      "duration_ms": 15449,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_three_options_verify_selection.TestArtifactsUploadThreeOptionsVerifySelection.test_upload_via_three_options_and_verify_selection",
+      "name": "test_upload_via_three_options_and_verify_selection",
+      "status": "failed",
+      "duration_ms": 66047,
+      "failure_message": "AssertionError: Known defect: #649 — bucket-menu 'Upload files' should default to the bucket root, not the currently-navigated subfolder\nExpected value: 'Path​autotest-test-upload-via-three-options-a-688027/​'\nActual value: Path​autotest-test-upload-via-three-options-a-688027/a1/​ \nCall log:\n  - Expect \"to_have_text\" with timeout 10000ms\n  - waiting for get_by_test_id(\"artifacts-upload-path-input\")\n    24 × locator resolved to <div data-testid=\"artifacts-upload-path-input\" class=\"MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-w6pqg3\">…</div>\n       - unexpected value \"Path​autotest-test-upload-via-three-options-a-688027/a1/​\"\n\nAria snapshot:\n- text: Path autotest-test-upload-via-three-options-a-688027/a1/\n- textbox \"Path\"\n- paragraph /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pytest_playwright/pytest_playwright.py:120: in pytest_runtest_call\n    raise errors[0]\nE   AssertionError: Known defect: #649 — bucket-menu 'Upload files' should default to the bucket root, not the currently-navigated subfolder\nE   Expected value: 'Path​autotest-test-upload-via-three-options-a-688027/​'\nE   Actual value: Path​autotest-test-upload-via-three-options-a-688027/a1/​ \nE   Call log:\nE     - Expect \"to_have_text\" with timeout 10000ms\nE     - waiting for get_by_test_id(\"artifacts-upload-path-input\")\nE       24 × locator resolved to <div data-testid=\"artifacts-upload-path-input\" class=\"MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-w6pqg3\">…</div>\nE          - unexpected value \"Path​autotest-test-upload-via-three-options-a-688027/a1/​\"\nE   \nE   Aria snapshot:\nE   - text: Path autotest-test-upload-via-three-options-a-688027/a1/\nE   - textbox \"Path\"\nE   - paragraph",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_selection_from_chat",
+      "name": "test_voice_selection_from_chat",
+      "status": "passed",
+      "duration_ms": 33667,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_speed_and_volume_controls",
+      "name": "test_speed_and_volume_controls",
+      "status": "passed",
+      "duration_ms": 36734,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_sync",
+      "name": "test_voice_settings_sync",
+      "status": "passed",
+      "duration_ms": 38998,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_preview_personalization",
+      "name": "test_voice_preview_personalization",
+      "status": "passed",
+      "duration_ms": 20447,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_not_visible_by_default",
+      "name": "test_voice_settings_not_visible_by_default",
+      "status": "passed",
+      "duration_ms": 20837,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTour.test_sidebar_interactive_tour_completes_via_next",
+      "name": "test_sidebar_interactive_tour_completes_via_next",
+      "status": "passed",
+      "duration_ms": 45422,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent-hub.test_agent_hub_trending_category.TestAgentHubTrendingCategory.test_agent_hub_trending_category_displays_agents",
+      "name": "test_agent_hub_trending_category_displays_agents",
+      "status": "passed",
+      "duration_ms": 31663,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads",
+      "name": "test_page_loads",
+      "status": "passed",
+      "duration_ms": 9379,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible",
+      "name": "test_main_content_visible",
+      "status": "passed",
+      "duration_ms": 14420,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error",
+      "name": "test_ai_providers_page_sections_load_without_error",
+      "status": "passed",
+      "duration_ms": 13379,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_context_management_toggle_enables_disables_fields",
+      "name": "test_context_management_toggle_enables_disables_fields",
+      "status": "passed",
+      "duration_ms": 18630,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_automatic_summarization_toggle_enables_disables_own_fields",
+      "name": "test_automatic_summarization_toggle_enables_disables_own_fields",
+      "status": "passed",
+      "duration_ms": 12351,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_target_summary_tokens_range_validation",
+      "name": "test_target_summary_tokens_range_validation",
+      "status": "passed",
+      "duration_ms": 13222,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_max_context_tokens_rejects_non_numeric_and_negative_input",
+      "name": "test_max_context_tokens_rejects_non_numeric_and_negative_input",
+      "status": "failed",
+      "duration_ms": 81621,
+      "failure_message": "playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded while waiting for event \"response\" tests/ui/settings/test_context_management_toggle.py:673: in test_max_context_tokens_rejects_non_numeric_and_negative_input\n    with page.expect_response(_is_autosave_put_response, timeout=AUTOSAVE_TIMEOUT) as put_info:\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_sync_base.py:85: in __exit__\n    self._event.value\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_sync_base.py:59: in value\n    raise exception\nE   playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded while waiting for event \"response\"",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/settings/test_context_management_toggle.py:673: in test_max_context_tokens_rejects_non_numeric_and_negative_input\n    with page.expect_response(_is_autosave_put_response, timeout=AUTOSAVE_TIMEOUT) as put_info:\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_sync_base.py:85: in __exit__\n    self._event.value\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_sync_base.py:59: in value\n    raise exception\nE   playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded while waiting for event \"response\""
+      ]
+    },
+    {
+      "code_ref": "tests.ui.settings.test_set_llm_model_default_high_low_tier.TestSetLLMModelTiers.test_set_llm_model_default_high_low_tier",
+      "name": "test_set_llm_model_default_high_low_tier",
+      "status": "passed",
+      "duration_ms": 28516,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    }
+  ]
+}
