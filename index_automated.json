@@ -7468,6 +7468,62 @@
       "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2265_new-notification-appears-in-the-list.md"
     },
     {
+      "id": "ELITEA-2671",
+      "title": "Mid-turn Input Happy Path - Enable, Send, Process, History, Persistence",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "default-modules",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:settings",
+        "eng:backend",
+        "eng:frontend",
+        "eng:sdk",
+        "r-2.0.6",
+        "automated"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6115"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/mid-turn-input/ELITEA-2671_mid-turn-input-happy-path-end-to-end.md"
+    },
+    {
+      "id": "ELITEA-2672",
+      "title": "Mid-turn Input Disabled - Verify Legacy Behavior Preserved",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "default-modules",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:settings",
+        "eng:backend",
+        "eng:frontend",
+        "regression",
+        "r-2.0.6",
+        "automated"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6115"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/mid-turn-input/ELITEA-2672_mid-turn-input-disabled-legacy-behavior.md"
+    },
+    {
       "id": "ELITEA-2371",
       "title": "Personalization page loads with all sections visible and correctly structured",
       "status": "draft",
