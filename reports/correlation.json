@@ -1,4 +1,483 @@
 {
-  "matched": [],
-  "unmatched_refs": []
+  "matched": [
+    {
+      "case_id": "ELITEA-2374",
+      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_context_management_toggle_enables_disables_fields",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2377",
+      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_automatic_summarization_toggle_enables_disables_own_fields",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2378",
+      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_target_summary_tokens_range_validation",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2392",
+      "code_ref": "tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2397",
+      "code_ref": "tests.ui.settings.test_set_llm_model_default_high_low_tier.TestSetLLMModelTiers.test_set_llm_model_default_high_low_tier",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1808",
+      "code_ref": "tests.ui.artifacts.test_artifacts_create_bucket_upload_file.TestArtifactCreateBucketAndUploadFile.test_create_bucket_via_form_and_upload_file_via_bucket_menu",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1809",
+      "code_ref": "tests.ui.artifacts.test_artifacts_duplicate_bucket_name.TestArtifactDuplicateBucketName.test_duplicate_bucket_name_is_not_allowed",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1826",
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_multiple_files.TestArtifactsUploadMultipleFiles.test_upload_multiple_files_at_once",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1828",
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_detected_modal.TestArtifactUploadDuplicateDetectedModal.test_duplicate_detected_opens_resolve_duplicates_modal",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1829",
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_skip.TestArtifactUploadDuplicateSkip.test_skip_uploads_only_non_duplicate_file",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1831",
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_keep_both.TestArtifactUploadDuplicateKeepBoth.test_keep_both_uploads_renamed_copy_alongside_original",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1832",
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_cancel.TestArtifactUploadDuplicateCancel.test_cancel_stops_entire_upload_including_non_duplicate",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1839",
+      "code_ref": "tests.ui.artifacts.test_artifacts_download_single_file_dropdown.TestArtifactDownloadSingleFileDropdown.test_download_single_file_via_dropdown",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1840",
+      "code_ref": "tests.ui.artifacts.test_artifacts_download_multiple_files_zip.TestArtifactDownloadMultipleFilesZip.test_download_multiple_files_as_zip",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1846",
+      "code_ref": "tests.ui.artifacts.test_artifacts_delete_subfolder_checkbox.TestArtifactDeleteSubfolderCheckbox.test_delete_multiple_files_partial_selection",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1847",
+      "code_ref": "tests.ui.artifacts.test_artifacts_delete_subfolder_checkbox.TestArtifactDeleteSubfolderCheckbox.test_delete_subfolder_via_checkbox",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1851",
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_open_editor_ui.TestArtifactFilePreviewOpenEditorUI.test_open_supported_text_file_shows_editor_ui",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1852",
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_edit_save.TestArtifactFilePreviewEditSave.test_edit_file_content_and_save_changes",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1856",
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_actions_dropdown.TestArtifactFilePreviewActionsDropdown.test_actions_dropdown_copy_download_delete",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1857",
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_markdown_default_mode.TestArtifactFilePreviewMarkdownDefaultMode.test_markdown_file_opens_in_preview_mode_by_default",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1858",
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_markdown_raw_edit_save.TestArtifactFilePreviewMarkdownRawEditSave.test_raw_tab_enables_editing_and_save_persists",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1862",
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_image_restricted_controls.TestArtifactFilePreviewImageRestrictedControls.test_image_file_opens_directly_with_restricted_controls",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1866",
+      "code_ref": "tests.ui.toolkits.test_toolkit_creation_create_bucket_verify_list_files.TestToolkitCreationCreateBucketVerifyListFiles.test_create_artifact_toolkit_creates_bucket_verify_list_files",
+      "status": "failed"
+    },
+    {
+      "case_id": "ELITEA-2360",
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_start_conversation_creates_new_chat.TestAgentHubStartConversationCreatesNewChat.test_agent_hub_start_conversation_creates_new_chat",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2367",
+      "code_ref": "tests.ui.agent_hub.test_empty_state.TestCatalogEmptyState.test_empty_state_when_search_matches_no_agents",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1869",
+      "code_ref": "tests.ui.agents.test_agent_back_navigation.test_back_button_from_agent_detail_returns_to_intact_agents_list",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1870",
+      "code_ref": "tests.ui.agents.test_agent_create_button_navigation.test_create_button_navigates_to_create_agent_page",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1884",
+      "code_ref": "tests.ui.agents.test_agent_remove_variable.TestAgentRemoveVariable.test_remove_variable_and_verify_removal_persists",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1889",
+      "code_ref": "tests.ui.agents.test_agent_save_as_version_preserves_skills.TestAgentSaveAsVersionPreservesSkills.test_agent_save_as_version_preserves_skills",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1950",
+      "code_ref": "tests.ui.agents.test_mcp_attach_via_tools_section.TestMcpAttachViaToolsSection.test_mcp_attach_via_tools_section",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1796",
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_launcher_visible_and_opens_widget",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1798",
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantMessaging.test_send_message_and_receive_response",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1799",
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantNewSession.test_new_chat_creates_fresh_session",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1800",
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantHistory.test_history_restore_and_continue",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1801",
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantViewModes.test_expand_collapse_fullview",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1802",
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantAttachments.test_attach_button_present_and_opens_picker",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2227",
+      "code_ref": "tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTour.test_sidebar_interactive_tour_completes_via_next",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1739",
+      "code_ref": "tests.ui.skills.test_skill_search.TestSkillSearch.test_search_skills_by_name",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1740",
+      "code_ref": "tests.ui.skills.test_skill_tag_filter.TestSkillTagFilter.test_filter_skills_by_tag",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1789",
+      "code_ref": "tests.ui.skills.test_skill_agent_version_selector.TestAttachSkillToAgentWithVersionSelector.test_attach_skill_to_agent_with_version_selector",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1790",
+      "code_ref": "tests.ui.skills.test_agent_max_five_skills_limit.TestAgentMaxFiveSkillsLimit.test_max_five_skills_attach_limit",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1791",
+      "code_ref": "tests.ui.skills.test_agent_instructions_tilde_mention.TestTildeMentionListsOnlyAttachedSkills.test_tilde_mention_in_instructions_lists_only_attached_skills",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1792",
+      "code_ref": "tests.ui.skills.test_remove_attached_skill_from_agent.TestRemoveAttachedSkillFromAgent.test_remove_attached_skill_from_agent",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1793",
+      "code_ref": "tests.ui.skills.test_ghost_skill_after_agent_removed.TestGhostSkillAfterAgentRemoved.test_ghost_skill_not_shown_after_agent_participant_removed",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1795",
+      "code_ref": "tests.ui.skills.test_import_agent_recreates_skills_with_new_ids.TestImportAgentRecreatesSkillsWithNewIds.test_import_agent_recreates_skills_with_new_ids",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1975",
+      "code_ref": "tests.ui.toolkits.test_credential_required_fields_validation.TestCredentialRequiredFieldsValidation.test_create_credential_required_fields_validation",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0498",
+      "code_ref": "tests.ui.chat.test_chat_interface.TestHashSearch.test_hash_search_participants",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0498",
+      "code_ref": "tests.ui.chat.test_chat_interface.TestHashSearch.test_add_participant_via_hash_search",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0500",
+      "code_ref": "tests.ui.chat.test_chat_interface.TestContextAndSettings.test_edit_context_settings",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0500",
+      "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_sends_file_with_message",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0500",
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_open_close_sidebar",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0500",
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_navigate_to_agents_from_sidebar",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0500",
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSearchAndErrorHandling.test_search_conversations_dialog",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0500",
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSearchAndErrorHandling.test_handle_message_send_failure",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0501",
+      "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_model_selector_opens_menu",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0501",
+      "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_internal_tools_panel_shows_all_tools",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0501",
+      "code_ref": "tests.ui.chat.test_chat_interface.TestHashSearch.test_hash_search_participants",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0501",
+      "code_ref": "tests.ui.chat.test_chat_interface.TestHashSearch.test_add_participant_via_hash_search",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0502",
+      "code_ref": "tests.ui.chat.test_chat_interface.TestMessageActions.test_copy_message_to_clipboard",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0503",
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSendingMessages.test_send_text_message",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0503",
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSendingMessages.test_cannot_send_empty_message",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1180",
+      "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1181",
+      "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1183",
+      "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0059",
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_fullscreen_counter_and_warning",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0059",
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_fullscreen_counter_and_warning",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0061",
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_counter_turns_red_at_limit",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0061",
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_counter_turns_red_at_limit",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0062",
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_text_truncated_with_warning",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0063",
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_multiple_conversation_starters_have_counters",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0064",
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_counter_visible_and_updates_realtime",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0064",
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_fullscreen_counter_and_warning",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0064",
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_counter_visible_and_updates",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0064",
+      "code_ref": "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_fullscreen_counter_and_warning",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0143",
+      "code_ref": "tests.ui.agents.test_agent_with_github_toolkit.TestAddToolkitToAgent.test_add_toolkit_to_agent",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0143",
+      "code_ref": "tests.ui.agents.test_agent_with_github_toolkit.TestChatWithAgentToolkit.test_agent_chat_with_github_toolkit",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0143",
+      "code_ref": "tests.ui.agents.test_agent_with_github_toolkit.TestRemoveToolkitFromAgent.test_remove_toolkit_from_agent",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0143",
+      "code_ref": "tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-0853",
+      "code_ref": "tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1312",
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_selection_from_chat",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1313",
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_speed_and_volume_controls",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1314",
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_sync",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1315",
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_selection_from_chat",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1316",
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_preview_personalization",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1052",
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-1052",
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible",
+      "status": "passed"
+    }
+  ],
+  "unmatched_refs": [
+    "tests.ui.agent_hub.test_agent_hub_close_agent_detail_modal.TestAgentHubCloseAgentDetailModal.test_agent_hub_close_agent_detail_modal",
+    "tests.ui.agent_hub.test_agent_hub_copy_link_from_modal.TestAgentHubCopyLinkFromModal.test_copy_link_from_modal_navigates_to_agent",
+    "tests.ui.agent_hub.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories",
+    "tests.ui.agent_hub.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category",
+    "tests.ui.agent_hub.test_agent_hub_like_agent_from_modal.TestAgentHubLikeAgentFromModal.test_agent_hub_like_agent_from_modal",
+    "tests.ui.agent_hub.test_agent_hub_like_agent_list_view.TestAgentHubLikeAgentListView.test_agent_hub_like_agent_from_list_view",
+    "tests.ui.agent_hub.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal",
+    "tests.ui.agent_hub.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project",
+    "tests.ui.agent_hub.test_agent_hub_search_bar_filters_in_real_time.TestAgentHubSearchBarFiltersInRealTime.test_agent_hub_search_bar_filters_in_real_time",
+    "tests.ui.agent_hub.test_agent_hub_trending_category.TestAgentHubTrendingCategory.test_agent_hub_trending_category_displays_agents",
+    "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1811-leading-digit]",
+    "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-space]",
+    "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-special-char]",
+    "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-underscore]",
+    "tests.ui.artifacts.test_artifacts_multi_file.TestArtifactMultiFileDownload.test_agent_creates_files_at_root_and_in_subfolder",
+    "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_no_access_permission_blocks_all_api_operations",
+    "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_read_only_permission_allows_get_blocks_write_operations",
+    "tests.ui.chat.test_chat_interface.TestPageLoadAndRendering.test_chat_page_loads_with_functional_input",
+    "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[10k_tokens]",
+    "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[32k_tokens]",
+    "tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[detailed_description]",
+    "tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[minimal_prompt]",
+    "tests.ui.chat.test_open_existing_conversation_from_this_week_section.TestOpenExistingConversationFromThisWeekSection.test_open_existing_conversation_from_this_week_section",
+    "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_widget_state_persists_after_close_reopen",
+    "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestAgentCredentialIndicators.test_agent_credential_indicators_e2e",
+    "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestPipelineCredentialIndicators.test_pipeline_credential_indicators_e2e",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[bitbucket]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[confluence]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[github]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[gitlab]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[jira]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[bitbucket]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[confluence]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[github]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[gitlab]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[jira]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[bitbucket]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[confluence]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[github]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[gitlab]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[jira]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[bitbucket]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[confluence]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[github]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[gitlab]",
+    "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[jira]",
+    "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_not_visible_by_default"
+  ]
 }
