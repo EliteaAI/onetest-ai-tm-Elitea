@@ -4,8 +4,10 @@ title: "Context Management – Global Setting Enabled, Auto-Summarization Disabl
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: "tests.ui.chat.test_context_auto_summarization_disabled.TestContextAutoSummarizationDisabled.test_no_summarization_when_auto_summarization_disabled"
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1608
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

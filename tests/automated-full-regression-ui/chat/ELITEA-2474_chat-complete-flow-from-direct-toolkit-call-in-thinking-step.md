@@ -4,8 +4,10 @@ title: "Chat – Complete flow from direct toolkit call in thinking steps to out
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: "tests.ui.chat.test_direct_toolkit_call_complete_flow.TestDirectToolkitCallCompleteFlow.test_direct_toolkit_call_complete_flow"
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1608
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
