@@ -1,37 +1,37 @@
 # Test Dashboard
 
-_Generated: 2026-08-20 12:33 UTC_
+_Generated: 2026-08-20 13:44 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-08-20-26-DEV-STABLE-ALL-FAILED**
+**RUN-ELITEA-2026-08-20-27-DEV-STABLE-ALL-FAILED**
 
 ```mermaid
 pie showData
-    title "Test Results (126 total)"
-    "Passed" : 110
-    "Failed" : 4
+    title "Test Results (140 total)"
+    "Passed" : 116
+    "Failed" : 12
     "Skipped" : 12
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 126 |
-| Passed | 110 |
-| Failed | 4 |
+| Total | 140 |
+| Passed | 116 |
+| Failed | 12 |
 | Skipped | 12 |
-| Reruns | 8 |
-| Pass Rate | 87.3% |
+| Reruns | 18 |
+| Pass Rate | 82.9% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [18-8-DEV-ALL, 19-1-DEV-ALL, 19-17-DEV-STABLE, 20-17-DEV-STABLE, 20-2-DEV-ALL, 20-21-DEV-STABLE, 20-22-DEV-STABLE, 20-24-DEV-STABLE, 20-25-DEV-STABLE, 20-26-DEV-STABLE]
-    y-axis "Tests" 0 --> 115
-    bar "Passed" [81, 46, 80, 83, 46, 82, 82, 103, 0, 110]
-    bar "Failed" [4, 6, 5, 2, 6, 2, 2, 1, 0, 4]
+    x-axis [19-1-DEV-ALL, 19-17-DEV-STABLE, 20-17-DEV-STABLE, 20-2-DEV-ALL, 20-21-DEV-STABLE, 20-22-DEV-STABLE, 20-24-DEV-STABLE, 20-25-DEV-STABLE, 20-26-DEV-STABLE, 20-27-DEV-STABLE]
+    y-axis "Tests" 0 --> 121
+    bar "Passed" [46, 80, 83, 46, 82, 82, 103, 0, 110, 116]
+    bar "Failed" [6, 5, 2, 6, 2, 2, 1, 0, 4, 12]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [18-8-DEV-ALL, 19-1-DEV-ALL, 19-17-DEV-STABLE, 20-17-DEV-STABLE, 20-2-DEV-ALL, 20-21-DEV-STABLE, 20-22-DEV-STABLE, 20-24-DEV-STABLE, 20-25-DEV-STABLE, 20-26-DEV-STABLE]
-    y-axis "Reruns" 0 --> 11
-    line "Reruns" [0, 0, 6, 3, 8, 0, 2, 2, 0, 8]
+    x-axis [19-1-DEV-ALL, 19-17-DEV-STABLE, 20-17-DEV-STABLE, 20-2-DEV-ALL, 20-21-DEV-STABLE, 20-22-DEV-STABLE, 20-24-DEV-STABLE, 20-25-DEV-STABLE, 20-26-DEV-STABLE, 20-27-DEV-STABLE]
+    y-axis "Reruns" 0 --> 21
+    line "Reruns" [0, 6, 3, 8, 0, 2, 2, 0, 8, 18]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 20-27-DEV-STABLE | 140 | 116 | 12 | 12 | 18 | 83% |
 | ❌ 20-26-DEV-STABLE | 126 | 110 | 4 | 12 | 8 | 87% |
 | ✅ 20-25-DEV-STABLE | 0 | 0 | 0 | 0 | 0 | 0% |
 | ❌ 20-24-DEV-STABLE | 114 | 103 | 1 | 10 | 2 | 90% |
@@ -57,7 +58,6 @@ xychart-beta
 | ❌ 20-17-DEV-STABLE | 95 | 83 | 2 | 10 | 3 | 87% |
 | ❌ 19-17-DEV-STABLE | 95 | 80 | 5 | 10 | 6 | 84% |
 | ❌ 19-1-DEV-ALL | 52 | 46 | 6 | 0 | 0 | 88% |
-| ❌ 18-8-DEV-ALL | 95 | 81 | 4 | 10 | 0 | 85% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -66,4 +66,142 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 
 ## TMS Coverage Analysis
 
-_Automation index not found. Run `build-test-index` workflow first._
+| Metric | Count |
+|--------|-------|
+| Tests in automation | 458 |
+| Tests linked to TMS cases | 272 |
+| Tests without TMS case | 186 |
+| Orphan TMS refs (test missing) | 141 |
+| **TMS Coverage** | **59.4%** |
+
+```mermaid
+pie showData
+    title "TMS Linkage (458 tests)"
+    "Linked to TMS" : 272
+    "No TMS case" : 186
+```
+
+### Tests Without TMS Case
+
+_Tests that exist in automation but have no linked TMS case._
+
+<details>
+<summary>Show 186 unlinked tests</summary>
+
+- `api/chat.test_conversation_details_api.TestConversationDetailsErrorPath.test_nonexistent_conversation_returns_400`
+- `api/chat.test_conversation_details_api.TestConversationDetailsFields.test_participants_included_by_default`
+- `api/chat.test_conversation_details_api.TestConversationDetailsHappyPath.test_get_conversation_content_type_is_json`
+- `api/chat.test_conversation_details_api.TestConversationDetailsHappyPath.test_get_conversation_returns_valid_json`
+- `api/export_import.test_export_import_pipelines.TestPipelineExportImportConflicts.test_pipeline_import_preserves_original_when_conflict`
+- `api/export_import.test_export_import_pipelines.TestPipelineExportImportConflicts.test_pipeline_import_with_conflicting_name`
+- `api/export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_all_node_types`
+- `api/export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_complex_topology`
+- `api/export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_empty_description`
+- `api/export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_special_characters_in_name`
+- `api/export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_import_via_constructed_payload`
+- `api/export_import.test_export_import_pipelines.TestPipelineExportImportRoundtrip.test_pipeline_export_format_is_valid_yaml`
+- `api/export_import.test_export_import_pipelines.TestPipelineExportImportRoundtrip.test_pipeline_export_import_preserves_all_fields`
+- `api/export_import.test_export_import_pipelines.TestPipelineExportImportRoundtrip.test_pipeline_export_import_roundtrip_basic`
+- `api/export_import.test_export_import_prompts.TestExportImportConflicts.test_import_preserves_original_when_conflict`
+- `api/export_import.test_export_import_prompts.TestExportImportConflicts.test_import_with_conflicting_name_creates_new`
+- `api/export_import.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_empty_optional_fields`
+- `api/export_import.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_large_instructions`
+- `api/export_import.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_special_characters_in_name`
+- `api/export_import.test_export_import_prompts.TestExportImportEdgeCases.test_import_via_constructed_payload`
+- `api/export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_format_is_valid_yaml_frontmatter`
+- `api/export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_preserves_all_fields`
+- `api/export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_roundtrip_basic`
+- `api/test_api_health.TestAPIHealth.test_api_returns_json`
+- `api/test_api_health.TestAPIHealth.test_api_root_reachable`
+- `api/test_api_health.TestAuthenticatedAPI.test_list_agents`
+- `admin.test_guardrails_cleanup_only.test_cleanup_after`
+- `admin.test_guardrails_cleanup_only.test_cleanup_before`
+- `admin.test_guardrails_live_reload.TestBlockedToolLiveReload.test_blocked_tool_live_reload_case_insensitive`
+- `admin.test_guardrails_live_reload.TestBlockedToolkitLiveReload.test_blocked_toolkit_live_reload_case_insensitive`
+- `admin.test_guardrails_live_reload.TestSensitiveToolLiveReload.test_sensitive_tool_live_reload_case_insensitive`
+- `agent_hub.test_agent_hub_close_agent_detail_modal.TestAgentHubCloseAgentDetailModal.test_agent_hub_close_agent_detail_modal`
+- `agent_hub.test_agent_hub_copy_link_from_modal.TestAgentHubCopyLinkFromModal.test_copy_link_from_modal_navigates_to_agent`
+- `agent_hub.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories`
+- `agent_hub.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category`
+- `agent_hub.test_agent_hub_like_agent_from_modal.TestAgentHubLikeAgentFromModal.test_agent_hub_like_agent_from_modal`
+- `agent_hub.test_agent_hub_like_agent_list_view.TestAgentHubLikeAgentListView.test_agent_hub_like_agent_from_list_view`
+- `agent_hub.test_agent_hub_my_liked_filter_shows_only_liked_agents.TestAgentHubMyLikedFilterShowsOnlyLikedAgents.test_agent_hub_my_liked_filter_shows_only_liked_agents`
+- `agent_hub.test_agent_hub_my_liked_reload_cross_tab_sync.TestAgentHubMyLikedReloadCrossTabSync.test_agent_hub_my_liked_reload_reflects_cross_tab_like`
+- `agent_hub.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal`
+- `agent_hub.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project`
+- `agent_hub.test_agent_hub_page_loads_team_project.TestAgentHubPageLoadsTeamProject.test_agent_hub_page_loads_team_project`
+- `agent_hub.test_agent_hub_search_bar_filters_in_real_time.TestAgentHubSearchBarFiltersInRealTime.test_agent_hub_search_bar_filters_in_real_time`
+- `agent_hub.test_agent_hub_trending_category.TestAgentHubTrendingCategory.test_agent_hub_trending_category_displays_agents`
+- `agent_hub.test_agent_hub_unlike_agent_list_view.TestAgentHubUnlikeAgentListView.test_agent_hub_unlike_agent_from_list_view`
+- `agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_counter_turns_red_at_limit`
+- `agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_counter_visible_and_updates`
+- `agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_fullscreen_counter_and_warning`
+- `agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_text_truncated_with_warning`
+- `agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_multiple_conversation_starters_have_counters`
+- _... and 136 more_
+
+</details>
+
+### Orphan TMS References
+
+_TMS cases reference tests that don't exist in automation (renamed/deleted?)._
+
+<details>
+<summary>Show 141 orphan refs</summary>
+
+- `agent-hub.test_agent_hub_trending_category.TestAgentHubTrendingCategory.test_agent_hub_trending_category_displays_agents` (ELITEA-2366)
+- `agents.test_agent_hub_close_agent_detail_modal.TestAgentHubCloseAgentDetailModal.test_agent_hub_close_agent_detail_modal` (ELITEA-2357)
+- `agents.test_agent_hub_copy_link_from_modal.TestAgentHubCopyLinkFromModal.test_copy_link_from_modal_navigates_to_agent` (ELITEA-2359)
+- `agents.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories` (ELITEA-2353)
+- `agents.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category` (ELITEA-2352)
+- `agents.test_agent_hub_like_agent_from_modal.TestAgentHubLikeAgentFromModal.test_agent_hub_like_agent_from_modal` (ELITEA-2358)
+- `agents.test_agent_hub_like_agent_list_view.TestAgentHubLikeAgentListView.test_agent_hub_like_agent_from_list_view` (ELITEA-2354)
+- `agents.test_agent_hub_my_liked_filter_shows_only_liked_agents.TestAgentHubMyLikedFilterShowsOnlyLikedAgents.test_agent_hub_my_liked_filter_shows_only_liked_agents` (ELITEA-2364)
+- `agents.test_agent_hub_my_liked_reload_cross_tab_sync.TestAgentHubMyLikedReloadCrossTabSync.test_agent_hub_my_liked_reload_reflects_cross_tab_like` (ELITEA-2365)
+- `agents.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal` (ELITEA-2356)
+- `agents.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project` (ELITEA-2350)
+- `agents.test_agent_hub_page_loads_team_project.TestAgentHubPageLoadsTeamProject.test_agent_hub_page_loads_team_project` (ELITEA-2351)
+- `agents.test_agent_hub_search_bar_filters_in_real_time.TestAgentHubSearchBarFiltersInRealTime.test_agent_hub_search_bar_filters_in_real_time` (ELITEA-2363)
+- `agents.test_agent_hub_unlike_agent_list_view.TestAgentHubUnlikeAgentListView.test_agent_hub_unlike_agent_from_list_view` (ELITEA-2355)
+- `artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format` (ELITEA-1814)
+- `chat.test_agent_hub_create_conversation_via_starter.TestAgentHubCreateConversationViaStarter.test_agent_hub_create_conversation_via_starter` (ELITEA-2093)
+- `chat.test_attach_files_10_left_counter.TestAttachFiles10LeftCounter.test_attach_files_menuitem_shows_10_left_counter` (ELITEA-2195)
+- `chat.test_attach_files_multiple_chips_display.TestAttachFilesMultipleChipsDisplay.test_attach_files_of_different_types_shows_identical_icon_and_long_filename_truncates` (ELITEA-2199)
+- `chat.test_attach_files_multiple_chips_display.TestAttachFilesMultipleChipsDisplay.test_attach_files_then_remove_two_individually_sequentially` (ELITEA-2198)
+- `chat.test_attach_files_multiple_chips_display.TestAttachFilesMultipleChipsDisplay.test_attach_multiple_files_displays_chips_above_composer` (ELITEA-2196)
+- `chat.test_attach_files_multiple_chips_display.TestAttachFilesMultipleChipsDisplay.test_long_filename_truncates_and_overflow_indicator_click_expands` (ELITEA-2467)
+- `chat.test_build_with_ai_cancel_then_generate_echo_agent.TestBuildWithAICancelThenGenerateEchoAgent.test_cancel_then_generate_creates_echo_agent_in_canvas` (ELITEA-2073)
+- `chat.test_chat_agent_starters_add_remove.TestChatAddAgentWithStartersAndSendViaStarter.test_add_agent_with_starters_and_send_via_starter` (ELITEA-2465)
+- `chat.test_chat_agent_starters_add_remove.TestChatAddAgentWithStartersToConversation.test_add_agent_with_starters_to_conversation` (ELITEA-2177)
+- `chat.test_chat_agent_starters_add_remove.TestChatRemoveAgentClearsConversationStarters.test_remove_agent_clears_conversation_starters` (ELITEA-2178)
+- `chat.test_chat_canvas_edit_agent.TestChatCanvasEditAgent.test_edit_agent_welcome_message_syncs_to_agents_section` (ELITEA-2089)
+- `chat.test_chat_folder_creation_custom_name_and_cancel.TestChatFolderCreationCustomNameAndCancel.test_cancel_folder_creation_discards_folder` (ELITEA-2134)
+- `chat.test_chat_folder_creation_custom_name_and_cancel.TestChatFolderCreationCustomNameAndCancel.test_create_folder_with_custom_name` (ELITEA-2457)
+- `chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_folder_rename_cancel_via_x_icon_discards_changes` (ELITEA-2122)
+- `chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_folder_rename_no_changes_close_via_x_icon` (ELITEA-2131)
+- `chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_folder_rename_via_context_menu_edit_option` (ELITEA-2121)
+- `chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_pinned_folder_rename_retains_pin_state` (ELITEA-2130)
+- `chat.test_chat_folder_rename_length_boundaries.TestChatFolderRenameLengthBoundaries.test_rename_folder_length_boundary_50_chars_accepted` (ELITEA-2128)
+- `chat.test_chat_folder_rename_length_boundaries.TestChatFolderRenameLengthBoundaries.test_rename_folder_type_and_paste_beyond_max_length_truncates` (ELITEA-2129)
+- `chat.test_chat_interface.TestHashSearch.test_add_agent_via_hash_search_joins_participants_and_responds` (ELITEA-2469)
+- `chat.test_chat_interface.TestHashSearch.test_add_pipeline_via_hash_search_joins_participants_and_responds` (ELITEA-2470)
+- `chat.test_chat_interface.TestHashSearch.test_hash_search_shows_agents_and_pipelines_from_all_sources` (ELITEA-2206)
+- `chat.test_chat_search_and_modules_panel.TestChatSearchAndModulesPanel.test_search_cleared_by_x_icon_restores_default_view` (ELITEA-2164)
+- `chat.test_chat_search_and_modules_panel.TestChatSearchAndModulesPanel.test_search_input_cleared_by_deleting_text_updates_dynamically` (ELITEA-2165)
+- `chat.test_chat_search_and_modules_panel.TestChatSearchAndModulesPanel.test_search_no_results_state` (ELITEA-2163)
+- `chat.test_close_toolkit_canvas_without_saving.TestCloseToolkitCanvasWithoutSaving.test_close_toolkit_canvas_without_saving_creates_no_toolkit` (ELITEA-2081)
+- `chat.test_context_auto_summarization_disabled.TestContextAutoSummarizationDisabled.test_no_summarization_when_auto_summarization_disabled` (ELITEA-2217)
+- `chat.test_context_management_disabled.TestContextManagementDisabledWidgetStaysZero.test_context_management_disabled_widget_stays_at_zero` (ELITEA-2216)
+- `chat.test_conversation_deletion_inside_folder.TestConversationDeletionInsideFolder.test_delete_conversation_inside_folder_preserves_folder` (ELITEA-2115)
+- `chat.test_conversation_rename_basic_via_edit_option.TestConversationRenameBasicViaEditOption.test_rename_conversation_basic_via_edit_option` (ELITEA-2099)
+- `chat.test_conversation_rename_cancel_discards_changes.TestConversationRenameCancelDiscardsChanges.test_rename_conversation_cancel_discards_changes` (ELITEA-2100)
+- `chat.test_conversation_rename_checkmark_active_state.TestConversationRenameCheckmarkActiveState.test_rename_checkmark_activates_at_three_characters` (ELITEA-2109)
+- `chat.test_conversation_rename_checkmark_active_state.TestConversationRenameCheckmarkActiveState.test_rename_checkmark_inactive_click_has_no_effect[ELITEA-2105-no-changes]` (ELITEA-2105)
+- `chat.test_conversation_rename_checkmark_active_state.TestConversationRenameCheckmarkActiveState.test_rename_checkmark_inactive_click_has_no_effect[ELITEA-2106-empty-field]` (ELITEA-2106)
+- `chat.test_conversation_rename_checkmark_active_state.TestConversationRenameCheckmarkActiveState.test_rename_checkmark_inactive_click_has_no_effect[ELITEA-2107-1-char]` (ELITEA-2107)
+- _... and 91 more_
+
+</details>
+
+---
+_Compared `automation/index.json` (458 tests) with `index_automated.json` (413 refs)_
