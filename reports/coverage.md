@@ -6,10 +6,10 @@
 |--------|-------|
 | Total test cases | 2789 |
 | Marked automated | 890 |
-| ✅ Linked to CI results | 66 |
+| ✅ Linked to CI results | 0 |
 | 🟧 No automation ref set | 370 |
-| 🟥 Automation gap (ref, no CI match) | 454 |
-| Automation gap % | 51.0% |
+| 🟥 Automation gap (ref, no CI match) | 520 |
+| Automation gap % | 58.4% |
 
 ## Coverage by priority
 
