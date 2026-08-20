@@ -4,8 +4,10 @@ title: "Chat – Create Agent with AI Build – Click Cancel and Verify Creation
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: "tests.ui.chat.test_build_with_ai_cancel_then_generate_echo_agent.TestBuildWithAICancelThenGenerateEchoAgent.test_cancel_then_generate_creates_echo_agent_in_canvas"
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1615
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

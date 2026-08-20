@@ -4,8 +4,10 @@ title: "Chat – Create Pipeline from Conversation – Discard Changes and Verif
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: "tests.ui.chat.test_pipeline_discard_changes_clears_canvas.TestPipelineDiscardChangesClearsCanvas.test_discard_clears_canvas_and_creates_no_pipeline"
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1615
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

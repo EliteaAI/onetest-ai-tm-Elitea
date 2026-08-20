@@ -4,8 +4,10 @@ title: "Chat – Create Pipeline from Conversation – Save Basic Configuration 
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: "tests.ui.chat.test_pipeline_create_save_basic_configuration.TestPipelineCreateSaveBasicConfiguration.test_create_pipeline_save_basic_configuration"
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1615
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
