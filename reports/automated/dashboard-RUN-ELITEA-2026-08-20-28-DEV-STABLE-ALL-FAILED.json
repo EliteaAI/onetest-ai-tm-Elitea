@@ -1,0 +1,21 @@
+{
+  "run_id": "RUN-ELITEA-2026-08-20-28-DEV-STABLE-ALL-FAILED",
+  "generated_at": "2026-08-20T15:09:47.882013+00:00",
+  "latest_run": {
+    "file": "junit-RUN-ELITEA-2026-08-20-28-DEV-STABLE-ALL-FAILED.json",
+    "total": 150,
+    "passed": 129,
+    "failed": 9,
+    "skipped": 12,
+    "reruns": 18,
+    "pass_rate": 86.0
+  },
+  "tms_coverage": {
+    "automation_tests": 432,
+    "tms_refs": 413,
+    "linked": 272,
+    "tests_without_tms": 160,
+    "orphan_tms_refs": 141,
+    "coverage_pct": 63.0
+  }
+}

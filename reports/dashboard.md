@@ -1,37 +1,37 @@
 # Test Dashboard
 
-_Generated: 2026-08-20 13:44 UTC_
+_Generated: 2026-08-20 15:09 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-08-20-27-DEV-STABLE-ALL-FAILED**
+**RUN-ELITEA-2026-08-20-28-DEV-STABLE-ALL-FAILED**
 
 ```mermaid
 pie showData
-    title "Test Results (140 total)"
-    "Passed" : 116
-    "Failed" : 12
+    title "Test Results (150 total)"
+    "Passed" : 129
+    "Failed" : 9
     "Skipped" : 12
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 140 |
-| Passed | 116 |
-| Failed | 12 |
+| Total | 150 |
+| Passed | 129 |
+| Failed | 9 |
 | Skipped | 12 |
 | Reruns | 18 |
-| Pass Rate | 82.9% |
+| Pass Rate | 86.0% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [19-1-DEV-ALL, 19-17-DEV-STABLE, 20-17-DEV-STABLE, 20-2-DEV-ALL, 20-21-DEV-STABLE, 20-22-DEV-STABLE, 20-24-DEV-STABLE, 20-25-DEV-STABLE, 20-26-DEV-STABLE, 20-27-DEV-STABLE]
-    y-axis "Tests" 0 --> 121
-    bar "Passed" [46, 80, 83, 46, 82, 82, 103, 0, 110, 116]
-    bar "Failed" [6, 5, 2, 6, 2, 2, 1, 0, 4, 12]
+    x-axis [19-17-DEV-STABLE, 20-17-DEV-STABLE, 20-2-DEV-ALL, 20-21-DEV-STABLE, 20-22-DEV-STABLE, 20-24-DEV-STABLE, 20-25-DEV-STABLE, 20-26-DEV-STABLE, 20-27-DEV-STABLE, 20-28-DEV-STABLE]
+    y-axis "Tests" 0 --> 134
+    bar "Passed" [80, 83, 46, 82, 82, 103, 0, 110, 116, 129]
+    bar "Failed" [5, 2, 6, 2, 2, 1, 0, 4, 12, 9]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [19-1-DEV-ALL, 19-17-DEV-STABLE, 20-17-DEV-STABLE, 20-2-DEV-ALL, 20-21-DEV-STABLE, 20-22-DEV-STABLE, 20-24-DEV-STABLE, 20-25-DEV-STABLE, 20-26-DEV-STABLE, 20-27-DEV-STABLE]
+    x-axis [19-17-DEV-STABLE, 20-17-DEV-STABLE, 20-2-DEV-ALL, 20-21-DEV-STABLE, 20-22-DEV-STABLE, 20-24-DEV-STABLE, 20-25-DEV-STABLE, 20-26-DEV-STABLE, 20-27-DEV-STABLE, 20-28-DEV-STABLE]
     y-axis "Reruns" 0 --> 21
-    line "Reruns" [0, 6, 3, 8, 0, 2, 2, 0, 8, 18]
+    line "Reruns" [6, 3, 8, 0, 2, 2, 0, 8, 18, 18]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 20-28-DEV-STABLE | 150 | 129 | 9 | 12 | 18 | 86% |
 | ❌ 20-27-DEV-STABLE | 140 | 116 | 12 | 12 | 18 | 83% |
 | ❌ 20-26-DEV-STABLE | 126 | 110 | 4 | 12 | 8 | 87% |
 | ✅ 20-25-DEV-STABLE | 0 | 0 | 0 | 0 | 0 | 0% |
@@ -57,7 +58,6 @@ xychart-beta
 | ❌ 20-2-DEV-ALL | 52 | 46 | 6 | 0 | 8 | 88% |
 | ❌ 20-17-DEV-STABLE | 95 | 83 | 2 | 10 | 3 | 87% |
 | ❌ 19-17-DEV-STABLE | 95 | 80 | 5 | 10 | 6 | 84% |
-| ❌ 19-1-DEV-ALL | 52 | 46 | 6 | 0 | 0 | 88% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -68,17 +68,17 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 
 | Metric | Count |
 |--------|-------|
-| Tests in automation | 458 |
+| Tests in automation | 432 |
 | Tests linked to TMS cases | 272 |
-| Tests without TMS case | 186 |
+| Tests without TMS case | 160 |
 | Orphan TMS refs (test missing) | 141 |
-| **TMS Coverage** | **59.4%** |
+| **TMS Coverage** | **63.0%** |
 
 ```mermaid
 pie showData
-    title "TMS Linkage (458 tests)"
+    title "TMS Linkage (432 tests)"
     "Linked to TMS" : 272
-    "No TMS case" : 186
+    "No TMS case" : 160
 ```
 
 ### Tests Without TMS Case
@@ -86,34 +86,8 @@ pie showData
 _Tests that exist in automation but have no linked TMS case._
 
 <details>
-<summary>Show 186 unlinked tests</summary>
+<summary>Show 160 unlinked tests</summary>
 
-- `api/chat.test_conversation_details_api.TestConversationDetailsErrorPath.test_nonexistent_conversation_returns_400`
-- `api/chat.test_conversation_details_api.TestConversationDetailsFields.test_participants_included_by_default`
-- `api/chat.test_conversation_details_api.TestConversationDetailsHappyPath.test_get_conversation_content_type_is_json`
-- `api/chat.test_conversation_details_api.TestConversationDetailsHappyPath.test_get_conversation_returns_valid_json`
-- `api/export_import.test_export_import_pipelines.TestPipelineExportImportConflicts.test_pipeline_import_preserves_original_when_conflict`
-- `api/export_import.test_export_import_pipelines.TestPipelineExportImportConflicts.test_pipeline_import_with_conflicting_name`
-- `api/export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_all_node_types`
-- `api/export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_complex_topology`
-- `api/export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_empty_description`
-- `api/export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_special_characters_in_name`
-- `api/export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_import_via_constructed_payload`
-- `api/export_import.test_export_import_pipelines.TestPipelineExportImportRoundtrip.test_pipeline_export_format_is_valid_yaml`
-- `api/export_import.test_export_import_pipelines.TestPipelineExportImportRoundtrip.test_pipeline_export_import_preserves_all_fields`
-- `api/export_import.test_export_import_pipelines.TestPipelineExportImportRoundtrip.test_pipeline_export_import_roundtrip_basic`
-- `api/export_import.test_export_import_prompts.TestExportImportConflicts.test_import_preserves_original_when_conflict`
-- `api/export_import.test_export_import_prompts.TestExportImportConflicts.test_import_with_conflicting_name_creates_new`
-- `api/export_import.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_empty_optional_fields`
-- `api/export_import.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_large_instructions`
-- `api/export_import.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_special_characters_in_name`
-- `api/export_import.test_export_import_prompts.TestExportImportEdgeCases.test_import_via_constructed_payload`
-- `api/export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_format_is_valid_yaml_frontmatter`
-- `api/export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_preserves_all_fields`
-- `api/export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_roundtrip_basic`
-- `api/test_api_health.TestAPIHealth.test_api_returns_json`
-- `api/test_api_health.TestAPIHealth.test_api_root_reachable`
-- `api/test_api_health.TestAuthenticatedAPI.test_list_agents`
 - `admin.test_guardrails_cleanup_only.test_cleanup_after`
 - `admin.test_guardrails_cleanup_only.test_cleanup_before`
 - `admin.test_guardrails_live_reload.TestBlockedToolLiveReload.test_blocked_tool_live_reload_case_insensitive`
@@ -138,7 +112,33 @@ _Tests that exist in automation but have no linked TMS case._
 - `agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_fullscreen_counter_and_warning`
 - `agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_text_truncated_with_warning`
 - `agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_multiple_conversation_starters_have_counters`
-- _... and 136 more_
+- `agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_counter_turns_red_at_limit`
+- `agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_counter_visible_and_updates_realtime`
+- `agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_fullscreen_counter_and_warning`
+- `agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_text_truncated_with_warning`
+- `agents.test_agent_management.TestAgentActions.test_delete_agent_via_api`
+- `agents.test_agent_management.TestAgentActions.test_delete_agent_via_ui_menu`
+- `agents.test_agent_management.TestAgentActions.test_edit_agent_description`
+- `agents.test_agent_management.TestAgentActions.test_edit_agent_name`
+- `agents.test_agent_management.TestAgentConfiguration.test_agent_detail_page_loads`
+- `agents.test_agent_management.TestAgentConfiguration.test_agent_information_section`
+- `agents.test_agent_management.TestAgentConfiguration.test_agent_instructions_field`
+- `agents.test_agent_management.TestAgentConfiguration.test_agent_toolkits_section_visible`
+- `agents.test_agent_management.TestAgentConfiguration.test_internal_tools_enum_usage`
+- `agents.test_agent_management.TestAgentList.test_agent_search`
+- `agents.test_agent_management.TestAgentList.test_agent_search_no_results`
+- `agents.test_agent_management.TestAgentList.test_agents_dashboard_loads`
+- `agents.test_agent_management.TestAgentList.test_view_toggle_table_and_card`
+- `agents.test_agent_management.TestCreateAgent.test_create_agent_via_api_visible_in_ui`
+- `agents.test_agent_management.TestCreateAgent.test_create_agent_via_ui`
+- `agents.test_agent_with_github_toolkit.TestAddToolkitToAgent.test_add_toolkit_to_agent`
+- `agents.test_agent_with_github_toolkit.TestChatWithAgentToolkit.test_agent_chat_with_github_toolkit`
+- `agents.test_agent_with_github_toolkit.TestRemoveToolkitFromAgent.test_remove_toolkit_from_agent`
+- `artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1811-leading-digit]`
+- `artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-space]`
+- `artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-special-char]`
+- `artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-underscore]`
+- _... and 110 more_
 
 </details>
 
@@ -204,4 +204,4 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 </details>
 
 ---
-_Compared `automation/index.json` (458 tests) with `index_automated.json` (413 refs)_
+_Compared `automation/index.json` (432 tests) with `index_automated.json` (413 refs)_
