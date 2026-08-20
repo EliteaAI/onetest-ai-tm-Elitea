@@ -16,11 +16,6 @@
       "status": "passed"
     },
     {
-      "case_id": "ELITEA-2391",
-      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_max_context_tokens_rejects_non_numeric_and_negative_input",
-      "status": "failed"
-    },
-    {
       "case_id": "ELITEA-2392",
       "code_ref": "tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error",
       "status": "passed"
@@ -168,7 +163,7 @@
     {
       "case_id": "ELITEA-0500",
       "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_sends_file_with_message",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0500",
