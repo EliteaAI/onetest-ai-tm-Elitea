@@ -138,7 +138,7 @@
     {
       "case_id": "ELITEA-1874",
       "code_ref": "tests.ui.agents.test_agent_embedded_chat_send_message.TestAgentEmbeddedChatSendMessage.test_send_message_via_enter_and_verify_non_empty_response",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1875",
@@ -323,7 +323,7 @@
     {
       "case_id": "ELITEA-2435",
       "code_ref": "tests.ui.skills.test_skill_pin_unpin.TestSkillPinUnpin.test_skill_pin_moves_to_top_and_unpin_reverts",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-2437",
@@ -383,7 +383,7 @@
     {
       "case_id": "ELITEA-0500",
       "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_sends_file_with_message",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-0500",
