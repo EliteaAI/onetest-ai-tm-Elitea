@@ -15056,7 +15056,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5832"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_no_access_permission_blocks_all_api_operations"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15080,7 +15082,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5832"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_read_only_permission_allows_get_blocks_write_operations"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
