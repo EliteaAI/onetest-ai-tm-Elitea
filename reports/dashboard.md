@@ -1,36 +1,37 @@
 # Test Dashboard
 
-_Generated: 2026-08-21 13:32 UTC_
+_Generated: 2026-08-21 14:45 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-08-21-42-DEV-STABLE-SETTINGS-SMOKE-PASSED**
+**RUN-ELITEA-2026-08-21-43-DEV-STABLE-ALL-FAILED**
 
 ```mermaid
 pie showData
-    title "Test Results (7 total)"
-    "Passed" : 7
-    "Failed" : 0
+    title "Test Results (152 total)"
+    "Passed" : 130
+    "Failed" : 10
+    "Skipped" : 12
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 7 |
-| Passed | 7 |
-| Failed | 0 |
-| Skipped | 0 |
-| Reruns | 0 |
-| Pass Rate | 100.0% |
+| Total | 152 |
+| Passed | 130 |
+| Failed | 10 |
+| Skipped | 12 |
+| Reruns | 17 |
+| Pass Rate | 85.5% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [21-31-DEV-STABLE, 21-32-DEV-STABLE, 21-33-DEV-STABLE, 21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-41-DEV-STABLE, 21-42-DEV-STABLE]
+    x-axis [21-30-DEV-STABLE, 21-31-DEV-STABLE, 21-32-DEV-STABLE, 21-33-DEV-STABLE, 21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE]
     y-axis "Tests" 0 --> 138
-    bar "Passed" [127, 123, 123, 91, 113, 132, 133, 133, 0, 7]
-    bar "Failed" [11, 15, 15, 49, 25, 6, 8, 8, 0, 0]
+    bar "Passed" [126, 127, 123, 123, 91, 113, 132, 133, 133, 130]
+    bar "Failed" [12, 11, 15, 15, 49, 25, 6, 8, 8, 10]
 ```
 
 ### Reruns Trend
@@ -38,17 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [21-31-DEV-STABLE, 21-32-DEV-STABLE, 21-33-DEV-STABLE, 21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-41-DEV-STABLE, 21-42-DEV-STABLE]
+    x-axis [21-30-DEV-STABLE, 21-31-DEV-STABLE, 21-32-DEV-STABLE, 21-33-DEV-STABLE, 21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE]
     y-axis "Reruns" 0 --> 55
-    line "Reruns" [12, 15, 15, 32, 52, 13, 14, 16, 0, 0]
+    line "Reruns" [8, 12, 15, 15, 32, 52, 13, 14, 16, 17]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
-| ✅ 21-42-DEV-STABLE | 7 | 7 | 0 | 0 | 0 | 100% |
-| ✅ 21-41-DEV-STABLE | 0 | 0 | 0 | 0 | 0 | 0% |
+| ❌ 21-43-DEV-STABLE | 152 | 130 | 10 | 12 | 17 | 86% |
 | ❌ 21-39-DEV-STABLE | 153 | 133 | 8 | 12 | 16 | 87% |
 | ❌ 21-38-DEV-STABLE | 153 | 133 | 8 | 12 | 14 | 87% |
 | ❌ 21-36-DEV-STABLE | 150 | 132 | 6 | 12 | 13 | 88% |
@@ -57,6 +57,7 @@ xychart-beta
 | ❌ 21-33-DEV-STABLE | 150 | 123 | 15 | 12 | 15 | 82% |
 | ❌ 21-32-DEV-STABLE | 150 | 123 | 15 | 12 | 15 | 82% |
 | ❌ 21-31-DEV-STABLE | 150 | 127 | 11 | 12 | 12 | 85% |
+| ❌ 21-30-DEV-STABLE | 150 | 126 | 12 | 12 | 8 | 84% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -68,16 +69,16 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 | Metric | Count |
 |--------|-------|
 | Tests in automation | 432 |
-| Tests linked to TMS cases | 286 |
-| Tests without TMS case | 146 |
-| Orphan TMS refs (test missing) | 127 |
-| **TMS Coverage** | **66.2%** |
+| Tests linked to TMS cases | 289 |
+| Tests without TMS case | 143 |
+| Orphan TMS refs (test missing) | 126 |
+| **TMS Coverage** | **66.9%** |
 
 ```mermaid
 pie showData
     title "TMS Linkage (432 tests)"
-    "Linked to TMS" : 286
-    "No TMS case" : 146
+    "Linked to TMS" : 289
+    "No TMS case" : 143
 ```
 
 ### Tests Without TMS Case
@@ -85,7 +86,7 @@ pie showData
 _Tests that exist in automation but have no linked TMS case._
 
 <details>
-<summary>Show 146 unlinked tests</summary>
+<summary>Show 143 unlinked tests</summary>
 
 - `tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_after`
 - `tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_before`
@@ -124,8 +125,6 @@ _Tests that exist in automation but have no linked TMS case._
 - `tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-special-char]`
 - `tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-underscore]`
 - `tests.ui.artifacts.test_artifacts_multi_file.TestArtifactMultiFileDownload.test_agent_creates_files_at_root_and_in_subfolder`
-- `tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_no_access_permission_blocks_all_api_operations`
-- `tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_read_only_permission_allows_get_blocks_write_operations`
 - `tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat`
 - `tests.ui.chat.test_chat_folder_rename_checkmark_validation.TestChatFolderDeleteApiFallbackRegression.test_delete_folder_via_api_actually_removes_the_folder`
 - `tests.ui.chat.test_chat_interface.TestContextAndSettings.test_edit_context_settings`
@@ -196,7 +195,6 @@ _Tests that exist in automation but have no linked TMS case._
 - `tests.ui.pipelines.test_pipeline_management.TestSearchPipeline.test_search_pipeline_by_name`
 - `tests.ui.pipelines.test_pipeline_management.TestSearchPipeline.test_search_pipeline_no_results`
 - `tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end`
-- `tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error`
 - `tests.ui.skills.test_skill_management.TestCreateSkill.test_create_skill_and_verify_execution`
 - `tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible`
 - `tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads`
@@ -241,7 +239,7 @@ _Tests that exist in automation but have no linked TMS case._
 _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 
 <details>
-<summary>Show 127 orphan refs</summary>
+<summary>Show 126 orphan refs</summary>
 
 - `tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format` (ELITEA-1814)
 - `tests.ui.chat.test_agent_hub_create_conversation_via_starter.TestAgentHubCreateConversationViaStarter.test_agent_hub_create_conversation_via_starter` (ELITEA-2093)
@@ -344,7 +342,6 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 - `tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTourExtras.test_sidebar_interactive_tour_starts_on_link_click` (ELITEA-2226)
 - `tests.ui.help_center.test_help_center_version_info.TestHelpCenterVersionInfo.test_version_info_tooltip_displays_and_copies` (ELITEA-2225)
 - `tests.ui.onboarding.test_onboarding_welcome.TestOnboardingWelcomePage.test_welcome_page_displayed_on_first_login` (ELITEA-2231)
-- `tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error_test` (ELITEA-2392)
 - `tests.ui.skills.test_agent_skills_validation_attribution_and_token_invalidation.TestAgentSkillsValidationAttributionAndTokenInvalidation.test_agent_skills_validation_attribution_and_token_invalidation` (ELITEA-2601)
 - `tests.ui.skills.test_agent_with_skills_publishing_flow.TestAgentWithSkillsPublishingFlow.test_agent_with_skills_publishing_flow` (ELITEA-2600)
 - `tests.ui.skills.test_published_agent_version_cannot_be_modified.TestPublishedAgentVersionCannotBeModified.test_published_agent_version_cannot_be_modified` (ELITEA-2614)
@@ -374,4 +371,4 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 </details>
 
 ---
-_Compared `automation/index.json` (432 tests) with `index_automated.json` (413 refs)_
+_Compared `automation/index.json` (432 tests) with `index_automated.json` (415 refs)_
