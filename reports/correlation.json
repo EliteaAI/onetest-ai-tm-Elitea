@@ -158,7 +158,7 @@
     {
       "case_id": "ELITEA-1886",
       "code_ref": "tests.ui.agents.test_agent_embedded_chat_conversation_starter_chips.TestConversationStarterChipsVisibleAndClickable.test_conversation_starter_chips_visible_and_clickable",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1888",
@@ -183,12 +183,12 @@
     {
       "case_id": "ELITEA-1892",
       "code_ref": "tests.ui.agents.test_agent_publish_unpublish_version.TestAgentPublishUnpublishVersion.test_publish_draft_version_then_unpublish_reverts_to_draft",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1895",
       "code_ref": "tests.ui.agents.test_import_agent_zip_nested_agent_dependencies.TestImportAgentZipNestedAgentDependencies.test_import_agent_zip_nested_agent_dependencies",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1896",
@@ -218,7 +218,7 @@
     {
       "case_id": "ELITEA-1902",
       "code_ref": "tests.ui.agents.test_import_agent_zip_nested_agent_dependencies.TestImportAgentZipNestedAgentDependencies.test_import_agent_zip_nested_agent_dependencies",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1903",
@@ -567,6 +567,9 @@
     }
   ],
   "unmatched_refs": [
+    "tests.ui.admin.test_guardrails_live_reload.TestBlockedToolLiveReload.test_blocked_tool_live_reload_case_insensitive",
+    "tests.ui.admin.test_guardrails_live_reload.TestBlockedToolkitLiveReload.test_blocked_toolkit_live_reload_case_insensitive",
+    "tests.ui.admin.test_guardrails_live_reload.TestSensitiveToolLiveReload.test_sensitive_tool_live_reload_case_insensitive",
     "tests.ui.agent_hub.test_agent_hub_close_agent_detail_modal.TestAgentHubCloseAgentDetailModal.test_agent_hub_close_agent_detail_modal",
     "tests.ui.agent_hub.test_agent_hub_copy_link_from_modal.TestAgentHubCopyLinkFromModal.test_copy_link_from_modal_navigates_to_agent",
     "tests.ui.agent_hub.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories",
