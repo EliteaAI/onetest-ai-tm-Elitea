@@ -158,7 +158,7 @@
     {
       "case_id": "ELITEA-1886",
       "code_ref": "tests.ui.agents.test_agent_embedded_chat_conversation_starter_chips.TestConversationStarterChipsVisibleAndClickable.test_conversation_starter_chips_visible_and_clickable",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1888",
@@ -188,7 +188,7 @@
     {
       "case_id": "ELITEA-1895",
       "code_ref": "tests.ui.agents.test_import_agent_zip_nested_agent_dependencies.TestImportAgentZipNestedAgentDependencies.test_import_agent_zip_nested_agent_dependencies",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1896",
@@ -218,7 +218,7 @@
     {
       "case_id": "ELITEA-1902",
       "code_ref": "tests.ui.agents.test_import_agent_zip_nested_agent_dependencies.TestImportAgentZipNestedAgentDependencies.test_import_agent_zip_nested_agent_dependencies",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1903",
