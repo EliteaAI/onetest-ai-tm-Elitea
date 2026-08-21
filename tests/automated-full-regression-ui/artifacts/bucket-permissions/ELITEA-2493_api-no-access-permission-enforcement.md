@@ -7,6 +7,9 @@ module: artifacts
 status: ready
 execution_type: automated
 tags: [automated:API:regression, feat:artifacts, nfr:security]
+automation_test_id:
+  - tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_no_access_permission_blocks_all_api_operations
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1577
 requirements: [EliteaAI/elitea_issues#5832]
 ---
 
