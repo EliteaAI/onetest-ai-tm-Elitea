@@ -4,9 +4,12 @@ title: "Delete Flow – Delete All Files and Folders Using Select All Checkbox v
 priority: high
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_delete_all_and_dismissal.TestArtifactDeleteAllAndDismissal.test_delete_all_files_via_select_all
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1642
 requirements: []
 ---
 

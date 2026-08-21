@@ -4,9 +4,12 @@ title: "Delete Flow – Delete Single File via Actions Dropdown"
 priority: high
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_delete_single_file_dropdown.TestArtifactDeleteSingleFileDropdown.test_delete_single_file_via_dropdown
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1642
 requirements: []
 ---
 
