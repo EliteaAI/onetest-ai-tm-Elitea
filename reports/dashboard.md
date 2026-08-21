@@ -1,37 +1,37 @@
 # Test Dashboard
 
-_Generated: 2026-08-21 07:43 UTC_
+_Generated: 2026-08-21 08:15 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-08-21-31-DEV-STABLE-ALL-FAILED**
+**RUN-ELITEA-2026-08-21-32-DEV-STABLE-ALL-FAILED**
 
 ```mermaid
 pie showData
     title "Test Results (150 total)"
-    "Passed" : 127
-    "Failed" : 11
+    "Passed" : 123
+    "Failed" : 15
     "Skipped" : 12
 ```
 
 | Metric | Value |
 |--------|-------|
 | Total | 150 |
-| Passed | 127 |
-| Failed | 11 |
+| Passed | 123 |
+| Failed | 15 |
 | Skipped | 12 |
-| Reruns | 12 |
-| Pass Rate | 84.7% |
+| Reruns | 15 |
+| Pass Rate | 82.0% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [20-22-DEV-STABLE, 20-24-DEV-STABLE, 20-25-DEV-STABLE, 20-26-DEV-STABLE, 20-27-DEV-STABLE, 20-28-DEV-STABLE, 21-29-DEV-STABLE, 21-3-DEV-ALL, 21-30-DEV-STABLE, 21-31-DEV-STABLE]
+    x-axis [20-24-DEV-STABLE, 20-25-DEV-STABLE, 20-26-DEV-STABLE, 20-27-DEV-STABLE, 20-28-DEV-STABLE, 21-29-DEV-STABLE, 21-3-DEV-ALL, 21-30-DEV-STABLE, 21-31-DEV-STABLE, 21-32-DEV-STABLE]
     y-axis "Tests" 0 --> 134
-    bar "Passed" [82, 103, 0, 110, 116, 129, 122, 95, 126, 127]
-    bar "Failed" [2, 1, 0, 4, 12, 9, 16, 38, 12, 11]
+    bar "Passed" [103, 0, 110, 116, 129, 122, 95, 126, 127, 123]
+    bar "Failed" [1, 0, 4, 12, 9, 16, 38, 12, 11, 15]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [20-22-DEV-STABLE, 20-24-DEV-STABLE, 20-25-DEV-STABLE, 20-26-DEV-STABLE, 20-27-DEV-STABLE, 20-28-DEV-STABLE, 21-29-DEV-STABLE, 21-3-DEV-ALL, 21-30-DEV-STABLE, 21-31-DEV-STABLE]
+    x-axis [20-24-DEV-STABLE, 20-25-DEV-STABLE, 20-26-DEV-STABLE, 20-27-DEV-STABLE, 20-28-DEV-STABLE, 21-29-DEV-STABLE, 21-3-DEV-ALL, 21-30-DEV-STABLE, 21-31-DEV-STABLE, 21-32-DEV-STABLE]
     y-axis "Reruns" 0 --> 43
-    line "Reruns" [2, 2, 0, 8, 18, 18, 20, 40, 8, 12]
+    line "Reruns" [2, 0, 8, 18, 18, 20, 40, 8, 12, 15]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 21-32-DEV-STABLE | 150 | 123 | 15 | 12 | 15 | 82% |
 | ❌ 21-31-DEV-STABLE | 150 | 127 | 11 | 12 | 12 | 85% |
 | ❌ 21-30-DEV-STABLE | 150 | 126 | 12 | 12 | 8 | 84% |
 | ❌ 21-3-DEV-ALL | 134 | 95 | 38 | 1 | 40 | 71% |
@@ -57,7 +58,6 @@ xychart-beta
 | ❌ 20-26-DEV-STABLE | 126 | 110 | 4 | 12 | 8 | 87% |
 | ✅ 20-25-DEV-STABLE | 0 | 0 | 0 | 0 | 0 | 0% |
 | ❌ 20-24-DEV-STABLE | 114 | 103 | 1 | 10 | 2 | 90% |
-| ❌ 20-22-DEV-STABLE | 94 | 82 | 2 | 10 | 2 | 87% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
