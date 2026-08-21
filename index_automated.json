@@ -8311,7 +8311,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error_test"
+        "tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error"
       ],
       "targets": [],
       "dependencies": [],
