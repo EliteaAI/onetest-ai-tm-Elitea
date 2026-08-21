@@ -1,0 +1,1249 @@
+{
+  "launch": {
+    "total": 134,
+    "passed": 95,
+    "failed": 38,
+    "skipped": 1,
+    "reruns": 40
+  },
+  "items": [
+    {
+      "code_ref": "tests.ui.skills.test_agent_instructions_tilde_mention.TestTildeMentionListsOnlyAttachedSkills.test_tilde_mention_in_instructions_lists_only_attached_skills",
+      "name": "test_tilde_mention_in_instructions_lists_only_attached_skills",
+      "status": "passed",
+      "duration_ms": 83979,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_agent_max_five_skills_limit.TestAgentMaxFiveSkillsLimit.test_max_five_skills_attach_limit",
+      "name": "test_max_five_skills_attach_limit",
+      "status": "passed",
+      "duration_ms": 170924,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_export_agent_no_nested_dependencies.TestExportAgentNoNestedDependencies.test_export_agent_no_nested_dependencies",
+      "name": "test_export_agent_no_nested_dependencies",
+      "status": "passed",
+      "duration_ms": 61329,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_export_agent_with_attached_skills.TestExportAgentWithAttachedSkills.test_export_agent_with_attached_skills",
+      "name": "test_export_agent_with_attached_skills",
+      "status": "passed",
+      "duration_ms": 70007,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_ghost_skill_after_agent_removed.TestGhostSkillAfterAgentRemoved.test_ghost_skill_not_shown_after_agent_participant_removed",
+      "name": "test_ghost_skill_not_shown_after_agent_participant_removed",
+      "status": "passed",
+      "duration_ms": 128056,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_import_agent_recreates_skills_with_new_ids.TestImportAgentRecreatesSkillsWithNewIds.test_import_agent_recreates_skills_with_new_ids",
+      "name": "test_import_agent_recreates_skills_with_new_ids",
+      "status": "passed",
+      "duration_ms": 164103,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_remove_attached_skill_from_agent.TestRemoveAttachedSkillFromAgent.test_remove_attached_skill_from_agent",
+      "name": "test_remove_attached_skill_from_agent",
+      "status": "passed",
+      "duration_ms": 165306,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_agent_interaction.TestInteractWithSkillsFromAgent.test_interact_with_skills_from_agent",
+      "name": "test_interact_with_skills_from_agent",
+      "status": "passed",
+      "duration_ms": 256575,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_agent_version_selector.TestAttachSkillToAgentWithVersionSelector.test_attach_skill_to_agent_with_version_selector",
+      "name": "test_attach_skill_to_agent_with_version_selector",
+      "status": "passed",
+      "duration_ms": 56389,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_back_navigation.test_back_button_from_skill_editor_returns_to_skills_list",
+      "name": "test_back_button_from_skill_editor_returns_to_skills_list",
+      "status": "failed",
+      "duration_ms": 71040,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"skill-information-section\") to be visible tests/ui/skills/test_skill_back_navigation.py:53: in test_back_button_from_skill_editor_returns_to_skills_list\n    detail_page.wait_for_page_load(timeout=NAVIGATION_TIMEOUT)\npages/skill_detail_page.py:393: in wait_for_page_load\n    self.page.get_by_test_id(\"skill-information-section\").wait_for(\n/opt/hostedtoolcache/Python/3.11.16/x",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/skills/test_skill_back_navigation.py:74: in test_back_button_from_skill_editor_returns_to_skills_list\n    list_page.verify_dashboard_header_visible()\npages/skills_list_page.py:291: in verify_dashboard_header_visible\n    self.page_header.wait_for(state=\"visible\")\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20539: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:748: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:632: in wrap_api_ca"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIGenerationFailureRetry.test_generation_failure_shows_error_and_allows_retry",
+      "name": "test_generation_failure_shows_error_and_allows_retry",
+      "status": "passed",
+      "duration_ms": 8980,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIReviewFormEditableFields.test_review_form_fields_are_editable_before_creation",
+      "name": "test_review_form_fields_are_editable_before_creation",
+      "status": "passed",
+      "duration_ms": 12707,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIReviewFormEditableFields.test_create_skill_from_unmodified_draft_persists_generated_values",
+      "name": "test_create_skill_from_unmodified_draft_persists_generated_values",
+      "status": "passed",
+      "duration_ms": 17916,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIReviewFormEditableFields.test_loading_state_shows_exact_text_and_review_form_has_no_extra_sections",
+      "name": "test_loading_state_shows_exact_text_and_review_form_has_no_extra_sections",
+      "status": "passed",
+      "duration_ms": 6850,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIModalElements.test_build_with_ai_opens_modal_with_expected_elements",
+      "name": "test_build_with_ai_opens_modal_with_expected_elements",
+      "status": "passed",
+      "duration_ms": 11650,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAINameFieldValidation.test_name_field_validation_on_invalid_manual_edits",
+      "name": "test_name_field_validation_on_invalid_manual_edits",
+      "status": "passed",
+      "duration_ms": 9125,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_card_view_fields.TestSkillCardViewFields.test_skill_card_shows_icon_name_description_and_tags",
+      "name": "test_skill_card_shows_icon_name_description_and_tags",
+      "status": "failed",
+      "duration_ms": 45949,
+      "failure_message": "AssertionError: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 10000ms\n  - waiting for get_by_test_id(\"entity-card-description-tooltip\")\n\nAria snapshot:\n- navigation \"side-bar\":\n  - button \"open drawer\"\n  - img\n  - separator\n  - 'combobox \"P Project: Private\"'\n  - img\n  - separator\n  - button \"Skill\":\n    - img\n    - text: Skill\n  - button:\n    - img\n  - separator\n  - listitem:\n    - button \"Chats\"\n  - listitem:\n  ",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_conversation_interaction.TestInteractWithSkillsFromConversation.test_interact_with_skills_from_conversation",
+      "name": "test_interact_with_skills_from_conversation",
+      "status": "failed",
+      "duration_ms": 155375,
+      "failure_message": "AssertionError: V1 explicit ~elitea-1736-uppercase-skill should return UPPER CASE, got: 'The quick brown fox jumps over the lazy dog.'\nassert False\n +  where False = all(<generator object TestInteractWithSkillsFromConversation.test_interact_with_skills_from_conversation.<locals>.<genexpr> at 0x7fd691891be0>) tests/ui/skills/test_skill_conversation_interaction.py:260: in test_interact_with_skills_from_conversation\n    assert all(c.isupper() for c in alpha_chars), (\nE   AssertionError: V1 explicit",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_copy_link.TestSkillCopyLink.test_copy_link_copies_valid_url_to_correct_skill_and_version",
+      "name": "test_copy_link_copies_valid_url_to_correct_skill_and_version",
+      "status": "passed",
+      "duration_ms": 28346,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_custom_icon_upload_and_validation.TestSkillCustomIconUploadAndValidation.test_skill_custom_icon_upload_and_validation",
+      "name": "test_skill_custom_icon_upload_and_validation",
+      "status": "failed",
+      "duration_ms": 39357,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.scroll_into_view_if_needed: Timeout 10000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"skill-form-icon-button\") tests/ui/skills/test_skill_custom_icon_upload_and_validation.py:134: in test_skill_custom_icon_upload_and_validation\n    form_page.upload_skill_icon(PNG_ICON, timeout=UI_ELEMENT_TIMEOUT)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n    ",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_custom_icon_visibility_across_ui.TestSkillCustomIconVisibilityAcrossUI.test_skill_custom_icon_visible_across_ui",
+      "name": "test_skill_custom_icon_visible_across_ui",
+      "status": "failed",
+      "duration_ms": 35588,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.scroll_into_view_if_needed: Timeout 10000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"skill-form-icon-button\") tests/ui/skills/test_skill_custom_icon_visibility_across_ui.py:128: in test_skill_custom_icon_visible_across_ui\n    form_page.upload_skill_icon(ICON_FILE, timeout=UI_ELEMENT_TIMEOUT)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n        ",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_export_import.TestSkillExportImport.test_export_and_import_skill_base_version",
+      "name": "test_export_and_import_skill_base_version",
+      "status": "passed",
+      "duration_ms": 35090,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_export_import.TestSkillExportImportNonBaseVersion.test_import_skill_non_base_version",
+      "name": "test_import_skill_non_base_version",
+      "status": "passed",
+      "duration_ms": 50778,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_export_import.TestSkillImportMissingFrontmatter.test_import_skill_missing_frontmatter_shows_validation_error",
+      "name": "test_import_skill_missing_frontmatter_shows_validation_error",
+      "status": "passed",
+      "duration_ms": 8002,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_fork_end_to_end.TestSkillForkEndToEnd.test_fork_skill_end_to_end",
+      "name": "test_fork_skill_end_to_end",
+      "status": "failed",
+      "duration_ms": 70015,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.scroll_into_view_if_needed: Timeout 10000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"skill-form-icon-button\") tests/ui/skills/test_skill_fork_end_to_end.py:177: in test_fork_skill_end_to_end\n    form_page.upload_skill_icon(ICON_FILE, timeout=UI_ELEMENT_TIMEOUT)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_fork_non_base_version.TestSkillForkNonBaseVersion.test_fork_non_base_skill_version",
+      "name": "test_fork_non_base_skill_version",
+      "status": "failed",
+      "duration_ms": 52280,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid=\\\"select-option-400\\\"]\") to be visible tests/ui/skills/test_skill_fork_non_base_version.py:208: in test_fork_non_base_skill_version\n    detail_page.select_fork_target_project(\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/skill_d",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_icon_persists_on_save_as_version.TestSkillIconPersistsOnSaveAsVersion.test_skill_custom_icon_persists_on_save_as_version",
+      "name": "test_skill_custom_icon_persists_on_save_as_version",
+      "status": "failed",
+      "duration_ms": 53795,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.scroll_into_view_if_needed: Timeout 10000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"skill-form-icon-button\") tests/ui/skills/test_skill_icon_persists_on_save_as_version.py:117: in test_skill_custom_icon_persists_on_save_as_version\n    form_page.upload_skill_icon(ICON_FILE, timeout=UI_ELEMENT_TIMEOUT)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/skills/test_skill_icon_persists_on_save_as_version.py:117: in test_skill_custom_icon_persists_on_save_as_version\n    form_page.upload_skill_icon(ICON_FILE, timeout=UI_ELEMENT_TIMEOUT)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/skill_form_page.py:411: in upload_skill_icon\n    self.open_icon_picker(timeout=timeout)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/skill_form_page.py:389: in open_icon_picker\n    self.skill_icon_button.scroll_into_view_if_needed()\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:19985: in scroll_into_view_if_needed\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_loca"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_management.TestCreateSkill.test_create_skill_and_verify_execution",
+      "name": "test_create_skill_and_verify_execution",
+      "status": "passed",
+      "duration_ms": 31506,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_management.TestSkillMandatoryFieldsValidation.test_save_disabled_until_name_and_description_filled",
+      "name": "test_save_disabled_until_name_and_description_filled",
+      "status": "passed",
+      "duration_ms": 29255,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_management.TestEditSkill.test_edit_name_description_instructions_persist",
+      "name": "test_edit_name_description_instructions_persist",
+      "status": "passed",
+      "duration_ms": 18432,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_management.TestSkillInstructionsMarkdownTogglePersistence.test_markdown_edit_preview_toggle_and_persist",
+      "name": "test_markdown_edit_preview_toggle_and_persist",
+      "status": "failed",
+      "duration_ms": 50551,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.get_attribute: Timeout 10000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"skill-instructions-edit-mode-button\") tests/ui/skills/test_skill_management.py:401: in test_markdown_edit_preview_toggle_and_persist\n    assert detail_page.instructions_edit_mode_button.get_attribute(\"aria-pressed\") == \"true\", (\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/sit",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/skills/test_skill_management.py:401: in test_markdown_edit_preview_toggle_and_persist\n    assert detail_page.instructions_edit_mode_button.get_attribute(\"aria-pressed\") == \"true\", (\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:19313: in get_attribute\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:465: in get_attribute\n    return await self._frame.get_attribute(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:757: in get_attribute\n    return await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:6"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_multiple_tags_persist.TestSkillMultipleTagsPersist.test_multiple_tags_persist_on_creation_and_edit",
+      "name": "test_multiple_tags_persist_on_creation_and_edit",
+      "status": "failed",
+      "duration_ms": 25582,
+      "failure_message": "AssertionError: Expected all 4 tags to persist together through a fresh reload, got: ['tag2', 'tag4', 'tag3', 'tag1']\nassert ['tag2', 'tag4', 'tag3', 'tag1'] == ['tag1', 'tag2', 'tag3', 'tag4']\n  \n  At index 0 diff: 'tag2' != 'tag1'\n  \n  Full diff:\n    [\n  +     'tag2',\n  +     'tag4',\n  +     'tag3',\n        'tag1',\n  -     'tag2',\n  -     'tag3',\n  -     'tag4',\n    ] tests/ui/skills/test_skill_multiple_tags_persist.py:123: in test_multiple_tags_persist_on_creation_and_edit\n    assert detail_p",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_pin_unpin.TestSkillPinUnpin.test_skill_pin_moves_to_top_and_unpin_reverts",
+      "name": "test_skill_pin_moves_to_top_and_unpin_reverts",
+      "status": "passed",
+      "duration_ms": 19393,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_search.TestSkillSearch.test_search_skills_by_name",
+      "name": "test_search_skills_by_name",
+      "status": "passed",
+      "duration_ms": 63822,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_tag_add_remove.TestSkillTagAddRemove.test_add_save_and_remove_skill_tag",
+      "name": "test_add_save_and_remove_skill_tag",
+      "status": "failed",
+      "duration_ms": 88392,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid=\\\"skill-tag-chip-delete-regression_v1\\\"]\") to be visible tests/ui/skills/test_skill_tag_add_remove.py:91: in test_add_save_and_remove_skill_tag\n    detail_page.remove_tag(TAG_TEXT)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/ski",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/skills/test_skill_tag_add_remove.py:91: in test_add_save_and_remove_skill_tag\n    detail_page.remove_tag(TAG_TEXT)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/skill_form_page.py:367: in remove_tag\n    delete_icon.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20539: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:748: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send\n    return await self._connection."
+      ]
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_tag_filter.TestSkillTagFilter.test_filter_skills_by_tag",
+      "name": "test_filter_skills_by_tag",
+      "status": "passed",
+      "duration_ms": 50320,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_test_panel_llm_model_settings.TestSkillTestPanelLlmModelSettings.test_llm_model_settings_configurable",
+      "name": "test_llm_model_settings_configurable",
+      "status": "failed",
+      "duration_ms": 23414,
+      "failure_message": "AssertionError: 'GPT-5 mini' should render the Creativity slider instead of the Reasoning slider\nassert False\n +  where False = is_creativity_slider_visible(timeout=10000)\n +    where is_creativity_slider_visible = <pages.skill_detail_page.SkillDetailPage object at 0x7fd691a2cfd0>.is_creativity_slider_visible tests/ui/skills/test_skill_test_panel_llm_model_settings.py:218: in test_llm_model_settings_configurable\n    assert detail_page.is_creativity_slider_visible(timeout=UI_ELEMENT_TIMEOUT), (\nE",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_test_panel_no_new_conversation.TestSkillTestPanelNoNewConversation.test_test_panel_does_not_create_new_chat_conversation",
+      "name": "test_test_panel_does_not_create_new_chat_conversation",
+      "status": "passed",
+      "duration_ms": 30030,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_test_panel_response_actions.TestSkillTestPanelResponseActions.test_test_panel_response_actions_enabled",
+      "name": "test_test_panel_response_actions_enabled",
+      "status": "passed",
+      "duration_ms": 25817,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_test_panel_version_instructions.TestSkillTestPanelVersionInstructions.test_test_panel_uses_selected_skill_version_instructions",
+      "name": "test_test_panel_uses_selected_skill_version_instructions",
+      "status": "passed",
+      "duration_ms": 42486,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.skills.test_skill_version_set_default.TestSkillVersionSetDefault.test_version_dropdown_set_default_shows_control_and_confirmation",
+      "name": "test_version_dropdown_set_default_shows_control_and_confirmation",
+      "status": "passed",
+      "duration_ms": 13315,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_analytics_agent_detail_view.TestAnalyticsAgentDetailView.test_agent_row_click_opens_detail_view",
+      "name": "test_agent_row_click_opens_detail_view",
+      "status": "failed",
+      "duration_ms": 19607,
+      "failure_message": "failed on setup with \"TypeError: PipelineAPI.create_pipeline() got an unexpected keyword argument 'nodes'\" fixtures/data_fixtures.py:2513: in analytics_empty_pipeline_id\n    pipeline = pipeline_api.create_pipeline(name, description, nodes=[])\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   TypeError: PipelineAPI.create_pipeline() got an unexpected keyword argument 'nodes'",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_analytics_agents_pipelines_tab.TestAnalyticsAgentsPipelinesTab.test_agents_pipelines_tab_charts_and_activity_table",
+      "name": "test_agents_pipelines_tab_charts_and_activity_table",
+      "status": "failed",
+      "duration_ms": 41593,
+      "failure_message": "AssertionError: Expected personal-project column labels ('AGENT / PIPELINE', 'RUNS', 'COST', 'TOTAL TOKENS', 'INPUT TOKENS', 'OUTPUT TOKENS', 'AVG LATENCY', 'ERRORS'), got ('AGENT / PIPELINE', 'RUNS', 'TOTAL COST', 'INPUT TOKEN COST', 'OUTPUT TOKEN COST', 'TOTAL TOKENS', 'INPUT TOKENS', 'OUTPUT TOKENS', 'CACHE READ TOKENS', 'CACHE WRITE TOKENS', 'CACHE READ COST', 'CACHE WRITE COST', 'AVG LATENCY', 'ERRORS')\nassert ('AGENT / PIPELINE', 'RUNS', 'TOTAL COST', 'INPUT TOKEN COST', 'OUTPUT TOKEN COST",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_analytics_default_load.TestAnalyticsDefaultLoad.test_analytics_page_default_load",
+      "name": "test_analytics_page_default_load",
+      "status": "passed",
+      "duration_ms": 12288,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_analytics_user_detail_view.TestAnalyticsUserDetailView.test_users_tab_row_click_opens_detail_view",
+      "name": "test_users_tab_row_click_opens_detail_view",
+      "status": "failed",
+      "duration_ms": 10869,
+      "failure_message": "AssertionError: Expected exactly 10 KPI cards, got 16\nassert 16 == 10\n +  where 16 = count()\n +    where count = <Locator frame=<Frame name= url='https://dev.elitea.ai/app/settings/analytics'> selector='internal:testid=[data-testid=\"analytics-user-detail-kpi-card\"s]'>.count\n +      where <Locator frame=<Frame name= url='https://dev.elitea.ai/app/settings/analytics'> selector='internal:testid=[data-testid=\"analytics-user-detail-kpi-card\"s]'> = <pages.analytics_page.AnalyticsPage object at 0x7f2b0",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_analytics_users_activity_table.TestAnalyticsUsersActivityTable.test_users_tab_activity_table_columns_and_pagination",
+      "name": "test_users_tab_activity_table_columns_and_pagination",
+      "status": "failed",
+      "duration_ms": 9867,
+      "failure_message": "AssertionError: Expected column labels ('USER', 'ACTIVE DAYS', 'LLM CALLS', 'TOOL CALLS', 'AGENT/PIPELINE RUNS', 'CHAT MSG', 'ERRORS', 'TOTAL TOKENS', 'TOTAL COST'), got ('USER', 'ACTIVE DAYS', 'LLM CALLS', 'TOOL CALLS', 'AGENT/PIPELINE RUNS', 'CHAT MSG', 'ERRORS', 'TOTAL TOKENS', 'INPUT TOKENS', 'OUTPUT TOKENS', 'TOTAL COST', 'INPUT TOKEN COST', 'OUTPUT TOKEN COST', 'CACHE READ TOKENS', 'CACHE WRITE TOKENS', 'CACHE READ COST', 'CACHE WRITE COST')\nassert ('USER', 'ACTIVE DAYS', 'LLM CALLS', 'TOO",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_before",
+      "name": "test_cleanup_before",
+      "status": "passed",
+      "duration_ms": 25812,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_after",
+      "name": "test_cleanup_after",
+      "status": "passed",
+      "duration_ms": 28100,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_guardrails_live_reload.TestBlockedToolkitLiveReload.test_blocked_toolkit_live_reload_case_insensitive",
+      "name": "test_blocked_toolkit_live_reload_case_insensitive",
+      "status": "failed",
+      "duration_ms": 188550,
+      "failure_message": "AssertionError: Toolkit 'guardrails_test_github_toolkit' should show 'blocked by your organization' indicator\nassert False\n +  where False = is_toolkit_blocked('guardrails_test_github_toolkit', timeout=10000)\n +    where is_toolkit_blocked = <pages.agent_detail_page.AgentDetailPage object at 0x7f2b04b400d0>.is_toolkit_blocked tests/ui/admin/test_guardrails_live_reload.py:486: in test_blocked_toolkit_live_reload_case_insensitive\n    assert agent_page.is_toolkit_blocked(toolkit_name, timeout=UI_EL",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_guardrails_live_reload.TestBlockedToolLiveReload.test_blocked_tool_live_reload_case_insensitive",
+      "name": "test_blocked_tool_live_reload_case_insensitive",
+      "status": "failed",
+      "duration_ms": 93846,
+      "failure_message": "AssertionError: Toolkit 'guardrails_test_github_toolkit' should show 'Some tools are not available anymore' indicator\nassert False\n +  where False = is_tool_blocked_in_toolkit('guardrails_test_github_toolkit', timeout=10000)\n +    where is_tool_blocked_in_toolkit = <pages.agent_detail_page.AgentDetailPage object at 0x7f2b04e52e10>.is_tool_blocked_in_toolkit tests/ui/admin/test_guardrails_live_reload.py:604: in test_blocked_tool_live_reload_case_insensitive\n    assert agent_page.is_tool_blocked_i",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_guardrails_live_reload.TestSensitiveToolLiveReload.test_sensitive_tool_live_reload_case_insensitive",
+      "name": "test_sensitive_tool_live_reload_case_insensitive",
+      "status": "failed",
+      "duration_ms": 175851,
+      "failure_message": "AssertionError: Sensitive Action Authorization panel should appear for sensitive tool\nassert False tests/ui/admin/test_guardrails_live_reload.py:782: in test_sensitive_tool_live_reload_case_insensitive\n    assert auth_appeared, (\nE   AssertionError: Sensitive Action Authorization panel should appear for sensitive tool\nE   assert False",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_invite_user_invalid_email_validation.TestInviteUserInvalidEmailValidation.test_invite_user_invalid_email_validation",
+      "name": "test_invite_user_invalid_email_validation",
+      "status": "failed",
+      "duration_ms": 108042,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid=\\\"select-option-400\\\"]\") to be visible tests/ui/admin/test_invite_user_invalid_email_validation.py:105: in test_invite_user_invalid_email_validation\n    users_page.navigate()\npages/admin_users_page.py:294: in navigate\n    self.ensure_team_project_selected()\npages/admin_users_page.py:270: in ensure_team_project_selected\n    option.wait_for(state=\"visible\", timeout=tim",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/admin/test_invite_user_invalid_email_validation.py:105: in test_invite_user_invalid_email_validation\n    users_page.navigate()\npages/admin_users_page.py:294: in navigate\n    self.ensure_team_project_selected()\npages/admin_users_page.py:270: in ensure_team_project_selected\n    option.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20539: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:748: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/s"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.admin.test_notification_mark_read_unread.TestNotificationMarkReadUnread.test_mark_selected_notifications_read_and_unread",
+      "name": "test_mark_selected_notifications_read_and_unread",
+      "status": "failed",
+      "duration_ms": 43905,
+      "failure_message": "AssertionError: Locator expected to have text 'Notifications marked as unread'\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_have_text\" with timeout 10000ms\n  - waiting for get_by_test_id(\"toast-message\")\n\nAria snapshot:\n- navigation \"side-bar\":\n  - button \"open drawer\"\n  - img\n  - separator\n  - 'combobox \"P Project: Private\"'\n  - img\n  - separator\n  - button \"Create\":\n    - img\n    - text: Create\n  - separator\n  - listitem:\n    - button \"Chats\"\n  - listitem:\n    - but",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_notification_text_content.TestNotificationTextContent.test_notification_text_content_renders_correctly",
+      "name": "test_notification_text_content_renders_correctly",
+      "status": "skipped",
+      "duration_ms": 52241,
+      "failure_message": "",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_create_personal_token_and_verify_in_table",
+      "name": "test_create_personal_token_and_verify_in_table",
+      "status": "failed",
+      "duration_ms": 41593,
+      "failure_message": "AssertionError: Locator expected to have count '1'\nActual value: 0 \nCall log:\n  - Expect \"to_have_count\" with timeout 15000ms\n  - waiting for get_by_test_id(\"token-row\").filter(has_text=\"autotest-token-e7fa6cf9\")\n    34 × locator resolved to 0 elements\n       - unexpected value \"0\" tests/ui/admin/test_personal_token_create_and_verify.py:196: in test_create_personal_token_and_verify_in_table\n    expect(row).to_have_count(1, timeout=ROW_WAIT_TIMEOUT)\nE   AssertionError: Locator expected to have co",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_expired_token_shows_expired_icon_and_label",
+      "name": "test_expired_token_shows_expired_icon_and_label",
+      "status": "failed",
+      "duration_ms": 34204,
+      "failure_message": "AssertionError: Locator expected to have count '1'\nActual value: 0 \nCall log:\n  - Expect \"to_have_count\" with timeout 15000ms\n  - waiting for get_by_test_id(\"token-row\").filter(has_text=\"Marian\")\n    34 × locator resolved to 0 elements\n       - unexpected value \"0\" tests/ui/admin/test_personal_token_create_and_verify.py:262: in test_expired_token_shows_expired_icon_and_label\n    expect(row).to_have_count(1, timeout=ROW_WAIT_TIMEOUT)\nE   AssertionError: Locator expected to have count '1'\nE   Actu",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_invalid_token_name_shows_error_and_keeps_generate_disabled",
+      "name": "test_invalid_token_name_shows_error_and_keeps_generate_disabled",
+      "status": "passed",
+      "duration_ms": 22679,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_personal_tokens_page_layout.TestPersonalTokensPageLayout.test_personal_tokens_page_layout_and_components",
+      "name": "test_personal_tokens_page_layout_and_components",
+      "status": "passed",
+      "duration_ms": 18189,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_project_context_character_limit.TestProjectContextCharacterLimit.test_project_context_character_limit_2500",
+      "name": "test_project_context_character_limit_2500",
+      "status": "failed",
+      "duration_ms": 91479,
+      "failure_message": "playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/settings/project-context?view=create\" until 'load'\n============================================================ tests/ui/admin/test_project_context_character_limit.py:65: in test_project_context_character_limit_2500\n    context_page.click_create()\npages/project_context_page.py:86: in click_create\n    self.page.wait_for_url(f\"**{PROJECT_CONTEX",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/admin/test_project_context_character_limit.py:65: in test_project_context_character_limit_2500\n    context_page.click_create()\npages/project_context_page.py:86: in click_create\n    self.page.wait_for_url(f\"**{PROJECT_CONTEXT_PATH}?view=create\", timeout=10000)\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:10029: in wait_for_url\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_page.py:588: in wait_for_url\n    return await self._main_frame.wait_for_url(**locals_to_params(locals()))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:288: in wait_for_url\n    async with self.expect_navigation(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_event_context_manager.py:33: in __aexit__\n    await self._future\n/opt/hosted"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.admin.test_secret_create_inline_checkmark_x_cancel.TestSecretCreateInlineCheckmarkXCancel.test_create_secret_inline_checkmark_saves_x_cancels",
+      "name": "test_create_secret_inline_checkmark_saves_x_cancels",
+      "status": "passed",
+      "duration_ms": 28483,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_secret_create_inline_checkmark_x_cancel.TestSecretCreateInlineCheckmarkXCancel.test_secret_name_rejects_hyphen_and_special_chars_valid_name_clears_error",
+      "name": "test_secret_name_rejects_hyphen_and_special_chars_valid_name_clears_error",
+      "status": "passed",
+      "duration_ms": 16533,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_secret_delete_via_three_dot_menu.TestSecretDeleteViaThreeDotMenu.test_delete_secret_via_three_dot_menu",
+      "name": "test_delete_secret_via_three_dot_menu",
+      "status": "passed",
+      "duration_ms": 31573,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_secret_edit_value_name_field_readonly.TestSecretEditValueNameFieldReadonly.test_edit_secret_value_name_field_readonly",
+      "name": "test_edit_secret_value_name_field_readonly",
+      "status": "passed",
+      "duration_ms": 30072,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_secret_eye_icon_reveal_and_mask_toggle.TestSecretEyeIconRevealAndMaskToggle.test_secret_eye_icon_reveal_and_mask_toggle",
+      "name": "test_secret_eye_icon_reveal_and_mask_toggle",
+      "status": "passed",
+      "duration_ms": 25273,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_secret_hide_via_three_dot_menu.TestSecretHideViaThreeDotMenu.test_hide_secret_via_three_dot_menu",
+      "name": "test_hide_secret_via_three_dot_menu",
+      "status": "passed",
+      "duration_ms": 32093,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.admin.test_users_batch_edit_roles.TestBatchEditRolesForMultipleSelectedUsers.test_batch_edit_roles_for_multiple_selected_users",
+      "name": "test_batch_edit_roles_for_multiple_selected_users",
+      "status": "failed",
+      "duration_ms": 92718,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid=\\\"select-option-400\\\"]\") to be visible tests/ui/admin/test_users_batch_edit_roles.py:61: in test_batch_edit_roles_for_multiple_selected_users\n    users_page.navigate()\npages/admin_users_page.py:294: in navigate\n    self.ensure_team_project_selected()\npages/admin_users_page.py:270: in ensure_team_project_selected\n    option.wait_for(state=\"visible\", timeout=timeout)\n/",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/admin/test_users_batch_edit_roles.py:61: in test_batch_edit_roles_for_multiple_selected_users\n    users_page.navigate()\npages/admin_users_page.py:294: in navigate\n    self.ensure_team_project_selected()\npages/admin_users_page.py:270: in ensure_team_project_selected\n    option.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20539: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:748: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-pac"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.admin.test_users_page_layout.TestUsersPageLayout.test_users_page_layout_and_components",
+      "name": "test_users_page_layout_and_components",
+      "status": "failed",
+      "duration_ms": 88801,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid=\\\"select-option-400\\\"]\") to be visible tests/ui/admin/test_users_page_layout.py:76: in test_users_page_layout_and_components\n    users_list_response, roles_list_response = users_page.navigate()\n                                               ^^^^^^^^^^^^^^^^^^^^^\npages/admin_users_page.py:294: in navigate\n    self.ensure_team_project_selected()\npages/admin_users_page.",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/admin/test_users_page_layout.py:76: in test_users_page_layout_and_components\n    users_list_response, roles_list_response = users_page.navigate()\n                                               ^^^^^^^^^^^^^^^^^^^^^\npages/admin_users_page.py:294: in navigate\n    self.ensure_team_project_selected()\npages/admin_users_page.py:270: in ensure_team_project_selected\n    option.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20539: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:748: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send\n    return await "
+      ]
+    },
+    {
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads",
+      "name": "test_page_loads",
+      "status": "passed",
+      "duration_ms": 21930,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible",
+      "name": "test_main_content_visible",
+      "status": "passed",
+      "duration_ms": 22675,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1811-leading-digit]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[ELITEA-1811-leading-digit]",
+      "status": "passed",
+      "duration_ms": 68526,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-special-char]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-special-char]",
+      "status": "passed",
+      "duration_ms": 34909,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-underscore]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-underscore]",
+      "status": "passed",
+      "duration_ms": 50913,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-space]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-space]",
+      "status": "passed",
+      "duration_ms": 34955,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_create_bucket_55char_name_and_delete.TestArtifactCreateBucketMaxLengthNameAndDelete.test_create_bucket_max_length_name_and_delete",
+      "name": "test_create_bucket_max_length_name_and_delete",
+      "status": "failed",
+      "duration_ms": 160396,
+      "failure_message": "playwright._impl._errors.TimeoutError: Timeout 15000ms exceeded while waiting for event \"response\" tests/ui/artifacts/test_artifacts_create_bucket_55char_name_and_delete.py:226: in test_create_bucket_max_length_name_and_delete\n    create_response = artifacts_page.click_bucket_save_button(\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/artifacts_page.py:1139: ",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/artifacts/test_artifacts_create_bucket_55char_name_and_delete.py:226: in test_create_bucket_max_length_name_and_delete\n    create_response = artifacts_page.click_bucket_save_button(\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/artifacts_page.py:1139: in click_bucket_save_button\n    with self.page.expect_response(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_sync_base.py:85: in __exit__\n    self._event.value\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_sync_base.py:59: in value\n    raise exception\nE   playwright._impl._errors.TimeoutError: Timeout 15000ms exceeded while waiting for event \"response\""
+      ]
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_create_bucket_upload_file.TestArtifactCreateBucketAndUploadFile.test_create_bucket_via_form_and_upload_file_via_bucket_menu",
+      "name": "test_create_bucket_via_form_and_upload_file_via_bucket_menu",
+      "status": "failed",
+      "duration_ms": 143603,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid=\\\"artifacts-bucket-row-autotest-test-create-bucket-via-form-and-812469\\\"]\") to be visible tests/ui/artifacts/test_artifacts_create_bucket_upload_file.py:215: in test_create_bucket_via_form_and_upload_file_via_bucket_menu\n    artifacts_page.wait_for_bucket_in_list(\npages/artifacts_page.py:1189: in wait_for_bucket_in_list\n    self.page.locator(self.BUCKET_ROW.format(bu",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/artifacts/test_artifacts_create_bucket_upload_file.py:215: in test_create_bucket_via_form_and_upload_file_via_bucket_menu\n    artifacts_page.wait_for_bucket_in_list(\npages/artifacts_page.py:1189: in wait_for_bucket_in_list\n    self.page.locator(self.BUCKET_ROW.format(bucket_name)).wait_for(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20539: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:748: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_conn"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_delete_subfolder_checkbox.TestArtifactDeleteSubfolderCheckbox.test_delete_subfolder_via_checkbox",
+      "name": "test_delete_subfolder_via_checkbox",
+      "status": "passed",
+      "duration_ms": 49342,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_delete_subfolder_checkbox.TestArtifactDeleteSubfolderCheckbox.test_delete_multiple_files_partial_selection",
+      "name": "test_delete_multiple_files_partial_selection",
+      "status": "passed",
+      "duration_ms": 60658,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_download_all_files_select_all_zip.TestArtifactDownloadAllFilesSelectAllZip.test_download_all_files_via_select_all_as_zip",
+      "name": "test_download_all_files_via_select_all_as_zip",
+      "status": "passed",
+      "duration_ms": 56168,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_download_multiple_files_zip.TestArtifactDownloadMultipleFilesZip.test_download_multiple_files_as_zip",
+      "name": "test_download_multiple_files_as_zip",
+      "status": "passed",
+      "duration_ms": 42731,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_download_single_file_dropdown.TestArtifactDownloadSingleFileDropdown.test_download_single_file_via_dropdown",
+      "name": "test_download_single_file_via_dropdown",
+      "status": "passed",
+      "duration_ms": 49366,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_duplicate_bucket_name.TestArtifactDuplicateBucketName.test_duplicate_bucket_name_is_not_allowed",
+      "name": "test_duplicate_bucket_name_is_not_allowed",
+      "status": "failed",
+      "duration_ms": 177204,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid=\\\"artifacts-bucket-row-autotest-buck1-247699\\\"]\") to be visible tests/ui/artifacts/test_artifacts_duplicate_bucket_name.py:139: in test_duplicate_bucket_name_is_not_allowed\n    artifacts_page.wait_for_bucket_in_list(bucket_name, timeout=NAVIGATION_TIMEOUT)\npages/artifacts_page.py:1189: in wait_for_bucket_in_list\n    self.page.locator(self.BUCKET_ROW.format(bucket_nam",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/artifacts/test_artifacts_duplicate_bucket_name.py:139: in test_duplicate_bucket_name_is_not_allowed\n    artifacts_page.wait_for_bucket_in_list(bucket_name, timeout=NAVIGATION_TIMEOUT)\npages/artifacts_page.py:1189: in wait_for_bucket_in_list\n    self.page.locator(self.BUCKET_ROW.format(bucket_name)).wait_for(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20539: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:748: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send\n    return await self._connection.wrap_api_call(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/play"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_actions_dropdown.TestArtifactFilePreviewActionsDropdown.test_actions_dropdown_copy_download_delete",
+      "name": "test_actions_dropdown_copy_download_delete",
+      "status": "passed",
+      "duration_ms": 38533,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_edit_save.TestArtifactFilePreviewEditSave.test_edit_file_content_and_save_changes",
+      "name": "test_edit_file_content_and_save_changes",
+      "status": "passed",
+      "duration_ms": 42283,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_image_restricted_controls.TestArtifactFilePreviewImageRestrictedControls.test_image_file_opens_directly_with_restricted_controls",
+      "name": "test_image_file_opens_directly_with_restricted_controls",
+      "status": "passed",
+      "duration_ms": 39094,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_markdown_default_mode.TestArtifactFilePreviewMarkdownDefaultMode.test_markdown_file_opens_in_preview_mode_by_default",
+      "name": "test_markdown_file_opens_in_preview_mode_by_default",
+      "status": "passed",
+      "duration_ms": 35933,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_markdown_raw_edit_save.TestArtifactFilePreviewMarkdownRawEditSave.test_raw_tab_enables_editing_and_save_persists",
+      "name": "test_raw_tab_enables_editing_and_save_persists",
+      "status": "passed",
+      "duration_ms": 77207,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_open_editor_ui.TestArtifactFilePreviewOpenEditorUI.test_open_supported_text_file_shows_editor_ui",
+      "name": "test_open_supported_text_file_shows_editor_ui",
+      "status": "passed",
+      "duration_ms": 34465,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_multi_file.TestArtifactMultiFileDownload.test_agent_creates_files_at_root_and_in_subfolder",
+      "name": "test_agent_creates_files_at_root_and_in_subfolder",
+      "status": "passed",
+      "duration_ms": 157187,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_cancel.TestArtifactUploadDuplicateCancel.test_cancel_stops_entire_upload_including_non_duplicate",
+      "name": "test_cancel_stops_entire_upload_including_non_duplicate",
+      "status": "passed",
+      "duration_ms": 76692,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_detected_modal.TestArtifactUploadDuplicateDetectedModal.test_duplicate_detected_opens_resolve_duplicates_modal",
+      "name": "test_duplicate_detected_opens_resolve_duplicates_modal",
+      "status": "passed",
+      "duration_ms": 57570,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_keep_both.TestArtifactUploadDuplicateKeepBoth.test_keep_both_uploads_renamed_copy_alongside_original",
+      "name": "test_keep_both_uploads_renamed_copy_alongside_original",
+      "status": "passed",
+      "duration_ms": 46897,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_skip.TestArtifactUploadDuplicateSkip.test_skip_uploads_only_non_duplicate_file",
+      "name": "test_skip_uploads_only_non_duplicate_file",
+      "status": "passed",
+      "duration_ms": 28817,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_multiple_files.TestArtifactsUploadMultipleFiles.test_upload_multiple_files_at_once",
+      "name": "test_upload_multiple_files_at_once",
+      "status": "passed",
+      "duration_ms": 23597,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_three_options_verify_selection.TestArtifactsUploadThreeOptionsVerifySelection.test_upload_via_three_options_and_verify_selection",
+      "name": "test_upload_via_three_options_and_verify_selection",
+      "status": "failed",
+      "duration_ms": 77406,
+      "failure_message": "AssertionError: Known defect: #649 — bucket-menu 'Upload files' should default to the bucket root, not the currently-navigated subfolder\nExpected value: 'Path​autotest-test-upload-via-three-options-a-960823/​'\nActual value: Path​autotest-test-upload-via-three-options-a-960823/a1/​ \nCall log:\n  - Expect \"to_have_text\" with timeout 10000ms\n  - waiting for get_by_test_id(\"artifacts-upload-path-input\")\n    24 × locator resolved to <div data-testid=\"artifacts-upload-path-input\" class=\"MuiFormControl-",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_no_access_permission_blocks_all_api_operations",
+      "name": "test_no_access_permission_blocks_all_api_operations",
+      "status": "failed",
+      "duration_ms": 8015,
+      "failure_message": "failed on setup with \"requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/artifacts/buckets/default/470 — headers: {'Content-Length': '163', 'Content-Type': 'application/json', 'Date': 'Thu, 20 Aug 2026 23:54:05 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': 'access_denied', 'required': ['configuration.artifacts.artifacts.create'], 'mode': 'default', 'project_id': 470, 'current_permissions': []}\" api/client.py:99: in _raise_for_status\n    resp",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_read_only_permission_allows_get_blocks_write_operations",
+      "name": "test_read_only_permission_allows_get_blocks_write_operations",
+      "status": "failed",
+      "duration_ms": 2568,
+      "failure_message": "failed on setup with \"requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dev.elitea.ai/api/v2/artifacts/buckets/default/470 — headers: {'Content-Length': '163', 'Content-Type': 'application/json', 'Date': 'Thu, 20 Aug 2026 23:54:08 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': 'access_denied', 'required': ['configuration.artifacts.artifacts.create'], 'mode': 'default', 'project_id': 470, 'current_permissions': []}\" api/client.py:99: in _raise_for_status\n    resp",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_selection_from_chat",
+      "name": "test_voice_selection_from_chat",
+      "status": "passed",
+      "duration_ms": 25887,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_speed_and_volume_controls",
+      "name": "test_speed_and_volume_controls",
+      "status": "passed",
+      "duration_ms": 31523,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_sync",
+      "name": "test_voice_settings_sync",
+      "status": "passed",
+      "duration_ms": 45432,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_preview_personalization",
+      "name": "test_voice_preview_personalization",
+      "status": "passed",
+      "duration_ms": 16875,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_not_visible_by_default",
+      "name": "test_voice_settings_not_visible_by_default",
+      "status": "passed",
+      "duration_ms": 32272,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_agent_chip_visible_in_message_input.TestAgentHubAgentChipVisibleInMessageInput.test_agent_chip_visible_in_message_input",
+      "name": "test_agent_chip_visible_in_message_input",
+      "status": "failed",
+      "duration_ms": 98047,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"chat-switch-participant-button\").locator(\"[data-testid=\\\"chat-switch-participant-avatar\\\"]\") to be visible tests/ui/agent_hub/test_agent_hub_agent_chip_visible_in_message_input.py:143: in test_agent_chip_visible_in_message_input\n    avatar_img = chat.get_switch_participant_avatar(timeout=UI_ELEMENT_TIMEOUT)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_agent_chip_visible_in_message_input.py:143: in test_agent_chip_visible_in_message_input\n    avatar_img = chat.get_switch_participant_avatar(timeout=UI_ELEMENT_TIMEOUT)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/chat_page.py:5167: in get_switch_participant_avatar\n    avatar.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20539: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:748: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send\n    return await self._connection.wrap_api_call"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_close_agent_detail_modal.TestAgentHubCloseAgentDetailModal.test_agent_hub_close_agent_detail_modal",
+      "name": "test_agent_hub_close_agent_detail_modal",
+      "status": "passed",
+      "duration_ms": 26908,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_copy_link_from_modal.TestAgentHubCopyLinkFromModal.test_copy_link_from_modal_navigates_to_agent",
+      "name": "test_copy_link_from_modal_navigates_to_agent",
+      "status": "passed",
+      "duration_ms": 28811,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories",
+      "name": "test_agent_hub_filter_by_multiple_categories",
+      "status": "passed",
+      "duration_ms": 7744,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category",
+      "name": "test_agent_hub_filter_by_single_category",
+      "status": "passed",
+      "duration_ms": 11519,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_like_agent_from_modal.TestAgentHubLikeAgentFromModal.test_agent_hub_like_agent_from_modal",
+      "name": "test_agent_hub_like_agent_from_modal",
+      "status": "passed",
+      "duration_ms": 28609,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_like_agent_list_view.TestAgentHubLikeAgentListView.test_agent_hub_like_agent_from_list_view",
+      "name": "test_agent_hub_like_agent_from_list_view",
+      "status": "passed",
+      "duration_ms": 89865,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_like_agent_list_view.py:134: in test_agent_hub_like_agent_from_list_view\n    applications = agent_hub.navigate_and_capture_applications(timeout=NAVIGATION_TIMEOUT)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/agent_hub_page.py:575: in navigate_and_capture_applications\n    with self.page.expect_response(_is_all_applications_response, timeout=timeout) as response_info:\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_sync_base.py:85: in __exit__\n    self._event.value\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_sync_base.py:59: in value\n    raise exception\nE   playwright._impl._errors.TimeoutError: Timeout 15000ms exceeded while waiting for event \""
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_my_liked_filter_shows_only_liked_agents.TestAgentHubMyLikedFilterShowsOnlyLikedAgents.test_agent_hub_my_liked_filter_shows_only_liked_agents",
+      "name": "test_agent_hub_my_liked_filter_shows_only_liked_agents",
+      "status": "passed",
+      "duration_ms": 62420,
+      "failure_message": "",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_my_liked_reload_cross_tab_sync.TestAgentHubMyLikedReloadCrossTabSync.test_agent_hub_my_liked_reload_reflects_cross_tab_like",
+      "name": "test_agent_hub_my_liked_reload_reflects_cross_tab_like",
+      "status": "passed",
+      "duration_ms": 61617,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal",
+      "name": "test_agent_hub_open_agent_detail_modal",
+      "status": "passed",
+      "duration_ms": 23332,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project",
+      "name": "test_agent_hub_page_loads_private_project",
+      "status": "passed",
+      "duration_ms": 20300,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_page_loads_team_project.TestAgentHubPageLoadsTeamProject.test_agent_hub_page_loads_team_project",
+      "name": "test_agent_hub_page_loads_team_project",
+      "status": "failed",
+      "duration_ms": 81084,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid=\\\"select-option-470\\\"]\") to be visible tests/ui/agent_hub/test_agent_hub_page_loads_team_project.py:113: in test_agent_hub_page_loads_team_project\n    chat.switch_project(team_project_id)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\np",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_page_loads_team_project.py:113: in test_agent_hub_page_loads_team_project\n    chat.switch_project(team_project_id)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/chat_page.py:1302: in switch_project\n    option.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20539: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:748: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send\n    return awai"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_search_bar_filters_in_real_time.TestAgentHubSearchBarFiltersInRealTime.test_agent_hub_search_bar_filters_in_real_time",
+      "name": "test_agent_hub_search_bar_filters_in_real_time",
+      "status": "passed",
+      "duration_ms": 18101,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_start_conversation_creates_new_chat.TestAgentHubStartConversationCreatesNewChat.test_agent_hub_start_conversation_creates_new_chat",
+      "name": "test_agent_hub_start_conversation_creates_new_chat",
+      "status": "passed",
+      "duration_ms": 28953,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_started_conversation_has_agent_as_participant.TestAgentHubStartedConversationHasAgentAsParticipant.test_started_conversation_has_agent_as_participant",
+      "name": "test_started_conversation_has_agent_as_participant",
+      "status": "failed",
+      "duration_ms": 115403,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid^=\\\"chat-participant-row-\\\"]\").filter(has_text=\"User Story Creator\").first.locator(\"[data-testid=\\\"chat-participant-avatar\\\"]\") to be visible tests/ui/agent_hub/test_agent_hub_started_conversation_has_agent_as_participant.py:181: in test_started_conversation_has_agent_as_participant\n    avatar_img = chat.get_participant_avatar(participant_row, timeout=UI_ELEMENT_TIMEO",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_started_conversation_has_agent_as_participant.py:181: in test_started_conversation_has_agent_as_participant\n    avatar_img = chat.get_participant_avatar(participant_row, timeout=UI_ELEMENT_TIMEOUT)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/chat_page.py:3970: in get_participant_avatar\n    avatar.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20539: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:748: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:394: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send\n    return awa"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_trending_category.TestAgentHubTrendingCategory.test_agent_hub_trending_category_displays_agents",
+      "name": "test_agent_hub_trending_category_displays_agents",
+      "status": "passed",
+      "duration_ms": 32816,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_unlike_agent_list_view.TestAgentHubUnlikeAgentListView.test_agent_hub_unlike_agent_from_list_view",
+      "name": "test_agent_hub_unlike_agent_from_list_view",
+      "status": "failed",
+      "duration_ms": 95397,
+      "failure_message": "AssertionError: Locator expected to have text '3'\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_have_text\" with timeout 10000ms\n  - waiting for locator(\"[data-testid=\\\"catalog-agent-like-button-127\\\"]\").first\n\nAria snapshot:\n- navigation \"side-bar\":\n  - button \"open drawer\"\n  - img\n  - separator\n  - 'combobox \"P Project: Private\"'\n  - img\n  - separator\n  - button \"Create\":\n    - img\n    - text: Create\n  - separator\n  - listitem:\n    - button \"Chats\"\n  - listitem:\n    -",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_catalog_default_agents_tab.TestCatalogDefaultAgentsTab.test_catalog_default_agents_tab_and_skills_navigation",
+      "name": "test_catalog_default_agents_tab_and_skills_navigation",
+      "status": "failed",
+      "duration_ms": 16178,
+      "failure_message": "AssertionError: Skills tab's icon should be visible\nassert False\n +  where False = is_visible()\n +    where is_visible = <Locator frame=<Frame name= url='https://dev.elitea.ai/app/elitea-catalog'> selector='internal:testid=[data-testid=\"catalog-skills-tab-icon\"s]'>.is_visible\n +      where <Locator frame=<Frame name= url='https://dev.elitea.ai/app/elitea-catalog'> selector='internal:testid=[data-testid=\"catalog-skills-tab-icon\"s]'> = <pages.agent_hub_page.AgentHubPage object at 0x7f5376e64150>.s",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_empty_state.TestCatalogEmptyState.test_empty_state_when_search_matches_no_agents",
+      "name": "test_empty_state_when_search_matches_no_agents",
+      "status": "passed",
+      "duration_ms": 18782,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_launcher_visible_and_opens_widget",
+      "name": "test_launcher_visible_and_opens_widget",
+      "status": "passed",
+      "duration_ms": 15681,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_widget_state_persists_after_close_reopen",
+      "name": "test_widget_state_persists_after_close_reopen",
+      "status": "passed",
+      "duration_ms": 37699,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantMessaging.test_send_message_and_receive_response",
+      "name": "test_send_message_and_receive_response",
+      "status": "passed",
+      "duration_ms": 44081,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantNewSession.test_new_chat_creates_fresh_session",
+      "name": "test_new_chat_creates_fresh_session",
+      "status": "passed",
+      "duration_ms": 54089,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantHistory.test_history_restore_and_continue",
+      "name": "test_history_restore_and_continue",
+      "status": "passed",
+      "duration_ms": 87986,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantViewModes.test_expand_collapse_fullview",
+      "name": "test_expand_collapse_fullview",
+      "status": "passed",
+      "duration_ms": 19323,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantAttachments.test_attach_button_present_and_opens_picker",
+      "name": "test_attach_button_present_and_opens_picker",
+      "status": "passed",
+      "duration_ms": 22593,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTour.test_sidebar_interactive_tour_completes_via_next",
+      "name": "test_sidebar_interactive_tour_completes_via_next",
+      "status": "passed",
+      "duration_ms": 49793,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error",
+      "name": "test_ai_providers_page_sections_load_without_error",
+      "status": "passed",
+      "duration_ms": 30398,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_context_management_toggle_enables_disables_fields",
+      "name": "test_context_management_toggle_enables_disables_fields",
+      "status": "passed",
+      "duration_ms": 14465,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_automatic_summarization_toggle_enables_disables_own_fields",
+      "name": "test_automatic_summarization_toggle_enables_disables_own_fields",
+      "status": "passed",
+      "duration_ms": 15721,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_target_summary_tokens_range_validation",
+      "name": "test_target_summary_tokens_range_validation",
+      "status": "passed",
+      "duration_ms": 19257,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_max_context_tokens_rejects_non_numeric_and_negative_input",
+      "name": "test_max_context_tokens_rejects_non_numeric_and_negative_input",
+      "status": "failed",
+      "duration_ms": 97694,
+      "failure_message": "playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded while waiting for event \"response\" tests/ui/settings/test_context_management_toggle.py:674: in test_max_context_tokens_rejects_non_numeric_and_negative_input\n    with page.expect_response(_is_autosave_put_response, timeout=AUTOSAVE_TIMEOUT) as put_info:\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_sync_base.py:85: in __exit__\n    self._event.value\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/settings/test_context_management_toggle.py:674: in test_max_context_tokens_rejects_non_numeric_and_negative_input\n    with page.expect_response(_is_autosave_put_response, timeout=AUTOSAVE_TIMEOUT) as put_info:\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_sync_base.py:85: in __exit__\n    self._event.value\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_sync_base.py:59: in value\n    raise exception\nE   playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded while waiting for event \"response\""
+      ]
+    },
+    {
+      "code_ref": "tests.ui.settings.test_set_llm_model_default_high_low_tier.TestSetLLMModelTiers.test_set_llm_model_default_high_low_tier",
+      "name": "test_set_llm_model_default_high_low_tier",
+      "status": "passed",
+      "duration_ms": 128887,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    }
+  ]
+}
