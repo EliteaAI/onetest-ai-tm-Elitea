@@ -128,12 +128,12 @@
     {
       "case_id": "ELITEA-1869",
       "code_ref": "tests.ui.agents.test_agent_back_navigation.test_back_button_from_agent_detail_returns_to_intact_agents_list",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1870",
       "code_ref": "tests.ui.agents.test_agent_create_button_navigation.test_create_button_navigates_to_create_agent_page",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1874",
@@ -148,12 +148,12 @@
     {
       "case_id": "ELITEA-1883",
       "code_ref": "tests.ui.agents.test_agent_add_variables_persist_after_reload.TestAgentAddVariablesPersistAfterReload.test_add_two_variables_and_verify_they_persist_after_reload",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1884",
       "code_ref": "tests.ui.agents.test_agent_remove_variable.TestAgentRemoveVariable.test_remove_variable_and_verify_removal_persists",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1886",
@@ -188,22 +188,22 @@
     {
       "case_id": "ELITEA-1895",
       "code_ref": "tests.ui.agents.test_import_agent_zip_nested_agent_dependencies.TestImportAgentZipNestedAgentDependencies.test_import_agent_zip_nested_agent_dependencies",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1896",
       "code_ref": "tests.ui.skills.test_export_agent_with_attached_skills.TestExportAgentWithAttachedSkills.test_export_agent_with_attached_skills",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1898",
       "code_ref": "tests.ui.agents.test_agent_copy_version_link.TestAgentCopyVersionLink.test_copy_version_link_produces_version_specific_url",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1899",
       "code_ref": "tests.ui.agents.test_agent_icon_management.TestAgentIconManagement.test_agent_icon_change_persists_on_list_card",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1900",
@@ -213,22 +213,22 @@
     {
       "case_id": "ELITEA-1901",
       "code_ref": "tests.ui.agents.test_import_agent_valid_md_file.TestImportAgentValidMdFile.test_import_agent_valid_md_file",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1902",
       "code_ref": "tests.ui.agents.test_import_agent_zip_nested_agent_dependencies.TestImportAgentZipNestedAgentDependencies.test_import_agent_zip_nested_agent_dependencies",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1903",
       "code_ref": "tests.ui.agents.test_agent_build_with_ai_role_visibility.TestAgentBuildWithAIButtonRoleVisibility.test_build_with_ai_button_visible_for_admin_role",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1950",
       "code_ref": "tests.ui.agents.test_mcp_attach_via_tools_section.TestMcpAttachViaToolsSection.test_mcp_attach_via_tools_section",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1796",
@@ -293,7 +293,7 @@
     {
       "case_id": "ELITEA-1790",
       "code_ref": "tests.ui.skills.test_agent_max_five_skills_limit.TestAgentMaxFiveSkillsLimit.test_max_five_skills_attach_limit",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1791",
@@ -303,17 +303,17 @@
     {
       "case_id": "ELITEA-1792",
       "code_ref": "tests.ui.skills.test_remove_attached_skill_from_agent.TestRemoveAttachedSkillFromAgent.test_remove_attached_skill_from_agent",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1793",
       "code_ref": "tests.ui.skills.test_ghost_skill_after_agent_removed.TestGhostSkillAfterAgentRemoved.test_ghost_skill_not_shown_after_agent_participant_removed",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1794",
       "code_ref": "tests.ui.skills.test_export_agent_with_attached_skills.TestExportAgentWithAttachedSkills.test_export_agent_with_attached_skills",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1795",
@@ -513,7 +513,7 @@
     {
       "case_id": "ELITEA-0143",
       "code_ref": "tests.ui.agents.test_agent_with_github_toolkit.TestChatWithAgentToolkit.test_agent_chat_with_github_toolkit",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0143",
@@ -523,7 +523,7 @@
     {
       "case_id": "ELITEA-0143",
       "code_ref": "tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0853",
