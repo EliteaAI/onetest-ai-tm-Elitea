@@ -1,10 +1,10 @@
 # Test Dashboard
 
-_Generated: 2026-08-21 08:15 UTC_
+_Generated: 2026-08-21 08:41 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-08-21-32-DEV-STABLE-ALL-FAILED**
+**RUN-ELITEA-2026-08-21-33-DEV-STABLE-ALL-FAILED**
 
 ```mermaid
 pie showData
@@ -28,10 +28,10 @@ pie showData
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [20-24-DEV-STABLE, 20-25-DEV-STABLE, 20-26-DEV-STABLE, 20-27-DEV-STABLE, 20-28-DEV-STABLE, 21-29-DEV-STABLE, 21-3-DEV-ALL, 21-30-DEV-STABLE, 21-31-DEV-STABLE, 21-32-DEV-STABLE]
+    x-axis [20-25-DEV-STABLE, 20-26-DEV-STABLE, 20-27-DEV-STABLE, 20-28-DEV-STABLE, 21-29-DEV-STABLE, 21-3-DEV-ALL, 21-30-DEV-STABLE, 21-31-DEV-STABLE, 21-32-DEV-STABLE, 21-33-DEV-STABLE]
     y-axis "Tests" 0 --> 134
-    bar "Passed" [103, 0, 110, 116, 129, 122, 95, 126, 127, 123]
-    bar "Failed" [1, 0, 4, 12, 9, 16, 38, 12, 11, 15]
+    bar "Passed" [0, 110, 116, 129, 122, 95, 126, 127, 123, 123]
+    bar "Failed" [0, 4, 12, 9, 16, 38, 12, 11, 15, 15]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [20-24-DEV-STABLE, 20-25-DEV-STABLE, 20-26-DEV-STABLE, 20-27-DEV-STABLE, 20-28-DEV-STABLE, 21-29-DEV-STABLE, 21-3-DEV-ALL, 21-30-DEV-STABLE, 21-31-DEV-STABLE, 21-32-DEV-STABLE]
+    x-axis [20-25-DEV-STABLE, 20-26-DEV-STABLE, 20-27-DEV-STABLE, 20-28-DEV-STABLE, 21-29-DEV-STABLE, 21-3-DEV-ALL, 21-30-DEV-STABLE, 21-31-DEV-STABLE, 21-32-DEV-STABLE, 21-33-DEV-STABLE]
     y-axis "Reruns" 0 --> 43
-    line "Reruns" [2, 0, 8, 18, 18, 20, 40, 8, 12, 15]
+    line "Reruns" [0, 8, 18, 18, 20, 40, 8, 12, 15, 15]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 21-33-DEV-STABLE | 150 | 123 | 15 | 12 | 15 | 82% |
 | ❌ 21-32-DEV-STABLE | 150 | 123 | 15 | 12 | 15 | 82% |
 | ❌ 21-31-DEV-STABLE | 150 | 127 | 11 | 12 | 12 | 85% |
 | ❌ 21-30-DEV-STABLE | 150 | 126 | 12 | 12 | 8 | 84% |
@@ -57,7 +58,6 @@ xychart-beta
 | ❌ 20-27-DEV-STABLE | 140 | 116 | 12 | 12 | 18 | 83% |
 | ❌ 20-26-DEV-STABLE | 126 | 110 | 4 | 12 | 8 | 87% |
 | ✅ 20-25-DEV-STABLE | 0 | 0 | 0 | 0 | 0 | 0% |
-| ❌ 20-24-DEV-STABLE | 114 | 103 | 1 | 10 | 2 | 90% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
