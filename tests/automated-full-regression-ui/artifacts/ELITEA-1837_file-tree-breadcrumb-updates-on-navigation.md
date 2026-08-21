@@ -4,9 +4,12 @@ title: "File Tree Behavior – Breadcrumb Path Updates on Navigation"
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_tree_breadcrumb_navigation.TestArtifactsTreeBreadcrumbNavigation.test_breadcrumb_and_url_update_on_navigation
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1633
 requirements: []
 ---
 

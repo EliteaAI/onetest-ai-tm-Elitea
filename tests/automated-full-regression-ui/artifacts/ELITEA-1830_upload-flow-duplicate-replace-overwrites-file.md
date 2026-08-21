@@ -4,9 +4,12 @@ title: "Upload Flow – Duplicate Handling: Replace Overwrites Existing File"
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_upload_duplicate_replace.TestArtifactUploadDuplicateReplace.test_replace_overwrites_existing_file
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1633
 requirements: []
 ---
 
