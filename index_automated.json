@@ -14362,7 +14362,7 @@
     {
       "id": "ELITEA-1842",
       "title": "Download Flow – Cancel Download in Progress Stops ZIP Preparation",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -14374,7 +14374,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_download_cancel_zip_progress.TestArtifactDownloadCancelZipProgress.test_cancel_in_progress_zip_download"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14383,7 +14385,7 @@
     {
       "id": "ELITEA-1843",
       "title": "Download Flow – Close X Button on ZIP Progress Modal Cancels Download",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -14395,7 +14397,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_download_cancel_zip_progress.TestArtifactDownloadCancelZipProgress.test_cancel_in_progress_zip_download"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14404,7 +14408,7 @@
     {
       "id": "ELITEA-1844",
       "title": "Delete Flow – Delete Single File via Actions Dropdown",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",
@@ -14416,7 +14420,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_delete_single_file_dropdown.TestArtifactDeleteSingleFileDropdown.test_delete_single_file_via_dropdown"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14425,7 +14431,7 @@
     {
       "id": "ELITEA-1845",
       "title": "Delete Flow – Delete Single File via Actions Dropdown – Cancel Keeps File Intact",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -14437,7 +14443,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_delete_single_file_dropdown.TestArtifactDeleteSingleFileDropdownCancel.test_cancel_delete_keeps_file_intact"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14492,7 +14500,7 @@
     {
       "id": "ELITEA-1848",
       "title": "Delete Flow – Delete All Files and Folders Using Select All Checkbox via Delete All Files Icon",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",
@@ -14504,7 +14512,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_delete_all_and_dismissal.TestArtifactDeleteAllAndDismissal.test_delete_all_files_via_select_all"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14513,7 +14523,7 @@
     {
       "id": "ELITEA-1849",
       "title": "Delete Flow – Cancel Delete All Keeps All Items Intact",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -14525,7 +14535,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_delete_all_and_dismissal.TestArtifactDeleteAllAndDismissal.test_cancel_delete_all_keeps_items_intact"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14534,7 +14546,7 @@
     {
       "id": "ELITEA-1850",
       "title": "Delete Flow – Close X on Delete Confirmation Modal Keeps Items Intact",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -14546,7 +14558,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_delete_all_and_dismissal.TestArtifactDeleteAllAndDismissal.test_close_x_on_delete_confirmation_keeps_items_intact"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
