@@ -183,7 +183,7 @@
     {
       "case_id": "ELITEA-1892",
       "code_ref": "tests.ui.agents.test_agent_publish_unpublish_version.TestAgentPublishUnpublishVersion.test_publish_draft_version_then_unpublish_reverts_to_draft",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1895",
