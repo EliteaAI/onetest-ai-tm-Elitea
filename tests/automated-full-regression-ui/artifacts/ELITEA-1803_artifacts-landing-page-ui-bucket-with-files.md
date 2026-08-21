@@ -4,9 +4,12 @@ title: "Artifacts Landing Page UI – Bucket with Files (at least 1 file)"
 priority: high
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_landing_page_ui.TestArtifactsLandingPageUI.test_landing_page_bucket_with_files
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1625
 requirements: []
 ---
 

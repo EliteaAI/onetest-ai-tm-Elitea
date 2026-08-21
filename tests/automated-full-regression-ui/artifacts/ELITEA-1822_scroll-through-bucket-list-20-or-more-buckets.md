@@ -4,9 +4,12 @@ title: "Scroll Through Bucket List with 20 or More Buckets"
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_bucket_list_scrolling.TestArtifactsBucketListScrolling.test_scroll_bucket_list_with_20_or_more_buckets
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1625
 requirements: []
 ---
 

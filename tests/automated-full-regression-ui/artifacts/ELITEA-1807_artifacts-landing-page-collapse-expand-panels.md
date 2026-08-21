@@ -4,9 +4,12 @@ title: "Artifacts Landing Page – Collapse and Expand Panels"
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_landing_page_collapse_expand_panels.TestArtifactsLandingPageCollapseExpandPanels.test_collapse_and_expand_panels_independently
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1625
 requirements: []
 ---
 

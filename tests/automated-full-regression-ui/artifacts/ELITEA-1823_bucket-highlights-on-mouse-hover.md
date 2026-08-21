@@ -4,9 +4,12 @@ title: "Bucket Highlights on Mouse Hover"
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_bucket_hover_highlight.TestArtifactsBucketHoverHighlight.test_bucket_highlights_on_mouse_hover
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1625
 requirements: []
 ---
 
