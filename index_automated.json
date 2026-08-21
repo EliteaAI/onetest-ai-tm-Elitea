@@ -4980,7 +4980,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project"
+        "tests.ui.agent_hub.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project"
       ],
       "targets": [],
       "dependencies": [],
@@ -5003,7 +5003,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_page_loads_team_project.TestAgentHubPageLoadsTeamProject.test_agent_hub_page_loads_team_project"
+        "tests.ui.agent_hub.test_agent_hub_page_loads_team_project.TestAgentHubPageLoadsTeamProject.test_agent_hub_page_loads_team_project"
       ],
       "targets": [],
       "dependencies": [],
@@ -5026,7 +5026,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category"
+        "tests.ui.agent_hub.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category"
       ],
       "targets": [],
       "dependencies": [],
@@ -5049,7 +5049,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories"
+        "tests.ui.agent_hub.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories"
       ],
       "targets": [],
       "dependencies": [],
@@ -5072,7 +5072,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_like_agent_list_view.TestAgentHubLikeAgentListView.test_agent_hub_like_agent_from_list_view"
+        "tests.ui.agent_hub.test_agent_hub_like_agent_list_view.TestAgentHubLikeAgentListView.test_agent_hub_like_agent_from_list_view"
       ],
       "targets": [],
       "dependencies": [],
@@ -5095,7 +5095,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_unlike_agent_list_view.TestAgentHubUnlikeAgentListView.test_agent_hub_unlike_agent_from_list_view"
+        "tests.ui.agent_hub.test_agent_hub_unlike_agent_list_view.TestAgentHubUnlikeAgentListView.test_agent_hub_unlike_agent_from_list_view"
       ],
       "targets": [],
       "dependencies": [],
@@ -5118,7 +5118,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal"
+        "tests.ui.agent_hub.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal"
       ],
       "targets": [],
       "dependencies": [],
@@ -5141,7 +5141,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_close_agent_detail_modal.TestAgentHubCloseAgentDetailModal.test_agent_hub_close_agent_detail_modal"
+        "tests.ui.agent_hub.test_agent_hub_close_agent_detail_modal.TestAgentHubCloseAgentDetailModal.test_agent_hub_close_agent_detail_modal"
       ],
       "targets": [],
       "dependencies": [],
@@ -5164,7 +5164,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_like_agent_from_modal.TestAgentHubLikeAgentFromModal.test_agent_hub_like_agent_from_modal"
+        "tests.ui.agent_hub.test_agent_hub_like_agent_from_modal.TestAgentHubLikeAgentFromModal.test_agent_hub_like_agent_from_modal"
       ],
       "targets": [],
       "dependencies": [],
@@ -5187,7 +5187,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_copy_link_from_modal.TestAgentHubCopyLinkFromModal.test_copy_link_from_modal_navigates_to_agent"
+        "tests.ui.agent_hub.test_agent_hub_copy_link_from_modal.TestAgentHubCopyLinkFromModal.test_copy_link_from_modal_navigates_to_agent"
       ],
       "targets": [],
       "dependencies": [],
@@ -5279,7 +5279,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_search_bar_filters_in_real_time.TestAgentHubSearchBarFiltersInRealTime.test_agent_hub_search_bar_filters_in_real_time"
+        "tests.ui.agent_hub.test_agent_hub_search_bar_filters_in_real_time.TestAgentHubSearchBarFiltersInRealTime.test_agent_hub_search_bar_filters_in_real_time"
       ],
       "targets": [],
       "dependencies": [],
@@ -5302,7 +5302,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_my_liked_filter_shows_only_liked_agents.TestAgentHubMyLikedFilterShowsOnlyLikedAgents.test_agent_hub_my_liked_filter_shows_only_liked_agents"
+        "tests.ui.agent_hub.test_agent_hub_my_liked_filter_shows_only_liked_agents.TestAgentHubMyLikedFilterShowsOnlyLikedAgents.test_agent_hub_my_liked_filter_shows_only_liked_agents"
       ],
       "targets": [],
       "dependencies": [],
@@ -5325,7 +5325,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_my_liked_reload_cross_tab_sync.TestAgentHubMyLikedReloadCrossTabSync.test_agent_hub_my_liked_reload_reflects_cross_tab_like"
+        "tests.ui.agent_hub.test_agent_hub_my_liked_reload_cross_tab_sync.TestAgentHubMyLikedReloadCrossTabSync.test_agent_hub_my_liked_reload_reflects_cross_tab_like"
       ],
       "targets": [],
       "dependencies": [],
@@ -5348,7 +5348,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agent-hub.test_agent_hub_trending_category.TestAgentHubTrendingCategory.test_agent_hub_trending_category_displays_agents"
+        "tests.ui.agent_hub.test_agent_hub_trending_category.TestAgentHubTrendingCategory.test_agent_hub_trending_category_displays_agents"
       ],
       "targets": [],
       "dependencies": [],
