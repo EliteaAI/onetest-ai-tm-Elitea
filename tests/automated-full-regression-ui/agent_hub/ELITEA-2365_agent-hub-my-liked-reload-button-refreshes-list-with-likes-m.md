@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
 automation_test_id:
-  - tests.ui.agents.test_agent_hub_my_liked_reload_cross_tab_sync.TestAgentHubMyLikedReloadCrossTabSync.test_agent_hub_my_liked_reload_reflects_cross_tab_like
+  - tests.ui.agent_hub.test_agent_hub_my_liked_reload_cross_tab_sync.TestAgentHubMyLikedReloadCrossTabSync.test_agent_hub_my_liked_reload_reflects_cross_tab_like
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1232
 ---
 

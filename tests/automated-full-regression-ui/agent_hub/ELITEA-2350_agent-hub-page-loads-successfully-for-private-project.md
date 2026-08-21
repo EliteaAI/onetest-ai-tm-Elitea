@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
 automation_test_id:
-  - tests.ui.agents.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project
+  - tests.ui.agent_hub.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1211
 ---
 

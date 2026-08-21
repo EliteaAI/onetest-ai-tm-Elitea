@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
 automation_test_id:
-  - tests.ui.agents.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category
+  - tests.ui.agent_hub.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1214
 ---
 
