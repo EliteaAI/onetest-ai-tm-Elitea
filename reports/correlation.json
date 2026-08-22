@@ -158,7 +158,7 @@
     {
       "case_id": "ELITEA-1886",
       "code_ref": "tests.ui.agents.test_agent_embedded_chat_conversation_starter_chips.TestConversationStarterChipsVisibleAndClickable.test_conversation_starter_chips_visible_and_clickable",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1888",
@@ -383,7 +383,7 @@
     {
       "case_id": "ELITEA-0500",
       "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_sends_file_with_message",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0500",
@@ -523,7 +523,7 @@
     {
       "case_id": "ELITEA-0143",
       "code_ref": "tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1312",
