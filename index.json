@@ -1188,6 +1188,62 @@
       "path": "tests/automated-full-regression-ui/settings/ELITEA-2254_log-out-is-accessible-from-any-settings-sub-page-without-ext.md"
     },
     {
+      "id": "ELITEA-2671",
+      "title": "Mid-turn Input Happy Path - Enable, Send, Process, History, Persistence",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "default-modules",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:settings",
+        "eng:backend",
+        "eng:frontend",
+        "eng:sdk",
+        "r-2.0.6",
+        "automated"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6115"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/mid-turn-input/ELITEA-2671_mid-turn-input-happy-path-end-to-end.md"
+    },
+    {
+      "id": "ELITEA-2672",
+      "title": "Mid-turn Input Disabled - Verify Legacy Behavior Preserved",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "default-modules",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:settings",
+        "eng:backend",
+        "eng:frontend",
+        "regression",
+        "r-2.0.6",
+        "automated"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6115"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/mid-turn-input/ELITEA-2672_mid-turn-input-disabled-legacy-behavior.md"
+    },
+    {
       "id": "ELITEA-2266",
       "title": "Project Context page loads with correct layout and components",
       "status": "draft",
@@ -2300,6 +2356,91 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2391_max-context-tokens-does-not-accept-non-numeric-or-negative-v.md"
+    },
+    {
+      "id": "ELITEA-2651",
+      "title": "Default Modules UI Structure and Toggle State Persistence",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "default-modules",
+      "owner": "",
+      "tags": [
+        "feat:settings",
+        "feat:modules",
+        "eng:frontend",
+        "eng:automation",
+        "issue:6122",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6122"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/default-modules/ELITEA-2651_default-modules-ui-and-persistence.md"
+    },
+    {
+      "id": "ELITEA-2652",
+      "title": "Default Modules Applied to New Chats and Agents, Existing Not Affected",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "default-modules",
+      "owner": "",
+      "tags": [
+        "feat:settings",
+        "feat:modules",
+        "feat:chats",
+        "feat:agents",
+        "eng:frontend",
+        "eng:automation",
+        "issue:6122",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6122"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/default-modules/ELITEA-2652_default-modules-applied-to-new-entities.md"
+    },
+    {
+      "id": "ELITEA-2653",
+      "title": "Chat and Agent Module Overrides Do Not Affect Project Defaults",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "default-modules",
+      "owner": "",
+      "tags": [
+        "feat:settings",
+        "feat:modules",
+        "feat:chats",
+        "feat:agents",
+        "eng:frontend",
+        "eng:automation",
+        "issue:6122",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6122"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/default-modules/ELITEA-2653_entity-overrides-do-not-affect-project-defaults.md"
     },
     {
       "id": "ELITEA-2277",
@@ -4226,7 +4367,7 @@
     {
       "id": "ELITEA-1803",
       "title": "Artifacts Landing Page UI – Bucket with Files (at least 1 file)",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",
@@ -4238,7 +4379,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_landing_page_ui.TestArtifactsLandingPageUI.test_landing_page_bucket_with_files"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4247,7 +4390,7 @@
     {
       "id": "ELITEA-1804",
       "title": "Artifacts Landing Page UI – Bucket with More Than 10 Files and Pagination",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4259,7 +4402,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_landing_page_ui.TestArtifactsLandingPageUI.test_landing_page_pagination_more_than_ten_files"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4268,7 +4413,7 @@
     {
       "id": "ELITEA-1805",
       "title": "Artifacts Landing Page UI – Empty Bucket (No Files)",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4280,7 +4425,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_landing_page_ui.TestArtifactsLandingPageUI.test_landing_page_empty_bucket"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4310,7 +4457,7 @@
     {
       "id": "ELITEA-1807",
       "title": "Artifacts Landing Page – Collapse and Expand Panels",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4322,7 +4469,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_landing_page_collapse_expand_panels.TestArtifactsLandingPageCollapseExpandPanels.test_collapse_and_expand_panels_independently"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4593,7 +4742,7 @@
     {
       "id": "ELITEA-1820",
       "title": "Pin Artifact Bucket to Top",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4605,7 +4754,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_bucket_pin_unpin.TestArtifactsBucketPinUnpin.test_pin_bucket_to_top"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4614,7 +4765,7 @@
     {
       "id": "ELITEA-1821",
       "title": "Unpin Artifact Bucket from Top",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4626,7 +4777,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_bucket_pin_unpin.TestArtifactsBucketPinUnpin.test_unpin_bucket_from_top"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4635,7 +4788,7 @@
     {
       "id": "ELITEA-1822",
       "title": "Scroll Through Bucket List with 20 or More Buckets",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4647,7 +4800,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_bucket_list_scrolling.TestArtifactsBucketListScrolling.test_scroll_bucket_list_with_20_or_more_buckets"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4656,7 +4811,7 @@
     {
       "id": "ELITEA-1823",
       "title": "Bucket Highlights on Mouse Hover",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4668,7 +4823,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_bucket_hover_highlight.TestArtifactsBucketHoverHighlight.test_bucket_highlights_on_mouse_hover"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4700,7 +4857,7 @@
     {
       "id": "ELITEA-1825",
       "title": "Upload Flow – Cancel Upload Modal Discards File Selection",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4712,7 +4869,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_upload_path_cancel.TestArtifactsUploadPathCancel.test_cancel_upload_modal_discards_file_selection"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4813,7 +4972,7 @@
     {
       "id": "ELITEA-1830",
       "title": "Upload Flow – Duplicate Handling: Replace Overwrites Existing File",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4825,7 +4984,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_upload_duplicate_replace.TestArtifactUploadDuplicateReplace.test_replace_overwrites_existing_file"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4880,7 +5041,7 @@
     {
       "id": "ELITEA-1833",
       "title": "Upload Flow – Duplicate Handling: Close X Button on Resolve Duplicates Modal",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4892,7 +5053,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_upload_duplicate_close_x.TestArtifactUploadDuplicateCloseX.test_close_x_dismisses_duplicate_dialog_without_uploading"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4901,7 +5064,7 @@
     {
       "id": "ELITEA-1834",
       "title": "Upload Flow – File Uploaded to Selected Subfolder When Using Bucket Actions Button",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4913,7 +5076,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_upload_to_selected_subfolder.TestArtifactUploadToSelectedSubfolder.test_upload_via_bucket_actions_lands_in_selected_subfolder"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4945,7 +5110,7 @@
     {
       "id": "ELITEA-1836",
       "title": "File Tree Behavior – Subfolder Expands and Collapses on Click",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4957,7 +5122,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_tree_subfolder_expand_collapse.TestArtifactsTreeSubfolderExpandCollapse.test_subfolder_expands_and_collapses_on_click"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4966,7 +5133,7 @@
     {
       "id": "ELITEA-1837",
       "title": "File Tree Behavior – Breadcrumb Path Updates on Navigation",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -4978,7 +5145,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_tree_breadcrumb_navigation.TestArtifactsTreeBreadcrumbNavigation.test_breadcrumb_and_url_update_on_navigation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -4987,7 +5156,7 @@
     {
       "id": "ELITEA-1838",
       "title": "File Tree Behavior – Switching Between Buckets Updates Tree and Main Panel",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",
@@ -4999,7 +5168,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_tree_switch_between_buckets.TestArtifactsTreeSwitchBetweenBuckets.test_switching_buckets_updates_tree_and_main_panel"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5077,7 +5248,7 @@
     {
       "id": "ELITEA-1842",
       "title": "Download Flow – Cancel Download in Progress Stops ZIP Preparation",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -5089,7 +5260,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_download_cancel_zip_progress.TestArtifactDownloadCancelZipProgress.test_cancel_in_progress_zip_download"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5098,7 +5271,7 @@
     {
       "id": "ELITEA-1843",
       "title": "Download Flow – Close X Button on ZIP Progress Modal Cancels Download",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -5110,7 +5283,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_download_cancel_zip_progress.TestArtifactDownloadCancelZipProgress.test_cancel_in_progress_zip_download"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5119,7 +5294,7 @@
     {
       "id": "ELITEA-1844",
       "title": "Delete Flow – Delete Single File via Actions Dropdown",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",
@@ -5131,7 +5306,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_delete_single_file_dropdown.TestArtifactDeleteSingleFileDropdown.test_delete_single_file_via_dropdown"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5140,7 +5317,7 @@
     {
       "id": "ELITEA-1845",
       "title": "Delete Flow – Delete Single File via Actions Dropdown – Cancel Keeps File Intact",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -5152,7 +5329,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_delete_single_file_dropdown.TestArtifactDeleteSingleFileDropdownCancel.test_cancel_delete_keeps_file_intact"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5207,7 +5386,7 @@
     {
       "id": "ELITEA-1848",
       "title": "Delete Flow – Delete All Files and Folders Using Select All Checkbox via Delete All Files Icon",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",
@@ -5219,7 +5398,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_delete_all_and_dismissal.TestArtifactDeleteAllAndDismissal.test_delete_all_files_via_select_all"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5228,7 +5409,7 @@
     {
       "id": "ELITEA-1849",
       "title": "Delete Flow – Cancel Delete All Keeps All Items Intact",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -5240,7 +5421,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_delete_all_and_dismissal.TestArtifactDeleteAllAndDismissal.test_cancel_delete_all_keeps_items_intact"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5249,7 +5432,7 @@
     {
       "id": "ELITEA-1850",
       "title": "Delete Flow – Close X on Delete Confirmation Modal Keeps Items Intact",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -5261,7 +5444,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_delete_all_and_dismissal.TestArtifactDeleteAllAndDismissal.test_close_x_on_delete_confirmation_keeps_items_intact"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5665,7 +5850,7 @@
       "id": "ELITEA-2488",
       "title": "Manage Permissions Modal UI and Add No Access Exception",
       "status": "draft",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -5690,7 +5875,7 @@
       "id": "ELITEA-2489",
       "title": "Add Read-only Exception and Verify Enforcement",
       "status": "draft",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -5715,7 +5900,7 @@
       "id": "ELITEA-2490",
       "title": "Edit Permission and Bulk Select All Functionality",
       "status": "draft",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -5739,7 +5924,7 @@
       "id": "ELITEA-2491",
       "title": "Manage Access Not Visible in Private and Public Projects",
       "status": "draft",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -5763,7 +5948,7 @@
       "id": "ELITEA-2492",
       "title": "Empty State Display and Add Exception Flow",
       "status": "draft",
-      "execution_type": "automated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -5782,6 +5967,58 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2492_empty-state-and-add-exception-flow.md"
+    },
+    {
+      "id": "ELITEA-2493",
+      "title": "API: No Access Permission Enforcement (GET, POST, DELETE)",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "security",
+      "priority": "critical",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:artifacts",
+        "nfr:security"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5832"
+      ],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_no_access_permission_blocks_all_api_operations"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2493_api-no-access-permission-enforcement.md"
+    },
+    {
+      "id": "ELITEA-2494",
+      "title": "API: Read-only Permission Enforcement (GET allowed, POST/DELETE blocked)",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "security",
+      "priority": "critical",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:artifacts",
+        "nfr:security"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5832"
+      ],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_read_only_permission_allows_get_blocks_write_operations"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2494_api-read-only-permission-enforcement.md"
     },
     {
       "id": "ELITEA-2090",
@@ -9397,8 +9634,8 @@
     {
       "id": "ELITEA-2083",
       "title": "Chat – Create Toolkit from Conversation – Close Canvas and Verify Toolkit Added as Participant",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -9409,7 +9646,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_create_toolkit_from_conversation.TestCreateToolkitFromConversation.test_create_toolkit_from_conversation_close_canvas_and_verify_participant"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9531,8 +9770,8 @@
     {
       "id": "ELITEA-2089",
       "title": "Chat – Edit Agent in Canvas Mode – Verify Changes Synchronize to Agent",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -9543,7 +9782,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_canvas_edit_agent.TestChatCanvasEditAgent.test_edit_agent_welcome_message_syncs_to_agents_section"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9565,7 +9806,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project"
+        "tests.ui.agent_hub.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project"
       ],
       "targets": [],
       "dependencies": [],
@@ -9588,7 +9829,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_page_loads_team_project.TestAgentHubPageLoadsTeamProject.test_agent_hub_page_loads_team_project"
+        "tests.ui.agent_hub.test_agent_hub_page_loads_team_project.TestAgentHubPageLoadsTeamProject.test_agent_hub_page_loads_team_project"
       ],
       "targets": [],
       "dependencies": [],
@@ -9611,7 +9852,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category"
+        "tests.ui.agent_hub.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category"
       ],
       "targets": [],
       "dependencies": [],
@@ -9634,7 +9875,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories"
+        "tests.ui.agent_hub.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories"
       ],
       "targets": [],
       "dependencies": [],
@@ -9657,7 +9898,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_like_agent_list_view.TestAgentHubLikeAgentListView.test_agent_hub_like_agent_from_list_view"
+        "tests.ui.agent_hub.test_agent_hub_like_agent_list_view.TestAgentHubLikeAgentListView.test_agent_hub_like_agent_from_list_view"
       ],
       "targets": [],
       "dependencies": [],
@@ -9680,7 +9921,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_unlike_agent_list_view.TestAgentHubUnlikeAgentListView.test_agent_hub_unlike_agent_from_list_view"
+        "tests.ui.agent_hub.test_agent_hub_unlike_agent_list_view.TestAgentHubUnlikeAgentListView.test_agent_hub_unlike_agent_from_list_view"
       ],
       "targets": [],
       "dependencies": [],
@@ -9703,7 +9944,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal"
+        "tests.ui.agent_hub.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal"
       ],
       "targets": [],
       "dependencies": [],
@@ -9726,7 +9967,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_close_agent_detail_modal.TestAgentHubCloseAgentDetailModal.test_agent_hub_close_agent_detail_modal"
+        "tests.ui.agent_hub.test_agent_hub_close_agent_detail_modal.TestAgentHubCloseAgentDetailModal.test_agent_hub_close_agent_detail_modal"
       ],
       "targets": [],
       "dependencies": [],
@@ -9749,7 +9990,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_like_agent_from_modal.TestAgentHubLikeAgentFromModal.test_agent_hub_like_agent_from_modal"
+        "tests.ui.agent_hub.test_agent_hub_like_agent_from_modal.TestAgentHubLikeAgentFromModal.test_agent_hub_like_agent_from_modal"
       ],
       "targets": [],
       "dependencies": [],
@@ -9772,7 +10013,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_copy_link_from_modal.TestAgentHubCopyLinkFromModal.test_copy_link_from_modal_navigates_to_agent"
+        "tests.ui.agent_hub.test_agent_hub_copy_link_from_modal.TestAgentHubCopyLinkFromModal.test_copy_link_from_modal_navigates_to_agent"
       ],
       "targets": [],
       "dependencies": [],
@@ -9864,7 +10105,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_search_bar_filters_in_real_time.TestAgentHubSearchBarFiltersInRealTime.test_agent_hub_search_bar_filters_in_real_time"
+        "tests.ui.agent_hub.test_agent_hub_search_bar_filters_in_real_time.TestAgentHubSearchBarFiltersInRealTime.test_agent_hub_search_bar_filters_in_real_time"
       ],
       "targets": [],
       "dependencies": [],
@@ -9887,7 +10128,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_my_liked_filter_shows_only_liked_agents.TestAgentHubMyLikedFilterShowsOnlyLikedAgents.test_agent_hub_my_liked_filter_shows_only_liked_agents"
+        "tests.ui.agent_hub.test_agent_hub_my_liked_filter_shows_only_liked_agents.TestAgentHubMyLikedFilterShowsOnlyLikedAgents.test_agent_hub_my_liked_filter_shows_only_liked_agents"
       ],
       "targets": [],
       "dependencies": [],
@@ -9910,7 +10151,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agents.test_agent_hub_my_liked_reload_cross_tab_sync.TestAgentHubMyLikedReloadCrossTabSync.test_agent_hub_my_liked_reload_reflects_cross_tab_like"
+        "tests.ui.agent_hub.test_agent_hub_my_liked_reload_cross_tab_sync.TestAgentHubMyLikedReloadCrossTabSync.test_agent_hub_my_liked_reload_reflects_cross_tab_like"
       ],
       "targets": [],
       "dependencies": [],
@@ -9933,7 +10174,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.agent-hub.test_agent_hub_trending_category.TestAgentHubTrendingCategory.test_agent_hub_trending_category_displays_agents"
+        "tests.ui.agent_hub.test_agent_hub_trending_category.TestAgentHubTrendingCategory.test_agent_hub_trending_category_displays_agents"
       ],
       "targets": [],
       "dependencies": [],
@@ -14012,8 +14253,8 @@
     {
       "id": "ELITEA-1797",
       "title": "Widget conversation state persists after close and reopen",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -14024,7 +14265,9 @@
         "feat:support-assistant"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_widget_state_persists_after_close_reopen"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14148,8 +14391,8 @@
     {
       "id": "ELITEA-2418",
       "title": "Empty message cannot be sent",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -14160,7 +14403,9 @@
         "feat:support-assistant"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_empty_message.TestSupportAssistantEmptyMessage.test_empty_message_cannot_be_sent"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14169,8 +14414,8 @@
     {
       "id": "ELITEA-2419",
       "title": "Copy assistant response to clipboard",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14181,7 +14426,9 @@
         "feat:support-assistant"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_copy_response.TestSupportAssistantCopyResponse.test_copy_assistant_response_to_clipboard"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14232,8 +14479,8 @@
     {
       "id": "ELITEA-2422",
       "title": "Widget state preserved after in-app navigation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14244,7 +14491,9 @@
         "feat:support-assistant"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_navigation_persistence.TestSupportAssistantNavigationPersistence.test_widget_state_preserved_after_in_app_navigation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14253,8 +14502,8 @@
     {
       "id": "ELITEA-2423",
       "title": "History loads correctly after page refresh",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14265,7 +14514,9 @@
         "feat:support-assistant"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_history_after_refresh.TestSupportAssistantHistoryAfterRefresh.test_history_loads_correctly_after_page_refresh"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -50892,6 +51143,318 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/agents/ELITEA-0145_agent-creation-ui-and-api.md"
+    },
+    {
+      "id": "ELITEA-0146",
+      "title": "Export Agent with Non-Empty Editor Notes - Verify Field Included in Export File",
+      "status": "draft",
+      "execution_type": "",
+      "type": "",
+      "priority": "critical",
+      "size": "",
+      "module": "Agent Management",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "eng:export",
+        "editor-notes",
+        "EL-6156"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-0146_export-nonempty-editor-notes.md"
+    },
+    {
+      "id": "ELITEA-0147",
+      "title": "Export Agent with Empty/Null Editor Notes - Verify Null Field in Export File",
+      "status": "draft",
+      "execution_type": "",
+      "type": "",
+      "priority": "critical",
+      "size": "",
+      "module": "Agent Management",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "eng:export",
+        "editor-notes",
+        "edge-case",
+        "EL-6156"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-0147_export-empty-editor-notes.md"
+    },
+    {
+      "id": "ELITEA-0148",
+      "title": "Fork Modal - Verify Non-Empty Editor Notes Displayed in Fork Parameters Preview",
+      "status": "draft",
+      "execution_type": "",
+      "type": "",
+      "priority": "critical",
+      "size": "",
+      "module": "Agent Management",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "eng:fork",
+        "editor-notes",
+        "ui",
+        "EL-6156"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-0148_fork-modal-nonempty-editor-notes.md"
+    },
+    {
+      "id": "ELITEA-0149",
+      "title": "Fork Modal - Verify Empty Editor Notes Section Displayed But Empty",
+      "status": "draft",
+      "execution_type": "",
+      "type": "",
+      "priority": "critical",
+      "size": "",
+      "module": "Agent Management",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "eng:fork",
+        "editor-notes",
+        "edge-case",
+        "ui",
+        "EL-6156"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-0149_fork-modal-empty-editor-notes.md"
+    },
+    {
+      "id": "ELITEA-0150",
+      "title": "Fork Backend - Verify Editor Notes Carried Over to Forked Agent",
+      "status": "draft",
+      "execution_type": "",
+      "type": "",
+      "priority": "critical",
+      "size": "",
+      "module": "Agent Management",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "eng:fork",
+        "editor-notes",
+        "backend",
+        "EL-6156"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-0150_fork-backend-carryover.md"
+    },
+    {
+      "id": "ELITEA-0151",
+      "title": "Import Agent - Verify Re-importing Exported Agent Populates Editor Notes",
+      "status": "draft",
+      "execution_type": "",
+      "type": "",
+      "priority": "high",
+      "size": "",
+      "module": "Agent Management",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "eng:import",
+        "editor-notes",
+        "EL-6156"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-0151_import-exported-agent-with-notes.md"
+    },
+    {
+      "id": "ELITEA-0152",
+      "title": "Export and Import - Verify Special Characters Preserved in Editor Notes",
+      "status": "draft",
+      "execution_type": "",
+      "type": "",
+      "priority": "high",
+      "size": "",
+      "module": "Agent Management",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "eng:export",
+        "eng:import",
+        "editor-notes",
+        "edge-case",
+        "EL-6156"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-0152_export-special-characters.md"
+    },
+    {
+      "id": "ELITEA-0153",
+      "title": "Export and Import - Verify Long Editor Notes Content (>1000 chars) Preserved",
+      "status": "draft",
+      "execution_type": "",
+      "type": "",
+      "priority": "high",
+      "size": "",
+      "module": "Agent Management",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "eng:export",
+        "eng:import",
+        "editor-notes",
+        "edge-case",
+        "EL-6156"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-0153_export-long-content.md"
+    },
+    {
+      "id": "ELITEA-0154",
+      "title": "Fork Modal - Verify Editor Notes Section Layout Consistency with Other Sections",
+      "status": "draft",
+      "execution_type": "",
+      "type": "",
+      "priority": "high",
+      "size": "",
+      "module": "Agent Management",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "eng:fork",
+        "editor-notes",
+        "ui",
+        "visual-consistency",
+        "EL-6156"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-0154_fork-modal-layout-consistency.md"
+    },
+    {
+      "id": "ELITEA-0155",
+      "title": "Fork - Verify Multiple Fork Operations Preserve Editor Notes Correctly",
+      "status": "draft",
+      "execution_type": "",
+      "type": "",
+      "priority": "high",
+      "size": "",
+      "module": "Agent Management",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "eng:fork",
+        "editor-notes",
+        "workflow",
+        "EL-6156"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-0155_fork-multiple-operations.md"
+    },
+    {
+      "id": "ELITEA-0156",
+      "title": "Regression - Verify Other Export Metadata Fields Not Affected by Editor Notes Addition",
+      "status": "draft",
+      "execution_type": "",
+      "type": "",
+      "priority": "high",
+      "size": "",
+      "module": "Agent Management",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "eng:export",
+        "regression",
+        "EL-6156"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-0156_regression-export-metadata.md"
+    },
+    {
+      "id": "ELITEA-0157",
+      "title": "Regression - Verify Other Fork Modal Sections Not Affected by Editor Notes Addition",
+      "status": "draft",
+      "execution_type": "",
+      "type": "",
+      "priority": "high",
+      "size": "",
+      "module": "Agent Management",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "eng:fork",
+        "regression",
+        "ui",
+        "EL-6156"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-0157_regression-fork-modal-sections.md"
+    },
+    {
+      "id": "ELITEA-0158",
+      "title": "Regression - Verify Editor Notes Field Remains Editable and Saveable",
+      "status": "draft",
+      "execution_type": "",
+      "type": "",
+      "priority": "high",
+      "size": "",
+      "module": "Agent Management",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "eng:configuration",
+        "regression",
+        "EL-6156"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-0158_regression-editor-notes-editable.md"
     },
     {
       "id": "ELITEA-0779",
