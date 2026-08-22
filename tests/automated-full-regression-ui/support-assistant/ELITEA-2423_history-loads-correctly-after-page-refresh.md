@@ -4,10 +4,12 @@ title: "History loads correctly after page refresh"
 priority: medium
 type: functional
 module: support-assistant
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
+automation_test_id: tests.ui.support_assistant.test_support_assistant_history_after_refresh.TestSupportAssistantHistoryAfterRefresh.test_history_loads_correctly_after_page_refresh
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1651
 ---
 
 # ELITEA-2423: History loads correctly after page refresh

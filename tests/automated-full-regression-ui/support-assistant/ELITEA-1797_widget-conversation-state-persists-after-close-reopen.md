@@ -4,10 +4,12 @@ title: "Widget conversation state persists after close and reopen"
 priority: high
 type: functional
 module: support-assistant
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
+automation_test_id: tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_widget_state_persists_after_close_reopen
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1651
 ---
 
 # ELITEA-1797: Widget conversation state persists after close and reopen

@@ -4,10 +4,12 @@ title: "Widget state preserved after in-app navigation"
 priority: medium
 type: functional
 module: support-assistant
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
+automation_test_id: tests.ui.support_assistant.test_support_assistant_navigation_persistence.TestSupportAssistantNavigationPersistence.test_widget_state_preserved_after_in_app_navigation
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1651
 ---
 
 # ELITEA-2422: Widget state preserved after in-app navigation
