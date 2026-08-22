@@ -4,10 +4,12 @@ title: "Expand widget during active streaming does not restart stream"
 priority: medium
 type: functional
 module: support-assistant
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
+automation_test_id: tests.ui.support_assistant.test_support_assistant_expand_during_streaming.TestSupportAssistantExpandDuringStreaming.test_expand_during_generation_does_not_restart_response
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1665
 ---
 
 # ELITEA-2426: Expand widget during active streaming does not restart stream

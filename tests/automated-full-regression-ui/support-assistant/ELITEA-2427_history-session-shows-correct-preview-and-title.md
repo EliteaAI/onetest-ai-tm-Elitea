@@ -4,10 +4,13 @@ title: "History session shows correct preview and title"
 priority: medium
 type: functional
 module: support-assistant
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
+automation_test_id: tests.ui.support_assistant.test_support_assistant_history_title_preview.TestSupportAssistantHistoryTitleAndPreview.test_history_entry_shows_title_timestamp_and_preview
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1665
+automation_known_defect: #1658, #1659
 ---
 
 # ELITEA-2427: History session shows correct preview and title
