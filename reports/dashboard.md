@@ -1,37 +1,37 @@
 # Test Dashboard
 
-_Generated: 2026-08-21 14:45 UTC_
+_Generated: 2026-08-22 00:13 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-08-21-43-DEV-STABLE-ALL-FAILED**
+**RUN-ELITEA-2026-08-22-44-DEV-STABLE-ALL-SCHEDULED-FAILED**
 
 ```mermaid
 pie showData
     title "Test Results (152 total)"
-    "Passed" : 130
-    "Failed" : 10
+    "Passed" : 131
+    "Failed" : 9
     "Skipped" : 12
 ```
 
 | Metric | Value |
 |--------|-------|
 | Total | 152 |
-| Passed | 130 |
-| Failed | 10 |
+| Passed | 131 |
+| Failed | 9 |
 | Skipped | 12 |
-| Reruns | 17 |
-| Pass Rate | 85.5% |
+| Reruns | 14 |
+| Pass Rate | 86.2% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [21-30-DEV-STABLE, 21-31-DEV-STABLE, 21-32-DEV-STABLE, 21-33-DEV-STABLE, 21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE]
+    x-axis [21-31-DEV-STABLE, 21-32-DEV-STABLE, 21-33-DEV-STABLE, 21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE]
     y-axis "Tests" 0 --> 138
-    bar "Passed" [126, 127, 123, 123, 91, 113, 132, 133, 133, 130]
-    bar "Failed" [12, 11, 15, 15, 49, 25, 6, 8, 8, 10]
+    bar "Passed" [127, 123, 123, 91, 113, 132, 133, 133, 130, 131]
+    bar "Failed" [11, 15, 15, 49, 25, 6, 8, 8, 10, 9]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [21-30-DEV-STABLE, 21-31-DEV-STABLE, 21-32-DEV-STABLE, 21-33-DEV-STABLE, 21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE]
+    x-axis [21-31-DEV-STABLE, 21-32-DEV-STABLE, 21-33-DEV-STABLE, 21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE]
     y-axis "Reruns" 0 --> 55
-    line "Reruns" [8, 12, 15, 15, 32, 52, 13, 14, 16, 17]
+    line "Reruns" [12, 15, 15, 32, 52, 13, 14, 16, 17, 14]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 22-44-DEV-STABLE | 152 | 131 | 9 | 12 | 14 | 86% |
 | ❌ 21-43-DEV-STABLE | 152 | 130 | 10 | 12 | 17 | 86% |
 | ❌ 21-39-DEV-STABLE | 153 | 133 | 8 | 12 | 16 | 87% |
 | ❌ 21-38-DEV-STABLE | 153 | 133 | 8 | 12 | 14 | 87% |
@@ -57,7 +58,6 @@ xychart-beta
 | ❌ 21-33-DEV-STABLE | 150 | 123 | 15 | 12 | 15 | 82% |
 | ❌ 21-32-DEV-STABLE | 150 | 123 | 15 | 12 | 15 | 82% |
 | ❌ 21-31-DEV-STABLE | 150 | 127 | 11 | 12 | 12 | 85% |
-| ❌ 21-30-DEV-STABLE | 150 | 126 | 12 | 12 | 8 | 84% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -71,7 +71,7 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 | Tests in automation | 432 |
 | Tests linked to TMS cases | 289 |
 | Tests without TMS case | 143 |
-| Orphan TMS refs (test missing) | 126 |
+| Orphan TMS refs (test missing) | 147 |
 | **TMS Coverage** | **66.9%** |
 
 ```mermaid
@@ -239,9 +239,30 @@ _Tests that exist in automation but have no linked TMS case._
 _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 
 <details>
-<summary>Show 126 orphan refs</summary>
+<summary>Show 147 orphan refs</summary>
 
+- `tests.ui.artifacts.test_artifacts_bucket_hover_highlight.TestArtifactsBucketHoverHighlight.test_bucket_highlights_on_mouse_hover` (ELITEA-1823)
+- `tests.ui.artifacts.test_artifacts_bucket_list_scrolling.TestArtifactsBucketListScrolling.test_scroll_bucket_list_with_20_or_more_buckets` (ELITEA-1822)
 - `tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format` (ELITEA-1814)
+- `tests.ui.artifacts.test_artifacts_bucket_pin_unpin.TestArtifactsBucketPinUnpin.test_pin_bucket_to_top` (ELITEA-1820)
+- `tests.ui.artifacts.test_artifacts_bucket_pin_unpin.TestArtifactsBucketPinUnpin.test_unpin_bucket_from_top` (ELITEA-1821)
+- `tests.ui.artifacts.test_artifacts_delete_all_and_dismissal.TestArtifactDeleteAllAndDismissal.test_cancel_delete_all_keeps_items_intact` (ELITEA-1849)
+- `tests.ui.artifacts.test_artifacts_delete_all_and_dismissal.TestArtifactDeleteAllAndDismissal.test_close_x_on_delete_confirmation_keeps_items_intact` (ELITEA-1850)
+- `tests.ui.artifacts.test_artifacts_delete_all_and_dismissal.TestArtifactDeleteAllAndDismissal.test_delete_all_files_via_select_all` (ELITEA-1848)
+- `tests.ui.artifacts.test_artifacts_delete_single_file_dropdown.TestArtifactDeleteSingleFileDropdown.test_delete_single_file_via_dropdown` (ELITEA-1844)
+- `tests.ui.artifacts.test_artifacts_delete_single_file_dropdown.TestArtifactDeleteSingleFileDropdownCancel.test_cancel_delete_keeps_file_intact` (ELITEA-1845)
+- `tests.ui.artifacts.test_artifacts_download_cancel_zip_progress.TestArtifactDownloadCancelZipProgress.test_cancel_in_progress_zip_download` (ELITEA-1843)
+- `tests.ui.artifacts.test_artifacts_landing_page_collapse_expand_panels.TestArtifactsLandingPageCollapseExpandPanels.test_collapse_and_expand_panels_independently` (ELITEA-1807)
+- `tests.ui.artifacts.test_artifacts_landing_page_ui.TestArtifactsLandingPageUI.test_landing_page_bucket_with_files` (ELITEA-1803)
+- `tests.ui.artifacts.test_artifacts_landing_page_ui.TestArtifactsLandingPageUI.test_landing_page_empty_bucket` (ELITEA-1805)
+- `tests.ui.artifacts.test_artifacts_landing_page_ui.TestArtifactsLandingPageUI.test_landing_page_pagination_more_than_ten_files` (ELITEA-1804)
+- `tests.ui.artifacts.test_artifacts_tree_breadcrumb_navigation.TestArtifactsTreeBreadcrumbNavigation.test_breadcrumb_and_url_update_on_navigation` (ELITEA-1837)
+- `tests.ui.artifacts.test_artifacts_tree_subfolder_expand_collapse.TestArtifactsTreeSubfolderExpandCollapse.test_subfolder_expands_and_collapses_on_click` (ELITEA-1836)
+- `tests.ui.artifacts.test_artifacts_tree_switch_between_buckets.TestArtifactsTreeSwitchBetweenBuckets.test_switching_buckets_updates_tree_and_main_panel` (ELITEA-1838)
+- `tests.ui.artifacts.test_artifacts_upload_duplicate_close_x.TestArtifactUploadDuplicateCloseX.test_close_x_dismisses_duplicate_dialog_without_uploading` (ELITEA-1833)
+- `tests.ui.artifacts.test_artifacts_upload_duplicate_replace.TestArtifactUploadDuplicateReplace.test_replace_overwrites_existing_file` (ELITEA-1830)
+- `tests.ui.artifacts.test_artifacts_upload_path_cancel.TestArtifactsUploadPathCancel.test_cancel_upload_modal_discards_file_selection` (ELITEA-1825)
+- `tests.ui.artifacts.test_artifacts_upload_to_selected_subfolder.TestArtifactUploadToSelectedSubfolder.test_upload_via_bucket_actions_lands_in_selected_subfolder` (ELITEA-1834)
 - `tests.ui.chat.test_agent_hub_create_conversation_via_starter.TestAgentHubCreateConversationViaStarter.test_agent_hub_create_conversation_via_starter` (ELITEA-2093)
 - `tests.ui.chat.test_attach_files_10_left_counter.TestAttachFiles10LeftCounter.test_attach_files_menuitem_shows_10_left_counter` (ELITEA-2195)
 - `tests.ui.chat.test_attach_files_multiple_chips_display.TestAttachFilesMultipleChipsDisplay.test_attach_files_of_different_types_shows_identical_icon_and_long_filename_truncates` (ELITEA-2199)
@@ -371,4 +392,4 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 </details>
 
 ---
-_Compared `automation/index.json` (432 tests) with `index_automated.json` (415 refs)_
+_Compared `automation/index.json` (432 tests) with `index_automated.json` (436 refs)_
