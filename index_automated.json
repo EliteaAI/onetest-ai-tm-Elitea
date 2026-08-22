@@ -5657,8 +5657,8 @@
     {
       "id": "ELITEA-2420",
       "title": "Drag and drop file attachment",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -5669,7 +5669,9 @@
         "feat:support-assistant"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_drag_drop_attachment.TestSupportAssistantDragDropAttachment.test_drag_and_drop_file_attachment"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5678,8 +5680,8 @@
     {
       "id": "ELITEA-2421",
       "title": "Send message with attached file",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -5690,7 +5692,9 @@
         "feat:support-assistant"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_attachment_send.TestSupportAssistantAttachmentSend.test_send_message_with_attached_file"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5745,8 +5749,8 @@
     {
       "id": "ELITEA-2424",
       "title": "Assistant uses correct project context",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -5757,7 +5761,9 @@
         "feat:support-assistant"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_project_context.TestSupportAssistantProjectContext.test_assistant_uses_current_project_context"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5766,8 +5772,8 @@
     {
       "id": "ELITEA-2425",
       "title": "Assistant receives current page context",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -5778,7 +5784,9 @@
         "feat:support-assistant"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_page_context.TestSupportAssistantPageContext.test_assistant_receives_current_page_context"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5787,8 +5795,8 @@
     {
       "id": "ELITEA-2426",
       "title": "Expand widget during active streaming does not restart stream",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -5799,7 +5807,9 @@
         "feat:support-assistant"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_expand_during_streaming.TestSupportAssistantExpandDuringStreaming.test_expand_during_generation_does_not_restart_response"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -5808,8 +5818,8 @@
     {
       "id": "ELITEA-2427",
       "title": "History session shows correct preview and title",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -5820,7 +5830,9 @@
         "feat:support-assistant"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_history_title_preview.TestSupportAssistantHistoryTitleAndPreview.test_history_entry_shows_title_timestamp_and_preview"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
