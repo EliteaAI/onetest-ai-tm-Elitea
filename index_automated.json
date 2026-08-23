@@ -13706,7 +13706,7 @@
     {
       "id": "ELITEA-1812",
       "title": "Bucket Name Is Always Stored and Displayed in Lowercase",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -13718,7 +13718,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_bucket_name_lowercase.TestArtifactBucketNameLowercase.test_uppercase_bucket_name_is_stored_and_displayed_lowercase"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -13727,7 +13729,7 @@
     {
       "id": "ELITEA-1813",
       "title": "Bucket Cannot Be Created with an Empty Name Field",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -13739,7 +13741,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_bucket_empty_name_validation.TestArtifactBucketEmptyNameValidation.test_empty_bucket_name_disables_save_and_cancel_creates_nothing"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -13771,7 +13775,7 @@
     {
       "id": "ELITEA-1815",
       "title": "Save and Cancel Buttons Active with Valid Values; Cancel Does Not Create Bucket",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -13783,7 +13787,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_bucket_cancel_with_valid_values.TestArtifactBucketCancelWithValidValues.test_cancel_with_valid_values_creates_no_bucket"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -13792,7 +13798,7 @@
     {
       "id": "ELITEA-1816",
       "title": "Bucket Name Is Read-Only in Edit Mode and Displayed in Lowercase After Creation",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -13804,7 +13810,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_bucket_name_readonly_in_edit_mode.TestArtifactBucketNameReadOnlyInEditMode.test_bucket_name_readonly_in_edit_mode_and_stored_lowercase"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -13857,7 +13865,7 @@
     {
       "id": "ELITEA-1819",
       "title": "Bucket Name Field Does Not Accept More Than 56 Characters",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
@@ -13869,7 +13877,9 @@
         "feat:artifacts"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_bucket_name_max_length_rejection.TestArtifactBucketNameMaxLengthRejection.test_bucket_name_field_rejects_more_than_56_characters"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
