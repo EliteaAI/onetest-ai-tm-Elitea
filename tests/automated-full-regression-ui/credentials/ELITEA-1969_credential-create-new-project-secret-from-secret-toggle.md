@@ -4,10 +4,12 @@ title: "Credential — Create New Project Secret from Secret Toggle"
 priority: high
 type: functional
 module: toolkits-credentials
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:toolkits]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_credential_secret_password_toggle.TestCredentialSecretPasswordToggle.test_create_new_project_secret_from_secret_toggle
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1704
 ---
 
 # ELITEA-1969: Credential — Create New Project Secret from Secret Toggle

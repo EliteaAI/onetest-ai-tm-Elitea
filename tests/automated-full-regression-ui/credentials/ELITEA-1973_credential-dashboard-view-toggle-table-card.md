@@ -4,10 +4,12 @@ title: "Credential Dashboard — View Toggle (Table/Card)"
 priority: high
 type: functional
 module: toolkits-credentials
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:toolkits]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_credential_view_toggle.TestCredentialViewToggle.test_credential_dashboard_view_toggle_table_card
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1704
 ---
 
 # ELITEA-1973: Credential Dashboard — View Toggle (Table/Card)

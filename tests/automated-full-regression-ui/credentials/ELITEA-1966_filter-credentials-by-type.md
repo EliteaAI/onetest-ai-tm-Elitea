@@ -4,10 +4,12 @@ title: "Filter Credentials by Type"
 priority: medium
 type: functional
 module: toolkits-credentials
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:toolkits]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_credential_filter_by_type.TestCredentialFilterByType.test_filter_credentials_by_type
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1704
 ---
 
 # ELITEA-1966: Filter Credentials by Type

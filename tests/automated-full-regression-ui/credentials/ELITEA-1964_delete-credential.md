@@ -4,10 +4,12 @@ title: "Delete Credential"
 priority: high
 type: functional
 module: toolkits-credentials
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:toolkits]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_credential_delete.TestCredentialDelete.test_delete_credential_via_three_dot_menu
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1704
 ---
 
 # ELITEA-1964: Delete Credential
