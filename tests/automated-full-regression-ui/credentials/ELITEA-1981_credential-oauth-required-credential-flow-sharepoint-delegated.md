@@ -4,10 +4,12 @@ title: "Credential — OAuth-Required Credential Flow (SharePoint Delegated)"
 priority: high
 type: functional
 module: toolkits-credentials
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:toolkits]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_credential_oauth_delegated_flow.TestCredentialOAuthDelegatedFlow.test_sharepoint_delegated_credential_oauth_flow
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1714
 ---
 
 # ELITEA-1981: Credential — OAuth-Required Credential Flow (SharePoint Delegated)
