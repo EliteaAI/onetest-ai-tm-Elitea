@@ -1,10 +1,10 @@
 # Test Dashboard
 
-_Generated: 2026-08-22 00:13 UTC_
+_Generated: 2026-08-23 00:09 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-08-22-44-DEV-STABLE-ALL-SCHEDULED-FAILED**
+**RUN-ELITEA-2026-08-23-45-DEV-STABLE-ALL-SCHEDULED-FAILED**
 
 ```mermaid
 pie showData
@@ -20,7 +20,7 @@ pie showData
 | Passed | 131 |
 | Failed | 9 |
 | Skipped | 12 |
-| Reruns | 14 |
+| Reruns | 15 |
 | Pass Rate | 86.2% |
 
 ## Trend (Last 10 Runs)
@@ -28,10 +28,10 @@ pie showData
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [21-31-DEV-STABLE, 21-32-DEV-STABLE, 21-33-DEV-STABLE, 21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE]
+    x-axis [21-32-DEV-STABLE, 21-33-DEV-STABLE, 21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE]
     y-axis "Tests" 0 --> 138
-    bar "Passed" [127, 123, 123, 91, 113, 132, 133, 133, 130, 131]
-    bar "Failed" [11, 15, 15, 49, 25, 6, 8, 8, 10, 9]
+    bar "Passed" [123, 123, 91, 113, 132, 133, 133, 130, 131, 131]
+    bar "Failed" [15, 15, 49, 25, 6, 8, 8, 10, 9, 9]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [21-31-DEV-STABLE, 21-32-DEV-STABLE, 21-33-DEV-STABLE, 21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE]
+    x-axis [21-32-DEV-STABLE, 21-33-DEV-STABLE, 21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE]
     y-axis "Reruns" 0 --> 55
-    line "Reruns" [12, 15, 15, 32, 52, 13, 14, 16, 17, 14]
+    line "Reruns" [15, 15, 32, 52, 13, 14, 16, 17, 14, 15]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 23-45-DEV-STABLE | 152 | 131 | 9 | 12 | 15 | 86% |
 | ❌ 22-44-DEV-STABLE | 152 | 131 | 9 | 12 | 14 | 86% |
 | ❌ 21-43-DEV-STABLE | 152 | 130 | 10 | 12 | 17 | 86% |
 | ❌ 21-39-DEV-STABLE | 153 | 133 | 8 | 12 | 16 | 87% |
@@ -57,7 +58,6 @@ xychart-beta
 | ❌ 21-34-DEV-STABLE | 150 | 91 | 49 | 10 | 32 | 61% |
 | ❌ 21-33-DEV-STABLE | 150 | 123 | 15 | 12 | 15 | 82% |
 | ❌ 21-32-DEV-STABLE | 150 | 123 | 15 | 12 | 15 | 82% |
-| ❌ 21-31-DEV-STABLE | 150 | 127 | 11 | 12 | 12 | 85% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -69,16 +69,16 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 | Metric | Count |
 |--------|-------|
 | Tests in automation | 432 |
-| Tests linked to TMS cases | 289 |
-| Tests without TMS case | 143 |
-| Orphan TMS refs (test missing) | 147 |
-| **TMS Coverage** | **66.9%** |
+| Tests linked to TMS cases | 290 |
+| Tests without TMS case | 142 |
+| Orphan TMS refs (test missing) | 157 |
+| **TMS Coverage** | **67.1%** |
 
 ```mermaid
 pie showData
     title "TMS Linkage (432 tests)"
-    "Linked to TMS" : 289
-    "No TMS case" : 143
+    "Linked to TMS" : 290
+    "No TMS case" : 142
 ```
 
 ### Tests Without TMS Case
@@ -86,7 +86,7 @@ pie showData
 _Tests that exist in automation but have no linked TMS case._
 
 <details>
-<summary>Show 143 unlinked tests</summary>
+<summary>Show 142 unlinked tests</summary>
 
 - `tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_after`
 - `tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_before`
@@ -198,7 +198,6 @@ _Tests that exist in automation but have no linked TMS case._
 - `tests.ui.skills.test_skill_management.TestCreateSkill.test_create_skill_and_verify_execution`
 - `tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible`
 - `tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads`
-- `tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_widget_state_persists_after_close_reopen`
 - `tests.ui.toolkits.test_github_toolkit.TestChatWithGitHubToolkit.test_chat_with_github_toolkit`
 - `tests.ui.toolkits.test_github_toolkit.TestCreateGitHubCredential.test_create_github_credential`
 - `tests.ui.toolkits.test_github_toolkit.TestCreateGitHubToolkit.test_create_github_toolkit`
@@ -239,7 +238,7 @@ _Tests that exist in automation but have no linked TMS case._
 _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 
 <details>
-<summary>Show 147 orphan refs</summary>
+<summary>Show 157 orphan refs</summary>
 
 - `tests.ui.artifacts.test_artifacts_bucket_hover_highlight.TestArtifactsBucketHoverHighlight.test_bucket_highlights_on_mouse_hover` (ELITEA-1823)
 - `tests.ui.artifacts.test_artifacts_bucket_list_scrolling.TestArtifactsBucketListScrolling.test_scroll_bucket_list_with_20_or_more_buckets` (ELITEA-1822)
@@ -388,8 +387,18 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 - `tests.ui.skills.test_skill_publish_wizard_happy_path.TestSkillPublishWizardHappyPath.test_publish_skill_happy_path` (ELITEA-2595)
 - `tests.ui.skills.test_skill_unpublish_republish_lifecycle.TestSkillUnpublishRepublishLifecycle.test_unpublish_republish_lifecycle` (ELITEA-2599)
 - `tests.ui.skills.test_subagent_skills_isolation.TestSubagentSkillsIsolation.test_subagent_uses_only_its_own_attached_skill` (ELITEA-2608)
+- `tests.ui.support_assistant.test_support_assistant_attachment_send.TestSupportAssistantAttachmentSend.test_send_message_with_attached_file` (ELITEA-2421)
+- `tests.ui.support_assistant.test_support_assistant_copy_response.TestSupportAssistantCopyResponse.test_copy_assistant_response_to_clipboard` (ELITEA-2419)
+- `tests.ui.support_assistant.test_support_assistant_drag_drop_attachment.TestSupportAssistantDragDropAttachment.test_drag_and_drop_file_attachment` (ELITEA-2420)
+- `tests.ui.support_assistant.test_support_assistant_empty_message.TestSupportAssistantEmptyMessage.test_empty_message_cannot_be_sent` (ELITEA-2418)
+- `tests.ui.support_assistant.test_support_assistant_expand_during_streaming.TestSupportAssistantExpandDuringStreaming.test_expand_during_generation_does_not_restart_response` (ELITEA-2426)
+- `tests.ui.support_assistant.test_support_assistant_history_after_refresh.TestSupportAssistantHistoryAfterRefresh.test_history_loads_correctly_after_page_refresh` (ELITEA-2423)
+- `tests.ui.support_assistant.test_support_assistant_history_title_preview.TestSupportAssistantHistoryTitleAndPreview.test_history_entry_shows_title_timestamp_and_preview` (ELITEA-2427)
+- `tests.ui.support_assistant.test_support_assistant_navigation_persistence.TestSupportAssistantNavigationPersistence.test_widget_state_preserved_after_in_app_navigation` (ELITEA-2422)
+- `tests.ui.support_assistant.test_support_assistant_page_context.TestSupportAssistantPageContext.test_assistant_receives_current_page_context` (ELITEA-2425)
+- `tests.ui.support_assistant.test_support_assistant_project_context.TestSupportAssistantProjectContext.test_assistant_uses_current_project_context` (ELITEA-2424)
 
 </details>
 
 ---
-_Compared `automation/index.json` (432 tests) with `index_automated.json` (436 refs)_
+_Compared `automation/index.json` (432 tests) with `index_automated.json` (447 refs)_
