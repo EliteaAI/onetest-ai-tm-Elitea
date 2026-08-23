@@ -4,9 +4,12 @@ title: "Bucket Cannot Be Created with an Empty Name Field"
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_bucket_empty_name_validation.TestArtifactBucketEmptyNameValidation.test_empty_bucket_name_disables_save_and_cancel_creates_nothing
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1686
 requirements: []
 ---
 

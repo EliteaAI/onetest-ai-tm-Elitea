@@ -4,9 +4,12 @@ title: "Bucket Name Is Always Stored and Displayed in Lowercase"
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_bucket_name_lowercase.TestArtifactBucketNameLowercase.test_uppercase_bucket_name_is_stored_and_displayed_lowercase
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1686
 requirements: []
 ---
 

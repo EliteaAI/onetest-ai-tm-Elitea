@@ -4,9 +4,12 @@ title: "Bucket Name Field Does Not Accept More Than 56 Characters"
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_bucket_name_max_length_rejection.TestArtifactBucketNameMaxLengthRejection.test_bucket_name_field_rejects_more_than_56_characters
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1686
 requirements: []
 ---
 

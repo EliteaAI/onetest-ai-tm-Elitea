@@ -4,9 +4,12 @@ title: "Save and Cancel Buttons Active with Valid Values; Cancel Does Not Create
 priority: medium
 type: functional
 module: artifacts
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:artifacts]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_bucket_cancel_with_valid_values.TestArtifactBucketCancelWithValidValues.test_cancel_with_valid_values_creates_no_bucket
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1686
 requirements: []
 ---
 
