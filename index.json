@@ -16494,8 +16494,8 @@
     {
       "id": "ELITEA-2232",
       "title": "Onboarding — clicking Sure lets go triggers project provisioning and displays onboarding tips slide 1/48 with configuring progress bar",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -16506,7 +16506,9 @@
         "feat:onboarding"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.onboarding.test_onboarding_provisioning.TestOnboardingProvisioning.test_get_started_starts_provisioning_poll_and_shows_tips_with_progress_footer"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -16557,8 +16559,8 @@
     {
       "id": "ELITEA-2235",
       "title": "Onboarding — onboarding tips card is displayed on first login starting at slide 1/48",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -16569,7 +16571,9 @@
         "feat:onboarding"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.onboarding.test_onboarding_tips_card.TestOnboardingTipsCard.test_tips_card_displayed_at_slide_1_of_48"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -16578,8 +16582,8 @@
     {
       "id": "ELITEA-2236",
       "title": "Onboarding — card can be expanded to fullscreen and collapsed with X button",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -16590,7 +16594,9 @@
         "feat:onboarding"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.onboarding.test_onboarding_tips_fullscreen.TestOnboardingTipsFullscreen.test_tips_card_expand_fullscreen_and_collapse"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -16683,8 +16689,8 @@
     {
       "id": "ELITEA-2241",
       "title": "Onboarding — clicking \\\"Jump in now!\\\" closes onboarding and shows default project page",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -16695,7 +16701,9 @@
         "feat:onboarding"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.onboarding.test_onboarding_jump_in.TestOnboardingJumpIn.test_jump_in_now_closes_onboarding_and_shows_default_project_page"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

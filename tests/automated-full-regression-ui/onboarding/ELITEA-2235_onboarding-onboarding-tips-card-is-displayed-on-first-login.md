@@ -4,10 +4,13 @@ title: "Onboarding — onboarding tips card is displayed on first login starting
 priority: high
 type: functional
 module: onboarding
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:onboarding]
 requirements: []
+automation_test_id:
+  - tests.ui.onboarding.test_onboarding_tips_card.TestOnboardingTipsCard.test_tips_card_displayed_at_slide_1_of_48
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1758
 ---
 
 # ELITEA-2235: Onboarding — onboarding tips card is displayed on first login starting at slide 1/48

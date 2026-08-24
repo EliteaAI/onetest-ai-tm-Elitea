@@ -4,10 +4,13 @@ title: "Onboarding — clicking \"Jump in now!\" closes onboarding and shows def
 priority: medium
 type: functional
 module: onboarding
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:onboarding]
 requirements: []
+automation_test_id:
+  - tests.ui.onboarding.test_onboarding_jump_in.TestOnboardingJumpIn.test_jump_in_now_closes_onboarding_and_shows_default_project_page
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1758
 ---
 
 # ELITEA-2241: Onboarding — clicking \"Jump in now!\" closes onboarding and shows default project page
