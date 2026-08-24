@@ -28,7 +28,7 @@
     {
       "case_id": "ELITEA-1808",
       "code_ref": "tests.ui.artifacts.test_artifacts_create_bucket_upload_file.TestArtifactCreateBucketAndUploadFile.test_create_bucket_via_form_and_upload_file_via_bucket_menu",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1809",
@@ -68,7 +68,7 @@
     {
       "case_id": "ELITEA-1840",
       "code_ref": "tests.ui.artifacts.test_artifacts_download_multiple_files_zip.TestArtifactDownloadMultipleFilesZip.test_download_multiple_files_as_zip",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1846",
@@ -243,12 +243,12 @@
     {
       "case_id": "ELITEA-1892",
       "code_ref": "tests.ui.agents.test_agent_publish_unpublish_version.TestAgentPublishUnpublishVersion.test_publish_draft_version_then_unpublish_reverts_to_draft",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1895",
       "code_ref": "tests.ui.agents.test_import_agent_zip_nested_agent_dependencies.TestImportAgentZipNestedAgentDependencies.test_import_agent_zip_nested_agent_dependencies",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1896",
@@ -278,7 +278,7 @@
     {
       "case_id": "ELITEA-1902",
       "code_ref": "tests.ui.agents.test_import_agent_zip_nested_agent_dependencies.TestImportAgentZipNestedAgentDependencies.test_import_agent_zip_nested_agent_dependencies",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1903",
@@ -328,7 +328,7 @@
     {
       "case_id": "ELITEA-2227",
       "code_ref": "tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTour.test_sidebar_interactive_tour_completes_via_next",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1737",
@@ -383,7 +383,7 @@
     {
       "case_id": "ELITEA-1795",
       "code_ref": "tests.ui.skills.test_import_agent_recreates_skills_with_new_ids.TestImportAgentRecreatesSkillsWithNewIds.test_import_agent_recreates_skills_with_new_ids",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-2435",
@@ -448,7 +448,7 @@
     {
       "case_id": "ELITEA-0500",
       "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_sends_file_with_message",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0500",
@@ -588,7 +588,7 @@
     {
       "case_id": "ELITEA-0143",
       "code_ref": "tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1312",
