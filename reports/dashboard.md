@@ -1,37 +1,36 @@
 # Test Dashboard
 
-_Generated: 2026-08-24 00:12 UTC_
+_Generated: 2026-08-24 09:28 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-08-24-47-DEV-STABLE-ALL-SCHEDULED-FAILED**
+**RUN-ELITEA-2026-08-24-49-DEV-STABLE-ADMIN-PIPELINES-FAILED**
 
 ```mermaid
 pie showData
-    title "Test Results (152 total)"
-    "Passed" : 130
-    "Failed" : 10
-    "Skipped" : 12
+    title "Test Results (3 total)"
+    "Passed" : 0
+    "Failed" : 3
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 152 |
-| Passed | 130 |
-| Failed | 10 |
-| Skipped | 12 |
-| Reruns | 16 |
-| Pass Rate | 85.5% |
+| Total | 3 |
+| Passed | 0 |
+| Failed | 3 |
+| Skipped | 0 |
+| Reruns | 6 |
+| Pass Rate | 0.0% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE]
+    x-axis [21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE, 24-49-DEV-STABLE]
     y-axis "Tests" 0 --> 138
-    bar "Passed" [91, 113, 132, 133, 133, 130, 131, 131, 123, 130]
-    bar "Failed" [49, 25, 6, 8, 8, 10, 9, 9, 17, 10]
+    bar "Passed" [113, 132, 133, 133, 130, 131, 131, 123, 130, 0]
+    bar "Failed" [25, 6, 8, 8, 10, 9, 9, 17, 10, 3]
 ```
 
 ### Reruns Trend
@@ -39,15 +38,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE]
+    x-axis [21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE, 24-49-DEV-STABLE]
     y-axis "Reruns" 0 --> 55
-    line "Reruns" [32, 52, 13, 14, 16, 17, 14, 15, 32, 16]
+    line "Reruns" [52, 13, 14, 16, 17, 14, 15, 32, 16, 6]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 24-49-DEV-STABLE | 3 | 0 | 3 | 0 | 6 | 0% |
 | ❌ 24-47-DEV-STABLE | 152 | 130 | 10 | 12 | 16 | 86% |
 | ❌ 23-46-DEV-STABLE | 152 | 123 | 17 | 12 | 32 | 81% |
 | ❌ 23-45-DEV-STABLE | 152 | 131 | 9 | 12 | 15 | 86% |
@@ -57,7 +57,6 @@ xychart-beta
 | ❌ 21-38-DEV-STABLE | 153 | 133 | 8 | 12 | 14 | 87% |
 | ❌ 21-36-DEV-STABLE | 150 | 132 | 6 | 12 | 13 | 88% |
 | ❌ 21-35-DEV-STABLE | 150 | 113 | 25 | 12 | 52 | 75% |
-| ❌ 21-34-DEV-STABLE | 150 | 91 | 49 | 10 | 32 | 61% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -71,7 +70,7 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 | Tests in automation | 432 |
 | Tests linked to TMS cases | 290 |
 | Tests without TMS case | 142 |
-| Orphan TMS refs (test missing) | 179 |
+| Orphan TMS refs (test missing) | 199 |
 | **TMS Coverage** | **67.1%** |
 
 ```mermaid
@@ -238,7 +237,7 @@ _Tests that exist in automation but have no linked TMS case._
 _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 
 <details>
-<summary>Show 179 orphan refs</summary>
+<summary>Show 199 orphan refs</summary>
 
 - `tests.ui.artifacts.test_artifacts_bucket_cancel_with_valid_values.TestArtifactBucketCancelWithValidValues.test_cancel_with_valid_values_creates_no_bucket` (ELITEA-1815)
 - `tests.ui.artifacts.test_artifacts_bucket_empty_name_validation.TestArtifactBucketEmptyNameValidation.test_empty_bucket_name_disables_save_and_cancel_creates_nothing` (ELITEA-1813)
@@ -419,8 +418,28 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 - `tests.ui.toolkits.test_credential_test_connection.test_credential_test_connection` (ELITEA-1970)
 - `tests.ui.toolkits.test_credential_type_specific_form_fields.TestCredentialTypeSpecificFormFields.test_type_specific_form_fields` (ELITEA-1967)
 - `tests.ui.toolkits.test_credential_view_toggle.TestCredentialViewToggle.test_credential_dashboard_view_toggle_table_card` (ELITEA-1973)
+- `tests.ui.toolkits.test_mcp_back_navigation.test_mcp_back_navigation_detail_to_list` (ELITEA-1961)
+- `tests.ui.toolkits.test_mcp_cancel_during_creation.TestMcpCancelDuringCreation.test_cancel_during_creation_creates_nothing` (ELITEA-1960)
+- `tests.ui.toolkits.test_mcp_connection_status_indicator.test_mcp_connection_status_indicator` (ELITEA-1936)
+- `tests.ui.toolkits.test_mcp_copy_link_from_menu.test_remote_mcp_copy_link_from_three_dot_menu` (ELITEA-1959)
+- `tests.ui.toolkits.test_mcp_create_validation.test_create_remote_mcp_validation_on_missing_required_field[ELITEA-1923]` (ELITEA-1923)
+- `tests.ui.toolkits.test_mcp_edit_client_secret_toggle.test_mcp_edit_client_secret_secret_password_toggle` (ELITEA-1932)
+- `tests.ui.toolkits.test_mcp_edit_discard_changes.test_mcp_edit_discard_changes` (ELITEA-1928)
+- `tests.ui.toolkits.test_mcp_edit_headers_json.test_mcp_edit_headers_json` (ELITEA-1931)
+- `tests.ui.toolkits.test_mcp_edit_name.test_mcp_edit_change_name` (ELITEA-1925)
+- `tests.ui.toolkits.test_mcp_edit_timeout_cache_ttl.test_mcp_edit_timeout_cache_ttl[ELITEA-1956]` (ELITEA-1956)
+- `tests.ui.toolkits.test_mcp_edit_timeout_cache_ttl.test_mcp_edit_timeout_cache_ttl[ELITEA-1957]` (ELITEA-1957)
+- `tests.ui.toolkits.test_mcp_edit_toggle_ssl_verify.test_mcp_edit_toggle_ssl_verify` (ELITEA-1930)
+- `tests.ui.toolkits.test_mcp_edit_url.test_mcp_edit_change_url` (ELITEA-1926)
+- `tests.ui.toolkits.test_mcp_form_raw_json_view_sync.TestMcpFormRawJsonViewSync.test_form_raw_json_view_sync_and_discard` (ELITEA-1948)
+- `tests.ui.toolkits.test_mcp_pin_unpin.test_mcp_dashboard_pin_unpin` (ELITEA-1945)
+- `tests.ui.toolkits.test_mcp_test_settings_view_run_history.test_mcp_view_run_history_and_entry_details` (ELITEA-1940)
+- `tests.ui.toolkits.test_mcp_three_dot_menu_actions.test_mcp_detail_three_dot_menu_actions` (ELITEA-1946)
+- `tests.ui.toolkits.test_mcp_toggle_selected_tools.test_mcp_toggle_selected_tools_via_raw_json` (ELITEA-1935)
+- `tests.ui.toolkits.test_mcp_type_filter.test_mcp_dashboard_filter_by_type_remote` (ELITEA-1942)
+- `tests.ui.toolkits.test_mcp_type_picker_local_vs_remote.TestMcpTypePickerLocalVsRemote.test_type_picker_sections_documentation_link_and_filters` (ELITEA-1949)
 
 </details>
 
 ---
-_Compared `automation/index.json` (432 tests) with `index_automated.json` (469 refs)_
+_Compared `automation/index.json` (432 tests) with `index_automated.json` (489 refs)_
