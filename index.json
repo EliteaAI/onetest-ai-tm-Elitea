@@ -14078,8 +14078,8 @@
     {
       "id": "ELITEA-1952",
       "title": "MCP Integration in Pipeline — Add MCP to Tools and Configure MCP Node",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -14090,7 +14090,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_mcp_node_fresh_attach.test_mcp_node_executes_selected_tool"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14099,8 +14101,8 @@
     {
       "id": "ELITEA-1953",
       "title": "MCP Integration in Pipeline — MCP Node Input Mapping Configuration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -14111,7 +14113,9 @@
         "feat:pipelines"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_mcp_node_fresh_attach.test_mcp_node_input_mapping_type_and_toggles_persist"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
