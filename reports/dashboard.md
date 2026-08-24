@@ -1,37 +1,37 @@
 # Test Dashboard
 
-_Generated: 2026-08-23 13:35 UTC_
+_Generated: 2026-08-24 00:12 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-08-23-46-DEV-STABLE-ALL-FAILED**
+**RUN-ELITEA-2026-08-24-47-DEV-STABLE-ALL-SCHEDULED-FAILED**
 
 ```mermaid
 pie showData
     title "Test Results (152 total)"
-    "Passed" : 123
-    "Failed" : 17
+    "Passed" : 130
+    "Failed" : 10
     "Skipped" : 12
 ```
 
 | Metric | Value |
 |--------|-------|
 | Total | 152 |
-| Passed | 123 |
-| Failed | 17 |
+| Passed | 130 |
+| Failed | 10 |
 | Skipped | 12 |
-| Reruns | 32 |
-| Pass Rate | 80.9% |
+| Reruns | 16 |
+| Pass Rate | 85.5% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [21-33-DEV-STABLE, 21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE]
+    x-axis [21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE]
     y-axis "Tests" 0 --> 138
-    bar "Passed" [123, 91, 113, 132, 133, 133, 130, 131, 131, 123]
-    bar "Failed" [15, 49, 25, 6, 8, 8, 10, 9, 9, 17]
+    bar "Passed" [91, 113, 132, 133, 133, 130, 131, 131, 123, 130]
+    bar "Failed" [49, 25, 6, 8, 8, 10, 9, 9, 17, 10]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [21-33-DEV-STABLE, 21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE]
+    x-axis [21-34-DEV-STABLE, 21-35-DEV-STABLE, 21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE]
     y-axis "Reruns" 0 --> 55
-    line "Reruns" [15, 32, 52, 13, 14, 16, 17, 14, 15, 32]
+    line "Reruns" [32, 52, 13, 14, 16, 17, 14, 15, 32, 16]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 24-47-DEV-STABLE | 152 | 130 | 10 | 12 | 16 | 86% |
 | ❌ 23-46-DEV-STABLE | 152 | 123 | 17 | 12 | 32 | 81% |
 | ❌ 23-45-DEV-STABLE | 152 | 131 | 9 | 12 | 15 | 86% |
 | ❌ 22-44-DEV-STABLE | 152 | 131 | 9 | 12 | 14 | 86% |
@@ -57,7 +58,6 @@ xychart-beta
 | ❌ 21-36-DEV-STABLE | 150 | 132 | 6 | 12 | 13 | 88% |
 | ❌ 21-35-DEV-STABLE | 150 | 113 | 25 | 12 | 52 | 75% |
 | ❌ 21-34-DEV-STABLE | 150 | 91 | 49 | 10 | 32 | 61% |
-| ❌ 21-33-DEV-STABLE | 150 | 123 | 15 | 12 | 15 | 82% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -71,7 +71,7 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 | Tests in automation | 432 |
 | Tests linked to TMS cases | 290 |
 | Tests without TMS case | 142 |
-| Orphan TMS refs (test missing) | 157 |
+| Orphan TMS refs (test missing) | 179 |
 | **TMS Coverage** | **67.1%** |
 
 ```mermaid
@@ -238,10 +238,15 @@ _Tests that exist in automation but have no linked TMS case._
 _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 
 <details>
-<summary>Show 157 orphan refs</summary>
+<summary>Show 179 orphan refs</summary>
 
+- `tests.ui.artifacts.test_artifacts_bucket_cancel_with_valid_values.TestArtifactBucketCancelWithValidValues.test_cancel_with_valid_values_creates_no_bucket` (ELITEA-1815)
+- `tests.ui.artifacts.test_artifacts_bucket_empty_name_validation.TestArtifactBucketEmptyNameValidation.test_empty_bucket_name_disables_save_and_cancel_creates_nothing` (ELITEA-1813)
 - `tests.ui.artifacts.test_artifacts_bucket_hover_highlight.TestArtifactsBucketHoverHighlight.test_bucket_highlights_on_mouse_hover` (ELITEA-1823)
 - `tests.ui.artifacts.test_artifacts_bucket_list_scrolling.TestArtifactsBucketListScrolling.test_scroll_bucket_list_with_20_or_more_buckets` (ELITEA-1822)
+- `tests.ui.artifacts.test_artifacts_bucket_name_lowercase.TestArtifactBucketNameLowercase.test_uppercase_bucket_name_is_stored_and_displayed_lowercase` (ELITEA-1812)
+- `tests.ui.artifacts.test_artifacts_bucket_name_max_length_rejection.TestArtifactBucketNameMaxLengthRejection.test_bucket_name_field_rejects_more_than_56_characters` (ELITEA-1819)
+- `tests.ui.artifacts.test_artifacts_bucket_name_readonly_in_edit_mode.TestArtifactBucketNameReadOnlyInEditMode.test_bucket_name_readonly_in_edit_mode_and_stored_lowercase` (ELITEA-1816)
 - `tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format` (ELITEA-1814)
 - `tests.ui.artifacts.test_artifacts_bucket_pin_unpin.TestArtifactsBucketPinUnpin.test_pin_bucket_to_top` (ELITEA-1820)
 - `tests.ui.artifacts.test_artifacts_bucket_pin_unpin.TestArtifactsBucketPinUnpin.test_unpin_bucket_from_top` (ELITEA-1821)
@@ -251,6 +256,12 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 - `tests.ui.artifacts.test_artifacts_delete_single_file_dropdown.TestArtifactDeleteSingleFileDropdown.test_delete_single_file_via_dropdown` (ELITEA-1844)
 - `tests.ui.artifacts.test_artifacts_delete_single_file_dropdown.TestArtifactDeleteSingleFileDropdownCancel.test_cancel_delete_keeps_file_intact` (ELITEA-1845)
 - `tests.ui.artifacts.test_artifacts_download_cancel_zip_progress.TestArtifactDownloadCancelZipProgress.test_cancel_in_progress_zip_download` (ELITEA-1843)
+- `tests.ui.artifacts.test_artifacts_file_preview_close_x_unsaved.TestArtifactFilePreviewCloseXUnsaved.test_close_editor_via_x_does_not_persist_changes` (ELITEA-1855)
+- `tests.ui.artifacts.test_artifacts_file_preview_discard_warning.TestArtifactFilePreviewDiscardWarning.test_discard_warning_modal_exit_paths` (ELITEA-1854)
+- `tests.ui.artifacts.test_artifacts_file_preview_markdown_raw_discard.TestArtifactFilePreviewMarkdownRawDiscard.test_markdown_raw_discard_warning_exit_paths` (ELITEA-1860)
+- `tests.ui.artifacts.test_artifacts_file_preview_markdown_tab_switching.TestArtifactFilePreviewMarkdownTabSwitching.test_switching_between_preview_and_raw_tabs` (ELITEA-1861)
+- `tests.ui.artifacts.test_artifacts_file_preview_unsupported_xlsx.TestArtifactFilePreviewUnsupportedXlsx.test_unsupported_xlsx_shows_preview_not_available` (ELITEA-1863)
+- `tests.ui.artifacts.test_artifacts_file_preview_unsupported_zip_row_actions.TestArtifactFilePreviewUnsupportedZipRowActions.test_unsupported_zip_row_has_no_preview_and_two_actions` (ELITEA-1864)
 - `tests.ui.artifacts.test_artifacts_landing_page_collapse_expand_panels.TestArtifactsLandingPageCollapseExpandPanels.test_collapse_and_expand_panels_independently` (ELITEA-1807)
 - `tests.ui.artifacts.test_artifacts_landing_page_ui.TestArtifactsLandingPageUI.test_landing_page_bucket_with_files` (ELITEA-1803)
 - `tests.ui.artifacts.test_artifacts_landing_page_ui.TestArtifactsLandingPageUI.test_landing_page_empty_bucket` (ELITEA-1805)
@@ -397,8 +408,19 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 - `tests.ui.support_assistant.test_support_assistant_navigation_persistence.TestSupportAssistantNavigationPersistence.test_widget_state_preserved_after_in_app_navigation` (ELITEA-2422)
 - `tests.ui.support_assistant.test_support_assistant_page_context.TestSupportAssistantPageContext.test_assistant_receives_current_page_context` (ELITEA-2425)
 - `tests.ui.support_assistant.test_support_assistant_project_context.TestSupportAssistantProjectContext.test_assistant_uses_current_project_context` (ELITEA-2424)
+- `tests.ui.toolkits.test_credential_create_project_from_toolkit_dropdown.TestCredentialCreateProjectFromToolkitDropdown.test_create_project_credential_from_toolkit_dropdown` (ELITEA-1977)
+- `tests.ui.toolkits.test_credential_delete.TestCredentialDelete.test_delete_credential_via_three_dot_menu` (ELITEA-1964)
+- `tests.ui.toolkits.test_credential_error_states.test_credential_error_states` (ELITEA-1980)
+- `tests.ui.toolkits.test_credential_filter_by_type.TestCredentialFilterByType.test_filter_credentials_by_type` (ELITEA-1966)
+- `tests.ui.toolkits.test_credential_oauth_authorization_modal.TestCredentialOAuthAuthorizationModal.test_oauth_authorization_modal_invocation` (ELITEA-1982)
+- `tests.ui.toolkits.test_credential_oauth_delegated_flow.TestCredentialOAuthDelegatedFlow.test_sharepoint_delegated_credential_oauth_flow` (ELITEA-1981)
+- `tests.ui.toolkits.test_credential_secret_password_toggle.TestCredentialSecretPasswordToggle.test_create_new_project_secret_from_secret_toggle` (ELITEA-1969)
+- `tests.ui.toolkits.test_credential_secret_password_toggle.TestCredentialSecretPasswordToggle.test_secret_password_storage_toggle` (ELITEA-1968)
+- `tests.ui.toolkits.test_credential_test_connection.test_credential_test_connection` (ELITEA-1970)
+- `tests.ui.toolkits.test_credential_type_specific_form_fields.TestCredentialTypeSpecificFormFields.test_type_specific_form_fields` (ELITEA-1967)
+- `tests.ui.toolkits.test_credential_view_toggle.TestCredentialViewToggle.test_credential_dashboard_view_toggle_table_card` (ELITEA-1973)
 
 </details>
 
 ---
-_Compared `automation/index.json` (432 tests) with `index_automated.json` (447 refs)_
+_Compared `automation/index.json` (432 tests) with `index_automated.json` (469 refs)_
