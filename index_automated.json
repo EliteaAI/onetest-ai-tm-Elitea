@@ -16291,8 +16291,8 @@
     {
       "id": "ELITEA-2233",
       "title": "Onboarding — ELITEA logo displays green dot indicating active server connection",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -16303,7 +16303,9 @@
         "feat:onboarding"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.onboarding.test_sidebar_socket_status_indicator.TestSidebarSocketStatusIndicator.test_logo_shows_green_connected_dot"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -16312,8 +16314,8 @@
     {
       "id": "ELITEA-2234",
       "title": "Onboarding — bell notification icon shows red badge/dot on first login",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -16324,7 +16326,9 @@
         "feat:onboarding"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.onboarding.test_sidebar_notification_badge.TestSidebarNotificationBadge.test_bell_shows_red_badge_and_notifications_popover"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -16448,8 +16452,8 @@
     {
       "id": "ELITEA-2240",
       "title": "Onboarding — Private and team projects appear in project dropdown after approximately 5 minutes",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -16460,7 +16464,9 @@
         "feat:onboarding"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.onboarding.test_onboarding_provisioning.TestOnboardingProvisioning.test_get_started_starts_provisioning_poll_and_shows_tips_with_progress_footer"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
