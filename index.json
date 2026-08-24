@@ -13708,8 +13708,8 @@
     {
       "id": "ELITEA-1935",
       "title": "Remote MCP — Deselect/Select Specific Tools",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -13719,7 +13719,9 @@
         "automated:UI:regression"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_mcp_toggle_selected_tools.test_mcp_toggle_selected_tools_via_raw_json"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -13728,8 +13730,8 @@
     {
       "id": "ELITEA-1936",
       "title": "Remote MCP — Connection Status Indicator",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -13739,7 +13741,9 @@
         "automated:UI:regression"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_mcp_connection_status_indicator.test_mcp_connection_status_indicator"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -13810,8 +13814,8 @@
     {
       "id": "ELITEA-1940",
       "title": "Remote MCP — Test Settings — View Run History",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -13821,7 +13825,9 @@
         "automated:UI:regression"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_mcp_test_settings_view_run_history.test_mcp_view_run_history_and_entry_details"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -13934,8 +13940,8 @@
     {
       "id": "ELITEA-1946",
       "title": "MCP Detail — Three-Dot Menu Actions",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -13945,7 +13951,9 @@
         "automated:UI:regression"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_mcp_three_dot_menu_actions.test_mcp_detail_three_dot_menu_actions"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14210,8 +14218,8 @@
     {
       "id": "ELITEA-1959",
       "title": "Remote MCP — Copy Link from Three-Dot Menu",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14221,7 +14229,9 @@
         "automated:UI:regression"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_mcp_copy_link_from_menu.test_remote_mcp_copy_link_from_three_dot_menu"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14250,8 +14260,8 @@
     {
       "id": "ELITEA-1961",
       "title": "MCP — Back Navigation from Detail to List",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14261,7 +14271,9 @@
         "automated:UI:regression"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_mcp_back_navigation.test_mcp_back_navigation_detail_to_list"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

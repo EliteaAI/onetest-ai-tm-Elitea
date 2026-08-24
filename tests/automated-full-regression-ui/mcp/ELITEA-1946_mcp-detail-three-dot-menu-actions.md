@@ -4,10 +4,12 @@ title: "MCP Detail — Three-Dot Menu Actions"
 priority: medium
 type: functional
 module: elitea-platform
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_mcp_three_dot_menu_actions.test_mcp_detail_three_dot_menu_actions
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1736
 ---
 
 # ELITEA-1946: MCP Detail — Three-Dot Menu Actions

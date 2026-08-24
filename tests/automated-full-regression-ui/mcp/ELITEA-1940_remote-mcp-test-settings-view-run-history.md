@@ -4,10 +4,12 @@ title: "Remote MCP — Test Settings — View Run History"
 priority: medium
 type: functional
 module: elitea-platform
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_mcp_test_settings_view_run_history.test_mcp_view_run_history_and_entry_details
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1736
 ---
 
 # ELITEA-1940: Remote MCP — Test Settings — View Run History

@@ -4,10 +4,12 @@ title: "Remote MCP — Deselect/Select Specific Tools"
 priority: high
 type: functional
 module: elitea-platform
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_mcp_toggle_selected_tools.test_mcp_toggle_selected_tools_via_raw_json
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1736
 ---
 
 # ELITEA-1935: Remote MCP — Deselect/Select Specific Tools

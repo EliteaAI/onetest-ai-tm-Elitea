@@ -4,10 +4,12 @@ title: "Remote MCP — Connection Status Indicator"
 priority: medium
 type: functional
 module: elitea-platform
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_mcp_connection_status_indicator.test_mcp_connection_status_indicator
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1736
 ---
 
 # ELITEA-1936: Remote MCP — Connection Status Indicator
