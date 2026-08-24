@@ -4,10 +4,12 @@ title: "Edit Remote MCP — Client Secret with Secret/Password Toggle"
 priority: critical
 type: functional
 module: elitea-platform
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_mcp_edit_client_secret_toggle.test_mcp_edit_client_secret_secret_password_toggle
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1722
 ---
 
 # ELITEA-1932: Edit Remote MCP — Client Secret with Secret/Password Toggle

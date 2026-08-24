@@ -4,10 +4,12 @@ title: "Edit Remote MCP — Change URL"
 priority: critical
 type: functional
 module: elitea-platform
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_mcp_edit_url.test_mcp_edit_change_url
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1722
 ---
 
 # ELITEA-1926: Edit Remote MCP — Change URL

@@ -4,10 +4,12 @@ title: "Create Remote MCP — Validation Error on Missing URL"
 priority: high
 type: functional
 module: elitea-platform
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_mcp_create_validation.test_create_remote_mcp_validation_on_missing_required_field[ELITEA-1923]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1722
 ---
 
 # ELITEA-1923: Create Remote MCP — Validation Error on Missing URL
