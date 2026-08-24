@@ -4,7 +4,7 @@ title: "Verify pipeline with MCP displays toolkit name when called from Chat pag
 priority: high
 type: functional
 module: mcp-servers
-status: ready
+status: draft
 execution_type: manual
 tags: [feat:mcp-local, feat:mcp-remote, nfr:usability, r-2.0.6, feat:pipeline, feat:chat]
 requirements: [EliteaAI/elitea_issues#5637]

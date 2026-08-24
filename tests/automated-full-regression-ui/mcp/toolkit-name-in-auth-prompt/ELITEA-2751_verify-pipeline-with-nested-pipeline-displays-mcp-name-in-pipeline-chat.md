@@ -4,7 +4,7 @@ title: "Verify pipeline with nested pipeline (containing agent with MCP) display
 priority: high
 type: functional
 module: mcp-servers
-status: ready
+status: draft
 execution_type: manual
 tags: [feat:mcp-local, feat:mcp-remote, nfr:usability, r-2.0.6, feat:pipeline, feat:nested-agent]
 requirements: [EliteaAI/elitea_issues#5637]

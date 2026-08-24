@@ -4,7 +4,7 @@ title: "Verify pipeline with nested pipeline displays toolkit name when called f
 priority: high
 type: functional
 module: mcp-servers
-status: ready
+status: draft
 execution_type: manual
 tags: [feat:mcp-local, feat:mcp-remote, nfr:usability, r-2.0.6, feat:pipeline, feat:nested-agent, feat:chat]
 requirements: [EliteaAI/elitea_issues#5637]
