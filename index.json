@@ -14166,8 +14166,8 @@
     {
       "id": "ELITEA-1956",
       "title": "Remote MCP — Timeout Configuration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14177,7 +14177,9 @@
         "automated:UI:regression"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_mcp_edit_timeout_cache_ttl.test_mcp_edit_timeout_cache_ttl[ELITEA-1956]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14186,8 +14188,8 @@
     {
       "id": "ELITEA-1957",
       "title": "Remote MCP — Cache TTL Configuration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14197,7 +14199,9 @@
         "automated:UI:regression"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_mcp_edit_timeout_cache_ttl.test_mcp_edit_timeout_cache_ttl[ELITEA-1957]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14248,8 +14252,8 @@
     {
       "id": "ELITEA-1960",
       "title": "Remote MCP — Cancel During Creation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14259,7 +14263,9 @@
         "automated:UI:regression"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_mcp_cancel_during_creation.TestMcpCancelDuringCreation.test_cancel_during_creation_creates_nothing"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
