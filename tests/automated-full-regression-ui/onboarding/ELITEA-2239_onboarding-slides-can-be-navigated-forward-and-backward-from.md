@@ -4,10 +4,13 @@ title: "Onboarding — slides can be navigated forward and backward from the enl
 priority: medium
 type: functional
 module: onboarding
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:onboarding]
 requirements: []
+automation_test_id:
+  - tests.ui.onboarding.test_onboarding_tips_navigation.TestOnboardingTipsFullscreenNavigation.test_navigate_forward_and_backward_in_fullscreen
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1763
 ---
 
 # ELITEA-2239: Onboarding — slides can be navigated forward and backward from the enlarged/fullscreen state

@@ -4,10 +4,13 @@ title: "Onboarding — left arrow is inactive on slide 1 and right arrow is inac
 priority: medium
 type: functional
 module: onboarding
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:onboarding]
 requirements: []
+automation_test_id:
+  - tests.ui.onboarding.test_onboarding_tips_navigation.TestOnboardingTipsArrowBoundaries.test_arrows_inactive_at_first_and_last_slide
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1763
 ---
 
 # ELITEA-2238: Onboarding — left arrow is inactive on slide 1 and right arrow is inactive on slide 48
