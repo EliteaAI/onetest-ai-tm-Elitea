@@ -4,10 +4,12 @@ title: "MCP Dashboard — Filter by Type (Remote only)"
 priority: high
 type: functional
 module: elitea-platform
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_mcp_type_filter.test_mcp_dashboard_filter_by_type_remote
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1744
 ---
 
 # ELITEA-1942: MCP Dashboard — Filter by Type (Remote only)

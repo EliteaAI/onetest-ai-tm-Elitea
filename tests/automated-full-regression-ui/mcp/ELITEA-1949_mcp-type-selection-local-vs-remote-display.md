@@ -4,10 +4,12 @@ title: "MCP Type Selection — Local vs Remote Display"
 priority: medium
 type: functional
 module: elitea-platform
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression]
 requirements: []
+automation_test_id: tests.ui.toolkits.test_mcp_type_picker_local_vs_remote.TestMcpTypePickerLocalVsRemote.test_type_picker_sections_documentation_link_and_filters
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1744
 ---
 
 # ELITEA-1949: MCP Type Selection — Local vs Remote Display

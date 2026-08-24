@@ -13858,8 +13858,8 @@
     {
       "id": "ELITEA-1942",
       "title": "MCP Dashboard — Filter by Type (Remote only)",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -13869,7 +13869,9 @@
         "automated:UI:regression"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_mcp_type_filter.test_mcp_dashboard_filter_by_type_remote"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -13920,8 +13922,8 @@
     {
       "id": "ELITEA-1945",
       "title": "MCP Dashboard — Pin/Unpin MCP",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -13931,7 +13933,9 @@
         "automated:UI:regression"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_mcp_pin_unpin.test_mcp_dashboard_pin_unpin"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -13984,8 +13988,8 @@
     {
       "id": "ELITEA-1948",
       "title": "MCP Form/Raw JSON View Toggle — Data Consistency",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -13995,7 +13999,9 @@
         "automated:UI:regression"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_mcp_form_raw_json_view_sync.TestMcpFormRawJsonViewSync.test_form_raw_json_view_sync_and_discard"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -14004,8 +14010,8 @@
     {
       "id": "ELITEA-1949",
       "title": "MCP Type Selection — Local vs Remote Display",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -14015,7 +14021,9 @@
         "automated:UI:regression"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_mcp_type_picker_local_vs_remote.TestMcpTypePickerLocalVsRemote.test_type_picker_sections_documentation_link_and_filters"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
