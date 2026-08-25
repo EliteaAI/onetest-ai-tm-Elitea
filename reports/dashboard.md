@@ -1,36 +1,37 @@
 # Test Dashboard
 
-_Generated: 2026-08-24 09:36 UTC_
+_Generated: 2026-08-25 10:46 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-08-24-50-DEV-STABLE-ADMIN-PIPELINES-PASSED**
+**RUN-ELITEA-2026-08-25-71-DEV-STABLE-ALL-FAILED**
 
 ```mermaid
 pie showData
-    title "Test Results (0 total)"
-    "Passed" : 0
-    "Failed" : 0
+    title "Test Results (157 total)"
+    "Passed" : 130
+    "Failed" : 14
+    "Skipped" : 13
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 0 |
-| Passed | 0 |
-| Failed | 0 |
-| Skipped | 0 |
-| Reruns | 0 |
-| Pass Rate | 0.0% |
+| Total | 157 |
+| Passed | 130 |
+| Failed | 14 |
+| Skipped | 13 |
+| Reruns | 30 |
+| Pass Rate | 82.8% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE, 24-49-DEV-STABLE, 24-50-DEV-STABLE]
+    x-axis [21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE, 24-49-DEV-STABLE, 24-50-DEV-STABLE, 25-71-DEV-STABLE]
     y-axis "Tests" 0 --> 138
-    bar "Passed" [132, 133, 133, 130, 131, 131, 123, 130, 0, 0]
-    bar "Failed" [6, 8, 8, 10, 9, 9, 17, 10, 3, 0]
+    bar "Passed" [133, 133, 130, 131, 131, 123, 130, 0, 0, 130]
+    bar "Failed" [8, 8, 10, 9, 9, 17, 10, 3, 0, 14]
 ```
 
 ### Reruns Trend
@@ -38,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [21-36-DEV-STABLE, 21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE, 24-49-DEV-STABLE, 24-50-DEV-STABLE]
+    x-axis [21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE, 24-49-DEV-STABLE, 24-50-DEV-STABLE, 25-71-DEV-STABLE]
     y-axis "Reruns" 0 --> 35
-    line "Reruns" [13, 14, 16, 17, 14, 15, 32, 16, 6, 0]
+    line "Reruns" [14, 16, 17, 14, 15, 32, 16, 6, 0, 30]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 25-71-DEV-STABLE | 157 | 130 | 14 | 13 | 30 | 83% |
 | ✅ 24-50-DEV-STABLE | 0 | 0 | 0 | 0 | 0 | 0% |
 | ❌ 24-49-DEV-STABLE | 3 | 0 | 3 | 0 | 6 | 0% |
 | ❌ 24-47-DEV-STABLE | 152 | 130 | 10 | 12 | 16 | 86% |
@@ -56,7 +58,6 @@ xychart-beta
 | ❌ 21-43-DEV-STABLE | 152 | 130 | 10 | 12 | 17 | 86% |
 | ❌ 21-39-DEV-STABLE | 153 | 133 | 8 | 12 | 16 | 87% |
 | ❌ 21-38-DEV-STABLE | 153 | 133 | 8 | 12 | 14 | 87% |
-| ❌ 21-36-DEV-STABLE | 150 | 132 | 6 | 12 | 13 | 88% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -70,7 +71,7 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 | Tests in automation | 432 |
 | Tests linked to TMS cases | 290 |
 | Tests without TMS case | 142 |
-| Orphan TMS refs (test missing) | 199 |
+| Orphan TMS refs (test missing) | 210 |
 | **TMS Coverage** | **67.1%** |
 
 ```mermaid
@@ -237,7 +238,7 @@ _Tests that exist in automation but have no linked TMS case._
 _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 
 <details>
-<summary>Show 199 orphan refs</summary>
+<summary>Show 210 orphan refs</summary>
 
 - `tests.ui.artifacts.test_artifacts_bucket_cancel_with_valid_values.TestArtifactBucketCancelWithValidValues.test_cancel_with_valid_values_creates_no_bucket` (ELITEA-1815)
 - `tests.ui.artifacts.test_artifacts_bucket_empty_name_validation.TestArtifactBucketEmptyNameValidation.test_empty_bucket_name_disables_save_and_cancel_creates_nothing` (ELITEA-1813)
@@ -371,7 +372,18 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 - `tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTourExtras.test_sidebar_interactive_tour_skip_terminates` (ELITEA-2229)
 - `tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTourExtras.test_sidebar_interactive_tour_starts_on_link_click` (ELITEA-2226)
 - `tests.ui.help_center.test_help_center_version_info.TestHelpCenterVersionInfo.test_version_info_tooltip_displays_and_copies` (ELITEA-2225)
+- `tests.ui.onboarding.test_onboarding_jump_in.TestOnboardingJumpIn.test_jump_in_now_closes_onboarding_and_shows_default_project_page` (ELITEA-2241)
+- `tests.ui.onboarding.test_onboarding_provisioning.TestOnboardingProvisioning.test_get_started_starts_provisioning_poll_and_shows_tips_with_progress_footer` (ELITEA-2240)
+- `tests.ui.onboarding.test_onboarding_tips_card.TestOnboardingTipsCard.test_tips_card_displayed_at_slide_1_of_48` (ELITEA-2235)
+- `tests.ui.onboarding.test_onboarding_tips_fullscreen.TestOnboardingTipsFullscreen.test_tips_card_expand_fullscreen_and_collapse` (ELITEA-2236)
+- `tests.ui.onboarding.test_onboarding_tips_navigation.TestOnboardingTipsArrowBoundaries.test_arrows_inactive_at_first_and_last_slide` (ELITEA-2238)
+- `tests.ui.onboarding.test_onboarding_tips_navigation.TestOnboardingTipsForwardNavigation.test_next_arrow_advances_slides` (ELITEA-2237)
+- `tests.ui.onboarding.test_onboarding_tips_navigation.TestOnboardingTipsFullscreenNavigation.test_navigate_forward_and_backward_in_fullscreen` (ELITEA-2239)
 - `tests.ui.onboarding.test_onboarding_welcome.TestOnboardingWelcomePage.test_welcome_page_displayed_on_first_login` (ELITEA-2231)
+- `tests.ui.onboarding.test_sidebar_notification_badge.TestSidebarNotificationBadge.test_bell_shows_red_badge_and_notifications_popover` (ELITEA-2234)
+- `tests.ui.onboarding.test_sidebar_socket_status_indicator.TestSidebarSocketStatusIndicator.test_logo_shows_green_connected_dot` (ELITEA-2233)
+- `tests.ui.pipelines.test_pipeline_mcp_node_fresh_attach.test_mcp_node_executes_selected_tool` (ELITEA-1952)
+- `tests.ui.pipelines.test_pipeline_mcp_node_fresh_attach.test_mcp_node_input_mapping_type_and_toggles_persist` (ELITEA-1953)
 - `tests.ui.skills.test_agent_skills_validation_attribution_and_token_invalidation.TestAgentSkillsValidationAttributionAndTokenInvalidation.test_agent_skills_validation_attribution_and_token_invalidation` (ELITEA-2601)
 - `tests.ui.skills.test_agent_with_skills_publishing_flow.TestAgentWithSkillsPublishingFlow.test_agent_with_skills_publishing_flow` (ELITEA-2600)
 - `tests.ui.skills.test_published_agent_version_cannot_be_modified.TestPublishedAgentVersionCannotBeModified.test_published_agent_version_cannot_be_modified` (ELITEA-2614)
@@ -442,4 +454,4 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 </details>
 
 ---
-_Compared `automation/index.json` (432 tests) with `index_automated.json` (489 refs)_
+_Compared `automation/index.json` (432 tests) with `index_automated.json` (500 refs)_
