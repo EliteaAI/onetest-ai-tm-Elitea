@@ -2115,9 +2115,12 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:chat"
+        "feat:chat",
+        "issue:5196"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -2136,9 +2139,12 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:chat"
+        "feat:chat",
+        "issue:5196"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -2203,9 +2209,12 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:chat"
+        "feat:chat",
+        "issue:5196"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -3384,6 +3393,176 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2474_chat-complete-flow-from-direct-toolkit-call-in-thinking-step.md"
+    },
+    {
+      "id": "ELITEA-2616",
+      "title": "Chat – Stop Button Visible Only During Thinking/Sub-Agent Phase, Hidden Once Response Streaming Starts",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2616_stop-button-visible-only-during-thinking-phase.md"
+    },
+    {
+      "id": "ELITEA-2617",
+      "title": "Chat – Stop During Thinking Phase Halts Execution and Restores Exact Original Input",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2617_stop-during-thinking-restores-exact-input.md"
+    },
+    {
+      "id": "ELITEA-2618",
+      "title": "Chat – No Trace Left in Chat History After Stop",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2618_stop-leaves-no-trace-in-chat-history.md"
+    },
+    {
+      "id": "ELITEA-2619",
+      "title": "Chat – New Message Sent Normally Immediately After Stop",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2619_new-message-sent-normally-immediately-after-stop.md"
+    },
+    {
+      "id": "ELITEA-2620",
+      "title": "Chat – Rapid Double-Stop / Stop-Then-Immediately-Resend Edge Case",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "low",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2620_rapid-double-stop-and-immediate-resend.md"
+    },
+    {
+      "id": "ELITEA-2621",
+      "title": "Chat – Stop Targets the Correct Conversation When Multiple Are Active",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "eng:backend",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2621_stop-targets-correct-conversation-among-multiple-active.md"
+    },
+    {
+      "id": "ELITEA-2622",
+      "title": "Chat – Stop Signal Correctly Bound to Task ID Under Fast Sequential Stop-Then-Resend",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "low",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "eng:backend",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2622_stop-signal-does-not-leak-into-next-generation.md"
     },
     {
       "id": "ELITEA-2757",
