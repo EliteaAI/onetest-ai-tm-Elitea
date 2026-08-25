@@ -16243,6 +16243,243 @@
       "path": "tests/automated-full-regression-ui/mcp/ELITEA-1961_mcp-back-navigation-from-detail-to-list.md"
     },
     {
+      "id": "ELITEA-2744",
+      "title": "Verify agent message displays toolkit name when MCP authorization is needed",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2744_verify-agent-message-displays-toolkit-name-when-authorization-needed.md"
+    },
+    {
+      "id": "ELITEA-2745",
+      "title": "Verify multiple MCPs - each displays correct toolkit name in agent authorization message",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2745_verify-multiple-mcps-each-display-correct-toolkit-name-in-agent-message.md"
+    },
+    {
+      "id": "ELITEA-2746",
+      "title": "Verify toolkit name in agent authorization message from Chat page",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2746_verify-toolkit-name-in-agent-message-from-chat-page.md"
+    },
+    {
+      "id": "ELITEA-2747",
+      "title": "Verify nested agent displays toolkit name when MCP authorization is needed",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:nested-agent"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2747_verify-nested-agent-displays-toolkit-name-when-authorization-needed.md"
+    },
+    {
+      "id": "ELITEA-2748",
+      "title": "Verify nested agent with MCP displays toolkit name from Chat page",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:nested-agent",
+        "feat:chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2748_verify-nested-agent-with-mcp-from-chat-page.md"
+    },
+    {
+      "id": "ELITEA-2749",
+      "title": "Verify pipeline with MCP displays toolkit name in Pipeline chat section",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:pipeline"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2749_verify-pipeline-with-mcp-displays-toolkit-name-in-pipeline-chat.md"
+    },
+    {
+      "id": "ELITEA-2741",
+      "title": "Verify pipeline with MCP displays toolkit name when called from Chat page",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:pipeline",
+        "feat:chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2750_verify-pipeline-with-mcp-called-from-chat-page.md"
+    },
+    {
+      "id": "ELITEA-2742",
+      "title": "Verify pipeline with nested pipeline (containing agent with MCP) displays toolkit name in Pipeline chat",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:pipeline",
+        "feat:nested-agent"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2751_verify-pipeline-with-nested-pipeline-displays-mcp-name-in-pipeline-chat.md"
+    },
+    {
+      "id": "ELITEA-2743",
+      "title": "Verify pipeline with nested pipeline displays toolkit name when called from Chat page",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:pipeline",
+        "feat:nested-agent",
+        "feat:chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2752_verify-pipeline-with-nested-pipeline-called-from-chat-page.md"
+    },
+    {
       "id": "ELITEA-2231",
       "title": "Onboarding — Welcome to Elitea page is displayed on first login with Sure lets go button and no project loading yet",
       "status": "ready",
