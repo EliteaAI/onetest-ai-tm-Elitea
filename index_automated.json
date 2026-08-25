@@ -3386,6 +3386,29 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2474_chat-complete-flow-from-direct-toolkit-call-in-thinking-step.md"
     },
     {
+      "id": "ELITEA-2757",
+      "title": "Chat – Create new conversation from folder context menu",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#1604"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2757_chat-new-chat-option-available-in-folder-context-menu.md"
+    },
+    {
       "id": "ELITEA-2073",
       "title": "Chat – Create Agent with AI Build – Click Cancel and Verify Creation is Terminated",
       "status": "ready",
