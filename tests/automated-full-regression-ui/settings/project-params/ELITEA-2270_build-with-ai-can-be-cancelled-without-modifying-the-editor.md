@@ -4,10 +4,13 @@ title: "Build with AI can be cancelled without modifying the editor content"
 priority: medium
 type: functional
 module: settings-project-params
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_project_context_build_with_ai_cancel.TestProjectContextBuildWithAICancel.test_ai_dialog_cancel_leaves_editor_content_unchanged
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1799"
 ---
 
 # ELITEA-2270: Build with AI can be cancelled without modifying the editor content

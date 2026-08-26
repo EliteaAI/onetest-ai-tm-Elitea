@@ -4,10 +4,13 @@ title: "Project Context page loads with correct layout and components"
 priority: medium
 type: functional
 module: settings-project-params
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_project_context_page_layout.TestProjectContextPageLayout.test_project_context_page_layout
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1799"
 ---
 
 # ELITEA-2266: Project Context page loads with correct layout and components

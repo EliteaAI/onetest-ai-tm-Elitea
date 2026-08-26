@@ -2115,9 +2115,12 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:chat"
+        "feat:chat",
+        "issue:5196"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -2136,9 +2139,12 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:chat"
+        "feat:chat",
+        "issue:5196"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -2203,9 +2209,12 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:chat"
+        "feat:chat",
+        "issue:5196"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -3384,6 +3393,176 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2474_chat-complete-flow-from-direct-toolkit-call-in-thinking-step.md"
+    },
+    {
+      "id": "ELITEA-2616",
+      "title": "Chat – Stop Button Visible Only During Thinking/Sub-Agent Phase, Hidden Once Response Streaming Starts",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2616_stop-button-visible-only-during-thinking-phase.md"
+    },
+    {
+      "id": "ELITEA-2617",
+      "title": "Chat – Stop During Thinking Phase Halts Execution and Restores Exact Original Input",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2617_stop-during-thinking-restores-exact-input.md"
+    },
+    {
+      "id": "ELITEA-2618",
+      "title": "Chat – No Trace Left in Chat History After Stop",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2618_stop-leaves-no-trace-in-chat-history.md"
+    },
+    {
+      "id": "ELITEA-2619",
+      "title": "Chat – New Message Sent Normally Immediately After Stop",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2619_new-message-sent-normally-immediately-after-stop.md"
+    },
+    {
+      "id": "ELITEA-2620",
+      "title": "Chat – Rapid Double-Stop / Stop-Then-Immediately-Resend Edge Case",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "low",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2620_rapid-double-stop-and-immediate-resend.md"
+    },
+    {
+      "id": "ELITEA-2621",
+      "title": "Chat – Stop Targets the Correct Conversation When Multiple Are Active",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "eng:backend",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2621_stop-targets-correct-conversation-among-multiple-active.md"
+    },
+    {
+      "id": "ELITEA-2622",
+      "title": "Chat – Stop Signal Correctly Bound to Task ID Under Fast Sequential Stop-Then-Resend",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "low",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "eng:backend",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2622_stop-signal-does-not-leak-into-next-generation.md"
     },
     {
       "id": "ELITEA-2757",
@@ -6552,8 +6731,8 @@
     {
       "id": "ELITEA-2242",
       "title": "Settings page loads and displays correct PROJECT and PERSONAL sections",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -6564,7 +6743,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_settings_page_sections_and_default_tab.TestSettingsPageSectionsAndDefaultTab.test_settings_page_sections_and_default_tab"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6573,8 +6754,8 @@
     {
       "id": "ELITEA-2243",
       "title": "Clicking each Settings sidebar item navigates to its dedicated page",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6585,7 +6766,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_settings_sidebar_item_navigation.TestSettingsSidebarItemNavigation.test_settings_sidebar_item_navigation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6594,8 +6777,8 @@
     {
       "id": "ELITEA-2244",
       "title": "Navigating away from Settings and back restores the default landing tab",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6606,7 +6789,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_settings_default_landing_tab_restored.TestSettingsDefaultLandingTabRestored.test_settings_default_landing_tab_restored"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6741,8 +6926,8 @@
     {
       "id": "ELITEA-2251",
       "title": "Settings — sections show loading state while data is being fetched",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -6753,7 +6938,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_ai_providers_sections_loading_state.TestAIProvidersSectionsLoadingState.test_ai_providers_sections_loading_state"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6762,8 +6949,8 @@
     {
       "id": "ELITEA-2252",
       "title": "Log out button is visible in the PERSONAL section of the Settings sidebar",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6774,7 +6961,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_settings_profile_logout_button_visible.TestSettingsProfileLogoutButtonVisible.test_settings_profile_logout_button_visible"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7442,8 +7631,8 @@
     {
       "id": "ELITEA-2255",
       "title": "Notifications Center page loads with correct layout and header",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -7454,7 +7643,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_center_layout.TestNotificationCenterLayout.test_notification_center_page_layout_and_header"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7463,8 +7654,8 @@
     {
       "id": "ELITEA-2256",
       "title": "Notifications Center pagination controls are present and functional",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7475,7 +7666,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_center_pagination.TestNotificationCenterPagination.test_notification_center_pagination_controls"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7507,8 +7700,8 @@
     {
       "id": "ELITEA-2258",
       "title": "Unread notifications are visually distinct from read notifications",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7519,7 +7712,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_unread_read_visual_distinction.TestNotificationUnreadReadVisualDistinction.test_unread_notifications_are_visually_distinct_from_read"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7551,8 +7746,8 @@
     {
       "id": "ELITEA-2260",
       "title": "Notification entry in sidebar is always visible without scrolling",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7563,7 +7758,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_settings_drawer_notifications_entry.TestSettingsDrawerNotificationsEntry.test_settings_drawer_notifications_entry_visible_without_scrolling"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7572,8 +7769,8 @@
     {
       "id": "ELITEA-2261",
       "title": "Clicking a chat mention notification link navigates to the correct conversation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7584,7 +7781,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_link_navigates_to_conversation.TestNotificationChatMentionLinkNavigation.test_chat_mention_link_navigates_to_conversation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7614,8 +7813,8 @@
     {
       "id": "ELITEA-2263",
       "title": "Clicking a bucket retention warning link navigates to the correct bucket",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7626,7 +7825,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_link_navigates_to_bucket.TestNotificationBucketRetentionLinkNavigation.test_bucket_retention_link_navigates_to_bucket"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7635,8 +7836,8 @@
     {
       "id": "ELITEA-2264",
       "title": "Search field filters notifications by text content",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7647,7 +7848,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_search_filter.TestNotificationSearchFilter.test_search_field_filters_notifications_by_text"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10820,7 +11023,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.pipelines.test_pipeline_mcp_node_fresh_attach.test_mcp_node_fresh_attach"
+        "tests.ui.pipelines_2.test_pipeline_mcp_node_fresh_attach.test_mcp_node_fresh_attach"
       ],
       "targets": [],
       "dependencies": [],

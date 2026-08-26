@@ -917,8 +917,8 @@
     {
       "id": "ELITEA-2242",
       "title": "Settings page loads and displays correct PROJECT and PERSONAL sections",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -929,7 +929,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_settings_page_sections_and_default_tab.TestSettingsPageSectionsAndDefaultTab.test_settings_page_sections_and_default_tab"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -938,8 +940,8 @@
     {
       "id": "ELITEA-2243",
       "title": "Clicking each Settings sidebar item navigates to its dedicated page",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -950,7 +952,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_settings_sidebar_item_navigation.TestSettingsSidebarItemNavigation.test_settings_sidebar_item_navigation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -959,8 +963,8 @@
     {
       "id": "ELITEA-2244",
       "title": "Navigating away from Settings and back restores the default landing tab",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -971,7 +975,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_settings_default_landing_tab_restored.TestSettingsDefaultLandingTabRestored.test_settings_default_landing_tab_restored"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1106,8 +1112,8 @@
     {
       "id": "ELITEA-2251",
       "title": "Settings — sections show loading state while data is being fetched",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -1118,7 +1124,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_ai_providers_sections_loading_state.TestAIProvidersSectionsLoadingState.test_ai_providers_sections_loading_state"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1127,8 +1135,8 @@
     {
       "id": "ELITEA-2252",
       "title": "Log out button is visible in the PERSONAL section of the Settings sidebar",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1139,7 +1147,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_settings_profile_logout_button_visible.TestSettingsProfileLogoutButtonVisible.test_settings_profile_logout_button_visible"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1246,8 +1256,8 @@
     {
       "id": "ELITEA-2266",
       "title": "Project Context page loads with correct layout and components",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1258,7 +1268,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_page_layout.TestProjectContextPageLayout.test_project_context_page_layout"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1267,8 +1279,8 @@
     {
       "id": "ELITEA-2267",
       "title": "Project Context toggle enables and disables context injection",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -1279,7 +1291,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_toggle_enable_disable.TestProjectContextToggleEnableDisable.test_project_context_toggle_enable_disable"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1288,8 +1302,8 @@
     {
       "id": "ELITEA-2268",
       "title": "Project Background editor accepts and displays markdown content",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1300,7 +1314,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_markdown_editor.TestProjectContextMarkdownEditor.test_project_context_markdown_editor_and_preview"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1309,8 +1325,8 @@
     {
       "id": "ELITEA-2269",
       "title": "Build with AI button generates project context content",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1321,7 +1337,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_build_with_ai_generates.TestProjectContextBuildWithAI.test_build_with_ai_generates_content_and_stays_editable"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1330,8 +1348,8 @@
     {
       "id": "ELITEA-2270",
       "title": "Build with AI can be cancelled without modifying the editor content",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1342,7 +1360,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_build_with_ai_cancel.TestProjectContextBuildWithAICancel.test_ai_dialog_cancel_leaves_editor_content_unchanged"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1351,8 +1371,8 @@
     {
       "id": "ELITEA-2271",
       "title": "Upload file icon allows importing content into the Project Background editor",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1363,7 +1383,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_import_markdown_file.TestProjectContextImportMarkdownFile.test_import_markdown_file_into_editor_and_edit_it"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1395,8 +1417,8 @@
     {
       "id": "ELITEA-2273",
       "title": "Save button persists Project Background content after page reload",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1407,7 +1429,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_save_persists.TestProjectContextSavePersists.test_save_persists_project_context_after_reload"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1416,8 +1440,8 @@
     {
       "id": "ELITEA-2274",
       "title": "Discard button reverts unsaved changes",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1428,7 +1452,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_discard_reverts.TestProjectContextDiscardReverts.test_discard_reverts_unsaved_changes"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1437,8 +1463,8 @@
     {
       "id": "ELITEA-2275",
       "title": "Save and Discard buttons are only active when there are unsaved changes",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1449,7 +1475,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_save_discard_dirty_state.TestProjectContextSaveDiscardDirtyState.test_save_and_discard_active_only_with_unsaved_changes"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1458,8 +1486,8 @@
     {
       "id": "ELITEA-2276",
       "title": "Empty Project Background can be saved whith toggle OFF and ON",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1470,7 +1498,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_empty_save_toggle_off_on.TestProjectContextEmptySaveToggleOffOn.test_project_context_empty_save_toggle_off_on"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3318,8 +3348,8 @@
     {
       "id": "ELITEA-2255",
       "title": "Notifications Center page loads with correct layout and header",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -3330,7 +3360,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_center_layout.TestNotificationCenterLayout.test_notification_center_page_layout_and_header"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3339,8 +3371,8 @@
     {
       "id": "ELITEA-2256",
       "title": "Notifications Center pagination controls are present and functional",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -3351,7 +3383,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_center_pagination.TestNotificationCenterPagination.test_notification_center_pagination_controls"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3383,8 +3417,8 @@
     {
       "id": "ELITEA-2258",
       "title": "Unread notifications are visually distinct from read notifications",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -3395,7 +3429,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_unread_read_visual_distinction.TestNotificationUnreadReadVisualDistinction.test_unread_notifications_are_visually_distinct_from_read"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3427,8 +3463,8 @@
     {
       "id": "ELITEA-2260",
       "title": "Notification entry in sidebar is always visible without scrolling",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -3439,7 +3475,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_settings_drawer_notifications_entry.TestSettingsDrawerNotificationsEntry.test_settings_drawer_notifications_entry_visible_without_scrolling"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3448,8 +3486,8 @@
     {
       "id": "ELITEA-2261",
       "title": "Clicking a chat mention notification link navigates to the correct conversation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -3460,7 +3498,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_link_navigates_to_conversation.TestNotificationChatMentionLinkNavigation.test_chat_mention_link_navigates_to_conversation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3490,8 +3530,8 @@
     {
       "id": "ELITEA-2263",
       "title": "Clicking a bucket retention warning link navigates to the correct bucket",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -3502,7 +3542,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_link_navigates_to_bucket.TestNotificationBucketRetentionLinkNavigation.test_bucket_retention_link_navigates_to_bucket"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3511,8 +3553,8 @@
     {
       "id": "ELITEA-2264",
       "title": "Search field filters notifications by text content",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -3523,7 +3565,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_search_filter.TestNotificationSearchFilter.test_search_field_filters_notifications_by_text"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8161,9 +8205,12 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:chat"
+        "feat:chat",
+        "issue:5196"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -8182,9 +8229,12 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:chat"
+        "feat:chat",
+        "issue:5196"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -8249,9 +8299,12 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:chat"
+        "feat:chat",
+        "issue:5196"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -9430,6 +9483,199 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2474_chat-complete-flow-from-direct-toolkit-call-in-thinking-step.md"
+    },
+    {
+      "id": "ELITEA-2616",
+      "title": "Chat – Stop Button Visible Only During Thinking/Sub-Agent Phase, Hidden Once Response Streaming Starts",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2616_stop-button-visible-only-during-thinking-phase.md"
+    },
+    {
+      "id": "ELITEA-2617",
+      "title": "Chat – Stop During Thinking Phase Halts Execution and Restores Exact Original Input",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2617_stop-during-thinking-restores-exact-input.md"
+    },
+    {
+      "id": "ELITEA-2618",
+      "title": "Chat – No Trace Left in Chat History After Stop",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2618_stop-leaves-no-trace-in-chat-history.md"
+    },
+    {
+      "id": "ELITEA-2619",
+      "title": "Chat – New Message Sent Normally Immediately After Stop",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2619_new-message-sent-normally-immediately-after-stop.md"
+    },
+    {
+      "id": "ELITEA-2620",
+      "title": "Chat – Rapid Double-Stop / Stop-Then-Immediately-Resend Edge Case",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "low",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2620_rapid-double-stop-and-immediate-resend.md"
+    },
+    {
+      "id": "ELITEA-2621",
+      "title": "Chat – Stop Targets the Correct Conversation When Multiple Are Active",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "eng:backend",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2621_stop-targets-correct-conversation-among-multiple-active.md"
+    },
+    {
+      "id": "ELITEA-2622",
+      "title": "Chat – Stop Signal Correctly Bound to Task ID Under Fast Sequential Stop-Then-Resend",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "low",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "eng:backend",
+        "issue:5196"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5196"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2622_stop-signal-does-not-leak-into-next-generation.md"
+    },
+    {
+      "id": "ELITEA-2757",
+      "title": "Chat – Create new conversation from folder context menu",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#1604"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2757_chat-new-chat-option-available-in-folder-context-menu.md"
     },
     {
       "id": "ELITEA-2073",
@@ -12314,7 +12560,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.pipelines.test_pipeline_mcp_node_fresh_attach.test_mcp_node_fresh_attach"
+        "tests.ui.pipelines_2.test_pipeline_mcp_node_fresh_attach.test_mcp_node_fresh_attach"
       ],
       "targets": [],
       "dependencies": [],
@@ -14298,6 +14544,243 @@
       "path": "tests/automated-full-regression-ui/mcp/ELITEA-1961_mcp-back-navigation-from-detail-to-list.md"
     },
     {
+      "id": "ELITEA-2744",
+      "title": "Verify agent message displays toolkit name when MCP authorization is needed",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2744_verify-agent-message-displays-toolkit-name-when-authorization-needed.md"
+    },
+    {
+      "id": "ELITEA-2745",
+      "title": "Verify multiple MCPs - each displays correct toolkit name in agent authorization message",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2745_verify-multiple-mcps-each-display-correct-toolkit-name-in-agent-message.md"
+    },
+    {
+      "id": "ELITEA-2746",
+      "title": "Verify toolkit name in agent authorization message from Chat page",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2746_verify-toolkit-name-in-agent-message-from-chat-page.md"
+    },
+    {
+      "id": "ELITEA-2747",
+      "title": "Verify nested agent displays toolkit name when MCP authorization is needed",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:nested-agent"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2747_verify-nested-agent-displays-toolkit-name-when-authorization-needed.md"
+    },
+    {
+      "id": "ELITEA-2748",
+      "title": "Verify nested agent with MCP displays toolkit name from Chat page",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:nested-agent",
+        "feat:chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2748_verify-nested-agent-with-mcp-from-chat-page.md"
+    },
+    {
+      "id": "ELITEA-2749",
+      "title": "Verify pipeline with MCP displays toolkit name in Pipeline chat section",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:pipeline"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2749_verify-pipeline-with-mcp-displays-toolkit-name-in-pipeline-chat.md"
+    },
+    {
+      "id": "ELITEA-2741",
+      "title": "Verify pipeline with MCP displays toolkit name when called from Chat page",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:pipeline",
+        "feat:chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2750_verify-pipeline-with-mcp-called-from-chat-page.md"
+    },
+    {
+      "id": "ELITEA-2742",
+      "title": "Verify pipeline with nested pipeline (containing agent with MCP) displays toolkit name in Pipeline chat",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:pipeline",
+        "feat:nested-agent"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2751_verify-pipeline-with-nested-pipeline-displays-mcp-name-in-pipeline-chat.md"
+    },
+    {
+      "id": "ELITEA-2743",
+      "title": "Verify pipeline with nested pipeline displays toolkit name when called from Chat page",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:pipeline",
+        "feat:nested-agent",
+        "feat:chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2752_verify-pipeline-with-nested-pipeline-called-from-chat-page.md"
+    },
+    {
       "id": "ELITEA-1796",
       "title": "Launcher is visible and Support Assistant widget opens and closes",
       "status": "ready",
@@ -14961,6 +15444,120 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/help_center/ELITEA-2230_help-center-back-button-navigates-to-previous-step-during-in.md"
+    },
+    {
+      "id": "ELITEA-2796",
+      "title": "Regression - Toolkit Details Layout and Navigation",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-redesign",
+        "layout"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2796_regression-toolkit-details-layout-and-navigation.md"
+    },
+    {
+      "id": "ELITEA-2797",
+      "title": "Regression - Index Search Functionality End-to-End",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-redesign",
+        "search"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2797_regression-index-search-functionality.md"
+    },
+    {
+      "id": "ELITEA-2798",
+      "title": "Regression - Index Creation and Status Display",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-redesign",
+        "indexes"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2798_regression-index-creation-and-status-display.md"
+    },
+    {
+      "id": "ELITEA-2799",
+      "title": "Regression - Form and Raw JSON Toggle Synchronization",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "toolkit-redesign",
+        "configuration"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2799_regression-form-raw-json-toggle-sync.md"
+    },
+    {
+      "id": "ELITEA-2800",
+      "title": "Regression - Run History and Schedule Display",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "toolkit-redesign",
+        "history",
+        "schedule"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2800_regression-run-history-and-schedule.md"
     },
     {
       "id": "ELITEA-1735",
@@ -16467,6 +17064,146 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-2001_build-with-ai-generation-failure-shows-error-and-allows-retry.md"
+    },
+    {
+      "id": "ELITEA-2698",
+      "title": "Tool Groups UI Structure and Sorting",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkit/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "grouping",
+        "ui",
+        "sorting"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2698_tool-groups-ui-structure.md"
+    },
+    {
+      "id": "ELITEA-2699",
+      "title": "Group Header Toggle Selects/Deselects All Tools in Group",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkit/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "grouping",
+        "selection"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2699_group-header-toggle.md"
+    },
+    {
+      "id": "ELITEA-2700",
+      "title": "Tool Search Filters, Preserves Selection, and Shows Correct Counts",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkit/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "search",
+        "filter",
+        "selection"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2700_tool-search-functionality.md"
+    },
+    {
+      "id": "ELITEA-2701",
+      "title": "MCP Toggle UI and Default State",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkit/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "mcp",
+        "toggle"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2701_mcp-toggle-ui.md"
+    },
+    {
+      "id": "ELITEA-2702",
+      "title": "Tool Selection Persistence After Save",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkit/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "grouping",
+        "persistence"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2702_tool-selection-persistence.md"
+    },
+    {
+      "id": "ELITEA-2703",
+      "title": "MCP Toolkit Displays Flat List Without Grouping",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkit/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "mcp-toolkit",
+        "regression"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2703_mcp-toolkit-flat-list.md"
     },
     {
       "id": "ELITEA-2231",
@@ -18404,6 +19141,276 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/alita-sdk/ado/ELITEA-1411_ado01-list-files.md"
+    },
+    {
+      "id": "ELITEA-2654",
+      "title": "ADO Repos - search_code: Tool is displayed/available in the toolkit",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "ado",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "ado",
+        "code-search",
+        "issue:6103"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6103"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/ado/ELITEA-2654_search-code-tool-is-displayed-in-ado-repos-toolkit.md"
+    },
+    {
+      "id": "ELITEA-2655",
+      "title": "ADO Repos - search_code: query parameter (keyword, phrase, embedded scope syntax)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "ado",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "ado",
+        "code-search",
+        "issue:6103"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6103"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/ado/ELITEA-2655_search-code-query-parameter-individual.md"
+    },
+    {
+      "id": "ELITEA-2656",
+      "title": "ADO Repos - search_code: branch parameter (individual)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "ado",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "ado",
+        "code-search",
+        "issue:6103"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6103"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/ado/ELITEA-2656_search-code-branch-parameter-individual.md"
+    },
+    {
+      "id": "ELITEA-2657",
+      "title": "ADO Repos - search_code: path parameter (individual)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "ado",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "ado",
+        "code-search",
+        "issue:6103"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6103"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/ado/ELITEA-2657_search-code-path-parameter-individual.md"
+    },
+    {
+      "id": "ELITEA-2658",
+      "title": "ADO Repos - search_code: top parameter (individual)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "ado",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "ado",
+        "code-search",
+        "issue:6103"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6103"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/ado/ELITEA-2658_search-code-top-parameter-individual.md"
+    },
+    {
+      "id": "ELITEA-2659",
+      "title": "ADO Repos - search_code: skip parameter (individual)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "ado",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "ado",
+        "code-search",
+        "issue:6103"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6103"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/ado/ELITEA-2659_search-code-skip-parameter-individual.md"
+    },
+    {
+      "id": "ELITEA-2660",
+      "title": "ADO Repos - search_code: include_snippets parameter (individual)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "ado",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "ado",
+        "code-search",
+        "issue:6103"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6103"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/ado/ELITEA-2660_search-code-include-snippets-parameter-individual.md"
+    },
+    {
+      "id": "ELITEA-2661",
+      "title": "ADO Repos - search_code: combined parameters",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "ado",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "ado",
+        "code-search",
+        "issue:6103"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6103"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/ado/ELITEA-2661_search-code-combined-parameters.md"
+    },
+    {
+      "id": "ELITEA-2662",
+      "title": "ADO Repos - search_code: search across multiple Searchable branches",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "ado",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "ado",
+        "code-search",
+        "issue:6103"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6103"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/ado/ELITEA-2662_search-code-multiple-searchable-branches.md"
+    },
+    {
+      "id": "ELITEA-2663",
+      "title": "ADO Repos - search_code: negative test cases",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "ado",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "ado",
+        "code-search",
+        "issue:6103"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6103"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/ado/ELITEA-2663_search-code-negative-cases.md"
     },
     {
       "id": "ELITEA-1646",
@@ -24380,6 +25387,195 @@
       "path": "tests/alita-sdk/bitbucket/ELITEA-1454_bb01-create-branch-happy-path.md"
     },
     {
+      "id": "ELITEA-2728",
+      "title": "BitBucket - delete_file: Tool is displayed/available in the toolkit",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "bitbucket",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "bitbucket",
+        "file-operations",
+        "issue:3401"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3401"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/bitbucket/ELITEA-2728_delete-file-tool-is-displayed-available-in-toolkit.md"
+    },
+    {
+      "id": "ELITEA-2729",
+      "title": "BitBucket - delete_file: Successfully removes file from default branch",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "bitbucket",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "bitbucket",
+        "file-operations",
+        "issue:3401"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3401"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/bitbucket/ELITEA-2729_delete-file-successfully-removes-file-from-default-branch.md"
+    },
+    {
+      "id": "ELITEA-2730",
+      "title": "BitBucket - delete_file: Successfully removes file from non-default branch",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "bitbucket",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "bitbucket",
+        "file-operations",
+        "issue:3401"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3401"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/bitbucket/ELITEA-2730_delete-file-successfully-removes-file-from-non-default-branch.md"
+    },
+    {
+      "id": "ELITEA-2731",
+      "title": "BitBucket - delete_file: file_path parameter works with nested directories",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "bitbucket",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "bitbucket",
+        "file-operations",
+        "issue:3401"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3401"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/bitbucket/ELITEA-2731_delete-file-file-path-parameter-works-with-nested-directories.md"
+    },
+    {
+      "id": "ELITEA-2732",
+      "title": "BitBucket - delete_file: branch_name parameter targets correct branch",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "bitbucket",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "bitbucket",
+        "file-operations",
+        "issue:3401"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3401"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/bitbucket/ELITEA-2732_delete-file-branch-name-parameter-targets-correct-branch.md"
+    },
+    {
+      "id": "ELITEA-2733",
+      "title": "BitBucket - delete_file: commit_message parameter (optional with sensible default)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "bitbucket",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "bitbucket",
+        "file-operations",
+        "issue:3401"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3401"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/bitbucket/ELITEA-2733_delete-file-commit-message-parameter-optional-with-sensible-default.md"
+    },
+    {
+      "id": "ELITEA-2734",
+      "title": "BitBucket - delete_file: negative test cases",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "bitbucket",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "bitbucket",
+        "file-operations",
+        "issue:3401"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3401"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/bitbucket/ELITEA-2734_delete-file-negative-test-cases.md"
+    },
+    {
       "id": "ELITEA-1658",
       "title": "SO10 - fstring Templates",
       "status": "ready",
@@ -28690,6 +29886,584 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/artifacts/ELITEA-2331_empty-mdx-file-opens-without-error.md"
+    },
+    {
+      "id": "ELITEA-2704",
+      "title": "Open HTML file from Artifacts in Preview mode",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2704_open-html-file-from-artifacts-in-preview-mode.md"
+    },
+    {
+      "id": "ELITEA-2705",
+      "title": "Switch from Preview to Raw mode",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2705_switch-from-preview-to-raw-mode.md"
+    },
+    {
+      "id": "ELITEA-2706",
+      "title": "Edit HTML in Raw mode and save changes",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2706_edit-html-in-raw-mode-and-save-changes.md"
+    },
+    {
+      "id": "ELITEA-2707",
+      "title": "Discard unsaved changes",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2707_discard-unsaved-changes.md"
+    },
+    {
+      "id": "ELITEA-2708",
+      "title": "Preview mode renders HTML content correctly",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2708_preview-mode-renders-html-content-correctly.md"
+    },
+    {
+      "id": "ELITEA-2709",
+      "title": "Open HTML file generated in chat with View/Edit button",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2709_open-html-file-generated-in-chat.md"
+    },
+    {
+      "id": "ELITEA-2710",
+      "title": "Close Canvas with unsaved changes shows warning",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2710_close-canvas-with-unsaved-changes-shows-warning.md"
+    },
+    {
+      "id": "ELITEA-2711",
+      "title": "Unsaved changes behavior when switching modes",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2711_unsaved-changes-behavior-when-switching-modes.md"
+    },
+    {
+      "id": "ELITEA-2712",
+      "title": "Preview refreshes after saving changes in Raw mode",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2712_preview-refreshes-after-saving-changes.md"
+    },
+    {
+      "id": "ELITEA-2713",
+      "title": "Copy Content from three-dot menu",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2713_copy-content-from-three-dot-menu.md"
+    },
+    {
+      "id": "ELITEA-2714",
+      "title": "Download HTML file from three-dot menu",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2714_download-html-file-from-three-dot-menu.md"
+    },
+    {
+      "id": "ELITEA-2715",
+      "title": "HTML without color styles is readable in Dark theme",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4",
+        "bug:5926"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2715_html-without-color-styles-readable-in-dark-theme.md"
+    },
+    {
+      "id": "ELITEA-2716",
+      "title": "Switch to Raw mode shows syntax highlighting",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2716_raw-mode-shows-syntax-highlighting.md"
+    },
+    {
+      "id": "ELITEA-2717",
+      "title": "File type shows Html (detected)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2717_file-type-shows-html-detected.md"
+    },
+    {
+      "id": "ELITEA-2718",
+      "title": "Open htm file with alternate extension",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2718_open-htm-file-alternate-extension.md"
+    },
+    {
+      "id": "ELITEA-2719",
+      "title": "Delete HTML file from three-dot menu",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2719_delete-html-file-from-three-dot-menu.md"
+    },
+    {
+      "id": "ELITEA-2720",
+      "title": "HTML with images renders images correctly",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2720_html-with-images-renders-correctly.md"
+    },
+    {
+      "id": "ELITEA-2721",
+      "title": "HTML with external CSS references",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2721_html-with-external-css-references.md"
+    },
+    {
+      "id": "ELITEA-2722",
+      "title": "Empty HTML file opens without error",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2722_empty-html-file-opens-without-error.md"
+    },
+    {
+      "id": "ELITEA-2723",
+      "title": "Malformed HTML renders with best effort",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2723_malformed-html-renders-with-best-effort.md"
+    },
+    {
+      "id": "ELITEA-2724",
+      "title": "Multiple HTML files can be opened simultaneously",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2724_multiple-html-files-opened-simultaneously.md"
+    },
+    {
+      "id": "ELITEA-2725",
+      "title": "Script tags do not execute in Preview mode - Security",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4",
+        "nfr:security"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2725_script-tags-do-not-execute-in-preview-mode.md"
+    },
+    {
+      "id": "ELITEA-2726",
+      "title": "HTML with special characters renders correctly",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2726_html-with-special-characters-renders-correctly.md"
+    },
+    {
+      "id": "ELITEA-2727",
+      "title": "File breadcrumb navigation works correctly",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "feat:artifacts",
+        "eng:frontend",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5845"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/artifacts/ELITEA-2727_file-breadcrumb-navigation-works-correctly.md"
     },
     {
       "id": "ELITEA-1327",
@@ -33587,6 +35361,626 @@
       "path": "tests/elitea-platform/chat-interface/ELITEA-1340_context-budget-panel-reflects-profile-max-tokens.md"
     },
     {
+      "id": "ELITEA-2778",
+      "title": "Enabling Skills Builder or Project Context Builder does not regress Agent & Pipeline Builder or Ask User flows",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "regression",
+        "agent-pipeline-builder",
+        "ask-user"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2778_enabling-skills-builder-or-project-context-builder-does-not-regress-ag.md"
+    },
+    {
+      "id": "ELITEA-2779",
+      "title": "Assistant does not create a Skill or Project Context when the corresponding builder module is disabled",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "skills-builder",
+        "project-context-builder",
+        "negative"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2779_assistant-does-not-create-a-skill-or-project-context-when-the-correspo.md"
+    },
+    {
+      "id": "ELITEA-2780",
+      "title": "Assistant does not hang when Ask User is disabled and required Skill/Project Context information is missing",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "ask-user",
+        "skills-builder",
+        "project-context-builder"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2780_assistant-does-not-hang-when-ask-user-is-disabled-and-required-skill-p.md"
+    },
+    {
+      "id": "ELITEA-2781",
+      "title": "Headless/API run with auto_skip enabled does not hang when Skill or Project Context creation would trigger clarification",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "headless",
+        "auto-skip",
+        "ask-user"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2781_headless-api-run-with-auto-skip-enabled-does-not-hang-when-skill-or-pr.md"
+    },
+    {
+      "id": "ELITEA-2782",
+      "title": "Sensitive tool approval/rejection HITL flow is unaffected when Skills Builder and Project Context Builder are enabled",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "hitl",
+        "sensitive-tool-approval",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2782_sensitive-tool-approval-rejection-hitl-flow-is-unaffected-when-skills.md"
+    },
+    {
+      "id": "ELITEA-2783",
+      "title": "Skills Builder and Project Context Builder appear as independent toggles, disabled by default, with correct tooltips",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "chat-modules",
+        "ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2783_skills-builder-and-project-context-builder-appear-as-independent-toggl.md"
+    },
+    {
+      "id": "ELITEA-2784",
+      "title": "Skill creation from chat completes directly when the request already contains all required information",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "skills-builder",
+        "happy-path"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2784_skill-creation-from-chat-completes-directly-when-the-request-already-c.md"
+    },
+    {
+      "id": "ELITEA-2785",
+      "title": "Skill creation from chat with missing information triggers Ask User clarification and resumes correctly with submitted answers",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "skills-builder",
+        "ask-user"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2785_skill-creation-from-chat-with-missing-information-triggers-ask-user-cl.md"
+    },
+    {
+      "id": "ELITEA-2786",
+      "title": "Project Context creation from chat completes directly when the request already contains all required information",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "happy-path"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2786_project-context-creation-from-chat-completes-directly-when-the-request.md"
+    },
+    {
+      "id": "ELITEA-2787",
+      "title": "Project Context update from chat modifies the existing context instead of creating a duplicate",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2787_project-context-update-from-chat-modifies-the-existing-context-instead.md"
+    },
+    {
+      "id": "ELITEA-2788",
+      "title": "Project Context creation/update with missing information triggers Ask User clarification and resumes correctly",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "ask-user"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2788_project-context-creation-update-with-missing-information-triggers-ask.md"
+    },
+    {
+      "id": "ELITEA-2789",
+      "title": "Clarifying question control supports single-select, multi-select, and free-text answers including an Other option",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "ask-user",
+        "clarifying-question-ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2789_clarifying-question-control-supports-single-select-multi-select-and-fr.md"
+    },
+    {
+      "id": "ELITEA-2790",
+      "title": "Multi-question clarification flow shows correct progress indicator and Back/Next/Submit navigation",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "ask-user",
+        "clarifying-question-ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2790_multi-question-clarification-flow-shows-correct-progress-indicator-and.md"
+    },
+    {
+      "id": "ELITEA-2791",
+      "title": "Single-question clarification flow shows Submit only, without progress indicator or Back/Next controls",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "ask-user",
+        "clarifying-question-ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2791_single-question-clarification-flow-shows-submit-only-without-progress.md"
+    },
+    {
+      "id": "ELITEA-2792",
+      "title": "Optional clarifying question does not block progressing to the next question or submitting",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "ask-user",
+        "clarifying-question-ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2792_optional-clarifying-question-does-not-block-progressing-to-the-next-qu.md"
+    },
+    {
+      "id": "ELITEA-2793",
+      "title": "Generated Skill and Project Context chips reopen the entity in Canvas mode",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "canvas",
+        "skills-builder",
+        "project-context-builder"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2793_generated-skill-and-project-context-chips-reopen-the-entity-in-canvas.md"
+    },
+    {
+      "id": "ELITEA-2794",
+      "title": "Created Skill and Project Context are not automatically added as chat participants",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "skills-builder",
+        "project-context-builder",
+        "participants"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2794_created-skill-and-project-context-are-not-automatically-added-as-chat.md"
+    },
+    {
+      "id": "ELITEA-2795",
+      "title": "Chat Modules menu displays the exact specified labels and tooltip copy for the new modules",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "chat-modules",
+        "ui",
+        "copy"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2795_chat-modules-menu-displays-the-exact-specified-labels-and-tooltip-copy.md"
+    },
+    {
+      "id": "ELITEA-2796",
+      "title": "Toggling Skills Builder or Project Context Builder mid-conversation applies going forward without affecting prior messages",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "chat-modules",
+        "toggle-behavior"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2796_toggling-skills-builder-or-project-context-builder-mid-conversation-ap.md"
+    },
+    {
+      "id": "ELITEA-2797",
+      "title": "Clarifying question UI and resulting chips remain visually stable across question types with no styling issues",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "ui",
+        "styling",
+        "clarifying-question-ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2797_clarifying-question-ui-and-resulting-chips-remain-visually-stable-acro.md"
+    },
+    {
+      "id": "ELITEA-2753",
+      "title": "Chat – Create new conversation from folder context menu",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#1604"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/new-chat-from-folder/ELITEA-2753_chat-new-chat-option-available-in-folder-context-menu.md"
+    },
+    {
+      "id": "ELITEA-2754",
+      "title": "Chat – New chat from folder works in Private and Team projects",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#1604"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/new-chat-from-folder/ELITEA-2754_chat-new-chat-from-folder-works-in-private-and-team-projects.md"
+    },
+    {
+      "id": "ELITEA-2755",
+      "title": "Chat – Multiple consecutive conversations created from same folder",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#1604"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/new-chat-from-folder/ELITEA-2755_chat-multiple-consecutive-conversations-created-from-same-folder.md"
+    },
+    {
+      "id": "ELITEA-2756",
+      "title": "Chat – Conversation operations after creating via folder context menu",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#1604"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/new-chat-from-folder/ELITEA-2756_chat-conversation-operations-after-creating-via-folder-context-menu.md"
+    },
+    {
       "id": "ELITEA-0532",
       "title": "Cross-scope — Toolkits: edit last message and re-submit",
       "status": "draft",
@@ -33978,6 +36372,648 @@
       "path": "tests/elitea-platform/chat-interface/edit-user-message/ELITEA-0548_edit-icon-visible-only-on-last-user-message-in-multi-message-conversat.md"
     },
     {
+      "id": "ELITEA-2616",
+      "title": "Duplicate Chat from Context Menu Creates Independent Chat",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "context-menu",
+        "P0"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2616_duplicate-chat-from-context-menu-creates-independent-chat.md"
+    },
+    {
+      "id": "ELITEA-2617",
+      "title": "Duplicated Chat Preserves All Participants and Configuration",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "participants",
+        "P0"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2617_duplicated-chat-preserves-all-participants-and-configuration.md"
+    },
+    {
+      "id": "ELITEA-2618",
+      "title": "Conversation Independence Between Original and Duplicate",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "independence",
+        "P0"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2618_conversation-independence-between-original-and-duplicate.md"
+    },
+    {
+      "id": "ELITEA-2619",
+      "title": "Duplicate Chat Persistence After Page Refresh",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "persistence",
+        "P0"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2619_duplicate-chat-persistence-after-page-refresh.md"
+    },
+    {
+      "id": "ELITEA-2620",
+      "title": "Duplicate Pinned Chat - Duplicate is Unpinned, Original Remains Pinned",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "pinned",
+        "P0"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2620_duplicate-pinned-chat-unpins-duplicate.md"
+    },
+    {
+      "id": "ELITEA-2621",
+      "title": "Duplicate Public Chat Preserves Public Visibility (Green Indicator)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "public",
+        "visibility",
+        "P0"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2621_duplicate-public-chat-preserves-public-visibility.md"
+    },
+    {
+      "id": "ELITEA-2622",
+      "title": "Public Duplicated Chat Visible to All Team Members",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "public",
+        "team-visibility",
+        "P0"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2622_public-duplicate-visible-to-all-team-members.md"
+    },
+    {
+      "id": "ELITEA-2623",
+      "title": "Duplicate a Duplicated Public Chat Preserves Public Visibility",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "public",
+        "nested-duplication",
+        "P0"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2623_duplicate-a-duplicated-public-chat-preserves-visibility.md"
+    },
+    {
+      "id": "ELITEA-2624",
+      "title": "Duplicate Chat Access Control - No Unauthorized Exposure",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "security",
+        "access-control",
+        "P0"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2624_duplicate-chat-access-control-security.md"
+    },
+    {
+      "id": "ELITEA-2625",
+      "title": "Duplicate Chat with AI Participants Only (Private Project)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "ai-participants",
+        "private-project",
+        "P1"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2625_duplicate-chat-with-ai-participants-only.md"
+    },
+    {
+      "id": "ELITEA-2626",
+      "title": "Duplicated Chat Retains AI Participant Configuration",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "ai-configuration",
+        "P1"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2626_duplicate-chat-preserves-ai-configuration.md"
+    },
+    {
+      "id": "ELITEA-2627",
+      "title": "AI-Only Duplicated Chat Does Not Add Unintended User Participants",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "ai-only",
+        "user-isolation",
+        "P1"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2627_ai-only-chat-no-unintended-user-participants.md"
+    },
+    {
+      "id": "ELITEA-2628",
+      "title": "Duplicate Chat with Users and AI Participants - All Preserved",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "mixed-participants",
+        "team-project",
+        "P1"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2628_duplicate-chat-with-users-and-ai-participants.md"
+    },
+    {
+      "id": "ELITEA-2629",
+      "title": "Team Project Duplicate - No Unintended Participant Crossover",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "participant-isolation",
+        "team-project",
+        "P1"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2629_team-project-duplicate-no-participant-crossover.md"
+    },
+    {
+      "id": "ELITEA-2630",
+      "title": "Participant Restrictions Enforced After Refresh and API Access",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "participants",
+        "persistence",
+        "P1"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2630_participant-restrictions-persist-after-refresh.md"
+    },
+    {
+      "id": "ELITEA-2631",
+      "title": "Original Public Chat Displays Green Public Indicator",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "public",
+        "green-indicator",
+        "P1"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2631_original-public-chat-has-green-indicator.md"
+    },
+    {
+      "id": "ELITEA-2632",
+      "title": "Duplicated Public Chat Displays Green Public Indicator",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "public",
+        "green-indicator",
+        "P1"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2632_duplicated-public-chat-also-has-green-indicator.md"
+    },
+    {
+      "id": "ELITEA-2633",
+      "title": "Duplicate Private Chat Remains Private Unless Explicitly Shared",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "private",
+        "visibility",
+        "P1"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2633_duplicate-private-chat-remains-private.md"
+    },
+    {
+      "id": "ELITEA-2634",
+      "title": "Change Duplicate Visibility - Original Visibility Unaffected",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "visibility",
+        "independence",
+        "P1"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2634_change-duplicate-visibility-original-unaffected.md"
+    },
+    {
+      "id": "ELITEA-2635",
+      "title": "Original Chat Unchanged After Duplication - All Properties Intact",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "original-integrity",
+        "P1"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2635_original-chat-unchanged-after-duplication.md"
+    },
+    {
+      "id": "ELITEA-2636",
+      "title": "Duplicate Naming Convention - Unique Names with 'Copy of' or Numbered Suffix",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "naming",
+        "P1"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2636_duplicate-naming-convention-with-copy-suffix.md"
+    },
+    {
+      "id": "ELITEA-2637",
+      "title": "Duplicated Chat with Inaccessible AI Shows Clear State - No Silent Access Grant",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "low",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "ai-error-state",
+        "P2"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2637_inaccessible-ai-participant-shows-clear-state.md"
+    },
+    {
+      "id": "ELITEA-2638",
+      "title": "Duplicate Action Visible and Correctly Positioned in Context Menu",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "low",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "ui",
+        "context-menu",
+        "P2"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2638_duplicate-action-visible-in-context-menu.md"
+    },
+    {
+      "id": "ELITEA-2639",
+      "title": "Duplicated Chat Appears at Top of List - Most Recent Position (Bug #6271)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "low",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "sorting",
+        "bug-6271",
+        "P2"
+      ],
+      "requirements": [
+        "3837",
+        "6271"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2639_duplicate-appears-at-top-of-chat-list.md"
+    },
+    {
+      "id": "ELITEA-2640",
+      "title": "Participant Panel Rendering - No Regression for All Participant Types",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "low",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "chat",
+        "duplicate",
+        "participants",
+        "ui-regression",
+        "P2"
+      ],
+      "requirements": [
+        "3837"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat_duplicate/ELITEA-2640_participant-panel-rendering-no-regression.md"
+    },
+    {
       "id": "ELITEA-0525",
       "title": "Toolkit Tool Calls Do Not Inflate Message Count or Token Count in Context [Parametrized]",
       "status": "ready",
@@ -34152,6 +37188,270 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/chat-interface/context-management/ELITEA-0531_verify-context-budget-fully-resets-after-clearing-a-multi-message-chat.md"
+    },
+    {
+      "id": "ELITEA-2673",
+      "title": "Stop button does not break normal message sending in regular chat",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "issue:5000"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5000"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat-stop-button/ELITEA-2673_stop-button-does-not-break-normal-message-sending-in-regular-chat.md"
+    },
+    {
+      "id": "ELITEA-2674",
+      "title": "Stop button does not break normal message sending in agents chat",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "issue:5000"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5000"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat-stop-button/ELITEA-2674_stop-button-does-not-break-normal-message-sending-in-agents-chat.md"
+    },
+    {
+      "id": "ELITEA-2675",
+      "title": "Stop button removes message from thread and restores it to input field in regular chat",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "issue:5000"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5000"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat-stop-button/ELITEA-2675_stop-button-removes-message-from-thread-and-restores-to-input-regular-chat.md"
+    },
+    {
+      "id": "ELITEA-2676",
+      "title": "Stop button removes message from thread and restores it to input field in agents chat",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "issue:5000"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5000"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat-stop-button/ELITEA-2676_stop-button-removes-message-from-thread-and-restores-to-input-agents-chat.md"
+    },
+    {
+      "id": "ELITEA-2677",
+      "title": "Stop button does not corrupt or delete existing chat history",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "issue:5000"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5000"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat-stop-button/ELITEA-2677_stop-button-does-not-corrupt-or-delete-existing-chat-history.md"
+    },
+    {
+      "id": "ELITEA-2678",
+      "title": "Restored message preserves formatting, special characters, and multi-line structure",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "issue:5000"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5000"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat-stop-button/ELITEA-2678_restored-message-preserves-formatting-special-characters-multiline.md"
+    },
+    {
+      "id": "ELITEA-2679",
+      "title": "User can edit and successfully resend restored message in both chat types",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "issue:5000"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5000"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat-stop-button/ELITEA-2679_user-can-edit-and-resend-restored-message-in-both-chat-types.md"
+    },
+    {
+      "id": "ELITEA-2680",
+      "title": "Stop button works correctly with rapid consecutive stop actions",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "issue:5000"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5000"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat-stop-button/ELITEA-2680_stop-button-works-with-rapid-consecutive-stop-actions.md"
+    },
+    {
+      "id": "ELITEA-2681",
+      "title": "Stop button correctly handles messages stopped at different AI response phases",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "issue:5000"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5000"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat-stop-button/ELITEA-2681_stop-button-handles-messages-stopped-at-different-ai-response-phases.md"
+    },
+    {
+      "id": "ELITEA-2682",
+      "title": "Stop button does not interfere with file attachments, formatting, or chat settings",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "issue:5000"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5000"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat-stop-button/ELITEA-2682_stop-button-does-not-interfere-with-attachments-formatting-settings.md"
+    },
+    {
+      "id": "ELITEA-2683",
+      "title": "Stop button provides clear visual feedback when clicked",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "issue:5000"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5000"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/chat-stop-button/ELITEA-2683_stop-button-provides-clear-visual-feedback-when-clicked.md"
     },
     {
       "id": "ELITEA-0519",
@@ -37324,6 +40624,141 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/elitea-chat-bot/ELITEA-0649_support-assistant-shows-the-configured-welcome-message-when-opened-for.md"
+    },
+    {
+      "id": "ELITEA-0890",
+      "title": "Stop button and generating indicator recover after refresh (event-driven) and display correctly with no delay after chat switch",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-chat-bot",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "eng:frontend",
+        "nfr:usability",
+        "rca:missing-functionality",
+        "bug-area:current-release-scope"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6280"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/elitea-chat-bot/ELITEA-0890_stop-button-and-generating-indicator-recover-after-refresh.md"
+    },
+    {
+      "id": "ELITEA-0891",
+      "title": "Stop button cancels generation correctly once available after recovery from refresh or chat switch",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-chat-bot",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "eng:frontend",
+        "nfr:usability",
+        "rca:missing-functionality",
+        "bug-area:current-release-scope"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6280"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/elitea-chat-bot/ELITEA-0891_stop-button-cancels-generation-correctly-once-available-afte.md"
+    },
+    {
+      "id": "ELITEA-0892",
+      "title": "No stale Stop button or generating indicator shown when reopening a chat with an already-completed response",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-chat-bot",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "eng:frontend",
+        "nfr:usability",
+        "rca:missing-functionality",
+        "bug-area:current-release-scope"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6280"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/elitea-chat-bot/ELITEA-0892_no-stale-stop-button-or-generating-indicator-shown-when-reop.md"
+    },
+    {
+      "id": "ELITEA-0893",
+      "title": "Normal uninterrupted Stop click during active streaming cancels generation correctly",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-chat-bot",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "eng:frontend",
+        "nfr:usability",
+        "rca:missing-functionality",
+        "bug-area:current-release-scope"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6280"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/elitea-chat-bot/ELITEA-0893_normal-uninterrupted-stop-click-during-active-streaming-canc.md"
+    },
+    {
+      "id": "ELITEA-0895",
+      "title": "Recovery targets the correct chat and does not leak Stop button state to unrelated chats",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "elitea-chat-bot",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "eng:frontend",
+        "nfr:usability",
+        "rca:missing-functionality",
+        "bug-area:current-release-scope"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6280"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/elitea-chat-bot/ELITEA-0895_recovery-targets-the-correct-chat-and-does-not-leak-stop-but.md"
     },
     {
       "id": "ELITEA-0679",
@@ -42339,6 +45774,318 @@
       "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2615_5889-error-recovery.md"
     },
     {
+      "id": "ELITEA-2616",
+      "title": "[EliteaAI/elitea_issues#5999] Jira Cloud + Auto Mode Happy Path",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5999",
+        "r-2.0.6",
+        "feat:toolkits",
+        "int:jira",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5999"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2616_5999-cloud-auto-happypath.md"
+    },
+    {
+      "id": "ELITEA-2617",
+      "title": "[EliteaAI/elitea_issues#5999] Jira Cloud + Explicit API v3",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5999",
+        "r-2.0.6",
+        "feat:toolkits",
+        "int:jira",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5999"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2617_5999-cloud-v3-explicit.md"
+    },
+    {
+      "id": "ELITEA-2618",
+      "title": "[EliteaAI/elitea_issues#5999] Jira Server + Auto Mode (v2)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5999",
+        "r-2.0.6",
+        "feat:toolkits",
+        "int:jira",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5999"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2618_5999-server-auto-v2.md"
+    },
+    {
+      "id": "ELITEA-2619",
+      "title": "[EliteaAI/elitea_issues#5999] Cloud URL + Forced API v2 (Mismatch)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5999",
+        "r-2.0.6",
+        "feat:toolkits",
+        "int:jira",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5999"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2619_5999-cloud-forced-v2-mismatch.md"
+    },
+    {
+      "id": "ELITEA-2620",
+      "title": "[EliteaAI/elitea_issues#5999] Runtime vs Connection Test Consistency",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5999",
+        "r-2.0.6",
+        "feat:toolkits",
+        "int:jira",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5999"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2620_5999-runtime-consistency.md"
+    },
+    {
+      "id": "ELITEA-2621",
+      "title": "[EliteaAI/elitea_issues#5999] Agent/AI Execution Path (Post-Connection)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5999",
+        "r-2.0.6",
+        "feat:toolkits",
+        "int:jira",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5999"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2621_5999-agent-execution-path.md"
+    },
+    {
+      "id": "ELITEA-2622",
+      "title": "[EliteaAI/elitea_issues#5999] Confluence Cloud + Auto Mode Happy Path",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5999",
+        "r-2.0.6",
+        "feat:toolkits",
+        "int:confluence",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5999"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2622_5999-confluence-cloud-auto.md"
+    },
+    {
+      "id": "ELITEA-2623",
+      "title": "[EliteaAI/elitea_issues#5999] Confluence Server + Auto Mode (v2)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5999",
+        "r-2.0.6",
+        "feat:toolkits",
+        "int:confluence",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5999"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2623_5999-confluence-server-auto.md"
+    },
+    {
+      "id": "ELITEA-2624",
+      "title": "[EliteaAI/elitea_issues#5999] Confluence Cloud + Forced v3 (Version Mismatch)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5999",
+        "r-2.0.6",
+        "feat:toolkits",
+        "int:confluence",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5999"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2624_5999-confluence-cloud-v2-mismatch.md"
+    },
+    {
+      "id": "ELITEA-2625",
+      "title": "[EliteaAI/elitea_issues#5999] Confluence: Runtime vs Connection Test Consistency",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5999",
+        "r-2.0.6",
+        "feat:toolkits",
+        "int:confluence",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5999"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2625_5999-confluence-runtime-consistency.md"
+    },
+    {
+      "id": "ELITEA-2626",
+      "title": "[EliteaAI/elitea_issues#5999] Confluence Agent/AI Execution Path",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5999",
+        "r-2.0.6",
+        "feat:toolkits",
+        "int:confluence",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5999"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2626_5999-confluence-agent-execution.md"
+    },
+    {
+      "id": "ELITEA-2627",
+      "title": "[EliteaAI/elitea_issues#5999] Confluence Explicit v2 (Server/Cloud Compatibility)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "issue:5999",
+        "r-2.0.6",
+        "feat:toolkits",
+        "int:confluence",
+        "eng:backend"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5999"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/ELITEA-2627_5999-confluence-explicit-v2.md"
+    },
+    {
       "id": "ELITEA-1184",
       "title": "Credential ID error message visible across all toolkit types [Parametrized]",
       "status": "ready",
@@ -45307,6 +49054,408 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/toolkits-credentials/aha-toolkit/ELITEA-2582_execute-get-feature-gql-graphql-tool.md"
+    },
+    {
+      "id": "ELITEA-2778",
+      "title": "Toolkit Details Two-Column Layout Displays Correctly",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "layout"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2778_toolkit-details-two-column-layout-displays-correctly.md"
+    },
+    {
+      "id": "ELITEA-2779",
+      "title": "Toolkit Configuration Form and Raw JSON View Toggle Functionality",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "configuration"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2779_toolkit-config-form-and-raw-json-toggle.md"
+    },
+    {
+      "id": "ELITEA-2780",
+      "title": "Toolkit Save and Discard Changes Functionality",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "save-discard"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2780_toolkit-save-and-discard-changes.md"
+    },
+    {
+      "id": "ELITEA-2781",
+      "title": "Indexes Panel Empty State and Create Index Button",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "indexes"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2781_indexes-panel-empty-state-and-create-index.md"
+    },
+    {
+      "id": "ELITEA-2782",
+      "title": "Index Card Display and Navigation to Index Details",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "indexes",
+        "navigation"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2782_index-card-display-and-navigation.md"
+    },
+    {
+      "id": "ELITEA-2783",
+      "title": "Index Details - Search Button Navigation to Search Page",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "search",
+        "navigation"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2783_index-details-search-button-navigation.md"
+    },
+    {
+      "id": "ELITEA-2784",
+      "title": "Search Page - Tool Selection and Parameter Display",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "search",
+        "parameters"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2784_search-page-tool-selection-and-parameters.md"
+    },
+    {
+      "id": "ELITEA-2785",
+      "title": "Search Page - Execute Search and View Results",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "search",
+        "execution"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2785_search-page-execute-search-and-view-results.md"
+    },
+    {
+      "id": "ELITEA-2786",
+      "title": "Index Status Indicators on Cards",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "indexes",
+        "status"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2786_index-status-indicators-on-cards.md"
+    },
+    {
+      "id": "ELITEA-2787",
+      "title": "Index Details - Configuration and Activity Tabs",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "indexes",
+        "configuration",
+        "activity"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2787_index-details-configuration-and-activity-tabs.md"
+    },
+    {
+      "id": "ELITEA-2788",
+      "title": "Index Schedule Configuration Display and Toggle",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "indexes",
+        "schedule"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2788_index-schedule-configuration.md"
+    },
+    {
+      "id": "ELITEA-2789",
+      "title": "Index Run History Page Display and Navigation",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "indexes",
+        "history"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2789_index-run-history-page.md"
+    },
+    {
+      "id": "ELITEA-2790",
+      "title": "Breadcrumb Navigation Throughout Toolkit-Index Flow",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "navigation",
+        "breadcrumb"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2790_breadcrumb-navigation-throughout-flow.md"
+    },
+    {
+      "id": "ELITEA-2791",
+      "title": "Search Tool Switching Clears Previous Parameters",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "search",
+        "parameters"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2791_search-tool-switching-clears-parameters.md"
+    },
+    {
+      "id": "ELITEA-2792",
+      "title": "TOOLS Section Display with Tool Count",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "tools",
+        "count"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2792_tools-section-display-with-tool-count.md"
+    },
+    {
+      "id": "ELITEA-2793",
+      "title": "Dark and Light Theme Support for Toolkit UI",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "theme",
+        "accessibility"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2793_dark-light-theme-support.md"
+    },
+    {
+      "id": "ELITEA-2794",
+      "title": "Index Ready State with Elitea Chat Integration",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "indexes",
+        "chat",
+        "integration"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2794_index-ready-state-with-elitea-chat.md"
+    },
+    {
+      "id": "ELITEA-2795",
+      "title": "Search Results Copy and Scroll Functionality",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "search",
+        "results"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2795_search-results-copy-and-scroll.md"
     },
     {
       "id": "ELITEA-1195",
@@ -48479,6 +52628,331 @@
       "path": "tests/elitea-platform/toolkits-credentials/confluence-toolkit-read-page-by-id/ELITEA-1179_default-no-content-format-read-page-by-id-returns-toolkit-level-format.md"
     },
     {
+      "id": "ELITEA-2684",
+      "title": "Tool Groups Render in Correct Fixed Order with All Required UI Elements",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "grouping",
+        "ui"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/group-tools-within-toolkit/ELITEA-2684_tool-groups-render-in-correct-fixed-order.md"
+    },
+    {
+      "id": "ELITEA-2685",
+      "title": "Group Header Click Toggles Selection for All Tools in That Group",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "grouping",
+        "selection"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/group-tools-within-toolkit/ELITEA-2685_group-header-click-toggles-all-tools.md"
+    },
+    {
+      "id": "ELITEA-2686",
+      "title": "Tools Remain Alphabetically Sorted Within Each Group",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "grouping",
+        "sorting"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/group-tools-within-toolkit/ELITEA-2686_tools-alphabetically-sorted-within-groups.md"
+    },
+    {
+      "id": "ELITEA-2687",
+      "title": "MCP Access Toggle Replaces Checkbox with Correct Default State",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "mcp",
+        "toggle"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/group-tools-within-toolkit/ELITEA-2687_mcp-toggle-replaces-checkbox.md"
+    },
+    {
+      "id": "ELITEA-2688",
+      "title": "Toolkit Without Group Metadata Renders Flat List (No Regression)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "mcp-toolkit",
+        "regression"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/group-tools-within-toolkit/ELITEA-2688_toolkit-without-group-metadata-flat-list.md"
+    },
+    {
+      "id": "ELITEA-2689",
+      "title": "Pipeline Toolkit Node Shows Correct (Chosen) Tool",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "pipelines",
+        "integration"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/group-tools-within-toolkit/ELITEA-2689_pipeline-toolkit-node-with-grouping.md"
+    },
+    {
+      "id": "ELITEA-2690",
+      "title": "Selected/Total Counts in Group Headers Include Filtered-Out Tools",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "search",
+        "counts"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/group-tools-within-toolkit/ELITEA-2690_group-counts-include-filtered-tools.md"
+    },
+    {
+      "id": "ELITEA-2691",
+      "title": "Unavailable Tools Render in Separate Block Above Grouped Tools",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "unavailable",
+        "deprecated"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/group-tools-within-toolkit/ELITEA-2691_unavailable-tools-above-groups.md"
+    },
+    {
+      "id": "ELITEA-2692",
+      "title": "Tool Selection Persistence After Save with Grouped UI",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "grouping",
+        "persistence",
+        "regression"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/group-tools-within-toolkit/ELITEA-2692_tool-selection-persistence-after-save.md"
+    },
+    {
+      "id": "ELITEA-2693",
+      "title": "MCP Toggle Preserves Existing Toolkit State",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "mcp",
+        "toggle",
+        "migration",
+        "regression"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/group-tools-within-toolkit/ELITEA-2693_mcp-toggle-preserves-existing-state.md"
+    },
+    {
+      "id": "ELITEA-2694",
+      "title": "Agent Toolkit Attachment Shows Correct (Chosen) Tool",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "agents",
+        "integration"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/group-tools-within-toolkit/ELITEA-2694_agent-toolkit-attachment-with-grouping.md"
+    },
+    {
+      "id": "ELITEA-2695",
+      "title": "Tool Search Filters Tools by Display Name and Raw Tool Name",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "search",
+        "filter",
+        "empty-state"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/group-tools-within-toolkit/ELITEA-2695_tool-search-filters-by-name.md"
+    },
+    {
+      "id": "ELITEA-2696",
+      "title": "Search Filtering Does Not Change Tool Selection State",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "search",
+        "selection"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/group-tools-within-toolkit/ELITEA-2696_search-filtering-preserves-selection.md"
+    },
+    {
+      "id": "ELITEA-2697",
+      "title": "Chat Toolkit Tool Selection with Grouping",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials/group-tools-within-toolkit",
+      "owner": "",
+      "tags": [
+        "feat:toolkits",
+        "tools",
+        "chat",
+        "integration"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/group-tools-within-toolkit/ELITEA-2697_chat-toolkit-tool-selection.md"
+    },
+    {
       "id": "ELITEA-0001",
       "title": "[Chat] Multiple Toolkits — Parallel list_collection Execution Completes Without Error — GPT + Anthropic [Parametrized]",
       "status": "ready",
@@ -51579,6 +56053,583 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/agents/ELITEA-0158_regression-editor-notes-editable.md"
+    },
+    {
+      "id": "ELITEA-2753",
+      "title": "Edit with AI CTA is visible and accessible on existing Agent page for users with edit permission",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2753_edit-with-ai-cta-visible-for-editor-and-admin-roles.md"
+    },
+    {
+      "id": "ELITEA-2754",
+      "title": "Edit with AI CTA is not visible for users without edit permission",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2754_edit-with-ai-cta-hidden-for-viewer-role.md"
+    },
+    {
+      "id": "ELITEA-2755",
+      "title": "AI draft generation completes successfully with loading state displayed",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2755_ai-draft-generation-completes-with-loading-state.md"
+    },
+    {
+      "id": "ELITEA-2756",
+      "title": "Applying wizard changes updates the Agent configuration correctly",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2756_applying-wizard-changes-updates-agent-configuration.md"
+    },
+    {
+      "id": "ELITEA-2757",
+      "title": "Unchecked suggestions are excluded from the final applied result",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2757_unchecked-suggestions-excluded-from-applied-result.md"
+    },
+    {
+      "id": "ELITEA-2758",
+      "title": "Cancel or dismiss modal does not apply any changes to the Agent",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2758_cancel-dismiss-modal-does-not-apply-changes.md"
+    },
+    {
+      "id": "ELITEA-2759",
+      "title": "Agent with published version cannot be edited via Edit with AI",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2759_published-agent-version-cannot-be-edited-with-ai.md"
+    },
+    {
+      "id": "ELITEA-2760",
+      "title": "Summary step displays all Agent fields including unchanged ones",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2760_summary-step-displays-all-agent-fields-including-unchanged.md"
+    },
+    {
+      "id": "ELITEA-2761",
+      "title": "All wizard steps are displayed when user submits general request without specifying fields",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2761_all-wizard-steps-shown-for-general-request.md"
+    },
+    {
+      "id": "ELITEA-2762",
+      "title": "Only relevant wizard steps are displayed when user specifies particular fields",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2762_only-relevant-wizard-steps-shown-for-targeted-request.md"
+    },
+    {
+      "id": "ELITEA-2763",
+      "title": "Current vs. Suggested values display with diff-style highlighting",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2763_current-vs-suggested-diff-style-highlighting.md"
+    },
+    {
+      "id": "ELITEA-2764",
+      "title": "Suggested text fields can be edited by the user before applying",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2764_suggested-text-fields-editable-before-applying.md"
+    },
+    {
+      "id": "ELITEA-2765",
+      "title": "Tools & Skills recommendations display as minicards with checkboxes, not text-editable",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2765_tools-skills-recommendations-as-minicards.md"
+    },
+    {
+      "id": "ELITEA-2766",
+      "title": "Suggestion checkboxes default to checked state",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2766_suggestion-checkboxes-default-checked.md"
+    },
+    {
+      "id": "ELITEA-2767",
+      "title": "User can navigate forward through wizard steps using Next button",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2767_navigate-forward-through-wizard-steps.md"
+    },
+    {
+      "id": "ELITEA-2768",
+      "title": "User can return to initial request step to revise and regenerate",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2768_return-to-initial-request-step-to-revise-regenerate.md"
+    },
+    {
+      "id": "ELITEA-2769",
+      "title": "Suggested Name field respects existing character limit truncation behavior",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2769_suggested-name-field-respects-character-limit-truncation.md"
+    },
+    {
+      "id": "ELITEA-2770",
+      "title": "Edit with AI modal displays header and text input for natural language request",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2770_modal-displays-header-and-text-input-for-request.md"
+    },
+    {
+      "id": "ELITEA-2771",
+      "title": "Loading state spinner displays correctly during AI draft generation",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2771_loading-state-spinner-displays-correctly.md"
+    },
+    {
+      "id": "ELITEA-2772",
+      "title": "Wizard step indicator displays current position in the flow",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2772_wizard-step-indicator-shows-current-position.md"
+    },
+    {
+      "id": "ELITEA-2773",
+      "title": "Chat Starters maximum of 4 is enforced in Edit with AI suggestions",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2773_chat-starters-maximum-of-4-enforced.md"
+    },
+    {
+      "id": "ELITEA-2774",
+      "title": "Skills maximum of 5 is enforced in Edit with AI suggestions",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2774_skills-maximum-of-5-enforced.md"
+    },
+    {
+      "id": "ELITEA-2775",
+      "title": "Generation failure displays error message and allows retry",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2775_generation-failure-shows-error-and-allows-retry.md"
+    },
+    {
+      "id": "ELITEA-2776",
+      "title": "Edit with AI preserves unchanged fields when only specific fields are modified",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5893"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2776_preserves-unchanged-fields-when-only-specific-fields-modified.md"
+    },
+    {
+      "id": "ELITEA-2777",
+      "title": "Edit with AI wizard text fields reject image paste and strip rich-text formatting on paste",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "bug",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "bug-env:dev",
+        "bug-area:current-release-scope",
+        "r-2.0.5"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6040"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/agents/ELITEA-2777_edit-with-ai-text-fields-reject-image-paste-and-strip-rich-text.md"
     },
     {
       "id": "ELITEA-0779",
@@ -62022,6 +67073,60 @@
       "path": "tests/elitea-platform/skills/ELITEA-2517_editor-role-can-perform-all-icon-operations-upload-replace-delete.md"
     },
     {
+      "id": "ELITEA-2809",
+      "title": "generate_skill_draft produces a valid JSON draft for a supported model and a complete description",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "skills-builder",
+        "tool:generate_skill_draft"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/skills/ELITEA-2809_generate-skill-draft-produces-a-valid-json-draft-for-a-supported-model.md"
+    },
+    {
+      "id": "ELITEA-2810",
+      "title": "generate_skill_draft behaves consistently with generate_project_context_draft across the same model_name compatibility matrix",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "skills-builder",
+        "tool:generate_skill_draft",
+        "model-compatibility",
+        "cross-tool-consistency"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/skills/ELITEA-2810_generate-skill-draft-behaves-consistently-with-generate-project-contex.md"
+    },
+    {
       "id": "ELITEA-0682",
       "title": "[DOCX Indexing] Index history reflects embedded images as indexed — not skipped",
       "status": "draft",
@@ -63714,6 +68819,243 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/mcp-servers/ELITEA-2238_5294-toolkit-page-oauth-custom.md"
+    },
+    {
+      "id": "ELITEA-2735",
+      "title": "Verify agent message displays toolkit name when MCP authorization is needed",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/mcp-servers/toolkit-name-in-auth-prompt/ELITEA-2735_verify-agent-message-displays-toolkit-name-when-authorization-needed.md"
+    },
+    {
+      "id": "ELITEA-2736",
+      "title": "Verify multiple MCPs - each displays correct toolkit name in agent authorization message",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/mcp-servers/toolkit-name-in-auth-prompt/ELITEA-2736_verify-multiple-mcps-each-display-correct-toolkit-name-in-agent-message.md"
+    },
+    {
+      "id": "ELITEA-2737",
+      "title": "Verify toolkit name in agent authorization message from Chat page",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/mcp-servers/toolkit-name-in-auth-prompt/ELITEA-2737_verify-toolkit-name-in-agent-message-from-chat-page.md"
+    },
+    {
+      "id": "ELITEA-2738",
+      "title": "Verify nested agent displays toolkit name when MCP authorization is needed",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:nested-agent"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/mcp-servers/toolkit-name-in-auth-prompt/ELITEA-2738_verify-nested-agent-displays-toolkit-name-when-authorization-needed.md"
+    },
+    {
+      "id": "ELITEA-2739",
+      "title": "Verify nested agent with MCP displays toolkit name from Chat page",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:nested-agent",
+        "feat:chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/mcp-servers/toolkit-name-in-auth-prompt/ELITEA-2739_verify-nested-agent-with-mcp-from-chat-page.md"
+    },
+    {
+      "id": "ELITEA-2740",
+      "title": "Verify pipeline with MCP displays toolkit name in Pipeline chat section",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:pipeline"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/mcp-servers/toolkit-name-in-auth-prompt/ELITEA-2740_verify-pipeline-with-mcp-displays-toolkit-name-in-pipeline-chat.md"
+    },
+    {
+      "id": "ELITEA-2741",
+      "title": "Verify pipeline with MCP displays toolkit name when called from Chat page",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:pipeline",
+        "feat:chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/mcp-servers/toolkit-name-in-auth-prompt/ELITEA-2741_verify-pipeline-with-mcp-called-from-chat-page.md"
+    },
+    {
+      "id": "ELITEA-2742",
+      "title": "Verify pipeline with nested pipeline (containing agent with MCP) displays toolkit name in Pipeline chat",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:pipeline",
+        "feat:nested-agent"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/mcp-servers/toolkit-name-in-auth-prompt/ELITEA-2742_verify-pipeline-with-nested-pipeline-displays-mcp-name-in-pipeline-chat.md"
+    },
+    {
+      "id": "ELITEA-2743",
+      "title": "Verify pipeline with nested pipeline displays toolkit name when called from Chat page",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp-local",
+        "feat:mcp-remote",
+        "nfr:usability",
+        "r-2.0.6",
+        "feat:pipeline",
+        "feat:nested-agent",
+        "feat:chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5637"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/mcp-servers/toolkit-name-in-auth-prompt/ELITEA-2743_verify-pipeline-with-nested-pipeline-called-from-chat-page.md"
     },
     {
       "id": "ELITEA-0234",
@@ -65414,6 +70756,299 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/project-context/ELITEA-0957_project-context-page-exists-and-is-accessible-in-private-and-team-proj.md"
+    },
+    {
+      "id": "ELITEA-2798",
+      "title": "Retrieve current project context via get_project_context",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:get_project_context"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2798_retrieve-current-project-context-via-get-project-context.md"
+    },
+    {
+      "id": "ELITEA-2799",
+      "title": "Full update of project context sets both content and enabled via put_project_context",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:put_project_context"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2799_full-update-of-project-context-sets-both-content-and-enabled-via-put-p.md"
+    },
+    {
+      "id": "ELITEA-2800",
+      "title": "Partial update omitting content must preserve existing content, not wipe it",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:put_project_context",
+        "data-loss"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2800_partial-update-omitting-content-must-preserve-existing-content-not-wip.md"
+    },
+    {
+      "id": "ELITEA-2801",
+      "title": "Updating project context with an invalid project_id returns a clear access-denied error",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:put_project_context",
+        "negative"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2801_updating-project-context-with-an-invalid-project-id-returns-a-clear-ac.md"
+    },
+    {
+      "id": "ELITEA-2802",
+      "title": "Clean delete of an existing project context via delete_project_context",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:delete_project_context"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2802_clean-delete-of-an-existing-project-context-via-delete-project-context.md"
+    },
+    {
+      "id": "ELITEA-2803",
+      "title": "Repeating delete_project_context on an already-deleted context is idempotent",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:delete_project_context",
+        "idempotency"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2803_repeating-delete-project-context-on-an-already-deleted-context-is-idem.md"
+    },
+    {
+      "id": "ELITEA-2804",
+      "title": "Deleting project context with an invalid project_id returns a clear access-denied error",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:delete_project_context",
+        "negative"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2804_deleting-project-context-with-an-invalid-project-id-returns-a-clear-ac.md"
+    },
+    {
+      "id": "ELITEA-2805",
+      "title": "generate_project_context_draft produces a valid markdown draft in create mode with a default model",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:generate_project_context_draft"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2805_generate-project-context-draft-produces-a-valid-markdown-draft-in-crea.md"
+    },
+    {
+      "id": "ELITEA-2806",
+      "title": "generate_project_context_draft in edit mode preserves existing background verbatim and appends only the requested section",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:generate_project_context_draft",
+        "edit-mode"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2806_generate-project-context-draft-in-edit-mode-preserves-existing-backgro.md"
+    },
+    {
+      "id": "ELITEA-2807",
+      "title": "generate_project_context_draft enforces the documented 2500-character limit on user_description",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:generate_project_context_draft",
+        "boundary"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2807_generate-project-context-draft-enforces-the-documented-2500-character.md"
+    },
+    {
+      "id": "ELITEA-2808",
+      "title": "generate_project_context_draft handles all supported model_name formats without returning a bare empty response",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:generate_project_context_draft",
+        "model-compatibility"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2808_generate-project-context-draft-handles-all-supported-model-name-format.md"
     },
     {
       "id": "ELITEA-1049",

@@ -4,10 +4,13 @@ title: "Settings page loads and displays correct PROJECT and PERSONAL sections"
 priority: high
 type: functional
 module: settings
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.settings.test_settings_page_sections_and_default_tab.TestSettingsPageSectionsAndDefaultTab.test_settings_page_sections_and_default_tab
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1779"
 ---
 
 # ELITEA-2242: Settings page loads and displays correct PROJECT and PERSONAL sections
