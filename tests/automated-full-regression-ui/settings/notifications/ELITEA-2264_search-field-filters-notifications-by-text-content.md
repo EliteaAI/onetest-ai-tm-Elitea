@@ -4,10 +4,13 @@ title: "Search field filters notifications by text content"
 priority: medium
 type: functional
 module: settings-notifications
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_notification_search_filter.TestNotificationSearchFilter.test_search_field_filters_notifications_by_text
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1788"
 ---
 
 # ELITEA-2264: Search field filters notifications by text content

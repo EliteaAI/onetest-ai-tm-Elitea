@@ -4,10 +4,13 @@ title: "Notifications Center pagination controls are present and functional"
 priority: medium
 type: functional
 module: settings-notifications
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_notification_center_pagination.TestNotificationCenterPagination.test_notification_center_pagination_controls
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1788"
 ---
 
 # ELITEA-2256: Notifications Center pagination controls are present and functional
