@@ -4,10 +4,13 @@ title: "Discard button reverts unsaved changes"
 priority: medium
 type: functional
 module: settings-project-params
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_project_context_discard_reverts.TestProjectContextDiscardReverts.test_discard_reverts_unsaved_changes
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1799"
 ---
 
 # ELITEA-2274: Discard button reverts unsaved changes
