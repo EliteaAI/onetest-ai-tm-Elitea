@@ -4,10 +4,13 @@ title: "Log out button is visible in the PERSONAL section of the Settings sideba
 priority: medium
 type: functional
 module: settings
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.settings.test_settings_profile_logout_button_visible.TestSettingsProfileLogoutButtonVisible.test_settings_profile_logout_button_visible
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1779"
 ---
 
 # ELITEA-2252: Log out button is visible in the PERSONAL section of the Settings sidebar
