@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_fork_to_different_project.TestPipelineForkToDifferentProject.test_pipeline_fork_to_different_project
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1343
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1803
 ---
 
 # ELITEA-2051: Pipeline — Fork

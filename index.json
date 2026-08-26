@@ -1256,8 +1256,8 @@
     {
       "id": "ELITEA-2266",
       "title": "Project Context page loads with correct layout and components",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1268,7 +1268,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_page_layout.TestProjectContextPageLayout.test_project_context_page_layout"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1277,8 +1279,8 @@
     {
       "id": "ELITEA-2267",
       "title": "Project Context toggle enables and disables context injection",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -1289,7 +1291,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_toggle_enable_disable.TestProjectContextToggleEnableDisable.test_project_context_toggle_enable_disable"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1298,8 +1302,8 @@
     {
       "id": "ELITEA-2268",
       "title": "Project Background editor accepts and displays markdown content",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1310,7 +1314,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_markdown_editor.TestProjectContextMarkdownEditor.test_project_context_markdown_editor_and_preview"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1319,8 +1325,8 @@
     {
       "id": "ELITEA-2269",
       "title": "Build with AI button generates project context content",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1331,7 +1337,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_build_with_ai_generates.TestProjectContextBuildWithAI.test_build_with_ai_generates_content_and_stays_editable"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1340,8 +1348,8 @@
     {
       "id": "ELITEA-2270",
       "title": "Build with AI can be cancelled without modifying the editor content",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1352,7 +1360,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_build_with_ai_cancel.TestProjectContextBuildWithAICancel.test_ai_dialog_cancel_leaves_editor_content_unchanged"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1361,8 +1371,8 @@
     {
       "id": "ELITEA-2271",
       "title": "Upload file icon allows importing content into the Project Background editor",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1373,7 +1383,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_import_markdown_file.TestProjectContextImportMarkdownFile.test_import_markdown_file_into_editor_and_edit_it"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1405,8 +1417,8 @@
     {
       "id": "ELITEA-2273",
       "title": "Save button persists Project Background content after page reload",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1417,7 +1429,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_save_persists.TestProjectContextSavePersists.test_save_persists_project_context_after_reload"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1426,8 +1440,8 @@
     {
       "id": "ELITEA-2274",
       "title": "Discard button reverts unsaved changes",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1438,7 +1452,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_discard_reverts.TestProjectContextDiscardReverts.test_discard_reverts_unsaved_changes"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1447,8 +1463,8 @@
     {
       "id": "ELITEA-2275",
       "title": "Save and Discard buttons are only active when there are unsaved changes",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1459,7 +1475,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_save_discard_dirty_state.TestProjectContextSaveDiscardDirtyState.test_save_and_discard_active_only_with_unsaved_changes"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1468,8 +1486,8 @@
     {
       "id": "ELITEA-2276",
       "title": "Empty Project Background can be saved whith toggle OFF and ON",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1480,7 +1498,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_empty_save_toggle_off_on.TestProjectContextEmptySaveToggleOffOn.test_project_context_empty_save_toggle_off_on"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3328,8 +3348,8 @@
     {
       "id": "ELITEA-2255",
       "title": "Notifications Center page loads with correct layout and header",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -3340,7 +3360,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_center_layout.TestNotificationCenterLayout.test_notification_center_page_layout_and_header"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3349,8 +3371,8 @@
     {
       "id": "ELITEA-2256",
       "title": "Notifications Center pagination controls are present and functional",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -3361,7 +3383,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_center_pagination.TestNotificationCenterPagination.test_notification_center_pagination_controls"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3393,8 +3417,8 @@
     {
       "id": "ELITEA-2258",
       "title": "Unread notifications are visually distinct from read notifications",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -3405,7 +3429,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_unread_read_visual_distinction.TestNotificationUnreadReadVisualDistinction.test_unread_notifications_are_visually_distinct_from_read"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3437,8 +3463,8 @@
     {
       "id": "ELITEA-2260",
       "title": "Notification entry in sidebar is always visible without scrolling",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -3449,7 +3475,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_settings_drawer_notifications_entry.TestSettingsDrawerNotificationsEntry.test_settings_drawer_notifications_entry_visible_without_scrolling"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3458,8 +3486,8 @@
     {
       "id": "ELITEA-2261",
       "title": "Clicking a chat mention notification link navigates to the correct conversation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -3470,7 +3498,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_link_navigates_to_conversation.TestNotificationChatMentionLinkNavigation.test_chat_mention_link_navigates_to_conversation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3500,8 +3530,8 @@
     {
       "id": "ELITEA-2263",
       "title": "Clicking a bucket retention warning link navigates to the correct bucket",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -3512,7 +3542,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_link_navigates_to_bucket.TestNotificationBucketRetentionLinkNavigation.test_bucket_retention_link_navigates_to_bucket"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3521,8 +3553,8 @@
     {
       "id": "ELITEA-2264",
       "title": "Search field filters notifications by text content",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -3533,7 +3565,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_notification_search_filter.TestNotificationSearchFilter.test_search_field_filters_notifications_by_text"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15412,6 +15446,120 @@
       "path": "tests/automated-full-regression-ui/help_center/ELITEA-2230_help-center-back-button-navigates-to-previous-step-during-in.md"
     },
     {
+      "id": "ELITEA-2796",
+      "title": "Regression - Toolkit Details Layout and Navigation",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-redesign",
+        "layout"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2796_regression-toolkit-details-layout-and-navigation.md"
+    },
+    {
+      "id": "ELITEA-2797",
+      "title": "Regression - Index Search Functionality End-to-End",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-redesign",
+        "search"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2797_regression-index-search-functionality.md"
+    },
+    {
+      "id": "ELITEA-2798",
+      "title": "Regression - Index Creation and Status Display",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-redesign",
+        "indexes"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2798_regression-index-creation-and-status-display.md"
+    },
+    {
+      "id": "ELITEA-2799",
+      "title": "Regression - Form and Raw JSON Toggle Synchronization",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "toolkit-redesign",
+        "configuration"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2799_regression-form-raw-json-toggle-sync.md"
+    },
+    {
+      "id": "ELITEA-2800",
+      "title": "Regression - Run History and Schedule Display",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "toolkit-redesign",
+        "history",
+        "schedule"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2800_regression-run-history-and-schedule.md"
+    },
+    {
       "id": "ELITEA-1735",
       "title": "Interact with Skills from Agent",
       "status": "ready",
@@ -25239,6 +25387,195 @@
       "path": "tests/alita-sdk/bitbucket/ELITEA-1454_bb01-create-branch-happy-path.md"
     },
     {
+      "id": "ELITEA-2728",
+      "title": "BitBucket - delete_file: Tool is displayed/available in the toolkit",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "bitbucket",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "bitbucket",
+        "file-operations",
+        "issue:3401"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3401"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/bitbucket/ELITEA-2728_delete-file-tool-is-displayed-available-in-toolkit.md"
+    },
+    {
+      "id": "ELITEA-2729",
+      "title": "BitBucket - delete_file: Successfully removes file from default branch",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "bitbucket",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "bitbucket",
+        "file-operations",
+        "issue:3401"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3401"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/bitbucket/ELITEA-2729_delete-file-successfully-removes-file-from-default-branch.md"
+    },
+    {
+      "id": "ELITEA-2730",
+      "title": "BitBucket - delete_file: Successfully removes file from non-default branch",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "bitbucket",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "bitbucket",
+        "file-operations",
+        "issue:3401"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3401"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/bitbucket/ELITEA-2730_delete-file-successfully-removes-file-from-non-default-branch.md"
+    },
+    {
+      "id": "ELITEA-2731",
+      "title": "BitBucket - delete_file: file_path parameter works with nested directories",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "bitbucket",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "bitbucket",
+        "file-operations",
+        "issue:3401"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3401"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/bitbucket/ELITEA-2731_delete-file-file-path-parameter-works-with-nested-directories.md"
+    },
+    {
+      "id": "ELITEA-2732",
+      "title": "BitBucket - delete_file: branch_name parameter targets correct branch",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "bitbucket",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "bitbucket",
+        "file-operations",
+        "issue:3401"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3401"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/bitbucket/ELITEA-2732_delete-file-branch-name-parameter-targets-correct-branch.md"
+    },
+    {
+      "id": "ELITEA-2733",
+      "title": "BitBucket - delete_file: commit_message parameter (optional with sensible default)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "bitbucket",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "bitbucket",
+        "file-operations",
+        "issue:3401"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3401"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/bitbucket/ELITEA-2733_delete-file-commit-message-parameter-optional-with-sensible-default.md"
+    },
+    {
+      "id": "ELITEA-2734",
+      "title": "BitBucket - delete_file: negative test cases",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "bitbucket",
+      "owner": "",
+      "tags": [
+        "repository",
+        "toolkit",
+        "sdk",
+        "bitbucket",
+        "file-operations",
+        "issue:3401"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#3401"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/alita-sdk/bitbucket/ELITEA-2734_delete-file-negative-test-cases.md"
+    },
+    {
       "id": "ELITEA-1658",
       "title": "SO10 - fstring Templates",
       "status": "ready",
@@ -35022,6 +35359,534 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/chat-interface/ELITEA-1340_context-budget-panel-reflects-profile-max-tokens.md"
+    },
+    {
+      "id": "ELITEA-2778",
+      "title": "Enabling Skills Builder or Project Context Builder does not regress Agent & Pipeline Builder or Ask User flows",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "regression",
+        "agent-pipeline-builder",
+        "ask-user"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2778_enabling-skills-builder-or-project-context-builder-does-not-regress-ag.md"
+    },
+    {
+      "id": "ELITEA-2779",
+      "title": "Assistant does not create a Skill or Project Context when the corresponding builder module is disabled",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "skills-builder",
+        "project-context-builder",
+        "negative"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2779_assistant-does-not-create-a-skill-or-project-context-when-the-correspo.md"
+    },
+    {
+      "id": "ELITEA-2780",
+      "title": "Assistant does not hang when Ask User is disabled and required Skill/Project Context information is missing",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "ask-user",
+        "skills-builder",
+        "project-context-builder"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2780_assistant-does-not-hang-when-ask-user-is-disabled-and-required-skill-p.md"
+    },
+    {
+      "id": "ELITEA-2781",
+      "title": "Headless/API run with auto_skip enabled does not hang when Skill or Project Context creation would trigger clarification",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "headless",
+        "auto-skip",
+        "ask-user"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2781_headless-api-run-with-auto-skip-enabled-does-not-hang-when-skill-or-pr.md"
+    },
+    {
+      "id": "ELITEA-2782",
+      "title": "Sensitive tool approval/rejection HITL flow is unaffected when Skills Builder and Project Context Builder are enabled",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "hitl",
+        "sensitive-tool-approval",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2782_sensitive-tool-approval-rejection-hitl-flow-is-unaffected-when-skills.md"
+    },
+    {
+      "id": "ELITEA-2783",
+      "title": "Skills Builder and Project Context Builder appear as independent toggles, disabled by default, with correct tooltips",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "chat-modules",
+        "ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2783_skills-builder-and-project-context-builder-appear-as-independent-toggl.md"
+    },
+    {
+      "id": "ELITEA-2784",
+      "title": "Skill creation from chat completes directly when the request already contains all required information",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "skills-builder",
+        "happy-path"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2784_skill-creation-from-chat-completes-directly-when-the-request-already-c.md"
+    },
+    {
+      "id": "ELITEA-2785",
+      "title": "Skill creation from chat with missing information triggers Ask User clarification and resumes correctly with submitted answers",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "skills-builder",
+        "ask-user"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2785_skill-creation-from-chat-with-missing-information-triggers-ask-user-cl.md"
+    },
+    {
+      "id": "ELITEA-2786",
+      "title": "Project Context creation from chat completes directly when the request already contains all required information",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "happy-path"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2786_project-context-creation-from-chat-completes-directly-when-the-request.md"
+    },
+    {
+      "id": "ELITEA-2787",
+      "title": "Project Context update from chat modifies the existing context instead of creating a duplicate",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2787_project-context-update-from-chat-modifies-the-existing-context-instead.md"
+    },
+    {
+      "id": "ELITEA-2788",
+      "title": "Project Context creation/update with missing information triggers Ask User clarification and resumes correctly",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "ask-user"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2788_project-context-creation-update-with-missing-information-triggers-ask.md"
+    },
+    {
+      "id": "ELITEA-2789",
+      "title": "Clarifying question control supports single-select, multi-select, and free-text answers including an Other option",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "ask-user",
+        "clarifying-question-ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2789_clarifying-question-control-supports-single-select-multi-select-and-fr.md"
+    },
+    {
+      "id": "ELITEA-2790",
+      "title": "Multi-question clarification flow shows correct progress indicator and Back/Next/Submit navigation",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "ask-user",
+        "clarifying-question-ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2790_multi-question-clarification-flow-shows-correct-progress-indicator-and.md"
+    },
+    {
+      "id": "ELITEA-2791",
+      "title": "Single-question clarification flow shows Submit only, without progress indicator or Back/Next controls",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "ask-user",
+        "clarifying-question-ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2791_single-question-clarification-flow-shows-submit-only-without-progress.md"
+    },
+    {
+      "id": "ELITEA-2792",
+      "title": "Optional clarifying question does not block progressing to the next question or submitting",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "ask-user",
+        "clarifying-question-ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2792_optional-clarifying-question-does-not-block-progressing-to-the-next-qu.md"
+    },
+    {
+      "id": "ELITEA-2793",
+      "title": "Generated Skill and Project Context chips reopen the entity in Canvas mode",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "canvas",
+        "skills-builder",
+        "project-context-builder"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2793_generated-skill-and-project-context-chips-reopen-the-entity-in-canvas.md"
+    },
+    {
+      "id": "ELITEA-2794",
+      "title": "Created Skill and Project Context are not automatically added as chat participants",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "skills-builder",
+        "project-context-builder",
+        "participants"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2794_created-skill-and-project-context-are-not-automatically-added-as-chat.md"
+    },
+    {
+      "id": "ELITEA-2795",
+      "title": "Chat Modules menu displays the exact specified labels and tooltip copy for the new modules",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "chat-modules",
+        "ui",
+        "copy"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2795_chat-modules-menu-displays-the-exact-specified-labels-and-tooltip-copy.md"
+    },
+    {
+      "id": "ELITEA-2796",
+      "title": "Toggling Skills Builder or Project Context Builder mid-conversation applies going forward without affecting prior messages",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "chat-modules",
+        "toggle-behavior"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2796_toggling-skills-builder-or-project-context-builder-mid-conversation-ap.md"
+    },
+    {
+      "id": "ELITEA-2797",
+      "title": "Clarifying question UI and resulting chips remain visually stable across question types with no styling issues",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "ui",
+        "styling",
+        "clarifying-question-ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/chat-interface/ELITEA-2797_clarifying-question-ui-and-resulting-chips-remain-visually-stable-acro.md"
     },
     {
       "id": "ELITEA-2753",
@@ -48189,6 +49054,408 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/toolkits-credentials/aha-toolkit/ELITEA-2582_execute-get-feature-gql-graphql-tool.md"
+    },
+    {
+      "id": "ELITEA-2778",
+      "title": "Toolkit Details Two-Column Layout Displays Correctly",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "layout"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2778_toolkit-details-two-column-layout-displays-correctly.md"
+    },
+    {
+      "id": "ELITEA-2779",
+      "title": "Toolkit Configuration Form and Raw JSON View Toggle Functionality",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "configuration"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2779_toolkit-config-form-and-raw-json-toggle.md"
+    },
+    {
+      "id": "ELITEA-2780",
+      "title": "Toolkit Save and Discard Changes Functionality",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "save-discard"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2780_toolkit-save-and-discard-changes.md"
+    },
+    {
+      "id": "ELITEA-2781",
+      "title": "Indexes Panel Empty State and Create Index Button",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "indexes"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2781_indexes-panel-empty-state-and-create-index.md"
+    },
+    {
+      "id": "ELITEA-2782",
+      "title": "Index Card Display and Navigation to Index Details",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "indexes",
+        "navigation"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2782_index-card-display-and-navigation.md"
+    },
+    {
+      "id": "ELITEA-2783",
+      "title": "Index Details - Search Button Navigation to Search Page",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "search",
+        "navigation"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2783_index-details-search-button-navigation.md"
+    },
+    {
+      "id": "ELITEA-2784",
+      "title": "Search Page - Tool Selection and Parameter Display",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "search",
+        "parameters"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2784_search-page-tool-selection-and-parameters.md"
+    },
+    {
+      "id": "ELITEA-2785",
+      "title": "Search Page - Execute Search and View Results",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "smoke",
+        "search",
+        "execution"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2785_search-page-execute-search-and-view-results.md"
+    },
+    {
+      "id": "ELITEA-2786",
+      "title": "Index Status Indicators on Cards",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "indexes",
+        "status"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2786_index-status-indicators-on-cards.md"
+    },
+    {
+      "id": "ELITEA-2787",
+      "title": "Index Details - Configuration and Activity Tabs",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "indexes",
+        "configuration",
+        "activity"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2787_index-details-configuration-and-activity-tabs.md"
+    },
+    {
+      "id": "ELITEA-2788",
+      "title": "Index Schedule Configuration Display and Toggle",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "indexes",
+        "schedule"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2788_index-schedule-configuration.md"
+    },
+    {
+      "id": "ELITEA-2789",
+      "title": "Index Run History Page Display and Navigation",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "indexes",
+        "history"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2789_index-run-history-page.md"
+    },
+    {
+      "id": "ELITEA-2790",
+      "title": "Breadcrumb Navigation Throughout Toolkit-Index Flow",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "navigation",
+        "breadcrumb"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2790_breadcrumb-navigation-throughout-flow.md"
+    },
+    {
+      "id": "ELITEA-2791",
+      "title": "Search Tool Switching Clears Previous Parameters",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "search",
+        "parameters"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2791_search-tool-switching-clears-parameters.md"
+    },
+    {
+      "id": "ELITEA-2792",
+      "title": "TOOLS Section Display with Tool Count",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "tools",
+        "count"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2792_tools-section-display-with-tool-count.md"
+    },
+    {
+      "id": "ELITEA-2793",
+      "title": "Dark and Light Theme Support for Toolkit UI",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "theme",
+        "accessibility"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2793_dark-light-theme-support.md"
+    },
+    {
+      "id": "ELITEA-2794",
+      "title": "Index Ready State with Elitea Chat Integration",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "indexes",
+        "chat",
+        "integration"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2794_index-ready-state-with-elitea-chat.md"
+    },
+    {
+      "id": "ELITEA-2795",
+      "title": "Search Results Copy and Scroll Functionality",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-redesign",
+        "search",
+        "results"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2795_search-results-copy-and-scroll.md"
     },
     {
       "id": "ELITEA-1195",
@@ -65806,6 +67073,60 @@
       "path": "tests/elitea-platform/skills/ELITEA-2517_editor-role-can-perform-all-icon-operations-upload-replace-delete.md"
     },
     {
+      "id": "ELITEA-2809",
+      "title": "generate_skill_draft produces a valid JSON draft for a supported model and a complete description",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "skills-builder",
+        "tool:generate_skill_draft"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/skills/ELITEA-2809_generate-skill-draft-produces-a-valid-json-draft-for-a-supported-model.md"
+    },
+    {
+      "id": "ELITEA-2810",
+      "title": "generate_skill_draft behaves consistently with generate_project_context_draft across the same model_name compatibility matrix",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "skills-builder",
+        "tool:generate_skill_draft",
+        "model-compatibility",
+        "cross-tool-consistency"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/skills/ELITEA-2810_generate-skill-draft-behaves-consistently-with-generate-project-contex.md"
+    },
+    {
       "id": "ELITEA-0682",
       "title": "[DOCX Indexing] Index history reflects embedded images as indexed — not skipped",
       "status": "draft",
@@ -69435,6 +70756,299 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/project-context/ELITEA-0957_project-context-page-exists-and-is-accessible-in-private-and-team-proj.md"
+    },
+    {
+      "id": "ELITEA-2798",
+      "title": "Retrieve current project context via get_project_context",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:get_project_context"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2798_retrieve-current-project-context-via-get-project-context.md"
+    },
+    {
+      "id": "ELITEA-2799",
+      "title": "Full update of project context sets both content and enabled via put_project_context",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:put_project_context"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2799_full-update-of-project-context-sets-both-content-and-enabled-via-put-p.md"
+    },
+    {
+      "id": "ELITEA-2800",
+      "title": "Partial update omitting content must preserve existing content, not wipe it",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:put_project_context",
+        "data-loss"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2800_partial-update-omitting-content-must-preserve-existing-content-not-wip.md"
+    },
+    {
+      "id": "ELITEA-2801",
+      "title": "Updating project context with an invalid project_id returns a clear access-denied error",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:put_project_context",
+        "negative"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2801_updating-project-context-with-an-invalid-project-id-returns-a-clear-ac.md"
+    },
+    {
+      "id": "ELITEA-2802",
+      "title": "Clean delete of an existing project context via delete_project_context",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:delete_project_context"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2802_clean-delete-of-an-existing-project-context-via-delete-project-context.md"
+    },
+    {
+      "id": "ELITEA-2803",
+      "title": "Repeating delete_project_context on an already-deleted context is idempotent",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:delete_project_context",
+        "idempotency"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2803_repeating-delete-project-context-on-an-already-deleted-context-is-idem.md"
+    },
+    {
+      "id": "ELITEA-2804",
+      "title": "Deleting project context with an invalid project_id returns a clear access-denied error",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:delete_project_context",
+        "negative"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2804_deleting-project-context-with-an-invalid-project-id-returns-a-clear-ac.md"
+    },
+    {
+      "id": "ELITEA-2805",
+      "title": "generate_project_context_draft produces a valid markdown draft in create mode with a default model",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:generate_project_context_draft"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2805_generate-project-context-draft-produces-a-valid-markdown-draft-in-crea.md"
+    },
+    {
+      "id": "ELITEA-2806",
+      "title": "generate_project_context_draft in edit mode preserves existing background verbatim and appends only the requested section",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:generate_project_context_draft",
+        "edit-mode"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2806_generate-project-context-draft-in-edit-mode-preserves-existing-backgro.md"
+    },
+    {
+      "id": "ELITEA-2807",
+      "title": "generate_project_context_draft enforces the documented 2500-character limit on user_description",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:generate_project_context_draft",
+        "boundary"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2807_generate-project-context-draft-enforces-the-documented-2500-character.md"
+    },
+    {
+      "id": "ELITEA-2808",
+      "title": "generate_project_context_draft handles all supported model_name formats without returning a bare empty response",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "r-2.0.6",
+        "project-context-builder",
+        "tool:generate_project_context_draft",
+        "model-compatibility"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/project-context/ELITEA-2808_generate-project-context-draft-handles-all-supported-model-name-format.md"
     },
     {
       "id": "ELITEA-1049",
