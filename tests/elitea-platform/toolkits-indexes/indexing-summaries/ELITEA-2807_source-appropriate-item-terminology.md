@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2828
+id: ELITEA-2807
 title: "Source-Appropriate Item Terminology in Summaries"
 priority: high
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:indexing-summary, terminology, toolkits]
 requirements: [EL-6229]
 ---
-# ELITEA-2828: Source-Appropriate Item Terminology in Summaries
+# ELITEA-2807: Source-Appropriate Item Terminology in Summaries
 
 **Module:** Toolkits & Indexes · **Priority:** High · **Type:** Functional
 

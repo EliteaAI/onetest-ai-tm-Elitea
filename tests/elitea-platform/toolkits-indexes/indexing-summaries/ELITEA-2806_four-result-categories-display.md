@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2827
+id: ELITEA-2806
 title: "Four Result Categories Display in Indexing Summary"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:indexing-summary, categories, results]
 requirements: [EL-6229]
 ---
-# ELITEA-2827: Four Result Categories Display in Indexing Summary
+# ELITEA-2806: Four Result Categories Display in Indexing Summary
 
 **Module:** Toolkits & Indexes · **Priority:** Critical · **Type:** Functional
 

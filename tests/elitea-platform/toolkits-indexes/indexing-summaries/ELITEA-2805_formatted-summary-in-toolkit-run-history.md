@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2826
+id: ELITEA-2805
 title: "Formatted Summary in Toolkit Run History"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:indexing-summary, run-history, formatting]
 requirements: [EL-6229]
 ---
-# ELITEA-2826: Formatted Summary in Toolkit Run History
+# ELITEA-2805: Formatted Summary in Toolkit Run History
 
 **Module:** Toolkits & Indexes · **Priority:** Critical · **Type:** Functional
 

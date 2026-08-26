@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2829
+id: ELITEA-2808
 title: "Skipped Items Include Human-Readable Reasons"
 priority: high
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:indexing-summary, skipped, reasons]
 requirements: [EL-6229]
 ---
-# ELITEA-2829: Skipped Items Include Human-Readable Reasons
+# ELITEA-2808: Skipped Items Include Human-Readable Reasons
 
 **Module:** Toolkits & Indexes · **Priority:** High · **Type:** Functional
 

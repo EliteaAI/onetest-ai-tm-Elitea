@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2825
+id: ELITEA-2804
 title: "Formatted Summary Replaces Raw JSON in Index History"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:indexing-summary, index-history, formatting]
 requirements: [EL-6229]
 ---
-# ELITEA-2825: Formatted Summary Replaces Raw JSON in Index History
+# ELITEA-2804: Formatted Summary Replaces Raw JSON in Index History
 
 **Module:** Toolkits & Indexes · **Priority:** Critical · **Type:** Functional
 
