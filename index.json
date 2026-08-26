@@ -8859,8 +8859,8 @@
     {
       "id": "ELITEA-2211",
       "title": "Chat – HITL Authorization – Verify Sensitive Action Authorization Card Displays When Toolkit Called Directly",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8871,7 +8871,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionCardDisplay.test_sensitive_action_card_displays_for_direct_toolkit_call"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -15558,6 +15560,82 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2800_regression-run-history-and-schedule.md"
+    },
+    {
+      "id": "ELITEA-2823",
+      "title": "Regression - Toolkit Sections Default States and Layout",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-sections-redesign",
+        "layout"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2823_regression-toolkit-sections-default-states.md"
+    },
+    {
+      "id": "ELITEA-2824",
+      "title": "Regression - Tools Section Count Updates and Header Toggle",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-sections-redesign",
+        "tools"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2824_regression-tools-section-count-and-toggle.md"
+    },
+    {
+      "id": "ELITEA-2825",
+      "title": "Regression - Reindex Button Disabled When index_data Tool Unavailable",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-sections-redesign",
+        "reindex"
+      ],
+      "requirements": [
+        "EL-6252",
+        "EL-6371"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2825_regression-reindex-button-index-data-dependency.md"
     },
     {
       "id": "ELITEA-1735",
@@ -49458,6 +49536,275 @@
       "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2795_search-results-copy-and-scroll.md"
     },
     {
+      "id": "ELITEA-2812",
+      "title": "Configuration Section Expanded by Default with Primary Fields",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-sections-redesign",
+        "configuration",
+        "layout"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2812_configuration-section-expanded-by-default.md"
+    },
+    {
+      "id": "ELITEA-2813",
+      "title": "Show More/Less Toggle Reveals Additional Configuration",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-sections-redesign",
+        "configuration",
+        "toggle"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2813_show-more-less-toggle-additional-configuration.md"
+    },
+    {
+      "id": "ELITEA-2814",
+      "title": "Configuration Field Values Preserved on Show More/Less Toggle",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-sections-redesign",
+        "configuration",
+        "data-preservation"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2814_configuration-values-preserved-on-toggle.md"
+    },
+    {
+      "id": "ELITEA-2815",
+      "title": "Icon-Based View Mode Controls with Tooltips",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-sections-redesign",
+        "configuration",
+        "view-controls",
+        "icons"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2815_icon-based-view-mode-controls-with-tooltips.md"
+    },
+    {
+      "id": "ELITEA-2816",
+      "title": "Tools Section Collapsed by Default with Enabled/Total Count",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-sections-redesign",
+        "tools",
+        "count",
+        "layout"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2816_tools-section-collapsed-with-count.md"
+    },
+    {
+      "id": "ELITEA-2817",
+      "title": "Tool Enable/Disable Updates Header Count in Real-Time",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-sections-redesign",
+        "tools",
+        "count",
+        "toggle"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2817_tool-enable-disable-updates-header-count.md"
+    },
+    {
+      "id": "ELITEA-2818",
+      "title": "Indexes Section Empty State Displays Correctly",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-sections-redesign",
+        "indexes",
+        "empty-state"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2818_indexes-empty-state-displays-correctly.md"
+    },
+    {
+      "id": "ELITEA-2819",
+      "title": "Reindex Button Disabled When index_data Tool Unavailable",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-sections-redesign",
+        "indexes",
+        "reindex",
+        "validation"
+      ],
+      "requirements": [
+        "EL-6252",
+        "EL-6371"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2819_reindex-button-disabled-when-index-data-unavailable.md"
+    },
+    {
+      "id": "ELITEA-2820",
+      "title": "Section Expand/Collapse State Preserved During Session",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-sections-redesign",
+        "state-management",
+        "usability"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2820_section-expand-collapse-state-preserved.md"
+    },
+    {
+      "id": "ELITEA-2821",
+      "title": "All Sections Display Correctly in Dark and Light Themes",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-sections-redesign",
+        "themes",
+        "accessibility"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2821_dark-light-theme-display-correctly.md"
+    },
+    {
+      "id": "ELITEA-2822",
+      "title": "Section Headers Clickable for Expand/Collapse",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:toolkit-sections-redesign",
+        "usability",
+        "interaction"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2822_section-headers-clickable-expand-collapse.md"
+    },
+    {
       "id": "ELITEA-1195",
       "title": "GitHub Toolkit — File Tools Fall Back to Active Branch When Branch Field Is Empty",
       "status": "draft",
@@ -52401,6 +52748,338 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-1788_sharepoint-personal-url-credential-persistence-after-refresh.md"
+    },
+    {
+      "id": "ELITEA-2778",
+      "title": "Oversized File via read_file_from_sharing_link No Longer Produces a Provider-Level Error",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "int:sharepoint",
+        "feat:toolkits",
+        "issue:6051",
+        "oversized-file",
+        "content-too-large",
+        "read_file_from_sharing_link"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6051"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-2778_read-file-from-sharing-link-oversized-file-no-provider-level-error.md"
+    },
+    {
+      "id": "ELITEA-2779",
+      "title": "read_file_from_sharing_link Bounded Read Contract (start_line/end_line) and Test Settings UI Exposure",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "int:sharepoint",
+        "feat:toolkits",
+        "issue:6051",
+        "start-line",
+        "end-line",
+        "bounded-read",
+        "test-settings-ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6051"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-2779_read-file-from-sharing-link-bounded-read-start-end-line-and-test-settings-ui.md"
+    },
+    {
+      "id": "ELITEA-2780",
+      "title": "read_file_from_sharing_link Per-File-Type Size Validation Before Download",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "int:sharepoint",
+        "feat:toolkits",
+        "issue:6051",
+        "file-size-validation",
+        "image-limit",
+        "svg",
+        "pre-download-validation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6051"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-2780_read-file-from-sharing-link-per-file-type-size-validation-before-download.md"
+    },
+    {
+      "id": "ELITEA-2781",
+      "title": "Oversized Excel Workbook via read_file_from_sharing_link Returns Guidance on Both Primary and 403-Fallback Paths",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "int:sharepoint",
+        "feat:toolkits",
+        "issue:6051",
+        "excel",
+        "content-too-large",
+        "cross-tenant-fallback",
+        "403-fallback"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6051"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-2781_read-file-from-sharing-link-oversized-excel-workbook-guidance-primary-and-403-fallback.md"
+    },
+    {
+      "id": "ELITEA-2782",
+      "title": "read_file_from_sharing_link Invalid start_line/end_line Requests Return Explicit Errors",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "int:sharepoint",
+        "feat:toolkits",
+        "issue:6051",
+        "start-line",
+        "end-line",
+        "error-handling",
+        "invalid-range"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6051"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-2782_read-file-from-sharing-link-invalid-start-end-line-explicit-errors.md"
+    },
+    {
+      "id": "ELITEA-2783",
+      "title": "read_document Regression Check via Artifacts Upload After Shared Cap-Helper Refactor",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "int:sharepoint",
+        "feat:toolkits",
+        "issue:6051",
+        "read_document",
+        "artifacts",
+        "shared-cap-helper"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6051"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-2783_read-document-regression-check-after-shared-cap-helper-refactor.md"
+    },
+    {
+      "id": "ELITEA-2796",
+      "title": "Oversized File via read_file_from_sharing_link No Longer Produces a Provider-Level Error",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "int:sharepoint",
+        "feat:toolkits",
+        "issue:6051",
+        "oversized-file",
+        "content-too-large",
+        "read_file_from_sharing_link"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6051"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-2796_read-file-from-sharing-link-oversized-file-no-provider-level-error.md"
+    },
+    {
+      "id": "ELITEA-2797",
+      "title": "read_file_from_sharing_link Bounded Read Contract (start_line/end_line) and Test Settings UI Exposure",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "int:sharepoint",
+        "feat:toolkits",
+        "issue:6051",
+        "start-line",
+        "end-line",
+        "bounded-read",
+        "test-settings-ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6051"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-2797_read-file-from-sharing-link-bounded-read-start-end-line-and-test-settings-ui.md"
+    },
+    {
+      "id": "ELITEA-2798",
+      "title": "read_file_from_sharing_link Per-File-Type Size Validation Before Download",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "int:sharepoint",
+        "feat:toolkits",
+        "issue:6051",
+        "file-size-validation",
+        "image-limit",
+        "svg",
+        "pre-download-validation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6051"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-2798_read-file-from-sharing-link-per-file-type-size-validation-before-download.md"
+    },
+    {
+      "id": "ELITEA-2799",
+      "title": "Oversized Excel Workbook via read_file_from_sharing_link Returns Guidance on Both Primary and 403-Fallback Paths",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "int:sharepoint",
+        "feat:toolkits",
+        "issue:6051",
+        "excel",
+        "content-too-large",
+        "cross-tenant-fallback",
+        "403-fallback"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6051"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-2799_read-file-from-sharing-link-oversized-excel-workbook-guidance-primary-and-403-fallback.md"
+    },
+    {
+      "id": "ELITEA-2800",
+      "title": "read_file_from_sharing_link Invalid start_line/end_line Requests Return Explicit Errors",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "int:sharepoint",
+        "feat:toolkits",
+        "issue:6051",
+        "start-line",
+        "end-line",
+        "error-handling",
+        "invalid-range"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6051"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-2800_read-file-from-sharing-link-invalid-start-end-line-explicit-errors.md"
+    },
+    {
+      "id": "ELITEA-2801",
+      "title": "read_document Regression Check via Artifacts Upload After Shared Cap-Helper Refactor",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "int:sharepoint",
+        "feat:toolkits",
+        "issue:6051",
+        "read_document",
+        "artifacts",
+        "shared-cap-helper"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6051"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/sharepoint/ELITEA-2801_read-document-regression-check-after-shared-cap-helper-refactor.md"
     },
     {
       "id": "ELITEA-1171",
@@ -62318,6 +62997,270 @@
       "path": "tests/elitea-platform/canvas/ELITEA-0377_open-docx-in-superdoc-canvas-editor-artifacts-chat.md"
     },
     {
+      "id": "ELITEA-2804",
+      "title": "Formatted Summary Replaces Raw JSON in Index History",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexing-summary",
+        "index-history",
+        "formatting"
+      ],
+      "requirements": [
+        "EL-6229"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-indexes/indexing-summaries/ELITEA-2804_formatted-summary-replaces-raw-json-index-history.md"
+    },
+    {
+      "id": "ELITEA-2805",
+      "title": "Formatted Summary in Toolkit Run History",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexing-summary",
+        "run-history",
+        "formatting"
+      ],
+      "requirements": [
+        "EL-6229"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-indexes/indexing-summaries/ELITEA-2805_formatted-summary-in-toolkit-run-history.md"
+    },
+    {
+      "id": "ELITEA-2806",
+      "title": "Four Result Categories Display in Indexing Summary",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexing-summary",
+        "categories",
+        "results"
+      ],
+      "requirements": [
+        "EL-6229"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-indexes/indexing-summaries/ELITEA-2806_four-result-categories-display.md"
+    },
+    {
+      "id": "ELITEA-2807",
+      "title": "Source-Appropriate Item Terminology in Summaries",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexing-summary",
+        "terminology",
+        "toolkits"
+      ],
+      "requirements": [
+        "EL-6229"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-indexes/indexing-summaries/ELITEA-2807_source-appropriate-item-terminology.md"
+    },
+    {
+      "id": "ELITEA-2808",
+      "title": "Skipped Items Include Human-Readable Reasons",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexing-summary",
+        "skipped",
+        "reasons"
+      ],
+      "requirements": [
+        "EL-6229"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-indexes/indexing-summaries/ELITEA-2808_skipped-items-include-reasons.md"
+    },
+    {
+      "id": "ELITEA-2809",
+      "title": "Unsupported Items List File Formats",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexing-summary",
+        "unsupported",
+        "formats"
+      ],
+      "requirements": [
+        "EL-6229"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-indexes/indexing-summaries/ELITEA-2809_unsupported-items-list-formats.md"
+    },
+    {
+      "id": "ELITEA-2810",
+      "title": "Visual Styling Consistency for Result Categories",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexing-summary",
+        "styling",
+        "themes"
+      ],
+      "requirements": [
+        "EL-6229"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-indexes/indexing-summaries/ELITEA-2810_visual-styling-consistency.md"
+    },
+    {
+      "id": "ELITEA-2811",
+      "title": "Chunk Counts Not Displayed in User-Facing Summaries",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexing-summary",
+        "chunks",
+        "user-experience"
+      ],
+      "requirements": [
+        "EL-6229"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-indexes/indexing-summaries/ELITEA-2811_chunk-counts-not-displayed.md"
+    },
+    {
+      "id": "ELITEA-2830",
+      "title": "Unsupported Items List File Formats",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexing-summary",
+        "unsupported",
+        "formats"
+      ],
+      "requirements": [
+        "EL-6229"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-indexes/indexing-summaries/ELITEA-2830_unsupported-items-list-formats.md"
+    },
+    {
+      "id": "ELITEA-2831",
+      "title": "Visual Styling Consistency for Result Categories",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexing-summary",
+        "styling",
+        "themes"
+      ],
+      "requirements": [
+        "EL-6229"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-indexes/indexing-summaries/ELITEA-2831_visual-styling-consistency.md"
+    },
+    {
+      "id": "ELITEA-2832",
+      "title": "Chunk Counts Not Displayed in User-Facing Summaries",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexing-summary",
+        "chunks",
+        "user-experience"
+      ],
+      "requirements": [
+        "EL-6229"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-indexes/indexing-summaries/ELITEA-2832_chunk-counts-not-displayed.md"
+    },
+    {
       "id": "ELITEA-1312",
       "title": "Voice Settings Dialog Opens and Displays All Controls Including Voice Selector",
       "status": "ready",
@@ -68140,6 +69083,32 @@
       "path": "tests/elitea-platform/indexing/ELITEA-0724_reindex-after-replacing-previously-skipped-files-results-in-full-index.md"
     },
     {
+      "id": "ELITEA-2802",
+      "title": "Toolkit Run History Displays Request Parameters and Detailed Execution Results",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "indexing",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "bug:6272",
+        "bug:6345",
+        "r-2.0.2"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6272",
+        "EliteaAI/elitea_issues#6345"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/indexing/ELITEA-2802_toolkit-run-history-displays-request-parameters-and-detailed-execution-results.md"
+    },
+    {
       "id": "ELITEA-0725",
       "title": "[EliteaAI/elitea_issues#5116] MCP via Chat Conversation: Secret Field Shows \\\"New Secret\\\" Shortcut",
       "status": "ready",
@@ -68819,6 +69788,31 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/mcp-servers/ELITEA-2238_5294-toolkit-page-oauth-custom.md"
+    },
+    {
+      "id": "ELITEA-2803",
+      "title": "Run History displays Thinking Steps and Tools Invoked for Toolkit and MCP",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:mcp",
+        "feat:toolkits",
+        "bug:6345",
+        "r-2.0.2"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6345"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/mcp-servers/ELITEA-2803_run-history-displays-thinking-steps-and-tools-invoked-for-toolkit-and-mcp.md"
     },
     {
       "id": "ELITEA-2735",
