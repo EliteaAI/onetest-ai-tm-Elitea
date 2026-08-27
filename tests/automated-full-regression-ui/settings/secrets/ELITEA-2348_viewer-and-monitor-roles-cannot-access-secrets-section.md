@@ -4,10 +4,13 @@ title: "Viewer and Monitor roles cannot access Secrets section"
 priority: medium
 type: functional
 module: settings-secrets
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_viewer_role_cannot_access_secrets.TestViewerRoleCannotAccessSecrets.test_viewer_role_is_not_offered_the_secrets_section
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1912"
 ---
 
 # ELITEA-2348: Viewer and Monitor roles cannot access Secrets section

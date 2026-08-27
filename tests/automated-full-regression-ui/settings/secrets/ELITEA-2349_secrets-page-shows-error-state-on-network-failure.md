@@ -4,10 +4,13 @@ title: "Secrets page shows error state on network failure"
 priority: medium
 type: functional
 module: settings-secrets
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_secrets_error_state_on_network_failure.TestSecretsErrorStateOnNetworkFailure.test_secrets_error_state_on_network_failure_and_recovery
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1912"
 ---
 
 # ELITEA-2349: Secrets page shows error state on network failure
