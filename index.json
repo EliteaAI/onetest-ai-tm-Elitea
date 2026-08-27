@@ -8882,8 +8882,8 @@
     {
       "id": "ELITEA-2212",
       "title": "Chat – HITL Authorization – Click Authorize Button and Verify Toolkit Tool Executes Directly",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8894,7 +8894,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionAuthorize.test_authorize_executes_toolkit_tool_directly"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
