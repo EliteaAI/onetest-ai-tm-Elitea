@@ -4,10 +4,13 @@ title: "Chat – HITL Authorization – Click Block Button and Verify Toolkit To
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:chat]
 requirements: []
+automation_test_id: tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionBlock.test_block_prevents_toolkit_tool_from_executing
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1840
+automation_known_defect: "#1834, #1835"
 ---
 
 # ELITEA-2213: Chat – HITL Authorization – Click Block Button and Verify Toolkit Tool Does Not Execute
