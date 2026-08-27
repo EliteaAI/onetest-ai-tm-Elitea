@@ -1,37 +1,37 @@
 # Test Dashboard
 
-_Generated: 2026-08-25 12:38 UTC_
+_Generated: 2026-08-27 04:25 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-08-25-71-DEV-STABLE-ALL-FAILED**
+**RUN-ELITEA-2026-08-27-80-DEV-STABLE-ALL-SCHEDULED-AMBER**
 
 ```mermaid
 pie showData
-    title "Test Results (157 total)"
-    "Passed" : 130
-    "Failed" : 14
-    "Skipped" : 13
+    title "Test Results (259 total)"
+    "Passed" : 0
+    "Failed" : 0
+    "Skipped" : 259
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 157 |
-| Passed | 130 |
-| Failed | 14 |
-| Skipped | 13 |
-| Reruns | 30 |
-| Pass Rate | 82.8% |
+| Total | 259 |
+| Passed | 0 |
+| Failed | 0 |
+| Skipped | 259 |
+| Reruns | 0 |
+| Pass Rate | 0.0% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE, 24-49-DEV-STABLE, 24-50-DEV-STABLE, 25-71-DEV-STABLE]
+    x-axis [21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE, 24-49-DEV-STABLE, 24-50-DEV-STABLE, 25-71-DEV-STABLE, 27-80-DEV-STABLE]
     y-axis "Tests" 0 --> 138
-    bar "Passed" [133, 133, 130, 131, 131, 123, 130, 0, 0, 130]
-    bar "Failed" [8, 8, 10, 9, 9, 17, 10, 3, 0, 14]
+    bar "Passed" [133, 130, 131, 131, 123, 130, 0, 0, 130, 0]
+    bar "Failed" [8, 10, 9, 9, 17, 10, 3, 0, 14, 0]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [21-38-DEV-STABLE, 21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE, 24-49-DEV-STABLE, 24-50-DEV-STABLE, 25-71-DEV-STABLE]
+    x-axis [21-39-DEV-STABLE, 21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE, 24-49-DEV-STABLE, 24-50-DEV-STABLE, 25-71-DEV-STABLE, 27-80-DEV-STABLE]
     y-axis "Reruns" 0 --> 35
-    line "Reruns" [14, 16, 17, 14, 15, 32, 16, 6, 0, 30]
+    line "Reruns" [16, 17, 14, 15, 32, 16, 6, 0, 30, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ✅ 27-80-DEV-STABLE | 259 | 0 | 0 | 259 | 0 | 0% |
 | ❌ 25-71-DEV-STABLE | 157 | 130 | 14 | 13 | 30 | 83% |
 | ✅ 24-50-DEV-STABLE | 0 | 0 | 0 | 0 | 0 | 0% |
 | ❌ 24-49-DEV-STABLE | 3 | 0 | 3 | 0 | 6 | 0% |
@@ -57,7 +58,6 @@ xychart-beta
 | ❌ 22-44-DEV-STABLE | 152 | 131 | 9 | 12 | 14 | 86% |
 | ❌ 21-43-DEV-STABLE | 152 | 130 | 10 | 12 | 17 | 86% |
 | ❌ 21-39-DEV-STABLE | 153 | 133 | 8 | 12 | 16 | 87% |
-| ❌ 21-38-DEV-STABLE | 153 | 133 | 8 | 12 | 14 | 87% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -69,16 +69,16 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 | Metric | Count |
 |--------|-------|
 | Tests in automation | 432 |
-| Tests linked to TMS cases | 290 |
-| Tests without TMS case | 142 |
-| Orphan TMS refs (test missing) | 210 |
-| **TMS Coverage** | **67.1%** |
+| Tests linked to TMS cases | 250 |
+| Tests without TMS case | 182 |
+| Orphan TMS refs (test missing) | 262 |
+| **TMS Coverage** | **57.9%** |
 
 ```mermaid
 pie showData
     title "TMS Linkage (432 tests)"
-    "Linked to TMS" : 290
-    "No TMS case" : 142
+    "Linked to TMS" : 250
+    "No TMS case" : 182
 ```
 
 ### Tests Without TMS Case
@@ -86,7 +86,7 @@ pie showData
 _Tests that exist in automation but have no linked TMS case._
 
 <details>
-<summary>Show 142 unlinked tests</summary>
+<summary>Show 182 unlinked tests</summary>
 
 - `tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_after`
 - `tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_before`
@@ -181,20 +181,60 @@ _Tests that exist in automation but have no linked TMS case._
 - `tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_user_message_visible`
 - `tests.ui.pipelines.test_pipeline_execution.TestPipelineExecutionEdgeCases.test_empty_pipeline_execution`
 - `tests.ui.pipelines.test_pipeline_execution.TestPipelineExecutionEdgeCases.test_navigate_away_and_reexecute`
-- `tests.ui.pipelines.test_pipeline_management.TestCreatePipeline.test_create_pipeline_required_fields_validation`
-- `tests.ui.pipelines.test_pipeline_management.TestCreatePipeline.test_create_pipeline_via_ui`
-- `tests.ui.pipelines.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_api`
-- `tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_edit_pipeline_description`
-- `tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_edit_pipeline_name`
-- `tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_pipeline_detail_page_loads`
-- `tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_pipeline_has_configuration_and_history_tabs`
-- `tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_pipeline_created_via_api_visible_in_dashboard`
-- `tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_pipeline_dashboard_loads`
-- `tests.ui.pipelines.test_pipeline_management.TestPipelineIsolation.test_fixture_cleanup_cycle`
-- `tests.ui.pipelines.test_pipeline_management.TestPipelineIsolation.test_fixture_creates_fresh_pipeline`
-- `tests.ui.pipelines.test_pipeline_management.TestSearchPipeline.test_search_pipeline_by_name`
-- `tests.ui.pipelines.test_pipeline_management.TestSearchPipeline.test_search_pipeline_no_results`
-- `tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end`
+- `tests.ui.pipelines_2.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_config_verified_via_yaml`
+- `tests.ui.pipelines_2.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_task_chat_history_config`
+- `tests.ui.pipelines_2.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_type_walks_fixed_fstring_variable`
+- `tests.ui.pipelines_2.test_pipeline_llm_structured_output_state_variables.test_llm_structured_output_parses_into_state_variables`
+- `tests.ui.pipelines_2.test_pipeline_management.TestCreatePipeline.test_create_pipeline_minimal_via_sidebar_button`
+- `tests.ui.pipelines_2.test_pipeline_management.TestCreatePipeline.test_create_pipeline_required_fields_validation`
+- `tests.ui.pipelines_2.test_pipeline_management.TestCreatePipeline.test_create_pipeline_via_ui`
+- `tests.ui.pipelines_2.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_api`
+- `tests.ui.pipelines_2.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_ui_menu`
+- `tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_edit_pipeline_description`
+- `tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_edit_pipeline_name`
+- `tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_pipeline_detail_page_loads`
+- `tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_pipeline_has_configuration_and_history_tabs`
+- `tests.ui.pipelines_2.test_pipeline_management.TestPipelineDashboard.test_pipeline_created_via_api_visible_in_dashboard`
+- `tests.ui.pipelines_2.test_pipeline_management.TestPipelineDashboard.test_pipeline_dashboard_loads`
+- `tests.ui.pipelines_2.test_pipeline_management.TestPipelineDashboard.test_view_toggle_table_and_card`
+- `tests.ui.pipelines_2.test_pipeline_management.TestPipelineIsolation.test_fixture_cleanup_cycle`
+- `tests.ui.pipelines_2.test_pipeline_management.TestPipelineIsolation.test_fixture_creates_fresh_pipeline`
+- `tests.ui.pipelines_2.test_pipeline_management.TestSearchPipeline.test_search_pipeline_by_name`
+- `tests.ui.pipelines_2.test_pipeline_management.TestSearchPipeline.test_search_pipeline_no_results`
+- `tests.ui.pipelines_2.test_pipeline_management.TestSearchPipeline.test_search_placeholder_and_dashboard_grid_filters_and_clears`
+- `tests.ui.pipelines_2.test_pipeline_mcp_node_change_toolkit_and_tool.test_mcp_node_change_toolkit_and_tool`
+- `tests.ui.pipelines_2.test_pipeline_mcp_node_empty_toolkit_before_attach.test_mcp_node_empty_toolkit_before_attach`
+- `tests.ui.pipelines_2.test_pipeline_multiple_browser_tabs.test_pipeline_multiple_browser_tabs`
+- `tests.ui.pipelines_2.test_pipeline_node_auto_increment_naming.test_node_auto_increment_naming_by_type`
+- `tests.ui.pipelines_2.test_pipeline_nodes.TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end`
+- `tests.ui.pipelines_2.test_pipeline_printer_node_configuration.test_printer_node_configuration_and_persistence`
+- `tests.ui.pipelines_2.test_pipeline_router_node_configuration.test_router_node_configuration_and_edge_wiring`
+- `tests.ui.pipelines_2.test_pipeline_run_details_delete_run_from_history.test_run_details_delete_run_from_history`
+- `tests.ui.pipelines_2.test_pipeline_run_details_multiple_state_variables.test_run_details_multiple_state_variables_different_types`
+- `tests.ui.pipelines_2.test_pipeline_run_details_panel.test_run_details_panel_opens_after_execution`
+- `tests.ui.pipelines_2.test_pipeline_run_details_state_before_after.test_run_details_state_before_after_per_node`
+- `tests.ui.pipelines_2.test_pipeline_run_details_timeline_steps.test_run_details_timeline_steps_display`
+- `tests.ui.pipelines_2.test_pipeline_run_history_view_executions.TestPipelineRunHistoryPanelClose.test_run_history_panel_closes_and_restores_chat`
+- `tests.ui.pipelines_2.test_pipeline_run_history_view_executions.TestPipelineRunHistoryViewExecutions.test_run_history_panel_lists_and_shows_execution_details`
+- `tests.ui.pipelines_2.test_pipeline_schedule_trigger_settings_modal.test_schedule_trigger_settings_modal`
+- `tests.ui.pipelines_2.test_pipeline_state_modifier_node_configuration.test_state_modifier_node_configuration_and_persistence`
+- `tests.ui.pipelines_2.test_pipeline_state_panel_attachments_module.test_state_panel_attachments_module`
+- `tests.ui.pipelines_2.test_pipeline_state_panel_default_and_custom_variables.test_state_panel_default_and_custom_variables`
+- `tests.ui.pipelines_2.test_pipeline_state_panel_default_and_custom_variables.test_state_panel_delete_custom_variable`
+- `tests.ui.pipelines_2.test_pipeline_structured_output_toggle_persistence.test_pipeline_structured_output_toggle_persistence`
+- `tests.ui.pipelines_2.test_pipeline_subgraph_state_isolation.test_subgraph_state_sharing_non_common_state_isolation`
+- `tests.ui.pipelines_2.test_pipeline_subgraph_state_sharing.test_subgraph_state_sharing_common_vars`
+- `tests.ui.pipelines_2.test_pipeline_subgraph_state_sharing.test_subgraph_state_sharing_node_c_state_propagation`
+- `tests.ui.pipelines_2.test_pipeline_tags_add_and_filter.test_pipeline_tags_add_and_filter`
+- `tests.ui.pipelines_2.test_pipeline_three_dot_menu_actions.test_pipeline_three_dot_menu_actions`
+- `tests.ui.pipelines_2.test_pipeline_toolkit_node_config_and_input_mapping.test_toolkit_node_config_and_input_mapping`
+- `tests.ui.pipelines_2.test_pipeline_tools_section_mcp_add_view_remove.test_tools_section_mcp_add_view_remove`
+- `tests.ui.pipelines_2.test_pipeline_webhook_trigger_settings_modal.test_webhook_trigger_settings_modal`
+- `tests.ui.pipelines_2.test_pipeline_welcome_message_shown_before_first_input.test_pipeline_welcome_message_shown_before_first_input`
+- `tests.ui.pipelines_2.test_pipeline_yaml_editor_invalid_syntax.test_yaml_editor_invalid_syntax_blocks_save`
+- `tests.ui.pipelines_2.test_pipeline_yaml_editor_view.test_pipeline_yaml_editor_view`
+- `tests.ui.pipelines_2.test_pipeline_yaml_flow_sync.test_yaml_edit_persists_after_save_and_reload`
+- `tests.ui.pipelines_2.test_pipeline_yaml_flow_sync.test_yaml_edit_transition_syncs_to_flow_canvas_and_enables_save`
 - `tests.ui.skills.test_skill_management.TestCreateSkill.test_create_skill_and_verify_execution`
 - `tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible`
 - `tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads`
@@ -238,8 +278,14 @@ _Tests that exist in automation but have no linked TMS case._
 _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 
 <details>
-<summary>Show 210 orphan refs</summary>
+<summary>Show 262 orphan refs</summary>
 
+- `tests.ui.admin.test_notification_center_layout.TestNotificationCenterLayout.test_notification_center_page_layout_and_header` (ELITEA-2255)
+- `tests.ui.admin.test_notification_center_pagination.TestNotificationCenterPagination.test_notification_center_pagination_controls` (ELITEA-2256)
+- `tests.ui.admin.test_notification_link_navigates_to_bucket.TestNotificationBucketRetentionLinkNavigation.test_bucket_retention_link_navigates_to_bucket` (ELITEA-2263)
+- `tests.ui.admin.test_notification_link_navigates_to_conversation.TestNotificationChatMentionLinkNavigation.test_chat_mention_link_navigates_to_conversation` (ELITEA-2261)
+- `tests.ui.admin.test_notification_search_filter.TestNotificationSearchFilter.test_search_field_filters_notifications_by_text` (ELITEA-2264)
+- `tests.ui.admin.test_notification_unread_read_visual_distinction.TestNotificationUnreadReadVisualDistinction.test_unread_notifications_are_visually_distinct_from_read` (ELITEA-2258)
 - `tests.ui.artifacts.test_artifacts_bucket_cancel_with_valid_values.TestArtifactBucketCancelWithValidValues.test_cancel_with_valid_values_creates_no_bucket` (ELITEA-1815)
 - `tests.ui.artifacts.test_artifacts_bucket_empty_name_validation.TestArtifactBucketEmptyNameValidation.test_empty_bucket_name_disables_save_and_cancel_creates_nothing` (ELITEA-1813)
 - `tests.ui.artifacts.test_artifacts_bucket_hover_highlight.TestArtifactsBucketHoverHighlight.test_bucket_highlights_on_mouse_hover` (ELITEA-1823)
@@ -382,8 +428,54 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 - `tests.ui.onboarding.test_onboarding_welcome.TestOnboardingWelcomePage.test_welcome_page_displayed_on_first_login` (ELITEA-2231)
 - `tests.ui.onboarding.test_sidebar_notification_badge.TestSidebarNotificationBadge.test_bell_shows_red_badge_and_notifications_popover` (ELITEA-2234)
 - `tests.ui.onboarding.test_sidebar_socket_status_indicator.TestSidebarSocketStatusIndicator.test_logo_shows_green_connected_dot` (ELITEA-2233)
+- `tests.ui.pipelines.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_config_verified_via_yaml` (ELITEA-2027)
+- `tests.ui.pipelines.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_task_chat_history_config` (ELITEA-2004)
+- `tests.ui.pipelines.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_type_walks_fixed_fstring_variable` (ELITEA-2040)
+- `tests.ui.pipelines.test_pipeline_llm_structured_output_state_variables.test_llm_structured_output_parses_into_state_variables` (ELITEA-2045)
+- `tests.ui.pipelines.test_pipeline_management.TestCreatePipeline.test_create_pipeline_minimal_via_sidebar_button` (ELITEA-2020)
+- `tests.ui.pipelines.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_ui_menu` (ELITEA-2022)
+- `tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_view_toggle_table_and_card` (ELITEA-2024)
+- `tests.ui.pipelines.test_pipeline_management.TestSearchPipeline.test_search_placeholder_and_dashboard_grid_filters_and_clears` (ELITEA-2023)
+- `tests.ui.pipelines.test_pipeline_mcp_node_change_toolkit_and_tool.test_mcp_node_change_toolkit_and_tool` (ELITEA-1954)
+- `tests.ui.pipelines.test_pipeline_mcp_node_empty_toolkit_before_attach.test_mcp_node_empty_toolkit_before_attach` (ELITEA-1955)
 - `tests.ui.pipelines.test_pipeline_mcp_node_fresh_attach.test_mcp_node_executes_selected_tool` (ELITEA-1952)
 - `tests.ui.pipelines.test_pipeline_mcp_node_fresh_attach.test_mcp_node_input_mapping_type_and_toggles_persist` (ELITEA-1953)
+- `tests.ui.pipelines.test_pipeline_multiple_browser_tabs.test_pipeline_multiple_browser_tabs` (ELITEA-2062)
+- `tests.ui.pipelines.test_pipeline_node_auto_increment_naming.test_node_auto_increment_naming_by_type` (ELITEA-2061)
+- `tests.ui.pipelines.test_pipeline_printer_node_configuration.test_printer_node_configuration_and_persistence` (ELITEA-2039)
+- `tests.ui.pipelines.test_pipeline_router_node_configuration.test_router_node_configuration_and_edge_wiring` (ELITEA-2033)
+- `tests.ui.pipelines.test_pipeline_run_details_delete_run_from_history.test_run_details_delete_run_from_history` (ELITEA-2454)
+- `tests.ui.pipelines.test_pipeline_run_details_multiple_state_variables.test_run_details_multiple_state_variables_different_types` (ELITEA-2453)
+- `tests.ui.pipelines.test_pipeline_run_details_panel.test_run_details_panel_opens_after_execution` (ELITEA-2450)
+- `tests.ui.pipelines.test_pipeline_run_details_state_before_after.test_run_details_state_before_after_per_node` (ELITEA-2453)
+- `tests.ui.pipelines.test_pipeline_run_details_timeline_steps.test_run_details_timeline_steps_display` (ELITEA-2451)
+- `tests.ui.pipelines.test_pipeline_run_history_view_executions.TestPipelineRunHistoryPanelClose.test_run_history_panel_closes_and_restores_chat` (ELITEA-2070)
+- `tests.ui.pipelines.test_pipeline_run_history_view_executions.TestPipelineRunHistoryViewExecutions.test_run_history_panel_lists_and_shows_execution_details` (ELITEA-2011)
+- `tests.ui.pipelines.test_pipeline_schedule_trigger_settings_modal.test_schedule_trigger_settings_modal` (ELITEA-2007)
+- `tests.ui.pipelines.test_pipeline_state_modifier_node_configuration.test_state_modifier_node_configuration_and_persistence` (ELITEA-2035)
+- `tests.ui.pipelines.test_pipeline_state_panel_attachments_module.test_state_panel_attachments_module` (ELITEA-2043)
+- `tests.ui.pipelines.test_pipeline_state_panel_default_and_custom_variables.test_state_panel_default_and_custom_variables` (ELITEA-2042)
+- `tests.ui.pipelines.test_pipeline_state_panel_default_and_custom_variables.test_state_panel_delete_custom_variable` (ELITEA-2044)
+- `tests.ui.pipelines.test_pipeline_structured_output_toggle_persistence.test_pipeline_structured_output_toggle_persistence` (ELITEA-2046)
+- `tests.ui.pipelines.test_pipeline_subgraph_state_isolation.test_subgraph_state_sharing_non_common_state_isolation` (ELITEA-2444)
+- `tests.ui.pipelines.test_pipeline_subgraph_state_sharing.test_subgraph_state_sharing_common_vars` (ELITEA-2443)
+- `tests.ui.pipelines.test_pipeline_subgraph_state_sharing.test_subgraph_state_sharing_node_c_state_propagation` (ELITEA-2445)
+- `tests.ui.pipelines.test_pipeline_tags_add_and_filter.test_pipeline_tags_add_and_filter` (ELITEA-2013)
+- `tests.ui.pipelines.test_pipeline_three_dot_menu_actions.test_pipeline_three_dot_menu_actions` (ELITEA-2049)
+- `tests.ui.pipelines.test_pipeline_toolkit_node_config_and_input_mapping.test_toolkit_node_config_and_input_mapping` (ELITEA-2010)
+- `tests.ui.pipelines.test_pipeline_tools_section_mcp_add_view_remove.test_tools_section_mcp_add_view_remove` (ELITEA-2065)
+- `tests.ui.pipelines.test_pipeline_webhook_trigger_settings_modal.test_webhook_trigger_settings_modal` (ELITEA-2006)
+- `tests.ui.pipelines.test_pipeline_welcome_message_shown_before_first_input.test_pipeline_welcome_message_shown_before_first_input` (ELITEA-2052)
+- `tests.ui.pipelines.test_pipeline_yaml_editor_invalid_syntax.test_yaml_editor_invalid_syntax_blocks_save` (ELITEA-2068)
+- `tests.ui.pipelines.test_pipeline_yaml_editor_view.test_pipeline_yaml_editor_view` (ELITEA-2026)
+- `tests.ui.pipelines.test_pipeline_yaml_flow_sync.test_yaml_edit_persists_after_save_and_reload` (ELITEA-2067)
+- `tests.ui.pipelines.test_pipeline_yaml_flow_sync.test_yaml_edit_transition_syncs_to_flow_canvas_and_enables_save` (ELITEA-2028)
+- `tests.ui.settings.test_ai_providers_sections_loading_state.TestAIProvidersSectionsLoadingState.test_ai_providers_sections_loading_state` (ELITEA-2251)
+- `tests.ui.settings.test_settings_default_landing_tab_restored.TestSettingsDefaultLandingTabRestored.test_settings_default_landing_tab_restored` (ELITEA-2244)
+- `tests.ui.settings.test_settings_drawer_notifications_entry.TestSettingsDrawerNotificationsEntry.test_settings_drawer_notifications_entry_visible_without_scrolling` (ELITEA-2260)
+- `tests.ui.settings.test_settings_page_sections_and_default_tab.TestSettingsPageSectionsAndDefaultTab.test_settings_page_sections_and_default_tab` (ELITEA-2242)
+- `tests.ui.settings.test_settings_profile_logout_button_visible.TestSettingsProfileLogoutButtonVisible.test_settings_profile_logout_button_visible` (ELITEA-2252)
+- `tests.ui.settings.test_settings_sidebar_item_navigation.TestSettingsSidebarItemNavigation.test_settings_sidebar_item_navigation` (ELITEA-2243)
 - `tests.ui.skills.test_agent_skills_validation_attribution_and_token_invalidation.TestAgentSkillsValidationAttributionAndTokenInvalidation.test_agent_skills_validation_attribution_and_token_invalidation` (ELITEA-2601)
 - `tests.ui.skills.test_agent_with_skills_publishing_flow.TestAgentWithSkillsPublishingFlow.test_agent_with_skills_publishing_flow` (ELITEA-2600)
 - `tests.ui.skills.test_published_agent_version_cannot_be_modified.TestPublishedAgentVersionCannotBeModified.test_published_agent_version_cannot_be_modified` (ELITEA-2614)
@@ -454,4 +546,4 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 </details>
 
 ---
-_Compared `automation/index.json` (432 tests) with `index_automated.json` (500 refs)_
+_Compared `automation/index.json` (432 tests) with `index_automated.json` (512 refs)_
