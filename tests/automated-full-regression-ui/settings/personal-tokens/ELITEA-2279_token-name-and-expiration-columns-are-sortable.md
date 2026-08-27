@@ -4,10 +4,13 @@ title: "Token name and expiration columns are sortable"
 priority: medium
 type: functional
 module: settings-personal-tokens
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_personal_tokens_column_sorting.TestPersonalTokensColumnSorting.test_token_name_and_expiration_columns_are_sortable
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1900"
 ---
 
 # ELITEA-2279: Token name and expiration columns are sortable

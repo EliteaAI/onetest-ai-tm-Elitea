@@ -4,10 +4,13 @@ title: "Delete a personal token and verify it is removed from the table"
 priority: medium
 type: functional
 module: settings-personal-tokens
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_personal_token_delete.TestPersonalTokenDelete.test_delete_personal_token_removed_from_table
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1900"
 ---
 
 # ELITEA-2281: Delete a personal token and verify it is removed from the table

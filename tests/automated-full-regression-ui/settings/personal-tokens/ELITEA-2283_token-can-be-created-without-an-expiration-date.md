@@ -4,10 +4,13 @@ title: "Token can be created without an expiration date"
 priority: medium
 type: functional
 module: settings-personal-tokens
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_personal_token_never_expiration.TestPersonalTokenNeverExpiration.test_token_created_without_expiration_shows_never
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1900"
 ---
 
 # ELITEA-2283: Token can be created without an expiration date

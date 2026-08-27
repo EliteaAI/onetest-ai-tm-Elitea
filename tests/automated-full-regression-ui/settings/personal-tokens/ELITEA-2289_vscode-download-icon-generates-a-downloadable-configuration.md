@@ -4,10 +4,13 @@ title: "VSCode download icon generates a downloadable configuration file"
 priority: medium
 type: functional
 module: settings-personal-tokens
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_personal_token_ide_config_download.TestPersonalTokenIdeConfigDownload.test_ide_download_icon_generates_config_file
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1900"
 ---
 
 # ELITEA-2289: VSCode download icon generates a downloadable configuration file

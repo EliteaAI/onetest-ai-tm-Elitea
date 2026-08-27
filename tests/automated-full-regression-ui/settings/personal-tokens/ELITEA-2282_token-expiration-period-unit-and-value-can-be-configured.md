@@ -4,10 +4,13 @@ title: "Token expiration period unit and value can be configured"
 priority: medium
 type: functional
 module: settings-personal-tokens
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_personal_token_expiration_config.TestPersonalTokenExpirationConfig.test_token_expiration_unit_and_value_can_be_configured
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1900"
 ---
 
 # ELITEA-2282: Token expiration period unit and value can be configured
