@@ -7,10 +7,11 @@ module: toolkits-credentials
 status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.toolkits.test_toolkit_parameterized.test_create_credential
-  - tests.ui.toolkits.test_toolkit_parameterized.test_create_toolkit
-  - tests.ui.toolkits.test_toolkit_parameterized.test_toolkit_test_settings
-  - tests.ui.toolkits.test_toolkit_parameterized.test_chat_with_toolkit
+  - tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential
+  - tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit
+  - tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings
+  - tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1861
 tags: []
 requirements: []
 ---
