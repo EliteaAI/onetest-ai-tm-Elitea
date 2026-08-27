@@ -7,7 +7,7 @@ module: artifacts
 status: ready
 execution_type: automated
 automation_test_id: tests.ui.toolkits.test_toolkit_creation_create_bucket_verify_list_files.TestToolkitCreationCreateBucketVerifyListFiles.test_create_artifact_toolkit_creates_bucket_verify_list_files
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/670
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1859
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
