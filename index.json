@@ -8905,8 +8905,8 @@
     {
       "id": "ELITEA-2213",
       "title": "Chat – HITL Authorization – Click Block Button and Verify Toolkit Tool Does Not Execute",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8917,7 +8917,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionBlock.test_block_prevents_toolkit_tool_from_executing"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
