@@ -16331,7 +16331,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.pipelines.test_pipeline_mcp_node_empty_toolkit_before_attach.test_mcp_node_empty_toolkit_before_attach"
+        "tests.ui.pipelines_2.test_pipeline_mcp_node_empty_toolkit_before_attach.test_mcp_node_empty_toolkit_before_attach"
       ],
       "targets": [],
       "dependencies": [],
