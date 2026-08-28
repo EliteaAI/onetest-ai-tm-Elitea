@@ -4,10 +4,13 @@ title: "Predefined date presets update the From/To pickers and refresh all conte
 priority: medium
 type: functional
 module: settings-analytics
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_analytics_date_filter_controls.TestAnalyticsDatePresets.test_presets_update_pickers_and_refresh_content
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1958"
 ---
 
 # ELITEA-2314: Predefined date presets update the From/To pickers and refresh all content
