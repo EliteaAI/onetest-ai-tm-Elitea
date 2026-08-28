@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2905
+id: ELITEA-2947
 title: "Activity Tab — Processing State"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:toolkit-redesign, indexes, activity-tab, status]
 requirements: []
 ---
-# ELITEA-2905: Activity Tab — Processing State
+# ELITEA-2947: Activity Tab — Processing State
 
 **Module:** Toolkits & Indexes · **Priority:** Critical · **Type:** Functional
 

@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2904
+id: ELITEA-2946
 title: "Configuration Tab — Toolkit-Specific Field Values Preserved"
 priority: high
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:toolkit-redesign, configuration, data-preservation]
 requirements: []
 ---
-# ELITEA-2904: Configuration Tab — Toolkit-Specific Field Values Preserved
+# ELITEA-2946: Configuration Tab — Toolkit-Specific Field Values Preserved
 
 **Module:** Toolkits & Indexes · **Priority:** High · **Type:** Functional
 

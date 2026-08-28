@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2909
+id: ELITEA-2951
 title: "Activity Tab — Idle State Empty-State Text"
 priority: medium
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:toolkit-redesign, indexes, activity-tab, empty-state]
 requirements: []
 ---
-# ELITEA-2909: Activity Tab — Idle State Empty-State Text
+# ELITEA-2951: Activity Tab — Idle State Empty-State Text
 
 **Module:** Toolkits & Indexes · **Priority:** Medium · **Type:** Functional
 

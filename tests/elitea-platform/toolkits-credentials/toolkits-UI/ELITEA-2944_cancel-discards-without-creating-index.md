@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2901
+id: ELITEA-2944
 title: "New Index — Cancel Discards Without Creating an Index"
 priority: high
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:toolkit-redesign, new-index, negative]
 requirements: []
 ---
-# ELITEA-2901: New Index — Cancel Discards Without Creating an Index
+# ELITEA-2944: New Index — Cancel Discards Without Creating an Index
 
 **Module:** Toolkits & Indexes · **Priority:** High · **Type:** Functional
 

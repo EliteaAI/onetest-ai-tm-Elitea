@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2916
+id: ELITEA-2956
 title: "Regression: Background Indexing Continues Across Navigation"
 priority: high
 type: regression
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [regression, toolkit-redesign, indexes, background-indexing]
 requirements: []
 ---
-# ELITEA-2916: Regression: Background Indexing Continues Across Navigation
+# ELITEA-2956: Regression: Background Indexing Continues Across Navigation
 
 **Module:** Toolkits & Indexes · **Priority:** High · **Type:** Regression
 

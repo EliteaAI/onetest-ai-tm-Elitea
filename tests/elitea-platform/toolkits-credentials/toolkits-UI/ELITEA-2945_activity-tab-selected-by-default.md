@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2903
+id: ELITEA-2945
 title: "Index Details — Activity Tab Selected by Default"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:toolkit-redesign, indexes, tabs, default-state]
 requirements: []
 ---
-# ELITEA-2903: Index Details — Activity Tab Selected by Default
+# ELITEA-2945: Index Details — Activity Tab Selected by Default
 
 **Module:** Toolkits & Indexes · **Priority:** Critical · **Type:** Functional
 

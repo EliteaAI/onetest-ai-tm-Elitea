@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2914
+id: ELITEA-2955
 title: "Accessibility — Keyboard Navigation"
 priority: low
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:toolkit-redesign, accessibility, keyboard]
 requirements: []
 ---
-# ELITEA-2914: Accessibility — Keyboard Navigation
+# ELITEA-2955: Accessibility — Keyboard Navigation
 
 **Module:** Toolkits & Indexes · **Priority:** Low · **Type:** Functional
 

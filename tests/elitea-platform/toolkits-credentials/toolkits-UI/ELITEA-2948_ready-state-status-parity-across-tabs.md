@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2906
+id: ELITEA-2948
 title: "Activity Tab — Ready Status Matches Between Activity and Configuration"
 priority: high
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:toolkit-redesign, indexes, activity-tab, status]
 requirements: []
 ---
-# ELITEA-2906: Activity Tab — Ready Status Matches Between Activity and Configuration
+# ELITEA-2948: Activity Tab — Ready Status Matches Between Activity and Configuration
 
 **Module:** Toolkits & Indexes · **Priority:** High · **Type:** Functional
 

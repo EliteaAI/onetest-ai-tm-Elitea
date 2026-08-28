@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2910
+id: ELITEA-2952
 title: "Delete Index — Confirmation and Cancellation"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:toolkit-redesign, indexes, delete-index]
 requirements: []
 ---
-# ELITEA-2910: Delete Index — Confirmation and Cancellation
+# ELITEA-2952: Delete Index — Confirmation and Cancellation
 
 **Module:** Toolkits & Indexes · **Priority:** Critical · **Type:** Functional
 

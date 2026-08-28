@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2908
+id: ELITEA-2950
 title: "Activity Tab — Error State (Indexing Error)"
 priority: high
 type: functional
@@ -9,11 +9,11 @@ execution_type: manual
 tags: [feat:toolkit-redesign, indexes, activity-tab, status, indexing-error]
 requirements: []
 ---
-# ELITEA-2908: Activity Tab — Error State (Indexing Error)
+# ELITEA-2950: Activity Tab — Error State (Indexing Error)
 
 **Module:** Toolkits & Indexes · **Priority:** High · **Type:** Functional
 
-**Objective:** Verify the Activity tab displays the error status indicator, error details or a Run History link, and "Reindex" when the most recent indexing operation failed, and that the same status and "Reindex" are visible from Configuration. This test covers only an indexing failure, not a search-request failure (see ELITEA-2912 for search request failures).
+**Objective:** Verify the Activity tab displays the error status indicator, error details or a Run History link, and "Reindex" when the most recent indexing operation failed, and that the same status and "Reindex" are visible from Configuration. This test covers only an indexing failure, not a search-request failure (see ELITEA-2953 for search request failures).
 
 **Coverage:**
 - Red error status indicator on Activity

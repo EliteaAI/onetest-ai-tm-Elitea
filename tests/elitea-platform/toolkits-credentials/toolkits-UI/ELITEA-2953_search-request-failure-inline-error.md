@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2912
+id: ELITEA-2953
 title: "Search Page — Search Request Failure (Inline Error)"
 priority: high
 type: functional
@@ -9,11 +9,11 @@ execution_type: manual
 tags: [feat:toolkit-redesign, search, error-handling, needs-data-confirmation]
 requirements: []
 ---
-# ELITEA-2912: Search Page — Search Request Failure (Inline Error)
+# ELITEA-2953: Search Page — Search Request Failure (Inline Error)
 
 **Module:** Toolkits & Indexes · **Priority:** High · **Type:** Functional
 
-**Objective:** Verify the Search page shows a clear, distinct inline error when a submitted search request fails, and that Search Settings remain available after the error. This test covers only a search request failure, not an indexing failure (see ELITEA-2908 for indexing errors).
+**Objective:** Verify the Search page shows a clear, distinct inline error when a submitted search request fails, and that Search Settings remain available after the error. This test covers only a search request failure, not an indexing failure (see ELITEA-2950 for indexing errors).
 
 **Coverage:**
 - A failed search request produces a clear inline error in the Results panel

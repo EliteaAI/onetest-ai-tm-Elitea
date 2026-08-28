@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2913
+id: ELITEA-2954
 title: "Viewer Role — Restricted Actions Hidden, Disabled, or Blocked"
 priority: high
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:toolkit-redesign, permissions, viewer-role]
 requirements: []
 ---
-# ELITEA-2913: Viewer Role — Restricted Actions Hidden, Disabled, or Blocked
+# ELITEA-2954: Viewer Role — Restricted Actions Hidden, Disabled, or Blocked
 
 **Module:** Toolkits & Indexes · **Priority:** High · **Type:** Functional
 

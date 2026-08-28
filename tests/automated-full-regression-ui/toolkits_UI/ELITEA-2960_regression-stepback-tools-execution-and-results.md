@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2920
+id: ELITEA-2960
 title: "Regression: Stepback Search and Stepback Summary Tools Execute and Render Correctly"
 priority: high
 type: regression
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [regression, toolkit-redesign, search]
 requirements: []
 ---
-# ELITEA-2920: Regression: Stepback Search and Stepback Summary Tools Execute and Render Correctly
+# ELITEA-2960: Regression: Stepback Search and Stepback Summary Tools Execute and Render Correctly
 
 **Module:** Toolkits & Indexes · **Priority:** High · **Type:** Regression
 

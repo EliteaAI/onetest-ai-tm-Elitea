@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2907
+id: ELITEA-2949
 title: "Activity Tab — Stopped State"
 priority: high
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:toolkit-redesign, indexes, activity-tab, status]
 requirements: []
 ---
-# ELITEA-2907: Activity Tab — Stopped State
+# ELITEA-2949: Activity Tab — Stopped State
 
 **Module:** Toolkits & Indexes · **Priority:** High · **Type:** Functional
 

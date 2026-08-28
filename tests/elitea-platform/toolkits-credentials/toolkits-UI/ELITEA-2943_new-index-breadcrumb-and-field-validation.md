@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2900
+id: ELITEA-2943
 title: "New Index Page — Breadcrumb and Field-Validation Gating on Index Action"
 priority: high
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:toolkit-redesign, new-index, validation]
 requirements: []
 ---
-# ELITEA-2900: New Index Page — Breadcrumb and Field-Validation Gating on Index Action
+# ELITEA-2943: New Index Page — Breadcrumb and Field-Validation Gating on Index Action
 
 **Module:** Toolkits & Indexes · **Priority:** High · **Type:** Functional
 

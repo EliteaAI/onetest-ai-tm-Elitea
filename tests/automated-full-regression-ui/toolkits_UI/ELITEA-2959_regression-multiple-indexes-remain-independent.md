@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2919
+id: ELITEA-2959
 title: "Regression: Multiple Indexes Under One Toolkit Remain Independent"
 priority: medium
 type: regression
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [regression, toolkit-redesign, indexes, multi-index]
 requirements: []
 ---
-# ELITEA-2919: Regression: Multiple Indexes Under One Toolkit Remain Independent
+# ELITEA-2959: Regression: Multiple Indexes Under One Toolkit Remain Independent
 
 **Module:** Toolkits & Indexes · **Priority:** Medium · **Type:** Regression
 
