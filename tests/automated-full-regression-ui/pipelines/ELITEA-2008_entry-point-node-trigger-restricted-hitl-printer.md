@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_entry_point_trigger_restricted_interactive_nodes.test_entry_point_trigger_restricted_interactive_nodes
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1809
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1929
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---
