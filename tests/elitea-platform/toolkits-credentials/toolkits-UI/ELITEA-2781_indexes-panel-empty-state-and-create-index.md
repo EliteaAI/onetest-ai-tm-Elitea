@@ -44,13 +44,13 @@ requirements: []
 | 3 | Verify "+ Index" button is visible in the empty state area. | "+ Index" button is displayed. |
 | 4 | Click the "+ Index" button. | Create Index page/form opens with Name, Branch, Whitelist, Blacklist fields. |
 | 5 | Enter Index Name: "test-index-001", Branch: "main". | Fields accept input. |
-| 6 | Click the "Index" button to create the index. | Index creation starts; progress indicator shown. |
-| 7 | Navigate back to the toolkit details page. | Toolkit details page displays. |
+| 6 | Click the "Index" button to create the index. | App navigates to the new index's details page with the "Activity" tab selected by default; indexing progress shown. |
+| 7 | Navigate to the toolkit details page (e.g., via breadcrumb). | Toolkit details page displays. |
 | 8 | Observe the Indexes panel. | New index card "test-index-001" appears; header shows "Indexes (1)". |
 
 ## Expected Final State
 
-Indexes panel shows the newly created index card with header updated to "Indexes (1)".
+Creating the index navigates to its details page with Activity selected, and the Indexes panel (once revisited) shows the new index card with header updated to "Indexes (1)".
 
 ## Pass/Fail Criteria
 

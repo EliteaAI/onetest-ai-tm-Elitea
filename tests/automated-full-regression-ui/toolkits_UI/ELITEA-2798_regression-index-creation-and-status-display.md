@@ -43,8 +43,8 @@ requirements: []
 | 1 | Navigate to a toolkit with no indexes (or create new toolkit). | Indexes panel shows empty state: "No indexes created yet." |
 | 2 | Click "+ Index" button. | Create Index form opens. |
 | 3 | Enter Index Name: "regression-test-index", Branch: "main". | Fields accept input. |
-| 4 | Click "Index" button. | Index creation starts. |
-| 5 | Observe the Indexes panel. | New index card appears with spinner/in-progress indicator. |
+| 4 | Click "Index" button. | App navigates to the new index's details page with the "Activity" tab selected by default; blue in-progress status shown. |
+| 5 | Navigate to the toolkit's Indexes panel and observe the new index card. | New index card appears with spinner/in-progress indicator. |
 | 6 | Wait for indexing to complete. | Status changes to green "Index is ready!" indicator. |
 | 7 | Verify index card metadata. | Shows: name, created date, documents indexed count. |
 | 8 | Click the index card. | Index Details page opens with correct information. |

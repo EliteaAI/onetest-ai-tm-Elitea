@@ -38,11 +38,11 @@ requirements: []
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Navigate to Toolkits & Indexes → select toolkit → click an index card. | Index details page opens. |
-| 2 | Observe the right panel tabs. | "Configuration" and "Activity" tabs visible; Configuration is default/active. |
-| 3 | In Configuration tab, verify displayed information. | Shows Branch, Whitelist, Blacklist settings (if configured). |
-| 4 | Click the "Activity" tab. | Activity panel opens. |
-| 5 | Observe the Activity tab content. | Shows indexing activity log or "No indexing activity" if idle. |
-| 6 | Click the "Configuration" tab to switch back. | Configuration panel displays. |
+| 2 | Observe the right panel tabs. | "Configuration" and "Activity" tabs visible; Activity is default/active. |
+| 3 | Observe the Activity tab content. | Shows indexing activity log or "No indexing activity" if idle. |
+| 4 | Click the "Configuration" tab. | Configuration panel displays. |
+| 5 | In Configuration tab, verify displayed information. | Shows Branch, Whitelist, Blacklist settings (if configured). |
+| 6 | Click the "Activity" tab to switch back. | Activity panel opens again. |
 | 7 | Click the "Reindex" button at bottom of page. | Reindex operation starts; Activity tab may update with new activity. |
 | 8 | Switch to Activity tab during/after reindex. | Activity log shows reindexing progress or completion message. |
 
