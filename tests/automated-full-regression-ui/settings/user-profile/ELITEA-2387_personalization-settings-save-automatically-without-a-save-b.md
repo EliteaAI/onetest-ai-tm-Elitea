@@ -4,10 +4,13 @@ title: "Personalization settings save automatically without a Save button"
 priority: medium
 type: functional
 module: settings-user-profile
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.settings.test_personalization_autosave_no_save_button.TestPersonalizationAutosaveNoSaveButton.test_personalization_autosave_no_save_button
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1969"
 ---
 
 # ELITEA-2387: Personalization settings save automatically without a Save button
