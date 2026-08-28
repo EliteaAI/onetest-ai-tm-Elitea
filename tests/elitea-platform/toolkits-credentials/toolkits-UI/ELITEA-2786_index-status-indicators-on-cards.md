@@ -39,8 +39,8 @@ requirements: []
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Navigate to Toolkits & Indexes → select a toolkit → Indexes panel. | Indexes panel displayed. |
-| 2 | Click "+ Index" and start creating a new index with valid data. | Index creation begins. |
-| 3 | Immediately observe the new index card in the panel. | Card shows spinner/in-progress indicator during indexing. |
+| 2 | Click "+ Index" and start creating a new index with valid data. | App navigates to the new index's details page with the "Activity" tab selected by default; blue in-progress status shown. |
+| 3 | Navigate to the toolkit's Indexes panel and observe the new index card. | Card shows spinner/in-progress indicator during indexing. |
 | 4 | Wait for indexing to complete successfully. | Card updates to show green checkmark or "Index is ready!" status. |
 | 5 | Click on the completed index card to open details. | Index details page shows "Index is ready!" message with green indicator. |
 | 6 | Observe the statistics display. | Shows: Created date, Last reindex date/time, Documents indexed count, Files reindexed, Files skipped. |
