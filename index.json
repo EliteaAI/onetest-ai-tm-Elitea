@@ -940,8 +940,8 @@
     {
       "id": "ELITEA-2243",
       "title": "Clicking each Settings sidebar item navigates to its dedicated page",
-      "status": "ready",
-      "execution_type": "automated",
+      "status": "draft",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1834,8 +1834,8 @@
     {
       "id": "ELITEA-2345",
       "title": "Hiding a secret used by existing credentials does not break those credentials",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -1846,7 +1846,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_hidden_secret_not_breaking_credentials.TestHiddenSecretNotBreakingCredentials.test_hiding_secret_used_by_credential_does_not_break_it"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1855,8 +1857,8 @@
     {
       "id": "ELITEA-2346",
       "title": "Hidden secret does not appear in secret selection dropdown for new credentials",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1867,7 +1869,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_hidden_secret_absent_from_ai_provider_dropdown.TestHiddenSecretAbsentFromAIProviderDropdown.test_hidden_secret_absent_from_ai_provider_dropdown"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1899,8 +1903,8 @@
     {
       "id": "ELITEA-2348",
       "title": "Viewer and Monitor roles cannot access Secrets section",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1911,7 +1915,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_viewer_role_cannot_access_secrets.TestViewerRoleCannotAccessSecrets.test_viewer_role_is_not_offered_the_secrets_section"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -1920,8 +1926,8 @@
     {
       "id": "ELITEA-2349",
       "title": "Secrets page shows error state on network failure",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -1932,7 +1938,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_secrets_error_state_on_network_failure.TestSecretsErrorStateOnNetworkFailure.test_secrets_error_state_on_network_failure_and_recovery"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2519,8 +2527,8 @@
     {
       "id": "ELITEA-2279",
       "title": "Token name and expiration columns are sortable",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2531,7 +2539,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_tokens_column_sorting.TestPersonalTokensColumnSorting.test_token_name_and_expiration_columns_are_sortable"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2563,8 +2573,8 @@
     {
       "id": "ELITEA-2281",
       "title": "Delete a personal token and verify it is removed from the table",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2575,7 +2585,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_delete.TestPersonalTokenDelete.test_delete_personal_token_removed_from_table"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2584,8 +2596,8 @@
     {
       "id": "ELITEA-2282",
       "title": "Token expiration period unit and value can be configured",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2596,7 +2608,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_expiration_config.TestPersonalTokenExpirationConfig.test_token_expiration_unit_and_value_can_be_configured"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2605,8 +2619,8 @@
     {
       "id": "ELITEA-2283",
       "title": "Token can be created without an expiration date",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2617,7 +2631,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_never_expiration.TestPersonalTokenNeverExpiration.test_token_created_without_expiration_shows_never"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2649,8 +2665,8 @@
     {
       "id": "ELITEA-2285",
       "title": "Token value is shown only once in the generation dialog",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2661,7 +2677,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_create_personal_token_and_verify_in_table"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2693,8 +2711,8 @@
     {
       "id": "ELITEA-2287",
       "title": "Search field filters tokens by name in real time",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2705,7 +2723,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_tokens_search_filter.TestPersonalTokensSearchFilter.test_search_field_filters_tokens_by_name_in_real_time"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2714,8 +2734,8 @@
     {
       "id": "ELITEA-2288",
       "title": "Duplicate token names are allowed",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2726,7 +2746,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_duplicate_names.TestPersonalTokenDuplicateNames.test_duplicate_token_names_are_allowed"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2747,7 +2769,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_ide_config_download.TestPersonalTokenIdeConfigDownload.test_ide_download_icon_generates_config_file"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2756,8 +2780,8 @@
     {
       "id": "ELITEA-2290",
       "title": "JetBrains download icon generates a downloadable configuration file",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -2768,7 +2792,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_ide_config_download.TestPersonalTokenIdeConfigDownload.test_ide_download_icon_generates_config_file"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2789,7 +2815,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_settings_preview.TestPersonalTokenSettingsPreview.test_eye_icon_opens_ide_settings_preview_panel"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8928,8 +8956,8 @@
     {
       "id": "ELITEA-2214",
       "title": "Chat – HITL Authorization – Click Block with Comment Button for Direct Toolkit Call",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8940,7 +8968,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionBlockWithComment.test_block_with_comment_records_reason_and_blocks_action"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8967,8 +8997,7 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2215_chat-tool-action-and-output-complete-flow-from-direct-toolkit-call.md",
-      "automation_pr": "https://github.com/EliteaAI/elitea-testing-public/pull/1844"
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2215_chat-tool-action-and-output-complete-flow-from-direct-toolkit-call.md"
     },
     {
       "id": "ELITEA-2216",
@@ -9687,6 +9716,493 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2757_chat-new-chat-option-available-in-folder-context-menu.md"
     },
     {
+      "id": "ELITEA-2811",
+      "title": "Chat – Follow-Up Suggestion Generation Fires Only After Full AI Response, Never Delays Main Response",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2811_followup-suggestion-generation-timing-does-not-delay-main-response.md"
+    },
+    {
+      "id": "ELITEA-2812",
+      "title": "Chat – Follow-Up Suggestions Are Never Persisted to Database or Conversation History",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2812_followup-suggestions-never-persisted-to-history.md"
+    },
+    {
+      "id": "ELITEA-2813",
+      "title": "Chat – Follow-Up Suggestions Are Scoped Only to the Triggering User's Session",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2813_followup-suggestions-scoped-to-triggering-user-session.md"
+    },
+    {
+      "id": "ELITEA-2814",
+      "title": "Chat – Global Follow-Up Suggestions Flag OFF Suppresses Both the Request and the UI",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2814_followup-suggestions-global-feature-flag-off.md"
+    },
+    {
+      "id": "ELITEA-2815",
+      "title": "Chat – Per-Project Disallow-List Suppresses Follow-Up Suggestions for That Project Only",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2815_followup-suggestions-per-project-disallow-list.md"
+    },
+    {
+      "id": "ELITEA-2816",
+      "title": "Chat – Follow-Up Suggestions Are Skipped for Very Short AI Replies (Eligibility Threshold Boundary)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2816_followup-suggestions-skipped-for-very-short-ai-replies.md"
+    },
+    {
+      "id": "ELITEA-2817",
+      "title": "Chat – Follow-Up Suggestion Chip List Clears on All Defined Lifecycle Events",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2817_followup-suggestions-clear-on-lifecycle-events.md"
+    },
+    {
+      "id": "ELITEA-2818",
+      "title": "Chat – Follow-Up Suggestion Failure, Timeout, or Empty Result Is a Silent No-Op",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2818_followup-suggestions-failure-timeout-empty-silent-no-op.md"
+    },
+    {
+      "id": "ELITEA-2819",
+      "title": "Chat – Deleting the Source AI or User Message Clears Its Associated Follow-Up Suggestions",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2819_followup-suggestions-clear-on-source-message-deletion.md"
+    },
+    {
+      "id": "ELITEA-2820",
+      "title": "Chat – Follow-Up Suggestion Chip List Rendering Rules (Max 3, No Empty Chips, Truncation)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2820_followup-suggestion-chip-rendering-rules.md"
+    },
+    {
+      "id": "ELITEA-2821",
+      "title": "Chat – Clicking a Follow-Up Suggestion Chip Inserts Editable Text Without Sending",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2821_followup-suggestion-chip-click-inserts-editable-text.md"
+    },
+    {
+      "id": "ELITEA-2822",
+      "title": "Chat – Switching Suggestion Chips Replaces Unedited Input Text, but Never Overwrites User Edits",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2822_followup-suggestion-chip-switch-vs-edit-lock-behavior.md"
+    },
+    {
+      "id": "ELITEA-2823",
+      "title": "Chat – Follow-Up Suggestion Chips Support Keyboard Navigation and Correct Focus/Hover/Selected States",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2823_followup-suggestion-chip-keyboard-accessibility-and-visual-states.md"
+    },
+    {
+      "id": "ELITEA-2824",
+      "title": "Chat – Follow-Up Suggestion Chip List Does Not Overlap Composer, Attachments, Model Selector, or Send Button",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2824_followup-suggestion-chip-list-layout-no-overlap.md"
+    },
+    {
+      "id": "ELITEA-2825",
+      "title": "Chat – Regenerating a Response Correctly Resets Follow-Up Suggestions, Including In-Flight Requests",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2825_followup-suggestions-regenerate-response-interaction.md"
+    },
+    {
+      "id": "ELITEA-2826",
+      "title": "Chat/Pipelines – Follow-Up Suggestions Do Not Appear During or Interfere With HITL / Ask-User Prompts",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "feat:pipelines",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2826_followup-suggestions-do-not-interfere-with-hitl-ask-user-flow.md"
+    },
+    {
+      "id": "ELITEA-2827",
+      "title": "Chat – Follow-Up Suggestions Do Not Leak Across Tabs or Show Stale Chips After Rapid Consecutive Responses",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2827_followup-suggestions-multi-tab-and-rapid-responses-no-stale-leakage.md"
+    },
+    {
+      "id": "ELITEA-2828",
+      "title": "Chat/Agents/Pipelines – Follow-Up Suggestions Behave Correctly Across Chat, Agent, and Pipeline Surfaces, Including Multi-Step, HITL, and Generated-Image Responses",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "feat:agents",
+        "feat:pipelines",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2828_followup-suggestions-across-chat-agent-pipeline-multistep-hitl-image-surfaces.md"
+    },
+    {
+      "id": "ELITEA-2829",
+      "title": "Chat – Default Suggestion-Generation LLM Model Failing Does Not Surface an Error and Does Not Affect the Main Chat Response",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2829_followup-suggestions-default-llm-model-failure-fails-silently.md"
+    },
+    {
       "id": "ELITEA-2073",
       "title": "Chat – Create Agent with AI Build – Click Cancel and Verify Creation is Terminated",
       "status": "ready",
@@ -10048,8 +10564,7 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/canvas/ELITEA-2088_chat-generate-mermaid-diagram-and-open-in-canvas-mode.md",
-      "automation_pr": "https://github.com/EliteaAI/elitea-testing-public/pull/1143"
+      "path": "tests/automated-full-regression-ui/chat/canvas/ELITEA-2088_chat-generate-mermaid-diagram-and-open-in-canvas-mode.md"
     },
     {
       "id": "ELITEA-2089",
@@ -12181,7 +12696,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.pipelines.test_pipeline_management.TestCreatePipeline.test_create_pipeline_minimal_via_sidebar_button"
+        "tests.ui.pipelines_2.test_pipeline_management.TestCreatePipeline.test_create_pipeline_minimal_via_sidebar_button"
       ],
       "targets": [],
       "dependencies": [],
@@ -43685,10 +44200,10 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.toolkits.test_toolkit_parameterized.test_create_credential",
-        "tests.ui.toolkits.test_toolkit_parameterized.test_create_toolkit",
-        "tests.ui.toolkits.test_toolkit_parameterized.test_toolkit_test_settings",
-        "tests.ui.toolkits.test_toolkit_parameterized.test_chat_with_toolkit"
+        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit"
       ],
       "targets": [],
       "dependencies": [],
@@ -49813,6 +50328,84 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2822_section-headers-clickable-expand-collapse.md"
+    },
+    {
+      "id": "ELITEA-2837",
+      "title": "Schedule Card Time Converts to Viewer's Local Timezone — Not Creator's Timezone",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "feat:toolkits",
+        "eng:frontend",
+        "schedule",
+        "timezone"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6296"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2837_schedule-card-time-converts-to-viewers-local-timezone-not-creators.md"
+    },
+    {
+      "id": "ELITEA-2838",
+      "title": "Schedule Card No Longer Shows Raw 'Scheduled: <timezone>' Label",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "feat:toolkits",
+        "eng:frontend",
+        "schedule",
+        "timezone"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6296"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2838_schedule-card-no-longer-shows-raw-scheduled-timezone-label.md"
+    },
+    {
+      "id": "ELITEA-2839",
+      "title": "Schedule Time and Next Run Stay Consistently in Viewer's Timezone Across Edit and Team/Shadow Views",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "feat:toolkits",
+        "eng:frontend",
+        "schedule",
+        "timezone"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6296"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/toolkits-credentials/toolkits-UI/ELITEA-2839_schedule-time-and-next-run-consistent-timezone-across-edit-and-team.md"
     },
     {
       "id": "ELITEA-1195",
@@ -61323,6 +61916,61 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/elitea-platform/admin-portal/ELITEA-0010_base-url-migration-validation-rtk-query-v1-to-v2-transition.md"
+    },
+    {
+      "id": "ELITEA-2830",
+      "title": "Admin Portal – Follow-Up Suggestions Minimum-Length Threshold and Generation-Timeout (Default 15s) Configs Are Respected",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "admin-portal",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:admin-portal",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/admin-portal/ELITEA-2830_followup-suggestions-admin-config-min-length-and-generation-timeout.md"
+    },
+    {
+      "id": "ELITEA-2831",
+      "title": "Admin Portal – Disallowed Projects List Remains Usable and Performant at ~15,000-Project Scale",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "admin-portal",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:admin-portal",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254",
+        "performance"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/elitea-platform/admin-portal/ELITEA-2831_disallowed-projects-list-performance-at-15000-project-scale.md"
     },
     {
       "id": "ELITEA-0011",
