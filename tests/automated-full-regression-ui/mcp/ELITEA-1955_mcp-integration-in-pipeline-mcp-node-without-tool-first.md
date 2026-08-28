@@ -8,8 +8,8 @@ status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
-automation_test_id: tests.ui.pipelines.test_pipeline_mcp_node_empty_toolkit_before_attach.test_mcp_node_empty_toolkit_before_attach
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/620
+automation_test_id: tests.ui.pipelines_2.test_pipeline_mcp_node_empty_toolkit_before_attach.test_mcp_node_empty_toolkit_before_attach
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1921
 ---
 
 # ELITEA-1955: MCP Integration in Pipeline — MCP Node Without Tool Attached First
