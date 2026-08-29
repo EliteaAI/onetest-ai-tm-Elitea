@@ -4,10 +4,13 @@ title: "Users table columns are sortable"
 priority: high
 type: functional
 module: settings-users-and-roles
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_users_column_sorting.TestUsersColumnSorting.test_users_table_columns_are_sortable
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1979"
 ---
 
 # ELITEA-2293: Users table columns are sortable

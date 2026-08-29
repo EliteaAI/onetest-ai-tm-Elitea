@@ -4,10 +4,13 @@ title: "Assign multiple roles to a user via Edit roles dialog"
 priority: medium
 type: functional
 module: settings-users-and-roles
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_users_row_edit_roles_change.TestUsersRowEditRolesChange.test_change_roles_via_row_edit_dialog
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1979"
 ---
 
 # ELITEA-2303: Assign multiple roles to a user via Edit roles dialog

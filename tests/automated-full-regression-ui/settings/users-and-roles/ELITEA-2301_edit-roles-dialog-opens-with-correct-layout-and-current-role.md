@@ -4,10 +4,13 @@ title: "Edit roles dialog opens with correct layout and current role pre-selecte
 priority: medium
 type: functional
 module: settings-users-and-roles
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.admin.test_users_row_edit_roles_dialog_layout.TestUsersRowEditRolesDialogLayout.test_row_edit_roles_dialog_layout_and_current_role
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1979"
 ---
 
 # ELITEA-2301: Edit roles dialog opens with correct layout and current role pre-selected
