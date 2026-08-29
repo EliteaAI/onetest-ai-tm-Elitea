@@ -4,10 +4,13 @@ title: "Create a new LLM model configuration"
 priority: medium
 type: functional
 module: settings-ai-configuration
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.settings.test_llm_model_create.TestCreateLlmModelConfiguration.test_create_llm_model_and_set_as_default
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1990"
 ---
 
 # ELITEA-2395: Create a new LLM model configuration

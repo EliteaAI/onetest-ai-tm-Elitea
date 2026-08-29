@@ -4,10 +4,13 @@ title: "Settings landing — AI Configuration page shows correct environment met
 priority: high
 type: functional
 module: settings-ai-configuration
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.settings.test_ai_configuration_metadata_fields.TestAIConfigurationMetadataFields.test_ai_configuration_metadata_fields
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1990"
 ---
 
 # ELITEA-2394: Settings landing — AI Configuration page shows correct environment metadata fields

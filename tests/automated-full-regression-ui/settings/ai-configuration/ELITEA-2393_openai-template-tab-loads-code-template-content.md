@@ -4,10 +4,13 @@ title: "OpenAI Template tab loads code template content"
 priority: medium
 type: functional
 module: settings-ai-configuration
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.settings.test_ai_configuration_openai_template_tab.TestAIConfigurationOpenAITemplateTab.test_openai_template_tab_loads_code_template
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1990"
 ---
 
 # ELITEA-2393: OpenAI Template tab loads code template content
