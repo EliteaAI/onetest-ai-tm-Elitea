@@ -1,37 +1,37 @@
 # Test Dashboard
 
-_Generated: 2026-08-27 14:18 UTC_
+_Generated: 2026-08-29 04:10 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-08-27-83-DEV-STABLE-ALL-FAILED**
+**RUN-ELITEA-2026-08-29-86-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-AMBER**
 
 ```mermaid
 pie showData
-    title "Test Results (111 total)"
-    "Passed" : 100
-    "Failed" : 8
-    "Skipped" : 3
+    title "Test Results (26 total)"
+    "Passed" : 24
+    "Failed" : 0
+    "Skipped" : 2
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 111 |
-| Passed | 100 |
-| Failed | 8 |
-| Skipped | 3 |
-| Reruns | 12 |
-| Pass Rate | 90.1% |
+| Total | 26 |
+| Passed | 24 |
+| Failed | 0 |
+| Skipped | 2 |
+| Reruns | 0 |
+| Pass Rate | 92.3% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE, 24-49-DEV-STABLE, 24-50-DEV-STABLE, 25-71-DEV-STABLE, 27-80-DEV-STABLE, 27-83-DEV-STABLE]
+    x-axis [22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE, 24-49-DEV-STABLE, 24-50-DEV-STABLE, 25-71-DEV-STABLE, 27-80-DEV-STABLE, 27-83-DEV-STABLE, 29-86-DEV-STABLE]
     y-axis "Tests" 0 --> 136
-    bar "Passed" [130, 131, 131, 123, 130, 0, 0, 130, 0, 100]
-    bar "Failed" [10, 9, 9, 17, 10, 3, 0, 14, 0, 8]
+    bar "Passed" [131, 131, 123, 130, 0, 0, 130, 0, 100, 24]
+    bar "Failed" [9, 9, 17, 10, 3, 0, 14, 0, 8, 0]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [21-43-DEV-STABLE, 22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE, 24-49-DEV-STABLE, 24-50-DEV-STABLE, 25-71-DEV-STABLE, 27-80-DEV-STABLE, 27-83-DEV-STABLE]
+    x-axis [22-44-DEV-STABLE, 23-45-DEV-STABLE, 23-46-DEV-STABLE, 24-47-DEV-STABLE, 24-49-DEV-STABLE, 24-50-DEV-STABLE, 25-71-DEV-STABLE, 27-80-DEV-STABLE, 27-83-DEV-STABLE, 29-86-DEV-STABLE]
     y-axis "Reruns" 0 --> 35
-    line "Reruns" [17, 14, 15, 32, 16, 6, 0, 30, 0, 12]
+    line "Reruns" [14, 15, 32, 16, 6, 0, 30, 0, 12, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ✅ 29-86-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ❌ 27-83-DEV-STABLE | 111 | 100 | 8 | 3 | 12 | 90% |
 | ✅ 27-80-DEV-STABLE | 259 | 0 | 0 | 259 | 0 | 0% |
 | ❌ 25-71-DEV-STABLE | 157 | 130 | 14 | 13 | 30 | 83% |
@@ -57,7 +58,6 @@ xychart-beta
 | ❌ 23-46-DEV-STABLE | 152 | 123 | 17 | 12 | 32 | 81% |
 | ❌ 23-45-DEV-STABLE | 152 | 131 | 9 | 12 | 15 | 86% |
 | ❌ 22-44-DEV-STABLE | 152 | 131 | 9 | 12 | 14 | 86% |
-| ❌ 21-43-DEV-STABLE | 152 | 130 | 10 | 12 | 17 | 86% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -69,16 +69,16 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 | Metric | Count |
 |--------|-------|
 | Tests in automation | 432 |
-| Tests linked to TMS cases | 250 |
-| Tests without TMS case | 182 |
-| Orphan TMS refs (test missing) | 262 |
-| **TMS Coverage** | **57.9%** |
+| Tests linked to TMS cases | 251 |
+| Tests without TMS case | 181 |
+| Orphan TMS refs (test missing) | 261 |
+| **TMS Coverage** | **58.1%** |
 
 ```mermaid
 pie showData
     title "TMS Linkage (432 tests)"
-    "Linked to TMS" : 250
-    "No TMS case" : 182
+    "Linked to TMS" : 251
+    "No TMS case" : 181
 ```
 
 ### Tests Without TMS Case
@@ -86,7 +86,7 @@ pie showData
 _Tests that exist in automation but have no linked TMS case._
 
 <details>
-<summary>Show 182 unlinked tests</summary>
+<summary>Show 181 unlinked tests</summary>
 
 - `tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_after`
 - `tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_before`
@@ -203,7 +203,6 @@ _Tests that exist in automation but have no linked TMS case._
 - `tests.ui.pipelines_2.test_pipeline_management.TestSearchPipeline.test_search_pipeline_no_results`
 - `tests.ui.pipelines_2.test_pipeline_management.TestSearchPipeline.test_search_placeholder_and_dashboard_grid_filters_and_clears`
 - `tests.ui.pipelines_2.test_pipeline_mcp_node_change_toolkit_and_tool.test_mcp_node_change_toolkit_and_tool`
-- `tests.ui.pipelines_2.test_pipeline_mcp_node_empty_toolkit_before_attach.test_mcp_node_empty_toolkit_before_attach`
 - `tests.ui.pipelines_2.test_pipeline_multiple_browser_tabs.test_pipeline_multiple_browser_tabs`
 - `tests.ui.pipelines_2.test_pipeline_node_auto_increment_naming.test_node_auto_increment_naming_by_type`
 - `tests.ui.pipelines_2.test_pipeline_nodes.TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end`
@@ -278,7 +277,7 @@ _Tests that exist in automation but have no linked TMS case._
 _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 
 <details>
-<summary>Show 262 orphan refs</summary>
+<summary>Show 261 orphan refs</summary>
 
 - `tests.ui.admin.test_notification_center_layout.TestNotificationCenterLayout.test_notification_center_page_layout_and_header` (ELITEA-2255)
 - `tests.ui.admin.test_notification_center_pagination.TestNotificationCenterPagination.test_notification_center_pagination_controls` (ELITEA-2256)
@@ -437,7 +436,6 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 - `tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_view_toggle_table_and_card` (ELITEA-2024)
 - `tests.ui.pipelines.test_pipeline_management.TestSearchPipeline.test_search_placeholder_and_dashboard_grid_filters_and_clears` (ELITEA-2023)
 - `tests.ui.pipelines.test_pipeline_mcp_node_change_toolkit_and_tool.test_mcp_node_change_toolkit_and_tool` (ELITEA-1954)
-- `tests.ui.pipelines.test_pipeline_mcp_node_empty_toolkit_before_attach.test_mcp_node_empty_toolkit_before_attach` (ELITEA-1955)
 - `tests.ui.pipelines.test_pipeline_mcp_node_fresh_attach.test_mcp_node_executes_selected_tool` (ELITEA-1952)
 - `tests.ui.pipelines.test_pipeline_mcp_node_fresh_attach.test_mcp_node_input_mapping_type_and_toggles_persist` (ELITEA-1953)
 - `tests.ui.pipelines.test_pipeline_multiple_browser_tabs.test_pipeline_multiple_browser_tabs` (ELITEA-2062)
