@@ -4,10 +4,13 @@ title: "Admin role has access to all PROJECT settings sections"
 priority: medium
 type: functional
 module: settings
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.settings.test_admin_role_project_sections_access.TestAdminRoleProjectSectionsAccess.test_admin_role_has_access_to_all_project_settings_sections
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1998"
 ---
 
 # ELITEA-2245: Admin role has access to all PROJECT settings sections
