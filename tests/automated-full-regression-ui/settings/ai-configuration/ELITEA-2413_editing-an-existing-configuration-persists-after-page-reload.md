@@ -4,10 +4,13 @@ title: "Editing an existing configuration persists after page reload"
 priority: medium
 type: functional
 module: settings-ai-configuration
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:settings]
 requirements: []
+automation_test_id:
+  - tests.ui.settings.test_llm_model_edit.TestEditLlmModelConfiguration.test_edit_llm_model_display_name
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1995"
 ---
 
 # ELITEA-2413: Editing an existing configuration persists after page reload
