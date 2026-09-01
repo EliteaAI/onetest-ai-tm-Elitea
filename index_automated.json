@@ -7316,6 +7316,137 @@
       "path": "tests/automated-full-regression-ui/indexing/ELITEA-2889_manual-reindex-uses-saved-config-automated.md"
     },
     {
+      "id": "ELITEA-3091",
+      "title": "Automated: Active index searchable during reindexing",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "critical",
+      "size": "",
+      "module": "indexing/reindex-preservation",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "story:6232",
+        "automated",
+        "regression",
+        "reindex-preservation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6232"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3091_active-index-searchable-during-reindexing-automated.md"
+    },
+    {
+      "id": "ELITEA-3092",
+      "title": "Automated: Failed reindex preserves active index",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "critical",
+      "size": "",
+      "module": "indexing/reindex-preservation",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "story:6232",
+        "automated",
+        "regression",
+        "reindex-preservation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6232"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3092_failed-reindex-preserves-active-index-automated.md"
+    },
+    {
+      "id": "ELITEA-3093",
+      "title": "Automated: Successful reindex replaces active index",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "critical",
+      "size": "",
+      "module": "indexing/reindex-preservation",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "story:6232",
+        "automated",
+        "regression",
+        "reindex-preservation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6232"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3093_successful-reindex-replaces-active-index-automated.md"
+    },
+    {
+      "id": "ELITEA-3094",
+      "title": "Automated: Search works after failed reindex",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "critical",
+      "size": "",
+      "module": "indexing/reindex-preservation",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "story:6232",
+        "automated",
+        "regression",
+        "reindex-preservation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6232"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3094_search-works-after-failed-reindex-automated.md"
+    },
+    {
+      "id": "ELITEA-3095",
+      "title": "Automated: UI status throughout reindex lifecycle",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "high",
+      "size": "",
+      "module": "indexing/reindex-preservation",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "story:6232",
+        "automated",
+        "regression",
+        "reindex-preservation",
+        "ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6232"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3095_ui-status-reindex-lifecycle-automated.md"
+    },
+    {
       "id": "ELITEA-1962",
       "title": "Create Credential",
       "status": "ready",
