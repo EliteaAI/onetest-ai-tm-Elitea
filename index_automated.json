@@ -2769,8 +2769,8 @@
     {
       "id": "ELITEA-2211",
       "title": "Chat – HITL Authorization – Verify Sensitive Action Authorization Card Displays When Toolkit Called Directly",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -2781,7 +2781,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionCardDisplay.test_sensitive_action_card_displays_for_direct_toolkit_call"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2790,8 +2792,8 @@
     {
       "id": "ELITEA-2212",
       "title": "Chat – HITL Authorization – Click Authorize Button and Verify Toolkit Tool Executes Directly",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -2802,7 +2804,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionAuthorize.test_authorize_executes_toolkit_tool_directly"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2811,8 +2815,8 @@
     {
       "id": "ELITEA-2213",
       "title": "Chat – HITL Authorization – Click Block Button and Verify Toolkit Tool Does Not Execute",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -2823,7 +2827,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionBlock.test_block_prevents_toolkit_tool_from_executing"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2832,8 +2838,8 @@
     {
       "id": "ELITEA-2214",
       "title": "Chat – HITL Authorization – Click Block with Comment Button for Direct Toolkit Call",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -2844,7 +2850,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionBlockWithComment.test_block_with_comment_records_reason_and_blocks_action"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2853,8 +2861,8 @@
     {
       "id": "ELITEA-2215",
       "title": "Chat – Tool Action and Output – Verify Complete Flow from Direct Toolkit Call to Output Display",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -2865,7 +2873,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_direct_toolkit_call_complete_flow.TestDirectToolkitCallCompleteFlow.test_direct_toolkit_call_complete_flow"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -3588,6 +3598,638 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2757_chat-new-chat-option-available-in-folder-context-menu.md"
     },
     {
+      "id": "ELITEA-2811",
+      "title": "Chat – Follow-Up Suggestion Generation Fires Only After Full AI Response, Never Delays Main Response",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2811_followup-suggestion-generation-timing-does-not-delay-main-response.md"
+    },
+    {
+      "id": "ELITEA-2812",
+      "title": "Chat – Follow-Up Suggestions Are Never Persisted to Database or Conversation History",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2812_followup-suggestions-never-persisted-to-history.md"
+    },
+    {
+      "id": "ELITEA-2813",
+      "title": "Chat – Follow-Up Suggestions Are Scoped Only to the Triggering User's Session",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2813_followup-suggestions-scoped-to-triggering-user-session.md"
+    },
+    {
+      "id": "ELITEA-2814",
+      "title": "Chat – Global Follow-Up Suggestions Flag OFF Suppresses Both the Request and the UI",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2814_followup-suggestions-global-feature-flag-off.md"
+    },
+    {
+      "id": "ELITEA-2815",
+      "title": "Chat – Per-Project Disallow-List Suppresses Follow-Up Suggestions for That Project Only",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2815_followup-suggestions-per-project-disallow-list.md"
+    },
+    {
+      "id": "ELITEA-2816",
+      "title": "Chat – Follow-Up Suggestions Are Skipped for Very Short AI Replies (Eligibility Threshold Boundary)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2816_followup-suggestions-skipped-for-very-short-ai-replies.md"
+    },
+    {
+      "id": "ELITEA-2817",
+      "title": "Chat – Follow-Up Suggestion Chip List Clears on All Defined Lifecycle Events",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2817_followup-suggestions-clear-on-lifecycle-events.md"
+    },
+    {
+      "id": "ELITEA-2818",
+      "title": "Chat – Follow-Up Suggestion Failure, Timeout, or Empty Result Is a Silent No-Op",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2818_followup-suggestions-failure-timeout-empty-silent-no-op.md"
+    },
+    {
+      "id": "ELITEA-2819",
+      "title": "Chat – Deleting the Source AI or User Message Clears Its Associated Follow-Up Suggestions",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2819_followup-suggestions-clear-on-source-message-deletion.md"
+    },
+    {
+      "id": "ELITEA-2820",
+      "title": "Chat – Follow-Up Suggestion Chip List Rendering Rules (Max 3, No Empty Chips, Truncation)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2820_followup-suggestion-chip-rendering-rules.md"
+    },
+    {
+      "id": "ELITEA-2821",
+      "title": "Chat – Clicking a Follow-Up Suggestion Chip Inserts Editable Text Without Sending",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2821_followup-suggestion-chip-click-inserts-editable-text.md"
+    },
+    {
+      "id": "ELITEA-2822",
+      "title": "Chat – Switching Suggestion Chips Replaces Unedited Input Text, but Never Overwrites User Edits",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2822_followup-suggestion-chip-switch-vs-edit-lock-behavior.md"
+    },
+    {
+      "id": "ELITEA-2823",
+      "title": "Chat – Follow-Up Suggestion Chips Support Keyboard Navigation and Correct Focus/Hover/Selected States",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2823_followup-suggestion-chip-keyboard-accessibility-and-visual-states.md"
+    },
+    {
+      "id": "ELITEA-2824",
+      "title": "Chat – Follow-Up Suggestion Chip List Does Not Overlap Composer, Attachments, Model Selector, or Send Button",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2824_followup-suggestion-chip-list-layout-no-overlap.md"
+    },
+    {
+      "id": "ELITEA-2825",
+      "title": "Chat – Regenerating a Response Correctly Resets Follow-Up Suggestions, Including In-Flight Requests",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2825_followup-suggestions-regenerate-response-interaction.md"
+    },
+    {
+      "id": "ELITEA-2826",
+      "title": "Chat/Pipelines – Follow-Up Suggestions Do Not Appear During or Interfere With HITL / Ask-User Prompts",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "feat:pipelines",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2826_followup-suggestions-do-not-interfere-with-hitl-ask-user-flow.md"
+    },
+    {
+      "id": "ELITEA-2827",
+      "title": "Chat – Follow-Up Suggestions Do Not Leak Across Tabs or Show Stale Chips After Rapid Consecutive Responses",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2827_followup-suggestions-multi-tab-and-rapid-responses-no-stale-leakage.md"
+    },
+    {
+      "id": "ELITEA-2828",
+      "title": "Chat/Agents/Pipelines – Follow-Up Suggestions Behave Correctly Across Chat, Agent, and Pipeline Surfaces, Including Multi-Step, HITL, and Generated-Image Responses",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "feat:agents",
+        "feat:pipelines",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2828_followup-suggestions-across-chat-agent-pipeline-multistep-hitl-image-surfaces.md"
+    },
+    {
+      "id": "ELITEA-2829",
+      "title": "Chat – Default Suggestion-Generation LLM Model Failing Does Not Surface an Error and Does Not Affect the Main Chat Response",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "issue:6123",
+        "issue:6254"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6123",
+        "EliteaAI/elitea_issues#6254"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2829_followup-suggestions-default-llm-model-failure-fails-silently.md"
+    },
+    {
+      "id": "ELITEA-2875",
+      "title": "Automated: Basic interjection queuing and sequential processing",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "critical",
+      "size": "",
+      "module": "interjections",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "interjection",
+        "automated",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6115"
+      ],
+      "automation_test_id": [
+        "test_interjection_queuing_sequential"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2875_interjection-queuing-automated.md"
+    },
+    {
+      "id": "ELITEA-2876",
+      "title": "Automated: FIFO message order preservation",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "critical",
+      "size": "",
+      "module": "interjections",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "interjection",
+        "automated",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6115",
+        "EliteaAI/elitea_issues#6457"
+      ],
+      "automation_test_id": [
+        "test_message_order_fifo"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2876_message-order-fifo-automated.md"
+    },
+    {
+      "id": "ELITEA-2877",
+      "title": "Automated: Attachment blocking during active run",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "critical",
+      "size": "",
+      "module": "interjections",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "interjection",
+        "attachment",
+        "automated",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6115",
+        "EliteaAI/elitea_issues#6448"
+      ],
+      "automation_test_id": [
+        "test_attachment_blocking"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2877_attachment-blocking-automated.md"
+    },
+    {
+      "id": "ELITEA-2878",
+      "title": "Automated: Stop preserves queued messages",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "critical",
+      "size": "",
+      "module": "interjections",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "interjection",
+        "stop",
+        "automated",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6115"
+      ],
+      "automation_test_id": [
+        "test_stop_preserves_queue"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2878_stop-preserves-queue-automated.md"
+    },
+    {
+      "id": "ELITEA-2879",
+      "title": "Automated: Queue UI state management",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "high",
+      "size": "",
+      "module": "interjections",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.6",
+        "interjection",
+        "ui",
+        "automated",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6115"
+      ],
+      "automation_test_id": [
+        "test_queue_ui_state"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-2879_queue-ui-state-automated.md"
+    },
+    {
       "id": "ELITEA-2073",
       "title": "Chat – Create Agent with AI Build – Click Cancel and Verify Creation is Terminated",
       "status": "ready",
@@ -3931,8 +4573,8 @@
     {
       "id": "ELITEA-2088",
       "title": "Chat – Generate Mermaid Diagram and Open in Canvas Mode",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -3943,7 +4585,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_generate_mermaid_diagram_and_edit_in_canvas.TestGenerateMermaidDiagramAndEditInCanvas.test_generate_mermaid_diagram_and_edit_in_canvas"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6181,6 +6825,497 @@
       "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2703_mcp-toolkit-flat-list.md"
     },
     {
+      "id": "ELITEA-2855",
+      "title": "Regression - read_file_from_sharing_link Oversized-Content Cap, Bounded Read, Per-Type Size Validation, Excel Guidance, and read_document Parity",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "sharepoint",
+      "owner": "",
+      "tags": [
+        "int:sharepoint",
+        "feat:toolkits",
+        "issue:6051",
+        "oversized-file",
+        "content-too-large",
+        "start-line",
+        "end-line",
+        "bounded-read",
+        "test-settings-ui",
+        "error-handling",
+        "file-size-validation",
+        "image-limit",
+        "excel",
+        "read_document",
+        "artifacts",
+        "read_file_from_sharing_link"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6051"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkit/sharepoint-read-file-from-sharing-link/ELITEA-2855_read-file-from-sharing-link-oversized-cap-bounded-read-per-type-validation-and-excel-guidance.md"
+    },
+    {
+      "id": "ELITEA-2796",
+      "title": "Regression - Toolkit Details Layout and Navigation",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-redesign",
+        "layout"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2796_regression-toolkit-details-layout-and-navigation.md"
+    },
+    {
+      "id": "ELITEA-2797",
+      "title": "Regression - Index Search Functionality End-to-End",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-redesign",
+        "search"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2797_regression-index-search-functionality.md"
+    },
+    {
+      "id": "ELITEA-2798",
+      "title": "Regression - Index Creation and Status Display",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-redesign",
+        "indexes"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2798_regression-index-creation-and-status-display.md"
+    },
+    {
+      "id": "ELITEA-2799",
+      "title": "Regression - Form and Raw JSON Toggle Synchronization",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "toolkit-redesign",
+        "configuration"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2799_regression-form-raw-json-toggle-sync.md"
+    },
+    {
+      "id": "ELITEA-2800",
+      "title": "Regression - Run History and Schedule Display",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "toolkit-redesign",
+        "history",
+        "schedule"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2800_regression-run-history-and-schedule.md"
+    },
+    {
+      "id": "ELITEA-2823",
+      "title": "Regression - Toolkit Sections Default States and Layout",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-sections-redesign",
+        "layout"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2823_regression-toolkit-sections-default-states.md"
+    },
+    {
+      "id": "ELITEA-2824",
+      "title": "Regression - Tools Section Count Updates and Header Toggle",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-sections-redesign",
+        "tools"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2824_regression-tools-section-count-and-toggle.md"
+    },
+    {
+      "id": "ELITEA-2825",
+      "title": "Regression - Reindex Button Disabled When index_data Tool Unavailable",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-sections-redesign",
+        "reindex"
+      ],
+      "requirements": [
+        "EL-6252",
+        "EL-6371"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2825_regression-reindex-button-index-data-dependency.md"
+    },
+    {
+      "id": "ELITEA-2956",
+      "title": "Regression: Background Indexing Continues Across Navigation",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "toolkit-redesign",
+        "indexes",
+        "background-indexing"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2956_regression-background-indexing-continues-across-navigation.md"
+    },
+    {
+      "id": "ELITEA-2957",
+      "title": "Regression: Stop Produces Consistent Result From Activity and Configuration",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "toolkit-redesign",
+        "indexes",
+        "stop"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2957_regression-stop-consistent-result-across-tabs.md"
+    },
+    {
+      "id": "ELITEA-2958",
+      "title": "Regression: Reindex Produces Consistent Result From Activity and Configuration",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "toolkit-redesign",
+        "indexes",
+        "reindex"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2958_regression-reindex-consistent-result-across-tabs.md"
+    },
+    {
+      "id": "ELITEA-2959",
+      "title": "Regression: Multiple Indexes Under One Toolkit Remain Independent",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "toolkit-redesign",
+        "indexes",
+        "multi-index"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2959_regression-multiple-indexes-remain-independent.md"
+    },
+    {
+      "id": "ELITEA-2960",
+      "title": "Regression: Stepback Search and Stepback Summary Tools Execute and Render Correctly",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "toolkit-redesign",
+        "search"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2960_regression-stepback-tools-execution-and-results.md"
+    },
+    {
+      "id": "ELITEA-2833",
+      "title": "Automated: Save without reindex",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "critical",
+      "size": "",
+      "module": "indexing/save-reindex",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "r-2.0.6",
+        "automated",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6422"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2833_save-without-reindex-automated.md"
+    },
+    {
+      "id": "ELITEA-2834",
+      "title": "Automated: Save & Reindex flow",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "critical",
+      "size": "",
+      "module": "indexing/save-reindex",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "r-2.0.6",
+        "automated",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6422"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2834_save-and-reindex-flow-automated.md"
+    },
+    {
+      "id": "ELITEA-2835",
+      "title": "Automated: Validation blocks Save & Reindex",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "critical",
+      "size": "",
+      "module": "indexing/save-reindex",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "r-2.0.6",
+        "automated",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6422"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2835_validation-blocks-save-and-reindex-automated.md"
+    },
+    {
+      "id": "ELITEA-2836",
+      "title": "Automated: Button states - dirty and clean transitions",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "critical",
+      "size": "",
+      "module": "indexing/save-reindex",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "r-2.0.6",
+        "automated",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6422"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2836_button-states-dirty-clean-automated.md"
+    },
+    {
+      "id": "ELITEA-2888",
+      "title": "Automated: Configuration persistence after page reload",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "high",
+      "size": "",
+      "module": "indexing/save-reindex",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "r-2.0.6",
+        "automated",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6422"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2888_configuration-persistence-automated.md"
+    },
+    {
+      "id": "ELITEA-2889",
+      "title": "Automated: Manual reindex uses last saved configuration",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "automated",
+      "priority": "high",
+      "size": "",
+      "module": "indexing/save-reindex",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "r-2.0.6",
+        "automated",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6422"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2889_manual-reindex-uses-saved-config-automated.md"
+    },
+    {
       "id": "ELITEA-1962",
       "title": "Create Credential",
       "status": "ready",
@@ -6754,8 +7889,8 @@
     {
       "id": "ELITEA-2243",
       "title": "Clicking each Settings sidebar item navigates to its dedicated page",
-      "status": "ready",
-      "execution_type": "automated",
+      "status": "draft",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6800,8 +7935,8 @@
     {
       "id": "ELITEA-2245",
       "title": "Admin role has access to all PROJECT settings sections",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6812,7 +7947,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_admin_role_project_sections_access.TestAdminRoleProjectSectionsAccess.test_admin_role_has_access_to_all_project_settings_sections"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6821,8 +7958,8 @@
     {
       "id": "ELITEA-2246",
       "title": "Viewer and Monitor roles cannot access Secrets section",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -6833,7 +7970,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_viewer_role_cannot_access_secrets.TestViewerRoleCannotAccessSecrets.test_viewer_role_is_not_offered_the_secrets_section"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6842,8 +7981,8 @@
     {
       "id": "ELITEA-2247",
       "title": "All authenticated roles can access PERSONAL settings sections",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -6854,7 +7993,11 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_all_roles_access_personal_sections.TestAllRolesAccessPersonalSections.test_all_roles_can_access_personal_settings_sections[admin]",
+        "tests.ui.settings.test_all_roles_access_personal_sections.TestAllRolesAccessPersonalSections.test_all_roles_can_access_personal_settings_sections[editor]",
+        "tests.ui.settings.test_all_roles_access_personal_sections.TestAllRolesAccessPersonalSections.test_all_roles_can_access_personal_settings_sections[viewer]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7037,8 +8180,8 @@
     {
       "id": "ELITEA-2293",
       "title": "Users table columns are sortable",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -7049,7 +8192,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_users_column_sorting.TestUsersColumnSorting.test_users_table_columns_are_sortable"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7058,8 +8203,8 @@
     {
       "id": "ELITEA-2294",
       "title": "Users page search filters the table in real time",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7070,7 +8215,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_users_search_filter.TestUsersSearchFilter.test_users_page_search_filters_the_table_in_real_time"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7079,8 +8226,8 @@
     {
       "id": "ELITEA-2295",
       "title": "Invite users dialog opens with correct layout",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7091,7 +8238,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_users_invite_dialog_layout.TestUsersInviteDialogLayout.test_invite_users_dialog_opens_with_correct_layout"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7100,8 +8249,8 @@
     {
       "id": "ELITEA-2296",
       "title": "Invite a single user with a role",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7112,7 +8261,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_users_invite_single_and_multiple.TestUsersInviteSingleAndMultiple.test_invite_users_with_role"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7121,8 +8272,8 @@
     {
       "id": "ELITEA-2297",
       "title": "Invite multiple users simultaneously using comma-separated emails",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7133,7 +8284,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_users_invite_single_and_multiple.TestUsersInviteSingleAndMultiple.test_invite_users_with_role"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7142,8 +8295,8 @@
     {
       "id": "ELITEA-2298",
       "title": "Delete a user via per-row Delete icon",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7154,7 +8307,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_user_delete_via_row_icon.TestUserDeleteViaRowIcon.test_delete_user_via_row_icon"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7184,8 +8339,8 @@
     {
       "id": "ELITEA-2300",
       "title": "Cancel deletion keeps the user intact",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -7196,7 +8351,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_user_delete_cancel_keeps_user.TestUserDeleteCancelKeepsUser.test_cancel_deletion_keeps_user_intact"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7205,8 +8362,8 @@
     {
       "id": "ELITEA-2301",
       "title": "Edit roles dialog opens with correct layout and current role pre-selected",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7217,7 +8374,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_users_row_edit_roles_dialog_layout.TestUsersRowEditRolesDialogLayout.test_row_edit_roles_dialog_layout_and_current_role"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7226,8 +8385,8 @@
     {
       "id": "ELITEA-2302",
       "title": "Change a user's role via Edit roles dialog",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7238,7 +8397,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_users_row_edit_roles_change.TestUsersRowEditRolesChange.test_change_roles_via_row_edit_dialog"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7247,8 +8408,8 @@
     {
       "id": "ELITEA-2303",
       "title": "Assign multiple roles to a user via Edit roles dialog",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7259,7 +8420,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_users_row_edit_roles_change.TestUsersRowEditRolesChange.test_change_roles_via_row_edit_dialog"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7291,8 +8454,8 @@
     {
       "id": "ELITEA-2305",
       "title": "Available roles in Invite and Edit dialogs are admin, editor, and viewer",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7303,7 +8466,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_users_roles_in_invite_and_edit_dialogs.TestUsersRolesInInviteAndEditDialogs.test_available_roles_in_invite_and_edit_dialogs"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7356,8 +8521,8 @@
     {
       "id": "ELITEA-2308",
       "title": "Invite user without selecting a role",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7368,7 +8533,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_users_invite_without_role.TestUsersInviteWithoutRole.test_invite_user_without_selecting_a_role"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7377,8 +8544,8 @@
     {
       "id": "ELITEA-2309",
       "title": "Invite user who is already a project member shows appropriate error",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7389,7 +8556,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_users_invite_existing_member_error.TestUsersInviteExistingMemberError.test_invite_existing_project_member_shows_error"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7398,8 +8567,8 @@
     {
       "id": "ELITEA-2266",
       "title": "Project Context page loads with correct layout and components",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7410,7 +8579,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_page_layout.TestProjectContextPageLayout.test_project_context_page_layout"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7419,8 +8590,8 @@
     {
       "id": "ELITEA-2267",
       "title": "Project Context toggle enables and disables context injection",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -7431,7 +8602,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_toggle_enable_disable.TestProjectContextToggleEnableDisable.test_project_context_toggle_enable_disable"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7440,8 +8613,8 @@
     {
       "id": "ELITEA-2268",
       "title": "Project Background editor accepts and displays markdown content",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7452,7 +8625,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_markdown_editor.TestProjectContextMarkdownEditor.test_project_context_markdown_editor_and_preview"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7461,8 +8636,8 @@
     {
       "id": "ELITEA-2269",
       "title": "Build with AI button generates project context content",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7473,7 +8648,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_build_with_ai_generates.TestProjectContextBuildWithAI.test_build_with_ai_generates_content_and_stays_editable"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7482,8 +8659,8 @@
     {
       "id": "ELITEA-2270",
       "title": "Build with AI can be cancelled without modifying the editor content",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7494,7 +8671,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_build_with_ai_cancel.TestProjectContextBuildWithAICancel.test_ai_dialog_cancel_leaves_editor_content_unchanged"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7503,8 +8682,8 @@
     {
       "id": "ELITEA-2271",
       "title": "Upload file icon allows importing content into the Project Background editor",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7515,7 +8694,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_import_markdown_file.TestProjectContextImportMarkdownFile.test_import_markdown_file_into_editor_and_edit_it"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7547,8 +8728,8 @@
     {
       "id": "ELITEA-2273",
       "title": "Save button persists Project Background content after page reload",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7559,7 +8740,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_save_persists.TestProjectContextSavePersists.test_save_persists_project_context_after_reload"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7568,8 +8751,8 @@
     {
       "id": "ELITEA-2274",
       "title": "Discard button reverts unsaved changes",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7580,7 +8763,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_discard_reverts.TestProjectContextDiscardReverts.test_discard_reverts_unsaved_changes"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7589,8 +8774,8 @@
     {
       "id": "ELITEA-2275",
       "title": "Save and Discard buttons are only active when there are unsaved changes",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7601,7 +8786,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_save_discard_dirty_state.TestProjectContextSaveDiscardDirtyState.test_save_and_discard_active_only_with_unsaved_changes"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7610,8 +8797,8 @@
     {
       "id": "ELITEA-2276",
       "title": "Empty Project Background can be saved whith toggle OFF and ON",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7622,7 +8809,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_project_context_empty_save_toggle_off_on.TestProjectContextEmptySaveToggleOffOn.test_project_context_empty_save_toggle_off_on"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7957,8 +9146,8 @@
     {
       "id": "ELITEA-2372",
       "title": "All collapsible sections can be collapsed and expanded",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7969,7 +9158,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_settings_sections_collapse_expand.TestSettingsSectionsCollapseExpand.test_settings_sections_collapse_expand"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7978,8 +9169,8 @@
     {
       "id": "ELITEA-2373",
       "title": "Profile section shows correct user avatar, display name, and email",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -7990,7 +9181,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_settings_profile_identity.TestSettingsProfileIdentity.test_settings_profile_avatar_name_email"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8022,8 +9215,8 @@
     {
       "id": "ELITEA-2375",
       "title": "Disabling context management also deactivates summarization regardless of summarization toggle state",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8034,7 +9227,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_disabling_context_management_deactivates_summarization"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8043,8 +9238,8 @@
     {
       "id": "ELITEA-2376",
       "title": "Max Context Tokens and Preserve Recent Messages values persist after save and reload",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8055,7 +9250,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_context_management_values_persist.TestContextManagementValuesPersist.test_context_management_values_persist_after_reload"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8110,8 +9307,8 @@
     {
       "id": "ELITEA-2379",
       "title": "Summarization instructions and target tokens persist after save and reload",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8122,7 +9319,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_context_management_values_persist.TestContextManagementValuesPersist.test_context_management_values_persist_after_reload"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8152,8 +9351,8 @@
     {
       "id": "ELITEA-2381",
       "title": "Default Personality dropdown shows all six documented options",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8164,7 +9363,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_default_personality_options.TestDefaultPersonalityOptions.test_default_personality_dropdown_options"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8173,8 +9374,8 @@
     {
       "id": "ELITEA-2382",
       "title": "Default User Instructions text persists after save and reload",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8185,7 +9386,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_default_user_instructions_persist.TestDefaultUserInstructionsPersist.test_default_user_instructions_persist_after_reload"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8194,8 +9397,8 @@
     {
       "id": "ELITEA-2383",
       "title": "General settings (personality and instructions) are independent of context management toggle state",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8206,7 +9409,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_personality_independent_of_context_management.TestPersonalityIndependentOfContextManagement.test_personality_settings_independent_of_context_management"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8215,8 +9420,8 @@
     {
       "id": "ELITEA-2384",
       "title": "Personalization settings only apply to new conversations — existing conversations are unaffected",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8227,7 +9432,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_personalization_new_conversations_only.TestPersonalizationAppliesToNewConversationsOnly.test_personalization_applies_to_new_conversations_only"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8257,8 +9464,8 @@
     {
       "id": "ELITEA-2386",
       "title": "Sound Notifications — toggle and volume slider are interactive",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8269,7 +9476,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_sound_notifications_controls.TestSoundNotificationsControls.test_sound_notifications_toggle_and_volume_are_interactive"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8278,8 +9487,8 @@
     {
       "id": "ELITEA-2387",
       "title": "Personalization settings save automatically without a Save button",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8290,7 +9499,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_personalization_autosave_no_save_button.TestPersonalizationAutosaveNoSaveButton.test_personalization_autosave_no_save_button"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8299,8 +9510,8 @@
     {
       "id": "ELITEA-2388",
       "title": "Default Personality change applies to new conversations",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8311,7 +9522,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_personalization_new_conversations_only.TestPersonalizationAppliesToNewConversationsOnly.test_personalization_applies_to_new_conversations_only"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8320,8 +9533,8 @@
     {
       "id": "ELITEA-2389",
       "title": "Default User Instructions apply to new conversations",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8332,7 +9545,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_personalization_new_conversations_only.TestPersonalizationAppliesToNewConversationsOnly.test_personalization_applies_to_new_conversations_only"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8341,8 +9556,8 @@
     {
       "id": "ELITEA-2390",
       "title": "Context management settings apply to new conversations only",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8353,7 +9568,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_context_settings_new_conversations_only.TestContextSettingsApplyToNewConversationsOnly.test_context_settings_apply_to_new_conversations_only"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8429,8 +9646,8 @@
     {
       "id": "ELITEA-2279",
       "title": "Token name and expiration columns are sortable",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8441,7 +9658,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_tokens_column_sorting.TestPersonalTokensColumnSorting.test_token_name_and_expiration_columns_are_sortable"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8473,8 +9692,8 @@
     {
       "id": "ELITEA-2281",
       "title": "Delete a personal token and verify it is removed from the table",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8485,7 +9704,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_delete.TestPersonalTokenDelete.test_delete_personal_token_removed_from_table"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8494,8 +9715,8 @@
     {
       "id": "ELITEA-2282",
       "title": "Token expiration period unit and value can be configured",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8506,7 +9727,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_expiration_config.TestPersonalTokenExpirationConfig.test_token_expiration_unit_and_value_can_be_configured"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8515,8 +9738,8 @@
     {
       "id": "ELITEA-2283",
       "title": "Token can be created without an expiration date",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8527,7 +9750,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_never_expiration.TestPersonalTokenNeverExpiration.test_token_created_without_expiration_shows_never"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8559,8 +9784,8 @@
     {
       "id": "ELITEA-2285",
       "title": "Token value is shown only once in the generation dialog",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8571,7 +9796,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_create_personal_token_and_verify_in_table"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8603,8 +9830,8 @@
     {
       "id": "ELITEA-2287",
       "title": "Search field filters tokens by name in real time",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8615,7 +9842,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_tokens_search_filter.TestPersonalTokensSearchFilter.test_search_field_filters_tokens_by_name_in_real_time"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8624,8 +9853,8 @@
     {
       "id": "ELITEA-2288",
       "title": "Duplicate token names are allowed",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8636,7 +9865,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_duplicate_names.TestPersonalTokenDuplicateNames.test_duplicate_token_names_are_allowed"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8657,7 +9888,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_ide_config_download.TestPersonalTokenIdeConfigDownload.test_ide_download_icon_generates_config_file"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8666,8 +9899,8 @@
     {
       "id": "ELITEA-2290",
       "title": "JetBrains download icon generates a downloadable configuration file",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8678,7 +9911,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_ide_config_download.TestPersonalTokenIdeConfigDownload.test_ide_download_icon_generates_config_file"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8699,7 +9934,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_personal_token_settings_preview.TestPersonalTokenSettingsPreview.test_eye_icon_opens_ide_settings_preview_panel"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8731,8 +9968,8 @@
     {
       "id": "ELITEA-2393",
       "title": "OpenAI Template tab loads code template content",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8743,7 +9980,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_ai_configuration_openai_template_tab.TestAIConfigurationOpenAITemplateTab.test_openai_template_tab_loads_code_template"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8752,8 +9991,8 @@
     {
       "id": "ELITEA-2394",
       "title": "Settings landing — AI Configuration page shows correct environment metadata fields",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8764,7 +10003,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_ai_configuration_metadata_fields.TestAIConfigurationMetadataFields.test_ai_configuration_metadata_fields"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8773,8 +10014,8 @@
     {
       "id": "ELITEA-2395",
       "title": "Create a new LLM model configuration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8785,7 +10026,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_llm_model_create.TestCreateLlmModelConfiguration.test_create_llm_model_and_set_as_default"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8794,8 +10037,8 @@
     {
       "id": "ELITEA-2396",
       "title": "Edit an existing LLM model configuration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8806,7 +10049,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_llm_model_edit.TestEditLlmModelConfiguration.test_edit_llm_model_display_name"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8838,8 +10083,8 @@
     {
       "id": "ELITEA-2398",
       "title": "Create a new Embedding Model configuration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8850,7 +10095,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_embedding_model_create.TestCreateEmbeddingModelConfiguration.test_create_embedding_model_configuration"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8859,8 +10106,8 @@
     {
       "id": "ELITEA-2399",
       "title": "Create a new Vector Storage (PGVector) configuration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8871,7 +10118,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_vector_storage_create.TestCreateVectorStorageConfiguration.test_create_pgvector_configuration"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8880,8 +10129,8 @@
     {
       "id": "ELITEA-2400",
       "title": "Edit an existing Vector Storage configuration",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8892,7 +10141,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_vector_storage_edit.TestEditVectorStorageConfiguration.test_edit_pgvector_display_name"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8922,8 +10173,8 @@
     {
       "id": "ELITEA-2402",
       "title": "Image Generation section displays model cards and default selector",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8934,7 +10185,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_ai_provider_section_cards_and_default_selector.TestAiProviderSectionCardsAndDefaultSelector.test_section_shows_model_cards_and_default_selector[ELITEA-2402-image-generation]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8943,8 +10196,8 @@
     {
       "id": "ELITEA-2403",
       "title": "Change the default image generation model",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8955,7 +10208,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_change_section_default_model.TestChangeSectionDefaultModel.test_change_section_default_model[ELITEA-2403-image-generation]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8964,8 +10219,8 @@
     {
       "id": "ELITEA-2404",
       "title": "ASR section displays model cards and default selector",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8976,7 +10231,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_ai_provider_section_cards_and_default_selector.TestAiProviderSectionCardsAndDefaultSelector.test_section_shows_model_cards_and_default_selector[ELITEA-2404-asr]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8985,8 +10242,8 @@
     {
       "id": "ELITEA-2405",
       "title": "Change the default ASR model",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -8997,7 +10254,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_change_section_default_model.TestChangeSectionDefaultModel.test_change_section_default_model[ELITEA-2405-asr]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9006,8 +10265,8 @@
     {
       "id": "ELITEA-2406",
       "title": "TTS section displays model cards and default selector",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9018,7 +10277,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_ai_provider_section_cards_and_default_selector.TestAiProviderSectionCardsAndDefaultSelector.test_section_shows_model_cards_and_default_selector[ELITEA-2406-tts]"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9027,8 +10288,8 @@
     {
       "id": "ELITEA-2407",
       "title": "Change the default TTS model",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9039,7 +10300,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_change_default_tts_model.TestChangeDefaultTtsModel.test_change_default_tts_model"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9069,8 +10332,8 @@
     {
       "id": "ELITEA-2409",
       "title": "Create LLM Model — ID is auto-populated from Display Name",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9081,7 +10344,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_llm_model_id_autopopulated.TestLlmModelIdAutoPopulated.test_id_is_auto_populated_and_read_only"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9132,8 +10397,8 @@
     {
       "id": "ELITEA-2412",
       "title": "Saving a new LLM model configuration persists after page reload",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9144,7 +10409,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_llm_model_create.TestCreateLlmModelConfiguration.test_create_llm_model_and_set_as_default"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9153,8 +10420,8 @@
     {
       "id": "ELITEA-2413",
       "title": "Editing an existing configuration persists after page reload",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9165,7 +10432,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_llm_model_edit.TestEditLlmModelConfiguration.test_edit_llm_model_display_name"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9174,8 +10443,8 @@
     {
       "id": "ELITEA-2414",
       "title": "Default tier selection persists after page reload",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9186,7 +10455,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_set_llm_model_default_high_low_tier.TestSetLLMModelTiers.test_set_llm_model_default_high_low_tier"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9195,8 +10466,8 @@
     {
       "id": "ELITEA-2415",
       "title": "Test connection button shows error for invalid or expired credentials",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -9207,7 +10478,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_ai_credential_test_connection.test_ai_credential_test_connection_error_then_success"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9281,8 +10554,8 @@
     {
       "id": "ELITEA-2311",
       "title": "Overview tab displays all six KPI cards with correct labels and non-empty values",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9293,7 +10566,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_overview_kpi_cards.TestAnalyticsOverviewKpiCards.test_overview_tab_kpi_cards"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9348,8 +10623,8 @@
     {
       "id": "ELITEA-2314",
       "title": "Predefined date presets update the From/To pickers and refresh all content",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9360,7 +10635,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_date_filter_controls.TestAnalyticsDatePresets.test_presets_update_pickers_and_refresh_content"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9369,8 +10646,8 @@
     {
       "id": "ELITEA-2315",
       "title": "Custom From/To date range filters data",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9381,7 +10658,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_date_filter_controls.TestAnalyticsCustomDateRange.test_custom_from_to_range_filters_data"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9390,8 +10669,8 @@
     {
       "id": "ELITEA-2316",
       "title": "From date cannot be set later than To date",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9402,7 +10681,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_date_filter_controls.TestAnalyticsFromDateConstraint.test_from_date_cannot_be_later_than_to_date"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9411,8 +10692,8 @@
     {
       "id": "ELITEA-2317",
       "title": "Switching preset filters updates KPI cards, charts, and tables on Overview tab",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9423,7 +10704,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_date_filter_content_refresh.TestAnalyticsOverviewContentRefresh.test_preset_switch_updates_overview_content"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9432,8 +10715,8 @@
     {
       "id": "ELITEA-2318",
       "title": "Switching preset filters updates content on Agents, Tools, and Users tabs",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9444,7 +10727,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_date_filter_content_refresh.TestAnalyticsTabContentRefresh.test_preset_switch_updates_agents_tools_and_users_tabs"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9453,8 +10738,8 @@
     {
       "id": "ELITEA-2319",
       "title": "Date filter is retained when switching between tabs",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -9465,7 +10750,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_date_filter_content_refresh.TestAnalyticsDateFilterRetention.test_date_filter_retained_when_switching_tabs"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9520,8 +10807,8 @@
     {
       "id": "ELITEA-2322",
       "title": "Tools tab displays Most Popular Tools bar chart and Tool Details table",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9532,7 +10819,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_tools_tab.TestAnalyticsToolsTab.test_tools_tab_chart_and_details_table"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9541,8 +10830,8 @@
     {
       "id": "ELITEA-2323",
       "title": "Users tab search by email filters the User Activity table",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9553,7 +10842,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_users_activity_table.TestAnalyticsUsersActivityTable.test_users_tab_activity_table_columns_and_pagination"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9562,8 +10853,8 @@
     {
       "id": "ELITEA-2324",
       "title": "Health tab displays Requests vs Errors chart and Health by Event Type table",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9574,7 +10865,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_health_tab.TestAnalyticsHealthTab.test_health_tab_chart_and_event_type_table"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9583,8 +10876,8 @@
     {
       "id": "ELITEA-2325",
       "title": "Guide tab displays explanatory documentation for each metric",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9595,7 +10888,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_guide_tab.TestAnalyticsGuideTab.test_guide_tab_metric_documentation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9604,8 +10899,8 @@
     {
       "id": "ELITEA-2326",
       "title": "Hovering over Daily Activity chart on Overview tab shows tooltip with date and series values",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9616,7 +10911,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_overview_daily_chart_tooltip.TestAnalyticsOverviewDailyChartTooltip.test_overview_daily_chart_hover_tooltip"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9625,8 +10922,8 @@
     {
       "id": "ELITEA-2327",
       "title": "Hovering over a bar in Most Active Agents chart shows agent name and event count",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9637,7 +10934,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_bar_chart_tooltip.TestAnalyticsBarChartTooltip.test_bar_chart_hover_tooltip"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9646,8 +10945,8 @@
     {
       "id": "ELITEA-2328",
       "title": "Hovering over Most Popular Tools bar chart shows tool name and call count",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9658,7 +10957,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_bar_chart_tooltip.TestAnalyticsBarChartTooltip.test_bar_chart_hover_tooltip"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9667,8 +10968,8 @@
     {
       "id": "ELITEA-2329",
       "title": "Hovering over user detail Daily Activity chart shows per-series values",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9679,7 +10980,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_user_detail_view.TestAnalyticsUserDetailView.test_users_tab_row_click_opens_detail_view"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10098,8 +11401,8 @@
     {
       "id": "ELITEA-2345",
       "title": "Hiding a secret used by existing credentials does not break those credentials",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -10110,7 +11413,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_hidden_secret_not_breaking_credentials.TestHiddenSecretNotBreakingCredentials.test_hiding_secret_used_by_credential_does_not_break_it"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10119,8 +11424,8 @@
     {
       "id": "ELITEA-2346",
       "title": "Hidden secret does not appear in secret selection dropdown for new credentials",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -10131,7 +11436,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_hidden_secret_absent_from_ai_provider_dropdown.TestHiddenSecretAbsentFromAIProviderDropdown.test_hidden_secret_absent_from_ai_provider_dropdown"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10163,8 +11470,8 @@
     {
       "id": "ELITEA-2348",
       "title": "Viewer and Monitor roles cannot access Secrets section",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -10175,7 +11482,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_viewer_role_cannot_access_secrets.TestViewerRoleCannotAccessSecrets.test_viewer_role_is_not_offered_the_secrets_section"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10184,8 +11493,8 @@
     {
       "id": "ELITEA-2349",
       "title": "Secrets page shows error state on network failure",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -10196,7 +11505,9 @@
         "feat:settings"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_secrets_error_state_on_network_failure.TestSecretsErrorStateOnNetworkFailure.test_secrets_error_state_on_network_failure_and_recovery"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -10632,7 +11943,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.pipelines.test_pipeline_management.TestCreatePipeline.test_create_pipeline_minimal_via_sidebar_button"
+        "tests.ui.pipelines_2.test_pipeline_management.TestCreatePipeline.test_create_pipeline_minimal_via_sidebar_button"
       ],
       "targets": [],
       "dependencies": [],
@@ -11667,7 +12978,7 @@
       ],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.pipelines.test_pipeline_tools_section_mcp_add_view_remove.test_tools_section_mcp_add_view_remove"
+        "tests.ui.pipelines_2.test_pipeline_tools_section_mcp_add_view_remove.test_tools_section_mcp_add_view_remove"
       ],
       "targets": [],
       "dependencies": [],
