@@ -1,37 +1,37 @@
 # Test Dashboard
 
-_Generated: 2026-09-01 01:57 UTC_
+_Generated: 2026-09-02 01:01 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-09-01-89-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-AMBER**
+**RUN-ELITEA-2026-09-02-94-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-FAILED**
 
 ```mermaid
 pie showData
     title "Test Results (26 total)"
-    "Passed" : 24
-    "Failed" : 0
+    "Passed" : 23
+    "Failed" : 1
     "Skipped" : 2
 ```
 
 | Metric | Value |
 |--------|-------|
 | Total | 26 |
-| Passed | 24 |
-| Failed | 0 |
+| Passed | 23 |
+| Failed | 1 |
 | Skipped | 2 |
 | Reruns | 0 |
-| Pass Rate | 92.3% |
+| Pass Rate | 88.5% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [24-47-DEV-STABLE, 24-49-DEV-STABLE, 24-50-DEV-STABLE, 25-71-DEV-STABLE, 27-80-DEV-STABLE, 27-83-DEV-STABLE, 29-86-DEV-STABLE, 30-87-DEV-STABLE, 31-88-DEV-STABLE, 01-89-DEV-STABLE]
+    x-axis [24-49-DEV-STABLE, 24-50-DEV-STABLE, 25-71-DEV-STABLE, 27-80-DEV-STABLE, 27-83-DEV-STABLE, 29-86-DEV-STABLE, 30-87-DEV-STABLE, 31-88-DEV-STABLE, 01-89-DEV-STABLE, 02-94-DEV-STABLE]
     y-axis "Tests" 0 --> 135
-    bar "Passed" [130, 0, 0, 130, 0, 100, 24, 24, 24, 24]
-    bar "Failed" [10, 3, 0, 14, 0, 8, 0, 0, 0, 0]
+    bar "Passed" [0, 0, 130, 0, 100, 24, 24, 24, 24, 23]
+    bar "Failed" [3, 0, 14, 0, 8, 0, 0, 0, 0, 1]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [24-47-DEV-STABLE, 24-49-DEV-STABLE, 24-50-DEV-STABLE, 25-71-DEV-STABLE, 27-80-DEV-STABLE, 27-83-DEV-STABLE, 29-86-DEV-STABLE, 30-87-DEV-STABLE, 31-88-DEV-STABLE, 01-89-DEV-STABLE]
+    x-axis [24-49-DEV-STABLE, 24-50-DEV-STABLE, 25-71-DEV-STABLE, 27-80-DEV-STABLE, 27-83-DEV-STABLE, 29-86-DEV-STABLE, 30-87-DEV-STABLE, 31-88-DEV-STABLE, 01-89-DEV-STABLE, 02-94-DEV-STABLE]
     y-axis "Reruns" 0 --> 33
-    line "Reruns" [16, 6, 0, 30, 0, 12, 0, 0, 0, 0]
+    line "Reruns" [6, 0, 30, 0, 12, 0, 0, 0, 0, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 02-94-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 | ✅ 01-89-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ✅ 31-88-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ✅ 30-87-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
@@ -57,7 +58,6 @@ xychart-beta
 | ❌ 25-71-DEV-STABLE | 157 | 130 | 14 | 13 | 30 | 83% |
 | ✅ 24-50-DEV-STABLE | 0 | 0 | 0 | 0 | 0 | 0% |
 | ❌ 24-49-DEV-STABLE | 3 | 0 | 3 | 0 | 6 | 0% |
-| ❌ 24-47-DEV-STABLE | 152 | 130 | 10 | 12 | 16 | 86% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -69,16 +69,16 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 | Metric | Count |
 |--------|-------|
 | Tests in automation | 432 |
-| Tests linked to TMS cases | 251 |
-| Tests without TMS case | 181 |
-| Orphan TMS refs (test missing) | 261 |
-| **TMS Coverage** | **58.1%** |
+| Tests linked to TMS cases | 258 |
+| Tests without TMS case | 174 |
+| Orphan TMS refs (test missing) | 339 |
+| **TMS Coverage** | **59.7%** |
 
 ```mermaid
 pie showData
     title "TMS Linkage (432 tests)"
-    "Linked to TMS" : 251
-    "No TMS case" : 181
+    "Linked to TMS" : 258
+    "No TMS case" : 174
 ```
 
 ### Tests Without TMS Case
@@ -86,7 +86,7 @@ pie showData
 _Tests that exist in automation but have no linked TMS case._
 
 <details>
-<summary>Show 181 unlinked tests</summary>
+<summary>Show 174 unlinked tests</summary>
 
 - `tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_after`
 - `tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_before`
@@ -157,11 +157,6 @@ _Tests that exist in automation but have no linked TMS case._
 - `tests.ui.chat.test_conversation_management.TestConversationNavigation.test_send_message_persists_conversation`
 - `tests.ui.chat.test_conversation_management.TestCreateConversation.test_create_conversation_via_api`
 - `tests.ui.chat.test_conversation_management.TestCreateConversation.test_new_conversation_default_settings`
-- `tests.ui.chat.test_generate_mermaid_diagram_and_edit_in_canvas.TestGenerateMermaidDiagramAndEditInCanvas.test_generate_mermaid_diagram_and_edit_in_canvas`
-- `tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionAuthorize.test_authorize_executes_toolkit_tool_directly`
-- `tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionBlock.test_block_prevents_toolkit_tool_from_executing`
-- `tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionBlockWithComment.test_block_with_comment_records_reason_and_blocks_action`
-- `tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionCardDisplay.test_sensitive_action_card_displays_for_direct_toolkit_call`
 - `tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[detailed_description]`
 - `tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[minimal_prompt]`
 - `tests.ui.chat.test_move_conversation_to_folder.TestMoveConversationToNewFolder.test_move_conversation_to_new_folder`
@@ -185,7 +180,6 @@ _Tests that exist in automation but have no linked TMS case._
 - `tests.ui.pipelines_2.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_task_chat_history_config`
 - `tests.ui.pipelines_2.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_type_walks_fixed_fstring_variable`
 - `tests.ui.pipelines_2.test_pipeline_llm_structured_output_state_variables.test_llm_structured_output_parses_into_state_variables`
-- `tests.ui.pipelines_2.test_pipeline_management.TestCreatePipeline.test_create_pipeline_minimal_via_sidebar_button`
 - `tests.ui.pipelines_2.test_pipeline_management.TestCreatePipeline.test_create_pipeline_required_fields_validation`
 - `tests.ui.pipelines_2.test_pipeline_management.TestCreatePipeline.test_create_pipeline_via_ui`
 - `tests.ui.pipelines_2.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_api`
@@ -227,7 +221,6 @@ _Tests that exist in automation but have no linked TMS case._
 - `tests.ui.pipelines_2.test_pipeline_tags_add_and_filter.test_pipeline_tags_add_and_filter`
 - `tests.ui.pipelines_2.test_pipeline_three_dot_menu_actions.test_pipeline_three_dot_menu_actions`
 - `tests.ui.pipelines_2.test_pipeline_toolkit_node_config_and_input_mapping.test_toolkit_node_config_and_input_mapping`
-- `tests.ui.pipelines_2.test_pipeline_tools_section_mcp_add_view_remove.test_tools_section_mcp_add_view_remove`
 - `tests.ui.pipelines_2.test_pipeline_webhook_trigger_settings_modal.test_webhook_trigger_settings_modal`
 - `tests.ui.pipelines_2.test_pipeline_welcome_message_shown_before_first_input.test_pipeline_welcome_message_shown_before_first_input`
 - `tests.ui.pipelines_2.test_pipeline_yaml_editor_invalid_syntax.test_yaml_editor_invalid_syntax_blocks_save`
@@ -277,14 +270,64 @@ _Tests that exist in automation but have no linked TMS case._
 _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 
 <details>
-<summary>Show 261 orphan refs</summary>
+<summary>Show 339 orphan refs</summary>
 
+- `test_attachment_blocking` (ELITEA-2877)
+- `test_interjection_queuing_sequential` (ELITEA-2875)
+- `test_message_order_fifo` (ELITEA-2876)
+- `test_queue_ui_state` (ELITEA-2879)
+- `test_stop_preserves_queue` (ELITEA-2878)
+- `tests.ui.admin.test_analytics_bar_chart_tooltip.TestAnalyticsBarChartTooltip.test_bar_chart_hover_tooltip` (ELITEA-2328)
+- `tests.ui.admin.test_analytics_date_filter_content_refresh.TestAnalyticsDateFilterRetention.test_date_filter_retained_when_switching_tabs` (ELITEA-2319)
+- `tests.ui.admin.test_analytics_date_filter_content_refresh.TestAnalyticsOverviewContentRefresh.test_preset_switch_updates_overview_content` (ELITEA-2317)
+- `tests.ui.admin.test_analytics_date_filter_content_refresh.TestAnalyticsTabContentRefresh.test_preset_switch_updates_agents_tools_and_users_tabs` (ELITEA-2318)
+- `tests.ui.admin.test_analytics_date_filter_controls.TestAnalyticsCustomDateRange.test_custom_from_to_range_filters_data` (ELITEA-2315)
+- `tests.ui.admin.test_analytics_date_filter_controls.TestAnalyticsDatePresets.test_presets_update_pickers_and_refresh_content` (ELITEA-2314)
+- `tests.ui.admin.test_analytics_date_filter_controls.TestAnalyticsFromDateConstraint.test_from_date_cannot_be_later_than_to_date` (ELITEA-2316)
+- `tests.ui.admin.test_analytics_guide_tab.TestAnalyticsGuideTab.test_guide_tab_metric_documentation` (ELITEA-2325)
+- `tests.ui.admin.test_analytics_health_tab.TestAnalyticsHealthTab.test_health_tab_chart_and_event_type_table` (ELITEA-2324)
+- `tests.ui.admin.test_analytics_overview_daily_chart_tooltip.TestAnalyticsOverviewDailyChartTooltip.test_overview_daily_chart_hover_tooltip` (ELITEA-2326)
+- `tests.ui.admin.test_analytics_overview_kpi_cards.TestAnalyticsOverviewKpiCards.test_overview_tab_kpi_cards` (ELITEA-2311)
+- `tests.ui.admin.test_analytics_tools_tab.TestAnalyticsToolsTab.test_tools_tab_chart_and_details_table` (ELITEA-2322)
+- `tests.ui.admin.test_hidden_secret_absent_from_ai_provider_dropdown.TestHiddenSecretAbsentFromAIProviderDropdown.test_hidden_secret_absent_from_ai_provider_dropdown` (ELITEA-2346)
+- `tests.ui.admin.test_hidden_secret_not_breaking_credentials.TestHiddenSecretNotBreakingCredentials.test_hiding_secret_used_by_credential_does_not_break_it` (ELITEA-2345)
 - `tests.ui.admin.test_notification_center_layout.TestNotificationCenterLayout.test_notification_center_page_layout_and_header` (ELITEA-2255)
 - `tests.ui.admin.test_notification_center_pagination.TestNotificationCenterPagination.test_notification_center_pagination_controls` (ELITEA-2256)
 - `tests.ui.admin.test_notification_link_navigates_to_bucket.TestNotificationBucketRetentionLinkNavigation.test_bucket_retention_link_navigates_to_bucket` (ELITEA-2263)
 - `tests.ui.admin.test_notification_link_navigates_to_conversation.TestNotificationChatMentionLinkNavigation.test_chat_mention_link_navigates_to_conversation` (ELITEA-2261)
 - `tests.ui.admin.test_notification_search_filter.TestNotificationSearchFilter.test_search_field_filters_notifications_by_text` (ELITEA-2264)
 - `tests.ui.admin.test_notification_unread_read_visual_distinction.TestNotificationUnreadReadVisualDistinction.test_unread_notifications_are_visually_distinct_from_read` (ELITEA-2258)
+- `tests.ui.admin.test_personal_token_delete.TestPersonalTokenDelete.test_delete_personal_token_removed_from_table` (ELITEA-2281)
+- `tests.ui.admin.test_personal_token_duplicate_names.TestPersonalTokenDuplicateNames.test_duplicate_token_names_are_allowed` (ELITEA-2288)
+- `tests.ui.admin.test_personal_token_expiration_config.TestPersonalTokenExpirationConfig.test_token_expiration_unit_and_value_can_be_configured` (ELITEA-2282)
+- `tests.ui.admin.test_personal_token_ide_config_download.TestPersonalTokenIdeConfigDownload.test_ide_download_icon_generates_config_file` (ELITEA-2290)
+- `tests.ui.admin.test_personal_token_never_expiration.TestPersonalTokenNeverExpiration.test_token_created_without_expiration_shows_never` (ELITEA-2283)
+- `tests.ui.admin.test_personal_token_settings_preview.TestPersonalTokenSettingsPreview.test_eye_icon_opens_ide_settings_preview_panel` (ELITEA-2291)
+- `tests.ui.admin.test_personal_tokens_column_sorting.TestPersonalTokensColumnSorting.test_token_name_and_expiration_columns_are_sortable` (ELITEA-2279)
+- `tests.ui.admin.test_personal_tokens_search_filter.TestPersonalTokensSearchFilter.test_search_field_filters_tokens_by_name_in_real_time` (ELITEA-2287)
+- `tests.ui.admin.test_project_context_build_with_ai_cancel.TestProjectContextBuildWithAICancel.test_ai_dialog_cancel_leaves_editor_content_unchanged` (ELITEA-2270)
+- `tests.ui.admin.test_project_context_build_with_ai_generates.TestProjectContextBuildWithAI.test_build_with_ai_generates_content_and_stays_editable` (ELITEA-2269)
+- `tests.ui.admin.test_project_context_discard_reverts.TestProjectContextDiscardReverts.test_discard_reverts_unsaved_changes` (ELITEA-2274)
+- `tests.ui.admin.test_project_context_empty_save_toggle_off_on.TestProjectContextEmptySaveToggleOffOn.test_project_context_empty_save_toggle_off_on` (ELITEA-2276)
+- `tests.ui.admin.test_project_context_import_markdown_file.TestProjectContextImportMarkdownFile.test_import_markdown_file_into_editor_and_edit_it` (ELITEA-2271)
+- `tests.ui.admin.test_project_context_markdown_editor.TestProjectContextMarkdownEditor.test_project_context_markdown_editor_and_preview` (ELITEA-2268)
+- `tests.ui.admin.test_project_context_page_layout.TestProjectContextPageLayout.test_project_context_page_layout` (ELITEA-2266)
+- `tests.ui.admin.test_project_context_save_discard_dirty_state.TestProjectContextSaveDiscardDirtyState.test_save_and_discard_active_only_with_unsaved_changes` (ELITEA-2275)
+- `tests.ui.admin.test_project_context_save_persists.TestProjectContextSavePersists.test_save_persists_project_context_after_reload` (ELITEA-2273)
+- `tests.ui.admin.test_project_context_toggle_enable_disable.TestProjectContextToggleEnableDisable.test_project_context_toggle_enable_disable` (ELITEA-2267)
+- `tests.ui.admin.test_secrets_error_state_on_network_failure.TestSecretsErrorStateOnNetworkFailure.test_secrets_error_state_on_network_failure_and_recovery` (ELITEA-2349)
+- `tests.ui.admin.test_user_delete_cancel_keeps_user.TestUserDeleteCancelKeepsUser.test_cancel_deletion_keeps_user_intact` (ELITEA-2300)
+- `tests.ui.admin.test_user_delete_via_row_icon.TestUserDeleteViaRowIcon.test_delete_user_via_row_icon` (ELITEA-2298)
+- `tests.ui.admin.test_users_column_sorting.TestUsersColumnSorting.test_users_table_columns_are_sortable` (ELITEA-2293)
+- `tests.ui.admin.test_users_invite_dialog_layout.TestUsersInviteDialogLayout.test_invite_users_dialog_opens_with_correct_layout` (ELITEA-2295)
+- `tests.ui.admin.test_users_invite_existing_member_error.TestUsersInviteExistingMemberError.test_invite_existing_project_member_shows_error` (ELITEA-2309)
+- `tests.ui.admin.test_users_invite_single_and_multiple.TestUsersInviteSingleAndMultiple.test_invite_users_with_role` (ELITEA-2297)
+- `tests.ui.admin.test_users_invite_without_role.TestUsersInviteWithoutRole.test_invite_user_without_selecting_a_role` (ELITEA-2308)
+- `tests.ui.admin.test_users_roles_in_invite_and_edit_dialogs.TestUsersRolesInInviteAndEditDialogs.test_available_roles_in_invite_and_edit_dialogs` (ELITEA-2305)
+- `tests.ui.admin.test_users_row_edit_roles_change.TestUsersRowEditRolesChange.test_change_roles_via_row_edit_dialog` (ELITEA-2303)
+- `tests.ui.admin.test_users_row_edit_roles_dialog_layout.TestUsersRowEditRolesDialogLayout.test_row_edit_roles_dialog_layout_and_current_role` (ELITEA-2301)
+- `tests.ui.admin.test_users_search_filter.TestUsersSearchFilter.test_users_page_search_filters_the_table_in_real_time` (ELITEA-2294)
+- `tests.ui.admin.test_viewer_role_cannot_access_secrets.TestViewerRoleCannotAccessSecrets.test_viewer_role_is_not_offered_the_secrets_section` (ELITEA-2348)
 - `tests.ui.artifacts.test_artifacts_bucket_cancel_with_valid_values.TestArtifactBucketCancelWithValidValues.test_cancel_with_valid_values_creates_no_bucket` (ELITEA-1815)
 - `tests.ui.artifacts.test_artifacts_bucket_empty_name_validation.TestArtifactBucketEmptyNameValidation.test_empty_bucket_name_disables_save_and_cancel_creates_nothing` (ELITEA-1813)
 - `tests.ui.artifacts.test_artifacts_bucket_hover_highlight.TestArtifactsBucketHoverHighlight.test_bucket_highlights_on_mouse_hover` (ELITEA-1823)
@@ -431,7 +474,6 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 - `tests.ui.pipelines.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_task_chat_history_config` (ELITEA-2004)
 - `tests.ui.pipelines.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_type_walks_fixed_fstring_variable` (ELITEA-2040)
 - `tests.ui.pipelines.test_pipeline_llm_structured_output_state_variables.test_llm_structured_output_parses_into_state_variables` (ELITEA-2045)
-- `tests.ui.pipelines.test_pipeline_management.TestCreatePipeline.test_create_pipeline_minimal_via_sidebar_button` (ELITEA-2020)
 - `tests.ui.pipelines.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_ui_menu` (ELITEA-2022)
 - `tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_view_toggle_table_and_card` (ELITEA-2024)
 - `tests.ui.pipelines.test_pipeline_management.TestSearchPipeline.test_search_placeholder_and_dashboard_grid_filters_and_clears` (ELITEA-2023)
@@ -461,19 +503,48 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 - `tests.ui.pipelines.test_pipeline_tags_add_and_filter.test_pipeline_tags_add_and_filter` (ELITEA-2013)
 - `tests.ui.pipelines.test_pipeline_three_dot_menu_actions.test_pipeline_three_dot_menu_actions` (ELITEA-2049)
 - `tests.ui.pipelines.test_pipeline_toolkit_node_config_and_input_mapping.test_toolkit_node_config_and_input_mapping` (ELITEA-2010)
-- `tests.ui.pipelines.test_pipeline_tools_section_mcp_add_view_remove.test_tools_section_mcp_add_view_remove` (ELITEA-2065)
 - `tests.ui.pipelines.test_pipeline_webhook_trigger_settings_modal.test_webhook_trigger_settings_modal` (ELITEA-2006)
 - `tests.ui.pipelines.test_pipeline_welcome_message_shown_before_first_input.test_pipeline_welcome_message_shown_before_first_input` (ELITEA-2052)
 - `tests.ui.pipelines.test_pipeline_yaml_editor_invalid_syntax.test_yaml_editor_invalid_syntax_blocks_save` (ELITEA-2068)
 - `tests.ui.pipelines.test_pipeline_yaml_editor_view.test_pipeline_yaml_editor_view` (ELITEA-2026)
 - `tests.ui.pipelines.test_pipeline_yaml_flow_sync.test_yaml_edit_persists_after_save_and_reload` (ELITEA-2067)
 - `tests.ui.pipelines.test_pipeline_yaml_flow_sync.test_yaml_edit_transition_syncs_to_flow_canvas_and_enables_save` (ELITEA-2028)
+- `tests.ui.settings.test_admin_role_project_sections_access.TestAdminRoleProjectSectionsAccess.test_admin_role_has_access_to_all_project_settings_sections` (ELITEA-2245)
+- `tests.ui.settings.test_ai_configuration_metadata_fields.TestAIConfigurationMetadataFields.test_ai_configuration_metadata_fields` (ELITEA-2394)
+- `tests.ui.settings.test_ai_configuration_openai_template_tab.TestAIConfigurationOpenAITemplateTab.test_openai_template_tab_loads_code_template` (ELITEA-2393)
+- `tests.ui.settings.test_ai_credential_test_connection.test_ai_credential_test_connection_error_then_success` (ELITEA-2415)
+- `tests.ui.settings.test_ai_provider_section_cards_and_default_selector.TestAiProviderSectionCardsAndDefaultSelector.test_section_shows_model_cards_and_default_selector[ELITEA-2402-image-generation]` (ELITEA-2402)
+- `tests.ui.settings.test_ai_provider_section_cards_and_default_selector.TestAiProviderSectionCardsAndDefaultSelector.test_section_shows_model_cards_and_default_selector[ELITEA-2404-asr]` (ELITEA-2404)
+- `tests.ui.settings.test_ai_provider_section_cards_and_default_selector.TestAiProviderSectionCardsAndDefaultSelector.test_section_shows_model_cards_and_default_selector[ELITEA-2406-tts]` (ELITEA-2406)
 - `tests.ui.settings.test_ai_providers_sections_loading_state.TestAIProvidersSectionsLoadingState.test_ai_providers_sections_loading_state` (ELITEA-2251)
+- `tests.ui.settings.test_all_roles_access_personal_sections.TestAllRolesAccessPersonalSections.test_all_roles_can_access_personal_settings_sections[admin]` (ELITEA-2247)
+- `tests.ui.settings.test_all_roles_access_personal_sections.TestAllRolesAccessPersonalSections.test_all_roles_can_access_personal_settings_sections[editor]` (ELITEA-2247)
+- `tests.ui.settings.test_all_roles_access_personal_sections.TestAllRolesAccessPersonalSections.test_all_roles_can_access_personal_settings_sections[viewer]` (ELITEA-2247)
+- `tests.ui.settings.test_change_default_tts_model.TestChangeDefaultTtsModel.test_change_default_tts_model` (ELITEA-2407)
+- `tests.ui.settings.test_change_section_default_model.TestChangeSectionDefaultModel.test_change_section_default_model[ELITEA-2403-image-generation]` (ELITEA-2403)
+- `tests.ui.settings.test_change_section_default_model.TestChangeSectionDefaultModel.test_change_section_default_model[ELITEA-2405-asr]` (ELITEA-2405)
+- `tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_disabling_context_management_deactivates_summarization` (ELITEA-2375)
+- `tests.ui.settings.test_context_management_values_persist.TestContextManagementValuesPersist.test_context_management_values_persist_after_reload` (ELITEA-2379)
+- `tests.ui.settings.test_context_settings_new_conversations_only.TestContextSettingsApplyToNewConversationsOnly.test_context_settings_apply_to_new_conversations_only` (ELITEA-2390)
+- `tests.ui.settings.test_default_personality_options.TestDefaultPersonalityOptions.test_default_personality_dropdown_options` (ELITEA-2381)
+- `tests.ui.settings.test_default_user_instructions_persist.TestDefaultUserInstructionsPersist.test_default_user_instructions_persist_after_reload` (ELITEA-2382)
+- `tests.ui.settings.test_embedding_model_create.TestCreateEmbeddingModelConfiguration.test_create_embedding_model_configuration` (ELITEA-2398)
+- `tests.ui.settings.test_llm_model_create.TestCreateLlmModelConfiguration.test_create_llm_model_and_set_as_default` (ELITEA-2412)
+- `tests.ui.settings.test_llm_model_edit.TestEditLlmModelConfiguration.test_edit_llm_model_display_name` (ELITEA-2413)
+- `tests.ui.settings.test_llm_model_id_autopopulated.TestLlmModelIdAutoPopulated.test_id_is_auto_populated_and_read_only` (ELITEA-2409)
+- `tests.ui.settings.test_personality_independent_of_context_management.TestPersonalityIndependentOfContextManagement.test_personality_settings_independent_of_context_management` (ELITEA-2383)
+- `tests.ui.settings.test_personalization_autosave_no_save_button.TestPersonalizationAutosaveNoSaveButton.test_personalization_autosave_no_save_button` (ELITEA-2387)
+- `tests.ui.settings.test_personalization_new_conversations_only.TestPersonalizationAppliesToNewConversationsOnly.test_personalization_applies_to_new_conversations_only` (ELITEA-2389)
 - `tests.ui.settings.test_settings_default_landing_tab_restored.TestSettingsDefaultLandingTabRestored.test_settings_default_landing_tab_restored` (ELITEA-2244)
 - `tests.ui.settings.test_settings_drawer_notifications_entry.TestSettingsDrawerNotificationsEntry.test_settings_drawer_notifications_entry_visible_without_scrolling` (ELITEA-2260)
 - `tests.ui.settings.test_settings_page_sections_and_default_tab.TestSettingsPageSectionsAndDefaultTab.test_settings_page_sections_and_default_tab` (ELITEA-2242)
+- `tests.ui.settings.test_settings_profile_identity.TestSettingsProfileIdentity.test_settings_profile_avatar_name_email` (ELITEA-2373)
 - `tests.ui.settings.test_settings_profile_logout_button_visible.TestSettingsProfileLogoutButtonVisible.test_settings_profile_logout_button_visible` (ELITEA-2252)
+- `tests.ui.settings.test_settings_sections_collapse_expand.TestSettingsSectionsCollapseExpand.test_settings_sections_collapse_expand` (ELITEA-2372)
 - `tests.ui.settings.test_settings_sidebar_item_navigation.TestSettingsSidebarItemNavigation.test_settings_sidebar_item_navigation` (ELITEA-2243)
+- `tests.ui.settings.test_sound_notifications_controls.TestSoundNotificationsControls.test_sound_notifications_toggle_and_volume_are_interactive` (ELITEA-2386)
+- `tests.ui.settings.test_vector_storage_create.TestCreateVectorStorageConfiguration.test_create_pgvector_configuration` (ELITEA-2399)
+- `tests.ui.settings.test_vector_storage_edit.TestEditVectorStorageConfiguration.test_edit_pgvector_display_name` (ELITEA-2400)
 - `tests.ui.skills.test_agent_skills_validation_attribution_and_token_invalidation.TestAgentSkillsValidationAttributionAndTokenInvalidation.test_agent_skills_validation_attribution_and_token_invalidation` (ELITEA-2601)
 - `tests.ui.skills.test_agent_with_skills_publishing_flow.TestAgentWithSkillsPublishingFlow.test_agent_with_skills_publishing_flow` (ELITEA-2600)
 - `tests.ui.skills.test_published_agent_version_cannot_be_modified.TestPublishedAgentVersionCannotBeModified.test_published_agent_version_cannot_be_modified` (ELITEA-2614)
@@ -544,4 +615,4 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 </details>
 
 ---
-_Compared `automation/index.json` (432 tests) with `index_automated.json` (512 refs)_
+_Compared `automation/index.json` (432 tests) with `index_automated.json` (597 refs)_
