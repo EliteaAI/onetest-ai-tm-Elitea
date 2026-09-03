@@ -1,0 +1,245 @@
+{
+  "launch": {
+    "total": 26,
+    "passed": 23,
+    "failed": 1,
+    "skipped": 2,
+    "reruns": 0
+  },
+  "items": [
+    {
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads",
+      "name": "test_page_loads",
+      "status": "failed",
+      "duration_ms": 15745,
+      "failure_message": "AssertionError: INTENTIONAL FAILURE: Testing webhook pipeline integration\nassert False tests/ui/smoke/test_ui_smoke.py:39: in test_page_loads\n    assert False, \"INTENTIONAL FAILURE: Testing webhook pipeline integration\"\nE   AssertionError: INTENTIONAL FAILURE: Testing webhook pipeline integration\nE   assert False",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible",
+      "name": "test_main_content_visible",
+      "status": "passed",
+      "duration_ms": 7830,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1811-leading-digit]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[ELITEA-1811-leading-digit]",
+      "status": "passed",
+      "duration_ms": 36541,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-special-char]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-special-char]",
+      "status": "passed",
+      "duration_ms": 22606,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-underscore]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-underscore]",
+      "status": "passed",
+      "duration_ms": 23273,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-space]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-space]",
+      "status": "passed",
+      "duration_ms": 22583,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_create_bucket_upload_file.TestArtifactCreateBucketAndUploadFile.test_create_bucket_via_form_and_upload_file_via_bucket_menu",
+      "name": "test_create_bucket_via_form_and_upload_file_via_bucket_menu",
+      "status": "passed",
+      "duration_ms": 11991,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_delete_subfolder_checkbox.TestArtifactDeleteSubfolderCheckbox.test_delete_subfolder_via_checkbox",
+      "name": "test_delete_subfolder_via_checkbox",
+      "status": "passed",
+      "duration_ms": 14216,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_delete_subfolder_checkbox.TestArtifactDeleteSubfolderCheckbox.test_delete_multiple_files_partial_selection",
+      "name": "test_delete_multiple_files_partial_selection",
+      "status": "passed",
+      "duration_ms": 30777,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_download_multiple_files_zip.TestArtifactDownloadMultipleFilesZip.test_download_multiple_files_as_zip",
+      "name": "test_download_multiple_files_as_zip",
+      "status": "passed",
+      "duration_ms": 10927,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_download_single_file_dropdown.TestArtifactDownloadSingleFileDropdown.test_download_single_file_via_dropdown",
+      "name": "test_download_single_file_via_dropdown",
+      "status": "passed",
+      "duration_ms": 7935,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_duplicate_bucket_name.TestArtifactDuplicateBucketName.test_duplicate_bucket_name_is_not_allowed",
+      "name": "test_duplicate_bucket_name_is_not_allowed",
+      "status": "passed",
+      "duration_ms": 21749,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_actions_dropdown.TestArtifactFilePreviewActionsDropdown.test_actions_dropdown_copy_download_delete",
+      "name": "test_actions_dropdown_copy_download_delete",
+      "status": "passed",
+      "duration_ms": 10279,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_edit_save.TestArtifactFilePreviewEditSave.test_edit_file_content_and_save_changes",
+      "name": "test_edit_file_content_and_save_changes",
+      "status": "passed",
+      "duration_ms": 10228,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_image_restricted_controls.TestArtifactFilePreviewImageRestrictedControls.test_image_file_opens_directly_with_restricted_controls",
+      "name": "test_image_file_opens_directly_with_restricted_controls",
+      "status": "passed",
+      "duration_ms": 8917,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_markdown_default_mode.TestArtifactFilePreviewMarkdownDefaultMode.test_markdown_file_opens_in_preview_mode_by_default",
+      "name": "test_markdown_file_opens_in_preview_mode_by_default",
+      "status": "passed",
+      "duration_ms": 10121,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_markdown_raw_edit_save.TestArtifactFilePreviewMarkdownRawEditSave.test_raw_tab_enables_editing_and_save_persists",
+      "name": "test_raw_tab_enables_editing_and_save_persists",
+      "status": "passed",
+      "duration_ms": 16393,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_open_editor_ui.TestArtifactFilePreviewOpenEditorUI.test_open_supported_text_file_shows_editor_ui",
+      "name": "test_open_supported_text_file_shows_editor_ui",
+      "status": "passed",
+      "duration_ms": 8717,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_multi_file.TestArtifactMultiFileDownload.test_agent_creates_files_at_root_and_in_subfolder",
+      "name": "test_agent_creates_files_at_root_and_in_subfolder",
+      "status": "passed",
+      "duration_ms": 52704,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_cancel.TestArtifactUploadDuplicateCancel.test_cancel_stops_entire_upload_including_non_duplicate",
+      "name": "test_cancel_stops_entire_upload_including_non_duplicate",
+      "status": "passed",
+      "duration_ms": 20478,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_detected_modal.TestArtifactUploadDuplicateDetectedModal.test_duplicate_detected_opens_resolve_duplicates_modal",
+      "name": "test_duplicate_detected_opens_resolve_duplicates_modal",
+      "status": "passed",
+      "duration_ms": 12700,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_keep_both.TestArtifactUploadDuplicateKeepBoth.test_keep_both_uploads_renamed_copy_alongside_original",
+      "name": "test_keep_both_uploads_renamed_copy_alongside_original",
+      "status": "passed",
+      "duration_ms": 15805,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_skip.TestArtifactUploadDuplicateSkip.test_skip_uploads_only_non_duplicate_file",
+      "name": "test_skip_uploads_only_non_duplicate_file",
+      "status": "passed",
+      "duration_ms": 17856,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_multiple_files.TestArtifactsUploadMultipleFiles.test_upload_multiple_files_at_once",
+      "name": "test_upload_multiple_files_at_once",
+      "status": "passed",
+      "duration_ms": 14197,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_no_access_permission_blocks_all_api_operations",
+      "name": "test_no_access_permission_blocks_all_api_operations",
+      "status": "skipped",
+      "duration_ms": 5500,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_read_only_permission_allows_get_blocks_write_operations",
+      "name": "test_read_only_permission_allows_get_blocks_write_operations",
+      "status": "skipped",
+      "duration_ms": 1404,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    }
+  ]
+}
