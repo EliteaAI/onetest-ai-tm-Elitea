@@ -1,10 +1,10 @@
 # Test Dashboard
 
-_Generated: 2026-09-05 00:51 UTC_
+_Generated: 2026-09-06 00:52 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-09-05-98-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-FAILED**
+**RUN-ELITEA-2026-09-06-99-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-FAILED**
 
 ```mermaid
 pie showData
@@ -28,10 +28,10 @@ pie showData
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [27-80-DEV-STABLE, 27-83-DEV-STABLE, 29-86-DEV-STABLE, 30-87-DEV-STABLE, 31-88-DEV-STABLE, 01-89-DEV-STABLE, 02-94-DEV-STABLE, 03-95-DEV-STABLE, 04-96-DEV-STABLE, 05-98-DEV-STABLE]
+    x-axis [27-83-DEV-STABLE, 29-86-DEV-STABLE, 30-87-DEV-STABLE, 31-88-DEV-STABLE, 01-89-DEV-STABLE, 02-94-DEV-STABLE, 03-95-DEV-STABLE, 04-96-DEV-STABLE, 05-98-DEV-STABLE, 06-99-DEV-STABLE]
     y-axis "Tests" 0 --> 105
-    bar "Passed" [0, 100, 24, 24, 24, 24, 23, 23, 23, 23]
-    bar "Failed" [0, 8, 0, 0, 0, 0, 1, 1, 1, 1]
+    bar "Passed" [100, 24, 24, 24, 24, 23, 23, 23, 23, 23]
+    bar "Failed" [8, 0, 0, 0, 0, 1, 1, 1, 1, 1]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [27-80-DEV-STABLE, 27-83-DEV-STABLE, 29-86-DEV-STABLE, 30-87-DEV-STABLE, 31-88-DEV-STABLE, 01-89-DEV-STABLE, 02-94-DEV-STABLE, 03-95-DEV-STABLE, 04-96-DEV-STABLE, 05-98-DEV-STABLE]
+    x-axis [27-83-DEV-STABLE, 29-86-DEV-STABLE, 30-87-DEV-STABLE, 31-88-DEV-STABLE, 01-89-DEV-STABLE, 02-94-DEV-STABLE, 03-95-DEV-STABLE, 04-96-DEV-STABLE, 05-98-DEV-STABLE, 06-99-DEV-STABLE]
     y-axis "Reruns" 0 --> 15
-    line "Reruns" [0, 12, 0, 0, 0, 0, 0, 0, 0, 0]
+    line "Reruns" [12, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 06-99-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 | ❌ 05-98-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 | ❌ 04-96-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 | ❌ 03-95-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
@@ -57,7 +58,6 @@ xychart-beta
 | ✅ 30-87-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ✅ 29-86-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ❌ 27-83-DEV-STABLE | 111 | 100 | 8 | 3 | 12 | 90% |
-| ✅ 27-80-DEV-STABLE | 259 | 0 | 0 | 259 | 0 | 0% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
