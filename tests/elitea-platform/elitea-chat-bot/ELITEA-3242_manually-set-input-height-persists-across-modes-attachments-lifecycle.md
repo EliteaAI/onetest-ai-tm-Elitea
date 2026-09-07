@@ -2,7 +2,7 @@
 id: ELITEA-3242
 title: "Manually-set input height stays correct across mode switches, file attachments, and the widget's lifecycle (close/reopen, navigation, refresh); message list stays usable at max height"
 priority: critical
-type: regression
+type: functional
 module: elitea-chat-bot
 status: draft
 execution_type: manual
