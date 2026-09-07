@@ -7,11 +7,11 @@ module: toolkits-credentials
 status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.smoke.test_api_health.test_api_root_reachable
-  - tests.ui.smoke.test_api_health.test_api_returns_json
-  - tests.ui.smoke.test_api_health.test_list_agents
-  - tests.ui.smoke.test_ui_smoke.test_page_loads
-  - tests.ui.smoke.test_ui_smoke.test_main_content_visible
+  - tests.api.test_api_health.TestAPIHealth.test_api_root_reachable
+  - tests.api.test_api_health.TestAPIHealth.test_api_returns_json
+  - tests.api.test_api_health.TestAuthenticatedAPI.test_list_agents
+  - tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads
+  - tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible
 tags: []
 requirements: []
 ---

@@ -7,8 +7,8 @@ module: smoke-suite
 status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.smoke.test_ui_smoke.test_page_loads
-  - tests.ui.smoke.test_ui_smoke.test_main_content_visible
+  - tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads
+  - tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible
 tags: []
 requirements: []
 ---
