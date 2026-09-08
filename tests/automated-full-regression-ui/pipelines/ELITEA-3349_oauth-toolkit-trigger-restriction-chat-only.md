@@ -5,7 +5,7 @@ priority: critical
 type: regression
 module: entrypoint-trigger-type
 status: ready
-execution_type: automated
+execution_type: manual
 tags: [pipeline, r-2.0.6, trigger, oauth, toolkit, regression]
 requirements: [EliteaAI/elitea_issues#6128]
 ---
