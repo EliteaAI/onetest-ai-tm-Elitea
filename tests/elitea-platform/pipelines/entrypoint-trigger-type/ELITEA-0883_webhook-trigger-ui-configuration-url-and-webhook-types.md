@@ -20,6 +20,7 @@ requirements: [EliteaAI/elitea_issues#4827]
 User is logged in with pipeline edit permissions
 A pipeline with an Entrypoint node is open in edit mode
 Pipeline has been saved at least once (version ID exists for URL generation)
+**Important:** Pipeline does not contain OAuth-requiring toolkits (if OAuth toolkit present, Webhook trigger cannot be configured per issue #6128)
 
 ## Test Data
 

@@ -20,6 +20,7 @@ requirements: [EliteaAI/elitea_issues#4827]
 User is logged in with pipeline edit permissions
 At least one project is available
 A new, empty pipeline is available for configuration (or can be created)
+Pipeline does not contain OAuth-requiring toolkits (if OAuth toolkit present, Schedule/Webhook triggers will be disabled per issue #6128)
 
 ## Test Data
 
@@ -38,6 +39,10 @@ A second pipeline with multiple nodes where only the first node was added as the
 | 6 | Click on a non-Entrypoint node in the pipeline and inspect its config panel | No 'Trigger' field or dropdown is present on any non-Entrypoint node |
 | 7 | Create a new empty pipeline and add the very first node | The first node added to the pipeline is automatically designated as the Entrypoint node |
 | 8 | Inspect the auto-assigned Entrypoint node's config | Trigger dropdown is present and shows 'Chat Message' as the default |
+| 9 | Add an OAuth-requiring toolkit (e.g., Azure SharePoint Delegated) to the pipeline | OAuth toolkit added successfully |
+| 10 | Return to Entrypoint node and open Trigger dropdown | Only 'Chat Message' is enabled; 'Schedule' and 'Webhook' are disabled (grayed out with explanatory tooltips) |
+| 11 | Remove OAuth toolkit from pipeline | OAuth toolkit removed |
+| 12 | Open Trigger dropdown again | All three trigger options are enabled again |
 
 ## Expected Final State
 
