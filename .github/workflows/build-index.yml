@@ -27,10 +27,15 @@ jobs:
             --out index_automated.json
           echo "Indexed $(jq '.cases | length' index_automated.json) cases"
 
+      - name: Build short index for pipeline mapping
+        run: |
+          jq '{cases: [.cases[] | select(.automation_test_id | length > 0) | {id, automation_test_id}]}' index_automated.json > index_automated_short.json
+          echo "Short index: $(wc -c < index_automated_short.json) bytes ($(jq '.cases | length' index_automated_short.json) cases with automation_test_id)"
+
       - name: Commit index if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index_automated.json
+          git add index_automated.json index_automated_short.json
           git diff --cached --quiet || git commit -m "chore: rebuild index_automated.json"
           git push
