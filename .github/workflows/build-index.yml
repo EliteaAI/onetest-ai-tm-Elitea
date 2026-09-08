@@ -6,6 +6,7 @@ on:
     paths:
       - "tests/automated-full-regression-ui/**"
       - ".onetest/fields.yml"
+      - ".github/workflows/build-index.yml"
   workflow_dispatch:
 permissions:
   contents: write
