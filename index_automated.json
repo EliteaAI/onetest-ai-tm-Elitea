@@ -8751,6 +8751,33 @@
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-2454_run-details-delete-run-from-history.md"
     },
     {
+      "id": "ELITEA-3343",
+      "title": "OAuth Toolkit Trigger Restriction — Chat Messages Only",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "entrypoint-trigger-type",
+      "owner": "",
+      "tags": [
+        "pipeline",
+        "r-2.0.6",
+        "trigger",
+        "oauth",
+        "toolkit",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6128"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-3349_oauth-toolkit-trigger-restriction-chat-only.md"
+    },
+    {
       "id": "ELITEA-2242",
       "title": "Settings page loads and displays correct PROJECT and PERSONAL sections",
       "status": "ready",
