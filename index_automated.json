@@ -5208,8 +5208,8 @@
     {
       "id": "ELITEA-1899",
       "title": "Agent icon can be changed and persists on the agents list card",
-      "status": "ready",
-      "execution_type": "automated",
+      "status": "draft",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "low",
       "size": "",
