@@ -10171,8 +10171,8 @@
     {
       "id": "ELITEA-1899",
       "title": "Agent icon can be changed and persists on the agents list card",
-      "status": "ready",
-      "execution_type": "automated",
+      "status": "draft",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "low",
       "size": "",
@@ -10189,7 +10189,8 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests\\automated-full-regression-ui\\agents\\ELITEA-1899_agent-icon-can-be-changed-and-persists-on-agents-list-card.md"
+      "path": "tests\\automated-full-regression-ui\\agents\\ELITEA-1899_agent-icon-can-be-changed-and-persists-on-agents-list-card.md",
+      "sanctioned_red": "#2055"
     },
     {
       "id": "ELITEA-1900",
