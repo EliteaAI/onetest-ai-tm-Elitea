@@ -1,0 +1,60 @@
+---
+id: "3244"
+title: "Settings: Generate Project Context shows error when output would exceed 2500 characters"
+priority: critical
+type: functional
+module: project-context
+status: draft
+execution_type: manual
+tags: [feat:project-setup, story:6344, r-2.0.6, project-context-builder, build-with-ai, error-handling]
+requirements: [EliteaAI/elitea_issues#6344]
+---
+
+# 3244: Settings: Generate Project Context shows error when output would exceed 2500 characters
+
+## Preconditions
+
+- User has Editor or Admin role in a test project
+- Project Context page is accessible at Settings → Project Context
+- Project Context toggle is enabled
+
+## Test Data
+
+| Field | Value |
+|-------|-------|
+| Complex prompt | "Create a comprehensive and detailed project context for a large-scale AI-powered Healthcare Appointment and Patient Management Platform. The project should include multiple user roles such as patients, doctors, nurses, clinic administrators, and system administrators. Describe the project's business goals, key features, user workflows, functional and non-functional requirements, system architecture, frontend and backend components, database structure, authentication and authorization, appointment scheduling, patient records, notifications, billing, reporting, audit logging, integrations with external healthcare systems and payment providers, API requirements, data validation, error handling, security and privacy considerations, performance requirements, scalability, accessibility, localization, and compliance requirements." |
+| Character limit | 2500 |
+
+## Steps
+
+| # | Action | Expected Result |
+|---|--------|-----------------|
+| 1 | Navigate to Settings → Project Context | Project Context page loads |
+| 2 | Enable the Project Context toggle if not already enabled | Toggle is ON |
+| 3 | Click "Edit with AI" button | AI generation dialog opens |
+| 4 | Enter the complex prompt from Test Data that would generate verbose output | Prompt is entered in the input field |
+| 5 | Click "Generate Draft" button | System attempts to generate content |
+| 6 | Observe the result | Error message is displayed: "Project background is X characters, the maximum is 2500. Try generating again, or ask for a narrower scope." |
+| 7 | Verify the original prompt remains in the input field | Prompt is preserved, user can edit it |
+| 8 | Verify no partial/truncated content was saved | Project Context field is unchanged |
+
+## Expected Final State
+
+- Error message clearly indicates the generated content exceeded 2500 characters
+- Original prompt remains in the input field for user to modify
+- No partial or truncated content is generated or saved
+- User can retry with a narrower scope prompt
+
+## Pass/Fail Criteria
+
+**Pass:**
+- Clear error message displayed with character count (e.g., "Project background is 5893 characters, the maximum is 2500")
+- Suggestion to "Try generating again, or ask for a narrower scope" is shown
+- Original prompt preserved in input field
+- No content generated or saved to Project Context
+
+**Fail:**
+- Content is silently truncated and saved
+- No error message shown when limit exceeded
+- Original prompt is lost/cleared
+- Partial content is displayed or saved
