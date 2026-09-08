@@ -21,6 +21,7 @@ User is logged in
 A pipeline with a Schedule trigger is configured and saved
 The pipeline has at least one variable configured on the Entrypoint node for use as input
 Tester has the ability to set a cron that fires within ~1-2 minutes for smoke testing
+**Important:** Pipeline does not contain OAuth-requiring toolkits (if OAuth toolkit present, Schedule trigger cannot be configured and will not execute per issue #6128)
 
 ## Test Data
 
