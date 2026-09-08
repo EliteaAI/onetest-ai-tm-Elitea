@@ -1,5 +1,5 @@
 ---
-id: "3245"
+id: ELITEA-3245
 title: "Chat: Project Context Builder tool receives error messages when limit exceeded"
 priority: critical
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:project-setup, feat:chat, story:6344, r-2.0.6, project-context-build
 requirements: [EliteaAI/elitea_issues#6344]
 ---
 
-# 3245: Chat: Project Context Builder tool receives error messages when limit exceeded
+# ELITEA-3245: Chat: Project Context Builder tool receives error messages when limit exceeded
 
 ## Preconditions
 

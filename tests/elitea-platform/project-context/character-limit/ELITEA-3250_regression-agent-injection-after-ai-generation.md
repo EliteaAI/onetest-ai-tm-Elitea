@@ -1,5 +1,5 @@
 ---
-id: "3250"
+id: ELITEA-3250
 title: "Regression: Project Context injection into Agents works after AI generation"
 priority: high
 type: regression
@@ -10,7 +10,7 @@ tags: [feat:project-setup, story:6344, r-2.0.6, project-context-builder, regress
 requirements: [EliteaAI/elitea_issues#6344]
 ---
 
-# 3250: Regression: Project Context injection into Agents works after AI generation
+# ELITEA-3250: Regression: Project Context injection into Agents works after AI generation
 
 ## Preconditions
 

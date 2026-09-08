@@ -1,5 +1,5 @@
 ---
-id: "3244"
+id: ELITEA-3244
 title: "Settings: Generate Project Context shows error when output would exceed 2500 characters"
 priority: critical
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:project-setup, story:6344, r-2.0.6, project-context-builder, build-w
 requirements: [EliteaAI/elitea_issues#6344]
 ---
 
-# 3244: Settings: Generate Project Context shows error when output would exceed 2500 characters
+# ELITEA-3244: Settings: Generate Project Context shows error when output would exceed 2500 characters
 
 ## Preconditions
 

@@ -1,5 +1,5 @@
 ---
-id: "3246"
+id: ELITEA-3246
 title: "Chat: Project Context Builder tool generates content ≤2500 characters"
 priority: critical
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:project-setup, feat:chat, story:6344, r-2.0.6, project-context-build
 requirements: [EliteaAI/elitea_issues#6344]
 ---
 
-# 3246: Chat: Project Context Builder tool generates content ≤2500 characters
+# ELITEA-3246: Chat: Project Context Builder tool generates content ≤2500 characters
 
 ## Preconditions
 

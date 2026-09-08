@@ -1,5 +1,5 @@
 ---
-id: "3247"
+id: ELITEA-3247
 title: "System prompt includes explicit 2500-character limit instruction"
 priority: critical
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:project-setup, story:6344, r-2.0.6, project-context-builder, system-
 requirements: [EliteaAI/elitea_issues#6344]
 ---
 
-# 3247: System prompt includes explicit 2500-character limit instruction
+# ELITEA-3247: System prompt includes explicit 2500-character limit instruction
 
 ## Preconditions
 

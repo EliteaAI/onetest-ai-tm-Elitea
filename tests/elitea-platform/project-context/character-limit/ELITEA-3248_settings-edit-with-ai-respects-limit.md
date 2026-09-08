@@ -1,5 +1,5 @@
 ---
-id: "3248"
+id: ELITEA-3248
 title: "Settings: Edit with AI respects 2500-character limit"
 priority: critical
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:project-setup, story:6344, r-2.0.6, project-context-builder, edit-wi
 requirements: [EliteaAI/elitea_issues#6344]
 ---
 
-# 3248: Settings: Edit with AI respects 2500-character limit
+# ELITEA-3248: Settings: Edit with AI respects 2500-character limit
 
 ## Preconditions
 

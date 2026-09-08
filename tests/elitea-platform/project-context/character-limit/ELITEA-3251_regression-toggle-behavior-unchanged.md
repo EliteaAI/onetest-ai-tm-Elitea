@@ -1,5 +1,5 @@
 ---
-id: "3251"
+id: ELITEA-3251
 title: "Regression: Enable/Disable toggle behavior unchanged"
 priority: high
 type: regression
@@ -10,7 +10,7 @@ tags: [feat:project-setup, story:6344, r-2.0.6, project-context-builder, regress
 requirements: [EliteaAI/elitea_issues#6344]
 ---
 
-# 3251: Regression: Enable/Disable toggle behavior unchanged
+# ELITEA-3251: Regression: Enable/Disable toggle behavior unchanged
 
 ## Preconditions
 
