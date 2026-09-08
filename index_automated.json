@@ -17588,6 +17588,60 @@
       "path": "tests/automated-full-regression-ui/chat/canvas/ELITEA-2089_chat-edit-agent-in-canvas-mode-verify-changes-synchronize-to-agent.md"
     },
     {
+      "id": "ELITEA-3315",
+      "title": "Project Context Builder receives runtime_context and creates context in current project only",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:context-management",
+        "feat:toolkits",
+        "story:6306",
+        "r-2.0.6",
+        "runtime-context",
+        "project-context-builder"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6306"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/project-context/runtime-context-injection/ELITEA-3315_project-context-builder-receives-runtime-context-automatically.md"
+    },
+    {
+      "id": "ELITEA-3316",
+      "title": "Skill Builder receives runtime_context and creates skill in current project only",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:context-management",
+        "feat:toolkits",
+        "story:6306",
+        "r-2.0.6",
+        "runtime-context",
+        "skills-builder"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6306"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/project-context/runtime-context-injection/ELITEA-3316_skill-builder-receives-runtime-context-automatically.md"
+    },
+    {
       "id": "ELITEA-2698",
       "title": "Tool Groups UI Structure and Sorting",
       "status": "draft",
