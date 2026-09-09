@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
-  - tests.ui.pipelines.test_pipeline_run_history_view_executions.TestPipelineRunHistoryPanelClose.test_run_history_panel_closes_and_restores_chat
+  - tests.ui.pipelines_2.test_pipeline_run_history_view_executions.TestPipelineRunHistoryPanelClose.test_run_history_panel_closes_and_restores_chat
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
 ---
 

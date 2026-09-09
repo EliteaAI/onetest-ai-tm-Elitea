@@ -30,7 +30,7 @@ jobs:
 
       - name: Build short index for pipeline mapping
         run: |
-          jq '{cases: [.cases[] | select(.automation_test_id | length > 0) | {id, automation_test_id}]}' index_automated.json > index_automated_short.json
+          jq '{cases: [.cases[] | select(.automation_test_id | length > 0) | {id, path, automation_test_id}]}' index_automated.json > index_automated_short.json
           echo "Short index: $(wc -c < index_automated_short.json) bytes ($(jq '.cases | length' index_automated_short.json) cases with automation_test_id)"
 
       - name: Commit index if changed
