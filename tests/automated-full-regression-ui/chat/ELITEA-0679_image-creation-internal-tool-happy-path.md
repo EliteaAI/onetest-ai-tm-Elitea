@@ -9,6 +9,7 @@ execution_type: automated
 automation_test_id:
   - tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[minimal_prompt]
   - tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[detailed_description]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2133
 tags: [feat:image-generation, feat:chat, r-2.0.3]
 requirements: []
 ---
