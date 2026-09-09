@@ -1698,6 +1698,59 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-2614_published-version-cannot-be-modified.md"
     },
     {
+      "id": "ELITEA-3352",
+      "title": "Skill Version Comparison Modal Opens with Side-by-Side Layout",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.6",
+        "regression",
+        "version-comparison",
+        "story:6304"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6304"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3352_skill-version-comparison-modal-opens-side-by-side.md"
+    },
+    {
+      "id": "ELITEA-3353",
+      "title": "Skill Version Comparison Displays Instructions and Saves Independently",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.6",
+        "regression",
+        "version-comparison",
+        "data-integrity",
+        "story:6304"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6304"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3353_skill-version-comparison-instructions-display-and-save-independently.md"
+    },
+    {
       "id": "ELITEA-1986",
       "title": "Build with AI button is visible for admin and editor roles",
       "status": "ready",
@@ -5374,6 +5427,59 @@
       "path": "tests/automated-full-regression-ui/agents/ELITEA-1902_import-agent-zip-with-nested-agent-dependencies.md"
     },
     {
+      "id": "ELITEA-3350",
+      "title": "Agent Version Comparison Modal Opens with Side-by-Side Layout",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.6",
+        "regression",
+        "version-comparison",
+        "story:6304"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6304"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-3350_agent-version-comparison-modal-opens-side-by-side.md"
+    },
+    {
+      "id": "ELITEA-3351",
+      "title": "Agent Version Comparison Displays All Sections and Saves Independently",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.6",
+        "regression",
+        "version-comparison",
+        "data-integrity",
+        "story:6304"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6304"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-3351_agent-version-comparison-sections-display-and-save-independently.md"
+    },
+    {
       "id": "ELITEA-1903",
       "title": "Build with AI — Build with AI button visible for admin and editor roles in New Agent creation flow",
       "status": "ready",
@@ -8829,8 +8935,8 @@
     {
       "id": "ELITEA-3343",
       "title": "OAuth Toolkit Trigger Restriction — Chat Messages Only",
-      "status": "ready",
-      "execution_type": "automated",
+      "status": "draft",
+      "execution_type": "manual",
       "type": "regression",
       "priority": "critical",
       "size": "",
