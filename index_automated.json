@@ -4516,6 +4516,82 @@
       "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2494_api-read-only-permission-enforcement.md"
     },
     {
+      "id": "ELITEA-3362",
+      "title": "read_file with user_prompt Returns Specific Answer for Image",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:artifacts",
+        "feat:image-vision",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6530"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/artifacts/image-vision-user-prompt/ELITEA-3362_read-file-with-user-prompt-returns-specific-answer.md"
+    },
+    {
+      "id": "ELITEA-3363",
+      "title": "read_file Without user_prompt Returns Generic Caption (Backward Compatibility)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:artifacts",
+        "feat:image-vision",
+        "r-2.0.6",
+        "backward-compatibility"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6530"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/artifacts/image-vision-user-prompt/ELITEA-3363_read-file-without-user-prompt-returns-generic-caption.md"
+    },
+    {
+      "id": "ELITEA-3364",
+      "title": "read_file with user_prompt Works for JPEG Format",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:artifacts",
+        "feat:image-vision",
+        "r-2.0.6"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6530"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/artifacts/image-vision-user-prompt/ELITEA-3364_read-file-user-prompt-works-for-jpeg-format.md"
+    },
+    {
       "id": "ELITEA-1869",
       "title": "Agent listing — back navigation from agent detail returns to Agents list",
       "status": "ready",
