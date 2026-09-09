@@ -7,7 +7,7 @@ module: pipelines
 status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.pipelines.test_pipeline_toolkit_node_config_and_input_mapping.test_toolkit_node_config_and_input_mapping
+  - tests.ui.pipelines_2.test_pipeline_toolkit_node_config_and_input_mapping.test_toolkit_node_config_and_input_mapping
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---

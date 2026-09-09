@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
-  - tests.ui.pipelines.test_pipeline_tags_add_and_filter.test_pipeline_tags_add_and_filter
+  - tests.ui.pipelines_2.test_pipeline_tags_add_and_filter.test_pipeline_tags_add_and_filter
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1343
 ---
 

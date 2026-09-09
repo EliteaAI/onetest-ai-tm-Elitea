@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
-  - tests.ui.pipelines.test_pipeline_state_panel_attachments_module.test_state_panel_attachments_module
+  - tests.ui.pipelines_2.test_pipeline_state_panel_attachments_module.test_state_panel_attachments_module
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1372
 ---
 

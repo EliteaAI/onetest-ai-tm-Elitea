@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
-  - tests.ui.pipelines.test_pipeline_state_panel_default_and_custom_variables.test_state_panel_delete_custom_variable
+  - tests.ui.pipelines_2.test_pipeline_state_panel_default_and_custom_variables.test_state_panel_delete_custom_variable
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1372
 ---
 

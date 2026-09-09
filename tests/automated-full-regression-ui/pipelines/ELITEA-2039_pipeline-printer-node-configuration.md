@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
-  - tests.ui.pipelines.test_pipeline_printer_node_configuration.test_printer_node_configuration_and_persistence
+  - tests.ui.pipelines_2.test_pipeline_printer_node_configuration.test_printer_node_configuration_and_persistence
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1329
 ---
 

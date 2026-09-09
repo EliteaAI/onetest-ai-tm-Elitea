@@ -6,7 +6,7 @@ type: functional
 module: pipelines
 status: ready
 execution_type: automated
-automation_test_id: tests.ui.pipelines.test_pipeline_mcp_node_change_toolkit_and_tool.test_mcp_node_change_toolkit_and_tool
+automation_test_id: tests.ui.pipelines_2.test_pipeline_mcp_node_change_toolkit_and_tool.test_mcp_node_change_toolkit_and_tool
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/513
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []

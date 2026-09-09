@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
-  - tests.ui.pipelines.test_pipeline_management.TestPipelineDashboard.test_view_toggle_table_and_card
+  - tests.ui.pipelines_2.test_pipeline_management.TestPipelineDashboard.test_view_toggle_table_and_card
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1343
 ---
 

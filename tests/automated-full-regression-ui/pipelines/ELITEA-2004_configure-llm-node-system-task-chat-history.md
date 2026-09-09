@@ -7,7 +7,7 @@ module: pipelines
 status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.pipelines.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_task_chat_history_config
+  - tests.ui.pipelines_2.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_task_chat_history_config
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---

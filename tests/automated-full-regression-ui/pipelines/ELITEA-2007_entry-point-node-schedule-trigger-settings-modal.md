@@ -7,7 +7,7 @@ module: pipelines
 status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.pipelines.test_pipeline_schedule_trigger_settings_modal.test_schedule_trigger_settings_modal
+  - tests.ui.pipelines_2.test_pipeline_schedule_trigger_settings_modal.test_schedule_trigger_settings_modal
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---
