@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
 automation_test_id: tests.ui.agents.test_import_agent_valid_md_file.TestImportAgentValidMdFile.test_import_agent_valid_md_file
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/629
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2125
 ---
 
 # ELITEA-1901: Import valid agent .md file — agent appears in list with correct config
