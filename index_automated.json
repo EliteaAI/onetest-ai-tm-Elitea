@@ -5589,6 +5589,56 @@
       "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2494_api-read-only-permission-enforcement.md"
     },
     {
+      "id": "ELITEA-0501",
+      "title": "Chat UI Elements - Model, Tools, Participants",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_model_selector_opens_menu",
+        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_model_selector_functional",
+        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_internal_tools_panel_shows_all_tools",
+        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_internal_tools_toggle",
+        "tests.ui.chat.test_chat_interface.TestHashSearch.test_hash_search_participants",
+        "tests.ui.chat.test_chat_interface.TestHashSearch.test_add_participant_via_hash_search"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-0501_chat-ui-elements-model-tools-participants.md"
+    },
+    {
+      "id": "ELITEA-0679",
+      "title": "Image Creation Internal Tool — Happy Path: Image Generated Successfully in Chat and Agent",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "image-generation",
+      "owner": "",
+      "tags": [
+        "feat:image-generation",
+        "feat:chat",
+        "r-2.0.3"
+      ],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[minimal_prompt]",
+        "tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[detailed_description]"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-0679_image-creation-internal-tool-happy-path.md"
+    },
+    {
       "id": "ELITEA-2090",
       "title": "Create New Conversation from Private Project via +Chat with default LLM",
       "status": "ready",
@@ -15666,6 +15716,30 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/help_center/ELITEA-2230_help-center-back-button-navigates-to-previous-step-during-in.md"
+    },
+    {
+      "id": "ELITEA-1141",
+      "title": "GitHub Toolkit and Credentials",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_github_toolkit.TestCreateGitHubCredential.test_create_github_credential",
+        "tests.ui.toolkits.test_github_toolkit.TestCreateGitHubToolkit.test_create_github_toolkit",
+        "tests.ui.toolkits.test_github_toolkit.TestGitHubToolkitTestSettings.test_github_toolkit_test_settings",
+        "tests.ui.toolkits.test_github_toolkit.TestChatWithGitHubToolkit.test_chat_with_github_toolkit",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[github]"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-1141_github-toolkit-and-credentials.md"
     },
     {
       "id": "ELITEA-2796",
