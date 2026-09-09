@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.pipelines_2.test_pipeline_management.TestSearchPipeline.test_search_placeholder_and_dashboard_grid_filters_and_clears
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1304
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2152
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---
