@@ -7,10 +7,11 @@ module: toolkits-credentials
 status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.toolkits.test_github_toolkit.test_create_github_credential
-  - tests.ui.toolkits.test_github_toolkit.test_create_github_toolkit
-  - tests.ui.toolkits.test_github_toolkit.test_github_toolkit_test_settings
-  - tests.ui.toolkits.test_github_toolkit.test_chat_with_github_toolkit
+  - tests.ui.toolkits.test_github_toolkit.TestCreateGitHubCredential.test_create_github_credential
+  - tests.ui.toolkits.test_github_toolkit.TestCreateGitHubToolkit.test_create_github_toolkit
+  - tests.ui.toolkits.test_github_toolkit.TestGitHubToolkitTestSettings.test_github_toolkit_test_settings
+  - tests.ui.toolkits.test_github_toolkit.TestChatWithGitHubToolkit.test_chat_with_github_toolkit
+  - tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[github]
 tags: []
 requirements: []
 ---
