@@ -11,7 +11,7 @@ requirements: []
 automation_test_id:
   - tests.ui.pipelines_2.test_pipeline_run_details_multiple_state_variables.test_run_details_multiple_state_variables_different_types
   - tests.ui.pipelines_2.test_pipeline_run_details_state_before_after.test_run_details_state_before_after_per_node
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1276
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2154
 ---
 
 # ELITEA-2453: Run Details — Multiple State Variables of Different Types
