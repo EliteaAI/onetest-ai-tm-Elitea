@@ -7307,8 +7307,8 @@
     {
       "id": "ELITEA-2022",
       "title": "Delete Pipeline",
-      "status": "ready",
-      "execution_type": "automated",
+      "status": "draft",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "high",
       "size": "",
