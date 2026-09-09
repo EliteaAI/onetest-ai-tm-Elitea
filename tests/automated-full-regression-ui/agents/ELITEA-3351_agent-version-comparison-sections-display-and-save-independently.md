@@ -4,7 +4,7 @@ title: "Agent Version Comparison Displays All Sections and Saves Independently"
 priority: critical
 type: regression
 module: agents
-status: ready
+status: draft
 execution_type: manual
 tags: [feat:agents, r-2.0.6, regression, version-comparison, data-integrity, story:6304]
 requirements: [EliteaAI/elitea_issues#6304]

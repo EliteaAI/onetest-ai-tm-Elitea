@@ -4,7 +4,7 @@ title: "Skill Version Comparison Displays Instructions and Saves Independently"
 priority: critical
 type: regression
 module: skills
-status: ready
+status: draft
 execution_type: manual
 tags: [feat:skills, r-2.0.6, regression, version-comparison, data-integrity, story:6304]
 requirements: [EliteaAI/elitea_issues#6304]
