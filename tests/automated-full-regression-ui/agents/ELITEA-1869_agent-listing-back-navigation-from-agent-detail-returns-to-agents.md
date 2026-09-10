@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
 automation_test_id: tests.ui.agents.test_agent_back_navigation.test_back_button_from_agent_detail_returns_to_intact_agents_list
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/545
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2178
 ---
 
 # ELITEA-1869: Agent listing — back navigation from agent detail returns to Agents list
