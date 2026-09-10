@@ -5,18 +5,18 @@
 | Metric | Count |
 |--------|-------|
 | Total test cases | 3413 |
-| Marked automated | 1044 |
+| Marked automated | 1043 |
 | ✅ Linked to CI results | 20 |
 | 🟧 No automation ref set | 330 |
-| 🟥 Automation gap (ref, no CI match) | 694 |
-| Automation gap % | 66.5% |
+| 🟥 Automation gap (ref, no CI match) | 693 |
+| Automation gap % | 66.4% |
 
 ## Coverage by priority
 
 | Priority | Total | Automated | Gap % |
 |----------|-------|-----------|-------|
 | critical | 729 | 90 | 87.7% |
-| high | 1566 | 399 | 74.5% |
+| high | 1566 | 398 | 74.6% |
 | medium | 1090 | 550 | 49.5% |
 | low | 28 | 5 | 82.1% |
 

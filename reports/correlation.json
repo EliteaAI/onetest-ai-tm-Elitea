@@ -98,7 +98,7 @@
     {
       "case_id": "ELITEA-1052",
       "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-1052",
