@@ -9528,186 +9528,6 @@
       "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2276_empty-project-background-can-be-saved-whith-toggle-off-and-o.md"
     },
     {
-      "id": "ELITEA-3252",
-      "title": "Settings: Generate Project Context produces content ≤2500 characters",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "critical",
-      "size": "",
-      "module": "settings",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:project-setup",
-        "project-context-builder",
-        "character-limit"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6344"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/project-context-char-limit/ELITEA-3252_settings-generate-project-context-respects-2500-char-limit.md"
-    },
-    {
-      "id": "ELITEA-3253",
-      "title": "Settings: Generate Project Context shows error when output would exceed 2500 characters",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "critical",
-      "size": "",
-      "module": "settings",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:project-setup",
-        "project-context-builder",
-        "error-handling"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6344"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/project-context-char-limit/ELITEA-3253_settings-generate-project-context-shows-error-when-exceeds-limit.md"
-    },
-    {
-      "id": "ELITEA-3254",
-      "title": "Chat: Project Context Builder tool generates content ≤2500 characters",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "critical",
-      "size": "",
-      "module": "chat",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:project-setup",
-        "feat:chat",
-        "project-context-builder",
-        "character-limit"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6344"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/project-context-char-limit/ELITEA-3254_chat-context-builder-generates-content-under-limit.md"
-    },
-    {
-      "id": "ELITEA-3255",
-      "title": "Settings: Edit with AI respects 2500-character limit",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "critical",
-      "size": "",
-      "module": "settings",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:project-setup",
-        "project-context-builder",
-        "edit-with-ai",
-        "character-limit"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6344"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/project-context-char-limit/ELITEA-3255_settings-edit-with-ai-respects-limit.md"
-    },
-    {
-      "id": "ELITEA-3256",
-      "title": "Regression: Project Context injection into Chat works after AI generation",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "regression",
-      "priority": "high",
-      "size": "",
-      "module": "chat",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:project-setup",
-        "feat:chat",
-        "project-context-builder",
-        "regression"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6344"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/project-context-char-limit/ELITEA-3256_regression-chat-injection-after-ai-generation.md"
-    },
-    {
-      "id": "ELITEA-3257",
-      "title": "Regression: Project Context injection into Agents works after AI generation",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "regression",
-      "priority": "high",
-      "size": "",
-      "module": "agents",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:project-setup",
-        "feat:agents",
-        "project-context-builder",
-        "regression"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6344"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/project-context-char-limit/ELITEA-3257_regression-agent-injection-after-ai-generation.md"
-    },
-    {
-      "id": "ELITEA-3258",
-      "title": "Regression: Enable/Disable toggle behavior unchanged",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "regression",
-      "priority": "high",
-      "size": "",
-      "module": "settings",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:project-setup",
-        "project-context-builder",
-        "regression",
-        "toggle"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6344"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/project-context-char-limit/ELITEA-3258_regression-toggle-behavior-unchanged.md"
-    },
-    {
       "id": "ELITEA-2392",
       "title": "AI Configuration page loads all integration sections without error",
       "status": "ready",
@@ -17484,6 +17304,457 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2879_queue-ui-state-automated.md"
     },
     {
+      "id": "ELITEA-3252",
+      "title": "Settings: Generate Project Context produces content ≤2500 characters",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "settings",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:project-setup",
+        "project-context-builder",
+        "character-limit"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6344"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3252_settings-generate-project-context-respects-2500-char-limit.md"
+    },
+    {
+      "id": "ELITEA-3253",
+      "title": "Settings: Generate Project Context shows error when output would exceed 2500 characters",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "settings",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:project-setup",
+        "project-context-builder",
+        "error-handling"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6344"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3253_settings-generate-project-context-shows-error-when-exceeds-limit.md"
+    },
+    {
+      "id": "ELITEA-3254",
+      "title": "Chat: Project Context Builder tool generates content ≤2500 characters",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:project-setup",
+        "feat:chat",
+        "project-context-builder",
+        "character-limit"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6344"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3254_chat-context-builder-generates-content-under-limit.md"
+    },
+    {
+      "id": "ELITEA-3255",
+      "title": "Settings: Edit with AI respects 2500-character limit",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "settings",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:project-setup",
+        "project-context-builder",
+        "edit-with-ai",
+        "character-limit"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6344"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3255_settings-edit-with-ai-respects-limit.md"
+    },
+    {
+      "id": "ELITEA-3256",
+      "title": "Regression: Project Context injection into Chat works after AI generation",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "chat",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:project-setup",
+        "feat:chat",
+        "project-context-builder",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6344"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3256_regression-chat-injection-after-ai-generation.md"
+    },
+    {
+      "id": "ELITEA-3257",
+      "title": "Regression: Project Context injection into Agents works after AI generation",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:project-setup",
+        "feat:agents",
+        "project-context-builder",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6344"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3257_regression-agent-injection-after-ai-generation.md"
+    },
+    {
+      "id": "ELITEA-3258",
+      "title": "Regression: Enable/Disable toggle behavior unchanged",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "settings",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:project-setup",
+        "project-context-builder",
+        "regression",
+        "toggle"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6344"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3258_regression-toggle-behavior-unchanged.md"
+    },
+    {
+      "id": "ELITEA-3315",
+      "title": "Project Context Builder receives runtime_context and creates context in current project only",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "project-context",
+      "owner": "",
+      "tags": [
+        "feat:context-management",
+        "feat:toolkits",
+        "story:6306",
+        "r-2.0.6",
+        "runtime-context",
+        "project-context-builder"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6306"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3315_project-context-builder-receives-runtime-context-automatically.md"
+    },
+    {
+      "id": "ELITEA-3316",
+      "title": "Skill Builder receives runtime_context and creates skill in current project only",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:context-management",
+        "feat:toolkits",
+        "story:6306",
+        "r-2.0.6",
+        "runtime-context",
+        "skills-builder"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6306"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3316_skill-builder-receives-runtime-context-automatically.md"
+    },
+    {
+      "id": "ELITEA-3365",
+      "title": "Chat Modules: Skills Builder and Project Context Builder toggles, default state, and tooltips",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "regression",
+        "chat-modules",
+        "skills-builder",
+        "project-context-builder",
+        "ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3365_chat-modules-skills-builder-and-project-context-builder-ui.md"
+    },
+    {
+      "id": "ELITEA-3366",
+      "title": "Skill creation from chat with complete information creates skill and chip opens in Canvas",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "regression",
+        "skills-builder",
+        "happy-path",
+        "canvas"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3366_skill-creation-happy-path-with-chip-and-canvas.md"
+    },
+    {
+      "id": "ELITEA-3367",
+      "title": "Skill creation from chat with missing information triggers Ask User clarification",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "regression",
+        "skills-builder",
+        "ask-user",
+        "clarifying-question"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3367_skill-creation-with-ask-user-clarification.md"
+    },
+    {
+      "id": "ELITEA-3368",
+      "title": "Project Context creation and update from chat with chip opening in Canvas",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "regression",
+        "project-context-builder",
+        "happy-path",
+        "canvas"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3368_project-context-creation-update-with-chip-and-canvas.md"
+    },
+    {
+      "id": "ELITEA-3369",
+      "title": "Project Context creation with missing information triggers Ask User clarification",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "regression",
+        "project-context-builder",
+        "ask-user",
+        "clarifying-question"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3369_project-context-with-ask-user-clarification.md"
+    },
+    {
+      "id": "ELITEA-3370",
+      "title": "Skills Builder and Project Context Builder disabled prevents entity creation",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "regression",
+        "skills-builder",
+        "project-context-builder",
+        "negative"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3370_builder-modules-disabled-prevents-creation.md"
+    },
+    {
+      "id": "ELITEA-3371",
+      "title": "Multi-question clarification flow navigation, progress indicator, and question types",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "regression",
+        "ask-user",
+        "clarifying-question",
+        "navigation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3371_multi-question-clarification-navigation-and-question-types.md"
+    },
+    {
+      "id": "ELITEA-3372",
+      "title": "Agent and Pipeline Builder work correctly when Skills Builder and Project Context Builder are enabled",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "story:6239",
+        "regression",
+        "agent-pipeline-builder",
+        "ask-user",
+        "hitl"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6239"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3372_agent-pipeline-builder-regression-with-skills-context-enabled.md"
+    },
+    {
       "id": "ELITEA-2073",
       "title": "Chat – Create Agent with AI Build – Click Cancel and Verify Creation is Terminated",
       "status": "ready",
@@ -17869,60 +18140,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/canvas/ELITEA-2089_chat-edit-agent-in-canvas-mode-verify-changes-synchronize-to-agent.md"
-    },
-    {
-      "id": "ELITEA-3315",
-      "title": "Project Context Builder receives runtime_context and creates context in current project only",
-      "status": "ready",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "critical",
-      "size": "",
-      "module": "project-context",
-      "owner": "",
-      "tags": [
-        "feat:context-management",
-        "feat:toolkits",
-        "story:6306",
-        "r-2.0.6",
-        "runtime-context",
-        "project-context-builder"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6306"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/project-context/runtime-context-injection/ELITEA-3315_project-context-builder-receives-runtime-context-automatically.md"
-    },
-    {
-      "id": "ELITEA-3316",
-      "title": "Skill Builder receives runtime_context and creates skill in current project only",
-      "status": "ready",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "critical",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "feat:context-management",
-        "feat:toolkits",
-        "story:6306",
-        "r-2.0.6",
-        "runtime-context",
-        "skills-builder"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6306"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/project-context/runtime-context-injection/ELITEA-3316_skill-builder-receives-runtime-context-automatically.md"
     },
     {
       "id": "ELITEA-2698",
