@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
 automation_test_id: tests.ui.agents.test_import_agent_zip_nested_agent_dependencies.TestImportAgentZipNestedAgentDependencies.test_import_agent_zip_nested_agent_dependencies
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/606
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2268
 ---
 
 # ELITEA-1902: Import agent .zip with nested agent dependencies
