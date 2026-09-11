@@ -18,7 +18,7 @@
     {
       "case_id": "ELITEA-1828",
       "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_detected_modal.TestArtifactUploadDuplicateDetectedModal.test_duplicate_detected_opens_resolve_duplicates_modal",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-1829",
