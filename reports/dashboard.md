@@ -1,43 +1,44 @@
 # Test Dashboard
 
-_Generated: 2026-09-11 00:59 UTC_
+_Generated: 2026-09-12 01:05 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-09-11-122-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-FAILED**
+**RUN-ELITEA-2026-09-12-128-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-AMBER**
 
 ```mermaid
 pie showData
     title "Test Results (26 total)"
-    "Passed" : 23
-    "Failed" : 1
+    "Passed" : 24
+    "Failed" : 0
     "Skipped" : 2
 ```
 
 | Metric | Value |
 |--------|-------|
 | Total | 26 |
-| Passed | 23 |
-| Failed | 1 |
+| Passed | 24 |
+| Failed | 0 |
 | Skipped | 2 |
 | Reruns | 0 |
-| Pass Rate | 88.5% |
+| Pass Rate | 92.3% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [02-94-DEV-STABLE, 03-95-DEV-STABLE, 04-96-DEV-STABLE, 05-98-DEV-STABLE, 06-99-DEV-STABLE, 07-100-DEV-STABLE, 08-108-DEV-STABLE, 09-111-DEV-STABLE, 10-115-DEV-STABLE, 11-122-DEV-STABLE]
+    x-axis [03-95-DEV-STABLE, 04-96-DEV-STABLE, 05-98-DEV-STABLE, 06-99-DEV-STABLE, 07-100-DEV-STABLE, 08-108-DEV-STABLE, 09-111-DEV-STABLE, 10-115-DEV-STABLE, 11-122-DEV-STABLE, 12-128-DEV-STABLE]
     y-axis "Tests" 0 --> 29
-    bar "Passed" [23, 23, 23, 23, 23, 23, 23, 23, 24, 23]
-    bar "Failed" [1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+    bar "Passed" [23, 23, 23, 23, 23, 23, 23, 24, 23, 24]
+    bar "Failed" [1, 1, 1, 1, 1, 1, 1, 0, 1, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ✅ 12-128-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ❌ 11-122-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 | ✅ 10-115-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ❌ 09-111-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
@@ -47,7 +48,6 @@ xychart-beta
 | ❌ 05-98-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 | ❌ 04-96-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 | ❌ 03-95-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
-| ❌ 02-94-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
