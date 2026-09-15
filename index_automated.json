@@ -2452,8 +2452,8 @@
     {
       "id": "ELITEA-3208",
       "title": "Regression: Closing an empty folder returns to the complete list (#6483)",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "regression",
       "priority": "critical",
       "size": "",
@@ -2470,7 +2470,9 @@
         "EliteaAI/elitea_issues#5194",
         "EliteaAI/elitea_issues#6483"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.social_folders.test_closing_empty_folder_returns_complete_list.TestClosingEmptyFolderReturnsCompleteList.test_closing_empty_folder_returns_complete_list"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2479,8 +2481,8 @@
     {
       "id": "ELITEA-3209",
       "title": "Regression: Deleting the currently open folder returns to the complete list (#6484)",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "regression",
       "priority": "critical",
       "size": "",
@@ -2497,7 +2499,9 @@
         "EliteaAI/elitea_issues#5194",
         "EliteaAI/elitea_issues#6484"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.social_folders.test_deleting_open_folder_returns_complete_list.TestDeletingOpenFolderReturnsCompleteList.test_deleting_open_folder_returns_complete_list"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -2506,8 +2510,8 @@
     {
       "id": "ELITEA-3210",
       "title": "Regression: Folder count remains accurate after entity deletion and subsequent changes (#6482)",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "regression",
       "priority": "critical",
       "size": "",
@@ -2524,7 +2528,9 @@
         "EliteaAI/elitea_issues#5194",
         "EliteaAI/elitea_issues#6482"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.social_folders.test_folder_count_accurate_after_entity_deletion.TestFolderCountAccurateAfterEntityDeletion.test_folder_count_accurate_after_entity_deletion"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

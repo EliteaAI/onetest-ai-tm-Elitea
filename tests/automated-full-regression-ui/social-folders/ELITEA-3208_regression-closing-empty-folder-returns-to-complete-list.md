@@ -4,10 +4,13 @@ title: "Regression: Closing an empty folder returns to the complete list (#6483)
 priority: critical
 type: regression
 module: social-folders
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [feat:social-folders, issue:5194, issue:6483, regression, empty-folder]
 requirements: [EliteaAI/elitea_issues#5194, EliteaAI/elitea_issues#6483]
+automation_test_id:
+  - tests.ui.social_folders.test_closing_empty_folder_returns_complete_list.TestClosingEmptyFolderReturnsCompleteList.test_closing_empty_folder_returns_complete_list
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2307
 ---
 # ELITEA-3208: Regression - Closing an Empty Folder
 
