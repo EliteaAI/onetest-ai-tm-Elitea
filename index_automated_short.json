@@ -457,6 +457,24 @@
       ]
     },
     {
+      "id": "ELITEA-3208",
+      "automation_test_id": [
+        "tests.ui.social_folders.test_closing_empty_folder_returns_complete_list.TestClosingEmptyFolderReturnsCompleteList.test_closing_empty_folder_returns_complete_list"
+      ]
+    },
+    {
+      "id": "ELITEA-3209",
+      "automation_test_id": [
+        "tests.ui.social_folders.test_deleting_open_folder_returns_complete_list.TestDeletingOpenFolderReturnsCompleteList.test_deleting_open_folder_returns_complete_list"
+      ]
+    },
+    {
+      "id": "ELITEA-3210",
+      "automation_test_id": [
+        "tests.ui.social_folders.test_folder_count_accurate_after_entity_deletion.TestFolderCountAccurateAfterEntityDeletion.test_folder_count_accurate_after_entity_deletion"
+      ]
+    },
+    {
       "id": "ELITEA-2220",
       "automation_test_id": [
         "tests.ui.help_center.test_help_center_resource_links.TestHelpCenterResourceLinks.test_resource_card_link_redirects_to_external_page[ELITEA-2220-documentation-getting-started]"
