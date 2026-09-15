@@ -1,10 +1,10 @@
 # Test Dashboard
 
-_Generated: 2026-09-14 00:57 UTC_
+_Generated: 2026-09-15 01:23 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-09-14-131-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-AMBER**
+**RUN-ELITEA-2026-09-15-151-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-AMBER**
 
 ```mermaid
 pie showData
@@ -28,16 +28,17 @@ pie showData
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [05-98-DEV-STABLE, 06-99-DEV-STABLE, 07-100-DEV-STABLE, 08-108-DEV-STABLE, 09-111-DEV-STABLE, 10-115-DEV-STABLE, 11-122-DEV-STABLE, 12-128-DEV-STABLE, 13-129-DEV-STABLE, 14-131-DEV-STABLE]
+    x-axis [06-99-DEV-STABLE, 07-100-DEV-STABLE, 08-108-DEV-STABLE, 09-111-DEV-STABLE, 10-115-DEV-STABLE, 11-122-DEV-STABLE, 12-128-DEV-STABLE, 13-129-DEV-STABLE, 14-131-DEV-STABLE, 15-151-DEV-STABLE]
     y-axis "Tests" 0 --> 29
-    bar "Passed" [23, 23, 23, 23, 23, 24, 23, 24, 24, 24]
-    bar "Failed" [1, 1, 1, 1, 1, 0, 1, 0, 0, 0]
+    bar "Passed" [23, 23, 23, 23, 24, 23, 24, 24, 24, 24]
+    bar "Failed" [1, 1, 1, 1, 0, 1, 0, 0, 0, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ✅ 15-151-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ✅ 14-131-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ✅ 13-129-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ✅ 12-128-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
@@ -47,7 +48,6 @@ xychart-beta
 | ❌ 08-108-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 | ❌ 07-100-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 | ❌ 06-99-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
-| ❌ 05-98-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
