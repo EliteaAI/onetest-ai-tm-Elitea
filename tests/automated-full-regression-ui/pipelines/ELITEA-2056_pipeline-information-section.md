@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_information_section.test_pipeline_information_section
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1372
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2328
 ---
 
 # ELITEA-2056: Pipeline — Information Section
