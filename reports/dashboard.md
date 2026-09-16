@@ -1,10 +1,10 @@
 # Test Dashboard
 
-_Generated: 2026-09-15 01:23 UTC_
+_Generated: 2026-09-16 01:19 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-09-15-151-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-AMBER**
+**RUN-ELITEA-2026-09-16-160-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-AMBER**
 
 ```mermaid
 pie showData
@@ -28,16 +28,17 @@ pie showData
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [06-99-DEV-STABLE, 07-100-DEV-STABLE, 08-108-DEV-STABLE, 09-111-DEV-STABLE, 10-115-DEV-STABLE, 11-122-DEV-STABLE, 12-128-DEV-STABLE, 13-129-DEV-STABLE, 14-131-DEV-STABLE, 15-151-DEV-STABLE]
+    x-axis [07-100-DEV-STABLE, 08-108-DEV-STABLE, 09-111-DEV-STABLE, 10-115-DEV-STABLE, 11-122-DEV-STABLE, 12-128-DEV-STABLE, 13-129-DEV-STABLE, 14-131-DEV-STABLE, 15-151-DEV-STABLE, 16-160-DEV-STABLE]
     y-axis "Tests" 0 --> 29
-    bar "Passed" [23, 23, 23, 23, 24, 23, 24, 24, 24, 24]
-    bar "Failed" [1, 1, 1, 1, 0, 1, 0, 0, 0, 0]
+    bar "Passed" [23, 23, 23, 24, 23, 24, 24, 24, 24, 24]
+    bar "Failed" [1, 1, 1, 0, 1, 0, 0, 0, 0, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ✅ 16-160-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ✅ 15-151-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ✅ 14-131-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ✅ 13-129-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
@@ -47,7 +48,6 @@ xychart-beta
 | ❌ 09-111-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 | ❌ 08-108-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 | ❌ 07-100-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
-| ❌ 06-99-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -58,17 +58,17 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 
 | Metric | Count |
 |--------|-------|
-| Tests in automation | 432 |
+| Tests in automation | 436 |
 | Tests linked to TMS cases | 306 |
-| Tests without TMS case | 126 |
-| Orphan TMS refs (test missing) | 304 |
-| **TMS Coverage** | **70.8%** |
+| Tests without TMS case | 130 |
+| Orphan TMS refs (test missing) | 307 |
+| **TMS Coverage** | **70.2%** |
 
 ```mermaid
 pie showData
-    title "TMS Linkage (432 tests)"
+    title "TMS Linkage (436 tests)"
     "Linked to TMS" : 306
-    "No TMS case" : 126
+    "No TMS case" : 130
 ```
 
 ### Tests Without TMS Case
@@ -76,7 +76,7 @@ pie showData
 _Tests that exist in automation but have no linked TMS case._
 
 <details>
-<summary>Show 126 unlinked tests</summary>
+<summary>Show 130 unlinked tests</summary>
 
 - `tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_after`
 - `tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_before`
@@ -177,6 +177,10 @@ _Tests that exist in automation but have no linked TMS case._
 - `tests.ui.skills.test_skill_management.TestCreateSkill.test_create_skill_and_verify_execution`
 - `tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible`
 - `tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads`
+- `tests.ui.test_maintenance_handling.test_api_maintenance_error_triggerable`
+- `tests.ui.test_maintenance_handling.test_maintenance_banner_dismissed_automatically`
+- `tests.ui.test_maintenance_handling.test_maintenance_detection_captures_screenshot`
+- `tests.ui.test_maintenance_handling.test_maintenance_state_boolean_check`
 - `tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestAgentCredentialIndicators.test_agent_credential_indicators_e2e`
 - `tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestPipelineCredentialIndicators.test_pipeline_credential_indicators_e2e`
 - `tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e`
@@ -212,7 +216,7 @@ _Tests that exist in automation but have no linked TMS case._
 _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 
 <details>
-<summary>Show 304 orphan refs</summary>
+<summary>Show 307 orphan refs</summary>
 
 - `test_attachment_blocking` (ELITEA-2877)
 - `test_interjection_queuing_sequential` (ELITEA-2875)
@@ -477,6 +481,9 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 - `tests.ui.skills.test_skill_publish_wizard_happy_path.TestSkillPublishWizardHappyPath.test_publish_skill_happy_path` (ELITEA-2595)
 - `tests.ui.skills.test_skill_unpublish_republish_lifecycle.TestSkillUnpublishRepublishLifecycle.test_unpublish_republish_lifecycle` (ELITEA-2599)
 - `tests.ui.skills.test_subagent_skills_isolation.TestSubagentSkillsIsolation.test_subagent_uses_only_its_own_attached_skill` (ELITEA-2608)
+- `tests.ui.social_folders.test_closing_empty_folder_returns_complete_list.TestClosingEmptyFolderReturnsCompleteList.test_closing_empty_folder_returns_complete_list` (ELITEA-3208)
+- `tests.ui.social_folders.test_deleting_open_folder_returns_complete_list.TestDeletingOpenFolderReturnsCompleteList.test_deleting_open_folder_returns_complete_list` (ELITEA-3209)
+- `tests.ui.social_folders.test_folder_count_accurate_after_entity_deletion.TestFolderCountAccurateAfterEntityDeletion.test_folder_count_accurate_after_entity_deletion` (ELITEA-3210)
 - `tests.ui.support_assistant.test_support_assistant_attachment_send.TestSupportAssistantAttachmentSend.test_send_message_with_attached_file` (ELITEA-2421)
 - `tests.ui.support_assistant.test_support_assistant_copy_response.TestSupportAssistantCopyResponse.test_copy_assistant_response_to_clipboard` (ELITEA-2419)
 - `tests.ui.support_assistant.test_support_assistant_drag_drop_attachment.TestSupportAssistantDragDropAttachment.test_drag_and_drop_file_attachment` (ELITEA-2420)
@@ -522,4 +529,4 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 </details>
 
 ---
-_Compared `automation/index.json` (432 tests) with `index_automated.json` (610 refs)_
+_Compared `automation/index.json` (436 tests) with `index_automated.json` (613 refs)_
