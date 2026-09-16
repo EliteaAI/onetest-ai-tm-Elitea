@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_create_version.test_create_pipeline_version_save_list_switch_preserves_canvas_state
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1308
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2325
 ---
 
 # ELITEA-2063: Pipeline — Version Dropdown and Switch
