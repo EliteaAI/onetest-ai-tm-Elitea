@@ -10,6 +10,7 @@ automation_test_id:
   - tests.ui.pipelines.test_pipeline_add_node_menu.test_add_node_menu_lists_types_adds_node_and_dismisses
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2324
 ---
 
 # ELITEA-2030: Pipeline — Add Node Menu
