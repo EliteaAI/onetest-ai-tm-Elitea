@@ -1,0 +1,329 @@
+{
+  "launch": {
+    "total": 34,
+    "passed": 20,
+    "failed": 6,
+    "skipped": 8,
+    "reruns": 12
+  },
+  "items": [
+    {
+      "code_ref": "tests.ui.toolkits.test_credential_required_fields_validation.TestCredentialRequiredFieldsValidation.test_create_credential_required_fields_validation",
+      "name": "test_create_credential_required_fields_validation",
+      "status": "passed",
+      "duration_ms": 16050,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_creation_create_bucket_verify_list_files.TestToolkitCreationCreateBucketVerifyListFiles.test_create_artifact_toolkit_creates_bucket_verify_list_files",
+      "name": "test_create_artifact_toolkit_creates_bucket_verify_list_files",
+      "status": "passed",
+      "duration_ms": 54810,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e",
+      "name": "test_toolkit_credential_indicators_e2e",
+      "status": "failed",
+      "duration_ms": 24260,
+      "failure_message": "AssertionError: Expected status indicator for invalid credential\nassert False\n +  where False = has_credential_status_indicator(timeout=15000)\n +    where has_credential_status_indicator = <pages.toolkit_detail_page.ToolkitDetailPage object at 0x7f7f44ac91d0>.has_credential_status_indicator tests/ui/toolkits/test_toolkit_indicators_for_credentials.py:106: in test_toolkit_credential_indicators_e2e\n    assert toolkit_page.has_credential_status_indicator(timeout=15000), (\nE   AssertionError: Expect",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestPipelineCredentialIndicators.test_pipeline_credential_indicators_e2e",
+      "name": "test_pipeline_credential_indicators_e2e",
+      "status": "passed",
+      "duration_ms": 25287,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestAgentCredentialIndicators.test_agent_credential_indicators_e2e",
+      "name": "test_agent_credential_indicators_e2e",
+      "status": "passed",
+      "duration_ms": 42359,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[github]",
+      "name": "test_create_credential[github]",
+      "status": "passed",
+      "duration_ms": 7497,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[jira]",
+      "name": "test_create_credential[jira]",
+      "status": "passed",
+      "duration_ms": 14699,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[gitlab]",
+      "name": "test_create_credential[gitlab]",
+      "status": "skipped",
+      "duration_ms": 284,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[bitbucket]",
+      "name": "test_create_credential[bitbucket]",
+      "status": "skipped",
+      "duration_ms": 225,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[confluence]",
+      "name": "test_create_credential[confluence]",
+      "status": "passed",
+      "duration_ms": 14349,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[github]",
+      "name": "test_create_toolkit[github]",
+      "status": "passed",
+      "duration_ms": 13903,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[jira]",
+      "name": "test_create_toolkit[jira]",
+      "status": "passed",
+      "duration_ms": 12043,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[gitlab]",
+      "name": "test_create_toolkit[gitlab]",
+      "status": "skipped",
+      "duration_ms": 234,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[bitbucket]",
+      "name": "test_create_toolkit[bitbucket]",
+      "status": "skipped",
+      "duration_ms": 240,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[confluence]",
+      "name": "test_create_toolkit[confluence]",
+      "status": "passed",
+      "duration_ms": 13958,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[github]",
+      "name": "test_toolkit_test_settings[github]",
+      "status": "passed",
+      "duration_ms": 19101,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/toolkits/test_toolkit_parameterized.py:409: in test_toolkit_test_settings\n    test_settings.open_empty_state_tool_select(timeout=UI_ELEMENT_TIMEOUT)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/toolkit_test_settings_page.py:165: in open_empty_state_tool_select\n    self.empty_state_tool_select.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20696: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:752: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:395: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-package"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[github]",
+      "name": "test_toolkit_test_settings[github]",
+      "status": "passed",
+      "duration_ms": 19478,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/toolkits/test_toolkit_parameterized.py:409: in test_toolkit_test_settings\n    test_settings.open_empty_state_tool_select(timeout=UI_ELEMENT_TIMEOUT)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/toolkit_test_settings_page.py:165: in open_empty_state_tool_select\n    self.empty_state_tool_select.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20696: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:752: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:395: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-package"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[github]",
+      "name": "test_toolkit_test_settings[github]",
+      "status": "failed",
+      "duration_ms": 20006,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"toolkit-test-empty-tool-select\") to be visible tests/ui/toolkits/test_toolkit_parameterized.py:409: in test_toolkit_test_settings\n    test_settings.open_empty_state_tool_select(timeout=UI_ELEMENT_TIMEOUT)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/toolkits/test_toolkit_parameterized.py:409: in test_toolkit_test_settings\n    test_settings.open_empty_state_tool_select(timeout=UI_ELEMENT_TIMEOUT)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/toolkit_test_settings_page.py:165: in open_empty_state_tool_select\n    self.empty_state_tool_select.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20696: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:752: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:395: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-package"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[jira]",
+      "name": "test_toolkit_test_settings[jira]",
+      "status": "passed",
+      "duration_ms": 19126,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/toolkits/test_toolkit_parameterized.py:409: in test_toolkit_test_settings\n    test_settings.open_empty_state_tool_select(timeout=UI_ELEMENT_TIMEOUT)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/toolkit_test_settings_page.py:165: in open_empty_state_tool_select\n    self.empty_state_tool_select.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20696: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:752: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:395: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-package"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[jira]",
+      "name": "test_toolkit_test_settings[jira]",
+      "status": "passed",
+      "duration_ms": 19265,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/toolkits/test_toolkit_parameterized.py:409: in test_toolkit_test_settings\n    test_settings.open_empty_state_tool_select(timeout=UI_ELEMENT_TIMEOUT)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/toolkit_test_settings_page.py:165: in open_empty_state_tool_select\n    self.empty_state_tool_select.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20696: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:752: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:395: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-package"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[jira]",
+      "name": "test_toolkit_test_settings[jira]",
+      "status": "failed",
+      "duration_ms": 19156,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"toolkit-test-empty-tool-select\") to be visible tests/ui/toolkits/test_toolkit_parameterized.py:409: in test_toolkit_test_settings\n    test_settings.open_empty_state_tool_select(timeout=UI_ELEMENT_TIMEOUT)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/toolkits/test_toolkit_parameterized.py:409: in test_toolkit_test_settings\n    test_settings.open_empty_state_tool_select(timeout=UI_ELEMENT_TIMEOUT)\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/toolkit_test_settings_page.py:165: in open_empty_state_tool_select\n    self.empty_state_tool_select.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20696: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:752: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:395: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-package"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[gitlab]",
+      "name": "test_toolkit_test_settings[gitlab]",
+      "status": "skipped",
+      "duration_ms": 289,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[bitbucket]",
+      "name": "test_toolkit_test_settings[bitbucket]",
+      "status": "skipped",
+      "duration_ms": 227,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[confluence]",
+      "name": "test_toolkit_test_settings[confluence]",
+      "status": "failed",
+      "duration_ms": 1121,
+      "failure_message": "failed on setup with \"requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/573 — headers: {'Content-Length': '122', 'Content-Type': 'application/json', 'Date': 'Fri, 18 Sep 2026 09:52:26 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': [{'type': 'value_error', 'loc': ['settings', 'space_key'], 'msg': 'Value error, Field required'}]}\" api/client.py:99: in _raise_for_status\n    resp.raise_for_status()\n/opt/hostedtoolc",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[github]",
+      "name": "test_chat_with_toolkit[github]",
+      "status": "passed",
+      "duration_ms": 29876,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[jira]",
+      "name": "test_chat_with_toolkit[jira]",
+      "status": "failed",
+      "duration_ms": 20579,
+      "failure_message": "AssertionError: Jira tool 'list_projects' did not return its captured success shape ('^Found \\\\d+ projects:') — the tool call FAILED. tool_output: [\n    {\n      \"id\": \"10165\",\n      \"key\": \"AIPSDLC\",\n      \"name\": \"AI PDLC/SDLC Demo \",\n      \"type\": \"software\",\n      \"style\": \"\"\n    },\n    {\n      \"id\": \"10066\",\n      \"key\": \"AT\",\n      \"name\": \"AI tests\",\n      \"type\": \"business\",\n      \"style\": \"\"\n    },\n    {\n      \"id\": \"10099\",\n      \"key\": \"DA\",\n      \"name\": \"Demo AI\",\n      \"type\": \"soft",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[gitlab]",
+      "name": "test_chat_with_toolkit[gitlab]",
+      "status": "skipped",
+      "duration_ms": 487,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[bitbucket]",
+      "name": "test_chat_with_toolkit[bitbucket]",
+      "status": "skipped",
+      "duration_ms": 523,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[confluence]",
+      "name": "test_chat_with_toolkit[confluence]",
+      "status": "failed",
+      "duration_ms": 2609,
+      "failure_message": "failed on setup with \"requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://dev.elitea.ai/api/v2/elitea_core/tools/prompt_lib/573 — headers: {'Content-Length': '122', 'Content-Type': 'application/json', 'Date': 'Fri, 18 Sep 2026 09:53:19 GMT', 'Vary': 'Cookie'} — body: {'ok': False, 'error': [{'type': 'value_error', 'loc': ['settings', 'space_key'], 'msg': 'Value error, Field required'}]}\" api/client.py:99: in _raise_for_status\n    resp.raise_for_status()\n/opt/hostedtoolc",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_selection_from_chat",
+      "name": "test_voice_selection_from_chat",
+      "status": "passed",
+      "duration_ms": 27037,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_speed_and_volume_controls",
+      "name": "test_speed_and_volume_controls",
+      "status": "passed",
+      "duration_ms": 23902,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_sync",
+      "name": "test_voice_settings_sync",
+      "status": "passed",
+      "duration_ms": 23867,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_preview_personalization",
+      "name": "test_voice_preview_personalization",
+      "status": "passed",
+      "duration_ms": 13373,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_not_visible_by_default",
+      "name": "test_voice_settings_not_visible_by_default",
+      "status": "passed",
+      "duration_ms": 12256,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    }
+  ]
+}
