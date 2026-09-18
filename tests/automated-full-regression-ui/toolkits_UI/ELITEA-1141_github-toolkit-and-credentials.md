@@ -11,7 +11,10 @@ automation_test_id:
   - tests.ui.toolkits.test_github_toolkit.TestCreateGitHubToolkit.test_create_github_toolkit
   - tests.ui.toolkits.test_github_toolkit.TestGitHubToolkitTestSettings.test_github_toolkit_test_settings
   - tests.ui.toolkits.test_github_toolkit.TestChatWithGitHubToolkit.test_chat_with_github_toolkit
+  - tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[github]
   - tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[github]
+  - tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[github]
+  - tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[github]
 tags: []
 requirements: []
 ---

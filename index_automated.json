@@ -15989,6 +15989,33 @@
       "path": "tests/automated-full-regression-ui/help_center/ELITEA-2230_help-center-back-button-navigates-to-previous-step-during-in.md"
     },
     {
+      "id": "ELITEA-1140",
+      "title": "Jira and Confluence Toolkit CRUD",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[jira]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[jira]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[jira]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[jira]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[confluence]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[confluence]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[confluence]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[confluence]"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-1140_jira-and-confluence-toolkit-crud.md"
+    },
+    {
       "id": "ELITEA-1141",
       "title": "GitHub Toolkit and Credentials",
       "status": "ready",
@@ -16005,7 +16032,10 @@
         "tests.ui.toolkits.test_github_toolkit.TestCreateGitHubToolkit.test_create_github_toolkit",
         "tests.ui.toolkits.test_github_toolkit.TestGitHubToolkitTestSettings.test_github_toolkit_test_settings",
         "tests.ui.toolkits.test_github_toolkit.TestChatWithGitHubToolkit.test_chat_with_github_toolkit",
-        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[github]"
+        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[github]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[github]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[github]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[github]"
       ],
       "targets": [],
       "dependencies": [],
