@@ -1,43 +1,54 @@
 # Test Dashboard
 
-_Generated: 2026-09-18 01:18 UTC_
+_Generated: 2026-09-18 09:53 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-09-18-179-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-AMBER**
+**RUN-ELITEA-2026-09-18-184-DEV-STABLE-TOOLKITS-VOICE-FAILED**
 
 ```mermaid
 pie showData
-    title "Test Results (26 total)"
-    "Passed" : 24
-    "Failed" : 0
-    "Skipped" : 2
+    title "Test Results (34 total)"
+    "Passed" : 20
+    "Failed" : 6
+    "Skipped" : 8
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 26 |
-| Passed | 24 |
-| Failed | 0 |
-| Skipped | 2 |
-| Reruns | 0 |
-| Pass Rate | 92.3% |
+| Total | 34 |
+| Passed | 20 |
+| Failed | 6 |
+| Skipped | 8 |
+| Reruns | 12 |
+| Pass Rate | 58.8% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [09-111-DEV-STABLE, 10-115-DEV-STABLE, 11-122-DEV-STABLE, 12-128-DEV-STABLE, 13-129-DEV-STABLE, 14-131-DEV-STABLE, 15-151-DEV-STABLE, 16-160-DEV-STABLE, 17-170-DEV-STABLE, 18-179-DEV-STABLE]
+    x-axis [10-115-DEV-STABLE, 11-122-DEV-STABLE, 12-128-DEV-STABLE, 13-129-DEV-STABLE, 14-131-DEV-STABLE, 15-151-DEV-STABLE, 16-160-DEV-STABLE, 17-170-DEV-STABLE, 18-179-DEV-STABLE, 18-184-DEV-STABLE]
     y-axis "Tests" 0 --> 29
-    bar "Passed" [23, 24, 23, 24, 24, 24, 24, 24, 24, 24]
-    bar "Failed" [1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+    bar "Passed" [24, 23, 24, 24, 24, 24, 24, 24, 24, 20]
+    bar "Failed" [0, 1, 0, 0, 0, 0, 0, 0, 0, 6]
+```
+
+### Reruns Trend
+
+```mermaid
+xychart-beta
+    title "Test Reruns (Flakiness Indicator)"
+    x-axis [10-115-DEV-STABLE, 11-122-DEV-STABLE, 12-128-DEV-STABLE, 13-129-DEV-STABLE, 14-131-DEV-STABLE, 15-151-DEV-STABLE, 16-160-DEV-STABLE, 17-170-DEV-STABLE, 18-179-DEV-STABLE, 18-184-DEV-STABLE]
+    y-axis "Reruns" 0 --> 15
+    line "Reruns" [0, 0, 0, 0, 0, 0, 0, 0, 0, 12]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 18-184-DEV-STABLE | 34 | 20 | 6 | 8 | 12 | 59% |
 | ✅ 18-179-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ✅ 17-170-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ✅ 16-160-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
@@ -47,7 +58,6 @@ xychart-beta
 | ✅ 12-128-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ❌ 11-122-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 | ✅ 10-115-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
-| ❌ 09-111-DEV-STABLE | 26 | 23 | 1 | 2 | 0 | 88% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -59,16 +69,16 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 | Metric | Count |
 |--------|-------|
 | Tests in automation | 436 |
-| Tests linked to TMS cases | 306 |
-| Tests without TMS case | 130 |
-| Orphan TMS refs (test missing) | 307 |
-| **TMS Coverage** | **70.2%** |
+| Tests linked to TMS cases | 318 |
+| Tests without TMS case | 118 |
+| Orphan TMS refs (test missing) | 309 |
+| **TMS Coverage** | **72.9%** |
 
 ```mermaid
 pie showData
     title "TMS Linkage (436 tests)"
-    "Linked to TMS" : 306
-    "No TMS case" : 130
+    "Linked to TMS" : 318
+    "No TMS case" : 118
 ```
 
 ### Tests Without TMS Case
@@ -76,7 +86,7 @@ pie showData
 _Tests that exist in automation but have no linked TMS case._
 
 <details>
-<summary>Show 130 unlinked tests</summary>
+<summary>Show 118 unlinked tests</summary>
 
 - `tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_after`
 - `tests.ui.admin.test_guardrails_cleanup_only.test_cleanup_before`
@@ -183,26 +193,14 @@ _Tests that exist in automation but have no linked TMS case._
 - `tests.ui.test_maintenance_handling.test_maintenance_state_boolean_check`
 - `tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestAgentCredentialIndicators.test_agent_credential_indicators_e2e`
 - `tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestPipelineCredentialIndicators.test_pipeline_credential_indicators_e2e`
-- `tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e`
 - `tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[bitbucket]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[confluence]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[github]`
 - `tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[gitlab]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[jira]`
 - `tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[bitbucket]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[confluence]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[github]`
 - `tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[gitlab]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[jira]`
 - `tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[bitbucket]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[confluence]`
 - `tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[gitlab]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[jira]`
 - `tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[bitbucket]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[confluence]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[github]`
 - `tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[gitlab]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[jira]`
 - `tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_speed_and_volume_controls`
 - `tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_preview_personalization`
 - `tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_selection_from_chat`
@@ -216,7 +214,7 @@ _Tests that exist in automation but have no linked TMS case._
 _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 
 <details>
-<summary>Show 307 orphan refs</summary>
+<summary>Show 309 orphan refs</summary>
 
 - `test_attachment_blocking` (ELITEA-2877)
 - `test_interjection_queuing_sequential` (ELITEA-2875)
@@ -525,8 +523,10 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 - `tests.ui.toolkits.test_mcp_toggle_selected_tools.test_mcp_toggle_selected_tools_via_raw_json` (ELITEA-1935)
 - `tests.ui.toolkits.test_mcp_type_filter.test_mcp_dashboard_filter_by_type_remote` (ELITEA-1942)
 - `tests.ui.toolkits.test_mcp_type_picker_local_vs_remote.TestMcpTypePickerLocalVsRemote.test_type_picker_sections_documentation_link_and_filters` (ELITEA-1949)
+- `tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_agent_credential_indicators_e2e` (ELITEA-1182)
+- `tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_pipeline_credential_indicators_e2e` (ELITEA-1182)
 
 </details>
 
 ---
-_Compared `automation/index.json` (436 tests) with `index_automated.json` (613 refs)_
+_Compared `automation/index.json` (436 tests) with `index_automated.json` (627 refs)_
