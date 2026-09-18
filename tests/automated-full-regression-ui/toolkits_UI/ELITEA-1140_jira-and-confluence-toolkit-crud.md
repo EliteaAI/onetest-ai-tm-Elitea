@@ -15,7 +15,7 @@ automation_test_id:
   - tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[confluence]
   - tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[confluence]
   - tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[confluence]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1861
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2364
 tags: []
 requirements: []
 ---
