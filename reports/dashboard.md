@@ -1,10 +1,10 @@
 # Test Dashboard
 
-_Generated: 2026-09-20 00:59 UTC_
+_Generated: 2026-09-21 01:04 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-09-20-188-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-AMBER**
+**RUN-ELITEA-2026-09-21-189-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-AMBER**
 
 ```mermaid
 pie showData
@@ -28,10 +28,10 @@ pie showData
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [12-128-DEV-STABLE, 13-129-DEV-STABLE, 14-131-DEV-STABLE, 15-151-DEV-STABLE, 16-160-DEV-STABLE, 17-170-DEV-STABLE, 18-179-DEV-STABLE, 18-184-DEV-STABLE, 19-187-DEV-STABLE, 20-188-DEV-STABLE]
+    x-axis [13-129-DEV-STABLE, 14-131-DEV-STABLE, 15-151-DEV-STABLE, 16-160-DEV-STABLE, 17-170-DEV-STABLE, 18-179-DEV-STABLE, 18-184-DEV-STABLE, 19-187-DEV-STABLE, 20-188-DEV-STABLE, 21-189-DEV-STABLE]
     y-axis "Tests" 0 --> 29
-    bar "Passed" [24, 24, 24, 24, 24, 24, 24, 20, 24, 24]
-    bar "Failed" [0, 0, 0, 0, 0, 0, 0, 6, 0, 0]
+    bar "Passed" [24, 24, 24, 24, 24, 24, 20, 24, 24, 24]
+    bar "Failed" [0, 0, 0, 0, 0, 0, 6, 0, 0, 0]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [12-128-DEV-STABLE, 13-129-DEV-STABLE, 14-131-DEV-STABLE, 15-151-DEV-STABLE, 16-160-DEV-STABLE, 17-170-DEV-STABLE, 18-179-DEV-STABLE, 18-184-DEV-STABLE, 19-187-DEV-STABLE, 20-188-DEV-STABLE]
+    x-axis [13-129-DEV-STABLE, 14-131-DEV-STABLE, 15-151-DEV-STABLE, 16-160-DEV-STABLE, 17-170-DEV-STABLE, 18-179-DEV-STABLE, 18-184-DEV-STABLE, 19-187-DEV-STABLE, 20-188-DEV-STABLE, 21-189-DEV-STABLE]
     y-axis "Reruns" 0 --> 15
-    line "Reruns" [0, 0, 0, 0, 0, 0, 0, 12, 0, 0]
+    line "Reruns" [0, 0, 0, 0, 0, 0, 12, 0, 0, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ✅ 21-189-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ✅ 20-188-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ✅ 19-187-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ❌ 18-184-DEV-STABLE | 34 | 20 | 6 | 8 | 12 | 59% |
@@ -57,7 +58,6 @@ xychart-beta
 | ✅ 15-151-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ✅ 14-131-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 | ✅ 13-129-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
-| ✅ 12-128-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
