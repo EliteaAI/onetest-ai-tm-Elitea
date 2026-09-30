@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3554
+id: ELITEA-3601
 title: "# search still shows ALL agents including public (regression)"
 priority: critical
 type: regression

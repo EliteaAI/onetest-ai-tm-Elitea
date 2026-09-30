@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3551
+id: ELITEA-3598
 title: "& mouse click selection adds agent to participants"
 priority: critical
 type: functional

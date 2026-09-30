@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3553
+id: ELITEA-3600
 title: "& ESC key closes dropdown without inserting mention"
 priority: critical
 type: functional

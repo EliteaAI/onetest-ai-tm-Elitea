@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3556
+id: ELITEA-3603
 title: "Chat – & trigger adds private agent to participants, filters list, and highlights already-added agents"
 priority: high
 type: functional
@@ -11,7 +11,7 @@ tags: [automated:UI:regression, feat:chat, feat:agents, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6368]
 ---
 
-# ELITEA-3556: Chat – & trigger adds private agent to participants, filters list, and highlights already-added agents
+# ELITEA-3603: Chat – & trigger adds private agent to participants, filters list, and highlights already-added agents
 
 **Module:** chat-interface · **Priority:** high · **Type:** functional
 

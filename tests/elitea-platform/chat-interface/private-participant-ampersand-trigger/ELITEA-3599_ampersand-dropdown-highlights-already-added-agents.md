@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3552
+id: ELITEA-3599
 title: "& dropdown highlights already-added agents"
 priority: critical
 type: functional

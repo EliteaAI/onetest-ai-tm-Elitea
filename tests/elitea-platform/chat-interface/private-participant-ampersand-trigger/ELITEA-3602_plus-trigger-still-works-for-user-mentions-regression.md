@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3555
+id: ELITEA-3602
 title: "+ trigger still works for user mentions (regression)"
 priority: critical
 type: regression

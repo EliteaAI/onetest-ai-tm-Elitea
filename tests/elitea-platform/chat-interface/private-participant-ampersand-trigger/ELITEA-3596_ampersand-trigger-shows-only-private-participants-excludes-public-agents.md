@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3549
+id: ELITEA-3596
 title: "& trigger shows only private participants (excludes public agents from Agent Hub)"
 priority: critical
 type: functional

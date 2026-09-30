@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3557
+id: ELITEA-3604
 title: "Chat – Trigger differentiation: # shows all agents, & shows only private, + shows only users"
 priority: high
 type: regression
@@ -11,7 +11,7 @@ tags: [automated:UI:regression, feat:chat, feat:agents, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6368]
 ---
 
-# ELITEA-3557: Chat – Trigger differentiation: # shows all agents, & shows only private, + shows only users
+# ELITEA-3604: Chat – Trigger differentiation: # shows all agents, & shows only private, + shows only users
 
 **Module:** chat-interface · **Priority:** high · **Type:** regression
 

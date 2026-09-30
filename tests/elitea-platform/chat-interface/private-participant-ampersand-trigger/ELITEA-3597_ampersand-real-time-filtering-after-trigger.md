@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3550
+id: ELITEA-3597
 title: "& real-time filtering after trigger with agent name characters"
 priority: critical
 type: functional
