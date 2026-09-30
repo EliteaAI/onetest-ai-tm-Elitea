@@ -18005,8 +18005,8 @@
     {
       "id": "ELITEA-2219",
       "title": "Help Center — page loads successfully via sidebar icon",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -18017,7 +18017,9 @@
         "feat:help-center"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_page_loads.TestHelpCenterPageLoads.test_help_center_page_loads_via_sidebar_icon"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
