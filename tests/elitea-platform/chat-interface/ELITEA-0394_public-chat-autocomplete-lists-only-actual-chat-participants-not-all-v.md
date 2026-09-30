@@ -6,14 +6,14 @@ type: functional
 module: chat-interface
 status: ready
 execution_type: manual
-tags: [feat:chat, r-2.0.3]
-requirements: [EliteaAI/elitea_issues#4896]
+tags: [feat:chat, r-2.0.3, r-2.0.7]
+requirements: [EliteaAI/elitea_issues#4896, EliteaAI/elitea_issues#6368]
 ---
 # ELITEA-0394: Public chat: autocomplete lists only actual chat participants, not all viewers
 
 **Module:** Chat Interface · **Priority:** High · **Type:** Functional
 
-**Objective:** Verify that in a shared chat, the @mention autocomplete suggests only the users who were explicitly added to or have written in the chat — not all team members or viewers who simply have access to read the shared conversation.
+**Objective:** Verify that in a shared chat, the user mention autocomplete suggests only the users who were explicitly added to or have written in the chat — not all team members or viewers who simply have access to read the shared conversation.
 
 **Coverage:**
 - Autocomplete in a shared chat works and shows the actual participants
@@ -42,9 +42,9 @@ requirements: [EliteaAI/elitea_issues#4896]
 | # | Action | Expected Result |
 |---|--------|----------------|
 | 1 | Open the public chat | Chat view loads; participants panel shows only Alice and Bob — not Carol or other viewers |
-| 2 | Click the message input and type `@` | Autocomplete dropdown appears |
+| 2 | Click the message input and type `+` | Autocomplete dropdown appears |
 | 3 | Inspect the dropdown entries | Only "Alice" and "Bob" are listed; "Carol" and other view-only users are absent |
-| 4 | Type `C` after `@` (filtering for "Carol") | No suggestion for "Carol" appears; dropdown shows no match or empty state |
+| 4 | Type `C` after `+` (filtering for "Carol") | No suggestion for "Carol" appears; dropdown shows no match or empty state |
 | 5 | Clear `C`; type `Al` to filter for Alice | Dropdown narrows to "Alice" only |
 | 6 | Select "Alice"; complete and send the message | `@Alice` is inserted; message is sent and renders correctly in the shared chat |
 

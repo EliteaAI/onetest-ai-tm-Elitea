@@ -6,8 +6,8 @@ type: functional
 module: chat-interface
 status: ready
 execution_type: manual
-tags: [feat:chat]
-requirements: [EliteaAI/elitea_issues#4167]
+tags: [feat:chat, r-2.0.7]
+requirements: [EliteaAI/elitea_issues#4167, EliteaAI/elitea_issues#6368]
 ---
 # ELITEA-0396: @Mention of Same User Multiple Times in One Message Generates Only One Notification
 
@@ -46,4 +46,4 @@ Exactly 1 notification exists — not 2, despite @User_B appearing twice in the 
 - Exactly 1 notification exists for User B from the message where they were mentioned twice
 
 **Fail:**
-- 2 or more notifications exist for User B from the single message (one per @mention occurrence)
+- 2 or more notifications exist for User B from the single message (one per user mention occurrence)
