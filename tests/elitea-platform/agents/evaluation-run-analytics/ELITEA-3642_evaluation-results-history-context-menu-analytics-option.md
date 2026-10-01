@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3630
+id: ELITEA-3642
 title: "Evaluation Results History Context Menu Analytics Option"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:frontend, issue:6817, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3630: Evaluation Results History Context Menu Analytics Option
+# ELITEA-3642: Evaluation Results History Context Menu Analytics Option
 
 **Module:** Evaluation Run Analytics · **Priority:** Critical · **Type:** Functional
 

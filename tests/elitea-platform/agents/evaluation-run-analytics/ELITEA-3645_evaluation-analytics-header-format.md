@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3633
+id: ELITEA-3645
 title: "Evaluation Analytics Header Format with Suite Name"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:frontend, issue:6817, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3633: Evaluation Analytics Header Format with Suite Name
+# ELITEA-3645: Evaluation Analytics Header Format with Suite Name
 
 **Module:** Evaluation Run Analytics · **Priority:** Critical · **Type:** Functional
 

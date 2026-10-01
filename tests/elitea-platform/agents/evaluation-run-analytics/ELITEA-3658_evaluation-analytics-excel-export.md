@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3646
+id: ELITEA-3658
 title: "Evaluation Analytics Excel Export Functionality"
 priority: high
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:frontend, issue:6817, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3646: Evaluation Analytics Excel Export Functionality
+# ELITEA-3658: Evaluation Analytics Excel Export Functionality
 
 **Module:** Evaluation Run Analytics · **Priority:** High · **Type:** Functional
 

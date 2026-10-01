@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3649
+id: ELITEA-3661
 title: "Evaluation Analytics Direct URL Access"
 priority: high
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:frontend, nfr:usability, issue:6817, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3649: Evaluation Analytics Direct URL Access
+# ELITEA-3661: Evaluation Analytics Direct URL Access
 
 **Module:** Evaluation Run Analytics · **Priority:** High · **Type:** Functional
 

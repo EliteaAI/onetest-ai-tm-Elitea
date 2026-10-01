@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3654
+id: ELITEA-3666
 title: "Evaluation Analytics Project Access Control"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:frontend, nfr:security, issue:6817, r-2.0.7, regression]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3654: Evaluation Analytics Project Access Control
+# ELITEA-3666: Evaluation Analytics Project Access Control
 
 **Module:** Evaluation Run Analytics · **Priority:** Critical · **Type:** Regression
 

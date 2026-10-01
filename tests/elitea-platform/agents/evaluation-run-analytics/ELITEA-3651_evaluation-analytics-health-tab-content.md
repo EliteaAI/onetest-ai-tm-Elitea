@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3639
+id: ELITEA-3651
 title: "Evaluation Analytics Health Tab Content"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:frontend, issue:6817, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3639: Evaluation Analytics Health Tab Content
+# ELITEA-3651: Evaluation Analytics Health Tab Content
 
 **Module:** Evaluation Run Analytics · **Priority:** Critical · **Type:** Functional
 

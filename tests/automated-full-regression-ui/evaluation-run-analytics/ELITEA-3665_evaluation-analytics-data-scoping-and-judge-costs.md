@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3653
+id: ELITEA-3665
 title: "Evaluation Analytics Data Scoping and LLM Judge Costs"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:backend, issue:6817, r-2.0.7, regression]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3653: Evaluation Analytics Data Scoping and LLM Judge Costs
+# ELITEA-3665: Evaluation Analytics Data Scoping and LLM Judge Costs
 
 **Module:** Evaluation Run Analytics · **Priority:** Critical · **Type:** Regression
 

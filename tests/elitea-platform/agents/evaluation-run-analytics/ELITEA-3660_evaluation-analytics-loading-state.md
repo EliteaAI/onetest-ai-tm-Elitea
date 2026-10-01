@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3648
+id: ELITEA-3660
 title: "Evaluation Analytics Loading State"
 priority: high
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:frontend, nfr:usability, issue:6817, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3648: Evaluation Analytics Loading State
+# ELITEA-3660: Evaluation Analytics Loading State
 
 **Module:** Evaluation Run Analytics · **Priority:** High · **Type:** Functional
 

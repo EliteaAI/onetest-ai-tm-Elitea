@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3636
+id: ELITEA-3648
 title: "Evaluation Analytics Costs Tab Content"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:frontend, issue:6817, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3636: Evaluation Analytics Costs Tab Content
+# ELITEA-3648: Evaluation Analytics Costs Tab Content
 
 **Module:** Evaluation Run Analytics · **Priority:** Critical · **Type:** Functional
 

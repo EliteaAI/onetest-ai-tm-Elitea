@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3651
+id: ELITEA-3663
 title: "Evaluation Analytics Navigation and Page Structure"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:frontend, issue:6817, r-2.0.7, regression]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3651: Evaluation Analytics Navigation and Page Structure
+# ELITEA-3663: Evaluation Analytics Navigation and Page Structure
 
 **Module:** Evaluation Run Analytics · **Priority:** Critical · **Type:** Regression
 

@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3642
+id: ELITEA-3654
 title: "Evaluation Analytics Failed Cases Retain Usage Data"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:backend, issue:6817, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3642: Evaluation Analytics Failed Cases Retain Usage Data
+# ELITEA-3654: Evaluation Analytics Failed Cases Retain Usage Data
 
 **Module:** Evaluation Run Analytics · **Priority:** Critical · **Type:** Functional
 

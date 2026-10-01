@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3634
+id: ELITEA-3646
 title: "Evaluation Analytics Four Tabs in Correct Order"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:frontend, issue:6817, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3634: Evaluation Analytics Four Tabs in Correct Order
+# ELITEA-3646: Evaluation Analytics Four Tabs in Correct Order
 
 **Module:** Evaluation Run Analytics · **Priority:** Critical · **Type:** Functional
 

@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3640
+id: ELITEA-3652
 title: "Evaluation Analytics Data Scoping Isolation"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:backend, issue:6817, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3640: Evaluation Analytics Data Scoping Isolation
+# ELITEA-3652: Evaluation Analytics Data Scoping Isolation
 
 **Module:** Evaluation Run Analytics · **Priority:** Critical · **Type:** Functional
 

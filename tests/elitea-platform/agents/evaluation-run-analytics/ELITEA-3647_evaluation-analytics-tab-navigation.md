@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3635
+id: ELITEA-3647
 title: "Evaluation Analytics Tab Navigation"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:frontend, issue:6817, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3635: Evaluation Analytics Tab Navigation
+# ELITEA-3647: Evaluation Analytics Tab Navigation
 
 **Module:** Evaluation Run Analytics · **Priority:** Critical · **Type:** Functional
 

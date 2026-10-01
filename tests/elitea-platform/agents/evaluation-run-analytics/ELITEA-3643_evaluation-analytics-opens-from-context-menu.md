@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3631
+id: ELITEA-3643
 title: "Evaluation Analytics Opens from Context Menu"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:frontend, issue:6817, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3631: Evaluation Analytics Opens from Context Menu
+# ELITEA-3643: Evaluation Analytics Opens from Context Menu
 
 **Module:** Evaluation Run Analytics · **Priority:** Critical · **Type:** Functional
 

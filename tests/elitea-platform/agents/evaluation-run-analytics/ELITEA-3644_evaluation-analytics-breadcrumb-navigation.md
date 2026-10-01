@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3632
+id: ELITEA-3644
 title: "Evaluation Analytics Breadcrumb Navigation"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:frontend, nfr:usability, issue:6817, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3632: Evaluation Analytics Breadcrumb Navigation
+# ELITEA-3644: Evaluation Analytics Breadcrumb Navigation
 
 **Module:** Evaluation Run Analytics · **Priority:** Critical · **Type:** Functional
 

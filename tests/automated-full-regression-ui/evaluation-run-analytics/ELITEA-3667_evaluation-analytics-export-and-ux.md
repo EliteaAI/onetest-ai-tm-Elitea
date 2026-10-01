@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3655
+id: ELITEA-3667
 title: "Evaluation Analytics Export and UX"
 priority: high
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:frontend, nfr:usability, issue:6817, r-2.0.7, regression]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3655: Evaluation Analytics Export and UX
+# ELITEA-3667: Evaluation Analytics Export and UX
 
 **Module:** Evaluation Run Analytics · **Priority:** High · **Type:** Regression
 

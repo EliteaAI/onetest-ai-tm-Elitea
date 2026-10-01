@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3645
+id: ELITEA-3657
 title: "Evaluation Analytics Not Available in Public Project"
 priority: high
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:frontend, nfr:security, issue:6817, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3645: Evaluation Analytics Not Available in Public Project
+# ELITEA-3657: Evaluation Analytics Not Available in Public Project
 
 **Module:** Evaluation Run Analytics · **Priority:** High · **Type:** Functional
 

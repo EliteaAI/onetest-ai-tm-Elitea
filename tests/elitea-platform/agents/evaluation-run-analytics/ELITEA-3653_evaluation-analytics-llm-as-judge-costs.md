@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3641
+id: ELITEA-3653
 title: "Evaluation Analytics Includes LLM-as-Judge Scoring Costs"
 priority: critical
 type: functional
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [feat:agent_eval, feat:analytics, eng:backend, issue:6817, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6817]
 ---
-# ELITEA-3641: Evaluation Analytics Includes LLM-as-Judge Scoring Costs
+# ELITEA-3653: Evaluation Analytics Includes LLM-as-Judge Scoring Costs
 
 **Module:** Evaluation Run Analytics · **Priority:** Critical · **Type:** Functional
 
