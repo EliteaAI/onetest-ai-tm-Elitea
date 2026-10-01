@@ -1,23 +1,23 @@
 ---
 id: ELITEA-0392
-title: "@mention autocomplete core flow: trigger, filter, mouse select, keyboard select, insert, and send"
+title: "user mention autocomplete core flow: trigger, filter, mouse select, keyboard select, insert, and send"
 priority: critical
 type: functional
 module: chat-interface
 status: ready
 execution_type: manual
-tags: [feat:chat, r-2.0.3]
-requirements: [EliteaAI/elitea_issues#4896, EliteaAI/elitea_issues#4921]
+tags: [feat:chat, r-2.0.3, r-2.0.7]
+requirements: [EliteaAI/elitea_issues#4896, EliteaAI/elitea_issues#4921, EliteaAI/elitea_issues#6368]
 ---
-# ELITEA-0392: @mention autocomplete core flow: trigger, filter, mouse select, keyboard select, insert, and send
+# ELITEA-0392: user mention autocomplete core flow: trigger, filter, mouse select, keyboard select, insert, and send
 
 **Module:** Chat Interface · **Priority:** Critical · **Type:** Functional
 
-**Objective:** Verify the full @mention autocomplete flow in a single sequential run — from triggering the dropdown, filtering suggestions by typing, selecting a participant via mouse, re-triggering and selecting via keyboard, inserting both mentions, and successfully sending the message.
+**Objective:** Verify the full user mention autocomplete flow in a single sequential run — from triggering the dropdown, filtering suggestions by typing, selecting a participant via mouse, re-triggering and selecting via keyboard, inserting both mentions, and successfully sending the message.
 
 **Coverage:**
-- Typing `@` triggers the autocomplete dropdown listing all participants
-- Typing after `@` filters suggestions in real time to matching names only
+- Typing `+` triggers the user mention autocomplete dropdown listing all user participants
+- Typing after `+` filters suggestions in real time to matching names only
 - Mouse click on a suggestion inserts the mention and closes the dropdown — existing input text is preserved (not replaced)
 - ArrowDown/ArrowUp navigation + Enter confirmation inserts a second mention via keyboard — first mention is preserved (not replaced)
 - Dropdown re-triggers after inserting a first mention and continuing to type
@@ -44,11 +44,11 @@ requirements: [EliteaAI/elitea_issues#4896, EliteaAI/elitea_issues#4921]
 | # | Action | Expected Result |
 |---|--------|----------------|
 | 1 | Open the conversation; click the chat message input field | Input field is focused and empty |
-| 2 | Type `@` | Autocomplete dropdown appears near the cursor listing all participants: "Alice", "Bob" |
-| 3 | Type `Al` (input is now `@Al`) | Dropdown narrows to show only "Alice"; "Bob" is no longer listed |
+| 2 | Type `+` | User mention autocomplete dropdown appears near the cursor listing all participants: "Alice", "Bob" |
+| 3 | Type `Al` (input is now `+Al`) | Dropdown narrows to show only "Alice"; "Bob" is no longer listed |
 | 4 | Click "Alice" in the dropdown | Dropdown closes; `@Alice` is inserted into the input field at cursor position |
 | 5 | Type ` and ` (input is now `@Alice and `) | Text is appended normally; no dropdown appears yet |
-| 6 | Type `@` | Autocomplete dropdown re-appears listing all participants: "Alice", "Bob" |
+| 6 | Type `+` | Autocomplete dropdown re-appears listing all participants: "Alice", "Bob" |
 | 7 | Press Arrow Down once to highlight "Bob", then press Enter | Dropdown closes; `@Bob` is inserted; input reads `@Alice and @Bob` |
 | 8 | Type `, please review.` to complete the message | Input reads `@Alice and @Bob, please review.` |
 | 9 | Click Send (or press Enter) | Message is submitted successfully |
