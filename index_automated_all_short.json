@@ -4479,6 +4479,36 @@
       "id": "ELITEA-2001",
       "priority": "medium",
       "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-2001_build-with-ai-generation-failure-shows-error-and-allows-retry.md"
+    },
+    {
+      "id": "ELITEA-3624",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3624_e2e-agent-per-run-analytics-flow.md"
+    },
+    {
+      "id": "ELITEA-3625",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3625_e2e-pipeline-per-run-analytics-flow.md"
+    },
+    {
+      "id": "ELITEA-3626",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3626_data-scoping-verification.md"
+    },
+    {
+      "id": "ELITEA-3627",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3627_regression-project-analytics-not-affected.md"
+    },
+    {
+      "id": "ELITEA-3628",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3628_regression-run-history-not-affected.md"
+    },
+    {
+      "id": "ELITEA-3629",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3629_empty-states-and-edge-cases.md"
     }
   ]
 }
