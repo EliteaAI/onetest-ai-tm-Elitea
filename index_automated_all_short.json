@@ -681,6 +681,31 @@
       "path": "tests/automated-full-regression-ui/toolkit/sharepoint-read-file-from-sharing-link/ELITEA-2855_read-file-from-sharing-link-oversized-cap-bounded-read-per-type-validation-and-excel-guidance.md"
     },
     {
+      "id": "ELITEA-3663",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3663_evaluation-analytics-navigation-and-page-structure.md"
+    },
+    {
+      "id": "ELITEA-3664",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3664_evaluation-analytics-all-tabs-content.md"
+    },
+    {
+      "id": "ELITEA-3665",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3665_evaluation-analytics-data-scoping-and-judge-costs.md"
+    },
+    {
+      "id": "ELITEA-3666",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3666_evaluation-analytics-project-access-control.md"
+    },
+    {
+      "id": "ELITEA-3667",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3667_evaluation-analytics-export-and-ux.md"
+    },
+    {
       "id": "ELITEA-2350",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2350_agent-hub-page-loads-successfully-for-private-project.md"

@@ -3146,6 +3146,143 @@
       "path": "tests/automated-full-regression-ui/toolkit/sharepoint-read-file-from-sharing-link/ELITEA-2855_read-file-from-sharing-link-oversized-cap-bounded-read-per-type-validation-and-excel-guidance.md"
     },
     {
+      "id": "ELITEA-3663",
+      "title": "Evaluation Analytics Navigation and Page Structure",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "evaluation-run-analytics",
+      "owner": "",
+      "tags": [
+        "feat:agent_eval",
+        "feat:analytics",
+        "eng:frontend",
+        "issue:6817",
+        "r-2.0.7",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6817"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3663_evaluation-analytics-navigation-and-page-structure.md"
+    },
+    {
+      "id": "ELITEA-3664",
+      "title": "Evaluation Analytics All Tabs Content Verification",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "evaluation-run-analytics",
+      "owner": "",
+      "tags": [
+        "feat:agent_eval",
+        "feat:analytics",
+        "eng:frontend",
+        "issue:6817",
+        "r-2.0.7",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6817"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3664_evaluation-analytics-all-tabs-content.md"
+    },
+    {
+      "id": "ELITEA-3665",
+      "title": "Evaluation Analytics Data Scoping and LLM Judge Costs",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "evaluation-run-analytics",
+      "owner": "",
+      "tags": [
+        "feat:agent_eval",
+        "feat:analytics",
+        "eng:backend",
+        "issue:6817",
+        "r-2.0.7",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6817"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3665_evaluation-analytics-data-scoping-and-judge-costs.md"
+    },
+    {
+      "id": "ELITEA-3666",
+      "title": "Evaluation Analytics Project Access Control",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "evaluation-run-analytics",
+      "owner": "",
+      "tags": [
+        "feat:agent_eval",
+        "feat:analytics",
+        "eng:frontend",
+        "nfr:security",
+        "issue:6817",
+        "r-2.0.7",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6817"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3666_evaluation-analytics-project-access-control.md"
+    },
+    {
+      "id": "ELITEA-3667",
+      "title": "Evaluation Analytics Export and UX",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "evaluation-run-analytics",
+      "owner": "",
+      "tags": [
+        "feat:agent_eval",
+        "feat:analytics",
+        "eng:frontend",
+        "nfr:usability",
+        "issue:6817",
+        "r-2.0.7",
+        "regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6817"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3667_evaluation-analytics-export-and-ux.md"
+    },
+    {
       "id": "ELITEA-2350",
       "title": "Agent Hub — page loads successfully for Private project",
       "status": "ready",
