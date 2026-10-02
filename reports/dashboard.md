@@ -1,10 +1,10 @@
 # Test Dashboard
 
-_Generated: 2026-10-01 02:07 UTC_
+_Generated: 2026-10-02 02:17 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-01-205-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-FAILED**
+**RUN-ELITEA-2026-10-02-206-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-FAILED**
 
 ```mermaid
 pie showData
@@ -28,10 +28,10 @@ pie showData
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [23-195-DEV-STABLE, 24-197-DEV-STABLE, 25-198-DEV-STABLE, 26-199-DEV-STABLE, 27-200-DEV-STABLE, 28-201-DEV-STABLE, 29-202-DEV-STABLE, 29-203-DEV-STABLE, 30-204-DEV-STABLE, 01-205-DEV-STABLE]
+    x-axis [24-197-DEV-STABLE, 25-198-DEV-STABLE, 26-199-DEV-STABLE, 27-200-DEV-STABLE, 28-201-DEV-STABLE, 29-202-DEV-STABLE, 29-203-DEV-STABLE, 30-204-DEV-STABLE, 01-205-DEV-STABLE, 02-206-DEV-STABLE]
     y-axis "Tests" 0 --> 31
-    bar "Passed" [24, 26, 26, 26, 26, 26, 26, 26, 26, 26]
-    bar "Failed" [0, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+    bar "Passed" [26, 26, 26, 26, 26, 26, 26, 26, 26, 26]
+    bar "Failed" [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [23-195-DEV-STABLE, 24-197-DEV-STABLE, 25-198-DEV-STABLE, 26-199-DEV-STABLE, 27-200-DEV-STABLE, 28-201-DEV-STABLE, 29-202-DEV-STABLE, 29-203-DEV-STABLE, 30-204-DEV-STABLE, 01-205-DEV-STABLE]
+    x-axis [24-197-DEV-STABLE, 25-198-DEV-STABLE, 26-199-DEV-STABLE, 27-200-DEV-STABLE, 28-201-DEV-STABLE, 29-202-DEV-STABLE, 29-203-DEV-STABLE, 30-204-DEV-STABLE, 01-205-DEV-STABLE, 02-206-DEV-STABLE]
     y-axis "Reruns" 0 --> 15
-    line "Reruns" [0, 12, 12, 12, 12, 12, 12, 12, 12, 12]
+    line "Reruns" [12, 12, 12, 12, 12, 12, 12, 12, 12, 12]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 02-206-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 | ❌ 01-205-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 | ❌ 30-204-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 | ❌ 29-203-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
@@ -57,7 +58,6 @@ xychart-beta
 | ❌ 26-199-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 | ❌ 25-198-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 | ❌ 24-197-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
-| ✅ 23-195-DEV-STABLE | 26 | 24 | 0 | 2 | 0 | 92% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -71,7 +71,7 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 | Tests in automation | 436 |
 | Tests linked to TMS cases | 318 |
 | Tests without TMS case | 118 |
-| Orphan TMS refs (test missing) | 309 |
+| Orphan TMS refs (test missing) | 310 |
 | **TMS Coverage** | **72.9%** |
 
 ```mermaid
@@ -214,7 +214,7 @@ _Tests that exist in automation but have no linked TMS case._
 _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 
 <details>
-<summary>Show 309 orphan refs</summary>
+<summary>Show 310 orphan refs</summary>
 
 - `test_attachment_blocking` (ELITEA-2877)
 - `test_interjection_queuing_sequential` (ELITEA-2875)
@@ -396,6 +396,7 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 - `tests.ui.chat.test_slash_mention_mcp_selection_and_available_tools.TestSlashMentionMcpSelectionAndAvailableTools.test_select_mcp_from_slash_mention_no_tools_shows_empty_panel` (ELITEA-2468)
 - `tests.ui.chat.test_slash_mention_mcp_selection_and_available_tools.TestSlashMentionMcpSelectionAndAvailableTools.test_select_mcp_from_slash_mention_shows_its_tools` (ELITEA-2468)
 - `tests.ui.chat.test_streaming_response.TestStreamingResponse.test_composer_send_button_toggles_with_empty_input_and_waveform_reappears` (ELITEA-2466)
+- `tests.ui.help_center.test_help_center_page_loads.TestHelpCenterPageLoads.test_help_center_page_loads_via_sidebar_icon` (ELITEA-2219)
 - `tests.ui.help_center.test_help_center_resource_links.TestHelpCenterResourceLinks.test_resource_card_link_redirects_to_external_page[ELITEA-2220-documentation-getting-started]` (ELITEA-2220)
 - `tests.ui.help_center.test_help_center_resource_links.TestHelpCenterResourceLinks.test_resource_card_link_redirects_to_external_page[ELITEA-2221-release-notes-latest]` (ELITEA-2221)
 - `tests.ui.help_center.test_help_center_resource_links.TestHelpCenterResourceLinks.test_resource_card_link_redirects_to_external_page[ELITEA-2222-tutorials-how-to-create-an-agent]` (ELITEA-2222)
@@ -529,4 +530,4 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 </details>
 
 ---
-_Compared `automation/index.json` (436 tests) with `index_automated.json` (627 refs)_
+_Compared `automation/index.json` (436 tests) with `index_automated.json` (628 refs)_
