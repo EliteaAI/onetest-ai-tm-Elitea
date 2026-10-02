@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3456
+id: ELITEA-3689
 title: "LLM timeout counts only tokens actually received; malformed/unparseable response still produces a row with token_source='unparsed'"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, error-handling, llm]
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6571"]
 ---
 
-# ELITEA-3456: LLM timeout counts only tokens actually received; malformed/unparseable response still produces a row with token_source='unparsed'
+# ELITEA-3689: LLM timeout counts only tokens actually received; malformed/unparseable response still produces a row with token_source='unparsed'
 
 **Module:** usage-cost-tracking · **Priority:** High · **Type:** Functional
 

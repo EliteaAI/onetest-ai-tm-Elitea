@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3450
+id: ELITEA-3683
 title: "Build/Edit-with-AI cost calculation uses cost_micro_usd precision; unpriced model is flagged, not silently $0"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, build-with-ai, edit-with-ai, cost-calcula
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6571", "EliteaAI/elitea_issues#6607"]
 ---
 
-# ELITEA-3450: Build/Edit-with-AI cost calculation uses cost_micro_usd precision; unpriced model is flagged, not silently $0
+# ELITEA-3683: Build/Edit-with-AI cost calculation uses cost_micro_usd precision; unpriced model is flagged, not silently $0
 
 **Module:** usage-cost-tracking · **Priority:** High · **Type:** Functional
 

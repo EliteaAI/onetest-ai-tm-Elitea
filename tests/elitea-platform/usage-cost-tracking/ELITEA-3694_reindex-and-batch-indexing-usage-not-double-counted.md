@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3461
+id: ELITEA-3694
 title: "Reindex and batch indexing: usage is not double-counted; embedding model name and pricing captured correctly"
 priority: medium
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, indexing, reindex, batch]
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6570"]
 ---
 
-# ELITEA-3461: Reindex and batch indexing: usage is not double-counted; embedding model name and pricing captured correctly
+# ELITEA-3694: Reindex and batch indexing: usage is not double-counted; embedding model name and pricing captured correctly
 
 **Module:** usage-cost-tracking · **Priority:** Medium · **Type:** Functional
 

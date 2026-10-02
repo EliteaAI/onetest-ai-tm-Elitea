@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3466
+id: ELITEA-3699
 title: "E2E: Build/Edit-with-AI error-then-retry journey records a real-input-token error row, then an independent, non-double-billed retry row"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, integration, e2e, error-handling]
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6571", "EliteaAI/elitea_issues#6607"]
 ---
 
-# ELITEA-3466: E2E: Build/Edit-with-AI error-then-retry journey records a real-input-token error row, then an independent, non-double-billed retry row
+# ELITEA-3699: E2E: Build/Edit-with-AI error-then-retry journey records a real-input-token error row, then an independent, non-double-billed retry row
 
 **Module:** usage-cost-tracking · **Priority:** High · **Type:** Functional
 

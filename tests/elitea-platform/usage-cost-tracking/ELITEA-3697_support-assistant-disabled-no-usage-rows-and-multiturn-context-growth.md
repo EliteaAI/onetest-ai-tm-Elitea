@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3464
+id: ELITEA-3697
 title: "Support Assistant disabled by admin produces no usage rows (not just a hidden UI); multi-turn cost grows with context size"
 priority: medium
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, support-assistant]
 requirements: ["EliteaAI/elitea_issues#6566"]
 ---
 
-# ELITEA-3464: Support Assistant disabled by admin produces no usage rows (not just a hidden UI); multi-turn cost grows with context size
+# ELITEA-3697: Support Assistant disabled by admin produces no usage rows (not just a hidden UI); multi-turn cost grows with context size
 
 **Module:** usage-cost-tracking · **Priority:** Medium · **Type:** Functional
 

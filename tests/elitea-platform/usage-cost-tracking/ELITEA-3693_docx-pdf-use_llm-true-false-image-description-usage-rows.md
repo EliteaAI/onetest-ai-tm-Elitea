@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3460
+id: ELITEA-3693
 title: "DOCX/PDF with embedded images: use_llm=true produces image-description LLM usage rows; use_llm=false produces none"
 priority: medium
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, indexing, use-llm]
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6571", "EliteaAI/elitea_issues#6607"]
 ---
 
-# ELITEA-3460: DOCX/PDF with embedded images: use_llm=true produces image-description LLM usage rows; use_llm=false produces none
+# ELITEA-3693: DOCX/PDF with embedded images: use_llm=true produces image-description LLM usage rows; use_llm=false produces none
 
 **Module:** usage-cost-tracking · **Priority:** Medium · **Type:** Functional
 

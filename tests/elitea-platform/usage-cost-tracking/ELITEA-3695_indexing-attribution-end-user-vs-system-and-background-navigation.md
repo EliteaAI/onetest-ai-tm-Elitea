@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3462
+id: ELITEA-3695
 title: "Indexing usage attributes to the real end-user or a resolvable system user (never NULL); background jobs still record after navigating away"
 priority: medium
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, indexing, attribution]
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6568"]
 ---
 
-# ELITEA-3462: Indexing usage attributes to the real end-user or a resolvable system user (never NULL); background jobs still record after navigating away
+# ELITEA-3695: Indexing usage attributes to the real end-user or a resolvable system user (never NULL); background jobs still record after navigating away
 
 **Module:** usage-cost-tracking · **Priority:** Medium · **Type:** Functional
 

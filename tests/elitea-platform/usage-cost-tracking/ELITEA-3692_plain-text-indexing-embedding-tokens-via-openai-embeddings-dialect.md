@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3459
+id: ELITEA-3692
 title: "Plain-text document indexing records embedding tokens via the openai.embeddings dialect, no LLM spend"
 priority: medium
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, indexing]
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6570"]
 ---
 
-# ELITEA-3459: Plain-text document indexing records embedding tokens via the openai.embeddings dialect, no LLM spend
+# ELITEA-3692: Plain-text document indexing records embedding tokens via the openai.embeddings dialect, no LLM spend
 
 **Module:** usage-cost-tracking · **Priority:** Medium · **Type:** Functional
 

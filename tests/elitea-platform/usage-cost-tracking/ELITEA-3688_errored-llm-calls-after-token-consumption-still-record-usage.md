@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3455
+id: ELITEA-3688
 title: "A 4xx/5xx provider response after input tokens were consumed still produces a usage_event row with is_error=true and real tokens"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, error-handling, llm]
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6571", "EliteaAI/elitea_issues#6574"]
 ---
 
-# ELITEA-3455: A 4xx/5xx provider response after input tokens were consumed still produces a usage_event row with is_error=true and real tokens
+# ELITEA-3688: A 4xx/5xx provider response after input tokens were consumed still produces a usage_event row with is_error=true and real tokens
 
 **Module:** usage-cost-tracking · **Priority:** High · **Type:** Functional
 
