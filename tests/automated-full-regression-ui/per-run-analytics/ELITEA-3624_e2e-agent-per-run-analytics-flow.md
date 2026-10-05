@@ -5,7 +5,7 @@ priority: critical
 type: e2e
 module: per-run-analytics
 status: draft
-execution_type: automated
+execution_type: manual
 tags: [feat:analytics, feat:agents, eng:frontend, issue:6816, r-2.0.7, regression]
 requirements: [EliteaAI/elitea_issues#6816]
 ---
