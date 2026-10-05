@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3453
+id: ELITEA-3686
 title: "Build/Edit-with-AI cancellation: no token record only if the backend call is actually aborted"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, build-with-ai, edit-with-ai, cancellation
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6571", "EliteaAI/elitea_issues#6607"]
 ---
 
-# ELITEA-3453: Build/Edit-with-AI cancellation: no token record only if the backend call is actually aborted
+# ELITEA-3686: Build/Edit-with-AI cancellation: no token record only if the backend call is actually aborted
 
 **Module:** usage-cost-tracking · **Priority:** High · **Type:** Functional
 

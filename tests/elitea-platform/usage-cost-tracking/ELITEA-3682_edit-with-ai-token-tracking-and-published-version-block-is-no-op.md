@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3449
+id: ELITEA-3682
 title: "Edit with AI (Agent/Skill) records tokens on success; blocked attempt on a published version produces no billed row"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, edit-with-ai, agents, skills]
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6568", "EliteaAI/elitea_issues#6571", "EliteaAI/elitea_issues#6607"]
 ---
 
-# ELITEA-3449: Edit with AI (Agent/Skill) records tokens on success; blocked attempt on a published version produces no billed row
+# ELITEA-3682: Edit with AI (Agent/Skill) records tokens on success; blocked attempt on a published version produces no billed row
 
 **Module:** usage-cost-tracking · **Priority:** High · **Type:** Functional
 

@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3451
+id: ELITEA-3684
 title: "Build/Edit-with-AI model misconfiguration shows a clean error; no cost recorded if provider never received the request"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, build-with-ai, edit-with-ai, error-handli
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6571", "EliteaAI/elitea_issues#6607"]
 ---
 
-# ELITEA-3451: Build/Edit-with-AI model misconfiguration shows a clean error; no cost recorded if provider never received the request
+# ELITEA-3684: Build/Edit-with-AI model misconfiguration shows a clean error; no cost recorded if provider never received the request
 
 **Module:** usage-cost-tracking · **Priority:** High · **Type:** Functional
 

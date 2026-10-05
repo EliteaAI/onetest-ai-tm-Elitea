@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3448
+id: ELITEA-3681
 title: "Build with AI (Agent creation) records accurate input/output tokens and surfaces in Analytics within ~5 min"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, build-with-ai, agents]
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6568", "EliteaAI/elitea_issues#6571", "EliteaAI/elitea_issues#6607"]
 ---
 
-# ELITEA-3448: Build with AI (Agent creation) records accurate input/output tokens and surfaces in Analytics within ~5 min
+# ELITEA-3681: Build with AI (Agent creation) records accurate input/output tokens and surfaces in Analytics within ~5 min
 
 **Module:** usage-cost-tracking · **Priority:** High · **Type:** Functional
 

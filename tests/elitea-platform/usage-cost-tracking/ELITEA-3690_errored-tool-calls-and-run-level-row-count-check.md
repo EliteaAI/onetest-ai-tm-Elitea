@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3457
+id: ELITEA-3690
 title: "Errored tool calls record is_error=true with no tokens/cost; nested tool calls inherit parent run_id; row count equals N+M per run"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, error-handling, tool-calls]
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6572"]
 ---
 
-# ELITEA-3457: Errored tool calls record is_error=true with no tokens/cost; nested tool calls inherit parent run_id; row count equals N+M per run
+# ELITEA-3690: Errored tool calls record is_error=true with no tokens/cost; nested tool calls inherit parent run_id; row count equals N+M per run
 
 **Module:** usage-cost-tracking · **Priority:** High · **Type:** Functional
 

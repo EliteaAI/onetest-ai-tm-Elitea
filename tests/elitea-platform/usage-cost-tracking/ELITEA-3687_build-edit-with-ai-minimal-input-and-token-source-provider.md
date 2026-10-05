@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3454
+id: ELITEA-3687
 title: "Build/Edit-with-AI minimal-input calls don't round to zero-cost; token_source is 'provider' not 'unparsed'"
 priority: medium
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, build-with-ai, edit-with-ai, edge-case]
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6571", "EliteaAI/elitea_issues#6607"]
 ---
 
-# ELITEA-3454: Build/Edit-with-AI minimal-input calls don't round to zero-cost; token_source is 'provider' not 'unparsed'
+# ELITEA-3687: Build/Edit-with-AI minimal-input calls don't round to zero-cost; token_source is 'provider' not 'unparsed'
 
 **Module:** usage-cost-tracking · **Priority:** Medium · **Type:** Functional
 

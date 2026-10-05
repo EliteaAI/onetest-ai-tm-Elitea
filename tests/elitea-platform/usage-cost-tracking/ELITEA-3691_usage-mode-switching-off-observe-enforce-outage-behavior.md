@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3458
+id: ELITEA-3691
 title: "Usage mode switch (off/observe/enforce) is independent of tracing state; enforce fails closed on Redis/Postgres outage"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, error-handling, mode-switching]
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6573"]
 ---
 
-# ELITEA-3458: Usage mode switch (off/observe/enforce) is independent of tracing state; enforce fails closed on Redis/Postgres outage
+# ELITEA-3691: Usage mode switch (off/observe/enforce) is independent of tracing state; enforce fails closed on Redis/Postgres outage
 
 **Module:** usage-cost-tracking · **Priority:** High · **Type:** Functional
 

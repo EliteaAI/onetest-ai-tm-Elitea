@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3463
+id: ELITEA-3696
 title: "Support Assistant records input/output tokens per query, attributed to the real end-user, visible in Analytics within ~5 min"
 priority: medium
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, support-assistant]
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6574"]
 ---
 
-# ELITEA-3463: Support Assistant records input/output tokens per query, attributed to the real end-user, visible in Analytics within ~5 min
+# ELITEA-3696: Support Assistant records input/output tokens per query, attributed to the real end-user, visible in Analytics within ~5 min
 
 **Module:** usage-cost-tracking · **Priority:** Medium · **Type:** Functional
 

@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3452
+id: ELITEA-3685
 title: "Build/Edit-with-AI usage_event.user_id always resolves to the real invoking user, never NULL"
 priority: medium
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, build-with-ai, edit-with-ai, attribution]
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6568"]
 ---
 
-# ELITEA-3452: Build/Edit-with-AI usage_event.user_id always resolves to the real invoking user, never NULL
+# ELITEA-3685: Build/Edit-with-AI usage_event.user_id always resolves to the real invoking user, never NULL
 
 **Module:** usage-cost-tracking · **Priority:** Medium · **Type:** Functional
 

@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3465
+id: ELITEA-3698
 title: "E2E: Build-with-AI → Edit-with-AI → use agent in Chat — all three steps tracked distinctly with correct per-model costs"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:usage-tracking, epic:6566, integration, e2e, build-with-ai, edit-wit
 requirements: ["EliteaAI/elitea_issues#6566", "EliteaAI/elitea_issues#6571", "EliteaAI/elitea_issues#6607", "EliteaAI/elitea_issues#6574"]
 ---
 
-# ELITEA-3465: E2E: Build-with-AI → Edit-with-AI → use agent in Chat — all three steps tracked distinctly with correct per-model costs
+# ELITEA-3698: E2E: Build-with-AI → Edit-with-AI → use agent in Chat — all three steps tracked distinctly with correct per-model costs
 
 **Module:** usage-cost-tracking · **Priority:** High · **Type:** Functional
 
