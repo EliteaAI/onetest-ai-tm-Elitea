@@ -4,11 +4,9 @@ title: "Chat – HITL Authorization – Verify Sensitive Action Authorization Ca
 priority: high
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
-automation_test_id: tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionCardDisplay.test_sensitive_action_card_displays_for_direct_toolkit_call
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1832
 requirements: []
 ---
 

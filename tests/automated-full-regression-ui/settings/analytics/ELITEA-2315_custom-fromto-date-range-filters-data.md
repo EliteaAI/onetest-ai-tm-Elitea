@@ -4,13 +4,10 @@ title: "Custom From/To date range filters data"
 priority: medium
 type: functional
 module: settings-analytics
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_analytics_date_filter_controls.TestAnalyticsCustomDateRange.test_custom_from_to_range_filters_data
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1958"
 ---
 
 # ELITEA-2315: Custom From/To date range filters data

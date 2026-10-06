@@ -4,12 +4,9 @@ title: "Artifacts Landing Page UI – Bucket with More Than 10 Files and Paginat
 priority: medium
 type: functional
 module: artifacts
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
-automation_test_id:
-  - tests.ui.artifacts.test_artifacts_landing_page_ui.TestArtifactsLandingPageUI.test_landing_page_pagination_more_than_ten_files
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1625
 requirements: []
 ---
 

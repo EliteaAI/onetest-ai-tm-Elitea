@@ -4,13 +4,10 @@ title: "Secret name only allows letters, numbers, and underscores — hyphens no
 priority: high
 type: functional
 module: settings-secrets
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_secret_create_inline_checkmark_x_cancel.TestSecretCreateInlineCheckmarkXCancel.test_secret_name_rejects_hyphen_and_special_chars_valid_name_clears_error
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1207
 ---
 
 # ELITEA-2337: Secret name only allows letters, numbers, and underscores — hyphens not permitted

@@ -4,12 +4,10 @@ title: "Create Credential"
 priority: critical
 type: functional
 module: toolkits-credentials
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:toolkits]
 requirements: []
-automation_test_id: tests.ui.toolkits.test_credential_create.TestCredentialCreate.test_create_github_credential_via_sidebar_button
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/617
 ---
 
 # ELITEA-1962: Create Credential

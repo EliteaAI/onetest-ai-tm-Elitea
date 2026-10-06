@@ -4,13 +4,10 @@ title: "TTS section displays model cards and default selector"
 priority: medium
 type: functional
 module: settings-ai-configuration
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_ai_provider_section_cards_and_default_selector.TestAiProviderSectionCardsAndDefaultSelector.test_section_shows_model_cards_and_default_selector[ELITEA-2406-tts]
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1995"
 ---
 
 # ELITEA-2406: TTS section displays model cards and default selector

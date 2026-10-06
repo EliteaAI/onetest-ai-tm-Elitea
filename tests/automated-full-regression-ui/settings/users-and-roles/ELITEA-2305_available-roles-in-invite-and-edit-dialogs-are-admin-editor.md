@@ -4,13 +4,10 @@ title: "Available roles in Invite and Edit dialogs are admin, editor, and viewer
 priority: medium
 type: functional
 module: settings-users-and-roles
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_users_roles_in_invite_and_edit_dialogs.TestUsersRolesInInviteAndEditDialogs.test_available_roles_in_invite_and_edit_dialogs
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1979"
 ---
 
 # ELITEA-2305: Available roles in Invite and Edit dialogs are admin, editor, and viewer

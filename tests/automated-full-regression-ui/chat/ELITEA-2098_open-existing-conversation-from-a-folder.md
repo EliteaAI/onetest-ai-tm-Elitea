@@ -4,10 +4,8 @@ title: "Open Existing Conversation from a Folder"
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: tests.ui.chat.test_open_conversation_from_folder.TestOpenExistingConversationFromFolder.test_open_existing_conversation_from_folder
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1512
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

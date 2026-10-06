@@ -4,13 +4,10 @@ title: "Pipeline — Interrupt Before/After Toggles"
 priority: medium
 type: functional
 module: pipelines
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
-automation_test_id:
-  - tests.ui.pipelines.test_pipeline_interrupt_before_after_toggles.test_interrupt_after_toggle_pauses_and_attempts_resume
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1329
 ---
 
 # ELITEA-2047: Pipeline — Interrupt Before/After Toggles

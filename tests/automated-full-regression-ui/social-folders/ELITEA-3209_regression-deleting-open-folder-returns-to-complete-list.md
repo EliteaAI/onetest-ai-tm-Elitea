@@ -4,13 +4,10 @@ title: "Regression: Deleting the currently open folder returns to the complete l
 priority: critical
 type: regression
 module: social-folders
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [feat:social-folders, issue:5194, issue:6484, regression, delete-folder]
 requirements: [EliteaAI/elitea_issues#5194, EliteaAI/elitea_issues#6484]
-automation_test_id:
-  - tests.ui.social_folders.test_deleting_open_folder_returns_complete_list.TestDeletingOpenFolderReturnsCompleteList.test_deleting_open_folder_returns_complete_list
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2307
 ---
 # ELITEA-3209: Regression - Deleting the Currently Open Folder
 

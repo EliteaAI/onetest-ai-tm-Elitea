@@ -6,10 +6,8 @@ type: automated
 module: interjections
 status: draft
 execution_type: manual
-tags: [feat:chat, r-2.0.6, interjection, attachment, automated, regression]
+tags: [feat:chat, r-2.0.6, interjection, attachment, regression]
 requirements: [EliteaAI/elitea_issues#6115, EliteaAI/elitea_issues#6448]
-automation_test_id: test_attachment_blocking
-code_ref: tests/automated-full-regression-ui/chat/test_interjections.py::test_attachment_blocking
 ---
 
 # ELITEA-2877: Attachment blocking during active run

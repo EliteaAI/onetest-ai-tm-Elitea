@@ -4,10 +4,8 @@ title: "Chat – Create Toolkit from Conversation – Close Canvas Without Savin
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: "tests.ui.chat.test_close_toolkit_canvas_without_saving.TestCloseToolkitCanvasWithoutSaving.test_close_toolkit_canvas_without_saving_creates_no_toolkit"
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1615
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

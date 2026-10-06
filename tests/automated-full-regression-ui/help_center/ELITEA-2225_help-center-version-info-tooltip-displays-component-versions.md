@@ -4,13 +4,10 @@ title: "Help Center — version info tooltip displays component versions and can
 priority: high
 type: functional
 module: help-center
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:help-center]
 requirements: []
-automation_test_id:
-  - tests.ui.help_center.test_help_center_version_info.TestHelpCenterVersionInfo.test_version_info_tooltip_displays_and_copies
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1494
 ---
 
 # ELITEA-2225: Help Center — version info tooltip displays component versions and can be copied

@@ -4,12 +4,9 @@ title: "Artifacts Landing Page UI – Empty Bucket (No Files)"
 priority: medium
 type: functional
 module: artifacts
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
-automation_test_id:
-  - tests.ui.artifacts.test_artifacts_landing_page_ui.TestArtifactsLandingPageUI.test_landing_page_empty_bucket
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1625
 requirements: []
 ---
 

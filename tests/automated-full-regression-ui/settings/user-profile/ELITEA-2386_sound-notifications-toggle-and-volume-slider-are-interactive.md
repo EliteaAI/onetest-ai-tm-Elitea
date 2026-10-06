@@ -4,13 +4,10 @@ title: "Sound Notifications — toggle and volume slider are interactive"
 priority: medium
 type: functional
 module: settings-user-profile
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_sound_notifications_controls.TestSoundNotificationsControls.test_sound_notifications_toggle_and_volume_are_interactive
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1969"
 ---
 
 # ELITEA-2386: Sound Notifications — toggle and volume slider are interactive

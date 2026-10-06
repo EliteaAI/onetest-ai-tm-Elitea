@@ -4,12 +4,9 @@ title: "File Preview/Edit – Switching Between Preview and Raw Tabs"
 priority: medium
 type: functional
 module: artifacts
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
-automation_test_id:
-  - tests.ui.artifacts.test_artifacts_file_preview_markdown_tab_switching.TestArtifactFilePreviewMarkdownTabSwitching.test_switching_between_preview_and_raw_tabs
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1696
 requirements: []
 ---
 

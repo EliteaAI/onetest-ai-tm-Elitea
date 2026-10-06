@@ -4,12 +4,9 @@ title: "File Preview/Edit – Markdown Raw Tab Cancel Discard Returns to Raw Edi
 priority: medium
 type: functional
 module: artifacts
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
-automation_test_id:
-  - tests.ui.artifacts.test_artifacts_file_preview_markdown_raw_discard.TestArtifactFilePreviewMarkdownRawDiscard.test_markdown_raw_discard_warning_exit_paths
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1696
 requirements: []
 ---
 

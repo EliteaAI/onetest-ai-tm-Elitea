@@ -4,13 +4,10 @@ title: "Remove a tag from agent — removal persists after reload"
 priority: medium
 type: functional
 module: agents
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agents]
 requirements: []
-automation_test_id:
-  - tests.ui.agents.test_agent_management.TestAgentActions.test_remove_tag_from_agent_persists_after_reload
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1292
 ---
 
 # ELITEA-1879: Remove a tag from agent — removal persists after reload

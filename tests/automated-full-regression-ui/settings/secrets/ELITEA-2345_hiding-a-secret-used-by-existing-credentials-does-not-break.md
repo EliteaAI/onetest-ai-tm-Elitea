@@ -4,13 +4,10 @@ title: "Hiding a secret used by existing credentials does not break those creden
 priority: high
 type: functional
 module: settings-secrets
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_hidden_secret_not_breaking_credentials.TestHiddenSecretNotBreakingCredentials.test_hiding_secret_used_by_credential_does_not_break_it
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1912"
 ---
 
 # ELITEA-2345: Hiding a secret used by existing credentials does not break those credentials

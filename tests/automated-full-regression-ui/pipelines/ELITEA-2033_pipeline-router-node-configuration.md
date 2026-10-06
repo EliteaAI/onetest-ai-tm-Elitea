@@ -4,13 +4,10 @@ title: "Pipeline — Router Node Configuration"
 priority: high
 type: functional
 module: pipelines
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
-automation_test_id:
-  - tests.ui.pipelines_2.test_pipeline_router_node_configuration.test_router_node_configuration_and_edge_wiring
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1146
 ---
 
 # ELITEA-2033: Pipeline — Router Node Configuration

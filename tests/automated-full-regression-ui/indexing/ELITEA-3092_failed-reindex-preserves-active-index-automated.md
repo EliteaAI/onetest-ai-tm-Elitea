@@ -6,7 +6,7 @@ type: automated
 module: indexing/reindex-preservation
 status: draft
 execution_type: manual
-tags: [feat:indexer, story:6232, automated, regression, reindex-preservation]
+tags: [feat:indexer, story:6232, regression, reindex-preservation]
 requirements: [EliteaAI/elitea_issues#6232]
 ---
 

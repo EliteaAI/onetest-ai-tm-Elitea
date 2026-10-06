@@ -6,8 +6,6 @@ type: functional
 module: artifacts
 status: draft
 execution_type: manual
-automation_test_id: 
-automation_pr: 
 tags: [automated:UI:regression, feat:artifacts, feat:image-vision, r-2.0.6]
 requirements: [EliteaAI/elitea_issues#6530]
 ---

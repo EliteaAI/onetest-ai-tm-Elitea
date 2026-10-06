@@ -4,13 +4,10 @@ title: "Create a new Embedding Model configuration"
 priority: medium
 type: functional
 module: settings-ai-configuration
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_embedding_model_create.TestCreateEmbeddingModelConfiguration.test_create_embedding_model_configuration
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1990"
 ---
 
 # ELITEA-2398: Create a new Embedding Model configuration

@@ -4,11 +4,8 @@ title: "Chat – Modules panel accessible from + icon in conversation with all t
 priority: high
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.chat.test_chat_search_and_modules_panel.TestChatSearchAndModulesPanel.test_search_filters_and_modules_panel_toggles
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1295
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

@@ -4,12 +4,9 @@ title: "Download Flow – Cancel Download in Progress Stops ZIP Preparation"
 priority: medium
 type: functional
 module: artifacts
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
-automation_test_id:
-  - tests.ui.artifacts.test_artifacts_download_cancel_zip_progress.TestArtifactDownloadCancelZipProgress.test_cancel_in_progress_zip_download
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1642
 requirements: []
 ---
 

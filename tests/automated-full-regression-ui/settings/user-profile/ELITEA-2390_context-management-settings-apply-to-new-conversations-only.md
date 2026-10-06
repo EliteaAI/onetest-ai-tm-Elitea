@@ -4,13 +4,10 @@ title: "Context management settings apply to new conversations only"
 priority: high
 type: functional
 module: settings-user-profile
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_context_settings_new_conversations_only.TestContextSettingsApplyToNewConversationsOnly.test_context_settings_apply_to_new_conversations_only
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1969"
 ---
 
 # ELITEA-2390: Context management settings apply to new conversations only

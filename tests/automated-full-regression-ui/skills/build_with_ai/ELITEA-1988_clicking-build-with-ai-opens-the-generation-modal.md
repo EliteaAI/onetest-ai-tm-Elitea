@@ -4,12 +4,10 @@ title: "Clicking Build with AI opens the generation modal"
 priority: high
 type: functional
 module: skills
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:skills]
 requirements: []
-automation_test_id: tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAIModalElements.test_build_with_ai_opens_modal_with_expected_elements
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/565
 ---
 
 # ELITEA-1988: Clicking Build with AI opens the generation modal

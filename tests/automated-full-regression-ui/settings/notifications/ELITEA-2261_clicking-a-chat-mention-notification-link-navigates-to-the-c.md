@@ -4,13 +4,10 @@ title: "Clicking a chat mention notification link navigates to the correct conve
 priority: medium
 type: functional
 module: settings-notifications
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_notification_link_navigates_to_conversation.TestNotificationChatMentionLinkNavigation.test_chat_mention_link_navigates_to_conversation
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1788"
 ---
 
 # ELITEA-2261: Clicking a chat mention notification link navigates to the correct conversation

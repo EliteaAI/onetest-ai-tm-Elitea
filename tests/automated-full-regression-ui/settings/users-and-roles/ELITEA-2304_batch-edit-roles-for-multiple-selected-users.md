@@ -4,13 +4,10 @@ title: "Batch edit roles for multiple selected users"
 priority: high
 type: functional
 module: settings-users-and-roles
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_users_batch_edit_roles.TestBatchEditRolesForMultipleSelectedUsers.test_batch_edit_roles_for_multiple_selected_users
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1182
 ---
 
 # ELITEA-2304: Batch edit roles for multiple selected users

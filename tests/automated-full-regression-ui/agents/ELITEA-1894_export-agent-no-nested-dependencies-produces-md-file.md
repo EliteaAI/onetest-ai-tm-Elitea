@@ -4,12 +4,10 @@ title: "Export agent with no nested dependencies — produces .md file with corr
 priority: high
 type: functional
 module: agents
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agents]
 requirements: []
-automation_test_id: tests.ui.skills.test_export_agent_no_nested_dependencies.TestExportAgentNoNestedDependencies.test_export_agent_no_nested_dependencies
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/514
 ---
 
 # ELITEA-1894: Export agent with no nested dependencies — produces .md file with correct content

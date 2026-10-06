@@ -4,10 +4,8 @@ title: "Chat – Move Conversation to a New Folder via Move To Menu"
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.chat.test_move_conversation_to_folder.TestMoveConversationToExistingFolder.test_move_conversation_to_new_folder
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

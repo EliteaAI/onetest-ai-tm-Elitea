@@ -4,13 +4,10 @@ title: "From date cannot be set later than To date"
 priority: medium
 type: functional
 module: settings-analytics
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_analytics_date_filter_controls.TestAnalyticsFromDateConstraint.test_from_date_cannot_be_later_than_to_date
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1958"
 ---
 
 # ELITEA-2316: From date cannot be set later than To date

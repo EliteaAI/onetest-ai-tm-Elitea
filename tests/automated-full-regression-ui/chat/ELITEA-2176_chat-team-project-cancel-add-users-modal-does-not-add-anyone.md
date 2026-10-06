@@ -4,11 +4,8 @@ title: "Chat – Team Project – Cancel Add Users Modal After Pre-Selecting Use
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.chat.test_invite_users_add_cancel_close.TestCancelAddUsersModalAfterPreselectingUsers.test_cancel_after_preselecting_two_users_adds_no_one
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1561
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

@@ -4,13 +4,10 @@ title: "Create LLM Model — ID is auto-populated from Display Name"
 priority: medium
 type: functional
 module: settings-ai-configuration
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_llm_model_id_autopopulated.TestLlmModelIdAutoPopulated.test_id_is_auto_populated_and_read_only
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1990"
 ---
 
 # ELITEA-2409: Create LLM Model — ID is auto-populated from Display Name

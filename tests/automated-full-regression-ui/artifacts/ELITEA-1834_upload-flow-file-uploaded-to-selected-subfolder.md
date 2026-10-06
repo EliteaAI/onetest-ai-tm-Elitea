@@ -4,12 +4,9 @@ title: "Upload Flow – File Uploaded to Selected Subfolder When Using Bucket Ac
 priority: medium
 type: functional
 module: artifacts
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
-automation_test_id:
-  - tests.ui.artifacts.test_artifacts_upload_to_selected_subfolder.TestArtifactUploadToSelectedSubfolder.test_upload_via_bucket_actions_lands_in_selected_subfolder
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1633
 requirements: []
 ---
 

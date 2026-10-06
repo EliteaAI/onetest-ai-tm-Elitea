@@ -4,13 +4,10 @@ title: "General settings (personality and instructions) are independent of conte
 priority: high
 type: functional
 module: settings-user-profile
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_personality_independent_of_context_management.TestPersonalityIndependentOfContextManagement.test_personality_settings_independent_of_context_management
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1969"
 ---
 
 # ELITEA-2383: General settings (personality and instructions) are independent of context management toggle state

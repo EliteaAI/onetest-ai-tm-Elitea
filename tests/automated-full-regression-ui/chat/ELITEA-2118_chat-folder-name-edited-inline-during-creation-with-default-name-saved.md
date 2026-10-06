@@ -4,10 +4,8 @@ title: "Chat – Folder Name Edited Inline During Creation with Default Name Sav
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: tests.ui.chat.test_folder_creation.TestChatFolderCreation.test_create_folder_default_name_checkmark_active
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1532
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

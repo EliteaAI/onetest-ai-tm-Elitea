@@ -4,13 +4,10 @@ title: "Invite user without selecting a role"
 priority: medium
 type: functional
 module: settings-users-and-roles
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_users_invite_without_role.TestUsersInviteWithoutRole.test_invite_user_without_selecting_a_role
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1979"
 ---
 
 # ELITEA-2308: Invite user without selecting a role

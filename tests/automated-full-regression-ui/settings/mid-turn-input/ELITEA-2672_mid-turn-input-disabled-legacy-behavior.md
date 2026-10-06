@@ -6,7 +6,7 @@ type: functional
 module: default-modules
 status: draft
 execution_type: manual
-tags: [feat:chat, feat:settings, eng:backend, eng:frontend, regression, r-2.0.6, automated]
+tags: [feat:chat, feat:settings, eng:backend, eng:frontend, regression, r-2.0.6]
 requirements: [EliteaAI/elitea_issues#6115]
 ---
 

@@ -4,10 +4,8 @@ title: "Chat – Drag and Drop Conversation Back to the General List"
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: tests.ui.chat.test_drag_drop_conversation_folder.TestDragDropConversationBackToGeneralList.test_drag_drop_conversation_back_to_general_list
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1545
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

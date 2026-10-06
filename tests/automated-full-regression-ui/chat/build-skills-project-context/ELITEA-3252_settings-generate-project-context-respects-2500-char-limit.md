@@ -8,8 +8,6 @@ status: draft
 execution_type: manual
 tags: [automated:UI:regression, feat:project-setup, project-context-builder, character-limit]
 requirements: [EliteaAI/elitea_issues#6344]
-automation_test_id:
-automation_pr:
 ---
 
 # ELITEA-3252: Settings: Generate Project Context produces content ≤2500 characters

@@ -4,10 +4,8 @@ title: "Chat – Create MCP from Conversation – Enter Configuration Data and D
 priority: high
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: "tests.ui.chat.test_create_mcp_from_conversation_discard_changes.TestCreateMcpFromConversationDiscardChanges.test_create_mcp_from_conversation_discard_changes_creates_no_mcp"
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1615
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

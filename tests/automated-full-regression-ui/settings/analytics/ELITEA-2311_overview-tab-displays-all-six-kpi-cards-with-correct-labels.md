@@ -4,13 +4,10 @@ title: "Overview tab displays all six KPI cards with correct labels and non-empt
 priority: medium
 type: functional
 module: settings-analytics
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_analytics_overview_kpi_cards.TestAnalyticsOverviewKpiCards.test_overview_tab_kpi_cards
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1957"
 ---
 
 # ELITEA-2311: Overview tab displays all six KPI cards with correct labels and non-empty values

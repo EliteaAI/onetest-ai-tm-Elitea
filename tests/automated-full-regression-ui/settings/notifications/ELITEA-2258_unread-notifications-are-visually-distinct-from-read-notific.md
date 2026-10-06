@@ -4,13 +4,10 @@ title: "Unread notifications are visually distinct from read notifications"
 priority: medium
 type: functional
 module: settings-notifications
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_notification_unread_read_visual_distinction.TestNotificationUnreadReadVisualDistinction.test_unread_notifications_are_visually_distinct_from_read
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1788"
 ---
 
 # ELITEA-2258: Unread notifications are visually distinct from read notifications

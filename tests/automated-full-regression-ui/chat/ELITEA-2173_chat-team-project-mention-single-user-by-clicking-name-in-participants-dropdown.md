@@ -4,11 +4,8 @@ title: "Chat – Team Project – Mention Single User by Clicking Name in Partic
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.chat.test_participants_dropdown_click_name_inserts_mention.TestParticipantsDropdownClickNameInsertsMention.test_click_participant_name_inserts_mention[ELITEA-2173-single-mention]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1561
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

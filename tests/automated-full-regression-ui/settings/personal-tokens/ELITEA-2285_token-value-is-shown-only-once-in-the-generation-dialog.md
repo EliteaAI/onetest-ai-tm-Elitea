@@ -4,13 +4,10 @@ title: "Token value is shown only once in the generation dialog"
 priority: medium
 type: functional
 module: settings-personal-tokens
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_create_personal_token_and_verify_in_table
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1900"
 ---
 
 # ELITEA-2285: Token value is shown only once in the generation dialog

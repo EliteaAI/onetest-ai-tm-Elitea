@@ -4,12 +4,10 @@ title: "Copy assistant response to clipboard"
 priority: medium
 type: functional
 module: support-assistant
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
-automation_test_id: tests.ui.support_assistant.test_support_assistant_copy_response.TestSupportAssistantCopyResponse.test_copy_assistant_response_to_clipboard
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1651
 ---
 
 # ELITEA-2419: Copy assistant response to clipboard

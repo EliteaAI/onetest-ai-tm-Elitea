@@ -4,13 +4,10 @@ title: "Subgraph Execution — Verify State Flow in Run Details"
 priority: medium
 type: functional
 module: pipelines
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
-automation_test_id:
-  - tests.ui.pipelines_2.test_pipeline_subgraph_state_sharing.test_subgraph_state_sharing_node_c_state_propagation
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
 ---
 
 # ELITEA-2445: Subgraph Execution — Verify State Flow in Run Details

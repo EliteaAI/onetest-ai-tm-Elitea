@@ -4,13 +4,10 @@ title: "Test connection button shows error for invalid or expired credentials"
 priority: high
 type: functional
 module: settings-ai-configuration
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_ai_credential_test_connection.test_ai_credential_test_connection_error_then_success
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1995"
 ---
 
 # ELITEA-2415: Test connection button shows error for invalid or expired credentials

@@ -4,13 +4,10 @@ title: "Regression: Folder count remains accurate after entity deletion and subs
 priority: critical
 type: regression
 module: social-folders
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [feat:social-folders, issue:5194, issue:6482, regression, folder-count]
 requirements: [EliteaAI/elitea_issues#5194, EliteaAI/elitea_issues#6482]
-automation_test_id:
-  - tests.ui.social_folders.test_folder_count_accurate_after_entity_deletion.TestFolderCountAccurateAfterEntityDeletion.test_folder_count_accurate_after_entity_deletion
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2307
 ---
 # ELITEA-3210: Regression - Folder Count Accuracy
 

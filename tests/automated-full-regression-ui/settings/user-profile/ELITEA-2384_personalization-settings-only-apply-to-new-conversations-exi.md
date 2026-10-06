@@ -4,13 +4,10 @@ title: "Personalization settings only apply to new conversations — existing co
 priority: medium
 type: functional
 module: settings-user-profile
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_personalization_new_conversations_only.TestPersonalizationAppliesToNewConversationsOnly.test_personalization_applies_to_new_conversations_only
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1969"
 ---
 
 # ELITEA-2384: Personalization settings only apply to new conversations — existing conversations are unaffected

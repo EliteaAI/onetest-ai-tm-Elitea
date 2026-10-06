@@ -4,13 +4,10 @@ title: "User with invalid email format shows validation error"
 priority: medium
 type: functional
 module: settings-users-and-roles
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_invite_user_invalid_email_validation.TestInviteUserInvalidEmailValidation.test_invite_user_invalid_email_validation
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1184
 ---
 
 # ELITEA-2307: User with invalid email format shows validation error

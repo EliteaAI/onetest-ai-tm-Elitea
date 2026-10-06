@@ -4,12 +4,9 @@ title: "File Tree Behavior – Switching Between Buckets Updates Tree and Main P
 priority: high
 type: functional
 module: artifacts
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
-automation_test_id:
-  - tests.ui.artifacts.test_artifacts_tree_switch_between_buckets.TestArtifactsTreeSwitchBetweenBuckets.test_switching_buckets_updates_tree_and_main_panel
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1633
 requirements: []
 ---
 

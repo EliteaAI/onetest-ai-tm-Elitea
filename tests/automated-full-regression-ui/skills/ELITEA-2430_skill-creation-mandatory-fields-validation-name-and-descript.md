@@ -4,12 +4,10 @@ title: "Skill creation — mandatory fields validation (Name and Description)"
 priority: medium
 type: functional
 module: skills
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:skills]
 requirements: []
-automation_test_id: [tests.ui.skills.test_skill_management.TestSkillMandatoryFieldsValidation.test_save_disabled_until_name_and_description_filled]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1449
 ---
 
 # ELITEA-2430: Skill creation — mandatory fields validation (Name and Description)

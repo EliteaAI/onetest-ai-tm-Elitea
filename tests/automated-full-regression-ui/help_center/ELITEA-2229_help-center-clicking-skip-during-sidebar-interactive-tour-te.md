@@ -4,13 +4,10 @@ title: "Help Center — clicking Skip during Sidebar Interactive Tour terminates
 priority: high
 type: functional
 module: help-center
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:help-center]
 requirements: []
-automation_test_id:
-  - tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTourExtras.test_sidebar_interactive_tour_skip_terminates
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1495
 ---
 
 # ELITEA-2229: Help Center — clicking Skip during Sidebar Interactive Tour terminates the tour

@@ -8,10 +8,6 @@ status: draft
 execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_personal_token_settings_preview.TestPersonalTokenSettingsPreview.test_eye_icon_opens_ide_settings_preview_panel
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1900"
-sanctioned_red: "#1885"
 ---
 
 # ELITEA-2291: Eye icon opens IDE configuration preview panel with correct content

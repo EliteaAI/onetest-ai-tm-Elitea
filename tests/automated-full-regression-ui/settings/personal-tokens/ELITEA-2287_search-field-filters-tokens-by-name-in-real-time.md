@@ -4,13 +4,10 @@ title: "Search field filters tokens by name in real time"
 priority: medium
 type: functional
 module: settings-personal-tokens
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_personal_tokens_search_filter.TestPersonalTokensSearchFilter.test_search_field_filters_tokens_by_name_in_real_time
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1900"
 ---
 
 # ELITEA-2287: Search field filters tokens by name in real time

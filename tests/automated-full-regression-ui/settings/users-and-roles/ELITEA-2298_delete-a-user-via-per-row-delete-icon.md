@@ -4,13 +4,10 @@ title: "Delete a user via per-row Delete icon"
 priority: medium
 type: functional
 module: settings-users-and-roles
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_user_delete_via_row_icon.TestUserDeleteViaRowIcon.test_delete_user_via_row_icon
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1979"
 ---
 
 # ELITEA-2298: Delete a user via per-row Delete icon

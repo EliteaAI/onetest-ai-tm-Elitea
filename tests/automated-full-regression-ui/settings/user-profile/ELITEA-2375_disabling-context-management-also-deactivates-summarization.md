@@ -4,13 +4,10 @@ title: "Disabling context management also deactivates summarization regardless o
 priority: medium
 type: functional
 module: settings-user-profile
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_disabling_context_management_deactivates_summarization
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1969"
 ---
 
 # ELITEA-2375: Disabling context management also deactivates summarization regardless of summarization toggle state

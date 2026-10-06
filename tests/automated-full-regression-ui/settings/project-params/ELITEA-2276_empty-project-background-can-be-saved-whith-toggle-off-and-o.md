@@ -4,13 +4,10 @@ title: "Empty Project Background can be saved whith toggle OFF and ON"
 priority: medium
 type: functional
 module: settings-project-params
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_project_context_empty_save_toggle_off_on.TestProjectContextEmptySaveToggleOffOn.test_project_context_empty_save_toggle_off_on
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1799"
 ---
 
 # ELITEA-2276: Empty Project Background can be saved whith toggle OFF and ON

@@ -4,13 +4,10 @@ title: "Onboarding — clicking Sure lets go triggers project provisioning and d
 priority: medium
 type: functional
 module: onboarding
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:onboarding]
 requirements: []
-automation_test_id:
-  - tests.ui.onboarding.test_onboarding_provisioning.TestOnboardingProvisioning.test_get_started_starts_provisioning_poll_and_shows_tips_with_progress_footer
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1758
 ---
 
 # ELITEA-2232: Onboarding — clicking Sure lets go triggers project provisioning and displays onboarding tips slide 1/48 with configuring progress bar

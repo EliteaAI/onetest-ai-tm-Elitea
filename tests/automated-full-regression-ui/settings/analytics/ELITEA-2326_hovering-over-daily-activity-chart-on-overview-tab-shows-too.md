@@ -4,13 +4,10 @@ title: "Hovering over Daily Activity chart on Overview tab shows tooltip with da
 priority: medium
 type: functional
 module: settings-analytics
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_analytics_overview_daily_chart_tooltip.TestAnalyticsOverviewDailyChartTooltip.test_overview_daily_chart_hover_tooltip
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1957"
 ---
 
 # ELITEA-2326: Hovering over Daily Activity chart on Overview tab shows tooltip with date and series values

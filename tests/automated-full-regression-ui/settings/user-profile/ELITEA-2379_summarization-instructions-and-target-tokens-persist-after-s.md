@@ -4,13 +4,10 @@ title: "Summarization instructions and target tokens persist after save and relo
 priority: medium
 type: functional
 module: settings-user-profile
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_context_management_values_persist.TestContextManagementValuesPersist.test_context_management_values_persist_after_reload
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1969"
 ---
 
 # ELITEA-2379: Summarization instructions and target tokens persist after save and reload

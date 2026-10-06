@@ -4,12 +4,10 @@ title: "Edit Remote MCP — Discard Changes"
 priority: critical
 type: functional
 module: elitea-platform
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression]
 requirements: []
-automation_test_id: tests.ui.toolkits.test_mcp_edit_discard_changes.test_mcp_edit_discard_changes
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1722
 ---
 
 # ELITEA-1928: Edit Remote MCP — Discard Changes

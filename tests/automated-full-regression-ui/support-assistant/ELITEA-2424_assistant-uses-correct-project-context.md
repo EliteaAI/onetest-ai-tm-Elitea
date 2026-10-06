@@ -4,12 +4,10 @@ title: "Assistant uses correct project context"
 priority: medium
 type: functional
 module: support-assistant
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
-automation_test_id: tests.ui.support_assistant.test_support_assistant_project_context.TestSupportAssistantProjectContext.test_assistant_uses_current_project_context
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1665
 ---
 
 # ELITEA-2424: Assistant uses correct project context

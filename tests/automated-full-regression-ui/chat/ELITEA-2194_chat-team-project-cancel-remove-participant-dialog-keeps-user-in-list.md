@@ -4,11 +4,8 @@ title: "Chat – Team Project – Cancel Remove Participant Dialog Keeps User in
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.chat.test_team_users_mention_and_remove_participants.TestTeamUsersMentionAndRemoveParticipants.test_team_users_mention_and_remove_participants
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1566
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

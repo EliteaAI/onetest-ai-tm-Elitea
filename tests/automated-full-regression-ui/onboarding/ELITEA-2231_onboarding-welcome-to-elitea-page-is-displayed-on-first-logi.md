@@ -4,10 +4,8 @@ title: "Onboarding — Welcome to Elitea page is displayed on first login with S
 priority: medium
 type: functional
 module: onboarding
-status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.onboarding.test_onboarding_welcome.TestOnboardingWelcomePage.test_welcome_page_displayed_on_first_login
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:onboarding]
 requirements: []
 ---

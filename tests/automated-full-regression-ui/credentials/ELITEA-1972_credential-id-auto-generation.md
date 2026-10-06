@@ -4,12 +4,10 @@ title: "Credential — ID Auto-Generation"
 priority: critical
 type: functional
 module: toolkits-credentials
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:toolkits]
 requirements: []
-automation_test_id: tests.ui.toolkits.test_credential_id_auto_generation.TestCredentialIdAutoGeneration.test_credential_id_auto_generation_and_url_stability
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/528
 ---
 
 # ELITEA-1972: Credential — ID Auto-Generation

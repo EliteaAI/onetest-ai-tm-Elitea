@@ -4,13 +4,10 @@ title: "Guide tab displays explanatory documentation for each metric"
 priority: medium
 type: functional
 module: settings-analytics
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_analytics_guide_tab.TestAnalyticsGuideTab.test_guide_tab_metric_documentation
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1957"
 ---
 
 # ELITEA-2325: Guide tab displays explanatory documentation for each metric

@@ -4,13 +4,10 @@ title: "Change the default ASR model"
 priority: medium
 type: functional
 module: settings-ai-configuration
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_change_section_default_model.TestChangeSectionDefaultModel.test_change_section_default_model[ELITEA-2405-asr]
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1995"
 ---
 
 # ELITEA-2405: Change the default ASR model

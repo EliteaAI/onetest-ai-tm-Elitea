@@ -4,12 +4,10 @@ title: "Build with AI — Skill creation failure stays on review step for correc
 priority: medium
 type: functional
 module: skills
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:skills]
 requirements: []
-automation_test_id: [tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAICreationFailureRecovery.test_creation_failure_stays_on_review_step_and_retry_succeeds]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1491
 ---
 
 # ELITEA-2000: Build with AI — Skill creation failure stays on review step for correction

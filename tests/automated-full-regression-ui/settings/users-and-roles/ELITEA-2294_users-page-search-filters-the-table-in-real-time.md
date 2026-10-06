@@ -4,13 +4,10 @@ title: "Users page search filters the table in real time"
 priority: medium
 type: functional
 module: settings-users-and-roles
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_users_search_filter.TestUsersSearchFilter.test_users_page_search_filters_the_table_in_real_time
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1979"
 ---
 
 # ELITEA-2294: Users page search filters the table in real time

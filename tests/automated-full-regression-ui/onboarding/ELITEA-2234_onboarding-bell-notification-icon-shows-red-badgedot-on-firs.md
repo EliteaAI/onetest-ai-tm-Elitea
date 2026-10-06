@@ -4,13 +4,10 @@ title: "Onboarding — bell notification icon shows red badge/dot on first login
 priority: high
 type: functional
 module: onboarding
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:onboarding]
 requirements: []
-automation_test_id:
-  - tests.ui.onboarding.test_sidebar_notification_badge.TestSidebarNotificationBadge.test_bell_shows_red_badge_and_notifications_popover
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1770
 ---
 
 # ELITEA-2234: Onboarding — bell notification icon shows red badge/dot on first login

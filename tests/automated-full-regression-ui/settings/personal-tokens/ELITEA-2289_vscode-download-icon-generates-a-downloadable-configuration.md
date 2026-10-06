@@ -8,10 +8,6 @@ status: draft
 execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_personal_token_ide_config_download.TestPersonalTokenIdeConfigDownload.test_ide_download_icon_generates_config_file
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1900"
-sanctioned_red: "#1884"
 ---
 
 # ELITEA-2289: VSCode download icon generates a downloadable configuration file

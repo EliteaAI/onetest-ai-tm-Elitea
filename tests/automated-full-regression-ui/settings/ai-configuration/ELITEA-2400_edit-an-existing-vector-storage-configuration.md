@@ -4,13 +4,10 @@ title: "Edit an existing Vector Storage configuration"
 priority: medium
 type: functional
 module: settings-ai-configuration
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_vector_storage_edit.TestEditVectorStorageConfiguration.test_edit_pgvector_display_name
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1990"
 ---
 
 # ELITEA-2400: Edit an existing Vector Storage configuration

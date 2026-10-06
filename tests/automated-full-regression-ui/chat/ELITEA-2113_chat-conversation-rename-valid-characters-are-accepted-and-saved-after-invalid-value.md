@@ -4,10 +4,8 @@ title: "Chat – Conversation Rename – Valid Characters Are Accepted and Saved
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: tests.ui.chat.test_conversation_rename_invalid_chars_and_recovery.TestConversationRenameInvalidCharsAndRecovery.test_rename_recovers_and_saves_after_invalid_value_replaced
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1522
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

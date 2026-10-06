@@ -4,13 +4,10 @@ title: "Send message with attached file"
 priority: medium
 type: functional
 module: support-assistant
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
-automation_test_id: tests.ui.support_assistant.test_support_assistant_attachment_send.TestSupportAssistantAttachmentSend.test_send_message_with_attached_file
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1665
-automation_known_defect: #1653
 ---
 
 # ELITEA-2421: Send message with attached file

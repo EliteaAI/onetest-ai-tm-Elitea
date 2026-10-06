@@ -4,12 +4,10 @@ title: "Build with AI — selected suggested Skills are attached to the created 
 priority: medium
 type: functional
 module: agents
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agents]
 requirements: []
-automation_test_id: tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAISelectedResourcesAttached.test_selected_suggested_skill_attached_and_non_selected_absent
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/599
 ---
 
 # ELITEA-1911: Build with AI — selected suggested Skills are attached to the created agent

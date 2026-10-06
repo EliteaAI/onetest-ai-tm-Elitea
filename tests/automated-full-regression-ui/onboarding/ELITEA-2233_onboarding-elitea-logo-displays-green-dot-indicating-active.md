@@ -4,13 +4,10 @@ title: "Onboarding — ELITEA logo displays green dot indicating active server c
 priority: medium
 type: functional
 module: onboarding
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:onboarding]
 requirements: []
-automation_test_id:
-  - tests.ui.onboarding.test_sidebar_socket_status_indicator.TestSidebarSocketStatusIndicator.test_logo_shows_green_connected_dot
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1770
 ---
 
 # ELITEA-2233: Onboarding — ELITEA logo displays green dot indicating active server connection

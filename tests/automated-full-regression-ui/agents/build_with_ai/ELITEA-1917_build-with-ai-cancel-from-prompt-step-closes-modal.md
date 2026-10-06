@@ -4,13 +4,10 @@ title: "Build with AI — Cancel from prompt step closes modal without creating 
 priority: medium
 type: functional
 module: agents
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agents]
 requirements: []
-automation_test_id:
-  - tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAICancelFromPromptStep.test_cancel_from_prompt_step_closes_modal_without_creating_agent
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1319
 ---
 
 # ELITEA-1917: Build with AI — Cancel from prompt step closes modal without creating an agent

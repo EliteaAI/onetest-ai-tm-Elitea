@@ -4,12 +4,10 @@ title: "Credential — OAuth Authorization Modal Invocation"
 priority: high
 type: functional
 module: toolkits-credentials
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:toolkits]
 requirements: []
-automation_test_id: tests.ui.toolkits.test_credential_oauth_authorization_modal.TestCredentialOAuthAuthorizationModal.test_oauth_authorization_modal_invocation
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1714
 ---
 
 # ELITEA-1982: Credential — OAuth Authorization Modal Invocation

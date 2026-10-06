@@ -8,8 +8,6 @@ status: draft
 execution_type: manual
 tags: [automated:UI:regression, feat:project-setup, project-context-builder, regression, toggle]
 requirements: [EliteaAI/elitea_issues#6344]
-automation_test_id:
-automation_pr:
 ---
 
 # ELITEA-3258: Regression: Enable/Disable toggle behavior unchanged

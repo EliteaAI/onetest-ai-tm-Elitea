@@ -4,12 +4,9 @@ title: "Bucket Name Is Read-Only in Edit Mode and Displayed in Lowercase After C
 priority: medium
 type: functional
 module: artifacts
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
-automation_test_id:
-  - tests.ui.artifacts.test_artifacts_bucket_name_readonly_in_edit_mode.TestArtifactBucketNameReadOnlyInEditMode.test_bucket_name_readonly_in_edit_mode_and_stored_lowercase
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1686
 requirements: []
 ---
 

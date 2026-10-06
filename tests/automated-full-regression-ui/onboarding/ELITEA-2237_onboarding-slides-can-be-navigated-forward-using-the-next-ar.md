@@ -4,13 +4,10 @@ title: "Onboarding — slides can be navigated forward using the Next arrow"
 priority: medium
 type: functional
 module: onboarding
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:onboarding]
 requirements: []
-automation_test_id:
-  - tests.ui.onboarding.test_onboarding_tips_navigation.TestOnboardingTipsForwardNavigation.test_next_arrow_advances_slides
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1763
 ---
 
 # ELITEA-2237: Onboarding — slides can be navigated forward using the Next arrow

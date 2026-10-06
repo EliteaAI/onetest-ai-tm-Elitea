@@ -4,13 +4,10 @@ title: "Help Center — Tutorials card link redirects to tutorial resource"
 priority: medium
 type: functional
 module: help-center
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:help-center]
 requirements: []
-automation_test_id:
-  - tests.ui.help_center.test_help_center_resource_links.TestHelpCenterResourceLinks.test_resource_card_link_redirects_to_external_page[ELITEA-2222-tutorials-how-to-create-an-agent]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1493
 ---
 
 # ELITEA-2222: Help Center — Tutorials card link redirects to tutorial resource

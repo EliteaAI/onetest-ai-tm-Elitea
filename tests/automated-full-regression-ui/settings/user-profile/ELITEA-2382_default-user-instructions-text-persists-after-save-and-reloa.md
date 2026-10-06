@@ -4,13 +4,10 @@ title: "Default User Instructions text persists after save and reload"
 priority: medium
 type: functional
 module: settings-user-profile
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_default_user_instructions_persist.TestDefaultUserInstructionsPersist.test_default_user_instructions_persist_after_reload
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1969"
 ---
 
 # ELITEA-2382: Default User Instructions text persists after save and reload

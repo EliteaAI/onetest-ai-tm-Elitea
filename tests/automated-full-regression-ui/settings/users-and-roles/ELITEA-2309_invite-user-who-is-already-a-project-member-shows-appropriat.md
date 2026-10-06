@@ -4,13 +4,10 @@ title: "Invite user who is already a project member shows appropriate error"
 priority: medium
 type: functional
 module: settings-users-and-roles
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_users_invite_existing_member_error.TestUsersInviteExistingMemberError.test_invite_existing_project_member_shows_error
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1979"
 ---
 
 # ELITEA-2309: Invite user who is already a project member shows appropriate error

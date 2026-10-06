@@ -4,11 +4,9 @@ title: "Credential — Duplicate/Mismatch Validation"
 priority: high
 type: functional
 module: toolkits-credentials
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:toolkits]
-automation_test_id:
-  - tests.ui.toolkits.test_credential_duplicate_mismatch_validation.TestCredentialDuplicateMismatchValidation.test_credential_duplicate_and_empty_required_field_validation
 requirements: []
 ---
 

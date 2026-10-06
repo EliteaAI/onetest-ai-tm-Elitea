@@ -4,12 +4,10 @@ title: "MCP Form/Raw JSON View Toggle — Data Consistency"
 priority: medium
 type: functional
 module: elitea-platform
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression]
 requirements: []
-automation_test_id: tests.ui.toolkits.test_mcp_form_raw_json_view_sync.TestMcpFormRawJsonViewSync.test_form_raw_json_view_sync_and_discard
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1744
 ---
 
 # ELITEA-1948: MCP Form/Raw JSON View Toggle — Data Consistency

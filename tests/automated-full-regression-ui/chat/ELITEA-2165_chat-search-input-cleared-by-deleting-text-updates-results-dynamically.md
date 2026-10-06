@@ -4,10 +4,8 @@ title: "Chat – Search Input Cleared by Deleting Text Updates Results Dynamical
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: tests.ui.chat.test_chat_search_and_modules_panel.TestChatSearchAndModulesPanel.test_search_input_cleared_by_deleting_text_updates_dynamically
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1528
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

@@ -4,13 +4,10 @@ title: "Change the default TTS model"
 priority: medium
 type: functional
 module: settings-ai-configuration
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_change_default_tts_model.TestChangeDefaultTtsModel.test_change_default_tts_model
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1995"
 ---
 
 # ELITEA-2407: Change the default TTS model

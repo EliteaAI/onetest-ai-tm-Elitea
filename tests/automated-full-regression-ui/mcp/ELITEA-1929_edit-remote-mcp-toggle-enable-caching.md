@@ -4,12 +4,10 @@ title: "Edit Remote MCP — Toggle Enable Caching"
 priority: critical
 type: functional
 module: elitea-platform
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression]
 requirements: []
-automation_test_id: tests.ui.toolkits.test_mcp_edit_toggle_enable_caching.test_mcp_edit_toggle_enable_caching
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/548
 ---
 
 # ELITEA-1929: Edit Remote MCP — Toggle Enable Caching

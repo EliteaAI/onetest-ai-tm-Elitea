@@ -4,13 +4,10 @@ title: "Agent Hub — agent chip visible in message input with version and setti
 priority: medium
 type: functional
 module: agent-hub
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
-automation_test_id:
-  - tests.ui.agent_hub.test_agent_hub_agent_chip_visible_in_message_input.TestAgentHubAgentChipVisibleInMessageInput.test_agent_chip_visible_in_message_input
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1436
 ---
 
 # ELITEA-2362: Agent Hub — agent chip visible in message input with version and settings

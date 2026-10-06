@@ -4,12 +4,10 @@ title: "Multiple tags can be saved on a Skill upon and after creation"
 priority: medium
 type: functional
 module: skills
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:skills]
 requirements: []
-automation_test_id: [tests.ui.skills.test_skill_multiple_tags_persist.TestSkillMultipleTagsPersist.test_multiple_tags_persist_on_creation_and_edit]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1449
 ---
 
 # ELITEA-2434: Multiple tags can be saved on a Skill upon and after creation

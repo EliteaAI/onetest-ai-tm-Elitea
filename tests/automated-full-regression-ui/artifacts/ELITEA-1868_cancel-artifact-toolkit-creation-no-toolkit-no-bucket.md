@@ -4,12 +4,10 @@ title: "Cancel During Artifact Toolkit Creation Does Not Create Toolkit or Bucke
 priority: medium
 type: functional
 module: artifacts
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
-automation_test_id: tests.ui.toolkits.test_toolkit_creation_cancel_no_toolkit_no_bucket.TestToolkitCreationCancelNoToolkitNoBucket.test_cancel_artifact_toolkit_creation_creates_no_toolkit_no_bucket
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/657
 ---
 
 # ELITEA-1868: Cancel During Artifact Toolkit Creation Does Not Create Toolkit or Bucket

@@ -4,12 +4,10 @@ title: "Remote MCP — Cache TTL Configuration"
 priority: medium
 type: functional
 module: elitea-platform
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression]
 requirements: []
-automation_test_id: tests.ui.toolkits.test_mcp_edit_timeout_cache_ttl.test_mcp_edit_timeout_cache_ttl[ELITEA-1957]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1749
 ---
 
 # ELITEA-1957: Remote MCP — Cache TTL Configuration

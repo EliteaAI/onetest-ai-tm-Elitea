@@ -4,12 +4,10 @@ title: "Chat – Team Project – Create New Conversation and Add Users via Invi
 priority: high
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
-automation_test_id: tests.ui.chat.test_invite_users_add_cancel_close.TestInviteUsersAddCancelClose.test_invite_users_add_persists_cancel_and_close_discard
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/988
 ---
 
 # ELITEA-2167: Chat – Team Project – Create New Conversation and Add Users via Invite Users with Add Confirmation

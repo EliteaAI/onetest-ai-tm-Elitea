@@ -4,13 +4,10 @@ title: "Build with AI — \"Back to prompt\" returns to input step and preserves
 priority: medium
 type: functional
 module: agents
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agents]
 requirements: []
-automation_test_id:
-  - tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAIBackToPromptFromReviewStep.test_back_to_prompt_returns_to_input_step_and_preserves_prompt_text
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1507
 ---
 
 # ELITEA-1919: Build with AI — "Back to prompt" returns to input step and preserves prompt text

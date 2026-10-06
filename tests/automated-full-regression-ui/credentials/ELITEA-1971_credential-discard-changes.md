@@ -4,12 +4,10 @@ title: "Credential — Discard Changes"
 priority: critical
 type: functional
 module: toolkits-credentials
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:toolkits]
 requirements: []
-automation_test_id: tests.ui.toolkits.test_credential_discard_changes.TestCredentialDiscardChanges.test_credential_discard_changes_reverts_display_name
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/519
 ---
 
 # ELITEA-1971: Credential — Discard Changes

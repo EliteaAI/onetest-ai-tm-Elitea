@@ -8,8 +8,6 @@ status: draft
 execution_type: manual
 tags: [automated:UI:regression, feat:project-setup, project-context-builder, edit-with-ai, character-limit]
 requirements: [EliteaAI/elitea_issues#6344]
-automation_test_id:
-automation_pr:
 ---
 
 # ELITEA-3255: Settings: Edit with AI respects 2500-character limit

@@ -4,12 +4,10 @@ title: "Skill Custom Icon Visibility Across UI"
 priority: medium
 type: functional
 module: skills
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:skills, feat:icon]
 requirements: []
-automation_test_id: [tests.ui.skills.test_skill_custom_icon_visibility_across_ui.TestSkillCustomIconVisibilityAcrossUI.test_skill_custom_icon_visible_across_ui]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1462
 ---
 
 # ELITEA-2605: Skill Custom Icon Visibility Across UI

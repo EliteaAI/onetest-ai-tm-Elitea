@@ -4,13 +4,10 @@ title: "Edit secret value inline — name field is read-only after creation"
 priority: medium
 type: functional
 module: settings-secrets
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_secret_edit_value_name_field_readonly.TestSecretEditValueNameFieldReadonly.test_edit_secret_value_name_field_readonly
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1229
 ---
 
 # ELITEA-2347: Edit secret value inline — name field is read-only after creation

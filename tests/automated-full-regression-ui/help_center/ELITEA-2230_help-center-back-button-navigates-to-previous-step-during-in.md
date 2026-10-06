@@ -4,13 +4,10 @@ title: "Help Center — Back button navigates to previous step during Interactiv
 priority: medium
 type: functional
 module: help-center
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:help-center]
 requirements: []
-automation_test_id:
-  - tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTourExtras.test_sidebar_interactive_tour_back_returns_to_step_one
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1495
 ---
 
 # ELITEA-2230: Help Center — Back button navigates to previous step during Interactive Tour

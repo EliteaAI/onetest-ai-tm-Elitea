@@ -4,12 +4,10 @@ title: "Welcome message is shown as agent bubble before first user message"
 priority: medium
 type: functional
 module: agents
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agents]
 requirements: []
-automation_test_id: tests.ui.agents.test_agent_management.TestAgentActions.test_welcome_message_shown_as_agent_bubble_before_first_message
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/593
 ---
 
 # ELITEA-1885: Welcome message is shown as agent bubble before first user message

@@ -4,12 +4,9 @@ title: "File Preview/Edit – Cancel Discard Warning Returns to Edit Mode with C
 priority: medium
 type: functional
 module: artifacts
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
-automation_test_id:
-  - tests.ui.artifacts.test_artifacts_file_preview_discard_warning.TestArtifactFilePreviewDiscardWarning.test_discard_warning_modal_exit_paths
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1696
 requirements: []
 ---
 

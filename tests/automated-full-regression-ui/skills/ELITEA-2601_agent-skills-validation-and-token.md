@@ -4,12 +4,10 @@ title: "Agent with Skills — Validation Attribution and Token Invalidation"
 priority: high
 type: functional
 module: skills
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:skills, feat:agents, feat:publishing, feat:validation]
 requirements: []
-automation_test_id: [tests.ui.skills.test_agent_skills_validation_attribution_and_token_invalidation.TestAgentSkillsValidationAttributionAndTokenInvalidation.test_agent_skills_validation_attribution_and_token_invalidation]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1472
 ---
 
 # ELITEA-2601: Agent with Skills — Validation Attribution and Token Invalidation

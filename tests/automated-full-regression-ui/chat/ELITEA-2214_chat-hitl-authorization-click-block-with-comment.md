@@ -4,13 +4,10 @@ title: "Chat – HITL Authorization – Click Block with Comment Button for Dire
 priority: high
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
-automation_test_id: tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionBlockWithComment.test_block_with_comment_records_reason_and_blocks_action
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1843
-automation_known_defect: "#1834, #1835"
 ---
 
 # ELITEA-2214: Chat – HITL Authorization – Click Block with Comment Button for Direct Toolkit Call

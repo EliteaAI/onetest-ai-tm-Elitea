@@ -4,13 +4,10 @@ title: "Switching preset filters updates KPI cards, charts, and tables on Overvi
 priority: medium
 type: functional
 module: settings-analytics
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_analytics_date_filter_content_refresh.TestAnalyticsOverviewContentRefresh.test_preset_switch_updates_overview_content
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1958"
 ---
 
 # ELITEA-2317: Switching preset filters updates KPI cards, charts, and tables on Overview tab

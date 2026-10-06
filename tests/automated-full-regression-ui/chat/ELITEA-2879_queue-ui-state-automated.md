@@ -6,10 +6,8 @@ type: automated
 module: interjections
 status: draft
 execution_type: manual
-tags: [feat:chat, r-2.0.6, interjection, ui, automated, regression]
+tags: [feat:chat, r-2.0.6, interjection, ui, regression]
 requirements: [EliteaAI/elitea_issues#6115]
-automation_test_id: test_queue_ui_state
-code_ref: tests/automated-full-regression-ui/chat/test_interjections.py::test_queue_ui_state
 ---
 
 # ELITEA-2879: Queue UI state management

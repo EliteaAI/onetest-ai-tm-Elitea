@@ -4,10 +4,8 @@ title: "Chat – Folder Displays Conversation Count or Empty State"
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: tests.ui.chat.test_folder_list_scrollability_and_expand_states.TestFolderDisplaysConversationsOrEmptyState.test_folder_displays_conversations_or_empty_state
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1545
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

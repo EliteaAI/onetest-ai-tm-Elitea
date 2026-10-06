@@ -4,10 +4,8 @@ title: "Chat – Pipeline Flow Editor – Add LLM Node, Discard Changes, and Ver
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: "tests.ui.chat.test_pipeline_flow_editor_discard_llm_node.TestPipelineFlowEditorDiscardLlmNode.test_add_llm_node_discard_changes_removes_node"
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1615
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

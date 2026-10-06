@@ -4,10 +4,8 @@ title: "Chat – Edit Agent in Canvas Mode – Verify Changes Synchronize to Age
 priority: high
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: tests.ui.chat.test_chat_canvas_edit_agent.TestChatCanvasEditAgent.test_edit_agent_welcome_message_syncs_to_agents_section
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1580
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

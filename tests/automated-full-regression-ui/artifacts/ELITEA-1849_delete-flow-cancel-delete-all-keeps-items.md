@@ -4,12 +4,9 @@ title: "Delete Flow – Cancel Delete All Keeps All Items Intact"
 priority: medium
 type: functional
 module: artifacts
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
-automation_test_id:
-  - tests.ui.artifacts.test_artifacts_delete_all_and_dismissal.TestArtifactDeleteAllAndDismissal.test_cancel_delete_all_keeps_items_intact
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1642
 requirements: []
 ---
 

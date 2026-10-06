@@ -4,13 +4,10 @@ title: "Agents tab displays Chat Messages chart, Most Active Agents bar chart, a
 priority: medium
 type: functional
 module: settings-analytics
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_analytics_agents_pipelines_tab.TestAnalyticsAgentsPipelinesTab.test_agents_pipelines_tab_charts_and_activity_table
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1198
 ---
 
 # ELITEA-2320: Agents tab displays Chat Messages chart, Most Active Agents bar chart, and Agent Activity table

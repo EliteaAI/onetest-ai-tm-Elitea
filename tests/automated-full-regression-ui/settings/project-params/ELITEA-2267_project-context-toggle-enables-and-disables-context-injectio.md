@@ -4,13 +4,10 @@ title: "Project Context toggle enables and disables context injection"
 priority: high
 type: functional
 module: settings-project-params
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_project_context_toggle_enable_disable.TestProjectContextToggleEnableDisable.test_project_context_toggle_enable_disable
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1799"
 ---
 
 # ELITEA-2267: Project Context toggle enables and disables context injection

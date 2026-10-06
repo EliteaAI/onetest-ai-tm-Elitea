@@ -4,12 +4,10 @@ title: "MCP Dashboard — Search by Name"
 priority: high
 type: functional
 module: elitea-platform
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression]
 requirements: []
-automation_test_id: tests.ui.toolkits.test_mcp_search_by_name.TestMcpSearchByName.test_mcp_search_by_name
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/586
 ---
 
 # ELITEA-1941: MCP Dashboard — Search by Name

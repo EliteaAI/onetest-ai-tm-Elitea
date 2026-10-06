@@ -4,12 +4,10 @@ title: "Remote MCP — Copy Link from Three-Dot Menu"
 priority: medium
 type: functional
 module: elitea-platform
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression]
 requirements: []
-automation_test_id: tests.ui.toolkits.test_mcp_copy_link_from_menu.test_remote_mcp_copy_link_from_three_dot_menu
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1736
 ---
 
 # ELITEA-1959: Remote MCP — Copy Link from Three-Dot Menu

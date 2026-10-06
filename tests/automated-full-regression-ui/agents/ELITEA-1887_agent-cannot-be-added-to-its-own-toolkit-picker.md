@@ -4,12 +4,10 @@ title: "Agent cannot be added to its own tool picker (self-attachment blocked)"
 priority: medium
 type: functional
 module: agents
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agents]
 requirements: []
-automation_test_id: tests.ui.agents.test_agent_self_attachment_blocked.TestAgentSelfAttachmentBlocked.test_agent_self_attachment_blocked
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/601
 ---
 
 # ELITEA-1887: Agent cannot be added to its own tool picker (self-attachment blocked)

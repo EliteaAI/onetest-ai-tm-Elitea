@@ -4,10 +4,8 @@ title: "Create New Conversation from Team Project with File Attachments and chan
 priority: high
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: tests.ui.chat.test_create_new_conversation_team_project_attachments_and_llm.TestCreateNewConversationTeamProjectAttachmentsAndLLM.test_create_conversation_team_project_attachments_and_llm
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1512
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

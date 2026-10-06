@@ -4,13 +4,10 @@ title: "Agent Hub — page loads successfully for Team project"
 priority: high
 type: functional
 module: agent-hub
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
-automation_test_id:
-  - tests.ui.agent_hub.test_agent_hub_page_loads_team_project.TestAgentHubPageLoadsTeamProject.test_agent_hub_page_loads_team_project
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1415
 ---
 
 # ELITEA-2351: Agent Hub — page loads successfully for Team project

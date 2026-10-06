@@ -4,10 +4,8 @@ title: "Chat – Create MCP from Conversation – Save Configuration and Verify 
 priority: high
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.chat.test_create_mcp_from_conversation.TestCreateMcpFromConversation.test_create_mcp_from_conversation_save_and_verify
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

@@ -4,13 +4,10 @@ title: "Notification entry in sidebar is always visible without scrolling"
 priority: medium
 type: functional
 module: settings-notifications
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_settings_drawer_notifications_entry.TestSettingsDrawerNotificationsEntry.test_settings_drawer_notifications_entry_visible_without_scrolling
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1788"
 ---
 
 # ELITEA-2260: Notification entry in sidebar is always visible without scrolling

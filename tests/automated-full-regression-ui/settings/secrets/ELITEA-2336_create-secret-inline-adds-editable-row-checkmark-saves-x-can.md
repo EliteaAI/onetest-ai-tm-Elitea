@@ -4,13 +4,10 @@ title: "Create secret inline — \"+\" adds editable row, checkmark saves, X can
 priority: medium
 type: functional
 module: settings-secrets
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_secret_create_inline_checkmark_x_cancel.TestSecretCreateInlineCheckmarkXCancel.test_create_secret_inline_checkmark_saves_x_cancels
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1205
 ---
 
 # ELITEA-2336: Create secret inline — \"+\" adds editable row, checkmark saves, X cancels

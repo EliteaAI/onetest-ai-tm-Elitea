@@ -4,13 +4,10 @@ title: "Settings — sections show loading state while data is being fetched"
 priority: high
 type: functional
 module: settings
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_ai_providers_sections_loading_state.TestAIProvidersSectionsLoadingState.test_ai_providers_sections_loading_state
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1779"
 ---
 
 # ELITEA-2251: Settings — sections show loading state while data is being fetched

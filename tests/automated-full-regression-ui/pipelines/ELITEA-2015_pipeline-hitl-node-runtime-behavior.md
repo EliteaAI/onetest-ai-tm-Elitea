@@ -4,11 +4,9 @@ title: "Pipeline HITL Node — Runtime Behavior"
 priority: high
 type: functional
 module: pipelines
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:pipelines]
-automation_test_id:
-  - tests.ui.pipelines.test_pipeline_hitl_node_runtime_behavior.test_hitl_node_runtime_behavior
 requirements: []
 ---
 

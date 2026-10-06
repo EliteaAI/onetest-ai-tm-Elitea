@@ -4,12 +4,10 @@ title: "Skill Custom Icon Upload and Validation"
 priority: high
 type: functional
 module: skills
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:skills, feat:icon]
 requirements: []
-automation_test_id: [tests.ui.skills.test_skill_custom_icon_upload_and_validation.TestSkillCustomIconUploadAndValidation.test_skill_custom_icon_upload_and_validation]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1462
 ---
 
 # ELITEA-2604: Skill Custom Icon Upload and Validation

@@ -4,11 +4,8 @@ title: "Chat – Team Project – Remove Pre-Selected User from Add Users Modal 
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.chat.test_invite_users_add_cancel_close.TestRemovePreselectedUserViaChipX.test_remove_preselected_user_via_chip_x
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1561
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

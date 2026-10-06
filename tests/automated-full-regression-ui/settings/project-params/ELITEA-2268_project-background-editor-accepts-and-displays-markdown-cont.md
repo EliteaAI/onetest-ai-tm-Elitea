@@ -4,13 +4,10 @@ title: "Project Background editor accepts and displays markdown content"
 priority: medium
 type: functional
 module: settings-project-params
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_project_context_markdown_editor.TestProjectContextMarkdownEditor.test_project_context_markdown_editor_and_preview
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1799"
 ---
 
 # ELITEA-2268: Project Background editor accepts and displays markdown content

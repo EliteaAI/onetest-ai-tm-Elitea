@@ -4,13 +4,10 @@ title: "Help Center — Video Library \"More...\" redirects to full video portal
 priority: high
 type: functional
 module: help-center
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:help-center]
 requirements: []
-automation_test_id:
-  - tests.ui.help_center.test_help_center_resource_links.TestHelpCenterResourceLinks.test_video_library_more_redirects_to_external_portal
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1493
 ---
 
 # ELITEA-2223: Help Center — Video Library \"More...\" redirects to full video portal

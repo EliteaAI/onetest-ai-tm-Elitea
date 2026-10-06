@@ -4,10 +4,8 @@ title: "Chat – Slash Commands – Verify Typing / When No Toolkits or MCPs Are
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.chat.test_slash_mention_empty_state.TestSlashMentionEmptyState.test_slash_mention_empty_dropdown_with_no_participants
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

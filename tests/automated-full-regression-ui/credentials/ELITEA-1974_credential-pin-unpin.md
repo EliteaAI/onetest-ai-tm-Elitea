@@ -4,12 +4,10 @@ title: "Credential — Pin/Unpin"
 priority: high
 type: functional
 module: toolkits-credentials
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:toolkits]
 requirements: []
-automation_test_id: tests.ui.toolkits.test_credential_pin_unpin.TestCredentialPinUnpin.test_credential_pin_moves_to_top_and_unpin_reverts
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/537
 ---
 
 # ELITEA-1974: Credential — Pin/Unpin

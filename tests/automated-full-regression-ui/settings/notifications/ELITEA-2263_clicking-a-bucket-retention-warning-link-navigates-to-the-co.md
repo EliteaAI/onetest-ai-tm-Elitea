@@ -4,13 +4,10 @@ title: "Clicking a bucket retention warning link navigates to the correct bucket
 priority: medium
 type: functional
 module: settings-notifications
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_notification_link_navigates_to_bucket.TestNotificationBucketRetentionLinkNavigation.test_bucket_retention_link_navigates_to_bucket
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1788"
 ---
 
 # ELITEA-2263: Clicking a bucket retention warning link navigates to the correct bucket

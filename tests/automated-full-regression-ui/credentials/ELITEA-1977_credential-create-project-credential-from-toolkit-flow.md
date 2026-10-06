@@ -4,12 +4,10 @@ title: "Credential — Create Project Credential from Toolkit Flow"
 priority: high
 type: functional
 module: toolkits-credentials
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:toolkits]
 requirements: []
-automation_test_id: tests.ui.toolkits.test_credential_create_project_from_toolkit_dropdown.TestCredentialCreateProjectFromToolkitDropdown.test_create_project_credential_from_toolkit_dropdown
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1704
 ---
 
 # ELITEA-1977: Credential — Create Project Credential from Toolkit Flow

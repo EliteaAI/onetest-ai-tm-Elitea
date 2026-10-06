@@ -4,12 +4,10 @@ title: "Interact with Skills from Agent"
 priority: medium
 type: functional
 module: skills
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:skills]
 requirements: []
-automation_test_id: tests.ui.skills.test_skill_agent_interaction.TestInteractWithSkillsFromAgent.test_interact_with_skills_from_agent
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/203
 ---
 
 # ELITEA-1735: Interact with Skills from Agent

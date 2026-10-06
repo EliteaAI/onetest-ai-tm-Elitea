@@ -4,13 +4,10 @@ title: "Notifications Center page loads with correct layout and header"
 priority: high
 type: functional
 module: settings-notifications
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_notification_center_layout.TestNotificationCenterLayout.test_notification_center_page_layout_and_header
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1788"
 ---
 
 # ELITEA-2255: Notifications Center page loads with correct layout and header

@@ -4,13 +4,10 @@ title: "Users tab search by email filters the User Activity table"
 priority: medium
 type: functional
 module: settings-analytics
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_analytics_users_activity_table.TestAnalyticsUsersActivityTable.test_users_tab_activity_table_columns_and_pagination
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1957"
 ---
 
 # ELITEA-2323: Users tab search by email filters the User Activity table

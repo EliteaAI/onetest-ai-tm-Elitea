@@ -4,10 +4,8 @@ title: "Upload Flow – Upload File to Nested Subfolder Path (Non-Existing Folde
 priority: medium
 type: functional
 module: artifacts
-status: ready
-execution_type: automated
-automation_test_id: tests.ui.artifacts.test_artifacts_upload_three_options_verify_selection.TestArtifactsUploadThreeOptionsVerifySelection.test_upload_via_three_options_and_verify_selection
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/658
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---

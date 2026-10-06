@@ -4,15 +4,10 @@ title: "All authenticated roles can access PERSONAL settings sections"
 priority: high
 type: functional
 module: settings
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_all_roles_access_personal_sections.TestAllRolesAccessPersonalSections.test_all_roles_can_access_personal_settings_sections[admin]
-  - tests.ui.settings.test_all_roles_access_personal_sections.TestAllRolesAccessPersonalSections.test_all_roles_can_access_personal_settings_sections[editor]
-  - tests.ui.settings.test_all_roles_access_personal_sections.TestAllRolesAccessPersonalSections.test_all_roles_can_access_personal_settings_sections[viewer]
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1998"
 ---
 
 # ELITEA-2247: All authenticated roles can access PERSONAL settings sections

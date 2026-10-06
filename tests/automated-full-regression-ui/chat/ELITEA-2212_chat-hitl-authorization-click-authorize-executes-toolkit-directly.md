@@ -4,13 +4,10 @@ title: "Chat – HITL Authorization – Click Authorize Button and Verify Toolki
 priority: high
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
-automation_test_id: tests.ui.chat.test_hitl_sensitive_action_authorization.TestSensitiveActionAuthorize.test_authorize_executes_toolkit_tool_directly
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1836
-automation_known_defect: "#1834, #1835"
 ---
 
 # ELITEA-2212: Chat – HITL Authorization – Click Authorize Button and Verify Toolkit Tool Executes Directly

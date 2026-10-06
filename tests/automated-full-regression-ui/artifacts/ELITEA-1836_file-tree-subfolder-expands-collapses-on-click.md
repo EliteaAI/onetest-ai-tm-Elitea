@@ -4,12 +4,9 @@ title: "File Tree Behavior – Subfolder Expands and Collapses on Click"
 priority: medium
 type: functional
 module: artifacts
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
-automation_test_id:
-  - tests.ui.artifacts.test_artifacts_tree_subfolder_expand_collapse.TestArtifactsTreeSubfolderExpandCollapse.test_subfolder_expands_and_collapses_on_click
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1633
 requirements: []
 ---
 

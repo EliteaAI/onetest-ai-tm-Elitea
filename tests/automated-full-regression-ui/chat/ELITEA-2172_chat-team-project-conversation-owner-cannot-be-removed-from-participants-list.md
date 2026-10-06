@@ -4,11 +4,8 @@ title: "Chat – Team Project – Conversation Owner Cannot Be Removed from Part
 priority: high
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.chat.test_owner_has_no_remove_control_in_users_dropdown.TestOwnerHasNoRemoveControlInUsersDropdown.test_owner_has_no_remove_control_in_users_dropdown
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1561
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

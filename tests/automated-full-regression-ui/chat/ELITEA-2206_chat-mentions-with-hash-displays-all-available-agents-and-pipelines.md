@@ -4,11 +4,8 @@ title: "Chat – Mentions with # – Verify Typing # Displays All Available Agen
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id:
-  - "tests.ui.chat.test_chat_interface.TestHashSearch.test_hash_search_shows_agents_and_pipelines_from_all_sources"
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1601
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

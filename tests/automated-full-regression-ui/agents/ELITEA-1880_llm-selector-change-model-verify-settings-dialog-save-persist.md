@@ -4,11 +4,9 @@ title: "LLM selector — change model, verify settings dialog, save and persist"
 priority: medium
 type: functional
 module: agents
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agents]
-automation_test_id:
-  - tests.ui.agents.test_agent_llm_selector_model_settings_persist.TestAgentLlmSelectorModelSettingsPersist.test_llm_selector_change_model_settings_dialog_persist
 requirements: []
 ---
 

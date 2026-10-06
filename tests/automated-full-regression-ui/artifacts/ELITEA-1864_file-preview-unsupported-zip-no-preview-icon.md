@@ -4,12 +4,9 @@ title: "File Preview/Edit – Unsupported File Type (.zip) Has No Preview and On
 priority: medium
 type: functional
 module: artifacts
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
-automation_test_id:
-  - tests.ui.artifacts.test_artifacts_file_preview_unsupported_zip_row_actions.TestArtifactFilePreviewUnsupportedZipRowActions.test_unsupported_zip_row_has_no_preview_and_two_actions
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1696
 requirements: []
 ---
 

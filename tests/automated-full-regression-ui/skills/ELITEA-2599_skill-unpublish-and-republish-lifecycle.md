@@ -4,12 +4,10 @@ title: "Skill Unpublish and Republish Lifecycle"
 priority: medium
 type: functional
 module: skills
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:skills, feat:publishing]
 requirements: []
-automation_test_id: [tests.ui.skills.test_skill_unpublish_republish_lifecycle.TestSkillUnpublishRepublishLifecycle.test_unpublish_republish_lifecycle]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1472
 ---
 
 # ELITEA-2599: Skill Unpublish and Republish Lifecycle

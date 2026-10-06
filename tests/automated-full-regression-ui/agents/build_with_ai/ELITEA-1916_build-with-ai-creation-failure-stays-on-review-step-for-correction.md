@@ -4,13 +4,10 @@ title: "Build with AI — creation failure stays on review step for correction (
 priority: medium
 type: functional
 module: agents
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agents]
 requirements: []
-automation_test_id:
-  - tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAICreationFailureRecovery.test_creation_failure_stays_on_review_step_and_retry_succeeds
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1319
 ---
 
 # ELITEA-1916: Build with AI — creation failure stays on review step for correction (Agent)

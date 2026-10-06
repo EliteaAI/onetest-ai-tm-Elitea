@@ -4,13 +4,10 @@ title: "All collapsible sections can be collapsed and expanded"
 priority: medium
 type: functional
 module: settings-user-profile
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_settings_sections_collapse_expand.TestSettingsSectionsCollapseExpand.test_settings_sections_collapse_expand
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1969"
 ---
 
 # ELITEA-2372: All collapsible sections can be collapsed and expanded

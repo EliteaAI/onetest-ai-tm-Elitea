@@ -4,13 +4,10 @@ title: "Save and Discard buttons are only active when there are unsaved changes"
 priority: medium
 type: functional
 module: settings-project-params
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_project_context_save_discard_dirty_state.TestProjectContextSaveDiscardDirtyState.test_save_and_discard_active_only_with_unsaved_changes
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1799"
 ---
 
 # ELITEA-2275: Save and Discard buttons are only active when there are unsaved changes

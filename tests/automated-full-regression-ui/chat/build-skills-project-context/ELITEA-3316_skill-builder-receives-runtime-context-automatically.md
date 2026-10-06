@@ -4,7 +4,7 @@ title: "Skill Builder receives runtime_context and creates skill in current proj
 priority: critical
 type: functional
 module: skills
-status: ready
+status: draft
 execution_type: manual
 tags: [feat:context-management, feat:toolkits, story:6306, r-2.0.6, runtime-context, skills-builder]
 requirements: [EliteaAI/elitea_issues#6306]

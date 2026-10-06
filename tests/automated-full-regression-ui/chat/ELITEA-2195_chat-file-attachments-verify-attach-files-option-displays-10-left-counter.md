@@ -4,10 +4,8 @@ title: "Chat – File Attachments – Verify Attach Files Option Displays 10 Lef
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: "tests.ui.chat.test_attach_files_10_left_counter.TestAttachFiles10LeftCounter.test_attach_files_menuitem_shows_10_left_counter"
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1595
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

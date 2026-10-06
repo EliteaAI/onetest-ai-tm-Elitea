@@ -4,10 +4,8 @@ title: "Chat – Folder List is Scrollable When Many Folders Exist"
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: tests.ui.chat.test_folder_list_scrollability_and_expand_states.TestFolderListScrollableWhenManyFoldersExist.test_folder_list_scrollable_when_many_folders_exist
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1545
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

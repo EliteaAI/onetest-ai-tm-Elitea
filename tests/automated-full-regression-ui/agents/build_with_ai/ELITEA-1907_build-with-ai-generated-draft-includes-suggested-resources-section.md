@@ -4,12 +4,10 @@ title: "Build with AI — generated draft includes suggested resources section"
 priority: medium
 type: functional
 module: agents
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agents]
 requirements: []
-automation_test_id: tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAISuggestedResources.test_generated_draft_includes_suggested_resources_section
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/543
 ---
 
 # ELITEA-1907: Build with AI — generated draft includes suggested resources section

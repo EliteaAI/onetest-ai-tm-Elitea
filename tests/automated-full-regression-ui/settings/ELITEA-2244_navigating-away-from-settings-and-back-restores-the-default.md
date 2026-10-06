@@ -4,13 +4,10 @@ title: "Navigating away from Settings and back restores the default landing tab"
 priority: medium
 type: functional
 module: settings
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_settings_default_landing_tab_restored.TestSettingsDefaultLandingTabRestored.test_settings_default_landing_tab_restored
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1779"
 ---
 
 # ELITEA-2244: Navigating away from Settings and back restores the default landing tab

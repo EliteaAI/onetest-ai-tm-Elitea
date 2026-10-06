@@ -4,10 +4,8 @@ title: "Chat – Move Conversation to a New Folder with Custom Name via Move To 
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: tests.ui.chat.test_move_conversation_to_folder.TestMoveConversationToNewFolder.test_move_conversation_to_new_folder_with_custom_name
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1545
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

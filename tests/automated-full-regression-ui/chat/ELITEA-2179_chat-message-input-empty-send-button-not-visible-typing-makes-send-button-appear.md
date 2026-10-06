@@ -4,10 +4,8 @@ title: "Chat – Message Input Field Empty – Send Button Not Visible and Typin
 priority: high
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: "tests.ui.chat.test_streaming_response.TestStreamingResponse.test_composer_send_button_toggles_with_empty_input_and_waveform_reappears"
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1586
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

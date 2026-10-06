@@ -4,13 +4,10 @@ title: "Upload file icon allows importing content into the Project Background ed
 priority: medium
 type: functional
 module: settings-project-params
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_project_context_import_markdown_file.TestProjectContextImportMarkdownFile.test_import_markdown_file_into_editor_and_edit_it
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1799"
 ---
 
 # ELITEA-2271: Upload file icon allows importing content into the Project Background editor

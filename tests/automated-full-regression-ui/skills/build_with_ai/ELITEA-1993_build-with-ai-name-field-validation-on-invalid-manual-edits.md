@@ -4,12 +4,9 @@ title: "Build with AI — name field validation on invalid manual edits"
 priority: medium
 type: functional
 module: skills
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:skills]
-automation_test_id:
-  - tests.ui.skills.test_skill_build_with_ai.TestSkillBuildWithAINameFieldValidation.test_name_field_validation_on_invalid_manual_edits
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1504
 requirements: []
 ---
 

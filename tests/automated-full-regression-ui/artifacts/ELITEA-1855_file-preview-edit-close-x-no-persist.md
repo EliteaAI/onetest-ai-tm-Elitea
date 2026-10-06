@@ -4,12 +4,9 @@ title: "File Preview/Edit – Close Editor via X Button Without Saving Does Not 
 priority: medium
 type: functional
 module: artifacts
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:artifacts]
-automation_test_id:
-  - tests.ui.artifacts.test_artifacts_file_preview_close_x_unsaved.TestArtifactFilePreviewCloseXUnsaved.test_close_editor_via_x_does_not_persist_changes
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1696
 requirements: []
 ---
 

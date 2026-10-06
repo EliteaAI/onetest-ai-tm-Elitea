@@ -4,11 +4,8 @@ title: "Chat – Pin Conversation Inside Folder by Moving It Out First"
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.chat.test_pin_conversation.TestPinDisabledInFolderThenMovedAndPinned.test_pin_disabled_in_folder_then_moved_and_pinned
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1555
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

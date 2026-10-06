@@ -4,13 +4,10 @@ title: "Create a new personal token and verify it appears in the table"
 priority: medium
 type: functional
 module: settings-personal-tokens
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_create_personal_token_and_verify_in_table
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1174
 ---
 
 # ELITEA-2280: Create a new personal token and verify it appears in the table

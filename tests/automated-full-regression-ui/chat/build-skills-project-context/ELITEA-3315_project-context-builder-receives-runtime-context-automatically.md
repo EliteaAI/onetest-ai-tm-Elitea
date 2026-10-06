@@ -4,7 +4,7 @@ title: "Project Context Builder receives runtime_context and creates context in 
 priority: critical
 type: functional
 module: project-context
-status: ready
+status: draft
 execution_type: manual
 tags: [feat:context-management, feat:toolkits, story:6306, r-2.0.6, runtime-context, project-context-builder]
 requirements: [EliteaAI/elitea_issues#6306]

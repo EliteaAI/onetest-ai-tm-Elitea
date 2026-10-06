@@ -8,8 +8,6 @@ status: draft
 execution_type: manual
 tags: [automated:UI:regression, feat:project-setup, project-context-builder, error-handling]
 requirements: [EliteaAI/elitea_issues#6344]
-automation_test_id:
-automation_pr:
 ---
 
 # ELITEA-3253: Settings: Generate Project Context shows error when output would exceed 2500 characters

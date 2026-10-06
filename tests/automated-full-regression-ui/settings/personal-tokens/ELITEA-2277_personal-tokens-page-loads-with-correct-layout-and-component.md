@@ -4,13 +4,10 @@ title: "Personal Tokens page loads with correct layout and components"
 priority: medium
 type: functional
 module: settings-personal-tokens
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_personal_tokens_page_layout.TestPersonalTokensPageLayout.test_personal_tokens_page_layout_and_components
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1172
 ---
 
 # ELITEA-2277: Personal Tokens page loads with correct layout and components

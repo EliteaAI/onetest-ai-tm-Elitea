@@ -4,12 +4,10 @@ title: "MCP Dashboard — Pin/Unpin MCP"
 priority: medium
 type: functional
 module: elitea-platform
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression]
 requirements: []
-automation_test_id: tests.ui.toolkits.test_mcp_pin_unpin.test_mcp_dashboard_pin_unpin
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1744
 ---
 
 # ELITEA-1945: MCP Dashboard — Pin/Unpin MCP

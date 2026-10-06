@@ -4,13 +4,10 @@ title: "Hidden secret does not appear in secret selection dropdown for new crede
 priority: medium
 type: functional
 module: settings-secrets
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_hidden_secret_absent_from_ai_provider_dropdown.TestHiddenSecretAbsentFromAIProviderDropdown.test_hidden_secret_absent_from_ai_provider_dropdown
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1912"
 ---
 
 # ELITEA-2346: Hidden secret does not appear in secret selection dropdown for new credentials

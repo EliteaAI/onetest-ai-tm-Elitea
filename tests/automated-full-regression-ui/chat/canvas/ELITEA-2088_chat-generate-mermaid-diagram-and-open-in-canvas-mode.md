@@ -4,12 +4,10 @@ title: "Chat – Generate Mermaid Diagram and Open in Canvas Mode"
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
-automation_test_id: tests.ui.chat.test_generate_mermaid_diagram_and_edit_in_canvas.TestGenerateMermaidDiagramAndEditInCanvas.test_generate_mermaid_diagram_and_edit_in_canvas
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1143
 ---
 
 # ELITEA-2088: Chat – Generate Mermaid Diagram and Open in Canvas Mode

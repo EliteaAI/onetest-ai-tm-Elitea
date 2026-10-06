@@ -4,13 +4,10 @@ title: "Hovering over Most Popular Tools bar chart shows tool name and call coun
 priority: medium
 type: functional
 module: settings-analytics
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_analytics_bar_chart_tooltip.TestAnalyticsBarChartTooltip.test_bar_chart_hover_tooltip
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1957"
 ---
 
 # ELITEA-2328: Hovering over Most Popular Tools bar chart shows tool name and call count

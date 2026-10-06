@@ -4,10 +4,8 @@ title: "Create New Conversation via Agent HUB — Using a Conversation Starter"
 priority: high
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: tests.ui.chat.test_agent_hub_create_conversation_via_starter.TestAgentHubCreateConversationViaStarter.test_agent_hub_create_conversation_via_starter
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1512
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

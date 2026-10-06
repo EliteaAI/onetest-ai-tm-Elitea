@@ -6,10 +6,8 @@ type: automated
 module: interjections
 status: draft
 execution_type: manual
-tags: [feat:chat, r-2.0.6, interjection, automated, regression]
+tags: [feat:chat, r-2.0.6, interjection, regression]
 requirements: [EliteaAI/elitea_issues#6115]
-automation_test_id: test_interjection_queuing_sequential
-code_ref: tests/automated-full-regression-ui/chat/test_interjections.py::test_interjection_queuing_sequential
 ---
 
 # ELITEA-2875: Basic interjection queuing and sequential processing

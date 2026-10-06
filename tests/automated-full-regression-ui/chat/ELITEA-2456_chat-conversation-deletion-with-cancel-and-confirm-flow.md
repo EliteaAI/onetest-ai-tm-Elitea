@@ -4,10 +4,8 @@ title: "Chat – Conversation deletion with cancel and confirm flow"
 priority: high
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: tests.ui.chat.test_conversation_deletion_flow.TestConversationDeletionFlow.test_conversation_deletion_cancel_then_delete_active_conversation
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/696
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

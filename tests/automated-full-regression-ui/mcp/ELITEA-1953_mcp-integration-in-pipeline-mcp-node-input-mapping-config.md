@@ -4,12 +4,10 @@ title: "MCP Integration in Pipeline — MCP Node Input Mapping Configuration"
 priority: high
 type: functional
 module: pipelines
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
-automation_test_id: tests.ui.pipelines.test_pipeline_mcp_node_fresh_attach.test_mcp_node_input_mapping_type_and_toggles_persist
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1751
 ---
 
 # ELITEA-1953: MCP Integration in Pipeline — MCP Node Input Mapping Configuration

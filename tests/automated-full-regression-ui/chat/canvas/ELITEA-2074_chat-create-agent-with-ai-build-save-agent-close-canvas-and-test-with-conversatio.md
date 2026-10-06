@@ -4,10 +4,8 @@ title: "Chat – Create Agent with AI Build – Save Agent, Close Canvas, and Te
 priority: high
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: "tests.ui.chat.test_generated_echo_agent_save_close_and_starters.TestGeneratedEchoAgentSaveCloseAndStarters.test_save_close_and_use_generated_starters"
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1615
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

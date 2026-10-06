@@ -8,9 +8,7 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.chat.test_chat_interface.TestConversationUIElements.test_model_selector_opens_menu
-  - tests.ui.chat.test_chat_interface.TestConversationUIElements.test_model_selector_functional
   - tests.ui.chat.test_chat_interface.TestConversationUIElements.test_internal_tools_panel_shows_all_tools
-  - tests.ui.chat.test_chat_interface.TestConversationUIElements.test_internal_tools_toggle
   - tests.ui.chat.test_chat_interface.TestHashSearch.test_hash_search_participants
   - tests.ui.chat.test_chat_interface.TestHashSearch.test_add_participant_via_hash_search
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2129

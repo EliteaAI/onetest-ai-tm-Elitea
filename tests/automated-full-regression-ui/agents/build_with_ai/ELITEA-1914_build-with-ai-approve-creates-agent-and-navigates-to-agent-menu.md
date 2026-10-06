@@ -4,13 +4,10 @@ title: "Build with AI — Approve creates the agent and navigates to Agent menu"
 priority: high
 type: functional
 module: agents
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agents]
 requirements: []
-automation_test_id:
-  - tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAISelectedResourcesAttached.test_approve_with_no_resources_creates_agent_and_appears_in_list
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1319
 ---
 
 # ELITEA-1914: Build with AI — Approve creates the agent and navigates to Agent menu

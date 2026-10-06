@@ -4,13 +4,10 @@ title: "Onboarding — card can be expanded to fullscreen and collapsed with X b
 priority: high
 type: functional
 module: onboarding
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:onboarding]
 requirements: []
-automation_test_id:
-  - tests.ui.onboarding.test_onboarding_tips_fullscreen.TestOnboardingTipsFullscreen.test_tips_card_expand_fullscreen_and_collapse
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1758
 ---
 
 # ELITEA-2236: Onboarding — card can be expanded to fullscreen and collapsed with X button

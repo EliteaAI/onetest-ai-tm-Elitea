@@ -4,12 +4,10 @@ title: "Fork Skill End-to-End"
 priority: high
 type: functional
 module: skills
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:skills, feat:fork]
 requirements: []
-automation_test_id: [tests.ui.skills.test_skill_fork_end_to_end.TestSkillForkEndToEnd.test_fork_skill_end_to_end]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1462
 ---
 
 # ELITEA-2602: Fork Skill End-to-End

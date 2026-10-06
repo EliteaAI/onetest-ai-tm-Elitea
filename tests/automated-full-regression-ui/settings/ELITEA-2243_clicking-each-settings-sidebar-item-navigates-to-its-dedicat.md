@@ -8,10 +8,6 @@ status: draft
 execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.settings.test_settings_sidebar_item_navigation.TestSettingsSidebarItemNavigation.test_settings_sidebar_item_navigation
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1779"
-sanctioned_red: "#1771"
 ---
 
 # ELITEA-2243: Clicking each Settings sidebar item navigates to its dedicated page

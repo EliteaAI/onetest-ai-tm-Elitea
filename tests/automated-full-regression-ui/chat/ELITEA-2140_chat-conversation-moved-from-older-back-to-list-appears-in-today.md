@@ -4,10 +4,8 @@ title: "Chat – Conversation Moved from Older Back to List Appears in Today"
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: tests.ui.chat.test_move_conversation_to_folder.TestMoveConversationBackToList.test_move_conversation_back_to_list
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1545
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

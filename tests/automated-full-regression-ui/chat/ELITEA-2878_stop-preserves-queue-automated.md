@@ -6,10 +6,8 @@ type: automated
 module: interjections
 status: draft
 execution_type: manual
-tags: [feat:chat, r-2.0.6, interjection, stop, automated, regression]
+tags: [feat:chat, r-2.0.6, interjection, stop, regression]
 requirements: [EliteaAI/elitea_issues#6115]
-automation_test_id: test_stop_preserves_queue
-code_ref: tests/automated-full-regression-ui/chat/test_interjections.py::test_stop_preserves_queue
 ---
 
 # ELITEA-2878: Stop preserves queued messages

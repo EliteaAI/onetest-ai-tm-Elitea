@@ -4,10 +4,8 @@ title: "Chat – Add agent with conversation starters and use a starter to send 
 priority: high
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: "tests.ui.chat.test_chat_agent_starters_add_remove.TestChatAddAgentWithStartersAndSendViaStarter.test_add_agent_with_starters_and_send_via_starter"
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1586
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

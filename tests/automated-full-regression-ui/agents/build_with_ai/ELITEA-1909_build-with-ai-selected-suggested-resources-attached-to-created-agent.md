@@ -4,12 +4,10 @@ title: "Build with AI — selected suggested resources are attached to the creat
 priority: medium
 type: functional
 module: agents
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agents]
 requirements: []
-automation_test_id: tests.ui.agents.test_agent_build_with_ai.TestAgentBuildWithAISelectedResourcesAttached.test_selected_suggested_resources_attached_and_non_selected_absent
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/573
 ---
 
 # ELITEA-1909: Build with AI — selected suggested resources are attached to the created agent

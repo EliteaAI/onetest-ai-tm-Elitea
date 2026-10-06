@@ -4,12 +4,10 @@ title: "Project Context character limit is enforced at 2500 characters"
 priority: high
 type: functional
 module: settings-project-params
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id: [tests.ui.admin.test_project_context_character_limit.TestProjectContextCharacterLimit.test_project_context_character_limit_2500]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1170
 ---
 
 # ELITEA-2272: Project Context character limit is enforced at 2500 characters

@@ -8,8 +8,6 @@ status: draft
 execution_type: manual
 tags: [automated:UI:regression, feat:project-setup, feat:chat, project-context-builder, regression]
 requirements: [EliteaAI/elitea_issues#6344]
-automation_test_id:
-automation_pr:
 ---
 
 # ELITEA-3256: Regression: Project Context injection into Chat works after AI generation

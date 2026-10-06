@@ -4,13 +4,10 @@ title: "Onboarding — Private and team projects appear in project dropdown afte
 priority: medium
 type: functional
 module: onboarding
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:onboarding]
 requirements: []
-automation_test_id:
-  - tests.ui.onboarding.test_onboarding_provisioning.TestOnboardingProvisioning.test_get_started_starts_provisioning_poll_and_shows_tips_with_progress_footer
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1770
 ---
 
 # ELITEA-2240: Onboarding — Private and team projects appear in project dropdown after approximately 5 minutes

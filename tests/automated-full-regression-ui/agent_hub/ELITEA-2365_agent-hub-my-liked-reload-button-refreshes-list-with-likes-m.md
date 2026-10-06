@@ -4,13 +4,10 @@ title: "Agent Hub — My Liked reload button refreshes list with likes made in a
 priority: medium
 type: functional
 module: agent-hub
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
-automation_test_id:
-  - tests.ui.agent_hub.test_agent_hub_my_liked_reload_cross_tab_sync.TestAgentHubMyLikedReloadCrossTabSync.test_agent_hub_my_liked_reload_reflects_cross_tab_like
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1232
 ---
 
 # ELITEA-2365: Agent Hub — My Liked reload button refreshes list with likes made in another tab

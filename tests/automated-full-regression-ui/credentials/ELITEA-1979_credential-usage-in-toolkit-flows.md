@@ -4,11 +4,9 @@ title: "Credential — Usage in Toolkit Flows"
 priority: high
 type: functional
 module: toolkits-credentials
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:toolkits]
-automation_test_id:
-  - tests.ui.toolkits.test_credential_usage_in_toolkit_flows.TestCredentialUsageInToolkitFlows.test_credential_usage_and_deletion_mismatch
 requirements: []
 ---
 

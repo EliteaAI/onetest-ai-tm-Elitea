@@ -4,12 +4,10 @@ title: "Subagent Skills Isolation"
 priority: medium
 type: functional
 module: skills
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:skills, feat:subagents, feat:autonomous-invocation]
 requirements: []
-automation_test_id: [tests.ui.skills.test_subagent_skills_isolation.TestSubagentSkillsIsolation.test_subagent_uses_only_its_own_attached_skill]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1482
 ---
 
 # ELITEA-2608: Subagent Skills Isolation

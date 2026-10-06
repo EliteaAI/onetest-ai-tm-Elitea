@@ -4,10 +4,8 @@ title: "Chat – File Error States – Verify Unsupported File Format Displays E
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.chat.test_attach_unsupported_file_format_error.TestAttachUnsupportedFileFormatError.test_attach_unsupported_file_shows_error_toast
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

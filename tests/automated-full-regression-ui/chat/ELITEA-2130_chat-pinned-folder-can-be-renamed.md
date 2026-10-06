@@ -4,10 +4,8 @@ title: "Chat – Pinned Folder Can Be Renamed"
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: tests.ui.chat.test_chat_folder_rename_checkmark_validation.TestChatFolderRenameCheckmarkValidation.test_pinned_folder_rename_retains_pin_state
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1539
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

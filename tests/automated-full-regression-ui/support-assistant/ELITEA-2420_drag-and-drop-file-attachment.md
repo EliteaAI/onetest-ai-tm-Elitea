@@ -4,12 +4,10 @@ title: "Drag and drop file attachment"
 priority: medium
 type: functional
 module: support-assistant
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []
-automation_test_id: tests.ui.support_assistant.test_support_assistant_drag_drop_attachment.TestSupportAssistantDragDropAttachment.test_drag_and_drop_file_attachment
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1665
 ---
 
 # ELITEA-2420: Drag and drop file attachment

@@ -4,12 +4,10 @@ title: "Remote MCP — Cancel During Creation"
 priority: medium
 type: functional
 module: elitea-platform
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression]
 requirements: []
-automation_test_id: tests.ui.toolkits.test_mcp_cancel_during_creation.TestMcpCancelDuringCreation.test_cancel_during_creation_creates_nothing
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1749
 ---
 
 # ELITEA-1960: Remote MCP — Cancel During Creation

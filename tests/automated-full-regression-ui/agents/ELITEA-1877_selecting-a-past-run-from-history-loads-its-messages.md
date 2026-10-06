@@ -4,11 +4,9 @@ title: "Selecting a past run from history loads its messages in the chat panel"
 priority: high
 type: functional
 module: agents
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agents]
-automation_test_id:
-  - tests.ui.agents.test_agent_run_history_select_past_run.TestAgentRunHistorySelectPastRun.test_select_past_run_loads_chat_messages
 requirements: []
 ---
 

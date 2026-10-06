@@ -4,10 +4,8 @@ title: "Chat – Attached files display with filenames, icons, and truncation fo
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: "tests.ui.chat.test_attach_files_multiple_chips_display.TestAttachFilesMultipleChipsDisplay.test_long_filename_truncates_and_overflow_indicator_click_expands"
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1595
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---

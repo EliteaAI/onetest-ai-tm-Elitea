@@ -4,13 +4,10 @@ title: "Health tab displays Requests vs Errors chart and Health by Event Type ta
 priority: medium
 type: functional
 module: settings-analytics
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:settings]
 requirements: []
-automation_test_id:
-  - tests.ui.admin.test_analytics_health_tab.TestAnalyticsHealthTab.test_health_tab_chart_and_event_type_table
-automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/1957"
 ---
 
 # ELITEA-2324: Health tab displays Requests vs Errors chart and Health by Event Type table

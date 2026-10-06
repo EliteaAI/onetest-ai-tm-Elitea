@@ -4,11 +4,9 @@ title: "Build with AI — generating agent draft from in-chat AgentEditor works 
 priority: high
 type: functional
 module: agents
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:agents]
-automation_test_id:
-  - tests.ui.chat.test_build_with_ai_from_chat_canvas.TestBuildWithAIFromChatCanvas.test_build_with_ai_from_chat_canvas_adds_participant
 requirements: []
 ---
 

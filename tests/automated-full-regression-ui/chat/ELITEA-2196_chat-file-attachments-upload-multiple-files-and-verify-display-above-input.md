@@ -4,10 +4,8 @@ title: "Chat – File Attachments – Upload Multiple Files and Verify They Disp
 priority: medium
 type: functional
 module: chat-interface
-status: ready
-execution_type: automated
-automation_test_id: "tests.ui.chat.test_attach_files_multiple_chips_display.TestAttachFilesMultipleChipsDisplay.test_attach_multiple_files_displays_chips_above_composer"
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1595
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
