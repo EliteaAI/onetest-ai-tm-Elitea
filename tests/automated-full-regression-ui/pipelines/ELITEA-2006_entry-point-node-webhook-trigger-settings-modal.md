@@ -8,6 +8,7 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.pipelines_2.test_pipeline_webhook_trigger_settings_modal.test_webhook_trigger_settings_modal
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2416
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---
