@@ -14927,27 +14927,6 @@
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-2070_pipeline-run-history-panel.md"
     },
     {
-      "id": "ELITEA-2071",
-      "title": "Pipeline — Fullscreen Chat Mode",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "pipelines",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:pipelines"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-2071_pipeline-fullscreen-chat-mode.md"
-    },
-    {
       "id": "ELITEA-2072",
       "title": "Pipeline — Collapse Left Panel",
       "status": "ready",

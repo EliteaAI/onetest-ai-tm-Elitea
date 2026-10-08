@@ -3366,11 +3366,6 @@
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-2070_pipeline-run-history-panel.md"
     },
     {
-      "id": "ELITEA-2071",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-2071_pipeline-fullscreen-chat-mode.md"
-    },
-    {
       "id": "ELITEA-2072",
       "priority": "medium",
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-2072_pipeline-collapse-left-panel.md"
