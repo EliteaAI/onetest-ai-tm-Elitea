@@ -1,37 +1,36 @@
 # Test Dashboard
 
-_Generated: 2026-10-07 02:26 UTC_
+_Generated: 2026-10-08 02:46 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-07-217-DEV-STABLE-SMOKE-ARTIFACTS-SCHEDULED-FAILED**
+**RUN-ELITEA-2026-10-08-247-DEV-SMOKE-ARTIFACTS-SCHEDULED-FAILED**
 
 ```mermaid
 pie showData
-    title "Test Results (30 total)"
-    "Passed" : 26
+    title "Test Results (31 total)"
+    "Passed" : 29
     "Failed" : 2
-    "Skipped" : 2
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 30 |
-| Passed | 26 |
+| Total | 31 |
+| Passed | 29 |
 | Failed | 2 |
-| Skipped | 2 |
+| Skipped | 0 |
 | Reruns | 12 |
-| Pass Rate | 86.7% |
+| Pass Rate | 93.5% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [29-202-DEV-STABLE, 29-203-DEV-STABLE, 30-204-DEV-STABLE, 01-205-DEV-STABLE, 02-206-DEV-STABLE, 03-207-DEV-STABLE, 04-208-DEV-STABLE, 05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE]
+    x-axis [29-203-DEV-STABLE, 30-204-DEV-STABLE, 01-205-DEV-STABLE, 02-206-DEV-STABLE, 03-207-DEV-STABLE, 04-208-DEV-STABLE, 05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE]
     y-axis "Tests" 0 --> 51
-    bar "Passed" [26, 26, 26, 26, 26, 46, 26, 26, 26, 26]
-    bar "Failed" [2, 2, 2, 2, 2, 24, 2, 2, 2, 2]
+    bar "Passed" [26, 26, 26, 26, 46, 26, 26, 26, 26, 29]
+    bar "Failed" [2, 2, 2, 2, 24, 2, 2, 2, 2, 2]
 ```
 
 ### Reruns Trend
@@ -39,15 +38,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [29-202-DEV-STABLE, 29-203-DEV-STABLE, 30-204-DEV-STABLE, 01-205-DEV-STABLE, 02-206-DEV-STABLE, 03-207-DEV-STABLE, 04-208-DEV-STABLE, 05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE]
+    x-axis [29-203-DEV-STABLE, 30-204-DEV-STABLE, 01-205-DEV-STABLE, 02-206-DEV-STABLE, 03-207-DEV-STABLE, 04-208-DEV-STABLE, 05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE]
     y-axis "Reruns" 0 --> 45
-    line "Reruns" [12, 12, 12, 12, 12, 42, 12, 12, 12, 12]
+    line "Reruns" [12, 12, 12, 12, 42, 12, 12, 12, 12, 12]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 08-247-DEV-SMOKE | 31 | 29 | 2 | 0 | 12 | 94% |
 | ❌ 07-217-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 | ❌ 06-214-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 | ❌ 05-209-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
@@ -57,7 +57,6 @@ xychart-beta
 | ❌ 01-205-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 | ❌ 30-204-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 | ❌ 29-203-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
-| ❌ 29-202-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -68,16 +67,16 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 
 | Metric | Count |
 |--------|-------|
-| Tests in automation | 263 |
-| Tests linked to TMS cases | 180 |
+| Tests in automation | 264 |
+| Tests linked to TMS cases | 181 |
 | Tests without TMS case | 83 |
-| Orphan TMS refs (test missing) | 2 |
-| **TMS Coverage** | **68.4%** |
+| Orphan TMS refs (test missing) | 1 |
+| **TMS Coverage** | **68.6%** |
 
 ```mermaid
 pie showData
-    title "TMS Linkage (263 tests)"
-    "Linked to TMS" : 180
+    title "TMS Linkage (264 tests)"
+    "Linked to TMS" : 181
     "No TMS case" : 83
 ```
 
@@ -179,12 +178,11 @@ _Tests that exist in automation but have no linked TMS case._
 _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 
 <details>
-<summary>Show 2 orphan refs</summary>
+<summary>Show 1 orphan refs</summary>
 
-- `tests.ui.artifacts.test_artifacts_landing_page_ui.TestArtifactsLandingPageUI.test_landing_page_empty_bucket` (ELITEA-1805)
 - `tests.ui.help_center.test_help_center_page_loads.TestHelpCenterPageLoads.test_help_center_page_loads_via_sidebar_icon` (ELITEA-2219)
 
 </details>
 
 ---
-_Compared `automation/index.json` (263 tests) with `index_automated.json` (182 refs)_
+_Compared `automation/index.json` (264 tests) with `index_automated.json` (182 refs)_
