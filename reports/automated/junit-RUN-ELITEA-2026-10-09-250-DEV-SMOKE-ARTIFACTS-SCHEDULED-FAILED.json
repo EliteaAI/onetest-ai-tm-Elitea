@@ -1,0 +1,302 @@
+{
+  "launch": {
+    "total": 31,
+    "passed": 29,
+    "failed": 2,
+    "skipped": 0,
+    "reruns": 12
+  },
+  "items": [
+    {
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads[chromium]",
+      "name": "test_page_loads[chromium]",
+      "status": "passed",
+      "duration_ms": 14597,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible[chromium]",
+      "name": "test_main_content_visible[chromium]",
+      "status": "passed",
+      "duration_ms": 7060,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[chromium-ELITEA-1811-leading-digit]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[chromium-ELITEA-1811-leading-digit]",
+      "status": "passed",
+      "duration_ms": 49846,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[chromium-ELITEA-1814-special-char]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[chromium-ELITEA-1814-special-char]",
+      "status": "passed",
+      "duration_ms": 38780,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[chromium-ELITEA-1814-underscore]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[chromium-ELITEA-1814-underscore]",
+      "status": "passed",
+      "duration_ms": 44154,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[chromium-ELITEA-1814-space]",
+      "name": "test_bucket_name_validation_rejects_invalid_format[chromium-ELITEA-1814-space]",
+      "status": "passed",
+      "duration_ms": 38791,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_create_bucket_upload_file.TestArtifactCreateBucketAndUploadFile.test_create_bucket_via_form_and_upload_file_via_bucket_menu[chromium]",
+      "name": "test_create_bucket_via_form_and_upload_file_via_bucket_menu[chromium]",
+      "status": "passed",
+      "duration_ms": 32708,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_delete_subfolder_checkbox.TestArtifactDeleteSubfolderCheckbox.test_delete_subfolder_via_checkbox[chromium]",
+      "name": "test_delete_subfolder_via_checkbox[chromium]",
+      "status": "passed",
+      "duration_ms": 27217,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_delete_subfolder_checkbox.TestArtifactDeleteSubfolderCheckbox.test_delete_multiple_files_partial_selection[chromium]",
+      "name": "test_delete_multiple_files_partial_selection[chromium]",
+      "status": "passed",
+      "duration_ms": 41266,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_download_multiple_files_zip.TestArtifactDownloadMultipleFilesZip.test_download_multiple_files_as_zip[chromium]",
+      "name": "test_download_multiple_files_as_zip[chromium]",
+      "status": "passed",
+      "duration_ms": 20352,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_download_single_file_dropdown.TestArtifactDownloadSingleFileDropdown.test_download_single_file_via_dropdown[chromium]",
+      "name": "test_download_single_file_via_dropdown[chromium]",
+      "status": "passed",
+      "duration_ms": 16175,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_duplicate_bucket_name.TestArtifactDuplicateBucketName.test_duplicate_bucket_name_is_not_allowed[chromium]",
+      "name": "test_duplicate_bucket_name_is_not_allowed[chromium]",
+      "status": "passed",
+      "duration_ms": 53872,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_actions_dropdown.TestArtifactFilePreviewActionsDropdown.test_actions_dropdown_copy_download_delete[chromium]",
+      "name": "test_actions_dropdown_copy_download_delete[chromium]",
+      "status": "passed",
+      "duration_ms": 21514,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_edit_save.TestArtifactFilePreviewEditSave.test_edit_file_content_and_save_changes[chromium]",
+      "name": "test_edit_file_content_and_save_changes[chromium]",
+      "status": "passed",
+      "duration_ms": 23728,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_image_restricted_controls.TestArtifactFilePreviewImageRestrictedControls.test_image_file_opens_directly_with_restricted_controls[chromium]",
+      "name": "test_image_file_opens_directly_with_restricted_controls[chromium]",
+      "status": "passed",
+      "duration_ms": 18957,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_markdown_default_mode.TestArtifactFilePreviewMarkdownDefaultMode.test_markdown_file_opens_in_preview_mode_by_default[chromium]",
+      "name": "test_markdown_file_opens_in_preview_mode_by_default[chromium]",
+      "status": "passed",
+      "duration_ms": 19290,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_markdown_raw_edit_save.TestArtifactFilePreviewMarkdownRawEditSave.test_raw_tab_enables_editing_and_save_persists[chromium]",
+      "name": "test_raw_tab_enables_editing_and_save_persists[chromium]",
+      "status": "passed",
+      "duration_ms": 37601,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_file_preview_open_editor_ui.TestArtifactFilePreviewOpenEditorUI.test_open_supported_text_file_shows_editor_ui[chromium]",
+      "name": "test_open_supported_text_file_shows_editor_ui[chromium]",
+      "status": "passed",
+      "duration_ms": 17591,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_landing_page_ui.TestArtifactsLandingPageUI.test_landing_page_empty_bucket[chromium]",
+      "name": "test_landing_page_empty_bucket[chromium]",
+      "status": "passed",
+      "duration_ms": 45637,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_multi_file.TestArtifactMultiFileDownload.test_agent_creates_files_at_root_and_in_subfolder[chromium]",
+      "name": "test_agent_creates_files_at_root_and_in_subfolder[chromium]",
+      "status": "passed",
+      "duration_ms": 75051,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_cancel.TestArtifactUploadDuplicateCancel.test_cancel_stops_entire_upload_including_non_duplicate[chromium]",
+      "name": "test_cancel_stops_entire_upload_including_non_duplicate[chromium]",
+      "status": "passed",
+      "duration_ms": 40692,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_detected_modal.TestArtifactUploadDuplicateDetectedModal.test_duplicate_detected_opens_resolve_duplicates_modal[chromium]",
+      "name": "test_duplicate_detected_opens_resolve_duplicates_modal[chromium]",
+      "status": "passed",
+      "duration_ms": 29779,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_keep_both.TestArtifactUploadDuplicateKeepBoth.test_keep_both_uploads_renamed_copy_alongside_original[chromium]",
+      "name": "test_keep_both_uploads_renamed_copy_alongside_original[chromium]",
+      "status": "passed",
+      "duration_ms": 34350,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_duplicate_skip.TestArtifactUploadDuplicateSkip.test_skip_uploads_only_non_duplicate_file[chromium]",
+      "name": "test_skip_uploads_only_non_duplicate_file[chromium]",
+      "status": "passed",
+      "duration_ms": 34725,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_artifacts_upload_multiple_files.TestArtifactsUploadMultipleFiles.test_upload_multiple_files_at_once[chromium]",
+      "name": "test_upload_multiple_files_at_once[chromium]",
+      "status": "passed",
+      "duration_ms": 32241,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_no_access_permission_blocks_all_api_operations[chromium]",
+      "name": "test_no_access_permission_blocks_all_api_operations[chromium]",
+      "status": "passed",
+      "duration_ms": 50343,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/artifacts/test_bucket_permissions_api.py:260: in test_no_access_permission_blocks_all_api_operations\n    admin_artifacts.remove_permission_exception(\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/artifacts_page.py:2945: in remove_permission_exception\n    user_row.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20696: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:752: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:395: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_connection."
+      ]
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_no_access_permission_blocks_all_api_operations[chromium]",
+      "name": "test_no_access_permission_blocks_all_api_operations[chromium]",
+      "status": "passed",
+      "duration_ms": 47805,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/artifacts/test_bucket_permissions_api.py:260: in test_no_access_permission_blocks_all_api_operations\n    admin_artifacts.remove_permission_exception(\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/artifacts_page.py:2945: in remove_permission_exception\n    user_row.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20696: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:752: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:395: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_connection."
+      ]
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_no_access_permission_blocks_all_api_operations[chromium]",
+      "name": "test_no_access_permission_blocks_all_api_operations[chromium]",
+      "status": "failed",
+      "duration_ms": 46749,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"dialog\\\"]:has-text(\\\"Manage Permissions\\\")\").locator(\"div:has-text(\\\"autotest_user_9\\\")\").first to be visible tests/ui/artifacts/test_bucket_permissions_api.py:260: in test_no_access_permission_blocks_all_api_operations\n    admin_artifacts.remove_permission_exception(\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n   ",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/artifacts/test_bucket_permissions_api.py:260: in test_no_access_permission_blocks_all_api_operations\n    admin_artifacts.remove_permission_exception(\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/artifacts_page.py:2945: in remove_permission_exception\n    user_row.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20696: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:752: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:395: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_connection."
+      ]
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_read_only_permission_allows_get_blocks_write_operations[chromium]",
+      "name": "test_read_only_permission_allows_get_blocks_write_operations[chromium]",
+      "status": "passed",
+      "duration_ms": 46655,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/artifacts/test_bucket_permissions_api.py:375: in test_read_only_permission_allows_get_blocks_write_operations\n    admin_artifacts.remove_permission_exception(\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/artifacts_page.py:2945: in remove_permission_exception\n    user_row.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20696: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:752: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:395: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_co"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_read_only_permission_allows_get_blocks_write_operations[chromium]",
+      "name": "test_read_only_permission_allows_get_blocks_write_operations[chromium]",
+      "status": "passed",
+      "duration_ms": 44659,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/artifacts/test_bucket_permissions_api.py:375: in test_read_only_permission_allows_get_blocks_write_operations\n    admin_artifacts.remove_permission_exception(\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/artifacts_page.py:2945: in remove_permission_exception\n    user_row.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20696: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:752: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:395: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_co"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_read_only_permission_allows_get_blocks_write_operations[chromium]",
+      "name": "test_read_only_permission_allows_get_blocks_write_operations[chromium]",
+      "status": "failed",
+      "duration_ms": 59483,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"dialog\\\"]:has-text(\\\"Manage Permissions\\\")\").locator(\"div:has-text(\\\"autotest_user_9\\\")\").first to be visible tests/ui/artifacts/test_bucket_permissions_api.py:375: in test_read_only_permission_allows_get_blocks_write_operations\n    admin_artifacts.remove_permission_exception(\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/artifacts/test_bucket_permissions_api.py:375: in test_read_only_permission_allows_get_blocks_write_operations\n    admin_artifacts.remove_permission_exception(\nutils/actions.py:102: in wrapper\n    result = _run()\n             ^^^^^^\nutils/actions.py:89: in _run\n    return func(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/artifacts_page.py:2945: in remove_permission_exception\n    user_row.wait_for(state=\"visible\", timeout=timeout)\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:20696: in wait_for\n    self._sync(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:752: in wait_for\n    await self._frame.wait_for_selector(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:395: in wait_for_selector\n    await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_co"
+      ]
+    }
+  ]
+}
