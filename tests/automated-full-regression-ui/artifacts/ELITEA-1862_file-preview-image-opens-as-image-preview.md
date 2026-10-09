@@ -8,6 +8,7 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.artifacts.test_artifacts_file_preview_image_restricted_controls.TestArtifactFilePreviewImageRestrictedControls.test_image_file_opens_directly_with_restricted_controls
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2398
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
@@ -16,7 +17,7 @@ requirements: []
 
 **Module:** artifacts · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that an image file opens directly as a visual image preview in the editor panel, with Save/Discard buttons inactive, no text editor, no Preview/Raw tabs, and an actions menu limited to Download and Delete.
+**Objective:** Verify that an image file opens directly as a visual image preview in the editor panel, with Save/Discard buttons structurally absent (no edit path exists for images), no text editor, no Preview/Raw tabs, and an actions menu limited to Download and Delete.
 
 ---
 
@@ -46,7 +47,7 @@ requirements: []
 | 4 | Click on file "diagram (2).png" or its "View/Edit file" icon | Image preview opens in main panel |
 | 5 | Verify the file opens in the main panel displaying the image directly | Image is displayed in the panel |
 | 6 | Verify the panel header displays the full path: "bucket-1/diagram (2).png" | Header shows correct path |
-| 7 | Verify the "Save" and "Discard" buttons in the top-right are INACTIVE/greyed out | Both buttons are disabled |
+| 7 | Verify the "Save" and "Discard" buttons in the top-right are not present | Both buttons are structurally absent — no edit path exists for an image file |
 | 8 | Verify no "Preview" / "Raw" tabs are shown | No tabs are visible |
 | 9 | Verify no text editor or content editing area is present — only the image is displayed | Only image is shown; no text editor |
 | 10 | Verify the 3-dot (ellipsis) actions menu is present | Actions menu is accessible |
@@ -56,7 +57,7 @@ requirements: []
 
 ## Expected Final State
 
-Image file opens as a visual preview. Save/Discard are inactive. No tabs or text editor shown. Actions menu contains only Download and Delete.
+Image file opens as a visual preview. Save/Discard are structurally absent (not merely disabled). No tabs or text editor shown. Actions menu contains only Download and Delete.
 
 ---
 
@@ -64,8 +65,14 @@ Image file opens as a visual preview. Save/Discard are inactive. No tabs or text
 
 **Pass:**
 - All steps complete without errors.
-- Image preview shown; Save/Discard inactive; no tabs; no text editor; actions limited to Download and Delete.
+- Image preview shown; Save/Discard structurally absent; no tabs; no text editor; actions limited to Download and Delete.
 
 **Fail:**
 - Any step produces an error or unexpected result.
-- Text editor shown, tabs present, buttons active, or "Copy Content" in actions menu.
+- Save/Discard rendered in any form (active or disabled), text editor shown, tabs present, or "Copy Content" in actions menu.
+
+---
+
+## Adjustment history
+
+- **2026-10-07 (ELITEA-1862 / EliteaAI/elitea-testing-public#2396, #2398):** Product change — for image files, the entire Save/Discard/Divider block in the preview header is now gated `canPreview && !isImageFileType` (`PreviewHeader.jsx`, EliteaUI `origin/main`), making the buttons structurally absent rather than present-and-disabled. Step 7 / Expected Final State / Pass-Fail Criteria updated to match current product behaviour. `automation_test_id` unchanged (same test, same path).
