@@ -7,7 +7,7 @@ module: artifacts
 status: ready
 execution_type: automated
 automation_test_id: tests.ui.artifacts.test_artifacts_upload_multiple_files.TestArtifactsUploadMultipleFiles.test_upload_multiple_files_at_once
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/647
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2399
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
@@ -43,7 +43,7 @@ requirements: []
 |---|--------|-----------------|
 | 1 | Navigate to the Artifacts section in the left sidebar | Artifacts page loads |
 | 2 | Click on "bucket-1" in the bucket list | Bucket is selected |
-| 3 | Click the upload icon in the top-right corner of the main panel | System file explorer opens |
+| 3 | Click the "Upload files" button — the toolbar button (top-right of the main panel) when the bucket already has files, or the center button in the empty-state panel when the bucket is empty (precondition for this case) | System file explorer opens |
 | 4 | Verify the system file explorer/Open dialog window opens immediately | File explorer is open |
 | 5 | Navigate to the test data folder and select multiple files at once: "sample1.txt", "sample1.png", "sample1.md" (use Ctrl+click or Shift+click) | All three files are selected |
 | 6 | Click "Open" in the file explorer | "Upload files to ..." modal opens |
@@ -69,3 +69,18 @@ All three files are uploaded in a single operation and appear in the file table 
 **Fail:**
 - Any step produces an error or unexpected result.
 - Not all files are uploaded, or files are missing from the file table after upload.
+
+---
+
+## Adjustment history
+
+- **2026-10-07** — Step 3's action text corrected to name the empty-state upload
+  entry point. EliteaUI commit `471b753c` ("fix: [EL-6687] Fixed Artifacts section
+  UI issues", 2026-09-23) gated the toolbar's upload button behind
+  `!isEmptyFiles`, so for a bucket confirmed empty (this case's own
+  precondition) the toolbar button never mounts — only the empty-state panel's
+  "Upload files" button is available. Triage class **A (UI drift)**. No change
+  to Expected Results, Expected Final State, or Pass/Fail Criteria — the file
+  explorer still opens the same way once the correct button is clicked.
+  Originating report: EliteaAI/elitea-testing-public#2397. Test-code adjustment
+  PR (merged): EliteaAI/elitea-testing-public#2399.
