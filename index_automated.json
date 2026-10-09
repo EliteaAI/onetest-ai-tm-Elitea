@@ -17966,6 +17966,174 @@
       "path": "tests/automated-full-regression-ui/indexing/ELITEA-3095_ui-status-reindex-lifecycle-automated.md"
     },
     {
+      "id": "ELITEA-3712",
+      "title": "Verify indexing completes successfully for medium-sized repository",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "eng:technical-debt",
+        "r-2.0.7"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6228"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3712_indexing-completes-successfully-for-medium-sized-repository.md"
+    },
+    {
+      "id": "ELITEA-3713",
+      "title": "Verify user receives notification when indexing completes",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "eng:technical-debt",
+        "r-2.0.7"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6228"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3713_user-receives-notification-when-indexing-completes.md"
+    },
+    {
+      "id": "ELITEA-3714",
+      "title": "Verify user receives notification when indexing is stopped",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "eng:technical-debt",
+        "r-2.0.7"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6228"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3714_user-receives-notification-when-indexing-is-stopped.md"
+    },
+    {
+      "id": "ELITEA-3715",
+      "title": "Verify Stop button stops indexing and shows stopped status",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "eng:technical-debt",
+        "r-2.0.7"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6228"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3715_stop-button-stops-indexing-and-shows-stopped-status.md"
+    },
+    {
+      "id": "ELITEA-3716",
+      "title": "Verify progress indicator updates during indexing",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "eng:technical-debt",
+        "r-2.0.7"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6228"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3716_progress-indicator-updates-during-indexing.md"
+    },
+    {
+      "id": "ELITEA-3717",
+      "title": "Verify error messages are user-friendly",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "eng:technical-debt",
+        "r-2.0.7"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6228"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3717_error-messages-are-user-friendly.md"
+    },
+    {
+      "id": "ELITEA-3718",
+      "title": "Verify documents in multiple collections are searchable in all collections",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "indexes",
+      "owner": "",
+      "tags": [
+        "feat:indexer",
+        "eng:technical-debt",
+        "r-2.0.7"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6228"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3718_documents-in-multiple-collections-are-searchable.md"
+    },
+    {
       "id": "ELITEA-3207",
       "title": "Regression: Create Folder auto-focus and keyboard behavior (#6485)",
       "status": "draft",

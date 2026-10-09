@@ -4046,6 +4046,41 @@
       "path": "tests/automated-full-regression-ui/indexing/ELITEA-3095_ui-status-reindex-lifecycle-automated.md"
     },
     {
+      "id": "ELITEA-3712",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3712_indexing-completes-successfully-for-medium-sized-repository.md"
+    },
+    {
+      "id": "ELITEA-3713",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3713_user-receives-notification-when-indexing-completes.md"
+    },
+    {
+      "id": "ELITEA-3714",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3714_user-receives-notification-when-indexing-is-stopped.md"
+    },
+    {
+      "id": "ELITEA-3715",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3715_stop-button-stops-indexing-and-shows-stopped-status.md"
+    },
+    {
+      "id": "ELITEA-3716",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3716_progress-indicator-updates-during-indexing.md"
+    },
+    {
+      "id": "ELITEA-3717",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3717_error-messages-are-user-friendly.md"
+    },
+    {
+      "id": "ELITEA-3718",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3718_documents-in-multiple-collections-are-searchable.md"
+    },
+    {
       "id": "ELITEA-3207",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3207_regression-create-folder-autofocus-and-keyboard-behavior.md"
