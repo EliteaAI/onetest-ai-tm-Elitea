@@ -12540,6 +12540,27 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-3604_chat-trigger-differentiation-hash-shows-all-ampersand-shows-private-plus-shows-users.md"
     },
     {
+      "id": "ELITEA-3732",
+      "title": "Chat – Scroll Up in Conversation with Large History Loads Older Messages",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "manual:UI:regression",
+        "feat:chat"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3732_chat-scroll-up-in-large-history-loads-older-messages.md"
+    },
+    {
       "id": "ELITEA-3252",
       "title": "Settings: Generate Project Context produces content ≤2500 characters",
       "status": "draft",

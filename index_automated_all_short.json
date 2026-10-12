@@ -2851,6 +2851,11 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-3604_chat-trigger-differentiation-hash-shows-all-ampersand-shows-private-plus-shows-users.md"
     },
     {
+      "id": "ELITEA-3732",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3732_chat-scroll-up-in-large-history-loads-older-messages.md"
+    },
+    {
       "id": "ELITEA-3252",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3252_settings-generate-project-context-respects-2500-char-limit.md"
