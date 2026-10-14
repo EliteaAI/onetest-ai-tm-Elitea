@@ -4,8 +4,10 @@ title: "Bucket Name Cannot Start with a Number"
 priority: medium
 type: functional
 module: artifacts
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1811-leading-digit]
 tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
