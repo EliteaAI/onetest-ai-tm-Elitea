@@ -11,6 +11,7 @@ automation_test_id:
   - tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[github]
   - tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[github]
   - tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[github]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2363
 tags: []
 requirements: []
 ---
@@ -39,7 +40,8 @@ requirements: []
 | ? | Navigate to Credentials, create GitHub credential | Credential created, visible in list |
 | ? | Navigate to Toolkits, create GitHub toolkit | Toolkit created with credential selector |
 | ? | Select credential, configure toolkit | Toolkit linked to credential |
-| ? | Click Test Settings | Connection test passes |
+| ? | On the toolkit detail page, click the **Test** button in the header action bar | The Test Toolkit page opens at `/toolkits/all/{id}/test` (breadcrumb `Toolkits & Indexes / <toolkit> / Test Toolkit`) with a *Test Settings* column showing the tool-selection empty state and a *Results* column |
+| ? | In the Test Settings empty state open the **Tool** select and choose a tool (e.g. *List branches*), then click **Run Test** | The Test Settings panel shows the chosen tool, model selector and parameters; the tool runs with the linked credential and the Results column shows a successful tool result (connection test passes) |
 
 ## Expected Final State
 
