@@ -18641,7 +18641,7 @@
     },
     {
       "id": "ELITEA-1790",
-      "title": "Maximum 5 Skills can be attached to one Agent",
+      "title": "Maximum Skills attachable to one Agent is enforced (limit is read live from the platform, not fixed at 5)",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
