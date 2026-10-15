@@ -1,36 +1,36 @@
 # Test Dashboard
 
-_Generated: 2026-10-09 03:05 UTC_
+_Generated: 2026-10-15 09:57 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-09-250-DEV-SMOKE-ARTIFACTS-SCHEDULED-FAILED**
+**RUN-ELITEA-2026-10-15-269-DEV-SMOKE-PASSED**
 
 ```mermaid
 pie showData
-    title "Test Results (31 total)"
-    "Passed" : 29
-    "Failed" : 2
+    title "Test Results (2 total)"
+    "Passed" : 2
+    "Failed" : 0
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 31 |
-| Passed | 29 |
-| Failed | 2 |
+| Total | 2 |
+| Passed | 2 |
+| Failed | 0 |
 | Skipped | 0 |
-| Reruns | 12 |
-| Pass Rate | 93.5% |
+| Reruns | 0 |
+| Pass Rate | 100.0% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [30-204-DEV-STABLE, 01-205-DEV-STABLE, 02-206-DEV-STABLE, 03-207-DEV-STABLE, 04-208-DEV-STABLE, 05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE]
+    x-axis [01-205-DEV-STABLE, 02-206-DEV-STABLE, 03-207-DEV-STABLE, 04-208-DEV-STABLE, 05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE]
     y-axis "Tests" 0 --> 51
-    bar "Passed" [26, 26, 26, 46, 26, 26, 26, 26, 29, 29]
-    bar "Failed" [2, 2, 2, 24, 2, 2, 2, 2, 2, 2]
+    bar "Passed" [26, 26, 46, 26, 26, 26, 26, 29, 29, 2]
+    bar "Failed" [2, 2, 24, 2, 2, 2, 2, 2, 2, 0]
 ```
 
 ### Reruns Trend
@@ -38,15 +38,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [30-204-DEV-STABLE, 01-205-DEV-STABLE, 02-206-DEV-STABLE, 03-207-DEV-STABLE, 04-208-DEV-STABLE, 05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE]
+    x-axis [01-205-DEV-STABLE, 02-206-DEV-STABLE, 03-207-DEV-STABLE, 04-208-DEV-STABLE, 05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE]
     y-axis "Reruns" 0 --> 45
-    line "Reruns" [12, 12, 12, 42, 12, 12, 12, 12, 12, 12]
+    line "Reruns" [12, 12, 42, 12, 12, 12, 12, 12, 12, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ✅ 15-269-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ❌ 09-250-DEV-SMOKE | 31 | 29 | 2 | 0 | 12 | 94% |
 | ❌ 08-247-DEV-SMOKE | 31 | 29 | 2 | 0 | 12 | 94% |
 | ❌ 07-217-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
@@ -56,7 +57,6 @@ xychart-beta
 | ❌ 03-207-DEV-STABLE | 72 | 46 | 24 | 2 | 42 | 64% |
 | ❌ 02-206-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 | ❌ 01-205-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
-| ❌ 30-204-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -68,16 +68,16 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 | Metric | Count |
 |--------|-------|
 | Tests in automation | 264 |
-| Tests linked to TMS cases | 181 |
-| Tests without TMS case | 83 |
+| Tests linked to TMS cases | 187 |
+| Tests without TMS case | 77 |
 | Orphan TMS refs (test missing) | 1 |
-| **TMS Coverage** | **68.6%** |
+| **TMS Coverage** | **70.8%** |
 
 ```mermaid
 pie showData
     title "TMS Linkage (264 tests)"
-    "Linked to TMS" : 181
-    "No TMS case" : 83
+    "Linked to TMS" : 187
+    "No TMS case" : 77
 ```
 
 ### Tests Without TMS Case
@@ -85,7 +85,7 @@ pie showData
 _Tests that exist in automation but have no linked TMS case._
 
 <details>
-<summary>Show 83 unlinked tests</summary>
+<summary>Show 77 unlinked tests</summary>
 
 - `tests.ui.admin.test_guardrails_live_reload.TestBlockedToolLiveReload.test_blocked_tool_live_reload_case_insensitive`
 - `tests.ui.admin.test_guardrails_live_reload.TestBlockedToolkitLiveReload.test_blocked_toolkit_live_reload_case_insensitive`
@@ -101,10 +101,6 @@ _Tests that exist in automation but have no linked TMS case._
 - `tests.ui.agents.test_agent_with_github_toolkit.TestAddToolkitToAgent.test_add_toolkit_to_agent`
 - `tests.ui.agents.test_agent_with_github_toolkit.TestChatWithAgentToolkit.test_agent_chat_with_github_toolkit`
 - `tests.ui.agents.test_agent_with_github_toolkit.TestRemoveToolkitFromAgent.test_remove_toolkit_from_agent`
-- `tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1811-leading-digit]`
-- `tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-space]`
-- `tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-special-char]`
-- `tests.ui.artifacts.test_artifacts_bucket_name_validation_invalid_formats.TestArtifactBucketNameValidationInvalidFormats.test_bucket_name_validation_rejects_invalid_format[ELITEA-1814-underscore]`
 - `tests.ui.artifacts.test_artifacts_multi_file.TestArtifactMultiFileDownload.test_agent_creates_files_at_root_and_in_subfolder`
 - `tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat`
 - `tests.ui.chat.test_chat_interface.TestContextAndSettings.test_edit_context_settings`
@@ -155,8 +151,6 @@ _Tests that exist in automation but have no linked TMS case._
 - `tests.ui.test_maintenance_handling.test_maintenance_banner_dismissed_automatically`
 - `tests.ui.test_maintenance_handling.test_maintenance_detection_captures_screenshot`
 - `tests.ui.test_maintenance_handling.test_maintenance_state_boolean_check`
-- `tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestAgentCredentialIndicators.test_agent_credential_indicators_e2e`
-- `tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestPipelineCredentialIndicators.test_pipeline_credential_indicators_e2e`
 - `tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[bitbucket]`
 - `tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[gitlab]`
 - `tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[bitbucket]`
@@ -185,4 +179,4 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 </details>
 
 ---
-_Compared `automation/index.json` (264 tests) with `index_automated.json` (182 refs)_
+_Compared `automation/index.json` (264 tests) with `index_automated.json` (188 refs)_
