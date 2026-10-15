@@ -9,6 +9,7 @@ execution_type: automated
 automation_test_id:
   - tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e
 tags: []
+automation_pr: "https://github.com/EliteaAI/elitea-testing-public/pull/2359"
 requirements: [EliteaAI/elitea_issues#4906, EliteaAI/elitea_issues#5114]
 ---
 # ELITEA-1183: Toolkit displays authentication warning and disables Save for invalid credentials
@@ -55,8 +56,8 @@ requirements: [EliteaAI/elitea_issues#4906, EliteaAI/elitea_issues#5114]
 | 7 | Fill in: Toolkit Name = InvalidJira_Toolkit_Test, Description = Test toolkit, Jira Configuration = select credential InvalidJira_Test from step 4. | All fields are filled. |
 | 8 | Click Save. | Toolkit is created and user is redirected to the toolkit detail page. |
 | 9 | Observe the Jira Configuration section on the toolkit detail page. | Warning message is visible starting with "Authentication failed:" (e.g., "Authentication failed: Invalid bearer token"). |
-| 10 | Observe the credential row/configuration section for a visible Warning or Error icon/badge separate from the warning text message. | A distinct Warning or Error icon/badge is displayed on or near the credential row/configuration section. |
-| 11 | Hover over the Warning/Error icon. | A tooltip appears. Tooltip text describes the error state (e.g., "Authentication failed" or equivalent). Tooltip is not blank. |
+| 10 | Observe the Jira Configuration row, then open the Jira Configuration dropdown and locate the selected credential's option. | The configuration row is flagged as invalid (warning underline on the field). In the open dropdown, the selected credential's option shows a distinct Warning/Error icon/badge (separate from the warning text banner under the field). |
+| 11 | Inspect the Warning/Error icon on the credential's option (hover shows its tooltip; the warning banner under the field carries the same tooltip). Close the dropdown. | A tooltip appears. Tooltip text describes the error state (e.g., "Authentication failed: …"). Tooltip is not blank. |
 | 12 | Check the Save button state. | Save button is disabled while the authentication warning and icon are shown. |
 
 ## Expected Final State
