@@ -1,0 +1,524 @@
+{
+  "launch": {
+    "total": 57,
+    "passed": 57,
+    "failed": 0,
+    "skipped": 0,
+    "reruns": 8
+  },
+  "items": [
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_task_chat_history_config",
+      "name": "test_llm_node_system_task_chat_history_config",
+      "status": "passed",
+      "duration_ms": 23090,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_system_type_walks_fixed_fstring_variable",
+      "name": "test_llm_node_system_type_walks_fixed_fstring_variable",
+      "status": "passed",
+      "duration_ms": 14828,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_llm_node_system_task_chat_history_config.test_llm_node_config_verified_via_yaml",
+      "name": "test_llm_node_config_verified_via_yaml",
+      "status": "passed",
+      "duration_ms": 15635,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_llm_structured_output_state_variables.test_llm_structured_output_parses_into_state_variables",
+      "name": "test_llm_structured_output_parses_into_state_variables",
+      "status": "passed",
+      "duration_ms": 33520,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestPipelineDashboard.test_pipeline_dashboard_loads",
+      "name": "test_pipeline_dashboard_loads",
+      "status": "passed",
+      "duration_ms": 4538,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestPipelineDashboard.test_pipeline_created_via_api_visible_in_dashboard",
+      "name": "test_pipeline_created_via_api_visible_in_dashboard",
+      "status": "passed",
+      "duration_ms": 4843,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestPipelineDashboard.test_view_toggle_table_and_card",
+      "name": "test_view_toggle_table_and_card",
+      "status": "passed",
+      "duration_ms": 5680,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestCreatePipeline.test_create_pipeline_via_ui",
+      "name": "test_create_pipeline_via_ui",
+      "status": "passed",
+      "duration_ms": 9612,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestCreatePipeline.test_create_pipeline_required_fields_validation",
+      "name": "test_create_pipeline_required_fields_validation",
+      "status": "passed",
+      "duration_ms": 5695,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestCreatePipeline.test_create_pipeline_minimal_via_sidebar_button",
+      "name": "test_create_pipeline_minimal_via_sidebar_button",
+      "status": "passed",
+      "duration_ms": 9039,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_edit_pipeline_name",
+      "name": "test_edit_pipeline_name",
+      "status": "passed",
+      "duration_ms": 10332,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_edit_pipeline_description",
+      "name": "test_edit_pipeline_description",
+      "status": "passed",
+      "duration_ms": 11629,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_pipeline_detail_page_loads",
+      "name": "test_pipeline_detail_page_loads",
+      "status": "passed",
+      "duration_ms": 5597,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_pipeline_has_configuration_and_history_tabs",
+      "name": "test_pipeline_has_configuration_and_history_tabs",
+      "status": "passed",
+      "duration_ms": 5113,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_api",
+      "name": "test_delete_pipeline_via_api",
+      "status": "passed",
+      "duration_ms": 10012,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_ui_menu",
+      "name": "test_delete_pipeline_via_ui_menu",
+      "status": "passed",
+      "duration_ms": 7991,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestSearchPipeline.test_search_pipeline_by_name",
+      "name": "test_search_pipeline_by_name",
+      "status": "passed",
+      "duration_ms": 44406,
+      "failure_message": "",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestSearchPipeline.test_search_pipeline_by_name",
+      "name": "test_search_pipeline_by_name",
+      "status": "passed",
+      "duration_ms": 6204,
+      "failure_message": "",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestSearchPipeline.test_search_pipeline_no_results",
+      "name": "test_search_pipeline_no_results",
+      "status": "passed",
+      "duration_ms": 9152,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestSearchPipeline.test_search_placeholder_and_dashboard_grid_filters_and_clears",
+      "name": "test_search_placeholder_and_dashboard_grid_filters_and_clears",
+      "status": "passed",
+      "duration_ms": 7088,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestPipelineIsolation.test_fixture_creates_fresh_pipeline",
+      "name": "test_fixture_creates_fresh_pipeline",
+      "status": "passed",
+      "duration_ms": 5062,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_management.TestPipelineIsolation.test_fixture_cleanup_cycle",
+      "name": "test_fixture_cleanup_cycle",
+      "status": "passed",
+      "duration_ms": 828,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_mcp_node_change_toolkit_and_tool.test_mcp_node_change_toolkit_and_tool",
+      "name": "test_mcp_node_change_toolkit_and_tool",
+      "status": "passed",
+      "duration_ms": 18778,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_mcp_node_empty_toolkit_before_attach.test_mcp_node_empty_toolkit_before_attach",
+      "name": "test_mcp_node_empty_toolkit_before_attach",
+      "status": "passed",
+      "duration_ms": 19768,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_mcp_node_fresh_attach.test_mcp_node_fresh_attach",
+      "name": "test_mcp_node_fresh_attach",
+      "status": "passed",
+      "duration_ms": 24588,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_multiple_browser_tabs.test_pipeline_multiple_browser_tabs",
+      "name": "test_pipeline_multiple_browser_tabs",
+      "status": "passed",
+      "duration_ms": 12910,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_node_auto_increment_naming.test_node_auto_increment_naming_by_type",
+      "name": "test_node_auto_increment_naming_by_type",
+      "status": "passed",
+      "duration_ms": 9602,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_nodes.TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end",
+      "name": "test_add_human_in_the_loop_node_and_connect_to_end",
+      "status": "passed",
+      "duration_ms": 9305,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_printer_node_configuration.test_printer_node_configuration_and_persistence",
+      "name": "test_printer_node_configuration_and_persistence",
+      "status": "passed",
+      "duration_ms": 9922,
+      "failure_message": "",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_printer_node_configuration.test_printer_node_configuration_and_persistence",
+      "name": "test_printer_node_configuration_and_persistence",
+      "status": "passed",
+      "duration_ms": 11836,
+      "failure_message": "",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_run_details_delete_run_from_history.test_run_details_delete_run_from_history",
+      "name": "test_run_details_delete_run_from_history",
+      "status": "passed",
+      "duration_ms": 48793,
+      "failure_message": "",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_run_details_delete_run_from_history.test_run_details_delete_run_from_history",
+      "name": "test_run_details_delete_run_from_history",
+      "status": "passed",
+      "duration_ms": 23023,
+      "failure_message": "",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_run_details_multiple_state_variables.test_run_details_multiple_state_variables_different_types",
+      "name": "test_run_details_multiple_state_variables_different_types",
+      "status": "passed",
+      "duration_ms": 17633,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_run_details_panel.test_run_details_panel_opens_after_execution",
+      "name": "test_run_details_panel_opens_after_execution",
+      "status": "passed",
+      "duration_ms": 11373,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_run_details_state_before_after.test_run_details_state_before_after_per_node",
+      "name": "test_run_details_state_before_after_per_node",
+      "status": "passed",
+      "duration_ms": 15908,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_run_details_timeline_steps.test_run_details_timeline_steps_display",
+      "name": "test_run_details_timeline_steps_display",
+      "status": "passed",
+      "duration_ms": 15426,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_run_history_view_executions.TestPipelineRunHistoryViewExecutions.test_run_history_panel_lists_and_shows_execution_details",
+      "name": "test_run_history_panel_lists_and_shows_execution_details",
+      "status": "passed",
+      "duration_ms": 18491,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_run_history_view_executions.TestPipelineRunHistoryPanelClose.test_run_history_panel_closes_and_restores_chat",
+      "name": "test_run_history_panel_closes_and_restores_chat",
+      "status": "passed",
+      "duration_ms": 11948,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_schedule_trigger_settings_modal.test_schedule_trigger_settings_modal",
+      "name": "test_schedule_trigger_settings_modal",
+      "status": "passed",
+      "duration_ms": 10408,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_state_modifier_node_configuration.test_state_modifier_node_configuration_and_persistence",
+      "name": "test_state_modifier_node_configuration_and_persistence",
+      "status": "passed",
+      "duration_ms": 12548,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_state_panel_attachments_module.test_state_panel_attachments_module",
+      "name": "test_state_panel_attachments_module",
+      "status": "passed",
+      "duration_ms": 9842,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_state_panel_default_and_custom_variables.test_state_panel_default_and_custom_variables",
+      "name": "test_state_panel_default_and_custom_variables",
+      "status": "passed",
+      "duration_ms": 14919,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_state_panel_default_and_custom_variables.test_state_panel_delete_custom_variable",
+      "name": "test_state_panel_delete_custom_variable",
+      "status": "passed",
+      "duration_ms": 12359,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_structured_output_toggle_persistence.test_pipeline_structured_output_toggle_persistence",
+      "name": "test_pipeline_structured_output_toggle_persistence",
+      "status": "passed",
+      "duration_ms": 13860,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_subgraph_state_isolation.test_subgraph_state_sharing_non_common_state_isolation",
+      "name": "test_subgraph_state_sharing_non_common_state_isolation",
+      "status": "passed",
+      "duration_ms": 17421,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_subgraph_state_sharing.test_subgraph_state_sharing_common_vars",
+      "name": "test_subgraph_state_sharing_common_vars",
+      "status": "passed",
+      "duration_ms": 17325,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_tags_add_and_filter.test_pipeline_tags_add_and_filter",
+      "name": "test_pipeline_tags_add_and_filter",
+      "status": "passed",
+      "duration_ms": 24137,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_three_dot_menu_actions.test_pipeline_three_dot_menu_actions",
+      "name": "test_pipeline_three_dot_menu_actions",
+      "status": "passed",
+      "duration_ms": 6933,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_toolkit_node_config_and_input_mapping.test_toolkit_node_config_and_input_mapping",
+      "name": "test_toolkit_node_config_and_input_mapping",
+      "status": "passed",
+      "duration_ms": 19329,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_tools_section_mcp_add_view_remove.test_tools_section_mcp_add_view_remove",
+      "name": "test_tools_section_mcp_add_view_remove",
+      "status": "passed",
+      "duration_ms": 15752,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_webhook_trigger_settings_modal.test_webhook_trigger_settings_modal",
+      "name": "test_webhook_trigger_settings_modal",
+      "status": "passed",
+      "duration_ms": 11218,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_welcome_message_shown_before_first_input.test_pipeline_welcome_message_shown_before_first_input",
+      "name": "test_pipeline_welcome_message_shown_before_first_input",
+      "status": "passed",
+      "duration_ms": 15637,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_yaml_editor_invalid_syntax.test_yaml_editor_invalid_syntax_blocks_save",
+      "name": "test_yaml_editor_invalid_syntax_blocks_save",
+      "status": "passed",
+      "duration_ms": 49874,
+      "failure_message": "",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_yaml_editor_invalid_syntax.test_yaml_editor_invalid_syntax_blocks_save",
+      "name": "test_yaml_editor_invalid_syntax_blocks_save",
+      "status": "passed",
+      "duration_ms": 8378,
+      "failure_message": "",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_yaml_editor_view.test_pipeline_yaml_editor_view",
+      "name": "test_pipeline_yaml_editor_view",
+      "status": "passed",
+      "duration_ms": 6549,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_yaml_flow_sync.test_yaml_edit_transition_syncs_to_flow_canvas_and_enables_save",
+      "name": "test_yaml_edit_transition_syncs_to_flow_canvas_and_enables_save",
+      "status": "passed",
+      "duration_ms": 11590,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.pipelines_2.test_pipeline_yaml_flow_sync.test_yaml_edit_persists_after_save_and_reload",
+      "name": "test_yaml_edit_persists_after_save_and_reload",
+      "status": "passed",
+      "duration_ms": 11878,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    }
+  ]
+}
