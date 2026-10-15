@@ -466,6 +466,179 @@
       "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2370_catalog-default-view-opens-on-agents-tab-and-user-must-click.md"
     },
     {
+      "id": "ELITEA-0059",
+      "title": "Counter Turns Red When Character Count Reaches Zero in Full Screen Mode",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "meta:reported-by-support",
+        "nfr:validation",
+        "nfr:usability",
+        "eng:frontend",
+        "feat:chat",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4963"
+      ],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_fullscreen_counter_and_warning",
+        "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_fullscreen_counter_and_warning"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-0059_counter-turns-red-when-character-count-reaches-zero-in-full-screen-mod.md"
+    },
+    {
+      "id": "ELITEA-0061",
+      "title": "Counter Turns Red at Zero in Collapsed (Inline) Mode",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "meta:reported-by-support",
+        "nfr:validation",
+        "nfr:usability",
+        "eng:frontend",
+        "feat:chat",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4963"
+      ],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_counter_turns_red_at_limit",
+        "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_counter_turns_red_at_limit"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-0061_counter-turns-red-at-zero-in-collapsed-inline-mode.md"
+    },
+    {
+      "id": "ELITEA-0062",
+      "title": "Pasting Over-Limit Text — Text Truncated to 768 Chars With Visible Feedback",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "meta:reported-by-support",
+        "nfr:validation",
+        "nfr:usability",
+        "eng:frontend",
+        "feat:chat",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4963"
+      ],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_text_truncated_with_warning"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-0062_pasting-over-limit-text-text-truncated-to-768-chars-with-visible-feedb.md"
+    },
+    {
+      "id": "ELITEA-0063",
+      "title": "Multiple Conversation Starters Have Independent Character Counters",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "meta:reported-by-support",
+        "nfr:validation",
+        "nfr:usability",
+        "eng:frontend",
+        "feat:chat",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4963"
+      ],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_multiple_conversation_starters_have_counters"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-0063_multiple-conversation-starters-have-independent-character-counters.md"
+    },
+    {
+      "id": "ELITEA-0064",
+      "title": "Character Counter Is Present and Updates in Real Time",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "meta:reported-by-support",
+        "nfr:validation",
+        "nfr:usability",
+        "eng:frontend",
+        "feat:chat",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4963"
+      ],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_counter_visible_and_updates_realtime",
+        "tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_fullscreen_counter_and_warning",
+        "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_counter_visible_and_updates",
+        "tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_fullscreen_counter_and_warning"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-0064_character-counter-is-present-and-updates-in-real-time.md"
+    },
+    {
+      "id": "ELITEA-0143",
+      "title": "Agent with Toolkits",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_with_github_toolkit.TestAddToolkitToAgent.test_add_toolkit_to_agent",
+        "tests.ui.agents.test_agent_with_github_toolkit.TestChatWithAgentToolkit.test_agent_chat_with_github_toolkit",
+        "tests.ui.agents.test_agent_with_github_toolkit.TestRemoveToolkitFromAgent.test_remove_toolkit_from_agent",
+        "tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-0143_agent-with-toolkits.md"
+    },
+    {
       "id": "ELITEA-1869",
       "title": "Agent listing — back navigation from agent detail returns to Agents list",
       "status": "ready",
@@ -3430,6 +3603,54 @@
       "path": "tests/automated-full-regression-ui/artifacts/image-vision-user-prompt/ELITEA-3364_read-file-user-prompt-works-for-jpeg-format.md"
     },
     {
+      "id": "ELITEA-0498",
+      "title": "Chat Participants - Add via Hash Search",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_interface.TestHashSearch.test_hash_search_participants",
+        "tests.ui.chat.test_chat_interface.TestHashSearch.test_add_participant_via_hash_search"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-0498_chat-participants-add-via-hash-search.md"
+    },
+    {
+      "id": "ELITEA-0500",
+      "title": "Chat Interface - Advanced Features",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_interface.TestContextAndSettings.test_model_settings_menu",
+        "tests.ui.chat.test_chat_interface.TestContextAndSettings.test_edit_context_settings",
+        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_sends_file_with_message",
+        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_opens_picker",
+        "tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_open_close_sidebar",
+        "tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_navigate_to_agents_from_sidebar",
+        "tests.ui.chat.test_chat_interface.TestSearchAndErrorHandling.test_search_conversations_dialog",
+        "tests.ui.chat.test_chat_interface.TestSearchAndErrorHandling.test_handle_message_send_failure"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-0500_chat-interface-advanced-features.md"
+    },
+    {
       "id": "ELITEA-0501",
       "title": "Chat UI Elements - Model, Tools, Participants",
       "status": "ready",
@@ -3451,6 +3672,49 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-0501_chat-ui-elements-model-tools-participants.md"
+    },
+    {
+      "id": "ELITEA-0502",
+      "title": "Chat Message Actions",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_interface.TestMessageActions.test_copy_message_to_clipboard",
+        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_clear_chat_history"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-0502_chat-message-actions.md"
+    },
+    {
+      "id": "ELITEA-0503",
+      "title": "Chat Message Input Methods",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_interface.TestSendingMessages.test_send_text_message",
+        "tests.ui.chat.test_chat_interface.TestSendingMessages.test_send_message_with_enter_key",
+        "tests.ui.chat.test_chat_interface.TestSendingMessages.test_cannot_send_empty_message"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-0503_chat-message-input-methods.md"
     },
     {
       "id": "ELITEA-0679",
@@ -3476,6 +3740,27 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-0679_image-creation-internal-tool-happy-path.md"
+    },
+    {
+      "id": "ELITEA-1049",
+      "title": "UI Smoke Test - Platform Loads",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "smoke-suite",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads",
+        "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-1049_ui-smoke-test-platform-loads.md"
     },
     {
       "id": "ELITEA-1051",
@@ -3524,6 +3809,145 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-1142_chat-basic-functionality.md"
     },
     {
+      "id": "ELITEA-1312",
+      "title": "Voice Settings Dialog Opens and Displays All Controls Including Voice Selector",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "voice-configuration-settings",
+      "owner": "",
+      "tags": [
+        "voice-selection",
+        "voice-settings",
+        "feat:voice",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5010"
+      ],
+      "automation_test_id": [
+        "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_selection_from_chat"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-1312_voice-settings-dialog-opens-and-displays-all-controls-including-voice.md"
+    },
+    {
+      "id": "ELITEA-1313",
+      "title": "Voice Settings Dialog — Speed and Volume Sliders Adjust Playback",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "voice-configuration-settings",
+      "owner": "",
+      "tags": [
+        "voice-settings",
+        "volume-slider",
+        "speed-slider",
+        "feat:voice",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5010"
+      ],
+      "automation_test_id": [
+        "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_speed_and_volume_controls"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-1313_voice-settings-dialog-speed-and-volume-sliders-adjust-playback.md"
+    },
+    {
+      "id": "ELITEA-1314",
+      "title": "Voice Settings Sync Between Chat Dialog and Personalization Page",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "voice-configuration-settings",
+      "owner": "",
+      "tags": [
+        "personalization",
+        "voice-settings",
+        "settings-sync",
+        "feat:voice",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5010"
+      ],
+      "automation_test_id": [
+        "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_sync"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-1314_voice-settings-sync-between-chat-dialog-and-personalization-page.md"
+    },
+    {
+      "id": "ELITEA-1315",
+      "title": "Apply Saves and Cancel Discards Voice Settings Changes",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "voice-configuration-settings",
+      "owner": "",
+      "tags": [
+        "voice-settings",
+        "feat:voice",
+        "r-2.0.4",
+        "cancel",
+        "apply"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5010"
+      ],
+      "automation_test_id": [
+        "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_selection_from_chat"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-1315_apply-saves-and-cancel-discards-voice-settings-changes.md"
+    },
+    {
+      "id": "ELITEA-1316",
+      "title": "Voice Personalization Page — All Controls Present Including Functional Preview Voice",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "voice-configuration-settings",
+      "owner": "",
+      "tags": [
+        "personalization",
+        "voice-settings",
+        "preview-voice",
+        "feat:voice",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5010"
+      ],
+      "automation_test_id": [
+        "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_preview_personalization"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-1316_voice-personalization-page-all-controls-present-including-functional-p.md"
+    },
+    {
       "id": "ELITEA-1340",
       "title": "Context Budget Panel Reflects Profile Max Context Tokens",
       "status": "ready",
@@ -3536,7 +3960,8 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens"
+        "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[10k_tokens]",
+        "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[32k_tokens]"
       ],
       "targets": [],
       "dependencies": [],
@@ -11236,6 +11661,26 @@
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0851_pipeline-detail-page-configuration-and-tabs.md"
     },
     {
+      "id": "ELITEA-0852",
+      "title": "Pipeline Execution - Edge Cases",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_execution.TestPipelineExecutionEdgeCases.test_empty_pipeline_execution"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0852_pipeline-execution-edge-cases.md"
+    },
+    {
       "id": "ELITEA-0853",
       "title": "Pipeline Node Operations - Add, Edit, Delete, Connect",
       "status": "ready",
@@ -11307,6 +11752,124 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0855_pipeline-dashboard-view-and-search.md"
+    },
+    {
+      "id": "ELITEA-0856",
+      "title": "Pipeline Execution - Message Flow and History",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_message_count_starts_at_zero_and_grows",
+        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_message_count_after_execution",
+        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_rerun_pipeline",
+        "tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_user_message_visible",
+        "tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_multiple_executions_accumulate",
+        "tests.ui.pipelines.test_pipeline_execution.TestPipelineExecutionEdgeCases.test_navigate_away_and_reexecute"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0856_pipeline-execution-message-flow-and-history.md"
+    },
+    {
+      "id": "ELITEA-0858",
+      "title": "Pipeline Advanced Node Types",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_decision_node",
+        "tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_printer_node",
+        "tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_router_node",
+        "tests.ui.pipelines.test_pipeline_advanced.TestMakeEntrypoint.test_make_node_entrypoint",
+        "tests.ui.pipelines.test_pipeline_advanced.TestMultiNodeTopology.test_save_multi_node_pipeline",
+        "tests.ui.pipelines.test_pipeline_advanced.TestMultiNodeTopology.test_three_node_chain",
+        "tests.ui.pipelines.test_pipeline_advanced.TestHistoryTab.test_history_tab_opens"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0858_pipeline-advanced-node-types.md"
+    },
+    {
+      "id": "ELITEA-0859",
+      "title": "Pipeline Three-Dot Menu and Actions",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_advanced.TestActionsMenu.test_three_dot_menu_lists_items",
+        "tests.ui.pipelines.test_pipeline_advanced.TestActionsMenu.test_export_pipeline_if_available"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0859_pipeline-three-dot-menu-and-actions.md"
+    },
+    {
+      "id": "ELITEA-0860",
+      "title": "Pipeline YAML View and Round-Trip",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_advanced.TestYamlEditor.test_yaml_view_toggle",
+        "tests.ui.pipelines.test_pipeline_advanced.TestYamlEditor.test_yaml_content_reflects_pipeline",
+        "tests.ui.pipelines.test_pipeline_advanced.TestYamlEditor.test_flow_yaml_round_trip",
+        "tests.ui.pipelines.test_pipeline_advanced.TestDiscardChanges.test_discard_reverts_name_change"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0860_pipeline-yaml-view-and-round-trip.md"
+    },
+    {
+      "id": "ELITEA-0862",
+      "title": "Pipeline Execution",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_execute_simple_pipeline",
+        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_pipeline_response_is_meaningful",
+        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_rerun_pipeline",
+        "tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_user_message_visible"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0862_pipeline-execution.md"
     },
     {
       "id": "ELITEA-0864",
@@ -20528,6 +21091,58 @@
       "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-1141_github-toolkit-and-credentials.md"
     },
     {
+      "id": "ELITEA-1180",
+      "title": "\\\"Open in new tab\\\" icon is present for all credentials regardless of status, shows a tooltip, and opens the credential in a new tab — Toolkits area",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "credential-actions-and-status-indicators",
+      "owner": "",
+      "tags": [
+        "feat:credentials",
+        "feat:toolkits",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5114"
+      ],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-1180_open-in-new-tab-icon-is-present-for-all-credentials-regardless-of-stat.md"
+    },
+    {
+      "id": "ELITEA-1181",
+      "title": "Verify Reload applies fixes of credentials Immediately",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "credential-actions-and-status-indicators",
+      "owner": "",
+      "tags": [
+        "feat:credentials",
+        "feat:toolkits",
+        "r-2.0.4"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5114"
+      ],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-1181_verify-reload-applies-fixes-of-credentials-immediately.md"
+    },
+    {
       "id": "ELITEA-1182",
       "title": "Agent and Pipeline Toolkits panel shows all three credential indicators with warning message for invalid credentials; valid credentials show only \\\"Open in new tab\\",
       "status": "ready",
@@ -20554,6 +21169,29 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-1182_agent-and-pipeline-toolkits-panel-shows-all-three-credential-indicator.md"
+    },
+    {
+      "id": "ELITEA-1183",
+      "title": "Toolkit displays authentication warning and disables Save for invalid credentials",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "credential-actions-and-status-indicators",
+      "owner": "",
+      "tags": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#4906",
+        "EliteaAI/elitea_issues#5114"
+      ],
+      "automation_test_id": [
+        "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-1183_toolkit-displays-authentication-warning-and-disables-save-for-invalid.md"
     },
     {
       "id": "ELITEA-2796",
