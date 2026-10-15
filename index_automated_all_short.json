@@ -3506,6 +3506,11 @@
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-3349_oauth-toolkit-trigger-restriction-chat-only.md"
     },
     {
+      "id": "ELITEA-3734",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-3734_fork-pipeline-blocked-when-destination-project-role-is-viewer.md"
+    },
+    {
       "id": "ELITEA-0577",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0577_support-assistant-files-can-be-attached-via-click-to-browse-drag-and-d.md"
@@ -3814,6 +3819,11 @@
       "id": "ELITEA-3351",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/agents/ELITEA-3351_agent-version-comparison-sections-display-and-save-independently.md"
+    },
+    {
+      "id": "ELITEA-3733",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-3733_fork-agent-blocked-when-destination-project-role-is-viewer.md"
     },
     {
       "id": "ELITEA-1903",

@@ -15579,6 +15579,30 @@
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-3349_oauth-toolkit-trigger-restriction-chat-only.md"
     },
     {
+      "id": "ELITEA-3734",
+      "title": "Fork pipeline is blocked when user has only Viewer role in the destination project",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:pipelines",
+        "feat:roles-permissions",
+        "issue:7013",
+        "r-2.0.7"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-3734_fork-pipeline-blocked-when-destination-project-role-is-viewer.md"
+    },
+    {
       "id": "ELITEA-0577",
       "title": "Support Assistant — Files Can Be Attached via Click-to-Browse, Drag-and-Drop, and Clipboard Paste",
       "status": "draft",
@@ -17003,6 +17027,30 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/agents/ELITEA-3351_agent-version-comparison-sections-display-and-save-independently.md"
+    },
+    {
+      "id": "ELITEA-3733",
+      "title": "Fork agent is blocked when user has only Viewer role in the destination project",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:agents",
+        "feat:roles-permissions",
+        "issue:7013",
+        "r-2.0.7"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-3733_fork-agent-blocked-when-destination-project-role-is-viewer.md"
     },
     {
       "id": "ELITEA-1903",
