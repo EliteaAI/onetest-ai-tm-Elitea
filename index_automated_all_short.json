@@ -1,254 +1,384 @@
 {
   "cases": [
     {
-      "id": "ELITEA-1921",
+      "id": "ELITEA-2350",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2350_agent-hub-page-loads-successfully-for-private-project.md"
+    },
+    {
+      "id": "ELITEA-2351",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2351_agent-hub-page-loads-successfully-for-team-project.md"
+    },
+    {
+      "id": "ELITEA-2352",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2352_agent-hub-filter-agents-by-single-category.md"
+    },
+    {
+      "id": "ELITEA-2353",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2353_agent-hub-filter-agents-by-multiple-categories-simultaneousl.md"
+    },
+    {
+      "id": "ELITEA-2354",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2354_agent-hub-like-an-agent-from-the-list-view.md"
+    },
+    {
+      "id": "ELITEA-2355",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2355_agent-hub-unlike-an-agent-from-the-list-view.md"
+    },
+    {
+      "id": "ELITEA-2356",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2356_agent-hub-open-agent-detail-modal.md"
+    },
+    {
+      "id": "ELITEA-2357",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2357_agent-hub-close-agent-detail-modal-with-x-button.md"
+    },
+    {
+      "id": "ELITEA-2358",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2358_agent-hub-like-an-agent-from-the-expanded-detail-modal.md"
+    },
+    {
+      "id": "ELITEA-2359",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2359_agent-hub-copy-link-from-agent-detail-modal-navigates-to-age.md"
+    },
+    {
+      "id": "ELITEA-2360",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2360_agent-hub-start-conversation-creates-new-chat-and-redirects.md"
+    },
+    {
+      "id": "ELITEA-2361",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2361_agent-hub-started-conversation-has-agent-added-as-participan.md"
+    },
+    {
+      "id": "ELITEA-2362",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2362_agent-hub-agent-chip-visible-in-message-input-with-version-a.md"
+    },
+    {
+      "id": "ELITEA-2363",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2363_agent-hub-search-bar-filters-agents-in-real-time.md"
+    },
+    {
+      "id": "ELITEA-2364",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2364_agent-hub-my-liked-filter-shows-only-liked-agents.md"
+    },
+    {
+      "id": "ELITEA-2365",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2365_agent-hub-my-liked-reload-button-refreshes-list-with-likes-m.md"
+    },
+    {
+      "id": "ELITEA-2366",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2366_agent-hub-trending-category-displays-agents.md"
+    },
+    {
+      "id": "ELITEA-2367",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2367_agent-hub-empty-state-when-no-agents-match-filter-or-search.md"
+    },
+    {
+      "id": "ELITEA-2368",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2368_agent-hub-e2e-start-conversation-with-agent-that-has-no-conv.md"
+    },
+    {
+      "id": "ELITEA-2369",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2369_agent-hub-e2e-start-conversation-with-agent-that-has-convers.md"
+    },
+    {
+      "id": "ELITEA-2370",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2370_catalog-default-view-opens-on-agents-tab-and-user-must-click.md"
+    },
+    {
+      "id": "ELITEA-1869",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1921_create-remote-mcp-minimal-required-fields.md"
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1869_agent-listing-back-navigation-from-agent-detail-returns-to-agents.md"
     },
     {
-      "id": "ELITEA-1922",
+      "id": "ELITEA-1870",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1922_create-remote-mcp-all-fields-populated.md"
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1870_agent-listing-create-button-navigates-to-create-agent-page.md"
     },
     {
-      "id": "ELITEA-1923",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1923_create-remote-mcp-validation-error-on-missing-url.md"
-    },
-    {
-      "id": "ELITEA-1924",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1924_create-remote-mcp-validation-error-on-missing-name.md"
-    },
-    {
-      "id": "ELITEA-1925",
+      "id": "ELITEA-1871",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1925_edit-remote-mcp-change-name.md"
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1871_create-agent-instructions-alone-does-not-enable-save.md"
     },
     {
-      "id": "ELITEA-1926",
+      "id": "ELITEA-1872",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1926_edit-remote-mcp-change-url.md"
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1872_edit-agent-instructions-and-verify-persistence.md"
     },
     {
-      "id": "ELITEA-1927",
+      "id": "ELITEA-1873",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1927_edit-remote-mcp-modify-configuration-via-raw-json.md"
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1873_discard-changes-resets-all-unsaved-edits.md"
     },
     {
-      "id": "ELITEA-1928",
+      "id": "ELITEA-1874",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1874_embedded-chat-send-message-and-verify-response-is-non-empty.md"
+    },
+    {
+      "id": "ELITEA-1875",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1875_embedded-chat-shift-enter-inserts-new-line-enter-sends-message.md"
+    },
+    {
+      "id": "ELITEA-1876",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1876_run-history-panel-shows-past-runs-with-timestamp-and-preview.md"
+    },
+    {
+      "id": "ELITEA-1877",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1877_selecting-a-past-run-from-history-loads-its-messages.md"
+    },
+    {
+      "id": "ELITEA-1878",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1878_add-and-save-multiple-tags-both-persist-after-reload.md"
+    },
+    {
+      "id": "ELITEA-1879",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1879_remove-a-tag-from-agent-removal-persists-after-reload.md"
+    },
+    {
+      "id": "ELITEA-1880",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1880_llm-selector-change-model-verify-settings-dialog-save-persist.md"
+    },
+    {
+      "id": "ELITEA-1881",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1881_llm-selector-anthropic-models-are-available-and-functional.md"
+    },
+    {
+      "id": "ELITEA-1882",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1882_llm-selector-openai-models-are-available-and-functional.md"
+    },
+    {
+      "id": "ELITEA-1883",
+      "priority": "low",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1883_add-two-variables-and-verify-they-persist-after-reload.md"
+    },
+    {
+      "id": "ELITEA-1884",
+      "priority": "low",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1884_remove-a-variable-and-verify-removal-persists.md"
+    },
+    {
+      "id": "ELITEA-1885",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1885_welcome-message-is-shown-as-agent-bubble-before-first-user-message.md"
+    },
+    {
+      "id": "ELITEA-1886",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1886_conversation-starter-chips-appear-in-chat-panel-and-are-clickable.md"
+    },
+    {
+      "id": "ELITEA-1887",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1887_agent-cannot-be-added-to-its-own-toolkit-picker.md"
+    },
+    {
+      "id": "ELITEA-1888",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1928_edit-remote-mcp-discard-changes.md"
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1888_save-as-version-creates-named-version-visible-in-dropdown.md"
     },
     {
-      "id": "ELITEA-1929",
+      "id": "ELITEA-1889",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1929_edit-remote-mcp-toggle-enable-caching.md"
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1889_agent-save-as-version-preserves-all-attached-skills.md"
     },
     {
-      "id": "ELITEA-1930",
+      "id": "ELITEA-1890",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1930_edit-remote-mcp-toggle-ssl-verify.md"
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1890_switching-between-versions-updates-form-fields-correctly.md"
     },
     {
-      "id": "ELITEA-1931",
+      "id": "ELITEA-1891",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1891_version-selector-lists-all-versions-in-correct-order.md"
+    },
+    {
+      "id": "ELITEA-1892",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1892_publish-draft-version-status-changes-unpublish-available.md"
+    },
+    {
+      "id": "ELITEA-1893",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1893_fork-agent-version-to-a-different-project.md"
+    },
+    {
+      "id": "ELITEA-1894",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1894_export-agent-no-nested-dependencies-produces-md-file.md"
+    },
+    {
+      "id": "ELITEA-1895",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1895_export-agent-with-nested-dependencies-produces-zip-archive.md"
+    },
+    {
+      "id": "ELITEA-1896",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1896_export-agent-with-attached-skills-exported-md-contains-skill.md"
+    },
+    {
+      "id": "ELITEA-1897",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1897_agent-execution-name-description-sufficient-for-execution.md"
+    },
+    {
+      "id": "ELITEA-1898",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1898_copy-version-link-produces-version-specific-url.md"
+    },
+    {
+      "id": "ELITEA-1899",
+      "priority": "low",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1899_agent-icon-can-be-changed-and-persists-on-agents-list-card.md"
+    },
+    {
+      "id": "ELITEA-1900",
+      "priority": "low",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1900_agent-name-character-limit-enforced-at-32-characters.md"
+    },
+    {
+      "id": "ELITEA-1901",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1901_import-valid-agent-md-file-appears-in-list-with-correct-config.md"
+    },
+    {
+      "id": "ELITEA-1902",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-1902_import-agent-zip-with-nested-agent-dependencies.md"
+    },
+    {
+      "id": "ELITEA-3350",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1931_edit-remote-mcp-modify-headers-json.md"
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-3350_agent-version-comparison-modal-opens-side-by-side.md"
     },
     {
-      "id": "ELITEA-1932",
+      "id": "ELITEA-3351",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1932_edit-remote-mcp-client-secret-with-secret-password-toggle.md"
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-3351_agent-version-comparison-sections-display-and-save-independently.md"
     },
     {
-      "id": "ELITEA-1933",
+      "id": "ELITEA-3733",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1933_remote-mcp-load-tools-tools-discovery.md"
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-3733_fork-agent-blocked-when-destination-project-role-is-viewer.md"
     },
     {
-      "id": "ELITEA-1934",
+      "id": "ELITEA-1903",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1934_remote-mcp-load-tools-from-invalid-url.md"
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1903_build-with-ai-button-visible-for-admin-and-editor-roles-in-new-agent.md"
     },
     {
-      "id": "ELITEA-1935",
+      "id": "ELITEA-1904",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1935_remote-mcp-deselect-select-specific-tools.md"
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1904_build-with-ai-button-not-visible-for-viewer-role-in-new-agent-flow.md"
     },
     {
-      "id": "ELITEA-1936",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1936_remote-mcp-connection-status-indicator.md"
-    },
-    {
-      "id": "ELITEA-1937",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1937_remote-mcp-test-settings-panel-select-and-run-tool.md"
-    },
-    {
-      "id": "ELITEA-1938",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1938_remote-mcp-test-settings-clear-chat.md"
-    },
-    {
-      "id": "ELITEA-1939",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1939_remote-mcp-test-settings-fullscreen-mode.md"
-    },
-    {
-      "id": "ELITEA-1940",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1940_remote-mcp-test-settings-view-run-history.md"
-    },
-    {
-      "id": "ELITEA-1941",
+      "id": "ELITEA-1905",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1941_mcp-dashboard-search-by-name.md"
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1905_build-with-ai-opens-generateagentmodal.md"
     },
     {
-      "id": "ELITEA-1942",
+      "id": "ELITEA-1906",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1942_mcp-dashboard-filter-by-type-remote-only.md"
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1906_build-with-ai-agent-draft-generated-from-natural-language-description.md"
     },
     {
-      "id": "ELITEA-1943",
+      "id": "ELITEA-1907",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1907_build-with-ai-generated-draft-includes-suggested-resources-section.md"
+    },
+    {
+      "id": "ELITEA-1908",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1908_build-with-ai-suggested-resources-require-explicit-selection.md"
+    },
+    {
+      "id": "ELITEA-1909",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1909_build-with-ai-selected-suggested-resources-attached-to-created-agent.md"
+    },
+    {
+      "id": "ELITEA-1910",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1910_build-with-ai-suggested-skills-section-shown-with-up-to-5-skills.md"
+    },
+    {
+      "id": "ELITEA-1911",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1911_build-with-ai-selected-suggested-skills-attached-to-created-agent.md"
+    },
+    {
+      "id": "ELITEA-1912",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1912_build-with-ai-all-generated-draft-fields-editable-before-approval.md"
+    },
+    {
+      "id": "ELITEA-1913",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1913_build-with-ai-agent-name-validation-enforces-32-character-maximum.md"
+    },
+    {
+      "id": "ELITEA-1914",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1943_mcp-dashboard-filter-by-type-local-only.md"
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1914_build-with-ai-approve-creates-agent-and-navigates-to-agent-menu.md"
     },
     {
-      "id": "ELITEA-1944",
+      "id": "ELITEA-1915",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1915_build-with-ai-generation-failure-shows-error-and-allows-retry.md"
+    },
+    {
+      "id": "ELITEA-1916",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1916_build-with-ai-creation-failure-stays-on-review-step-for-correction.md"
+    },
+    {
+      "id": "ELITEA-1917",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1917_build-with-ai-cancel-from-prompt-step-closes-modal.md"
+    },
+    {
+      "id": "ELITEA-1918",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1918_build-with-ai-cancel-from-review-step-closes-modal.md"
+    },
+    {
+      "id": "ELITEA-1919",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1919_build-with-ai-back-to-prompt-returns-to-input-step-preserves-text.md"
+    },
+    {
+      "id": "ELITEA-1920",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1944_mcp-dashboard-view-toggle-card-table.md"
-    },
-    {
-      "id": "ELITEA-1945",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1945_mcp-dashboard-pin-unpin-mcp.md"
-    },
-    {
-      "id": "ELITEA-1946",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1946_mcp-detail-three-dot-menu-actions.md"
-    },
-    {
-      "id": "ELITEA-1947",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1947_delete-remote-mcp.md"
-    },
-    {
-      "id": "ELITEA-1948",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1948_mcp-form-raw-json-view-toggle-data-consistency.md"
-    },
-    {
-      "id": "ELITEA-1949",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1949_mcp-type-selection-local-vs-remote-display.md"
-    },
-    {
-      "id": "ELITEA-1950",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1950_mcp-integration-in-agent-attach-mcp-via-tools-section.md"
-    },
-    {
-      "id": "ELITEA-1951",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1951_mcp-integration-in-agent-nested-agent-with-mcp.md"
-    },
-    {
-      "id": "ELITEA-1952",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1952_mcp-integration-in-pipeline-add-mcp-and-configure-node.md"
-    },
-    {
-      "id": "ELITEA-1953",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1953_mcp-integration-in-pipeline-mcp-node-input-mapping-config.md"
-    },
-    {
-      "id": "ELITEA-1954",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1954_mcp-integration-in-pipeline-change-toolkit-and-tool.md"
-    },
-    {
-      "id": "ELITEA-1955",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1955_mcp-integration-in-pipeline-mcp-node-without-tool-first.md"
-    },
-    {
-      "id": "ELITEA-1956",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1956_remote-mcp-timeout-configuration.md"
-    },
-    {
-      "id": "ELITEA-1957",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1957_remote-mcp-cache-ttl-configuration.md"
-    },
-    {
-      "id": "ELITEA-1958",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1958_mcp-dashboard-multiple-mcps-with-mixed-types.md"
-    },
-    {
-      "id": "ELITEA-1959",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1959_remote-mcp-copy-link-from-three-dot-menu.md"
-    },
-    {
-      "id": "ELITEA-1960",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1960_remote-mcp-cancel-during-creation.md"
-    },
-    {
-      "id": "ELITEA-1961",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1961_mcp-back-navigation-from-detail-to-list.md"
-    },
-    {
-      "id": "ELITEA-2744",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2744_verify-agent-message-displays-toolkit-name-when-authorization-needed.md"
-    },
-    {
-      "id": "ELITEA-2745",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2745_verify-multiple-mcps-each-display-correct-toolkit-name-in-agent-message.md"
-    },
-    {
-      "id": "ELITEA-2746",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2746_verify-toolkit-name-in-agent-message-from-chat-page.md"
-    },
-    {
-      "id": "ELITEA-2747",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2747_verify-nested-agent-displays-toolkit-name-when-authorization-needed.md"
-    },
-    {
-      "id": "ELITEA-2748",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2748_verify-nested-agent-with-mcp-from-chat-page.md"
-    },
-    {
-      "id": "ELITEA-2749",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2749_verify-pipeline-with-mcp-displays-toolkit-name-in-pipeline-chat.md"
-    },
-    {
-      "id": "ELITEA-2741",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2750_verify-pipeline-with-mcp-called-from-chat-page.md"
-    },
-    {
-      "id": "ELITEA-2742",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2751_verify-pipeline-with-nested-pipeline-displays-mcp-name-in-pipeline-chat.md"
-    },
-    {
-      "id": "ELITEA-2743",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2752_verify-pipeline-with-nested-pipeline-called-from-chat-page.md"
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1920_build-with-ai-in-chat-agenteditor-works-end-to-end.md"
     },
     {
       "id": "ELITEA-1803",
@@ -591,21 +721,6 @@
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-3466_artifact-file-rename-full-api-regression-flow.md"
     },
     {
-      "id": "ELITEA-3362",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/artifacts/image-vision-user-prompt/ELITEA-3362_read-file-with-user-prompt-returns-specific-answer.md"
-    },
-    {
-      "id": "ELITEA-3363",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/artifacts/image-vision-user-prompt/ELITEA-3363_read-file-without-user-prompt-returns-generic-caption.md"
-    },
-    {
-      "id": "ELITEA-3364",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/artifacts/image-vision-user-prompt/ELITEA-3364_read-file-user-prompt-works-for-jpeg-format.md"
-    },
-    {
       "id": "ELITEA-2488",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2488_manage-permissions-modal-ui-and-add-no-access-exception.md"
@@ -646,1294 +761,19 @@
       "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-3467_artifact-file-rename-full-permissions-regression-flow.md"
     },
     {
-      "id": "ELITEA-2698",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2698_tool-groups-ui-structure.md"
-    },
-    {
-      "id": "ELITEA-2699",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2699_group-header-toggle.md"
-    },
-    {
-      "id": "ELITEA-2700",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2700_tool-search-functionality.md"
-    },
-    {
-      "id": "ELITEA-2701",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2701_mcp-toggle-ui.md"
-    },
-    {
-      "id": "ELITEA-2702",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2702_tool-selection-persistence.md"
-    },
-    {
-      "id": "ELITEA-2703",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2703_mcp-toolkit-flat-list.md"
-    },
-    {
-      "id": "ELITEA-2855",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/toolkit/sharepoint-read-file-from-sharing-link/ELITEA-2855_read-file-from-sharing-link-oversized-cap-bounded-read-per-type-validation-and-excel-guidance.md"
-    },
-    {
-      "id": "ELITEA-3663",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3663_evaluation-analytics-navigation-and-page-structure.md"
-    },
-    {
-      "id": "ELITEA-3664",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3664_evaluation-analytics-all-tabs-content.md"
-    },
-    {
-      "id": "ELITEA-3665",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3665_evaluation-analytics-data-scoping-and-judge-costs.md"
-    },
-    {
-      "id": "ELITEA-3666",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3666_evaluation-analytics-project-access-control.md"
-    },
-    {
-      "id": "ELITEA-3667",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3667_evaluation-analytics-export-and-ux.md"
-    },
-    {
-      "id": "ELITEA-1050",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/smoke-suite/ELITEA-1050_api-health-and-connectivity.md"
-    },
-    {
-      "id": "ELITEA-1052",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/smoke-suite/ELITEA-1052_platform-availability-basic-navigation.md"
-    },
-    {
-      "id": "ELITEA-2350",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2350_agent-hub-page-loads-successfully-for-private-project.md"
-    },
-    {
-      "id": "ELITEA-2351",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2351_agent-hub-page-loads-successfully-for-team-project.md"
-    },
-    {
-      "id": "ELITEA-2352",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2352_agent-hub-filter-agents-by-single-category.md"
-    },
-    {
-      "id": "ELITEA-2353",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2353_agent-hub-filter-agents-by-multiple-categories-simultaneousl.md"
-    },
-    {
-      "id": "ELITEA-2354",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2354_agent-hub-like-an-agent-from-the-list-view.md"
-    },
-    {
-      "id": "ELITEA-2355",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2355_agent-hub-unlike-an-agent-from-the-list-view.md"
-    },
-    {
-      "id": "ELITEA-2356",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2356_agent-hub-open-agent-detail-modal.md"
-    },
-    {
-      "id": "ELITEA-2357",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2357_agent-hub-close-agent-detail-modal-with-x-button.md"
-    },
-    {
-      "id": "ELITEA-2358",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2358_agent-hub-like-an-agent-from-the-expanded-detail-modal.md"
-    },
-    {
-      "id": "ELITEA-2359",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2359_agent-hub-copy-link-from-agent-detail-modal-navigates-to-age.md"
-    },
-    {
-      "id": "ELITEA-2360",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2360_agent-hub-start-conversation-creates-new-chat-and-redirects.md"
-    },
-    {
-      "id": "ELITEA-2361",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2361_agent-hub-started-conversation-has-agent-added-as-participan.md"
-    },
-    {
-      "id": "ELITEA-2362",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2362_agent-hub-agent-chip-visible-in-message-input-with-version-a.md"
-    },
-    {
-      "id": "ELITEA-2363",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2363_agent-hub-search-bar-filters-agents-in-real-time.md"
-    },
-    {
-      "id": "ELITEA-2364",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2364_agent-hub-my-liked-filter-shows-only-liked-agents.md"
-    },
-    {
-      "id": "ELITEA-2365",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2365_agent-hub-my-liked-reload-button-refreshes-list-with-likes-m.md"
-    },
-    {
-      "id": "ELITEA-2366",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2366_agent-hub-trending-category-displays-agents.md"
-    },
-    {
-      "id": "ELITEA-2367",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2367_agent-hub-empty-state-when-no-agents-match-filter-or-search.md"
-    },
-    {
-      "id": "ELITEA-2368",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2368_agent-hub-e2e-start-conversation-with-agent-that-has-no-conv.md"
-    },
-    {
-      "id": "ELITEA-2369",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2369_agent-hub-e2e-start-conversation-with-agent-that-has-convers.md"
-    },
-    {
-      "id": "ELITEA-2370",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2370_catalog-default-view-opens-on-agents-tab-and-user-must-click.md"
-    },
-    {
-      "id": "ELITEA-2242",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-2242_settings-page-loads-and-displays-correct-project-and-persona.md"
-    },
-    {
-      "id": "ELITEA-2243",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-2243_clicking-each-settings-sidebar-item-navigates-to-its-dedicat.md"
-    },
-    {
-      "id": "ELITEA-2244",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-2244_navigating-away-from-settings-and-back-restores-the-default.md"
-    },
-    {
-      "id": "ELITEA-2245",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-2245_admin-role-has-access-to-all-project-settings-sections.md"
-    },
-    {
-      "id": "ELITEA-2246",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-2246_viewer-and-monitor-roles-cannot-access-secrets-section.md"
-    },
-    {
-      "id": "ELITEA-2247",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-2247_all-authenticated-roles-can-access-personal-settings-section.md"
-    },
-    {
-      "id": "ELITEA-2248",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-2248_unauthenticated-user-is-redirected-to-login-when-accessing-s.md"
-    },
-    {
-      "id": "ELITEA-2249",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-2249_settings-secrets-page-shows-empty-state-when-no-secrets-exis.md"
-    },
-    {
-      "id": "ELITEA-2250",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-2250_settings-personal-tokens-page-shows-empty-state-when-no-toke.md"
-    },
-    {
-      "id": "ELITEA-2251",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-2251_settings-sections-show-loading-state-while-data-is-being-fet.md"
-    },
-    {
-      "id": "ELITEA-2252",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-2252_log-out-button-is-visible-in-the-personal-section-of-the-set.md"
-    },
-    {
-      "id": "ELITEA-2253",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-2253_log-out-button-successfully-logs-the-user-out.md"
-    },
-    {
-      "id": "ELITEA-2254",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-2254_log-out-is-accessible-from-any-settings-sub-page-without-ext.md"
-    },
-    {
-      "id": "ELITEA-3444",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-3444_chat-templates-basic-crud-and-default-selection.md"
-    },
-    {
-      "id": "ELITEA-3445",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-3445_chat-templates-save-cancel-unsaved-changes.md"
-    },
-    {
-      "id": "ELITEA-3446",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-3446_chat-templates-participants-and-new-chat-behavior.md"
-    },
-    {
-      "id": "ELITEA-3447",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ELITEA-3447_chat-templates-5-template-limit-and-mid-turn-input.md"
-    },
-    {
-      "id": "ELITEA-2310",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2310_analytics-page-loads-with-default-date-range-and-all-six-tab.md"
-    },
-    {
-      "id": "ELITEA-2311",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2311_overview-tab-displays-all-six-kpi-cards-with-correct-labels.md"
-    },
-    {
-      "id": "ELITEA-2312",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2312_users-tab-loads-user-activity-table-with-correct-columns-and.md"
-    },
-    {
-      "id": "ELITEA-2313",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2313_clicking-a-user-row-in-users-tab-opens-the-user-detail-view.md"
-    },
-    {
-      "id": "ELITEA-2314",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2314_predefined-date-presets-update-the-fromto-pickers-and-refres.md"
-    },
-    {
-      "id": "ELITEA-2315",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2315_custom-fromto-date-range-filters-data.md"
-    },
-    {
-      "id": "ELITEA-2316",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2316_from-date-cannot-be-set-later-than-to-date.md"
-    },
-    {
-      "id": "ELITEA-2317",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2317_switching-preset-filters-updates-kpi-cards-charts-and-tables.md"
-    },
-    {
-      "id": "ELITEA-2318",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2318_switching-preset-filters-updates-content-on-agents-tools-and.md"
-    },
-    {
-      "id": "ELITEA-2319",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2319_date-filter-is-retained-when-switching-between-tabs.md"
-    },
-    {
-      "id": "ELITEA-2320",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2320_agents-tab-displays-chat-messages-chart-most-active-agents-b.md"
-    },
-    {
-      "id": "ELITEA-2321",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2321_clicking-an-agent-row-in-agents-tab-opens-the-agent-detail-v.md"
-    },
-    {
-      "id": "ELITEA-2322",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2322_tools-tab-displays-most-popular-tools-bar-chart-and-tool-det.md"
-    },
-    {
-      "id": "ELITEA-2323",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2323_users-tab-search-by-email-filters-the-user-activity-table.md"
-    },
-    {
-      "id": "ELITEA-2324",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2324_health-tab-displays-requests-vs-errors-chart-and-health-by-e.md"
-    },
-    {
-      "id": "ELITEA-2325",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2325_guide-tab-displays-explanatory-documentation-for-each-metric.md"
-    },
-    {
-      "id": "ELITEA-2326",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2326_hovering-over-daily-activity-chart-on-overview-tab-shows-too.md"
-    },
-    {
-      "id": "ELITEA-2327",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2327_hovering-over-a-bar-in-most-active-agents-chart-shows-agent.md"
-    },
-    {
-      "id": "ELITEA-2328",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2328_hovering-over-most-popular-tools-bar-chart-shows-tool-name-a.md"
-    },
-    {
-      "id": "ELITEA-2329",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2329_hovering-over-user-detail-daily-activity-chart-shows-per-ser.md"
-    },
-    {
-      "id": "ELITEA-3440",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3440_activity-tab-role-filter-excludes-super-admin-and-system-roles.md"
-    },
-    {
-      "id": "ELITEA-3441",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3441_removed-user-historical-activity-persists-in-team-analytics.md"
-    },
-    {
-      "id": "ELITEA-3442",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3442_month-granularity-selectable-and-consistent-with-api-in-activity-tab.md"
-    },
-    {
-      "id": "ELITEA-3443",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3443_automated-pipeline-webhook-index-triggers-excluded-from-user-activity.md"
-    },
-    {
-      "id": "ELITEA-3472",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3472_overview-tab-kpi-cards-display.md"
-    },
-    {
-      "id": "ELITEA-3474",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3474_overview-top-ai-adopters-leaderboard.md"
-    },
-    {
-      "id": "ELITEA-3476",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3476_costs-tab-summary-cards.md"
-    },
-    {
-      "id": "ELITEA-3480",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3480_tokens-tab-summary-cards.md"
-    },
-    {
-      "id": "ELITEA-3488",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3488_users-tab-activity-table.md"
-    },
-    {
-      "id": "ELITEA-3492",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3492_health-tab-event-type-table.md"
-    },
-    {
-      "id": "ELITEA-3494",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3494_date-range-presets.md"
-    },
-    {
-      "id": "ELITEA-3497",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3497_cross-page-consistency-usage-vs-analytics.md"
-    },
-    {
-      "id": "ELITEA-3498",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3498_display-name-consistency.md"
-    },
-    {
-      "id": "ELITEA-3499",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3499_cost-rounding-precision.md"
-    },
-    {
-      "id": "ELITEA-2392",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2392_ai-configuration-page-loads-all-integration-sections-without.md"
-    },
-    {
-      "id": "ELITEA-2393",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2393_openai-template-tab-loads-code-template-content.md"
-    },
-    {
-      "id": "ELITEA-2394",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2394_settings-landing-ai-configuration-page-shows-correct-environ.md"
-    },
-    {
-      "id": "ELITEA-2395",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2395_create-a-new-llm-model-configuration.md"
-    },
-    {
-      "id": "ELITEA-2396",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2396_edit-an-existing-llm-model-configuration.md"
-    },
-    {
-      "id": "ELITEA-2397",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2397_set-a-llm-model-as-default-high-tier-low-tier.md"
-    },
-    {
-      "id": "ELITEA-2398",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2398_create-a-new-embedding-model-configuration.md"
-    },
-    {
-      "id": "ELITEA-2399",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2399_create-a-new-vector-storage-pgvector-configuration.md"
-    },
-    {
-      "id": "ELITEA-2400",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2400_edit-an-existing-vector-storage-configuration.md"
-    },
-    {
-      "id": "ELITEA-2401",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2401_set-a-vector-storage-as-default.md"
-    },
-    {
-      "id": "ELITEA-2402",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2402_image-generation-section-displays-model-cards-and-default-se.md"
-    },
-    {
-      "id": "ELITEA-2403",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2403_change-the-default-image-generation-model.md"
-    },
-    {
-      "id": "ELITEA-2404",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2404_asr-section-displays-model-cards-and-default-selector.md"
-    },
-    {
-      "id": "ELITEA-2405",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2405_change-the-default-asr-model.md"
-    },
-    {
-      "id": "ELITEA-2406",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2406_tts-section-displays-model-cards-and-default-selector.md"
-    },
-    {
-      "id": "ELITEA-2407",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2407_change-the-default-tts-model.md"
-    },
-    {
-      "id": "ELITEA-2408",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2408_create-llm-model-display-name-is-required.md"
-    },
-    {
-      "id": "ELITEA-2409",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2409_create-llm-model-id-is-auto-populated-from-display-name.md"
-    },
-    {
-      "id": "ELITEA-2410",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2410_create-embedding-model-display-name-and-name-are-required.md"
-    },
-    {
-      "id": "ELITEA-2411",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2411_create-vector-storage-connection-string-is-required.md"
-    },
-    {
-      "id": "ELITEA-2412",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2412_saving-a-new-llm-model-configuration-persists-after-page-rel.md"
-    },
-    {
-      "id": "ELITEA-2413",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2413_editing-an-existing-configuration-persists-after-page-reload.md"
-    },
-    {
-      "id": "ELITEA-2414",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2414_default-tier-selection-persists-after-page-reload.md"
-    },
-    {
-      "id": "ELITEA-2415",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2415_test-connection-button-shows-error-for-invalid-or-expired-cr.md"
-    },
-    {
-      "id": "ELITEA-2416",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2416_chat-throws-a-meaningful-error-when-the-assigned-llm-model-u.md"
-    },
-    {
-      "id": "ELITEA-2417",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2417_ai-credentials-section-is-hidden-when-no-credentials-are-con.md"
-    },
-    {
-      "id": "ELITEA-2671",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/settings/mid-turn-input/ELITEA-2671_mid-turn-input-happy-path-end-to-end.md"
-    },
-    {
-      "id": "ELITEA-2672",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/settings/mid-turn-input/ELITEA-2672_mid-turn-input-disabled-legacy-behavior.md"
-    },
-    {
-      "id": "ELITEA-2266",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2266_project-context-page-loads-with-correct-layout-and-component.md"
-    },
-    {
-      "id": "ELITEA-2267",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2267_project-context-toggle-enables-and-disables-context-injectio.md"
-    },
-    {
-      "id": "ELITEA-2268",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2268_project-background-editor-accepts-and-displays-markdown-cont.md"
-    },
-    {
-      "id": "ELITEA-2269",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2269_build-with-ai-button-generates-project-context-content.md"
-    },
-    {
-      "id": "ELITEA-2270",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2270_build-with-ai-can-be-cancelled-without-modifying-the-editor.md"
-    },
-    {
-      "id": "ELITEA-2271",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2271_upload-file-icon-allows-importing-content-into-the-project-b.md"
-    },
-    {
-      "id": "ELITEA-2272",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2272_project-context-character-limit-is-enforced-at-2500-characte.md"
-    },
-    {
-      "id": "ELITEA-2273",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2273_save-button-persists-project-background-content-after-page-r.md"
-    },
-    {
-      "id": "ELITEA-2274",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2274_discard-button-reverts-unsaved-changes.md"
-    },
-    {
-      "id": "ELITEA-2275",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2275_save-and-discard-buttons-are-only-active-when-there-are-unsa.md"
-    },
-    {
-      "id": "ELITEA-2276",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2276_empty-project-background-can-be-saved-whith-toggle-off-and-o.md"
-    },
-    {
-      "id": "ELITEA-2330",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2330_secrets-page-loads-with-correct-layout-and-components.md"
-    },
-    {
-      "id": "ELITEA-2331",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2331_secrets-listing-name-column-is-sortable.md"
-    },
-    {
-      "id": "ELITEA-2332",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2332_secrets-listing-pagination-navigates-between-pages-correctly.md"
-    },
-    {
-      "id": "ELITEA-2333",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2333_secrets-page-shows-empty-state-when-no-secrets-exist.md"
-    },
-    {
-      "id": "ELITEA-2334",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2334_search-field-filters-secrets-by-name.md"
-    },
-    {
-      "id": "ELITEA-2335",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2335_clicking-the-masked-secret-value-copies-it-to-clipboard.md"
-    },
-    {
-      "id": "ELITEA-2336",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2336_create-secret-inline-adds-editable-row-checkmark-saves-x-can.md"
-    },
-    {
-      "id": "ELITEA-2337",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2337_secret-name-only-allows-letters-numbers-and-underscores-hyph.md"
-    },
-    {
-      "id": "ELITEA-2338",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2338_delete-a-secret-via-three-dot-menu-and-verify-removal.md"
-    },
-    {
-      "id": "ELITEA-2339",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2339_cancel-deletion-keeps-the-secret-intact.md"
-    },
-    {
-      "id": "ELITEA-2340",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2340_secret-name-is-required-save-disabled-when-name-is-empty.md"
-    },
-    {
-      "id": "ELITEA-2341",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2341_secret-name-must-be-unique-within-the-project.md"
-    },
-    {
-      "id": "ELITEA-2342",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2342_value-column-shows-secretname-reference-format-when-secret-i.md"
-    },
-    {
-      "id": "ELITEA-2343",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2343_eye-icon-reveals-the-actual-secret-value-and-changes-to-cros.md"
-    },
-    {
-      "id": "ELITEA-2344",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2344_hide-option-permanently-removes-the-secret-from-the-secrets.md"
-    },
-    {
-      "id": "ELITEA-2345",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2345_hiding-a-secret-used-by-existing-credentials-does-not-break.md"
-    },
-    {
-      "id": "ELITEA-2346",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2346_hidden-secret-does-not-appear-in-secret-selection-dropdown-f.md"
-    },
-    {
-      "id": "ELITEA-2347",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2347_edit-secret-value-inline-name-field-is-read-only-after-creat.md"
-    },
-    {
-      "id": "ELITEA-2348",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2348_viewer-and-monitor-roles-cannot-access-secrets-section.md"
-    },
-    {
-      "id": "ELITEA-2349",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2349_secrets-page-shows-error-state-on-network-failure.md"
-    },
-    {
-      "id": "TMS-3543",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3543_project-theme-applies-admin-custom-colors-without-reload.md"
-    },
-    {
-      "id": "TMS-3544",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3544_admin-configure-primary-colors-via-color-picker-and-hex.md"
-    },
-    {
-      "id": "TMS-3545",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3545_custom-logo-upload-replaces-default-in-sidebar.md"
-    },
-    {
-      "id": "TMS-3546",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3546_export-json-downloads-custom-theme-configuration.md"
-    },
-    {
-      "id": "TMS-3547",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3547_import-json-applies-theme-settings-correctly.md"
-    },
-    {
-      "id": "TMS-3548",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3548_admin-theme-changes-reflect-for-all-project-theme-users.md"
-    },
-    {
-      "id": "TMS-3549",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3549_user-sees-all-four-theme-options-in-preferences.md"
-    },
-    {
-      "id": "TMS-3550",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3550_dark-mode-applies-standard-dark-theme-correctly.md"
-    },
-    {
-      "id": "TMS-3551",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3551_light-mode-applies-standard-light-theme-correctly.md"
-    },
-    {
-      "id": "TMS-3552",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3552_system-theme-follows-os-preference.md"
-    },
-    {
-      "id": "TMS-3553",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3553_theme-selection-persists-after-page-refresh.md"
-    },
-    {
-      "id": "TMS-3554",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3554_admin-can-access-custom-theme-page-in-admin-portal.md"
-    },
-    {
-      "id": "TMS-3555",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3555_base-mode-dropdown-allows-dark-light-selection.md"
-    },
-    {
-      "id": "TMS-3556",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3556_background-colors-section-allows-editing-all-values.md"
-    },
-    {
-      "id": "TMS-3557",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3557_border-colors-section-allows-editing-all-values.md"
-    },
-    {
-      "id": "TMS-3558",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3558_delete-theme-resets-to-default-values.md"
-    },
-    {
-      "id": "TMS-3559",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3559_save-changes-persists-all-custom-theme-modifications.md"
-    },
-    {
-      "id": "TMS-3579",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3579_project-theme-applies-admin-custom-colors-without-reload.md"
-    },
-    {
-      "id": "TMS-3580",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3580_admin-configure-primary-colors-via-color-picker-and-hex.md"
-    },
-    {
-      "id": "TMS-3581",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3581_custom-logo-upload-replaces-default-in-sidebar.md"
-    },
-    {
-      "id": "TMS-3582",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3582_export-json-downloads-custom-theme-configuration.md"
-    },
-    {
-      "id": "TMS-3583",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3583_import-json-applies-theme-settings-correctly.md"
-    },
-    {
-      "id": "TMS-3584",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3584_admin-theme-changes-reflect-for-all-project-theme-users.md"
-    },
-    {
-      "id": "TMS-3585",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3585_user-sees-all-four-theme-options-in-preferences.md"
-    },
-    {
-      "id": "TMS-3586",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3586_dark-mode-applies-standard-dark-theme-correctly.md"
-    },
-    {
-      "id": "TMS-3587",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3587_light-mode-applies-standard-light-theme-correctly.md"
-    },
-    {
-      "id": "TMS-3588",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3588_system-theme-follows-os-preference.md"
-    },
-    {
-      "id": "TMS-3589",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3589_theme-selection-persists-after-page-refresh.md"
-    },
-    {
-      "id": "TMS-3590",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3590_admin-can-access-custom-theme-page-in-admin-portal.md"
-    },
-    {
-      "id": "TMS-3591",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3591_base-mode-dropdown-allows-dark-light-selection.md"
-    },
-    {
-      "id": "TMS-3592",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3592_background-colors-section-allows-editing-all-values.md"
-    },
-    {
-      "id": "TMS-3593",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3593_border-colors-section-allows-editing-all-values.md"
-    },
-    {
-      "id": "TMS-3594",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3594_delete-theme-resets-to-default-values.md"
-    },
-    {
-      "id": "TMS-3595",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3595_save-changes-persists-all-custom-theme-modifications.md"
-    },
-    {
-      "id": "ELITEA-2371",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2371_personalization-page-loads-with-all-sections-visible-and-cor.md"
-    },
-    {
-      "id": "ELITEA-2372",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2372_all-collapsible-sections-can-be-collapsed-and-expanded.md"
-    },
-    {
-      "id": "ELITEA-2373",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2373_profile-section-shows-correct-user-avatar-display-name-and-e.md"
-    },
-    {
-      "id": "ELITEA-2374",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2374_context-management-toggle-enables-and-disables-token-fields.md"
-    },
-    {
-      "id": "ELITEA-2375",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2375_disabling-context-management-also-deactivates-summarization.md"
-    },
-    {
-      "id": "ELITEA-2376",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2376_max-context-tokens-and-preserve-recent-messages-values-persi.md"
-    },
-    {
-      "id": "ELITEA-2377",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2377_summarization-toggle-enables-and-disables-summarization-fiel.md"
-    },
-    {
-      "id": "ELITEA-2378",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2378_target-summary-tokens-range-is-1004096.md"
-    },
-    {
-      "id": "ELITEA-2379",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2379_summarization-instructions-and-target-tokens-persist-after-s.md"
-    },
-    {
-      "id": "ELITEA-2380",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2380_long-term-memory-section-shows-coming-soon-placeholder.md"
-    },
-    {
-      "id": "ELITEA-2381",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2381_default-personality-dropdown-shows-all-six-documented-option.md"
-    },
-    {
-      "id": "ELITEA-2382",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2382_default-user-instructions-text-persists-after-save-and-reloa.md"
-    },
-    {
-      "id": "ELITEA-2383",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2383_general-settings-personality-and-instructions-are-independen.md"
-    },
-    {
-      "id": "ELITEA-2384",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2384_personalization-settings-only-apply-to-new-conversations-exi.md"
-    },
-    {
-      "id": "ELITEA-2385",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2385_voice-personalization-voice-dropdown-speed-and-volume-slider.md"
-    },
-    {
-      "id": "ELITEA-2386",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2386_sound-notifications-toggle-and-volume-slider-are-interactive.md"
-    },
-    {
-      "id": "ELITEA-2387",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2387_personalization-settings-save-automatically-without-a-save-b.md"
-    },
-    {
-      "id": "ELITEA-2388",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2388_default-personality-change-applies-to-new-conversations.md"
-    },
-    {
-      "id": "ELITEA-2389",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2389_default-user-instructions-apply-to-new-conversations.md"
-    },
-    {
-      "id": "ELITEA-2390",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2390_context-management-settings-apply-to-new-conversations-only.md"
-    },
-    {
-      "id": "ELITEA-2391",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2391_max-context-tokens-does-not-accept-non-numeric-or-negative-v.md"
-    },
-    {
-      "id": "ELITEA-2277",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2277_personal-tokens-page-loads-with-correct-layout-and-component.md"
-    },
-    {
-      "id": "ELITEA-2278",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2278_personal-tokens-page-shows-empty-state-when-no-tokens-exist.md"
-    },
-    {
-      "id": "ELITEA-2279",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2279_token-name-and-expiration-columns-are-sortable.md"
-    },
-    {
-      "id": "ELITEA-2280",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2280_create-a-new-personal-token-and-verify-it-appears-in-the-tab.md"
-    },
-    {
-      "id": "ELITEA-2281",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2281_delete-a-personal-token-and-verify-it-is-removed-from-the-ta.md"
-    },
-    {
-      "id": "ELITEA-2282",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2282_token-expiration-period-unit-and-value-can-be-configured.md"
-    },
-    {
-      "id": "ELITEA-2283",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2283_token-can-be-created-without-an-expiration-date.md"
-    },
-    {
-      "id": "ELITEA-2284",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2284_expired-tokens-show-icon-and-active-tokens-show-icon-with-re.md"
-    },
-    {
-      "id": "ELITEA-2285",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2285_token-value-is-shown-only-once-in-the-generation-dialog.md"
-    },
-    {
-      "id": "ELITEA-2286",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2286_token-name-validation-only-alphanumeric-characters-underscor.md"
-    },
-    {
-      "id": "ELITEA-2287",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2287_search-field-filters-tokens-by-name-in-real-time.md"
-    },
-    {
-      "id": "ELITEA-2288",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2288_duplicate-token-names-are-allowed.md"
-    },
-    {
-      "id": "ELITEA-2289",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2289_vscode-download-icon-generates-a-downloadable-configuration.md"
-    },
-    {
-      "id": "ELITEA-2290",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2290_jetbrains-download-icon-generates-a-downloadable-configurati.md"
-    },
-    {
-      "id": "ELITEA-2291",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2291_eye-icon-opens-ide-configuration-preview-panel-with-correct.md"
-    },
-    {
-      "id": "ELITEA-2292",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2292_users-page-loads-with-correct-layout-and-components.md"
-    },
-    {
-      "id": "ELITEA-2293",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2293_users-table-columns-are-sortable.md"
-    },
-    {
-      "id": "ELITEA-2294",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2294_users-page-search-filters-the-table-in-real-time.md"
-    },
-    {
-      "id": "ELITEA-2295",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2295_invite-users-dialog-opens-with-correct-layout.md"
-    },
-    {
-      "id": "ELITEA-2296",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2296_invite-a-single-user-with-a-role.md"
-    },
-    {
-      "id": "ELITEA-2297",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2297_invite-multiple-users-simultaneously-using-comma-separated-e.md"
-    },
-    {
-      "id": "ELITEA-2298",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2298_delete-a-user-via-per-row-delete-icon.md"
-    },
-    {
-      "id": "ELITEA-2299",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2299_batch-delete-multiple-users-using-checkboxes.md"
-    },
-    {
-      "id": "ELITEA-2300",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2300_cancel-deletion-keeps-the-user-intact.md"
-    },
-    {
-      "id": "ELITEA-2301",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2301_edit-roles-dialog-opens-with-correct-layout-and-current-role.md"
-    },
-    {
-      "id": "ELITEA-2302",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2302_change-a-users-role-via-edit-roles-dialog.md"
-    },
-    {
-      "id": "ELITEA-2303",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2303_assign-multiple-roles-to-a-user-via-edit-roles-dialog.md"
-    },
-    {
-      "id": "ELITEA-2304",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2304_batch-edit-roles-for-multiple-selected-users.md"
-    },
-    {
-      "id": "ELITEA-2305",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2305_available-roles-in-invite-and-edit-dialogs-are-admin-editor.md"
-    },
-    {
-      "id": "ELITEA-2306",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2306_admin-cannot-delete-themselves-from-the-project.md"
-    },
-    {
-      "id": "ELITEA-2307",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2307_user-with-invalid-email-format-shows-validation-error.md"
-    },
-    {
-      "id": "ELITEA-2308",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2308_invite-user-without-selecting-a-role.md"
-    },
-    {
-      "id": "ELITEA-2309",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2309_invite-user-who-is-already-a-project-member-shows-appropriat.md"
-    },
-    {
-      "id": "ELITEA-2255",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2255_notifications-center-page-loads-with-correct-layout-and-head.md"
-    },
-    {
-      "id": "ELITEA-2256",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2256_notifications-center-pagination-controls-are-present-and-fun.md"
-    },
-    {
-      "id": "ELITEA-2257",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2257_notification-text-content-renders-correctly-for-known-notifi.md"
-    },
-    {
-      "id": "ELITEA-2258",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2258_unread-notifications-are-visually-distinct-from-read-notific.md"
-    },
-    {
-      "id": "ELITEA-2259",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2259_mark-selected-notifications-as-read-and-unread-using-checkbo.md"
-    },
-    {
-      "id": "ELITEA-2260",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2260_notification-entry-in-sidebar-is-always-visible-without-scro.md"
-    },
-    {
-      "id": "ELITEA-2261",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2261_clicking-a-chat-mention-notification-link-navigates-to-the-c.md"
-    },
-    {
-      "id": "ELITEA-2262",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2262_clicking-an-index-notification-link-navigates-to-the-correct.md"
-    },
-    {
-      "id": "ELITEA-2263",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2263_clicking-a-bucket-retention-warning-link-navigates-to-the-co.md"
-    },
-    {
-      "id": "ELITEA-2264",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2264_search-field-filters-notifications-by-text-content.md"
-    },
-    {
-      "id": "ELITEA-2265",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2265_new-notification-appears-in-the-list.md"
-    },
-    {
-      "id": "ELITEA-2651",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/settings/default-modules/ELITEA-2651_default-modules-ui-and-persistence.md"
-    },
-    {
-      "id": "ELITEA-2652",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/settings/default-modules/ELITEA-2652_default-modules-applied-to-new-entities.md"
-    },
-    {
-      "id": "ELITEA-2653",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/settings/default-modules/ELITEA-2653_entity-overrides-do-not-affect-project-defaults.md"
-    },
-    {
-      "id": "ELITEA-2231",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2231_onboarding-welcome-to-elitea-page-is-displayed-on-first-logi.md"
-    },
-    {
-      "id": "ELITEA-2232",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2232_onboarding-clicking-sure-lets-go-triggers-project-provisioni.md"
-    },
-    {
-      "id": "ELITEA-2233",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2233_onboarding-elitea-logo-displays-green-dot-indicating-active.md"
-    },
-    {
-      "id": "ELITEA-2234",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2234_onboarding-bell-notification-icon-shows-red-badgedot-on-firs.md"
-    },
-    {
-      "id": "ELITEA-2235",
+      "id": "ELITEA-3362",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2235_onboarding-onboarding-tips-card-is-displayed-on-first-login.md"
+      "path": "tests/automated-full-regression-ui/artifacts/image-vision-user-prompt/ELITEA-3362_read-file-with-user-prompt-returns-specific-answer.md"
     },
     {
-      "id": "ELITEA-2236",
+      "id": "ELITEA-3363",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2236_onboarding-card-can-be-expanded-to-fullscreen-and-collapsed.md"
-    },
-    {
-      "id": "ELITEA-2237",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2237_onboarding-slides-can-be-navigated-forward-using-the-next-ar.md"
-    },
-    {
-      "id": "ELITEA-2238",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2238_onboarding-left-arrow-is-inactive-on-slide-1-and-right-arrow.md"
-    },
-    {
-      "id": "ELITEA-2239",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2239_onboarding-slides-can-be-navigated-forward-and-backward-from.md"
-    },
-    {
-      "id": "ELITEA-2240",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2240_onboarding-private-and-team-projects-appear-in-project-dropd.md"
+      "path": "tests/automated-full-regression-ui/artifacts/image-vision-user-prompt/ELITEA-3363_read-file-without-user-prompt-returns-generic-caption.md"
     },
     {
-      "id": "ELITEA-2241",
+      "id": "ELITEA-3364",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2241_onboarding-clicking-jump-in-now-closes-onboarding-and-shows.md"
+      "path": "tests/automated-full-regression-ui/artifacts/image-vision-user-prompt/ELITEA-3364_read-file-user-prompt-works-for-jpeg-format.md"
     },
     {
       "id": "ELITEA-0501",
@@ -3056,6 +1896,636 @@
       "path": "tests/automated-full-regression-ui/chat/canvas/ELITEA-2089_chat-edit-agent-in-canvas-mode-verify-changes-synchronize-to-agent.md"
     },
     {
+      "id": "ELITEA-1962",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1962_create-credential.md"
+    },
+    {
+      "id": "ELITEA-1963",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1963_edit-credential-rename.md"
+    },
+    {
+      "id": "ELITEA-1964",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1964_delete-credential.md"
+    },
+    {
+      "id": "ELITEA-1965",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1965_search-credentials-by-name.md"
+    },
+    {
+      "id": "ELITEA-1966",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1966_filter-credentials-by-type.md"
+    },
+    {
+      "id": "ELITEA-1967",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1967_credential-type-specific-form-fields.md"
+    },
+    {
+      "id": "ELITEA-1968",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1968_credential-secret-password-storage-toggle.md"
+    },
+    {
+      "id": "ELITEA-1969",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1969_credential-create-new-project-secret-from-secret-toggle.md"
+    },
+    {
+      "id": "ELITEA-1970",
+      "priority": "low",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1970_credential-test-connection.md"
+    },
+    {
+      "id": "ELITEA-1971",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1971_credential-discard-changes.md"
+    },
+    {
+      "id": "ELITEA-1972",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1972_credential-id-auto-generation.md"
+    },
+    {
+      "id": "ELITEA-1973",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1973_credential-dashboard-view-toggle-table-card.md"
+    },
+    {
+      "id": "ELITEA-1974",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1974_credential-pin-unpin.md"
+    },
+    {
+      "id": "ELITEA-1975",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1975_create-credential-required-fields-validation.md"
+    },
+    {
+      "id": "ELITEA-1976",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1976_credential-create-private-credential-from-toolkit-flow.md"
+    },
+    {
+      "id": "ELITEA-1977",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1977_credential-create-project-credential-from-toolkit-flow.md"
+    },
+    {
+      "id": "ELITEA-1978",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1978_credential-duplicate-mismatch-validation.md"
+    },
+    {
+      "id": "ELITEA-1979",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1979_credential-usage-in-toolkit-flows.md"
+    },
+    {
+      "id": "ELITEA-1980",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1980_credential-error-states.md"
+    },
+    {
+      "id": "ELITEA-1981",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1981_credential-oauth-required-credential-flow-sharepoint-delegated.md"
+    },
+    {
+      "id": "ELITEA-1982",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1982_credential-oauth-authorization-modal-invocation.md"
+    },
+    {
+      "id": "ELITEA-1983",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1983_credential-successful-oauth-completion.md"
+    },
+    {
+      "id": "ELITEA-1984",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1984_credential-failed-oauth-completion.md"
+    },
+    {
+      "id": "ELITEA-1985",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1985_credential-saved-credential-reuse-after-oauth-authorization.md"
+    },
+    {
+      "id": "ELITEA-3663",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3663_evaluation-analytics-navigation-and-page-structure.md"
+    },
+    {
+      "id": "ELITEA-3664",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3664_evaluation-analytics-all-tabs-content.md"
+    },
+    {
+      "id": "ELITEA-3665",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3665_evaluation-analytics-data-scoping-and-judge-costs.md"
+    },
+    {
+      "id": "ELITEA-3666",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3666_evaluation-analytics-project-access-control.md"
+    },
+    {
+      "id": "ELITEA-3667",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3667_evaluation-analytics-export-and-ux.md"
+    },
+    {
+      "id": "ELITEA-2219",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2219_help-center-page-loads-successfully-via-sidebar-icon.md"
+    },
+    {
+      "id": "ELITEA-2220",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2220_help-center-documentation-card-link-redirects-to-external-re.md"
+    },
+    {
+      "id": "ELITEA-2221",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2221_help-center-release-notes-card-link-redirects-to-release-not.md"
+    },
+    {
+      "id": "ELITEA-2222",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2222_help-center-tutorials-card-link-redirects-to-tutorial-resour.md"
+    },
+    {
+      "id": "ELITEA-2223",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2223_help-center-video-library-more-redirects-to-full-video-porta.md"
+    },
+    {
+      "id": "ELITEA-2224",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2224_help-center-tutorials-more-redirects-to-full-tutorials-list.md"
+    },
+    {
+      "id": "ELITEA-2225",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2225_help-center-version-info-tooltip-displays-component-versions.md"
+    },
+    {
+      "id": "ELITEA-2226",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2226_help-center-sidebar-interactive-tour-starts-when-clicking-th.md"
+    },
+    {
+      "id": "ELITEA-2227",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2227_help-center-sidebar-interactive-tour-completes-successfully.md"
+    },
+    {
+      "id": "ELITEA-2228",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2228_help-center-completed-sidebar-interactive-tour-can-be-restar.md"
+    },
+    {
+      "id": "ELITEA-2229",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2229_help-center-clicking-skip-during-sidebar-interactive-tour-te.md"
+    },
+    {
+      "id": "ELITEA-2230",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2230_help-center-back-button-navigates-to-previous-step-during-in.md"
+    },
+    {
+      "id": "ELITEA-2833",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2833_save-without-reindex-automated.md"
+    },
+    {
+      "id": "ELITEA-2834",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2834_save-and-reindex-flow-automated.md"
+    },
+    {
+      "id": "ELITEA-2835",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2835_validation-blocks-save-and-reindex-automated.md"
+    },
+    {
+      "id": "ELITEA-2836",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2836_button-states-dirty-clean-automated.md"
+    },
+    {
+      "id": "ELITEA-2888",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2888_configuration-persistence-automated.md"
+    },
+    {
+      "id": "ELITEA-2889",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2889_manual-reindex-uses-saved-config-automated.md"
+    },
+    {
+      "id": "ELITEA-3091",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3091_active-index-searchable-during-reindexing-automated.md"
+    },
+    {
+      "id": "ELITEA-3092",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3092_failed-reindex-preserves-active-index-automated.md"
+    },
+    {
+      "id": "ELITEA-3093",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3093_successful-reindex-replaces-active-index-automated.md"
+    },
+    {
+      "id": "ELITEA-3094",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3094_search-works-after-failed-reindex-automated.md"
+    },
+    {
+      "id": "ELITEA-3095",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3095_ui-status-reindex-lifecycle-automated.md"
+    },
+    {
+      "id": "ELITEA-3712",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3712_indexing-completes-successfully-for-medium-sized-repository.md"
+    },
+    {
+      "id": "ELITEA-3713",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3713_user-receives-notification-when-indexing-completes.md"
+    },
+    {
+      "id": "ELITEA-3714",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3714_user-receives-notification-when-indexing-is-stopped.md"
+    },
+    {
+      "id": "ELITEA-3715",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3715_stop-button-stops-indexing-and-shows-stopped-status.md"
+    },
+    {
+      "id": "ELITEA-3716",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3716_progress-indicator-updates-during-indexing.md"
+    },
+    {
+      "id": "ELITEA-3717",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3717_error-messages-are-user-friendly.md"
+    },
+    {
+      "id": "ELITEA-3718",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3718_documents-in-multiple-collections-are-searchable.md"
+    },
+    {
+      "id": "ELITEA-1921",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1921_create-remote-mcp-minimal-required-fields.md"
+    },
+    {
+      "id": "ELITEA-1922",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1922_create-remote-mcp-all-fields-populated.md"
+    },
+    {
+      "id": "ELITEA-1923",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1923_create-remote-mcp-validation-error-on-missing-url.md"
+    },
+    {
+      "id": "ELITEA-1924",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1924_create-remote-mcp-validation-error-on-missing-name.md"
+    },
+    {
+      "id": "ELITEA-1925",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1925_edit-remote-mcp-change-name.md"
+    },
+    {
+      "id": "ELITEA-1926",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1926_edit-remote-mcp-change-url.md"
+    },
+    {
+      "id": "ELITEA-1927",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1927_edit-remote-mcp-modify-configuration-via-raw-json.md"
+    },
+    {
+      "id": "ELITEA-1928",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1928_edit-remote-mcp-discard-changes.md"
+    },
+    {
+      "id": "ELITEA-1929",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1929_edit-remote-mcp-toggle-enable-caching.md"
+    },
+    {
+      "id": "ELITEA-1930",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1930_edit-remote-mcp-toggle-ssl-verify.md"
+    },
+    {
+      "id": "ELITEA-1931",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1931_edit-remote-mcp-modify-headers-json.md"
+    },
+    {
+      "id": "ELITEA-1932",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1932_edit-remote-mcp-client-secret-with-secret-password-toggle.md"
+    },
+    {
+      "id": "ELITEA-1933",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1933_remote-mcp-load-tools-tools-discovery.md"
+    },
+    {
+      "id": "ELITEA-1934",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1934_remote-mcp-load-tools-from-invalid-url.md"
+    },
+    {
+      "id": "ELITEA-1935",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1935_remote-mcp-deselect-select-specific-tools.md"
+    },
+    {
+      "id": "ELITEA-1936",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1936_remote-mcp-connection-status-indicator.md"
+    },
+    {
+      "id": "ELITEA-1937",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1937_remote-mcp-test-settings-panel-select-and-run-tool.md"
+    },
+    {
+      "id": "ELITEA-1938",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1938_remote-mcp-test-settings-clear-chat.md"
+    },
+    {
+      "id": "ELITEA-1939",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1939_remote-mcp-test-settings-fullscreen-mode.md"
+    },
+    {
+      "id": "ELITEA-1940",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1940_remote-mcp-test-settings-view-run-history.md"
+    },
+    {
+      "id": "ELITEA-1941",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1941_mcp-dashboard-search-by-name.md"
+    },
+    {
+      "id": "ELITEA-1942",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1942_mcp-dashboard-filter-by-type-remote-only.md"
+    },
+    {
+      "id": "ELITEA-1943",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1943_mcp-dashboard-filter-by-type-local-only.md"
+    },
+    {
+      "id": "ELITEA-1944",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1944_mcp-dashboard-view-toggle-card-table.md"
+    },
+    {
+      "id": "ELITEA-1945",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1945_mcp-dashboard-pin-unpin-mcp.md"
+    },
+    {
+      "id": "ELITEA-1946",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1946_mcp-detail-three-dot-menu-actions.md"
+    },
+    {
+      "id": "ELITEA-1947",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1947_delete-remote-mcp.md"
+    },
+    {
+      "id": "ELITEA-1948",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1948_mcp-form-raw-json-view-toggle-data-consistency.md"
+    },
+    {
+      "id": "ELITEA-1949",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1949_mcp-type-selection-local-vs-remote-display.md"
+    },
+    {
+      "id": "ELITEA-1950",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1950_mcp-integration-in-agent-attach-mcp-via-tools-section.md"
+    },
+    {
+      "id": "ELITEA-1951",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1951_mcp-integration-in-agent-nested-agent-with-mcp.md"
+    },
+    {
+      "id": "ELITEA-1952",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1952_mcp-integration-in-pipeline-add-mcp-and-configure-node.md"
+    },
+    {
+      "id": "ELITEA-1953",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1953_mcp-integration-in-pipeline-mcp-node-input-mapping-config.md"
+    },
+    {
+      "id": "ELITEA-1954",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1954_mcp-integration-in-pipeline-change-toolkit-and-tool.md"
+    },
+    {
+      "id": "ELITEA-1955",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1955_mcp-integration-in-pipeline-mcp-node-without-tool-first.md"
+    },
+    {
+      "id": "ELITEA-1956",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1956_remote-mcp-timeout-configuration.md"
+    },
+    {
+      "id": "ELITEA-1957",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1957_remote-mcp-cache-ttl-configuration.md"
+    },
+    {
+      "id": "ELITEA-1958",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1958_mcp-dashboard-multiple-mcps-with-mixed-types.md"
+    },
+    {
+      "id": "ELITEA-1959",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1959_remote-mcp-copy-link-from-three-dot-menu.md"
+    },
+    {
+      "id": "ELITEA-1960",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1960_remote-mcp-cancel-during-creation.md"
+    },
+    {
+      "id": "ELITEA-1961",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1961_mcp-back-navigation-from-detail-to-list.md"
+    },
+    {
+      "id": "ELITEA-2744",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2744_verify-agent-message-displays-toolkit-name-when-authorization-needed.md"
+    },
+    {
+      "id": "ELITEA-2745",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2745_verify-multiple-mcps-each-display-correct-toolkit-name-in-agent-message.md"
+    },
+    {
+      "id": "ELITEA-2746",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2746_verify-toolkit-name-in-agent-message-from-chat-page.md"
+    },
+    {
+      "id": "ELITEA-2747",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2747_verify-nested-agent-displays-toolkit-name-when-authorization-needed.md"
+    },
+    {
+      "id": "ELITEA-2748",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2748_verify-nested-agent-with-mcp-from-chat-page.md"
+    },
+    {
+      "id": "ELITEA-2749",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2749_verify-pipeline-with-mcp-displays-toolkit-name-in-pipeline-chat.md"
+    },
+    {
+      "id": "ELITEA-2741",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2750_verify-pipeline-with-mcp-called-from-chat-page.md"
+    },
+    {
+      "id": "ELITEA-2742",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2751_verify-pipeline-with-nested-pipeline-displays-mcp-name-in-pipeline-chat.md"
+    },
+    {
+      "id": "ELITEA-2743",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2752_verify-pipeline-with-nested-pipeline-called-from-chat-page.md"
+    },
+    {
+      "id": "ELITEA-2231",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2231_onboarding-welcome-to-elitea-page-is-displayed-on-first-logi.md"
+    },
+    {
+      "id": "ELITEA-2232",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2232_onboarding-clicking-sure-lets-go-triggers-project-provisioni.md"
+    },
+    {
+      "id": "ELITEA-2233",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2233_onboarding-elitea-logo-displays-green-dot-indicating-active.md"
+    },
+    {
+      "id": "ELITEA-2234",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2234_onboarding-bell-notification-icon-shows-red-badgedot-on-firs.md"
+    },
+    {
+      "id": "ELITEA-2235",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2235_onboarding-onboarding-tips-card-is-displayed-on-first-login.md"
+    },
+    {
+      "id": "ELITEA-2236",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2236_onboarding-card-can-be-expanded-to-fullscreen-and-collapsed.md"
+    },
+    {
+      "id": "ELITEA-2237",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2237_onboarding-slides-can-be-navigated-forward-using-the-next-ar.md"
+    },
+    {
+      "id": "ELITEA-2238",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2238_onboarding-left-arrow-is-inactive-on-slide-1-and-right-arrow.md"
+    },
+    {
+      "id": "ELITEA-2239",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2239_onboarding-slides-can-be-navigated-forward-and-backward-from.md"
+    },
+    {
+      "id": "ELITEA-2240",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2240_onboarding-private-and-team-projects-appear-in-project-dropd.md"
+    },
+    {
+      "id": "ELITEA-2241",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2241_onboarding-clicking-jump-in-now-closes-onboarding-and-shows.md"
+    },
+    {
+      "id": "ELITEA-3624",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3624_e2e-agent-per-run-analytics-flow.md"
+    },
+    {
+      "id": "ELITEA-3625",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3625_e2e-pipeline-per-run-analytics-flow.md"
+    },
+    {
+      "id": "ELITEA-3626",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3626_data-scoping-verification.md"
+    },
+    {
+      "id": "ELITEA-3627",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3627_regression-project-analytics-not-affected.md"
+    },
+    {
+      "id": "ELITEA-3628",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3628_regression-run-history-not-affected.md"
+    },
+    {
+      "id": "ELITEA-3629",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3629_empty-states-and-edge-cases.md"
+    },
+    {
       "id": "ELITEA-0850",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0850_pipeline-edit-and-delete-operations.md"
@@ -3079,11 +2549,6 @@
       "id": "ELITEA-0855",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0855_pipeline-dashboard-view-and-search.md"
-    },
-    {
-      "id": "ELITEA-0861",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0861_pipeline-export-and-import.md"
     },
     {
       "id": "ELITEA-0864",
@@ -3511,824 +2976,1064 @@
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-3734_fork-pipeline-blocked-when-destination-project-role-is-viewer.md"
     },
     {
-      "id": "ELITEA-0577",
+      "id": "ELITEA-2242",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-2242_settings-page-loads-and-displays-correct-project-and-persona.md"
+    },
+    {
+      "id": "ELITEA-2243",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-2243_clicking-each-settings-sidebar-item-navigates-to-its-dedicat.md"
+    },
+    {
+      "id": "ELITEA-2244",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-2244_navigating-away-from-settings-and-back-restores-the-default.md"
+    },
+    {
+      "id": "ELITEA-2245",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-2245_admin-role-has-access-to-all-project-settings-sections.md"
+    },
+    {
+      "id": "ELITEA-2246",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-2246_viewer-and-monitor-roles-cannot-access-secrets-section.md"
+    },
+    {
+      "id": "ELITEA-2247",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-2247_all-authenticated-roles-can-access-personal-settings-section.md"
+    },
+    {
+      "id": "ELITEA-2248",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-2248_unauthenticated-user-is-redirected-to-login-when-accessing-s.md"
+    },
+    {
+      "id": "ELITEA-2249",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-2249_settings-secrets-page-shows-empty-state-when-no-secrets-exis.md"
+    },
+    {
+      "id": "ELITEA-2250",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-2250_settings-personal-tokens-page-shows-empty-state-when-no-toke.md"
+    },
+    {
+      "id": "ELITEA-2251",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-2251_settings-sections-show-loading-state-while-data-is-being-fet.md"
+    },
+    {
+      "id": "ELITEA-2252",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-2252_log-out-button-is-visible-in-the-personal-section-of-the-set.md"
+    },
+    {
+      "id": "ELITEA-2253",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-2253_log-out-button-successfully-logs-the-user-out.md"
+    },
+    {
+      "id": "ELITEA-2254",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-2254_log-out-is-accessible-from-any-settings-sub-page-without-ext.md"
+    },
+    {
+      "id": "ELITEA-3444",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-3444_chat-templates-basic-crud-and-default-selection.md"
+    },
+    {
+      "id": "ELITEA-3445",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-3445_chat-templates-save-cancel-unsaved-changes.md"
+    },
+    {
+      "id": "ELITEA-3446",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-3446_chat-templates-participants-and-new-chat-behavior.md"
+    },
+    {
+      "id": "ELITEA-3447",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ELITEA-3447_chat-templates-5-template-limit-and-mid-turn-input.md"
+    },
+    {
+      "id": "ELITEA-2392",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2392_ai-configuration-page-loads-all-integration-sections-without.md"
+    },
+    {
+      "id": "ELITEA-2393",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2393_openai-template-tab-loads-code-template-content.md"
+    },
+    {
+      "id": "ELITEA-2394",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2394_settings-landing-ai-configuration-page-shows-correct-environ.md"
+    },
+    {
+      "id": "ELITEA-2395",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2395_create-a-new-llm-model-configuration.md"
+    },
+    {
+      "id": "ELITEA-2396",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2396_edit-an-existing-llm-model-configuration.md"
+    },
+    {
+      "id": "ELITEA-2397",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2397_set-a-llm-model-as-default-high-tier-low-tier.md"
+    },
+    {
+      "id": "ELITEA-2398",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2398_create-a-new-embedding-model-configuration.md"
+    },
+    {
+      "id": "ELITEA-2399",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2399_create-a-new-vector-storage-pgvector-configuration.md"
+    },
+    {
+      "id": "ELITEA-2400",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2400_edit-an-existing-vector-storage-configuration.md"
+    },
+    {
+      "id": "ELITEA-2401",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2401_set-a-vector-storage-as-default.md"
+    },
+    {
+      "id": "ELITEA-2402",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2402_image-generation-section-displays-model-cards-and-default-se.md"
+    },
+    {
+      "id": "ELITEA-2403",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2403_change-the-default-image-generation-model.md"
+    },
+    {
+      "id": "ELITEA-2404",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2404_asr-section-displays-model-cards-and-default-selector.md"
+    },
+    {
+      "id": "ELITEA-2405",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2405_change-the-default-asr-model.md"
+    },
+    {
+      "id": "ELITEA-2406",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2406_tts-section-displays-model-cards-and-default-selector.md"
+    },
+    {
+      "id": "ELITEA-2407",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2407_change-the-default-tts-model.md"
+    },
+    {
+      "id": "ELITEA-2408",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2408_create-llm-model-display-name-is-required.md"
+    },
+    {
+      "id": "ELITEA-2409",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2409_create-llm-model-id-is-auto-populated-from-display-name.md"
+    },
+    {
+      "id": "ELITEA-2410",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2410_create-embedding-model-display-name-and-name-are-required.md"
+    },
+    {
+      "id": "ELITEA-2411",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2411_create-vector-storage-connection-string-is-required.md"
+    },
+    {
+      "id": "ELITEA-2412",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2412_saving-a-new-llm-model-configuration-persists-after-page-rel.md"
+    },
+    {
+      "id": "ELITEA-2413",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2413_editing-an-existing-configuration-persists-after-page-reload.md"
+    },
+    {
+      "id": "ELITEA-2414",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2414_default-tier-selection-persists-after-page-reload.md"
+    },
+    {
+      "id": "ELITEA-2415",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2415_test-connection-button-shows-error-for-invalid-or-expired-cr.md"
+    },
+    {
+      "id": "ELITEA-2416",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2416_chat-throws-a-meaningful-error-when-the-assigned-llm-model-u.md"
+    },
+    {
+      "id": "ELITEA-2417",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2417_ai-credentials-section-is-hidden-when-no-credentials-are-con.md"
+    },
+    {
+      "id": "ELITEA-2310",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2310_analytics-page-loads-with-default-date-range-and-all-six-tab.md"
+    },
+    {
+      "id": "ELITEA-2311",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2311_overview-tab-displays-all-six-kpi-cards-with-correct-labels.md"
+    },
+    {
+      "id": "ELITEA-2312",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2312_users-tab-loads-user-activity-table-with-correct-columns-and.md"
+    },
+    {
+      "id": "ELITEA-2313",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2313_clicking-a-user-row-in-users-tab-opens-the-user-detail-view.md"
+    },
+    {
+      "id": "ELITEA-2314",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2314_predefined-date-presets-update-the-fromto-pickers-and-refres.md"
+    },
+    {
+      "id": "ELITEA-2315",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2315_custom-fromto-date-range-filters-data.md"
+    },
+    {
+      "id": "ELITEA-2316",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2316_from-date-cannot-be-set-later-than-to-date.md"
+    },
+    {
+      "id": "ELITEA-2317",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2317_switching-preset-filters-updates-kpi-cards-charts-and-tables.md"
+    },
+    {
+      "id": "ELITEA-2318",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2318_switching-preset-filters-updates-content-on-agents-tools-and.md"
+    },
+    {
+      "id": "ELITEA-2319",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2319_date-filter-is-retained-when-switching-between-tabs.md"
+    },
+    {
+      "id": "ELITEA-2320",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2320_agents-tab-displays-chat-messages-chart-most-active-agents-b.md"
+    },
+    {
+      "id": "ELITEA-2321",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2321_clicking-an-agent-row-in-agents-tab-opens-the-agent-detail-v.md"
+    },
+    {
+      "id": "ELITEA-2322",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2322_tools-tab-displays-most-popular-tools-bar-chart-and-tool-det.md"
+    },
+    {
+      "id": "ELITEA-2323",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2323_users-tab-search-by-email-filters-the-user-activity-table.md"
+    },
+    {
+      "id": "ELITEA-2324",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2324_health-tab-displays-requests-vs-errors-chart-and-health-by-e.md"
+    },
+    {
+      "id": "ELITEA-2325",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2325_guide-tab-displays-explanatory-documentation-for-each-metric.md"
+    },
+    {
+      "id": "ELITEA-2326",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2326_hovering-over-daily-activity-chart-on-overview-tab-shows-too.md"
+    },
+    {
+      "id": "ELITEA-2327",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2327_hovering-over-a-bar-in-most-active-agents-chart-shows-agent.md"
+    },
+    {
+      "id": "ELITEA-2328",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2328_hovering-over-most-popular-tools-bar-chart-shows-tool-name-a.md"
+    },
+    {
+      "id": "ELITEA-2329",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2329_hovering-over-user-detail-daily-activity-chart-shows-per-ser.md"
+    },
+    {
+      "id": "ELITEA-3440",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3440_activity-tab-role-filter-excludes-super-admin-and-system-roles.md"
+    },
+    {
+      "id": "ELITEA-3441",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3441_removed-user-historical-activity-persists-in-team-analytics.md"
+    },
+    {
+      "id": "ELITEA-3442",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3442_month-granularity-selectable-and-consistent-with-api-in-activity-tab.md"
+    },
+    {
+      "id": "ELITEA-3443",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3443_automated-pipeline-webhook-index-triggers-excluded-from-user-activity.md"
+    },
+    {
+      "id": "ELITEA-3472",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0577_support-assistant-files-can-be-attached-via-click-to-browse-drag-and-d.md"
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3472_overview-tab-kpi-cards-display.md"
     },
     {
-      "id": "ELITEA-0624",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0624_support-assistant-expands-to-full-view-mode-and-collapses-back-to-widg.md"
-    },
-    {
-      "id": "ELITEA-0625",
+      "id": "ELITEA-3474",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0625_support-assistant-panel-opens-on-launcher-click-and-closes-on-x-button.md"
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3474_overview-top-ai-adopters-leaderboard.md"
     },
     {
-      "id": "ELITEA-0626",
+      "id": "ELITEA-3476",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0626_support-assistant-floating-launcher-is-visible-on-every-main-applicati.md"
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3476_costs-tab-summary-cards.md"
     },
     {
-      "id": "ELITEA-0641",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0641_clicking-new-chat-opens-a-clean-session-without-affecting-the-previous.md"
-    },
-    {
-      "id": "ELITEA-0643",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0643_conversation-is-retained-when-the-support-assistant-panel-is-closed-an.md"
-    },
-    {
-      "id": "ELITEA-0647",
+      "id": "ELITEA-3480",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0647_user-sends-a-message-via-the-send-button-and-receives-a-complete-assis.md"
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3480_tokens-tab-summary-cards.md"
     },
     {
-      "id": "ELITEA-1796",
+      "id": "ELITEA-3488",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-1796_launcher-visible-widget-opens-and-closes.md"
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3488_users-tab-activity-table.md"
     },
     {
-      "id": "ELITEA-1797",
+      "id": "ELITEA-3492",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-1797_widget-conversation-state-persists-after-close-reopen.md"
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3492_health-tab-event-type-table.md"
     },
     {
-      "id": "ELITEA-1798",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-1798_send-message-and-receive-ai-response.md"
-    },
-    {
-      "id": "ELITEA-1799",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-1799_new-chat-creates-fresh-session.md"
-    },
-    {
-      "id": "ELITEA-1800",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-1800_history-restore-and-continue-messaging.md"
-    },
-    {
-      "id": "ELITEA-1801",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-1801_expand-to-full-view-and-collapse-back.md"
-    },
-    {
-      "id": "ELITEA-1802",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-1802_attach-button-present-and-opens-file-picker.md"
-    },
-    {
-      "id": "ELITEA-2418",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2418_empty-message-cannot-be-sent.md"
-    },
-    {
-      "id": "ELITEA-2419",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2419_copy-assistant-response-to-clipboard.md"
-    },
-    {
-      "id": "ELITEA-2420",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2420_drag-and-drop-file-attachment.md"
-    },
-    {
-      "id": "ELITEA-2421",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2421_send-message-with-attached-file.md"
-    },
-    {
-      "id": "ELITEA-2422",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2422_widget-state-preserved-after-in-app-navigation.md"
-    },
-    {
-      "id": "ELITEA-2423",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2423_history-loads-correctly-after-page-refresh.md"
-    },
-    {
-      "id": "ELITEA-2424",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2424_assistant-uses-correct-project-context.md"
-    },
-    {
-      "id": "ELITEA-2425",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2425_assistant-receives-current-page-context.md"
-    },
-    {
-      "id": "ELITEA-2426",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2426_expand-widget-during-active-streaming-does-not-restart-strea.md"
-    },
-    {
-      "id": "ELITEA-2427",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2427_history-session-shows-correct-preview-and-title.md"
-    },
-    {
-      "id": "ELITEA-0139",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-0139_agent-export-and-import-yaml-format.md"
-    },
-    {
-      "id": "ELITEA-0142",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-0142_agent-export-and-import.md"
-    },
-    {
-      "id": "ELITEA-1869",
+      "id": "ELITEA-3494",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1869_agent-listing-back-navigation-from-agent-detail-returns-to-agents.md"
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3494_date-range-presets.md"
     },
     {
-      "id": "ELITEA-1870",
+      "id": "ELITEA-3497",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1870_agent-listing-create-button-navigates-to-create-agent-page.md"
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3497_cross-page-consistency-usage-vs-analytics.md"
     },
     {
-      "id": "ELITEA-1871",
+      "id": "ELITEA-3498",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1871_create-agent-instructions-alone-does-not-enable-save.md"
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3498_display-name-consistency.md"
     },
     {
-      "id": "ELITEA-1872",
+      "id": "ELITEA-3499",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1872_edit-agent-instructions-and-verify-persistence.md"
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3499_cost-rounding-precision.md"
     },
     {
-      "id": "ELITEA-1873",
+      "id": "TMS-3543",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3543_project-theme-applies-admin-custom-colors-without-reload.md"
+    },
+    {
+      "id": "TMS-3544",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3544_admin-configure-primary-colors-via-color-picker-and-hex.md"
+    },
+    {
+      "id": "TMS-3545",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3545_custom-logo-upload-replaces-default-in-sidebar.md"
+    },
+    {
+      "id": "TMS-3546",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3546_export-json-downloads-custom-theme-configuration.md"
+    },
+    {
+      "id": "TMS-3547",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3547_import-json-applies-theme-settings-correctly.md"
+    },
+    {
+      "id": "TMS-3548",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3548_admin-theme-changes-reflect-for-all-project-theme-users.md"
+    },
+    {
+      "id": "TMS-3549",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3549_user-sees-all-four-theme-options-in-preferences.md"
+    },
+    {
+      "id": "TMS-3550",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3550_dark-mode-applies-standard-dark-theme-correctly.md"
+    },
+    {
+      "id": "TMS-3551",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3551_light-mode-applies-standard-light-theme-correctly.md"
+    },
+    {
+      "id": "TMS-3552",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3552_system-theme-follows-os-preference.md"
+    },
+    {
+      "id": "TMS-3553",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3553_theme-selection-persists-after-page-refresh.md"
+    },
+    {
+      "id": "TMS-3554",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3554_admin-can-access-custom-theme-page-in-admin-portal.md"
+    },
+    {
+      "id": "TMS-3555",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3555_base-mode-dropdown-allows-dark-light-selection.md"
+    },
+    {
+      "id": "TMS-3556",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3556_background-colors-section-allows-editing-all-values.md"
+    },
+    {
+      "id": "TMS-3557",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3557_border-colors-section-allows-editing-all-values.md"
+    },
+    {
+      "id": "TMS-3558",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3558_delete-theme-resets-to-default-values.md"
+    },
+    {
+      "id": "TMS-3559",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3559_save-changes-persists-all-custom-theme-modifications.md"
+    },
+    {
+      "id": "TMS-3579",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3579_project-theme-applies-admin-custom-colors-without-reload.md"
+    },
+    {
+      "id": "TMS-3580",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3580_admin-configure-primary-colors-via-color-picker-and-hex.md"
+    },
+    {
+      "id": "TMS-3581",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3581_custom-logo-upload-replaces-default-in-sidebar.md"
+    },
+    {
+      "id": "TMS-3582",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3582_export-json-downloads-custom-theme-configuration.md"
+    },
+    {
+      "id": "TMS-3583",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3583_import-json-applies-theme-settings-correctly.md"
+    },
+    {
+      "id": "TMS-3584",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3584_admin-theme-changes-reflect-for-all-project-theme-users.md"
+    },
+    {
+      "id": "TMS-3585",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3585_user-sees-all-four-theme-options-in-preferences.md"
+    },
+    {
+      "id": "TMS-3586",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3586_dark-mode-applies-standard-dark-theme-correctly.md"
+    },
+    {
+      "id": "TMS-3587",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3587_light-mode-applies-standard-light-theme-correctly.md"
+    },
+    {
+      "id": "TMS-3588",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3588_system-theme-follows-os-preference.md"
+    },
+    {
+      "id": "TMS-3589",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3589_theme-selection-persists-after-page-refresh.md"
+    },
+    {
+      "id": "TMS-3590",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3590_admin-can-access-custom-theme-page-in-admin-portal.md"
+    },
+    {
+      "id": "TMS-3591",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3591_base-mode-dropdown-allows-dark-light-selection.md"
+    },
+    {
+      "id": "TMS-3592",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3592_background-colors-section-allows-editing-all-values.md"
+    },
+    {
+      "id": "TMS-3593",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3593_border-colors-section-allows-editing-all-values.md"
+    },
+    {
+      "id": "TMS-3594",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3594_delete-theme-resets-to-default-values.md"
+    },
+    {
+      "id": "TMS-3595",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3595_save-changes-persists-all-custom-theme-modifications.md"
+    },
+    {
+      "id": "ELITEA-2651",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1873_discard-changes-resets-all-unsaved-edits.md"
+      "path": "tests/automated-full-regression-ui/settings/default-modules/ELITEA-2651_default-modules-ui-and-persistence.md"
     },
     {
-      "id": "ELITEA-1874",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1874_embedded-chat-send-message-and-verify-response-is-non-empty.md"
-    },
-    {
-      "id": "ELITEA-1875",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1875_embedded-chat-shift-enter-inserts-new-line-enter-sends-message.md"
-    },
-    {
-      "id": "ELITEA-1876",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1876_run-history-panel-shows-past-runs-with-timestamp-and-preview.md"
-    },
-    {
-      "id": "ELITEA-1877",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1877_selecting-a-past-run-from-history-loads-its-messages.md"
-    },
-    {
-      "id": "ELITEA-1878",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1878_add-and-save-multiple-tags-both-persist-after-reload.md"
-    },
-    {
-      "id": "ELITEA-1879",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1879_remove-a-tag-from-agent-removal-persists-after-reload.md"
-    },
-    {
-      "id": "ELITEA-1880",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1880_llm-selector-change-model-verify-settings-dialog-save-persist.md"
-    },
-    {
-      "id": "ELITEA-1881",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1881_llm-selector-anthropic-models-are-available-and-functional.md"
-    },
-    {
-      "id": "ELITEA-1882",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1882_llm-selector-openai-models-are-available-and-functional.md"
-    },
-    {
-      "id": "ELITEA-1883",
-      "priority": "low",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1883_add-two-variables-and-verify-they-persist-after-reload.md"
-    },
-    {
-      "id": "ELITEA-1884",
-      "priority": "low",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1884_remove-a-variable-and-verify-removal-persists.md"
-    },
-    {
-      "id": "ELITEA-1885",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1885_welcome-message-is-shown-as-agent-bubble-before-first-user-message.md"
-    },
-    {
-      "id": "ELITEA-1886",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1886_conversation-starter-chips-appear-in-chat-panel-and-are-clickable.md"
-    },
-    {
-      "id": "ELITEA-1887",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1887_agent-cannot-be-added-to-its-own-toolkit-picker.md"
-    },
-    {
-      "id": "ELITEA-1888",
+      "id": "ELITEA-2652",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1888_save-as-version-creates-named-version-visible-in-dropdown.md"
+      "path": "tests/automated-full-regression-ui/settings/default-modules/ELITEA-2652_default-modules-applied-to-new-entities.md"
     },
     {
-      "id": "ELITEA-1889",
+      "id": "ELITEA-2653",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1889_agent-save-as-version-preserves-all-attached-skills.md"
+      "path": "tests/automated-full-regression-ui/settings/default-modules/ELITEA-2653_entity-overrides-do-not-affect-project-defaults.md"
     },
     {
-      "id": "ELITEA-1890",
+      "id": "ELITEA-2671",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1890_switching-between-versions-updates-form-fields-correctly.md"
+      "path": "tests/automated-full-regression-ui/settings/mid-turn-input/ELITEA-2671_mid-turn-input-happy-path-end-to-end.md"
     },
     {
-      "id": "ELITEA-1891",
+      "id": "ELITEA-2672",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/mid-turn-input/ELITEA-2672_mid-turn-input-disabled-legacy-behavior.md"
+    },
+    {
+      "id": "ELITEA-2255",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1891_version-selector-lists-all-versions-in-correct-order.md"
+      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2255_notifications-center-page-loads-with-correct-layout-and-head.md"
     },
     {
-      "id": "ELITEA-1892",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1892_publish-draft-version-status-changes-unpublish-available.md"
-    },
-    {
-      "id": "ELITEA-1893",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1893_fork-agent-version-to-a-different-project.md"
-    },
-    {
-      "id": "ELITEA-1894",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1894_export-agent-no-nested-dependencies-produces-md-file.md"
-    },
-    {
-      "id": "ELITEA-1895",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1895_export-agent-with-nested-dependencies-produces-zip-archive.md"
-    },
-    {
-      "id": "ELITEA-1896",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1896_export-agent-with-attached-skills-exported-md-contains-skill.md"
-    },
-    {
-      "id": "ELITEA-1897",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1897_agent-execution-name-description-sufficient-for-execution.md"
-    },
-    {
-      "id": "ELITEA-1898",
+      "id": "ELITEA-2256",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1898_copy-version-link-produces-version-specific-url.md"
+      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2256_notifications-center-pagination-controls-are-present-and-fun.md"
     },
     {
-      "id": "ELITEA-1899",
-      "priority": "low",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1899_agent-icon-can-be-changed-and-persists-on-agents-list-card.md"
-    },
-    {
-      "id": "ELITEA-1900",
-      "priority": "low",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1900_agent-name-character-limit-enforced-at-32-characters.md"
-    },
-    {
-      "id": "ELITEA-1901",
+      "id": "ELITEA-2257",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1901_import-valid-agent-md-file-appears-in-list-with-correct-config.md"
+      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2257_notification-text-content-renders-correctly-for-known-notifi.md"
     },
     {
-      "id": "ELITEA-1902",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1902_import-agent-zip-with-nested-agent-dependencies.md"
-    },
-    {
-      "id": "ELITEA-3350",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-3350_agent-version-comparison-modal-opens-side-by-side.md"
-    },
-    {
-      "id": "ELITEA-3351",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-3351_agent-version-comparison-sections-display-and-save-independently.md"
-    },
-    {
-      "id": "ELITEA-3733",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-3733_fork-agent-blocked-when-destination-project-role-is-viewer.md"
-    },
-    {
-      "id": "ELITEA-1903",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1903_build-with-ai-button-visible-for-admin-and-editor-roles-in-new-agent.md"
-    },
-    {
-      "id": "ELITEA-1904",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1904_build-with-ai-button-not-visible-for-viewer-role-in-new-agent-flow.md"
-    },
-    {
-      "id": "ELITEA-1905",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1905_build-with-ai-opens-generateagentmodal.md"
-    },
-    {
-      "id": "ELITEA-1906",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1906_build-with-ai-agent-draft-generated-from-natural-language-description.md"
-    },
-    {
-      "id": "ELITEA-1907",
+      "id": "ELITEA-2258",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1907_build-with-ai-generated-draft-includes-suggested-resources-section.md"
+      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2258_unread-notifications-are-visually-distinct-from-read-notific.md"
     },
     {
-      "id": "ELITEA-1908",
+      "id": "ELITEA-2259",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2259_mark-selected-notifications-as-read-and-unread-using-checkbo.md"
+    },
+    {
+      "id": "ELITEA-2260",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1908_build-with-ai-suggested-resources-require-explicit-selection.md"
+      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2260_notification-entry-in-sidebar-is-always-visible-without-scro.md"
     },
     {
-      "id": "ELITEA-1909",
+      "id": "ELITEA-2261",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1909_build-with-ai-selected-suggested-resources-attached-to-created-agent.md"
+      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2261_clicking-a-chat-mention-notification-link-navigates-to-the-c.md"
     },
     {
-      "id": "ELITEA-1910",
+      "id": "ELITEA-2262",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1910_build-with-ai-suggested-skills-section-shown-with-up-to-5-skills.md"
+      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2262_clicking-an-index-notification-link-navigates-to-the-correct.md"
     },
     {
-      "id": "ELITEA-1911",
+      "id": "ELITEA-2263",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1911_build-with-ai-selected-suggested-skills-attached-to-created-agent.md"
+      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2263_clicking-a-bucket-retention-warning-link-navigates-to-the-co.md"
     },
     {
-      "id": "ELITEA-1912",
+      "id": "ELITEA-2264",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1912_build-with-ai-all-generated-draft-fields-editable-before-approval.md"
+      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2264_search-field-filters-notifications-by-text-content.md"
     },
     {
-      "id": "ELITEA-1913",
+      "id": "ELITEA-2265",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1913_build-with-ai-agent-name-validation-enforces-32-character-maximum.md"
+      "path": "tests/automated-full-regression-ui/settings/notifications/ELITEA-2265_new-notification-appears-in-the-list.md"
     },
     {
-      "id": "ELITEA-1914",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1914_build-with-ai-approve-creates-agent-and-navigates-to-agent-menu.md"
-    },
-    {
-      "id": "ELITEA-1915",
+      "id": "ELITEA-2277",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1915_build-with-ai-generation-failure-shows-error-and-allows-retry.md"
+      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2277_personal-tokens-page-loads-with-correct-layout-and-component.md"
     },
     {
-      "id": "ELITEA-1916",
+      "id": "ELITEA-2278",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1916_build-with-ai-creation-failure-stays-on-review-step-for-correction.md"
+      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2278_personal-tokens-page-shows-empty-state-when-no-tokens-exist.md"
     },
     {
-      "id": "ELITEA-1917",
+      "id": "ELITEA-2279",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1917_build-with-ai-cancel-from-prompt-step-closes-modal.md"
+      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2279_token-name-and-expiration-columns-are-sortable.md"
     },
     {
-      "id": "ELITEA-1918",
+      "id": "ELITEA-2280",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1918_build-with-ai-cancel-from-review-step-closes-modal.md"
+      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2280_create-a-new-personal-token-and-verify-it-appears-in-the-tab.md"
     },
     {
-      "id": "ELITEA-1919",
+      "id": "ELITEA-2281",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1919_build-with-ai-back-to-prompt-returns-to-input-step-preserves-text.md"
+      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2281_delete-a-personal-token-and-verify-it-is-removed-from-the-ta.md"
     },
     {
-      "id": "ELITEA-1920",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1920_build-with-ai-in-chat-agenteditor-works-end-to-end.md"
-    },
-    {
-      "id": "ELITEA-1962",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1962_create-credential.md"
-    },
-    {
-      "id": "ELITEA-1963",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1963_edit-credential-rename.md"
-    },
-    {
-      "id": "ELITEA-1964",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1964_delete-credential.md"
-    },
-    {
-      "id": "ELITEA-1965",
+      "id": "ELITEA-2282",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1965_search-credentials-by-name.md"
+      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2282_token-expiration-period-unit-and-value-can-be-configured.md"
     },
     {
-      "id": "ELITEA-1966",
+      "id": "ELITEA-2283",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1966_filter-credentials-by-type.md"
+      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2283_token-can-be-created-without-an-expiration-date.md"
     },
     {
-      "id": "ELITEA-1967",
+      "id": "ELITEA-2284",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2284_expired-tokens-show-icon-and-active-tokens-show-icon-with-re.md"
+    },
+    {
+      "id": "ELITEA-2285",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1967_credential-type-specific-form-fields.md"
+      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2285_token-value-is-shown-only-once-in-the-generation-dialog.md"
     },
     {
-      "id": "ELITEA-1968",
+      "id": "ELITEA-2286",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1968_credential-secret-password-storage-toggle.md"
+      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2286_token-name-validation-only-alphanumeric-characters-underscor.md"
     },
     {
-      "id": "ELITEA-1969",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1969_credential-create-new-project-secret-from-secret-toggle.md"
-    },
-    {
-      "id": "ELITEA-1970",
-      "priority": "low",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1970_credential-test-connection.md"
-    },
-    {
-      "id": "ELITEA-1971",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1971_credential-discard-changes.md"
-    },
-    {
-      "id": "ELITEA-1972",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1972_credential-id-auto-generation.md"
-    },
-    {
-      "id": "ELITEA-1973",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1973_credential-dashboard-view-toggle-table-card.md"
-    },
-    {
-      "id": "ELITEA-1974",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1974_credential-pin-unpin.md"
-    },
-    {
-      "id": "ELITEA-1975",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1975_create-credential-required-fields-validation.md"
-    },
-    {
-      "id": "ELITEA-1976",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1976_credential-create-private-credential-from-toolkit-flow.md"
-    },
-    {
-      "id": "ELITEA-1977",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1977_credential-create-project-credential-from-toolkit-flow.md"
-    },
-    {
-      "id": "ELITEA-1978",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1978_credential-duplicate-mismatch-validation.md"
-    },
-    {
-      "id": "ELITEA-1979",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1979_credential-usage-in-toolkit-flows.md"
-    },
-    {
-      "id": "ELITEA-1980",
+      "id": "ELITEA-2287",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1980_credential-error-states.md"
+      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2287_search-field-filters-tokens-by-name-in-real-time.md"
     },
     {
-      "id": "ELITEA-1981",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1981_credential-oauth-required-credential-flow-sharepoint-delegated.md"
-    },
-    {
-      "id": "ELITEA-1982",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1982_credential-oauth-authorization-modal-invocation.md"
-    },
-    {
-      "id": "ELITEA-1983",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1983_credential-successful-oauth-completion.md"
-    },
-    {
-      "id": "ELITEA-1984",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1984_credential-failed-oauth-completion.md"
-    },
-    {
-      "id": "ELITEA-1985",
+      "id": "ELITEA-2288",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1985_credential-saved-credential-reuse-after-oauth-authorization.md"
+      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2288_duplicate-token-names-are-allowed.md"
     },
     {
-      "id": "ELITEA-1140",
+      "id": "ELITEA-2289",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-1140_jira-and-confluence-toolkit-crud.md"
+      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2289_vscode-download-icon-generates-a-downloadable-configuration.md"
     },
     {
-      "id": "ELITEA-1141",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-1141_github-toolkit-and-credentials.md"
-    },
-    {
-      "id": "ELITEA-1182",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-1182_agent-and-pipeline-toolkits-panel-shows-all-three-credential-indicator.md"
-    },
-    {
-      "id": "ELITEA-2796",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2796_regression-toolkit-details-layout-and-navigation.md"
-    },
-    {
-      "id": "ELITEA-2797",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2797_regression-index-search-functionality.md"
-    },
-    {
-      "id": "ELITEA-2798",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2798_regression-index-creation-and-status-display.md"
-    },
-    {
-      "id": "ELITEA-2799",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2799_regression-form-raw-json-toggle-sync.md"
-    },
-    {
-      "id": "ELITEA-2800",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2800_regression-run-history-and-schedule.md"
-    },
-    {
-      "id": "ELITEA-2823",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2823_regression-toolkit-sections-default-states.md"
-    },
-    {
-      "id": "ELITEA-2824",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2824_regression-tools-section-count-and-toggle.md"
-    },
-    {
-      "id": "ELITEA-2825",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2825_regression-reindex-button-index-data-dependency.md"
-    },
-    {
-      "id": "ELITEA-2956",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2956_regression-background-indexing-continues-across-navigation.md"
-    },
-    {
-      "id": "ELITEA-2957",
+      "id": "ELITEA-2290",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2957_regression-stop-consistent-result-across-tabs.md"
+      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2290_jetbrains-download-icon-generates-a-downloadable-configurati.md"
     },
     {
-      "id": "ELITEA-2958",
+      "id": "ELITEA-2291",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2958_regression-reindex-consistent-result-across-tabs.md"
+      "path": "tests/automated-full-regression-ui/settings/personal-tokens/ELITEA-2291_eye-icon-opens-ide-configuration-preview-panel-with-correct.md"
     },
     {
-      "id": "ELITEA-2959",
+      "id": "ELITEA-2266",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2959_regression-multiple-indexes-remain-independent.md"
+      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2266_project-context-page-loads-with-correct-layout-and-component.md"
     },
     {
-      "id": "ELITEA-2960",
+      "id": "ELITEA-2267",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2960_regression-stepback-tools-execution-and-results.md"
+      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2267_project-context-toggle-enables-and-disables-context-injectio.md"
     },
     {
-      "id": "ELITEA-2833",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2833_save-without-reindex-automated.md"
-    },
-    {
-      "id": "ELITEA-2834",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2834_save-and-reindex-flow-automated.md"
-    },
-    {
-      "id": "ELITEA-2835",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2835_validation-blocks-save-and-reindex-automated.md"
-    },
-    {
-      "id": "ELITEA-2836",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2836_button-states-dirty-clean-automated.md"
-    },
-    {
-      "id": "ELITEA-2888",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2888_configuration-persistence-automated.md"
-    },
-    {
-      "id": "ELITEA-2889",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2889_manual-reindex-uses-saved-config-automated.md"
-    },
-    {
-      "id": "ELITEA-3091",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3091_active-index-searchable-during-reindexing-automated.md"
-    },
-    {
-      "id": "ELITEA-3092",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3092_failed-reindex-preserves-active-index-automated.md"
-    },
-    {
-      "id": "ELITEA-3093",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3093_successful-reindex-replaces-active-index-automated.md"
-    },
-    {
-      "id": "ELITEA-3094",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3094_search-works-after-failed-reindex-automated.md"
-    },
-    {
-      "id": "ELITEA-3095",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3095_ui-status-reindex-lifecycle-automated.md"
-    },
-    {
-      "id": "ELITEA-3712",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3712_indexing-completes-successfully-for-medium-sized-repository.md"
-    },
-    {
-      "id": "ELITEA-3713",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3713_user-receives-notification-when-indexing-completes.md"
-    },
-    {
-      "id": "ELITEA-3714",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3714_user-receives-notification-when-indexing-is-stopped.md"
-    },
-    {
-      "id": "ELITEA-3715",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3715_stop-button-stops-indexing-and-shows-stopped-status.md"
-    },
-    {
-      "id": "ELITEA-3716",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3716_progress-indicator-updates-during-indexing.md"
-    },
-    {
-      "id": "ELITEA-3717",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3717_error-messages-are-user-friendly.md"
-    },
-    {
-      "id": "ELITEA-3718",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3718_documents-in-multiple-collections-are-searchable.md"
-    },
-    {
-      "id": "ELITEA-3207",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3207_regression-create-folder-autofocus-and-keyboard-behavior.md"
-    },
-    {
-      "id": "ELITEA-3208",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3208_regression-closing-empty-folder-returns-to-complete-list.md"
-    },
-    {
-      "id": "ELITEA-3209",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3209_regression-deleting-open-folder-returns-to-complete-list.md"
-    },
-    {
-      "id": "ELITEA-3210",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3210_regression-folder-count-accurate-after-entity-deletion-and-changes.md"
-    },
-    {
-      "id": "ELITEA-3211",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3211_regression-selecting-folder-resets-pagination-to-page-1.md"
-    },
-    {
-      "id": "ELITEA-3212",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3212_regression-folder-toast-and-delete-confirmation-copy.md"
-    },
-    {
-      "id": "ELITEA-3213",
+      "id": "ELITEA-2268",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3213_regression-folder-search-and-highlight-state-persist-across-views.md"
+      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2268_project-background-editor-accepts-and-displays-markdown-cont.md"
     },
     {
-      "id": "ELITEA-3214",
+      "id": "ELITEA-2269",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3214_regression-entity-type-and-project-isolation-remain-intact.md"
+      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2269_build-with-ai-button-generates-project-context-content.md"
     },
     {
-      "id": "ELITEA-3391",
+      "id": "ELITEA-2270",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2270_build-with-ai-can-be-cancelled-without-modifying-the-editor.md"
+    },
+    {
+      "id": "ELITEA-2271",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2271_upload-file-icon-allows-importing-content-into-the-project-b.md"
+    },
+    {
+      "id": "ELITEA-2272",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/social-folders/folder-permissions/ELITEA-3391_regression-manage-permissions-modal-view-add-edit-exceptions.md"
+      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2272_project-context-character-limit-is-enforced-at-2500-characte.md"
     },
     {
-      "id": "ELITEA-3392",
+      "id": "ELITEA-2273",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2273_save-button-persists-project-background-content-after-page-r.md"
+    },
+    {
+      "id": "ELITEA-2274",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2274_discard-button-reverts-unsaved-changes.md"
+    },
+    {
+      "id": "ELITEA-2275",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2275_save-and-discard-buttons-are-only-active-when-there-are-unsa.md"
+    },
+    {
+      "id": "ELITEA-2276",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/project-params/ELITEA-2276_empty-project-background-can-be-saved-whith-toggle-off-and-o.md"
+    },
+    {
+      "id": "ELITEA-2330",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2330_secrets-page-loads-with-correct-layout-and-components.md"
+    },
+    {
+      "id": "ELITEA-2331",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2331_secrets-listing-name-column-is-sortable.md"
+    },
+    {
+      "id": "ELITEA-2332",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2332_secrets-listing-pagination-navigates-between-pages-correctly.md"
+    },
+    {
+      "id": "ELITEA-2333",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2333_secrets-page-shows-empty-state-when-no-secrets-exist.md"
+    },
+    {
+      "id": "ELITEA-2334",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2334_search-field-filters-secrets-by-name.md"
+    },
+    {
+      "id": "ELITEA-2335",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2335_clicking-the-masked-secret-value-copies-it-to-clipboard.md"
+    },
+    {
+      "id": "ELITEA-2336",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2336_create-secret-inline-adds-editable-row-checkmark-saves-x-can.md"
+    },
+    {
+      "id": "ELITEA-2337",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/social-folders/folder-permissions/ELITEA-3392_regression-folder-visibility-by-exception-state.md"
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2337_secret-name-only-allows-letters-numbers-and-underscores-hyph.md"
     },
     {
-      "id": "ELITEA-3393",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/social-folders/folder-permissions/ELITEA-3393_regression-api-rbac-and-central-resolver-enforcement.md"
+      "id": "ELITEA-2338",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2338_delete-a-secret-via-three-dot-menu-and-verify-removal.md"
     },
     {
-      "id": "ELITEA-3394",
+      "id": "ELITEA-2339",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/social-folders/folder-permissions/ELITEA-3394_regression-folder-permissions-feature-is-team-project-only.md"
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2339_cancel-deletion-keeps-the-secret-intact.md"
     },
     {
-      "id": "ELITEA-3395",
+      "id": "ELITEA-2340",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2340_secret-name-is-required-save-disabled-when-name-is-empty.md"
+    },
+    {
+      "id": "ELITEA-2341",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/social-folders/folder-permissions/ELITEA-3395_regression-api-put-delete-upsert-idempotency-all-or-nothing-bulk-write.md"
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2341_secret-name-must-be-unique-within-the-project.md"
     },
     {
-      "id": "ELITEA-2219",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2219_help-center-page-loads-successfully-via-sidebar-icon.md"
-    },
-    {
-      "id": "ELITEA-2220",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2220_help-center-documentation-card-link-redirects-to-external-re.md"
-    },
-    {
-      "id": "ELITEA-2221",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2221_help-center-release-notes-card-link-redirects-to-release-not.md"
-    },
-    {
-      "id": "ELITEA-2222",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2222_help-center-tutorials-card-link-redirects-to-tutorial-resour.md"
-    },
-    {
-      "id": "ELITEA-2223",
+      "id": "ELITEA-2342",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2223_help-center-video-library-more-redirects-to-full-video-porta.md"
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2342_value-column-shows-secretname-reference-format-when-secret-i.md"
     },
     {
-      "id": "ELITEA-2224",
+      "id": "ELITEA-2343",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2224_help-center-tutorials-more-redirects-to-full-tutorials-list.md"
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2343_eye-icon-reveals-the-actual-secret-value-and-changes-to-cros.md"
     },
     {
-      "id": "ELITEA-2225",
+      "id": "ELITEA-2344",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2344_hide-option-permanently-removes-the-secret-from-the-secrets.md"
+    },
+    {
+      "id": "ELITEA-2345",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2225_help-center-version-info-tooltip-displays-component-versions.md"
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2345_hiding-a-secret-used-by-existing-credentials-does-not-break.md"
     },
     {
-      "id": "ELITEA-2226",
+      "id": "ELITEA-2346",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2226_help-center-sidebar-interactive-tour-starts-when-clicking-th.md"
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2346_hidden-secret-does-not-appear-in-secret-selection-dropdown-f.md"
     },
     {
-      "id": "ELITEA-2227",
+      "id": "ELITEA-2347",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2347_edit-secret-value-inline-name-field-is-read-only-after-creat.md"
+    },
+    {
+      "id": "ELITEA-2348",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2348_viewer-and-monitor-roles-cannot-access-secrets-section.md"
+    },
+    {
+      "id": "ELITEA-2349",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/secrets/ELITEA-2349_secrets-page-shows-error-state-on-network-failure.md"
+    },
+    {
+      "id": "ELITEA-2371",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2371_personalization-page-loads-with-all-sections-visible-and-cor.md"
+    },
+    {
+      "id": "ELITEA-2372",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2372_all-collapsible-sections-can-be-collapsed-and-expanded.md"
+    },
+    {
+      "id": "ELITEA-2373",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2373_profile-section-shows-correct-user-avatar-display-name-and-e.md"
+    },
+    {
+      "id": "ELITEA-2374",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2374_context-management-toggle-enables-and-disables-token-fields.md"
+    },
+    {
+      "id": "ELITEA-2375",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2375_disabling-context-management-also-deactivates-summarization.md"
+    },
+    {
+      "id": "ELITEA-2376",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2376_max-context-tokens-and-preserve-recent-messages-values-persi.md"
+    },
+    {
+      "id": "ELITEA-2377",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2377_summarization-toggle-enables-and-disables-summarization-fiel.md"
+    },
+    {
+      "id": "ELITEA-2378",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2378_target-summary-tokens-range-is-1004096.md"
+    },
+    {
+      "id": "ELITEA-2379",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2379_summarization-instructions-and-target-tokens-persist-after-s.md"
+    },
+    {
+      "id": "ELITEA-2380",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2380_long-term-memory-section-shows-coming-soon-placeholder.md"
+    },
+    {
+      "id": "ELITEA-2381",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2381_default-personality-dropdown-shows-all-six-documented-option.md"
+    },
+    {
+      "id": "ELITEA-2382",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2382_default-user-instructions-text-persists-after-save-and-reloa.md"
+    },
+    {
+      "id": "ELITEA-2383",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2227_help-center-sidebar-interactive-tour-completes-successfully.md"
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2383_general-settings-personality-and-instructions-are-independen.md"
     },
     {
-      "id": "ELITEA-2228",
+      "id": "ELITEA-2384",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2228_help-center-completed-sidebar-interactive-tour-can-be-restar.md"
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2384_personalization-settings-only-apply-to-new-conversations-exi.md"
     },
     {
-      "id": "ELITEA-2229",
+      "id": "ELITEA-2385",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2385_voice-personalization-voice-dropdown-speed-and-volume-slider.md"
+    },
+    {
+      "id": "ELITEA-2386",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2386_sound-notifications-toggle-and-volume-slider-are-interactive.md"
+    },
+    {
+      "id": "ELITEA-2387",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2387_personalization-settings-save-automatically-without-a-save-b.md"
+    },
+    {
+      "id": "ELITEA-2388",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2388_default-personality-change-applies-to-new-conversations.md"
+    },
+    {
+      "id": "ELITEA-2389",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2389_default-user-instructions-apply-to-new-conversations.md"
+    },
+    {
+      "id": "ELITEA-2390",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2229_help-center-clicking-skip-during-sidebar-interactive-tour-te.md"
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2390_context-management-settings-apply-to-new-conversations-only.md"
     },
     {
-      "id": "ELITEA-2230",
+      "id": "ELITEA-2391",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2230_help-center-back-button-navigates-to-previous-step-during-in.md"
+      "path": "tests/automated-full-regression-ui/settings/user-profile/ELITEA-2391_max-context-tokens-does-not-accept-non-numeric-or-negative-v.md"
+    },
+    {
+      "id": "ELITEA-2292",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2292_users-page-loads-with-correct-layout-and-components.md"
+    },
+    {
+      "id": "ELITEA-2293",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2293_users-table-columns-are-sortable.md"
+    },
+    {
+      "id": "ELITEA-2294",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2294_users-page-search-filters-the-table-in-real-time.md"
+    },
+    {
+      "id": "ELITEA-2295",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2295_invite-users-dialog-opens-with-correct-layout.md"
+    },
+    {
+      "id": "ELITEA-2296",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2296_invite-a-single-user-with-a-role.md"
+    },
+    {
+      "id": "ELITEA-2297",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2297_invite-multiple-users-simultaneously-using-comma-separated-e.md"
+    },
+    {
+      "id": "ELITEA-2298",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2298_delete-a-user-via-per-row-delete-icon.md"
+    },
+    {
+      "id": "ELITEA-2299",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2299_batch-delete-multiple-users-using-checkboxes.md"
+    },
+    {
+      "id": "ELITEA-2300",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2300_cancel-deletion-keeps-the-user-intact.md"
+    },
+    {
+      "id": "ELITEA-2301",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2301_edit-roles-dialog-opens-with-correct-layout-and-current-role.md"
+    },
+    {
+      "id": "ELITEA-2302",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2302_change-a-users-role-via-edit-roles-dialog.md"
+    },
+    {
+      "id": "ELITEA-2303",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2303_assign-multiple-roles-to-a-user-via-edit-roles-dialog.md"
+    },
+    {
+      "id": "ELITEA-2304",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2304_batch-edit-roles-for-multiple-selected-users.md"
+    },
+    {
+      "id": "ELITEA-2305",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2305_available-roles-in-invite-and-edit-dialogs-are-admin-editor.md"
+    },
+    {
+      "id": "ELITEA-2306",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2306_admin-cannot-delete-themselves-from-the-project.md"
+    },
+    {
+      "id": "ELITEA-2307",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2307_user-with-invalid-email-format-shows-validation-error.md"
+    },
+    {
+      "id": "ELITEA-2308",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2308_invite-user-without-selecting-a-role.md"
+    },
+    {
+      "id": "ELITEA-2309",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/settings/users-and-roles/ELITEA-2309_invite-user-who-is-already-a-project-member-shows-appropriat.md"
     },
     {
       "id": "ELITEA-1735",
@@ -4661,34 +4366,304 @@
       "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-2001_build-with-ai-generation-failure-shows-error-and-allows-retry.md"
     },
     {
-      "id": "ELITEA-3624",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3624_e2e-agent-per-run-analytics-flow.md"
-    },
-    {
-      "id": "ELITEA-3625",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3625_e2e-pipeline-per-run-analytics-flow.md"
-    },
-    {
-      "id": "ELITEA-3626",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3626_data-scoping-verification.md"
-    },
-    {
-      "id": "ELITEA-3627",
+      "id": "ELITEA-3207",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3627_regression-project-analytics-not-affected.md"
+      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3207_regression-create-folder-autofocus-and-keyboard-behavior.md"
     },
     {
-      "id": "ELITEA-3628",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3628_regression-run-history-not-affected.md"
+      "id": "ELITEA-3208",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3208_regression-closing-empty-folder-returns-to-complete-list.md"
     },
     {
-      "id": "ELITEA-3629",
+      "id": "ELITEA-3209",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3209_regression-deleting-open-folder-returns-to-complete-list.md"
+    },
+    {
+      "id": "ELITEA-3210",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3210_regression-folder-count-accurate-after-entity-deletion-and-changes.md"
+    },
+    {
+      "id": "ELITEA-3211",
       "priority": "high",
-      "path": "tests/automated-full-regression-ui/per-run-analytics/ELITEA-3629_empty-states-and-edge-cases.md"
+      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3211_regression-selecting-folder-resets-pagination-to-page-1.md"
+    },
+    {
+      "id": "ELITEA-3212",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3212_regression-folder-toast-and-delete-confirmation-copy.md"
+    },
+    {
+      "id": "ELITEA-3213",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3213_regression-folder-search-and-highlight-state-persist-across-views.md"
+    },
+    {
+      "id": "ELITEA-3214",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/social-folders/ELITEA-3214_regression-entity-type-and-project-isolation-remain-intact.md"
+    },
+    {
+      "id": "ELITEA-3391",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/social-folders/folder-permissions/ELITEA-3391_regression-manage-permissions-modal-view-add-edit-exceptions.md"
+    },
+    {
+      "id": "ELITEA-3392",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/social-folders/folder-permissions/ELITEA-3392_regression-folder-visibility-by-exception-state.md"
+    },
+    {
+      "id": "ELITEA-3393",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/social-folders/folder-permissions/ELITEA-3393_regression-api-rbac-and-central-resolver-enforcement.md"
+    },
+    {
+      "id": "ELITEA-3394",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/social-folders/folder-permissions/ELITEA-3394_regression-folder-permissions-feature-is-team-project-only.md"
+    },
+    {
+      "id": "ELITEA-3395",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/social-folders/folder-permissions/ELITEA-3395_regression-api-put-delete-upsert-idempotency-all-or-nothing-bulk-write.md"
+    },
+    {
+      "id": "ELITEA-0577",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0577_support-assistant-files-can-be-attached-via-click-to-browse-drag-and-d.md"
+    },
+    {
+      "id": "ELITEA-0624",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0624_support-assistant-expands-to-full-view-mode-and-collapses-back-to-widg.md"
+    },
+    {
+      "id": "ELITEA-0625",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0625_support-assistant-panel-opens-on-launcher-click-and-closes-on-x-button.md"
+    },
+    {
+      "id": "ELITEA-0626",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0626_support-assistant-floating-launcher-is-visible-on-every-main-applicati.md"
+    },
+    {
+      "id": "ELITEA-0641",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0641_clicking-new-chat-opens-a-clean-session-without-affecting-the-previous.md"
+    },
+    {
+      "id": "ELITEA-0643",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0643_conversation-is-retained-when-the-support-assistant-panel-is-closed-an.md"
+    },
+    {
+      "id": "ELITEA-0647",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0647_user-sends-a-message-via-the-send-button-and-receives-a-complete-assis.md"
+    },
+    {
+      "id": "ELITEA-1796",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-1796_launcher-visible-widget-opens-and-closes.md"
+    },
+    {
+      "id": "ELITEA-1797",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-1797_widget-conversation-state-persists-after-close-reopen.md"
+    },
+    {
+      "id": "ELITEA-1798",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-1798_send-message-and-receive-ai-response.md"
+    },
+    {
+      "id": "ELITEA-1799",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-1799_new-chat-creates-fresh-session.md"
+    },
+    {
+      "id": "ELITEA-1800",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-1800_history-restore-and-continue-messaging.md"
+    },
+    {
+      "id": "ELITEA-1801",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-1801_expand-to-full-view-and-collapse-back.md"
+    },
+    {
+      "id": "ELITEA-1802",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-1802_attach-button-present-and-opens-file-picker.md"
+    },
+    {
+      "id": "ELITEA-2418",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2418_empty-message-cannot-be-sent.md"
+    },
+    {
+      "id": "ELITEA-2419",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2419_copy-assistant-response-to-clipboard.md"
+    },
+    {
+      "id": "ELITEA-2420",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2420_drag-and-drop-file-attachment.md"
+    },
+    {
+      "id": "ELITEA-2421",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2421_send-message-with-attached-file.md"
+    },
+    {
+      "id": "ELITEA-2422",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2422_widget-state-preserved-after-in-app-navigation.md"
+    },
+    {
+      "id": "ELITEA-2423",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2423_history-loads-correctly-after-page-refresh.md"
+    },
+    {
+      "id": "ELITEA-2424",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2424_assistant-uses-correct-project-context.md"
+    },
+    {
+      "id": "ELITEA-2425",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2425_assistant-receives-current-page-context.md"
+    },
+    {
+      "id": "ELITEA-2426",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2426_expand-widget-during-active-streaming-does-not-restart-strea.md"
+    },
+    {
+      "id": "ELITEA-2427",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2427_history-session-shows-correct-preview-and-title.md"
+    },
+    {
+      "id": "ELITEA-2698",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2698_tool-groups-ui-structure.md"
+    },
+    {
+      "id": "ELITEA-2699",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2699_group-header-toggle.md"
+    },
+    {
+      "id": "ELITEA-2700",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2700_tool-search-functionality.md"
+    },
+    {
+      "id": "ELITEA-2701",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2701_mcp-toggle-ui.md"
+    },
+    {
+      "id": "ELITEA-2702",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2702_tool-selection-persistence.md"
+    },
+    {
+      "id": "ELITEA-2703",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2703_mcp-toolkit-flat-list.md"
+    },
+    {
+      "id": "ELITEA-2855",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/toolkit/sharepoint-read-file-from-sharing-link/ELITEA-2855_read-file-from-sharing-link-oversized-cap-bounded-read-per-type-validation-and-excel-guidance.md"
+    },
+    {
+      "id": "ELITEA-1140",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-1140_jira-and-confluence-toolkit-crud.md"
+    },
+    {
+      "id": "ELITEA-1141",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-1141_github-toolkit-and-credentials.md"
+    },
+    {
+      "id": "ELITEA-1182",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-1182_agent-and-pipeline-toolkits-panel-shows-all-three-credential-indicator.md"
+    },
+    {
+      "id": "ELITEA-2796",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2796_regression-toolkit-details-layout-and-navigation.md"
+    },
+    {
+      "id": "ELITEA-2797",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2797_regression-index-search-functionality.md"
+    },
+    {
+      "id": "ELITEA-2798",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2798_regression-index-creation-and-status-display.md"
+    },
+    {
+      "id": "ELITEA-2799",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2799_regression-form-raw-json-toggle-sync.md"
+    },
+    {
+      "id": "ELITEA-2800",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2800_regression-run-history-and-schedule.md"
+    },
+    {
+      "id": "ELITEA-2823",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2823_regression-toolkit-sections-default-states.md"
+    },
+    {
+      "id": "ELITEA-2824",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2824_regression-tools-section-count-and-toggle.md"
+    },
+    {
+      "id": "ELITEA-2825",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2825_regression-reindex-button-index-data-dependency.md"
+    },
+    {
+      "id": "ELITEA-2956",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2956_regression-background-indexing-continues-across-navigation.md"
+    },
+    {
+      "id": "ELITEA-2957",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2957_regression-stop-consistent-result-across-tabs.md"
+    },
+    {
+      "id": "ELITEA-2958",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2958_regression-reindex-consistent-result-across-tabs.md"
+    },
+    {
+      "id": "ELITEA-2959",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2959_regression-multiple-indexes-remain-independent.md"
+    },
+    {
+      "id": "ELITEA-2960",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2960_regression-stepback-tools-execution-and-results.md"
     }
   ]
 }

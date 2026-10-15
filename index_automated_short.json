@@ -1,21 +1,195 @@
 {
   "cases": [
     {
-      "id": "ELITEA-1950",
+      "id": "ELITEA-2350",
       "automation_test_id": [
-        "tests.ui.agents.test_mcp_attach_via_tools_section.TestMcpAttachViaToolsSection.test_mcp_attach_via_tools_section"
+        "tests.ui.agent_hub.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project"
       ]
     },
     {
-      "id": "ELITEA-1954",
+      "id": "ELITEA-2352",
       "automation_test_id": [
-        "tests.ui.pipelines_2.test_pipeline_mcp_node_change_toolkit_and_tool.test_mcp_node_change_toolkit_and_tool"
+        "tests.ui.agent_hub.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category"
       ]
     },
     {
-      "id": "ELITEA-1955",
+      "id": "ELITEA-2353",
       "automation_test_id": [
-        "tests.ui.pipelines_2.test_pipeline_mcp_node_empty_toolkit_before_attach.test_mcp_node_empty_toolkit_before_attach"
+        "tests.ui.agent_hub.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories"
+      ]
+    },
+    {
+      "id": "ELITEA-2354",
+      "automation_test_id": [
+        "tests.ui.agent_hub.test_agent_hub_like_agent_list_view.TestAgentHubLikeAgentListView.test_agent_hub_like_agent_from_list_view"
+      ]
+    },
+    {
+      "id": "ELITEA-2356",
+      "automation_test_id": [
+        "tests.ui.agent_hub.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal"
+      ]
+    },
+    {
+      "id": "ELITEA-2357",
+      "automation_test_id": [
+        "tests.ui.agent_hub.test_agent_hub_close_agent_detail_modal.TestAgentHubCloseAgentDetailModal.test_agent_hub_close_agent_detail_modal"
+      ]
+    },
+    {
+      "id": "ELITEA-2358",
+      "automation_test_id": [
+        "tests.ui.agent_hub.test_agent_hub_like_agent_from_modal.TestAgentHubLikeAgentFromModal.test_agent_hub_like_agent_from_modal"
+      ]
+    },
+    {
+      "id": "ELITEA-2359",
+      "automation_test_id": [
+        "tests.ui.agent_hub.test_agent_hub_copy_link_from_modal.TestAgentHubCopyLinkFromModal.test_copy_link_from_modal_navigates_to_agent"
+      ]
+    },
+    {
+      "id": "ELITEA-2360",
+      "automation_test_id": [
+        "tests.ui.agent_hub.test_agent_hub_start_conversation_creates_new_chat.TestAgentHubStartConversationCreatesNewChat.test_agent_hub_start_conversation_creates_new_chat"
+      ]
+    },
+    {
+      "id": "ELITEA-2363",
+      "automation_test_id": [
+        "tests.ui.agent_hub.test_agent_hub_search_bar_filters_in_real_time.TestAgentHubSearchBarFiltersInRealTime.test_agent_hub_search_bar_filters_in_real_time"
+      ]
+    },
+    {
+      "id": "ELITEA-2366",
+      "automation_test_id": [
+        "tests.ui.agent_hub.test_agent_hub_trending_category.TestAgentHubTrendingCategory.test_agent_hub_trending_category_displays_agents"
+      ]
+    },
+    {
+      "id": "ELITEA-2367",
+      "automation_test_id": [
+        "tests.ui.agent_hub.test_empty_state.TestCatalogEmptyState.test_empty_state_when_search_matches_no_agents"
+      ]
+    },
+    {
+      "id": "ELITEA-1869",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_back_navigation.test_back_button_from_agent_detail_returns_to_intact_agents_list"
+      ]
+    },
+    {
+      "id": "ELITEA-1870",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_create_button_navigation.test_create_button_navigates_to_create_agent_page"
+      ]
+    },
+    {
+      "id": "ELITEA-1874",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_embedded_chat_send_message.TestAgentEmbeddedChatSendMessage.test_send_message_via_enter_and_verify_non_empty_response"
+      ]
+    },
+    {
+      "id": "ELITEA-1875",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_embedded_chat_shift_enter.TestAgentEmbeddedChatShiftEnter.test_shift_enter_new_line_enter_sends"
+      ]
+    },
+    {
+      "id": "ELITEA-1883",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_add_variables_persist_after_reload.TestAgentAddVariablesPersistAfterReload.test_add_two_variables_and_verify_they_persist_after_reload"
+      ]
+    },
+    {
+      "id": "ELITEA-1884",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_remove_variable.TestAgentRemoveVariable.test_remove_variable_and_verify_removal_persists"
+      ]
+    },
+    {
+      "id": "ELITEA-1886",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_embedded_chat_conversation_starter_chips.TestConversationStarterChipsVisibleAndClickable.test_conversation_starter_chips_visible_and_clickable"
+      ]
+    },
+    {
+      "id": "ELITEA-1888",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_save_as_version.TestAgentSaveAsVersion.test_save_as_version_creates_named_version_visible_in_dropdown"
+      ]
+    },
+    {
+      "id": "ELITEA-1889",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_save_as_version_preserves_skills.TestAgentSaveAsVersionPreservesSkills.test_agent_save_as_version_preserves_skills"
+      ]
+    },
+    {
+      "id": "ELITEA-1890",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_save_as_version.TestAgentSaveAsVersion.test_save_as_version_creates_named_version_visible_in_dropdown"
+      ]
+    },
+    {
+      "id": "ELITEA-1891",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_version_selector_order.TestAgentVersionSelectorOrder.test_version_selector_lists_versions_in_correct_order"
+      ]
+    },
+    {
+      "id": "ELITEA-1892",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_publish_unpublish_version.TestAgentPublishUnpublishVersion.test_publish_draft_version_then_unpublish_reverts_to_draft"
+      ]
+    },
+    {
+      "id": "ELITEA-1895",
+      "automation_test_id": [
+        "tests.ui.agents.test_import_agent_zip_nested_agent_dependencies.TestImportAgentZipNestedAgentDependencies.test_import_agent_zip_nested_agent_dependencies"
+      ]
+    },
+    {
+      "id": "ELITEA-1896",
+      "automation_test_id": [
+        "tests.ui.skills.test_export_agent_with_attached_skills.TestExportAgentWithAttachedSkills.test_export_agent_with_attached_skills"
+      ]
+    },
+    {
+      "id": "ELITEA-1898",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_copy_version_link.TestAgentCopyVersionLink.test_copy_version_link_produces_version_specific_url"
+      ]
+    },
+    {
+      "id": "ELITEA-1899",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_icon_management.TestAgentIconManagement.test_agent_icon_change_persists_on_list_card"
+      ]
+    },
+    {
+      "id": "ELITEA-1900",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_name_character_limit.test_agent_name_truncated_at_32_characters"
+      ]
+    },
+    {
+      "id": "ELITEA-1901",
+      "automation_test_id": [
+        "tests.ui.agents.test_import_agent_valid_md_file.TestImportAgentValidMdFile.test_import_agent_valid_md_file"
+      ]
+    },
+    {
+      "id": "ELITEA-1902",
+      "automation_test_id": [
+        "tests.ui.agents.test_import_agent_zip_nested_agent_dependencies.TestImportAgentZipNestedAgentDependencies.test_import_agent_zip_nested_agent_dependencies"
+      ]
+    },
+    {
+      "id": "ELITEA-1903",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_build_with_ai_role_visibility.TestAgentBuildWithAIButtonRoleVisibility.test_build_with_ai_button_visible_for_admin_role"
       ]
     },
     {
@@ -159,156 +333,6 @@
       ]
     },
     {
-      "id": "ELITEA-1050",
-      "automation_test_id": [
-        "tests.api.test_api_health.TestAPIHealth.test_api_root_reachable",
-        "tests.api.test_api_health.TestAPIHealth.test_api_returns_json",
-        "tests.api.test_api_health.TestAuthenticatedAPI.test_list_agents"
-      ]
-    },
-    {
-      "id": "ELITEA-1052",
-      "automation_test_id": [
-        "tests.api.test_api_health.TestAPIHealth.test_api_root_reachable",
-        "tests.api.test_api_health.TestAPIHealth.test_api_returns_json",
-        "tests.api.test_api_health.TestAuthenticatedAPI.test_list_agents",
-        "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads",
-        "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible"
-      ]
-    },
-    {
-      "id": "ELITEA-2350",
-      "automation_test_id": [
-        "tests.ui.agent_hub.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project"
-      ]
-    },
-    {
-      "id": "ELITEA-2352",
-      "automation_test_id": [
-        "tests.ui.agent_hub.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category"
-      ]
-    },
-    {
-      "id": "ELITEA-2353",
-      "automation_test_id": [
-        "tests.ui.agent_hub.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories"
-      ]
-    },
-    {
-      "id": "ELITEA-2354",
-      "automation_test_id": [
-        "tests.ui.agent_hub.test_agent_hub_like_agent_list_view.TestAgentHubLikeAgentListView.test_agent_hub_like_agent_from_list_view"
-      ]
-    },
-    {
-      "id": "ELITEA-2356",
-      "automation_test_id": [
-        "tests.ui.agent_hub.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal"
-      ]
-    },
-    {
-      "id": "ELITEA-2357",
-      "automation_test_id": [
-        "tests.ui.agent_hub.test_agent_hub_close_agent_detail_modal.TestAgentHubCloseAgentDetailModal.test_agent_hub_close_agent_detail_modal"
-      ]
-    },
-    {
-      "id": "ELITEA-2358",
-      "automation_test_id": [
-        "tests.ui.agent_hub.test_agent_hub_like_agent_from_modal.TestAgentHubLikeAgentFromModal.test_agent_hub_like_agent_from_modal"
-      ]
-    },
-    {
-      "id": "ELITEA-2359",
-      "automation_test_id": [
-        "tests.ui.agent_hub.test_agent_hub_copy_link_from_modal.TestAgentHubCopyLinkFromModal.test_copy_link_from_modal_navigates_to_agent"
-      ]
-    },
-    {
-      "id": "ELITEA-2360",
-      "automation_test_id": [
-        "tests.ui.agent_hub.test_agent_hub_start_conversation_creates_new_chat.TestAgentHubStartConversationCreatesNewChat.test_agent_hub_start_conversation_creates_new_chat"
-      ]
-    },
-    {
-      "id": "ELITEA-2363",
-      "automation_test_id": [
-        "tests.ui.agent_hub.test_agent_hub_search_bar_filters_in_real_time.TestAgentHubSearchBarFiltersInRealTime.test_agent_hub_search_bar_filters_in_real_time"
-      ]
-    },
-    {
-      "id": "ELITEA-2366",
-      "automation_test_id": [
-        "tests.ui.agent_hub.test_agent_hub_trending_category.TestAgentHubTrendingCategory.test_agent_hub_trending_category_displays_agents"
-      ]
-    },
-    {
-      "id": "ELITEA-2367",
-      "automation_test_id": [
-        "tests.ui.agent_hub.test_empty_state.TestCatalogEmptyState.test_empty_state_when_search_matches_no_agents"
-      ]
-    },
-    {
-      "id": "ELITEA-2310",
-      "automation_test_id": [
-        "tests.ui.admin.test_analytics_default_load.TestAnalyticsDefaultLoad.test_analytics_page_default_load"
-      ]
-    },
-    {
-      "id": "ELITEA-2392",
-      "automation_test_id": [
-        "tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error"
-      ]
-    },
-    {
-      "id": "ELITEA-2397",
-      "automation_test_id": [
-        "tests.ui.settings.test_set_llm_model_default_high_low_tier.TestSetLLMModelTiers.test_set_llm_model_default_high_low_tier"
-      ]
-    },
-    {
-      "id": "ELITEA-2414",
-      "automation_test_id": [
-        "tests.ui.settings.test_set_llm_model_default_high_low_tier.TestSetLLMModelTiers.test_set_llm_model_default_high_low_tier"
-      ]
-    },
-    {
-      "id": "ELITEA-2374",
-      "automation_test_id": [
-        "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_context_management_toggle_enables_disables_fields"
-      ]
-    },
-    {
-      "id": "ELITEA-2377",
-      "automation_test_id": [
-        "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_automatic_summarization_toggle_enables_disables_own_fields"
-      ]
-    },
-    {
-      "id": "ELITEA-2378",
-      "automation_test_id": [
-        "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_target_summary_tokens_range_validation"
-      ]
-    },
-    {
-      "id": "ELITEA-2284",
-      "automation_test_id": [
-        "tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_expired_token_shows_expired_icon_and_label"
-      ]
-    },
-    {
-      "id": "ELITEA-2286",
-      "automation_test_id": [
-        "tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_invalid_token_name_shows_error_and_keeps_generate_disabled"
-      ]
-    },
-    {
-      "id": "ELITEA-2257",
-      "automation_test_id": [
-        "tests.ui.admin.test_notification_text_content.TestNotificationTextContent.test_notification_text_content_renders_correctly"
-      ]
-    },
-    {
       "id": "ELITEA-0501",
       "automation_test_id": [
         "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_model_selector_opens_menu",
@@ -367,6 +391,42 @@
       ]
     },
     {
+      "id": "ELITEA-1975",
+      "automation_test_id": [
+        "tests.ui.toolkits.test_credential_required_fields_validation.TestCredentialRequiredFieldsValidation.test_create_credential_required_fields_validation"
+      ]
+    },
+    {
+      "id": "ELITEA-2219",
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_page_loads.TestHelpCenterPageLoads.test_help_center_page_loads_via_sidebar_icon"
+      ]
+    },
+    {
+      "id": "ELITEA-2227",
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTour.test_sidebar_interactive_tour_completes_via_next"
+      ]
+    },
+    {
+      "id": "ELITEA-1950",
+      "automation_test_id": [
+        "tests.ui.agents.test_mcp_attach_via_tools_section.TestMcpAttachViaToolsSection.test_mcp_attach_via_tools_section"
+      ]
+    },
+    {
+      "id": "ELITEA-1954",
+      "automation_test_id": [
+        "tests.ui.pipelines_2.test_pipeline_mcp_node_change_toolkit_and_tool.test_mcp_node_change_toolkit_and_tool"
+      ]
+    },
+    {
+      "id": "ELITEA-1955",
+      "automation_test_id": [
+        "tests.ui.pipelines_2.test_pipeline_mcp_node_empty_toolkit_before_attach.test_mcp_node_empty_toolkit_before_attach"
+      ]
+    },
+    {
       "id": "ELITEA-0850",
       "automation_test_id": [
         "tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_edit_pipeline_name",
@@ -411,21 +471,6 @@
         "tests.ui.pipelines_2.test_pipeline_management.TestPipelineDashboard.test_view_toggle_table_and_card",
         "tests.ui.pipelines_2.test_pipeline_management.TestSearchPipeline.test_search_pipeline_by_name",
         "tests.ui.pipelines_2.test_pipeline_management.TestSearchPipeline.test_search_pipeline_no_results"
-      ]
-    },
-    {
-      "id": "ELITEA-0861",
-      "automation_test_id": [
-        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportRoundtrip.test_pipeline_export_import_roundtrip_basic",
-        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportRoundtrip.test_pipeline_export_import_preserves_all_fields",
-        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportRoundtrip.test_pipeline_export_format_is_valid_yaml",
-        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportConflicts.test_pipeline_import_with_conflicting_name",
-        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportConflicts.test_pipeline_import_preserves_original_when_conflict",
-        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_empty_description",
-        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_special_characters_in_name",
-        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_complex_topology",
-        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_all_node_types",
-        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_import_via_constructed_payload"
       ]
     },
     {
@@ -900,279 +945,63 @@
       ]
     },
     {
-      "id": "ELITEA-0577",
+      "id": "ELITEA-2392",
       "automation_test_id": [
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantAttachments.test_attach_button_present_and_opens_picker"
+        "tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error"
       ]
     },
     {
-      "id": "ELITEA-0624",
+      "id": "ELITEA-2397",
       "automation_test_id": [
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantViewModes.test_expand_collapse_fullview"
+        "tests.ui.settings.test_set_llm_model_default_high_low_tier.TestSetLLMModelTiers.test_set_llm_model_default_high_low_tier"
       ]
     },
     {
-      "id": "ELITEA-0625",
+      "id": "ELITEA-2414",
       "automation_test_id": [
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_launcher_visible_and_opens_widget"
+        "tests.ui.settings.test_set_llm_model_default_high_low_tier.TestSetLLMModelTiers.test_set_llm_model_default_high_low_tier"
       ]
     },
     {
-      "id": "ELITEA-0626",
+      "id": "ELITEA-2310",
       "automation_test_id": [
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_launcher_visible_and_opens_widget"
+        "tests.ui.admin.test_analytics_default_load.TestAnalyticsDefaultLoad.test_analytics_page_default_load"
       ]
     },
     {
-      "id": "ELITEA-0641",
+      "id": "ELITEA-2257",
       "automation_test_id": [
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantNewSession.test_new_chat_creates_fresh_session",
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantHistory.test_history_restore_and_continue"
+        "tests.ui.admin.test_notification_text_content.TestNotificationTextContent.test_notification_text_content_renders_correctly"
       ]
     },
     {
-      "id": "ELITEA-0643",
+      "id": "ELITEA-2284",
       "automation_test_id": [
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_widget_state_persists_after_close_reopen",
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantHistory.test_history_restore_and_continue"
+        "tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_expired_token_shows_expired_icon_and_label"
       ]
     },
     {
-      "id": "ELITEA-0647",
+      "id": "ELITEA-2286",
       "automation_test_id": [
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantMessaging.test_send_message_and_receive_response"
+        "tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_invalid_token_name_shows_error_and_keeps_generate_disabled"
       ]
     },
     {
-      "id": "ELITEA-1796",
+      "id": "ELITEA-2374",
       "automation_test_id": [
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_launcher_visible_and_opens_widget"
+        "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_context_management_toggle_enables_disables_fields"
       ]
     },
     {
-      "id": "ELITEA-1797",
+      "id": "ELITEA-2377",
       "automation_test_id": [
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_widget_state_persists_after_close_reopen"
+        "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_automatic_summarization_toggle_enables_disables_own_fields"
       ]
     },
     {
-      "id": "ELITEA-1798",
+      "id": "ELITEA-2378",
       "automation_test_id": [
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantMessaging.test_send_message_and_receive_response"
-      ]
-    },
-    {
-      "id": "ELITEA-1799",
-      "automation_test_id": [
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantNewSession.test_new_chat_creates_fresh_session"
-      ]
-    },
-    {
-      "id": "ELITEA-1800",
-      "automation_test_id": [
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantHistory.test_history_restore_and_continue"
-      ]
-    },
-    {
-      "id": "ELITEA-1801",
-      "automation_test_id": [
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantViewModes.test_expand_collapse_fullview"
-      ]
-    },
-    {
-      "id": "ELITEA-1802",
-      "automation_test_id": [
-        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantAttachments.test_attach_button_present_and_opens_picker"
-      ]
-    },
-    {
-      "id": "ELITEA-0139",
-      "automation_test_id": [
-        "tests.api.export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_roundtrip_basic",
-        "tests.api.export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_preserves_all_fields",
-        "tests.api.export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_format_is_valid_yaml_frontmatter",
-        "tests.api.export_import.test_export_import_prompts.TestExportImportConflicts.test_import_preserves_original_when_conflict",
-        "tests.api.export_import.test_export_import_prompts.TestExportImportConflicts.test_import_with_conflicting_name_creates_new",
-        "tests.api.export_import.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_empty_optional_fields",
-        "tests.api.export_import.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_special_characters_in_name",
-        "tests.api.export_import.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_large_instructions",
-        "tests.api.export_import.test_export_import_prompts.TestExportImportEdgeCases.test_import_via_constructed_payload"
-      ]
-    },
-    {
-      "id": "ELITEA-0142",
-      "automation_test_id": [
-        "tests.api.export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_roundtrip_basic",
-        "tests.api.export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_preserves_all_fields",
-        "tests.api.export_import.test_export_import_prompts.TestExportImportConflicts.test_import_with_conflicting_name_creates_new"
-      ]
-    },
-    {
-      "id": "ELITEA-1869",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_back_navigation.test_back_button_from_agent_detail_returns_to_intact_agents_list"
-      ]
-    },
-    {
-      "id": "ELITEA-1870",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_create_button_navigation.test_create_button_navigates_to_create_agent_page"
-      ]
-    },
-    {
-      "id": "ELITEA-1874",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_embedded_chat_send_message.TestAgentEmbeddedChatSendMessage.test_send_message_via_enter_and_verify_non_empty_response"
-      ]
-    },
-    {
-      "id": "ELITEA-1875",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_embedded_chat_shift_enter.TestAgentEmbeddedChatShiftEnter.test_shift_enter_new_line_enter_sends"
-      ]
-    },
-    {
-      "id": "ELITEA-1883",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_add_variables_persist_after_reload.TestAgentAddVariablesPersistAfterReload.test_add_two_variables_and_verify_they_persist_after_reload"
-      ]
-    },
-    {
-      "id": "ELITEA-1884",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_remove_variable.TestAgentRemoveVariable.test_remove_variable_and_verify_removal_persists"
-      ]
-    },
-    {
-      "id": "ELITEA-1886",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_embedded_chat_conversation_starter_chips.TestConversationStarterChipsVisibleAndClickable.test_conversation_starter_chips_visible_and_clickable"
-      ]
-    },
-    {
-      "id": "ELITEA-1888",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_save_as_version.TestAgentSaveAsVersion.test_save_as_version_creates_named_version_visible_in_dropdown"
-      ]
-    },
-    {
-      "id": "ELITEA-1889",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_save_as_version_preserves_skills.TestAgentSaveAsVersionPreservesSkills.test_agent_save_as_version_preserves_skills"
-      ]
-    },
-    {
-      "id": "ELITEA-1890",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_save_as_version.TestAgentSaveAsVersion.test_save_as_version_creates_named_version_visible_in_dropdown"
-      ]
-    },
-    {
-      "id": "ELITEA-1891",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_version_selector_order.TestAgentVersionSelectorOrder.test_version_selector_lists_versions_in_correct_order"
-      ]
-    },
-    {
-      "id": "ELITEA-1892",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_publish_unpublish_version.TestAgentPublishUnpublishVersion.test_publish_draft_version_then_unpublish_reverts_to_draft"
-      ]
-    },
-    {
-      "id": "ELITEA-1895",
-      "automation_test_id": [
-        "tests.ui.agents.test_import_agent_zip_nested_agent_dependencies.TestImportAgentZipNestedAgentDependencies.test_import_agent_zip_nested_agent_dependencies"
-      ]
-    },
-    {
-      "id": "ELITEA-1896",
-      "automation_test_id": [
-        "tests.ui.skills.test_export_agent_with_attached_skills.TestExportAgentWithAttachedSkills.test_export_agent_with_attached_skills"
-      ]
-    },
-    {
-      "id": "ELITEA-1898",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_copy_version_link.TestAgentCopyVersionLink.test_copy_version_link_produces_version_specific_url"
-      ]
-    },
-    {
-      "id": "ELITEA-1899",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_icon_management.TestAgentIconManagement.test_agent_icon_change_persists_on_list_card"
-      ]
-    },
-    {
-      "id": "ELITEA-1900",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_name_character_limit.test_agent_name_truncated_at_32_characters"
-      ]
-    },
-    {
-      "id": "ELITEA-1901",
-      "automation_test_id": [
-        "tests.ui.agents.test_import_agent_valid_md_file.TestImportAgentValidMdFile.test_import_agent_valid_md_file"
-      ]
-    },
-    {
-      "id": "ELITEA-1902",
-      "automation_test_id": [
-        "tests.ui.agents.test_import_agent_zip_nested_agent_dependencies.TestImportAgentZipNestedAgentDependencies.test_import_agent_zip_nested_agent_dependencies"
-      ]
-    },
-    {
-      "id": "ELITEA-1903",
-      "automation_test_id": [
-        "tests.ui.agents.test_agent_build_with_ai_role_visibility.TestAgentBuildWithAIButtonRoleVisibility.test_build_with_ai_button_visible_for_admin_role"
-      ]
-    },
-    {
-      "id": "ELITEA-1975",
-      "automation_test_id": [
-        "tests.ui.toolkits.test_credential_required_fields_validation.TestCredentialRequiredFieldsValidation.test_create_credential_required_fields_validation"
-      ]
-    },
-    {
-      "id": "ELITEA-1140",
-      "automation_test_id": [
-        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[jira]",
-        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[jira]",
-        "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[jira]",
-        "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[jira]",
-        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[confluence]",
-        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[confluence]",
-        "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[confluence]",
-        "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[confluence]"
-      ]
-    },
-    {
-      "id": "ELITEA-1141",
-      "automation_test_id": [
-        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[github]",
-        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[github]",
-        "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[github]",
-        "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[github]"
-      ]
-    },
-    {
-      "id": "ELITEA-1182",
-      "automation_test_id": [
-        "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e",
-        "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestAgentCredentialIndicators.test_agent_credential_indicators_e2e",
-        "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestPipelineCredentialIndicators.test_pipeline_credential_indicators_e2e"
-      ]
-    },
-    {
-      "id": "ELITEA-2219",
-      "automation_test_id": [
-        "tests.ui.help_center.test_help_center_page_loads.TestHelpCenterPageLoads.test_help_center_page_loads_via_sidebar_icon"
-      ]
-    },
-    {
-      "id": "ELITEA-2227",
-      "automation_test_id": [
-        "tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTour.test_sidebar_interactive_tour_completes_via_next"
+        "tests.ui.settings.test_context_management_toggle.TestContextManagementToggle.test_target_summary_tokens_range_validation"
       ]
     },
     {
@@ -1287,6 +1116,122 @@
       "id": "ELITEA-1999",
       "automation_test_id": [
         "tests.ui.agents.test_build_with_ai_skill_from_agent.TestBuildWithAISkillFromAgent.test_build_with_ai_skill_auto_attaches_and_redirects_to_agent"
+      ]
+    },
+    {
+      "id": "ELITEA-0577",
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantAttachments.test_attach_button_present_and_opens_picker"
+      ]
+    },
+    {
+      "id": "ELITEA-0624",
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantViewModes.test_expand_collapse_fullview"
+      ]
+    },
+    {
+      "id": "ELITEA-0625",
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_launcher_visible_and_opens_widget"
+      ]
+    },
+    {
+      "id": "ELITEA-0626",
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_launcher_visible_and_opens_widget"
+      ]
+    },
+    {
+      "id": "ELITEA-0641",
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantNewSession.test_new_chat_creates_fresh_session",
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantHistory.test_history_restore_and_continue"
+      ]
+    },
+    {
+      "id": "ELITEA-0643",
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_widget_state_persists_after_close_reopen",
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantHistory.test_history_restore_and_continue"
+      ]
+    },
+    {
+      "id": "ELITEA-0647",
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantMessaging.test_send_message_and_receive_response"
+      ]
+    },
+    {
+      "id": "ELITEA-1796",
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_launcher_visible_and_opens_widget"
+      ]
+    },
+    {
+      "id": "ELITEA-1797",
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_widget_state_persists_after_close_reopen"
+      ]
+    },
+    {
+      "id": "ELITEA-1798",
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantMessaging.test_send_message_and_receive_response"
+      ]
+    },
+    {
+      "id": "ELITEA-1799",
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantNewSession.test_new_chat_creates_fresh_session"
+      ]
+    },
+    {
+      "id": "ELITEA-1800",
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantHistory.test_history_restore_and_continue"
+      ]
+    },
+    {
+      "id": "ELITEA-1801",
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantViewModes.test_expand_collapse_fullview"
+      ]
+    },
+    {
+      "id": "ELITEA-1802",
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantAttachments.test_attach_button_present_and_opens_picker"
+      ]
+    },
+    {
+      "id": "ELITEA-1140",
+      "automation_test_id": [
+        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[jira]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[jira]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[jira]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[jira]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[confluence]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[confluence]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[confluence]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[confluence]"
+      ]
+    },
+    {
+      "id": "ELITEA-1141",
+      "automation_test_id": [
+        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[github]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[github]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[github]",
+        "tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[github]"
+      ]
+    },
+    {
+      "id": "ELITEA-1182",
+      "automation_test_id": [
+        "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e",
+        "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestAgentCredentialIndicators.test_agent_credential_indicators_e2e",
+        "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestPipelineCredentialIndicators.test_pipeline_credential_indicators_e2e"
       ]
     }
   ]
