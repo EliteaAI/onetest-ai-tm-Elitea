@@ -5,12 +5,8 @@ priority: high
 type: functional
 module: agents
 status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_name
-  - tests.ui.agents.test_agent_management.TestAgentActions.test_edit_agent_description
-  - tests.ui.agents.test_agent_management.TestAgentActions.test_delete_agent_via_api
-  - tests.ui.agents.test_agent_management.TestAgentActions.test_delete_agent_via_ui_menu
+execution_type: manual
+automation_test_id: []
 tags: []
 requirements: []
 ---

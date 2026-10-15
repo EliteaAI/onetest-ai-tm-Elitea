@@ -5,12 +5,8 @@ priority: high
 type: functional
 module: agents
 status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.agents.test_agent_management.TestAgentList.test_agents_dashboard_loads
-  - tests.ui.agents.test_agent_management.TestAgentList.test_agent_search
-  - tests.ui.agents.test_agent_management.TestAgentList.test_agent_search_no_results
-  - tests.ui.agents.test_agent_management.TestAgentList.test_view_toggle_table_and_card
+execution_type: manual
+automation_test_id: []
 tags: []
 requirements: []
 ---

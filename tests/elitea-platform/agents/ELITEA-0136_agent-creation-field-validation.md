@@ -5,9 +5,8 @@ priority: high
 type: functional
 module: agents
 status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.agents.test_agent_management.TestCreateAgent.test_create_agent_required_fields_validation
+execution_type: manual
+automation_test_id: []
 tags: []
 requirements: []
 ---

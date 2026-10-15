@@ -5,9 +5,8 @@ priority: critical
 type: regression
 module: agents
 status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_toolkits_section_visible
+execution_type: manual
+automation_test_id: []
 tags: [feat:collections, feat:toolkits, eng:backend]
 requirements: [EliteaAI/elitea_issues#4959]
 ---

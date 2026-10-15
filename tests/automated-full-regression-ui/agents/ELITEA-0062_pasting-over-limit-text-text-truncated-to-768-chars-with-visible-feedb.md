@@ -8,7 +8,6 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.agents.test_agent_character_limits.TestWelcomeMessageCharacterCounter.test_welcome_message_text_truncated_with_warning
-  - tests.ui.agents.test_agent_character_limits.TestConversationStarterCharacterCounter.test_conversation_starter_text_truncated_with_warning
 tags: [meta:reported-by-support, nfr:validation, nfr:usability, eng:frontend, feat:chat, r-2.0.4]
 requirements: [EliteaAI/elitea_issues#4963]
 ---

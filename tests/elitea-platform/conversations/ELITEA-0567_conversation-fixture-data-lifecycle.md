@@ -5,10 +5,8 @@ priority: medium
 type: functional
 module: conversations
 status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.chat.test_conversation_management.TestConversationIsolation.test_fixture_creates_fresh_conversation
-  - tests.ui.chat.test_conversation_management.TestConversationIsolation.test_fixture_cleanup_cycle
+execution_type: manual
+automation_test_id: []
 tags: []
 requirements: []
 ---
