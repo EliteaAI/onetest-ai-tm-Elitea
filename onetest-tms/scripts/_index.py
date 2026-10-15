@@ -26,7 +26,8 @@ def main():
     ap.add_argument("--out", default="")
     a = ap.parse_args()
     cases = []
-    for root, _, files in os.walk(a.dir):
+    for root, dirs, files in os.walk(a.dir):
+        dirs.sort()  # deterministic order regardless of filesystem, so unchanged cases never churn the index
         for f in sorted(files):
             if f.endswith(".md") and f != "README.md":
                 c = case(os.path.join(root, f))

@@ -6,10 +6,15 @@ on:
     paths:
       - "tests/automated-full-regression-ui/**"
       - ".onetest/fields.yml"
+      - "onetest-tms/scripts/_index.py"
       - ".github/workflows/build-index.yml"
   workflow_dispatch:
 permissions:
   contents: write
+# Back-to-back pushes must not race each other's index commit.
+concurrency:
+  group: build-index
+  cancel-in-progress: false
 jobs:
   build-index:
     runs-on: ubuntu-latest
@@ -28,9 +33,13 @@ jobs:
             --out index_automated.json
           echo "Indexed $(jq '.cases | length' index_automated.json) cases"
 
+      # Only cases with at least one non-blank automation_test_id; unchanged when no mapping changed.
       - name: Build short index for pipeline mapping
         run: |
-          jq '{cases: [.cases[] | select(.automation_test_id | length > 0) | {id, automation_test_id}]}' index_automated.json > index_automated_short.json
+          jq '{cases: [.cases[]
+                | .automation_test_id = [(.automation_test_id // [])[] | strings | select(test("\\S"))]
+                | select(.automation_test_id | length > 0)
+                | {id, automation_test_id}]}' index_automated.json > index_automated_short.json
           echo "Short index: $(wc -c < index_automated_short.json) bytes ($(jq '.cases | length' index_automated_short.json) cases with automation_test_id)"
 
       - name: Build all-cases short index (id, priority, path)
@@ -43,5 +52,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add index_automated.json index_automated_short.json index_automated_all_short.json
-          git diff --cached --quiet || git commit -m "chore: rebuild index_automated.json"
+          if git diff --cached --quiet; then
+            echo "Indexes unchanged"
+            exit 0
+          fi
+          changed=$(git diff --cached --name-only | tr '\n' ' ')
+          echo "Changed: $changed"
+          git commit -m "chore: rebuild ${changed% }"
+          git pull --rebase origin main
           git push
