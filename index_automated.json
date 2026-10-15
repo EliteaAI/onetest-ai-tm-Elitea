@@ -3139,6 +3139,52 @@
       "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3667_evaluation-analytics-export-and-ux.md"
     },
     {
+      "id": "ELITEA-1050",
+      "title": "API Health and Connectivity",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "smoke-suite",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.api.test_api_health.TestAPIHealth.test_api_root_reachable",
+        "tests.api.test_api_health.TestAPIHealth.test_api_returns_json",
+        "tests.api.test_api_health.TestAuthenticatedAPI.test_list_agents"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/smoke-suite/ELITEA-1050_api-health-and-connectivity.md"
+    },
+    {
+      "id": "ELITEA-1052",
+      "title": "Platform Availability & Basic Navigation",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "smoke-suite",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.api.test_api_health.TestAPIHealth.test_api_root_reachable",
+        "tests.api.test_api_health.TestAPIHealth.test_api_returns_json",
+        "tests.api.test_api_health.TestAuthenticatedAPI.test_list_agents",
+        "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads",
+        "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/smoke-suite/ELITEA-1052_platform-availability-basic-navigation.md"
+    },
+    {
       "id": "ELITEA-2350",
       "title": "Agent Hub — page loads successfully for Private project",
       "status": "ready",
@@ -8544,6 +8590,92 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-0679_image-creation-internal-tool-happy-path.md"
     },
     {
+      "id": "ELITEA-1051",
+      "title": "Chat Basic Functionality",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "smoke-suite",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_interface.TestPageLoadAndRendering.test_chat_page_loads_with_functional_input",
+        "tests.ui.chat.test_chat_interface.test_chat_page_loads_successfully",
+        "tests.ui.chat.test_chat_interface.test_message_input_is_functional",
+        "tests.ui.chat.test_chat_interface.test_chat_message_history_displays"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-1051_chat-basic-functionality.md"
+    },
+    {
+      "id": "ELITEA-1142",
+      "title": "Chat Basic Functionality",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_interface.TestPageLoadAndRendering.test_chat_page_loads_with_functional_input",
+        "tests.ui.chat.test_chat_interface.test_chat_page_loads_successfully",
+        "tests.ui.chat.test_chat_interface.test_message_input_is_functional",
+        "tests.ui.chat.test_chat_interface.test_chat_message_history_displays"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-1142_chat-basic-functionality.md"
+    },
+    {
+      "id": "ELITEA-1340",
+      "title": "Context Budget Panel Reflects Profile Max Context Tokens",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-1340_context-budget-panel-reflects-profile-max-tokens.md"
+    },
+    {
+      "id": "ELITEA-1341",
+      "title": "Voice Mini Player Not Visible by Default in Chat (Regression #5235)",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "voice",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_not_visible_by_default"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-1341_voice-mini-player-not-visible-by-default-regression.md"
+    },
+    {
       "id": "ELITEA-2090",
       "title": "Create New Conversation from Private Project via +Chat with default LLM",
       "status": "draft",
@@ -13375,6 +13507,174 @@
       "path": "tests/automated-full-regression-ui/chat/canvas/ELITEA-2089_chat-edit-agent-in-canvas-mode-verify-changes-synchronize-to-agent.md"
     },
     {
+      "id": "ELITEA-0850",
+      "title": "Pipeline Edit and Delete Operations",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_edit_pipeline_name",
+        "tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_edit_pipeline_description",
+        "tests.ui.pipelines_2.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_api",
+        "tests.ui.pipelines_2.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_ui_menu"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0850_pipeline-edit-and-delete-operations.md"
+    },
+    {
+      "id": "ELITEA-0851",
+      "title": "Pipeline Detail Page - Configuration and Tabs",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_pipeline_detail_page_loads",
+        "tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_pipeline_has_configuration_and_history_tabs"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0851_pipeline-detail-page-configuration-and-tabs.md"
+    },
+    {
+      "id": "ELITEA-0853",
+      "title": "Pipeline Node Operations - Add, Edit, Delete, Connect",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_code_node",
+        "tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_llm_node",
+        "tests.ui.pipelines.test_pipeline_nodes.TestEditNode.test_edit_node_name",
+        "tests.ui.pipelines.test_pipeline_nodes.TestEditNode.test_node_default_name_matches_type",
+        "tests.ui.pipelines.test_pipeline_nodes.TestDeleteNode.test_delete_node_does_not_remove_end",
+        "tests.ui.pipelines.test_pipeline_nodes.TestDeleteNode.test_delete_node_via_menu",
+        "tests.ui.pipelines.test_pipeline_nodes.TestConnectNodes.test_connect_node_to_end",
+        "tests.ui.pipelines.test_pipeline_nodes.TestConnectNodes.test_connect_two_custom_nodes",
+        "tests.ui.pipelines_2.test_pipeline_nodes.TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0853_pipeline-node-operations-add-edit-delete-connect.md"
+    },
+    {
+      "id": "ELITEA-0854",
+      "title": "Pipeline Fixture Data Lifecycle",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.pipelines_2.test_pipeline_management.TestPipelineIsolation.test_fixture_creates_fresh_pipeline",
+        "tests.ui.pipelines_2.test_pipeline_management.TestPipelineIsolation.test_fixture_cleanup_cycle"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0854_pipeline-fixture-data-lifecycle.md"
+    },
+    {
+      "id": "ELITEA-0855",
+      "title": "Pipeline Dashboard - View and Search",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.pipelines_2.test_pipeline_management.TestPipelineDashboard.test_pipeline_dashboard_loads",
+        "tests.ui.pipelines_2.test_pipeline_management.TestPipelineDashboard.test_pipeline_created_via_api_visible_in_dashboard",
+        "tests.ui.pipelines_2.test_pipeline_management.TestPipelineDashboard.test_view_toggle_table_and_card",
+        "tests.ui.pipelines_2.test_pipeline_management.TestSearchPipeline.test_search_pipeline_by_name",
+        "tests.ui.pipelines_2.test_pipeline_management.TestSearchPipeline.test_search_pipeline_no_results"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0855_pipeline-dashboard-view-and-search.md"
+    },
+    {
+      "id": "ELITEA-0861",
+      "title": "Pipeline Export and Import",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportRoundtrip.test_pipeline_export_import_roundtrip_basic",
+        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportRoundtrip.test_pipeline_export_import_preserves_all_fields",
+        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportRoundtrip.test_pipeline_export_format_is_valid_yaml",
+        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportConflicts.test_pipeline_import_with_conflicting_name",
+        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportConflicts.test_pipeline_import_preserves_original_when_conflict",
+        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_empty_description",
+        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_special_characters_in_name",
+        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_complex_topology",
+        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_export_import_all_node_types",
+        "tests.api.export_import.test_export_import_pipelines.TestPipelineExportImportEdgeCases.test_pipeline_import_via_constructed_payload"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0861_pipeline-export-and-import.md"
+    },
+    {
+      "id": "ELITEA-0864",
+      "title": "Pipeline Creation - UI and API",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.pipelines_2.test_pipeline_management.TestCreatePipeline.test_create_pipeline_via_ui",
+        "tests.ui.pipelines_2.test_pipeline_management.TestCreatePipeline.test_create_pipeline_required_fields_validation",
+        "tests.ui.pipelines_2.test_pipeline_management.TestPipelineDashboard.test_pipeline_created_via_api_visible_in_dashboard"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-0864_pipeline-creation-ui-and-api.md"
+    },
+    {
       "id": "ELITEA-2002",
       "title": "Create Pipeline Version",
       "status": "ready",
@@ -15279,6 +15579,206 @@
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-3349_oauth-toolkit-trigger-restriction-chat-only.md"
     },
     {
+      "id": "ELITEA-0577",
+      "title": "Support Assistant — Files Can Be Attached via Click-to-Browse, Drag-and-Drop, and Clipboard Paste",
+      "status": "draft",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-chat-bot",
+      "owner": "",
+      "tags": [
+        "user_story:4777",
+        "r-2.0.3",
+        "4777"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4777"
+      ],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantAttachments.test_attach_button_present_and_opens_picker"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0577_support-assistant-files-can-be-attached-via-click-to-browse-drag-and-d.md"
+    },
+    {
+      "id": "ELITEA-0624",
+      "title": "Support Assistant expands to full-view mode and collapses back to widget mode",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "elitea-chat-bot",
+      "owner": "",
+      "tags": [
+        "expand-collapse",
+        "display-modes",
+        "story:4774",
+        "full-view",
+        "r-2.0.3",
+        "widget"
+      ],
+      "requirements": [
+        "4774"
+      ],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantViewModes.test_expand_collapse_fullview"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0624_support-assistant-expands-to-full-view-mode-and-collapses-back-to-widg.md"
+    },
+    {
+      "id": "ELITEA-0625",
+      "title": "Support Assistant panel opens on launcher click and closes on X button click",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-chat-bot",
+      "owner": "",
+      "tags": [
+        "open-close",
+        "story:4774",
+        "lifecycle",
+        "launcher",
+        "r-2.0.3",
+        "smoke"
+      ],
+      "requirements": [
+        "4774"
+      ],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_launcher_visible_and_opens_widget"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0625_support-assistant-panel-opens-on-launcher-click-and-closes-on-x-button.md"
+    },
+    {
+      "id": "ELITEA-0626",
+      "title": "Support Assistant floating launcher is visible on every main application page",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-chat-bot",
+      "owner": "",
+      "tags": [
+        "cross-page",
+        "story:4774",
+        "presence",
+        "launcher",
+        "r-2.0.3",
+        "smoke"
+      ],
+      "requirements": [
+        "4774",
+        "4773"
+      ],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_launcher_visible_and_opens_widget"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0626_support-assistant-floating-launcher-is-visible-on-every-main-applicati.md"
+    },
+    {
+      "id": "ELITEA-0641",
+      "title": "Clicking New Chat opens a clean session without affecting the previous one",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "elitea-chat-bot",
+      "owner": "",
+      "tags": [
+        "session-management",
+        "new-chat",
+        "R-2.0.3",
+        "smoke"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4775"
+      ],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantNewSession.test_new_chat_creates_fresh_session",
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantHistory.test_history_restore_and_continue"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0641_clicking-new-chat-opens-a-clean-session-without-affecting-the-previous.md"
+    },
+    {
+      "id": "ELITEA-0643",
+      "title": "Conversation is retained when the Support Assistant panel is closed and reopened",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "elitea-chat-bot",
+      "owner": "",
+      "tags": [
+        "session-continuity",
+        "state-persistence",
+        "open-close",
+        "R-2.0.3"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4775",
+        "EliteaAI/elitea_issues#4774"
+      ],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantLauncher.test_widget_state_persists_after_close_reopen",
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantHistory.test_history_restore_and_continue"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0643_conversation-is-retained-when-the-support-assistant-panel-is-closed-an.md"
+    },
+    {
+      "id": "ELITEA-0647",
+      "title": "User sends a message via the Send button and receives a complete assistant response",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-chat-bot",
+      "owner": "",
+      "tags": [
+        "critical-path",
+        "send-receive",
+        "regression",
+        "R-2.0.3",
+        "smoke"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4775",
+        "EliteaAI/elitea_issues#4773"
+      ],
+      "automation_test_id": [
+        "tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantMessaging.test_send_message_and_receive_response"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-0647_user-sends-a-message-via-the-send-button-and-receives-a-complete-assis.md"
+    },
+    {
       "id": "ELITEA-1796",
       "title": "Launcher is visible and Support Assistant widget opens and closes",
       "status": "ready",
@@ -15648,6 +16148,56 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2427_history-session-shows-correct-preview-and-title.md"
+    },
+    {
+      "id": "ELITEA-0139",
+      "title": "Agent Export and Import - YAML Format",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.api.export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_roundtrip_basic",
+        "tests.api.export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_preserves_all_fields",
+        "tests.api.export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_format_is_valid_yaml_frontmatter",
+        "tests.api.export_import.test_export_import_prompts.TestExportImportConflicts.test_import_preserves_original_when_conflict",
+        "tests.api.export_import.test_export_import_prompts.TestExportImportConflicts.test_import_with_conflicting_name_creates_new",
+        "tests.api.export_import.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_empty_optional_fields",
+        "tests.api.export_import.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_special_characters_in_name",
+        "tests.api.export_import.test_export_import_prompts.TestExportImportEdgeCases.test_export_import_large_instructions",
+        "tests.api.export_import.test_export_import_prompts.TestExportImportEdgeCases.test_import_via_constructed_payload"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-0139_agent-export-and-import-yaml-format.md"
+    },
+    {
+      "id": "ELITEA-0142",
+      "title": "Agent Export and Import",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.api.export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_roundtrip_basic",
+        "tests.api.export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_preserves_all_fields",
+        "tests.api.export_import.test_export_import_prompts.TestExportImportConflicts.test_import_with_conflicting_name_creates_new"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-0142_agent-export-and-import.md"
     },
     {
       "id": "ELITEA-1869",
