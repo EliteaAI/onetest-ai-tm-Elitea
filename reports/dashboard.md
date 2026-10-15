@@ -1,10 +1,10 @@
 # Test Dashboard
 
-_Generated: 2026-10-15 11:17 UTC_
+_Generated: 2026-10-15 11:31 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-15-270-DEV-SMOKE-PASSED**
+**RUN-ELITEA-2026-10-15-271-DEV-SMOKE-PASSED**
 
 ```mermaid
 pie showData
@@ -27,10 +27,10 @@ pie showData
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [02-206-DEV-STABLE, 03-207-DEV-STABLE, 04-208-DEV-STABLE, 05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE]
+    x-axis [03-207-DEV-STABLE, 04-208-DEV-STABLE, 05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE]
     y-axis "Tests" 0 --> 51
-    bar "Passed" [26, 46, 26, 26, 26, 26, 29, 29, 2, 2]
-    bar "Failed" [2, 24, 2, 2, 2, 2, 2, 2, 0, 0]
+    bar "Passed" [46, 26, 26, 26, 26, 29, 29, 2, 2, 2]
+    bar "Failed" [24, 2, 2, 2, 2, 2, 2, 0, 0, 0]
 ```
 
 ### Reruns Trend
@@ -38,15 +38,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [02-206-DEV-STABLE, 03-207-DEV-STABLE, 04-208-DEV-STABLE, 05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE]
+    x-axis [03-207-DEV-STABLE, 04-208-DEV-STABLE, 05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE]
     y-axis "Reruns" 0 --> 45
-    line "Reruns" [12, 42, 12, 12, 12, 12, 12, 12, 0, 0]
+    line "Reruns" [42, 12, 12, 12, 12, 12, 12, 0, 0, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ✅ 15-271-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 15-270-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 15-269-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ❌ 09-250-DEV-SMOKE | 31 | 29 | 2 | 0 | 12 | 94% |
@@ -56,7 +57,6 @@ xychart-beta
 | ❌ 05-209-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 | ❌ 04-208-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 | ❌ 03-207-DEV-STABLE | 72 | 46 | 24 | 2 | 42 | 64% |
-| ❌ 02-206-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -67,17 +67,17 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 
 | Metric | Count |
 |--------|-------|
-| Tests in automation | 264 |
+| Tests in automation | 256 |
 | Tests linked to TMS cases | 203 |
-| Tests without TMS case | 61 |
+| Tests without TMS case | 53 |
 | Orphan TMS refs (test missing) | 13 |
-| **TMS Coverage** | **76.9%** |
+| **TMS Coverage** | **79.3%** |
 
 ```mermaid
 pie showData
-    title "TMS Linkage (264 tests)"
+    title "TMS Linkage (256 tests)"
     "Linked to TMS" : 203
-    "No TMS case" : 61
+    "No TMS case" : 53
 ```
 
 ### Tests Without TMS Case
@@ -85,7 +85,7 @@ pie showData
 _Tests that exist in automation but have no linked TMS case._
 
 <details>
-<summary>Show 61 unlinked tests</summary>
+<summary>Show 53 unlinked tests</summary>
 
 - `tests.ui.admin.test_guardrails_live_reload.TestBlockedToolLiveReload.test_blocked_tool_live_reload_case_insensitive`
 - `tests.ui.admin.test_guardrails_live_reload.TestBlockedToolkitLiveReload.test_blocked_toolkit_live_reload_case_insensitive`
@@ -136,14 +136,6 @@ _Tests that exist in automation but have no linked TMS case._
 - `tests.ui.test_maintenance_handling.test_maintenance_banner_dismissed_automatically`
 - `tests.ui.test_maintenance_handling.test_maintenance_detection_captures_screenshot`
 - `tests.ui.test_maintenance_handling.test_maintenance_state_boolean_check`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[bitbucket]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestChatWithToolkit.test_chat_with_toolkit[gitlab]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[bitbucket]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestCreateCredential.test_create_credential[gitlab]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[bitbucket]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestCreateToolkit.test_create_toolkit[gitlab]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[bitbucket]`
-- `tests.ui.toolkits.test_toolkit_parameterized.TestToolkitTestSettings.test_toolkit_test_settings[gitlab]`
 - `tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_speed_and_volume_controls`
 - `tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_preview_personalization`
 - `tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_selection_from_chat`
@@ -175,4 +167,4 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 </details>
 
 ---
-_Compared `automation/index.json` (264 tests) with `index_automated.json` (216 refs)_
+_Compared `automation/index.json` (256 tests) with `index_automated.json` (216 refs)_
