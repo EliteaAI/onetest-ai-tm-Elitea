@@ -1,25 +1,25 @@
 # Test Dashboard
 
-_Generated: 2026-10-15 12:11 UTC_
+_Generated: 2026-10-15 14:16 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-15-272-DEV-SMOKE-PASSED**
+**RUN-ELITEA-2026-10-15-273-DEV-PIPELINES_2-PASSED**
 
 ```mermaid
 pie showData
-    title "Test Results (2 total)"
-    "Passed" : 2
+    title "Test Results (57 total)"
+    "Passed" : 57
     "Failed" : 0
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 2 |
-| Passed | 2 |
+| Total | 57 |
+| Passed | 57 |
 | Failed | 0 |
 | Skipped | 0 |
-| Reruns | 0 |
+| Reruns | 8 |
 | Pass Rate | 100.0% |
 
 ## Trend (Last 10 Runs)
@@ -27,10 +27,10 @@ pie showData
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [04-208-DEV-STABLE, 05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE, 15-272-DEV-SMOKE]
-    y-axis "Tests" 0 --> 34
-    bar "Passed" [26, 26, 26, 26, 29, 29, 2, 2, 2, 2]
-    bar "Failed" [2, 2, 2, 2, 2, 2, 0, 0, 0, 0]
+    x-axis [05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE, 15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2]
+    y-axis "Tests" 0 --> 62
+    bar "Passed" [26, 26, 26, 29, 29, 2, 2, 2, 2, 57]
+    bar "Failed" [2, 2, 2, 2, 2, 0, 0, 0, 0, 0]
 ```
 
 ### Reruns Trend
@@ -38,15 +38,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [04-208-DEV-STABLE, 05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE, 15-272-DEV-SMOKE]
+    x-axis [05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE, 15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2]
     y-axis "Reruns" 0 --> 15
-    line "Reruns" [12, 12, 12, 12, 12, 12, 0, 0, 0, 0]
+    line "Reruns" [12, 12, 12, 12, 12, 0, 0, 0, 0, 8]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ✅ 15-273-DEV-PIPELINES_2 | 57 | 57 | 0 | 0 | 8 | 100% |
 | ✅ 15-272-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 15-271-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 15-270-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
@@ -56,7 +57,6 @@ xychart-beta
 | ❌ 07-217-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 | ❌ 06-214-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 | ❌ 05-209-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
-| ❌ 04-208-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
