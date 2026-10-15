@@ -7,8 +7,8 @@ module: pipelines
 status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_pipeline_detail_page_loads
-  - tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_pipeline_has_configuration_and_history_tabs
+  - tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_pipeline_detail_page_loads
+  - tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_pipeline_has_configuration_and_history_tabs
 tags: []
 requirements: []
 ---

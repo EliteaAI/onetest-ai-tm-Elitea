@@ -7,7 +7,7 @@ module: elitea-chat-bot
 status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantSmoke.test_expand_collapse_fullview
+  - tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantViewModes.test_expand_collapse_fullview
 tags: [expand-collapse, display-modes, story:4774, full-view, r-2.0.3, widget]
 requirements: [4774]
 ---

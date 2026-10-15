@@ -7,7 +7,7 @@ module: smoke-suite
 status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.chat.test_chat_interface.test_chat_page_loads_with_functional_input
+  - tests.ui.chat.test_chat_interface.TestPageLoadAndRendering.test_chat_page_loads_with_functional_input
   - tests.ui.chat.test_chat_interface.test_chat_page_loads_successfully
   - tests.ui.chat.test_chat_interface.test_message_input_is_functional
   - tests.ui.chat.test_chat_interface.test_chat_message_history_displays

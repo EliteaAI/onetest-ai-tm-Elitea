@@ -7,10 +7,10 @@ module: pipelines
 status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_edit_pipeline_name
-  - tests.ui.pipelines.test_pipeline_management.TestEditPipeline.test_edit_pipeline_description
-  - tests.ui.pipelines.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_api
-  - tests.ui.pipelines.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_ui_menu
+  - tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_edit_pipeline_name
+  - tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_edit_pipeline_description
+  - tests.ui.pipelines_2.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_api
+  - tests.ui.pipelines_2.test_pipeline_management.TestDeletePipeline.test_delete_pipeline_via_ui_menu
 tags: []
 requirements: []
 ---

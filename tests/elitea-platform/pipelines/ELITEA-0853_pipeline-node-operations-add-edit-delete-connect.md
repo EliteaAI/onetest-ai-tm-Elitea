@@ -15,7 +15,7 @@ automation_test_id:
   - tests.ui.pipelines.test_pipeline_nodes.TestDeleteNode.test_delete_node_via_menu
   - tests.ui.pipelines.test_pipeline_nodes.TestConnectNodes.test_connect_node_to_end
   - tests.ui.pipelines.test_pipeline_nodes.TestConnectNodes.test_connect_two_custom_nodes
-  - tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end
+  - tests.ui.pipelines_2.test_pipeline_nodes.TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end
 tags: []
 requirements: []
 ---

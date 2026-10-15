@@ -7,9 +7,9 @@ module: agents
 status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.agents.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_roundtrip_basic
-  - tests.ui.agents.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_preserves_all_fields
-  - tests.ui.agents.test_export_import_prompts.TestExportImportConflicts.test_import_with_conflicting_name_creates_new
+  - tests.api.export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_roundtrip_basic
+  - tests.api.export_import.test_export_import_prompts.TestExportImportRoundtrip.test_export_import_preserves_all_fields
+  - tests.api.export_import.test_export_import_prompts.TestExportImportConflicts.test_import_with_conflicting_name_creates_new
 tags: []
 requirements: []
 ---
