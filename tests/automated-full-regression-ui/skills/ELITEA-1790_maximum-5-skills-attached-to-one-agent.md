@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
 automation_test_id: tests.ui.skills.test_agent_max_five_skills_limit.TestAgentMaxFiveSkillsLimit.test_max_five_skills_attach_limit
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/48
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2449
 ---
 
 # ELITEA-1790: Maximum Skills attachable to one Agent is enforced (limit is read live from the platform, not fixed at 5)
