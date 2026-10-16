@@ -8,6 +8,14 @@ to resolve an old id or path found in automation code, reports, dashboards or is
 - Automation repo: `EliteaAI/elitea-testing-public`. Its `@pytest.mark.tms(...)`, `@allure.issue(...)`
   links, AFS file names and `automation_test_id` back-writes follow the id/path recorded here.
 
+## 2026-10-16 — renumber PR #169 new case colliding with an existing id
+
+PR #169 (fork published agent carries toolkits) added EP case ELITEA-3761, already taken on main. Renumbered to ELITEA-4065 before merge. Folder and slug unchanged; `id:` and `# ELITEA-<id>` heading updated.
+
+| Old id | New id | New path | Old id kept by |
+|---|---|---|---|
+| ELITEA-3761 | ELITEA-4065 | `EP/agents-publishing/ELITEA-4065_fork-published-agent-carries-toolkits-mcps-openapi-and-sub-agent-toolkits.md` | `EP/agents/ELITEA-3761_fork-modal-empty-editor-notes.md` |
+
 ## 2026-10-16 — renumber PR #166 new cases colliding with existing ids
 
 PR #166 (DIAL API protocol / reasoning / analytics) added 18 EP cases numbered ELITEA-3743 … 3760, all already taken on main. Renumbered to ELITEA-4047 … 4064 before merge. Folder and slug unchanged; `id:` and `# ELITEA-<id>` heading updated.

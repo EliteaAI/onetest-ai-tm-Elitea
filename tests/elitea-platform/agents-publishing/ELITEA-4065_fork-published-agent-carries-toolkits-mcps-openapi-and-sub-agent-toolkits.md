@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3761
+id: ELITEA-4065
 title: "Forking a published agent carries its toolkits, MCPs and OpenAPI, including sub-agents' toolkits"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:import-forking, feat:toolkits, issue:6859, r-2.0.8]
 requirements: ["EliteaAI/elitea_issues#6859"]
 ---
 
-# ELITEA-3761: Forking a published agent carries its toolkits, MCPs and OpenAPI, including sub-agents' toolkits
+# ELITEA-4065: Forking a published agent carries its toolkits, MCPs and OpenAPI, including sub-agents' toolkits
 
 **Module:** agents-publishing · **Priority:** High · **Type:** Functional
 
