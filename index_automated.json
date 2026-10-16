@@ -15639,7 +15639,7 @@
     },
     {
       "id": "ELITEA-3755",
-      "title": "Analytics page loads with default date range and all six tabs visible",
+      "title": "Analytics page loads with default date range and all ten tabs visible",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
