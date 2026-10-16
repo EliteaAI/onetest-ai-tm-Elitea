@@ -1,7 +1,7 @@
 {
   "cases": [
     {
-      "id": "ELITEA-1694",
+      "id": "ELITEA-3746",
       "title": "Blocked Toolkit: Live-Reload and Case-Insensitive Matching",
       "status": "ready",
       "execution_type": "automated",
@@ -25,10 +25,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/admin/ELITEA-1694_blocked-toolkit-live-reload-case-insensitive.md"
+      "path": "tests/automated-full-regression-ui/admin/ELITEA-3746_blocked-toolkit-live-reload-case-insensitive.md"
     },
     {
-      "id": "ELITEA-1695",
+      "id": "ELITEA-3747",
       "title": "Blocked Tool: Live-Reload and Case-Insensitive Matching",
       "status": "ready",
       "execution_type": "automated",
@@ -52,10 +52,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/admin/ELITEA-1695_blocked-tool-live-reload-case-insensitive.md"
+      "path": "tests/automated-full-regression-ui/admin/ELITEA-3747_blocked-tool-live-reload-case-insensitive.md"
     },
     {
-      "id": "ELITEA-1696",
+      "id": "ELITEA-3748",
       "title": "Sensitive Tool: Live-Reload and Case-Insensitive Matching",
       "status": "ready",
       "execution_type": "automated",
@@ -79,7 +79,7 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/admin/ELITEA-1696_sensitive-tool-live-reload-case-insensitive.md"
+      "path": "tests/automated-full-regression-ui/admin/ELITEA-3748_sensitive-tool-live-reload-case-insensitive.md"
     },
     {
       "id": "ELITEA-2350",
@@ -1929,32 +1929,6 @@
       "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1920_build-with-ai-in-chat-agenteditor-works-end-to-end.md"
     },
     {
-      "id": "ELITEA-1327",
-      "title": "Verify all files are available for download when agent creates multiple files in one action via agent run",
-      "status": "ready",
-      "execution_type": "automated",
-      "type": "regression",
-      "priority": "critical",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "r-2.0.4",
-        "bug-env:dev",
-        "bug-area:current-release-scope"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#5313"
-      ],
-      "automation_test_id": [
-        "tests.ui.artifacts.test_artifacts_multi_file.TestArtifactMultiFileDownload.test_agent_creates_files_at_root_and_in_subfolder"
-      ],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1327_verify-all-files-downloadable-when-agent-creates-multiple-files.md"
-    },
-    {
       "id": "ELITEA-1803",
       "title": "Artifacts Landing Page UI – Bucket with Files (at least 1 file)",
       "status": "draft",
@@ -3435,6 +3409,32 @@
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-3466_artifact-file-rename-full-api-regression-flow.md"
     },
     {
+      "id": "ELITEA-3743",
+      "title": "Verify all files are available for download when agent creates multiple files in one action via agent run",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "r-2.0.4",
+        "bug-env:dev",
+        "bug-area:current-release-scope"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5313"
+      ],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_artifacts_multi_file.TestArtifactMultiFileDownload.test_agent_creates_files_at_root_and_in_subfolder"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-3743_verify-all-files-downloadable-when-agent-creates-multiple-files.md"
+    },
+    {
       "id": "ELITEA-2488",
       "title": "Manage Permissions Modal UI and Add No Access Exception",
       "status": "draft",
@@ -3557,58 +3557,6 @@
       "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2492_empty-state-and-add-exception-flow.md"
     },
     {
-      "id": "ELITEA-2493",
-      "title": "API: No Access Permission Enforcement (GET, POST, DELETE)",
-      "status": "ready",
-      "execution_type": "automated",
-      "type": "security",
-      "priority": "critical",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:API:regression",
-        "feat:artifacts",
-        "nfr:security"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#5832"
-      ],
-      "automation_test_id": [
-        "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_no_access_permission_blocks_all_api_operations"
-      ],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2493_api-no-access-permission-enforcement.md"
-    },
-    {
-      "id": "ELITEA-2494",
-      "title": "API: Read-only Permission Enforcement (GET allowed, POST/DELETE blocked)",
-      "status": "ready",
-      "execution_type": "automated",
-      "type": "security",
-      "priority": "critical",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:API:regression",
-        "feat:artifacts",
-        "nfr:security"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#5832"
-      ],
-      "automation_test_id": [
-        "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_read_only_permission_allows_get_blocks_write_operations"
-      ],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2494_api-read-only-permission-enforcement.md"
-    },
-    {
       "id": "ELITEA-3467",
       "title": "Rename Artifact File — Full Permissions Regression Flow",
       "status": "draft",
@@ -3632,6 +3580,58 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-3467_artifact-file-rename-full-permissions-regression-flow.md"
+    },
+    {
+      "id": "ELITEA-3756",
+      "title": "API: No Access Permission Enforcement (GET, POST, DELETE)",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "security",
+      "priority": "critical",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:artifacts",
+        "nfr:security"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5832"
+      ],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_no_access_permission_blocks_all_api_operations"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-3756_api-no-access-permission-enforcement.md"
+    },
+    {
+      "id": "ELITEA-3757",
+      "title": "API: Read-only Permission Enforcement (GET allowed, POST/DELETE blocked)",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "security",
+      "priority": "critical",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:artifacts",
+        "nfr:security"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5832"
+      ],
+      "automation_test_id": [
+        "tests.ui.artifacts.test_bucket_permissions_api.TestBucketPermissionsAPI.test_read_only_permission_allows_get_blocks_write_operations"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-3757_api-read-only-permission-enforcement.md"
     },
     {
       "id": "ELITEA-3362",
@@ -4053,47 +4053,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-1316_voice-personalization-page-all-controls-present-including-functional-p.md"
-    },
-    {
-      "id": "ELITEA-1340",
-      "title": "Context Budget Panel Reflects Profile Max Context Tokens",
-      "status": "ready",
-      "execution_type": "automated",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [],
-      "requirements": [],
-      "automation_test_id": [
-        "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[10k_tokens]",
-        "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[32k_tokens]"
-      ],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-1340_context-budget-panel-reflects-profile-max-tokens.md"
-    },
-    {
-      "id": "ELITEA-1341",
-      "title": "Voice Mini Player Not Visible by Default in Chat (Regression #5235)",
-      "status": "ready",
-      "execution_type": "automated",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "voice",
-      "owner": "",
-      "tags": [],
-      "requirements": [],
-      "automation_test_id": [
-        "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_not_visible_by_default"
-      ],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-1341_voice-mini-player-not-visible-by-default-regression.md"
     },
     {
       "id": "ELITEA-2090",
@@ -8121,6 +8080,47 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-3732_chat-scroll-up-in-large-history-loads-older-messages.md"
     },
     {
+      "id": "ELITEA-3744",
+      "title": "Context Budget Panel Reflects Profile Max Context Tokens",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[10k_tokens]",
+        "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[32k_tokens]"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3744_context-budget-panel-reflects-profile-max-tokens.md"
+    },
+    {
+      "id": "ELITEA-3745",
+      "title": "Voice Mini Player Not Visible by Default in Chat (Regression #5235)",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "voice",
+      "owner": "",
+      "tags": [],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.voice.test_voice_configuration.TestVoiceConfiguration.test_voice_settings_not_visible_by_default"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3745_voice-mini-player-not-visible-by-default-regression.md"
+    },
+    {
       "id": "ELITEA-3252",
       "title": "Settings: Generate Project Context produces content ≤2500 characters",
       "status": "draft",
@@ -9574,29 +9574,6 @@
       "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3667_evaluation-analytics-export-and-ux.md"
     },
     {
-      "id": "ELITEA-2219",
-      "title": "Help Center — page loads successfully via sidebar icon",
-      "status": "ready",
-      "execution_type": "automated",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "help-center",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:help-center"
-      ],
-      "requirements": [],
-      "automation_test_id": [
-        "tests.ui.help_center.test_help_center_page_loads.TestHelpCenterPageLoads.test_help_center_page_loads_via_sidebar_icon"
-      ],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2219_help-center-page-loads-successfully-via-sidebar-icon.md"
-    },
-    {
       "id": "ELITEA-2220",
       "title": "Help Center — Documentation card link redirects to external resource",
       "status": "draft",
@@ -9744,29 +9721,6 @@
       "path": "tests/automated-full-regression-ui/help_center/ELITEA-2226_help-center-sidebar-interactive-tour-starts-when-clicking-th.md"
     },
     {
-      "id": "ELITEA-2227",
-      "title": "Help Center — Sidebar Interactive Tour completes successfully by clicking Next through all steps",
-      "status": "ready",
-      "execution_type": "automated",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "help-center",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:help-center"
-      ],
-      "requirements": [],
-      "automation_test_id": [
-        "tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTour.test_sidebar_interactive_tour_completes_via_next"
-      ],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2227_help-center-sidebar-interactive-tour-completes-successfully.md"
-    },
-    {
       "id": "ELITEA-2228",
       "title": "Help Center — completed Sidebar Interactive Tour can be restarted from Help Center",
       "status": "draft",
@@ -9828,6 +9782,52 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/help_center/ELITEA-2230_help-center-back-button-navigates-to-previous-step-during-in.md"
+    },
+    {
+      "id": "ELITEA-3753",
+      "title": "Help Center — page loads successfully via sidebar icon",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "help-center",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:help-center"
+      ],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_page_loads.TestHelpCenterPageLoads.test_help_center_page_loads_via_sidebar_icon"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-3753_help-center-page-loads-successfully-via-sidebar-icon.md"
+    },
+    {
+      "id": "ELITEA-3754",
+      "title": "Help Center — Sidebar Interactive Tour completes successfully by clicking Next through all steps",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "help-center",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:help-center"
+      ],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.help_center.test_help_center_sidebar_tour.TestHelpCenterSidebarTour.test_sidebar_interactive_tour_completes_via_next"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-3754_help-center-sidebar-interactive-tour-completes-successfully.md"
     },
     {
       "id": "ELITEA-2833",
@@ -14858,29 +14858,6 @@
       "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2417_ai-credentials-section-is-hidden-when-no-credentials-are-con.md"
     },
     {
-      "id": "ELITEA-2310",
-      "title": "Analytics page loads with default date range and all six tabs visible",
-      "status": "ready",
-      "execution_type": "automated",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "settings-analytics",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:settings"
-      ],
-      "requirements": [],
-      "automation_test_id": [
-        "tests.ui.admin.test_analytics_default_load.TestAnalyticsDefaultLoad.test_analytics_page_default_load"
-      ],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2310_analytics-page-loads-with-default-date-range-and-all-six-tab.md"
-    },
-    {
       "id": "ELITEA-2311",
       "title": "Overview tab displays all six KPI cards with correct labels and non-empty values",
       "status": "draft",
@@ -15659,6 +15636,29 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3499_cost-rounding-precision.md"
+    },
+    {
+      "id": "ELITEA-3755",
+      "title": "Analytics page loads with default date range and all six tabs visible",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "settings-analytics",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:settings"
+      ],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.admin.test_analytics_default_load.TestAnalyticsDefaultLoad.test_analytics_page_default_load"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3755_analytics-page-loads-with-default-date-range-and-all-six-tab.md"
     },
     {
       "id": "TMS-3543",
@@ -18634,98 +18634,6 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-1736_interact-with-skills-from-conversation.md"
     },
     {
-      "id": "ELITEA-1737",
-      "title": "Import Skill (Base Version)",
-      "status": "ready",
-      "execution_type": "automated",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_export_import.TestSkillExportImport.test_export_and_import_skill_base_version"
-      ],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-1737_import-skill-base-version.md"
-    },
-    {
-      "id": "ELITEA-1738",
-      "title": "Import Skill Non-Base Version",
-      "status": "ready",
-      "execution_type": "automated",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_export_import.TestSkillExportImportNonBaseVersion.test_import_skill_non_base_version"
-      ],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-1738_import-skill-non-base-version.md"
-    },
-    {
-      "id": "ELITEA-1739",
-      "title": "Search Skills by Name",
-      "status": "ready",
-      "execution_type": "automated",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_search.TestSkillSearch.test_search_skills_by_name"
-      ],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-1739_search-skills-by-name.md"
-    },
-    {
-      "id": "ELITEA-1740",
-      "title": "Search Skills by Tag",
-      "status": "ready",
-      "execution_type": "automated",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "search-and-tag-filtering",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:search"
-      ],
-      "requirements": [],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_tag_filter.TestSkillTagFilter.test_filter_skills_by_tag"
-      ],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-1740_search-skills-by-tag.md"
-    },
-    {
       "id": "ELITEA-1789",
       "title": "Attach a Skill to an Agent and verify it appears with version selector",
       "status": "ready",
@@ -19721,6 +19629,98 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/skills/ELITEA-3353_skill-version-comparison-instructions-display-and-save-independently.md"
+    },
+    {
+      "id": "ELITEA-3749",
+      "title": "Import Skill (Base Version)",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills"
+      ],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_export_import.TestSkillExportImport.test_export_and_import_skill_base_version"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3749_import-skill-base-version.md"
+    },
+    {
+      "id": "ELITEA-3750",
+      "title": "Import Skill Non-Base Version",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills"
+      ],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_export_import.TestSkillExportImportNonBaseVersion.test_import_skill_non_base_version"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3750_import-skill-non-base-version.md"
+    },
+    {
+      "id": "ELITEA-3751",
+      "title": "Search Skills by Name",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills"
+      ],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_search.TestSkillSearch.test_search_skills_by_name"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3751_search-skills-by-name.md"
+    },
+    {
+      "id": "ELITEA-3752",
+      "title": "Search Skills by Tag",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "search-and-tag-filtering",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:search"
+      ],
+      "requirements": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_tag_filter.TestSkillTagFilter.test_filter_skills_by_tag"
+      ],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3752_search-skills-by-tag.md"
     },
     {
       "id": "ELITEA-1986",

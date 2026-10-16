@@ -1,19 +1,19 @@
 {
   "cases": [
     {
-      "id": "ELITEA-1694",
+      "id": "ELITEA-3746",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/admin/ELITEA-1694_blocked-toolkit-live-reload-case-insensitive.md"
+      "path": "tests/automated-full-regression-ui/admin/ELITEA-3746_blocked-toolkit-live-reload-case-insensitive.md"
     },
     {
-      "id": "ELITEA-1695",
+      "id": "ELITEA-3747",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/admin/ELITEA-1695_blocked-tool-live-reload-case-insensitive.md"
+      "path": "tests/automated-full-regression-ui/admin/ELITEA-3747_blocked-tool-live-reload-case-insensitive.md"
     },
     {
-      "id": "ELITEA-1696",
+      "id": "ELITEA-3748",
       "priority": "critical",
-      "path": "tests/automated-full-regression-ui/admin/ELITEA-1696_sensitive-tool-live-reload-case-insensitive.md"
+      "path": "tests/automated-full-regression-ui/admin/ELITEA-3748_sensitive-tool-live-reload-case-insensitive.md"
     },
     {
       "id": "ELITEA-2350",
@@ -426,11 +426,6 @@
       "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1920_build-with-ai-in-chat-agenteditor-works-end-to-end.md"
     },
     {
-      "id": "ELITEA-1327",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1327_verify-all-files-downloadable-when-agent-creates-multiple-files.md"
-    },
-    {
       "id": "ELITEA-1803",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1803_artifacts-landing-page-ui-bucket-with-files.md"
@@ -771,6 +766,11 @@
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-3466_artifact-file-rename-full-api-regression-flow.md"
     },
     {
+      "id": "ELITEA-3743",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-3743_verify-all-files-downloadable-when-agent-creates-multiple-files.md"
+    },
+    {
       "id": "ELITEA-2488",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2488_manage-permissions-modal-ui-and-add-no-access-exception.md"
@@ -796,19 +796,19 @@
       "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2492_empty-state-and-add-exception-flow.md"
     },
     {
-      "id": "ELITEA-2493",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2493_api-no-access-permission-enforcement.md"
-    },
-    {
-      "id": "ELITEA-2494",
-      "priority": "critical",
-      "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2494_api-read-only-permission-enforcement.md"
-    },
-    {
       "id": "ELITEA-3467",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-3467_artifact-file-rename-full-permissions-regression-flow.md"
+    },
+    {
+      "id": "ELITEA-3756",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-3756_api-no-access-permission-enforcement.md"
+    },
+    {
+      "id": "ELITEA-3757",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-3757_api-read-only-permission-enforcement.md"
     },
     {
       "id": "ELITEA-3362",
@@ -894,16 +894,6 @@
       "id": "ELITEA-1316",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/chat/ELITEA-1316_voice-personalization-page-all-controls-present-including-functional-p.md"
-    },
-    {
-      "id": "ELITEA-1340",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-1340_context-budget-panel-reflects-profile-max-tokens.md"
-    },
-    {
-      "id": "ELITEA-1341",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-1341_voice-mini-player-not-visible-by-default-regression.md"
     },
     {
       "id": "ELITEA-2090",
@@ -1826,6 +1816,16 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-3732_chat-scroll-up-in-large-history-loads-older-messages.md"
     },
     {
+      "id": "ELITEA-3744",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3744_context-budget-panel-reflects-profile-max-tokens.md"
+    },
+    {
+      "id": "ELITEA-3745",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3745_voice-mini-player-not-visible-by-default-regression.md"
+    },
+    {
       "id": "ELITEA-3252",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3252_settings-generate-project-context-respects-2500-char-limit.md"
@@ -2141,11 +2141,6 @@
       "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3667_evaluation-analytics-export-and-ux.md"
     },
     {
-      "id": "ELITEA-2219",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2219_help-center-page-loads-successfully-via-sidebar-icon.md"
-    },
-    {
       "id": "ELITEA-2220",
       "priority": "medium",
       "path": "tests/automated-full-regression-ui/help_center/ELITEA-2220_help-center-documentation-card-link-redirects-to-external-re.md"
@@ -2181,11 +2176,6 @@
       "path": "tests/automated-full-regression-ui/help_center/ELITEA-2226_help-center-sidebar-interactive-tour-starts-when-clicking-th.md"
     },
     {
-      "id": "ELITEA-2227",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2227_help-center-sidebar-interactive-tour-completes-successfully.md"
-    },
-    {
       "id": "ELITEA-2228",
       "priority": "medium",
       "path": "tests/automated-full-regression-ui/help_center/ELITEA-2228_help-center-completed-sidebar-interactive-tour-can-be-restar.md"
@@ -2199,6 +2189,16 @@
       "id": "ELITEA-2230",
       "priority": "medium",
       "path": "tests/automated-full-regression-ui/help_center/ELITEA-2230_help-center-back-button-navigates-to-previous-step-during-in.md"
+    },
+    {
+      "id": "ELITEA-3753",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-3753_help-center-page-loads-successfully-via-sidebar-icon.md"
+    },
+    {
+      "id": "ELITEA-3754",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/help_center/ELITEA-3754_help-center-sidebar-interactive-tour-completes-successfully.md"
     },
     {
       "id": "ELITEA-2833",
@@ -3321,11 +3321,6 @@
       "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2417_ai-credentials-section-is-hidden-when-no-credentials-are-con.md"
     },
     {
-      "id": "ELITEA-2310",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2310_analytics-page-loads-with-default-date-range-and-all-six-tab.md"
-    },
-    {
       "id": "ELITEA-2311",
       "priority": "medium",
       "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2311_overview-tab-displays-all-six-kpi-cards-with-correct-labels.md"
@@ -3489,6 +3484,11 @@
       "id": "ELITEA-3499",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3499_cost-rounding-precision.md"
+    },
+    {
+      "id": "ELITEA-3755",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3755_analytics-page-loads-with-default-date-range-and-all-six-tab.md"
     },
     {
       "id": "TMS-3543",
@@ -4176,26 +4176,6 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-1736_interact-with-skills-from-conversation.md"
     },
     {
-      "id": "ELITEA-1737",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-1737_import-skill-base-version.md"
-    },
-    {
-      "id": "ELITEA-1738",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-1738_import-skill-non-base-version.md"
-    },
-    {
-      "id": "ELITEA-1739",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-1739_search-skills-by-name.md"
-    },
-    {
-      "id": "ELITEA-1740",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-1740_search-skills-by-tag.md"
-    },
-    {
       "id": "ELITEA-1789",
       "priority": "medium",
       "path": "tests/automated-full-regression-ui/skills/ELITEA-1789_attach-skill-to-agent-with-version-selector.md"
@@ -4414,6 +4394,26 @@
       "id": "ELITEA-3353",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/skills/ELITEA-3353_skill-version-comparison-instructions-display-and-save-independently.md"
+    },
+    {
+      "id": "ELITEA-3749",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3749_import-skill-base-version.md"
+    },
+    {
+      "id": "ELITEA-3750",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3750_import-skill-non-base-version.md"
+    },
+    {
+      "id": "ELITEA-3751",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3751_search-skills-by-name.md"
+    },
+    {
+      "id": "ELITEA-3752",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3752_search-skills-by-tag.md"
     },
     {
       "id": "ELITEA-1986",
