@@ -1,10 +1,10 @@
 # Test Dashboard
 
-_Generated: 2026-10-16 07:14 UTC_
+_Generated: 2026-10-16 07:44 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-16-285-DEV-SMOKE-PASSED**
+**RUN-ELITEA-2026-10-16-286-DEV-SMOKE-PASSED**
 
 ```mermaid
 pie showData
@@ -27,10 +27,10 @@ pie showData
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE, 15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE, 16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE]
+    x-axis [15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE, 15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE, 16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE, 16-286-DEV-SMOKE]
     y-axis "Tests" 0 --> 62
-    bar "Passed" [29, 2, 2, 2, 2, 57, 2, 2, 2, 2]
-    bar "Failed" [2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    bar "Passed" [2, 2, 2, 2, 57, 2, 2, 2, 2, 2]
+    bar "Failed" [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ```
 
 ### Reruns Trend
@@ -38,15 +38,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE, 15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE, 16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE]
-    y-axis "Reruns" 0 --> 15
-    line "Reruns" [12, 0, 0, 0, 0, 8, 0, 0, 0, 0]
+    x-axis [15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE, 15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE, 16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE, 16-286-DEV-SMOKE]
+    y-axis "Reruns" 0 --> 11
+    line "Reruns" [0, 0, 0, 0, 8, 0, 0, 0, 0, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ✅ 16-286-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-285-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-284-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-283-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
@@ -56,7 +57,6 @@ xychart-beta
 | ✅ 15-271-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 15-270-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 15-269-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
-| ❌ 09-250-DEV-SMOKE | 31 | 29 | 2 | 0 | 12 | 94% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
