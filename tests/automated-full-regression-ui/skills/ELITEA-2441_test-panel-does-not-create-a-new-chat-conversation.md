@@ -4,12 +4,10 @@ title: "Test panel does not create a new Chat conversation"
 priority: medium
 type: functional
 module: skills
-status: ready
-execution_type: automated
+status: deprecated
+execution_type: manual
 tags: [automated:UI:regression, feat:skills]
 requirements: []
-automation_test_id: [tests.ui.skills.test_skill_test_panel_no_new_conversation.TestSkillTestPanelNoNewConversation.test_test_panel_does_not_create_new_chat_conversation]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1462
 ---
 
 # ELITEA-2441: Test panel does not create a new Chat conversation
@@ -24,6 +22,18 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1462
 
 - User is logged in to the Elitea platform.
 
+---
+
+## Deprecation note
+
+Deprecated 2026-10-16. The behavior this case verified — the Skill test/run
+panel never persisting a Chat conversation — no longer holds: EL-6922
+intentionally changed the panel to create a real persisted conversation.
+Confirmed accepted-as-designed by a human on elitea-testing-public#2452
+("Behavior changed, current behavior is expected"); retirement directed on
+elitea-testing-public#2446 ("Resolved, delete original test - it is not
+more needed"). The automated test and its AFS were removed in
+elitea-testing-public#2453.
 
 ---
 

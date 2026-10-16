@@ -1,10 +1,10 @@
 # Test Dashboard
 
-_Generated: 2026-10-16 06:19 UTC_
+_Generated: 2026-10-16 13:23 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-16-283-DEV-SMOKE-PASSED**
+**RUN-ELITEA-2026-10-16-289-DEV-SMOKE-PASSED**
 
 ```mermaid
 pie showData
@@ -27,10 +27,10 @@ pie showData
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE, 15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE, 16-283-DEV-SMOKE]
+    x-axis [15-271-DEV-SMOKE, 15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE, 16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE, 16-286-DEV-SMOKE, 16-288-DEV-SMOKE, 16-289-DEV-SMOKE]
     y-axis "Tests" 0 --> 62
-    bar "Passed" [26, 29, 29, 2, 2, 2, 2, 57, 2, 2]
-    bar "Failed" [2, 2, 2, 0, 0, 0, 0, 0, 0, 0]
+    bar "Passed" [2, 2, 57, 2, 2, 2, 2, 2, 2, 2]
+    bar "Failed" [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ```
 
 ### Reruns Trend
@@ -38,25 +38,25 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE, 15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE, 16-283-DEV-SMOKE]
-    y-axis "Reruns" 0 --> 15
-    line "Reruns" [12, 12, 12, 0, 0, 0, 0, 8, 0, 0]
+    x-axis [15-271-DEV-SMOKE, 15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE, 16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE, 16-286-DEV-SMOKE, 16-288-DEV-SMOKE, 16-289-DEV-SMOKE]
+    y-axis "Reruns" 0 --> 11
+    line "Reruns" [0, 0, 8, 0, 0, 0, 0, 0, 0, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ✅ 16-289-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
+| ✅ 16-288-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
+| ✅ 16-286-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
+| ✅ 16-285-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
+| ✅ 16-284-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-283-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-282-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 15-273-DEV-PIPELINES_2 | 57 | 57 | 0 | 0 | 8 | 100% |
 | ✅ 15-272-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 15-271-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
-| ✅ 15-270-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
-| ✅ 15-269-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
-| ❌ 09-250-DEV-SMOKE | 31 | 29 | 2 | 0 | 12 | 94% |
-| ❌ 08-247-DEV-SMOKE | 31 | 29 | 2 | 0 | 12 | 94% |
-| ❌ 07-217-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -67,27 +67,28 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 
 | Metric | Count |
 |--------|-------|
-| Tests in automation | 256 |
-| Tests linked to TMS cases | 246 |
-| Tests without TMS case | 10 |
+| Tests in automation | 252 |
+| Tests linked to TMS cases | 252 |
+| Tests without TMS case | 0 |
 | Orphan TMS refs (test missing) | 23 |
-| **TMS Coverage** | **96.1%** |
+| **TMS Coverage** | **100.0%** |
 
 ```mermaid
 pie showData
-    title "TMS Linkage (256 tests)"
-    "Linked to TMS" : 246
-    "No TMS case" : 10
+    title "TMS Linkage (252 tests)"
+    "Linked to TMS" : 252
+    "No TMS case" : 0
 ```
 
 ### Automation Coverage by Suite
 
 | Suite | Automated | Total |
 |-------|-----------|-------|
+| admin | 3 | 3 |
 | agent_hub | 12 | 21 |
 | agents | 26 | 61 |
-| artifacts | 23 | 79 |
-| chat | 18 | 234 |
+| artifacts | 24 | 80 |
+| chat | 19 | 234 |
 | credentials | 1 | 24 |
 | evaluation-run-analytics | 0 | 5 |
 | help_center | 2 | 12 |
@@ -102,45 +103,32 @@ pie showData
 | support-assistant | 14 | 24 |
 | toolkit | 0 | 7 |
 | toolkits_UI | 6 | 19 |
-| **All suites** | **223** | **958** |
+| **All suites** | **228** | **962** |
 
 ```mermaid
 pie showData
-    title "Automated Cases by Suite (223 of 958)"
+    title "Automated vs Manual (962 cases)"
+    "Automated" : 228
+    "Manual" : 734
+```
+
+```mermaid
+pie showData
+    title "Automated Cases by Suite (228 of 962)"
     "pipelines" : 89
     "agents" : 26
-    "artifacts" : 23
+    "artifacts" : 24
+    "chat" : 19
     "skills" : 19
-    "chat" : 18
     "support-assistant" : 14
     "agent_hub" : 12
     "settings" : 10
     "toolkits_UI" : 6
+    "admin" : 3
     "mcp" : 3
     "help_center" : 2
     "credentials" : 1
-    "Manual" : 735
 ```
-
-### Tests Without TMS Case
-
-_Tests that exist in automation but have no linked TMS case._
-
-<details>
-<summary>Show 10 unlinked tests</summary>
-
-- `tests.ui.admin.test_guardrails_live_reload.TestBlockedToolLiveReload.test_blocked_tool_live_reload_case_insensitive`
-- `tests.ui.admin.test_guardrails_live_reload.TestBlockedToolkitLiveReload.test_blocked_toolkit_live_reload_case_insensitive`
-- `tests.ui.admin.test_guardrails_live_reload.TestSensitiveToolLiveReload.test_sensitive_tool_live_reload_case_insensitive`
-- `tests.ui.artifacts.test_artifacts_multi_file.TestArtifactMultiFileDownload.test_agent_creates_files_at_root_and_in_subfolder`
-- `tests.ui.chat.test_open_existing_conversation_from_this_week_section.TestOpenExistingConversationFromThisWeekSection.test_open_existing_conversation_from_this_week_section`
-- `tests.ui.pipelines.test_pipeline_advanced.TestDiscardChanges.test_save_discard_button_states_toggle_on_edit_and_discard`
-- `tests.ui.test_maintenance_handling.test_api_maintenance_error_triggerable`
-- `tests.ui.test_maintenance_handling.test_maintenance_banner_dismissed_automatically`
-- `tests.ui.test_maintenance_handling.test_maintenance_detection_captures_screenshot`
-- `tests.ui.test_maintenance_handling.test_maintenance_state_boolean_check`
-
-</details>
 
 ### Orphan TMS References
 
@@ -156,7 +144,7 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 - `tests.ui.chat.test_chat_interface.test_chat_message_history_displays` (ELITEA-1142)
 - `tests.ui.chat.test_chat_interface.test_chat_page_loads_successfully` (ELITEA-1142)
 - `tests.ui.chat.test_chat_interface.test_message_input_is_functional` (ELITEA-1142)
-- `tests.ui.help_center.test_help_center_page_loads.TestHelpCenterPageLoads.test_help_center_page_loads_via_sidebar_icon` (ELITEA-2219)
+- `tests.ui.help_center.test_help_center_page_loads.TestHelpCenterPageLoads.test_help_center_page_loads_via_sidebar_icon` (ELITEA-3753)
 - `tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_decision_node` (ELITEA-0858)
 - `tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_printer_node` (ELITEA-0858)
 - `tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_router_node` (ELITEA-0858)
@@ -176,4 +164,4 @@ _TMS cases reference tests that don't exist in automation (renamed/deleted?)._
 </details>
 
 ---
-_Compared `automation/index.json` (256 tests) with `index_automated.json` (269 refs)_
+_Compared `automation/index.json` (252 tests) with `index_automated.json` (275 refs)_
