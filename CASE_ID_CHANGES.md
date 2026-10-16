@@ -8,6 +8,66 @@ to resolve an old id or path found in automation code, reports, dashboards or is
 - Automation repo: `EliteaAI/elitea-testing-public`. Its `@pytest.mark.tms(...)`, `@allure.issue(...)`
   links, AFS file names and `automation_test_id` back-writes follow the id/path recorded here.
 
+## 2026-10-16 — remove content-identical duplicate cases, renumber the `5889` set, drop stray files
+
+Duplicates verified content-identical (ignoring id/status/automation fields). Rule: keep one copy; prefer AFR over EP; keep the non-`draft` status. None of the affected files carried `automation_test_id` or `execution_type: automated`.
+
+- **5889 ADO process_images set** — two identical copies in `EP/toolkits-credentials/` (ELITEA-2570…2586 and ELITEA-2599…2615, all `ready`). The 2599…2615 copy is removed (frees ELITEA-2599…2614 for the AFR `skills/` cases). The kept copy collided with older, different cases (`EP/toolkits-credentials/aha-toolkit/ELITEA-2570…2582`, `EP/trace-steps-api/ELITEA-2583…2586`), so it is renumbered to free ids ELITEA-4100…4116; the older cases keep their ids.
+- **New chat from folder** — `EP/chat-interface/new-chat-from-folder/ELITEA-2753` (`ready`) removed; the identical AFR copy `AFR/chat/ELITEA-2757` kept and set to `status: ready`. `EP/agents/ELITEA-2753_edit-with-ai-…` is a different case and keeps its id.
+- **SharePoint read-file-from-sharing-link** — `EP/…/sharepoint/ELITEA-2796…2800` removed (copy of ELITEA-2778…2782, both `draft`, both in EP). `AFR/toolkits_UI/ELITEA-2796…2800_regression-*` are different cases and are now unique.
+- **Indexing summaries** — `EP/toolkits-indexes/indexing-summaries/ELITEA-2809…2811` removed (copy of ELITEA-2830…2832, `ready`). `EP/skills/ELITEA-2809`, `EP/skills/ELITEA-2810` and `AFR/chat/ELITEA-2811` are different cases and are now unique.
+- **Extension-less files** — `AFR/artifacts/Open MDX File from Artifacts in Preview Mode` (`id: ELITEA-2310`, copy of `EP/artifacts/ELITEA-2310_open-mdx-file-from-artifacts-in-preview-mode.md`) and `AFR/artifacts/Switch from Preview to Raw Mode for MDX files` (`id: ELITEA-2311`, copy of `EP/artifacts/ELITEA-3856_switch-from-preview-to-raw-mode.md`) removed. `AFR/settings/analytics/ELITEA-2311_*` is a different case and is now unique.
+- **Stray file** — `EP/indexing/indexing-summaries` (one-line placeholder, not a case) removed.
+
+| Old id | New id | New path |
+|---|---|---|
+| ELITEA-2570 (`EP/toolkits-credentials/ELITEA-2570_5889-parameter-configuration.md`) | ELITEA-4100 | `EP/toolkits-credentials/ELITEA-4100_5889-parameter-configuration.md` |
+| ELITEA-2571 (`EP/toolkits-credentials/ELITEA-2571_5889-image-detection.md`) | ELITEA-4101 | `EP/toolkits-credentials/ELITEA-4101_5889-image-detection.md` |
+| ELITEA-2572 (`EP/toolkits-credentials/ELITEA-2572_5889-image-download-validation.md`) | ELITEA-4102 | `EP/toolkits-credentials/ELITEA-4102_5889-image-download-validation.md` |
+| ELITEA-2573 (`EP/toolkits-credentials/ELITEA-2573_5889-llm-vision-integration.md`) | ELITEA-4103 | `EP/toolkits-credentials/ELITEA-4103_5889-llm-vision-integration.md` |
+| ELITEA-2574 (`EP/toolkits-credentials/ELITEA-2574_5889-image-caching.md`) | ELITEA-4104 | `EP/toolkits-credentials/ELITEA-4104_5889-image-caching.md` |
+| ELITEA-2575 (`EP/toolkits-credentials/ELITEA-2575_5889-response-structure.md`) | ELITEA-4105 | `EP/toolkits-credentials/ELITEA-4105_5889-response-structure.md` |
+| ELITEA-2576 (`EP/toolkits-credentials/ELITEA-2576_5889-agent-integration.md`) | ELITEA-4106 | `EP/toolkits-credentials/ELITEA-4106_5889-agent-integration.md` |
+| ELITEA-2577 (`EP/toolkits-credentials/ELITEA-2577_5889-backward-compatibility.md`) | ELITEA-4107 | `EP/toolkits-credentials/ELITEA-4107_5889-backward-compatibility.md` |
+| ELITEA-2578 (`EP/toolkits-credentials/ELITEA-2578_5889-error-handling.md`) | ELITEA-4108 | `EP/toolkits-credentials/ELITEA-4108_5889-error-handling.md` |
+| ELITEA-2579 (`EP/toolkits-credentials/ELITEA-2579_5889-image-formats.md`) | ELITEA-4109 | `EP/toolkits-credentials/ELITEA-4109_5889-image-formats.md` |
+| ELITEA-2580 (`EP/toolkits-credentials/ELITEA-2580_5889-edge-cases.md`) | ELITEA-4110 | `EP/toolkits-credentials/ELITEA-4110_5889-edge-cases.md` |
+| ELITEA-2581 (`EP/toolkits-credentials/ELITEA-2581_5889-configuration-flexibility.md`) | ELITEA-4111 | `EP/toolkits-credentials/ELITEA-4111_5889-configuration-flexibility.md` |
+| ELITEA-2582 (`EP/toolkits-credentials/ELITEA-2582_5889-performance-baseline.md`) | ELITEA-4112 | `EP/toolkits-credentials/ELITEA-4112_5889-performance-baseline.md` |
+| ELITEA-2583 (`EP/toolkits-credentials/ELITEA-2583_5889-dedicated-tool.md`) | ELITEA-4113 | `EP/toolkits-credentials/ELITEA-4113_5889-dedicated-tool.md` |
+| ELITEA-2584 (`EP/toolkits-credentials/ELITEA-2584_5889-monitoring-logging.md`) | ELITEA-4114 | `EP/toolkits-credentials/ELITEA-4114_5889-monitoring-logging.md` |
+| ELITEA-2585 (`EP/toolkits-credentials/ELITEA-2585_5889-memory-stability.md`) | ELITEA-4115 | `EP/toolkits-credentials/ELITEA-4115_5889-memory-stability.md` |
+| ELITEA-2586 (`EP/toolkits-credentials/ELITEA-2586_5889-error-recovery.md`) | ELITEA-4116 | `EP/toolkits-credentials/ELITEA-4116_5889-error-recovery.md` |
+| ELITEA-2599 (`EP/toolkits-credentials/ELITEA-2599_5889-parameter-configuration.md`) | removed — duplicate of ELITEA-4100 | `EP/toolkits-credentials/ELITEA-4100_5889-parameter-configuration.md` |
+| ELITEA-2600 (`EP/toolkits-credentials/ELITEA-2600_5889-image-detection.md`) | removed — duplicate of ELITEA-4101 | `EP/toolkits-credentials/ELITEA-4101_5889-image-detection.md` |
+| ELITEA-2601 (`EP/toolkits-credentials/ELITEA-2601_5889-image-download-validation.md`) | removed — duplicate of ELITEA-4102 | `EP/toolkits-credentials/ELITEA-4102_5889-image-download-validation.md` |
+| ELITEA-2602 (`EP/toolkits-credentials/ELITEA-2602_5889-llm-vision-integration.md`) | removed — duplicate of ELITEA-4103 | `EP/toolkits-credentials/ELITEA-4103_5889-llm-vision-integration.md` |
+| ELITEA-2603 (`EP/toolkits-credentials/ELITEA-2603_5889-image-caching.md`) | removed — duplicate of ELITEA-4104 | `EP/toolkits-credentials/ELITEA-4104_5889-image-caching.md` |
+| ELITEA-2604 (`EP/toolkits-credentials/ELITEA-2604_5889-response-structure.md`) | removed — duplicate of ELITEA-4105 | `EP/toolkits-credentials/ELITEA-4105_5889-response-structure.md` |
+| ELITEA-2605 (`EP/toolkits-credentials/ELITEA-2605_5889-agent-integration.md`) | removed — duplicate of ELITEA-4106 | `EP/toolkits-credentials/ELITEA-4106_5889-agent-integration.md` |
+| ELITEA-2606 (`EP/toolkits-credentials/ELITEA-2606_5889-backward-compatibility.md`) | removed — duplicate of ELITEA-4107 | `EP/toolkits-credentials/ELITEA-4107_5889-backward-compatibility.md` |
+| ELITEA-2607 (`EP/toolkits-credentials/ELITEA-2607_5889-error-handling.md`) | removed — duplicate of ELITEA-4108 | `EP/toolkits-credentials/ELITEA-4108_5889-error-handling.md` |
+| ELITEA-2608 (`EP/toolkits-credentials/ELITEA-2608_5889-image-formats.md`) | removed — duplicate of ELITEA-4109 | `EP/toolkits-credentials/ELITEA-4109_5889-image-formats.md` |
+| ELITEA-2609 (`EP/toolkits-credentials/ELITEA-2609_5889-edge-cases.md`) | removed — duplicate of ELITEA-4110 | `EP/toolkits-credentials/ELITEA-4110_5889-edge-cases.md` |
+| ELITEA-2610 (`EP/toolkits-credentials/ELITEA-2610_5889-configuration-flexibility.md`) | removed — duplicate of ELITEA-4111 | `EP/toolkits-credentials/ELITEA-4111_5889-configuration-flexibility.md` |
+| ELITEA-2611 (`EP/toolkits-credentials/ELITEA-2611_5889-performance-baseline.md`) | removed — duplicate of ELITEA-4112 | `EP/toolkits-credentials/ELITEA-4112_5889-performance-baseline.md` |
+| ELITEA-2612 (`EP/toolkits-credentials/ELITEA-2612_5889-dedicated-tool.md`) | removed — duplicate of ELITEA-4113 | `EP/toolkits-credentials/ELITEA-4113_5889-dedicated-tool.md` |
+| ELITEA-2613 (`EP/toolkits-credentials/ELITEA-2613_5889-monitoring-logging.md`) | removed — duplicate of ELITEA-4114 | `EP/toolkits-credentials/ELITEA-4114_5889-monitoring-logging.md` |
+| ELITEA-2614 (`EP/toolkits-credentials/ELITEA-2614_5889-memory-stability.md`) | removed — duplicate of ELITEA-4115 | `EP/toolkits-credentials/ELITEA-4115_5889-memory-stability.md` |
+| ELITEA-2615 (`EP/toolkits-credentials/ELITEA-2615_5889-error-recovery.md`) | removed — duplicate of ELITEA-4116 | `EP/toolkits-credentials/ELITEA-4116_5889-error-recovery.md` |
+| ELITEA-2753 (`EP/chat-interface/new-chat-from-folder/ELITEA-2753_chat-new-chat-option-available-in-folder-context-menu.md`) | removed — duplicate of ELITEA-2757 | `AFR/chat/ELITEA-2757_chat-new-chat-option-available-in-folder-context-menu.md` |
+| ELITEA-2796 (`EP/toolkits-credentials/sharepoint/ELITEA-2796_read-file-from-sharing-link-oversized-file-no-provider-level-error.md`) | removed — duplicate of ELITEA-2778 | `EP/toolkits-credentials/sharepoint/ELITEA-2778_read-file-from-sharing-link-oversized-file-no-provider-level-error.md` |
+| ELITEA-2797 (`EP/toolkits-credentials/sharepoint/ELITEA-2797_read-file-from-sharing-link-bounded-read-start-end-line-and-test-settings-ui.md`) | removed — duplicate of ELITEA-2779 | `EP/toolkits-credentials/sharepoint/ELITEA-2779_read-file-from-sharing-link-bounded-read-start-end-line-and-test-settings-ui.md` |
+| ELITEA-2798 (`EP/toolkits-credentials/sharepoint/ELITEA-2798_read-file-from-sharing-link-per-file-type-size-validation-before-download.md`) | removed — duplicate of ELITEA-2780 | `EP/toolkits-credentials/sharepoint/ELITEA-2780_read-file-from-sharing-link-per-file-type-size-validation-before-download.md` |
+| ELITEA-2799 (`EP/toolkits-credentials/sharepoint/ELITEA-2799_read-file-from-sharing-link-oversized-excel-workbook-guidance-primary-and-403-fallback.md`) | removed — duplicate of ELITEA-2781 | `EP/toolkits-credentials/sharepoint/ELITEA-2781_read-file-from-sharing-link-oversized-excel-workbook-guidance-primary-and-403-fallback.md` |
+| ELITEA-2800 (`EP/toolkits-credentials/sharepoint/ELITEA-2800_read-file-from-sharing-link-invalid-start-end-line-explicit-errors.md`) | removed — duplicate of ELITEA-2782 | `EP/toolkits-credentials/sharepoint/ELITEA-2782_read-file-from-sharing-link-invalid-start-end-line-explicit-errors.md` |
+| ELITEA-2809 (`EP/toolkits-indexes/indexing-summaries/ELITEA-2809_unsupported-items-list-formats.md`) | removed — duplicate of ELITEA-2830 | `EP/toolkits-indexes/indexing-summaries/ELITEA-2830_unsupported-items-list-formats.md` |
+| ELITEA-2810 (`EP/toolkits-indexes/indexing-summaries/ELITEA-2810_visual-styling-consistency.md`) | removed — duplicate of ELITEA-2831 | `EP/toolkits-indexes/indexing-summaries/ELITEA-2831_visual-styling-consistency.md` |
+| ELITEA-2811 (`EP/toolkits-indexes/indexing-summaries/ELITEA-2811_chunk-counts-not-displayed.md`) | removed — duplicate of ELITEA-2832 | `EP/toolkits-indexes/indexing-summaries/ELITEA-2832_chunk-counts-not-displayed.md` |
+| ELITEA-2310 (`AFR/artifacts/Open MDX File from Artifacts in Preview Mode`, no extension) | removed — duplicate of ELITEA-2310 | `EP/artifacts/ELITEA-2310_open-mdx-file-from-artifacts-in-preview-mode.md` |
+| ELITEA-2311 (`AFR/artifacts/Switch from Preview to Raw Mode for MDX files`, no extension) | removed — duplicate of ELITEA-3856 | `EP/artifacts/ELITEA-3856_switch-from-preview-to-raw-mode.md` |
+| — (`EP/indexing/indexing-summaries`, stray placeholder) | removed | — |
+
 ## 2026-10-16 — rename `TMS-*` custom-theme cases to the `ELITEA-` format
 
 The 34 cases in `AFR/settings/custom-theme/` used a `TMS-<n>` id/file prefix (PR #150). Renamed to free ids ELITEA-4066 … 4099 (ELITEA-3543 … 3595 are partly taken, so the numbers were not reused). Folder and slug unchanged; `id:` and `# ELITEA-<id>` heading updated. Note: TMS-3579 … 3595 are content-identical copies of TMS-3543 … 3559 (same slugs, only the id differs) — both sets are kept, now as ELITEA-4066 … 4082 and ELITEA-4083 … 4099.

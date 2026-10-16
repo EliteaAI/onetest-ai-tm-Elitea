@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2612
+id: ELITEA-4113
 title: "[EliteaAI/elitea_issues#5889] ADO Toolkit: Dedicated get_image_by_url Tool (Alternative)"
 priority: medium
 type: functional
@@ -10,7 +10,7 @@ tags: [issue:5889, r-2.0.5, feat:toolkits, int:ado-boards, eng:ai, eng:backend]
 requirements: [EliteaAI/elitea_issues#5889]
 ---
 
-# ELITEA-2583: ADO Toolkit — Dedicated get_image_by_url Tool (Alternative Implementation)
+# ELITEA-4113: ADO Toolkit — Dedicated get_image_by_url Tool (Alternative Implementation)
 
 **Module:** Toolkits Credentials · **Priority:** Medium · **Type:** Functional
 

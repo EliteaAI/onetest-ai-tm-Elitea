@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2604
+id: ELITEA-4105
 title: "[EliteaAI/elitea_issues#5889] ADO Toolkit: Response Structure with Image Content"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [issue:5889, r-2.0.5, feat:toolkits, int:ado-boards, eng:ai, eng:backend]
 requirements: [EliteaAI/elitea_issues#5889]
 ---
 
-# ELITEA-2575: ADO Toolkit — Response Structure with Image Content
+# ELITEA-4105: ADO Toolkit — Response Structure with Image Content
 
 **Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
 

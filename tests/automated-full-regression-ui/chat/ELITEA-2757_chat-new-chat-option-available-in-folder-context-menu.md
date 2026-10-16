@@ -4,7 +4,7 @@ title: "Chat – Create new conversation from folder context menu"
 priority: critical
 type: functional
 module: chat-interface
-status: draft
+status: ready
 execution_type: manual
 tags: [feat:chat, r-2.0.6]
 requirements: [EliteaAI/elitea_issues#1604]

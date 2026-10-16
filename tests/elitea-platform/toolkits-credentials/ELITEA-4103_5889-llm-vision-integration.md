@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2602
+id: ELITEA-4103
 title: "[EliteaAI/elitea_issues#5889] ADO Toolkit: LLM Vision Integration & Content Extraction"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [issue:5889, r-2.0.5, feat:toolkits, int:ado-boards, eng:ai, eng:backend]
 requirements: [EliteaAI/elitea_issues#5889]
 ---
 
-# ELITEA-2573: ADO Toolkit — LLM Vision Integration & Content Extraction
+# ELITEA-4103: ADO Toolkit — LLM Vision Integration & Content Extraction
 
 **Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
 

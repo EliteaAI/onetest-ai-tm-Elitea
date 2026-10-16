@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2574
+id: ELITEA-4104
 title: "[EliteaAI/elitea_issues#5889] ADO Toolkit: Image Description Caching (MD5)"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [issue:5889, r-2.0.5, feat:toolkits, int:ado-boards, eng:ai, eng:backend]
 requirements: [EliteaAI/elitea_issues#5889]
 ---
 
-# ELITEA-2574: ADO Toolkit — Image Description Caching by MD5
+# ELITEA-4104: ADO Toolkit — Image Description Caching by MD5
 
 **Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
 

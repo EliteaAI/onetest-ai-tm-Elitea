@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2607
+id: ELITEA-4108
 title: "[EliteaAI/elitea_issues#5889] ADO Toolkit: Error Handling (URLs, Timeouts, Corruption)"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [issue:5889, r-2.0.5, feat:toolkits, int:ado-boards, eng:ai, eng:backend]
 requirements: [EliteaAI/elitea_issues#5889]
 ---
 
-# ELITEA-2578: ADO Toolkit — Error Handling (All Scenarios)
+# ELITEA-4108: ADO Toolkit — Error Handling (All Scenarios)
 
 **Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
 

@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2615
+id: ELITEA-4116
 title: "[EliteaAI/elitea_issues#5889] ADO Toolkit: Error Recovery & Resilience"
 priority: medium
 type: functional
@@ -10,7 +10,7 @@ tags: [issue:5889, r-2.0.5, feat:toolkits, int:ado-boards, eng:ai, eng:backend]
 requirements: [EliteaAI/elitea_issues#5889]
 ---
 
-# ELITEA-2586: ADO Toolkit — Error Recovery & Resilience
+# ELITEA-4116: ADO Toolkit — Error Recovery & Resilience
 
 **Module:** Toolkits Credentials · **Priority:** Medium · **Type:** Functional
 

@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2585
+id: ELITEA-4115
 title: "[EliteaAI/elitea_issues#5889] ADO Toolkit: Memory & Stability (No Leaks, Consistency)"
 priority: medium
 type: functional
@@ -10,7 +10,7 @@ tags: [issue:5889, r-2.0.5, feat:toolkits, int:ado-boards, eng:ai, eng:backend]
 requirements: [EliteaAI/elitea_issues#5889]
 ---
 
-# ELITEA-2585: ADO Toolkit — Memory & Stability
+# ELITEA-4115: ADO Toolkit — Memory & Stability
 
 **Module:** Toolkits Credentials · **Priority:** Medium · **Type:** Functional
 

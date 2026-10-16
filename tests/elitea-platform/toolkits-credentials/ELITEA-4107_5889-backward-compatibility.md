@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2606
+id: ELITEA-4107
 title: "[EliteaAI/elitea_issues#5889] ADO Toolkit: Backward Compatibility (process_images=false)"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [issue:5889, r-2.0.5, feat:toolkits, int:ado-boards, eng:ai, eng:backend]
 requirements: [EliteaAI/elitea_issues#5889]
 ---
 
-# ELITEA-2577: ADO Toolkit — Backward Compatibility (process_images=false)
+# ELITEA-4107: ADO Toolkit — Backward Compatibility (process_images=false)
 
 **Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
 

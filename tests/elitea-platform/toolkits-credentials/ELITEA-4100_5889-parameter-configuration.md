@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2599
+id: ELITEA-4100
 title: "[EliteaAI/elitea_issues#5889] ADO Toolkit: process_images Parameter Configuration"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [issue:5889, r-2.0.5, feat:toolkits, int:ado-boards, eng:ai, eng:backend]
 requirements: [EliteaAI/elitea_issues#5889]
 ---
 
-# ELITEA-2570: ADO Toolkit — process_images Parameter Configuration
+# ELITEA-4100: ADO Toolkit — process_images Parameter Configuration
 
 **Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
 

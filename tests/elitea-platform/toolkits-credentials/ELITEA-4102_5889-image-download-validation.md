@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2601
+id: ELITEA-4102
 title: "[EliteaAI/elitea_issues#5889] ADO Toolkit: Image Download & Binary Validation"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [issue:5889, r-2.0.5, feat:toolkits, int:ado-boards, eng:ai, eng:backend]
 requirements: [EliteaAI/elitea_issues#5889]
 ---
 
-# ELITEA-2572: ADO Toolkit — Image Download & Binary Validation
+# ELITEA-4102: ADO Toolkit — Image Download & Binary Validation
 
 **Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
 

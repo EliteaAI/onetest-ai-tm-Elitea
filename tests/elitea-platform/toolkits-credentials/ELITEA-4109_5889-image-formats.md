@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2579
+id: ELITEA-4109
 title: "[EliteaAI/elitea_issues#5889] ADO Toolkit: Supported Image Formats (JPEG, PNG, GIF, WebP)"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [issue:5889, r-2.0.5, feat:toolkits, int:ado-boards, eng:ai, eng:backend]
 requirements: [EliteaAI/elitea_issues#5889]
 ---
 
-# ELITEA-2579: ADO Toolkit — Supported Image Formats
+# ELITEA-4109: ADO Toolkit — Supported Image Formats
 
 **Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
 
