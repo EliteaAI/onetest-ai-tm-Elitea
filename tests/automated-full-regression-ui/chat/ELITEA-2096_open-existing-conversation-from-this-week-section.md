@@ -4,10 +4,12 @@ title: "Open Existing Conversation from This Week Section"
 priority: medium
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:chat]
 requirements: []
+automation_test_id:
+  - tests.ui.chat.test_open_existing_conversation_from_this_week_section.TestOpenExistingConversationFromThisWeekSection.test_open_existing_conversation_from_this_week_section
 ---
 
 # ELITEA-2096: Open Existing Conversation from This Week Section

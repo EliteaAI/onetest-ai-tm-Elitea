@@ -4,10 +4,12 @@ title: "Verify all files are available for download when agent creates multiple 
 priority: critical
 type: regression
 module: artifacts
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [r-2.0.4, bug-env:dev, bug-area:current-release-scope]
 requirements: [EliteaAI/elitea_issues#5313]
+automation_test_id:
+  - tests.ui.artifacts.test_artifacts_multi_file.TestArtifactMultiFileDownload.test_agent_creates_files_at_root_and_in_subfolder
 ---
 
 ## Preconditions
