@@ -1,25 +1,25 @@
 # Test Dashboard
 
-_Generated: 2026-10-15 14:16 UTC_
+_Generated: 2026-10-16 06:09 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-15-273-DEV-PIPELINES_2-PASSED**
+**RUN-ELITEA-2026-10-16-282-DEV-SMOKE-PASSED**
 
 ```mermaid
 pie showData
-    title "Test Results (57 total)"
-    "Passed" : 57
+    title "Test Results (2 total)"
+    "Passed" : 2
     "Failed" : 0
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 57 |
-| Passed | 57 |
+| Total | 2 |
+| Passed | 2 |
 | Failed | 0 |
 | Skipped | 0 |
-| Reruns | 8 |
+| Reruns | 0 |
 | Pass Rate | 100.0% |
 
 ## Trend (Last 10 Runs)
@@ -27,10 +27,10 @@ pie showData
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE, 15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2]
+    x-axis [06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE, 15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE]
     y-axis "Tests" 0 --> 62
-    bar "Passed" [26, 26, 26, 29, 29, 2, 2, 2, 2, 57]
-    bar "Failed" [2, 2, 2, 2, 2, 0, 0, 0, 0, 0]
+    bar "Passed" [26, 26, 29, 29, 2, 2, 2, 2, 57, 2]
+    bar "Failed" [2, 2, 2, 2, 0, 0, 0, 0, 0, 0]
 ```
 
 ### Reruns Trend
@@ -38,15 +38,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [05-209-DEV-STABLE, 06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE, 15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2]
+    x-axis [06-214-DEV-STABLE, 07-217-DEV-STABLE, 08-247-DEV-SMOKE, 09-250-DEV-SMOKE, 15-269-DEV-SMOKE, 15-270-DEV-SMOKE, 15-271-DEV-SMOKE, 15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE]
     y-axis "Reruns" 0 --> 15
-    line "Reruns" [12, 12, 12, 12, 12, 0, 0, 0, 0, 8]
+    line "Reruns" [12, 12, 12, 12, 0, 0, 0, 0, 8, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ✅ 16-282-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 15-273-DEV-PIPELINES_2 | 57 | 57 | 0 | 0 | 8 | 100% |
 | ✅ 15-272-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 15-271-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
@@ -56,7 +57,6 @@ xychart-beta
 | ❌ 08-247-DEV-SMOKE | 31 | 29 | 2 | 0 | 12 | 94% |
 | ❌ 07-217-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 | ❌ 06-214-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
-| ❌ 05-209-DEV-STABLE | 30 | 26 | 2 | 2 | 12 | 87% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -78,6 +78,47 @@ pie showData
     title "TMS Linkage (256 tests)"
     "Linked to TMS" : 246
     "No TMS case" : 10
+```
+
+### Automation Coverage by Suite
+
+| Suite | Automated | Total |
+|-------|-----------|-------|
+| agent_hub | 12 | 21 |
+| agents | 26 | 61 |
+| artifacts | 23 | 79 |
+| chat | 18 | 234 |
+| credentials | 1 | 24 |
+| evaluation-run-analytics | 0 | 5 |
+| help_center | 2 | 12 |
+| indexing | 0 | 18 |
+| mcp | 3 | 50 |
+| onboarding | 0 | 11 |
+| per-run-analytics | 0 | 6 |
+| pipelines | 89 | 96 |
+| settings | 10 | 212 |
+| skills | 19 | 66 |
+| social-folders | 0 | 13 |
+| support-assistant | 14 | 24 |
+| toolkit | 0 | 7 |
+| toolkits_UI | 6 | 19 |
+| **All suites** | **223** | **958** |
+
+```mermaid
+pie showData
+    title "Automated Cases by Suite (223 of 958)"
+    "pipelines" : 89
+    "agents" : 26
+    "artifacts" : 23
+    "skills" : 19
+    "chat" : 18
+    "support-assistant" : 14
+    "agent_hub" : 12
+    "settings" : 10
+    "toolkits_UI" : 6
+    "mcp" : 3
+    "help_center" : 2
+    "credentials" : 1
 ```
 
 ### Tests Without TMS Case
