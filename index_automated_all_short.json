@@ -2526,17 +2526,17 @@
       "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2749_verify-pipeline-with-mcp-displays-toolkit-name-in-pipeline-chat.md"
     },
     {
-      "id": "ELITEA-2741",
+      "id": "ELITEA-2750",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2750_verify-pipeline-with-mcp-called-from-chat-page.md"
     },
     {
-      "id": "ELITEA-2742",
+      "id": "ELITEA-2751",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2751_verify-pipeline-with-nested-pipeline-displays-mcp-name-in-pipeline-chat.md"
     },
     {
-      "id": "ELITEA-2743",
+      "id": "ELITEA-2752",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2752_verify-pipeline-with-nested-pipeline-called-from-chat-page.md"
     },

@@ -11255,7 +11255,7 @@
       "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2749_verify-pipeline-with-mcp-displays-toolkit-name-in-pipeline-chat.md"
     },
     {
-      "id": "ELITEA-2741",
+      "id": "ELITEA-2750",
       "title": "Verify pipeline with MCP displays toolkit name when called from Chat page",
       "status": "draft",
       "execution_type": "manual",
@@ -11282,7 +11282,7 @@
       "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2750_verify-pipeline-with-mcp-called-from-chat-page.md"
     },
     {
-      "id": "ELITEA-2742",
+      "id": "ELITEA-2751",
       "title": "Verify pipeline with nested pipeline (containing agent with MCP) displays toolkit name in Pipeline chat",
       "status": "draft",
       "execution_type": "manual",
@@ -11309,7 +11309,7 @@
       "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2751_verify-pipeline-with-nested-pipeline-displays-mcp-name-in-pipeline-chat.md"
     },
     {
-      "id": "ELITEA-2743",
+      "id": "ELITEA-2752",
       "title": "Verify pipeline with nested pipeline displays toolkit name when called from Chat page",
       "status": "draft",
       "execution_type": "manual",
