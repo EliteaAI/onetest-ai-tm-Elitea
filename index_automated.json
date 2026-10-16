@@ -19080,8 +19080,8 @@
     {
       "id": "ELITEA-2441",
       "title": "Test panel does not create a new Chat conversation",
-      "status": "ready",
-      "execution_type": "automated",
+      "status": "deprecated",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -19092,9 +19092,7 @@
         "feat:skills"
       ],
       "requirements": [],
-      "automation_test_id": [
-        "tests.ui.skills.test_skill_test_panel_no_new_conversation.TestSkillTestPanelNoNewConversation.test_test_panel_does_not_create_new_chat_conversation"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
