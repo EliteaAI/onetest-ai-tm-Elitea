@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3758
+id: ELITEA-4062
 title: "DIAL calls are priced even when the catalog lists the price under a provider-prefixed name"
 priority: critical
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:analytics, costs, dial, pricing, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6996", "EliteaAI/elitea_issues#6355"]
 ---
 
-# ELITEA-3758: DIAL calls are priced even when the catalog lists the price under a provider-prefixed name
+# ELITEA-4062: DIAL calls are priced even when the catalog lists the price under a provider-prefixed name
 
 **Module:** analytics · **Priority:** Critical · **Type:** Functional
 

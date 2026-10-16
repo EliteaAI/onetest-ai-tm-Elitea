@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3752
+id: ELITEA-4056
 title: "OpenAI compatible toggle on a DIAL Claude-family model"
 priority: medium
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:llm-models, dial, openai-compatible, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6707"]
 ---
 
-# ELITEA-3752: OpenAI compatible toggle on a DIAL Claude-family model
+# ELITEA-4056: OpenAI compatible toggle on a DIAL Claude-family model
 
 **Module:** model-settings · **Priority:** Medium · **Type:** Functional
 

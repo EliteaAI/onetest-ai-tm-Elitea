@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3757
+id: ELITEA-4061
 title: "Costs by model shows an \"Other models\" row and still adds up to the total"
 priority: medium
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:analytics, costs, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#7000"]
 ---
 
-# ELITEA-3757: Costs by model shows an "Other models" row and still adds up to the total
+# ELITEA-4061: Costs by model shows an "Other models" row and still adds up to the total
 
 **Module:** analytics · **Priority:** Medium · **Type:** Functional
 

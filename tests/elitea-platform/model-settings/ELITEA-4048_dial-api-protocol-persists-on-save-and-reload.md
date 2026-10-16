@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3744
+id: ELITEA-4048
 title: "DIAL model API protocol persists across save, reload and edit"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:llm-models, dial, api-protocol, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6707", "EliteaAI/elitea_issues#6713", "EliteaAI/elitea_issues#6919"]
 ---
 
-# ELITEA-3744: DIAL model API protocol persists across save, reload and edit
+# ELITEA-4048: DIAL model API protocol persists across save, reload and edit
 
 **Module:** model-settings · **Priority:** High · **Type:** Functional
 

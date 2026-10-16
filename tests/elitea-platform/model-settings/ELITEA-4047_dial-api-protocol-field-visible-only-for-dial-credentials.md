@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3743
+id: ELITEA-4047
 title: "DIAL API protocol field is shown only for DIAL credentials and is required"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:llm-models, dial, api-protocol, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6707", "EliteaAI/elitea_issues#6713", "EliteaAI/elitea_issues#6919"]
 ---
 
-# ELITEA-3743: DIAL API protocol field is shown only for DIAL credentials and is required
+# ELITEA-4047: DIAL API protocol field is shown only for DIAL credentials and is required
 
 **Module:** model-settings · **Priority:** High · **Type:** Functional
 

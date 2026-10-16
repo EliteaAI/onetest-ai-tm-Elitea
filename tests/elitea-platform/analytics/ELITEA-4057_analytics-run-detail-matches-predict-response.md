@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3753
+id: ELITEA-4057
 title: "Analytics run detail matches the predict response for each run"
 priority: critical
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:analytics, usage, run-detail, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6566"]
 ---
 
-# ELITEA-3753: Analytics run detail matches the predict response for each run
+# ELITEA-4057: Analytics run detail matches the predict response for each run
 
 **Module:** analytics · **Priority:** Critical · **Type:** Functional
 

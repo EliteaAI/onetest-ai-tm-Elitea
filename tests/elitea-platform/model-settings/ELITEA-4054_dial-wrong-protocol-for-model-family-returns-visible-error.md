@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3750
+id: ELITEA-4054
 title: "DIAL model on a protocol that does not fit its family returns a visible error"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:llm-models, dial, api-protocol, error-handling, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6707"]
 ---
 
-# ELITEA-3750: DIAL model on a protocol that does not fit its family returns a visible error
+# ELITEA-4054: DIAL model on a protocol that does not fit its family returns a visible error
 
 **Module:** model-settings · **Priority:** High · **Type:** Functional
 

@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3759
+id: ELITEA-4063
 title: "Selecting a shared model that has the same name as a project model runs and budgets the shared one"
 priority: critical
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:analytics, budget, shared-models, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6999", "EliteaAI/elitea_issues#7002"]
 ---
 
-# ELITEA-3759: Selecting a shared model that has the same name as a project model runs and budgets the shared one
+# ELITEA-4063: Selecting a shared model that has the same name as a project model runs and budgets the shared one
 
 **Module:** analytics · **Priority:** Critical · **Type:** Functional
 

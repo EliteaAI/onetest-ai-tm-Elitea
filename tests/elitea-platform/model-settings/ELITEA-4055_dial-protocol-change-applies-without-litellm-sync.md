@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3751
+id: ELITEA-4055
 title: "Changing a DIAL model's protocol or reasoning applies immediately without a LiteLLM sync"
 priority: medium
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:llm-models, dial, api-protocol, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6707"]
 ---
 
-# ELITEA-3751: Changing a DIAL model's protocol or reasoning applies immediately without a LiteLLM sync
+# ELITEA-4055: Changing a DIAL model's protocol or reasoning applies immediately without a LiteLLM sync
 
 **Module:** model-settings · **Priority:** Medium · **Type:** Functional
 

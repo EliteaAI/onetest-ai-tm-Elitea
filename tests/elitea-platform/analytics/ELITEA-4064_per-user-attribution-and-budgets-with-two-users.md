@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3760
+id: ELITEA-4064
 title: "Usage, cost and budget are attributed to the user who ran the agent"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:analytics, budget, users, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6566"]
 ---
 
-# ELITEA-3760: Usage, cost and budget are attributed to the user who ran the agent
+# ELITEA-4064: Usage, cost and budget are attributed to the user who ran the agent
 
 **Module:** analytics · **Priority:** High · **Type:** Functional
 

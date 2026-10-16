@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3746
+id: ELITEA-4050
 title: "Reasoning can be switched on and off for DIAL models on their correct protocol"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:llm-models, dial, reasoning, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6707", "EliteaAI/elitea_issues#6713", "EliteaAI/elitea_issues#6919"]
 ---
 
-# ELITEA-3746: Reasoning can be switched on and off for DIAL models on their correct protocol
+# ELITEA-4050: Reasoning can be switched on and off for DIAL models on their correct protocol
 
 **Module:** model-settings · **Priority:** High · **Type:** Functional
 

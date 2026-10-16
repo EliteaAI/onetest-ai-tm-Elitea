@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3747
+id: ELITEA-4051
 title: "Reasoning validation applies the same on create and on update"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:llm-models, reasoning, validation, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6713", "EliteaAI/elitea_issues#6919"]
 ---
 
-# ELITEA-3747: Reasoning validation applies the same on create and on update
+# ELITEA-4051: Reasoning validation applies the same on create and on update
 
 **Module:** model-settings · **Priority:** High · **Type:** Functional
 

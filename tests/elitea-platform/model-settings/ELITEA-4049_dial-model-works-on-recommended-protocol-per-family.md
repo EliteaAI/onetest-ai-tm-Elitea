@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3745
+id: ELITEA-4049
 title: "DIAL models answer on the recommended protocol for each model family"
 priority: critical
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:llm-models, dial, api-protocol, agents, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6707", "EliteaAI/elitea_issues#6713", "EliteaAI/elitea_issues#6919"]
 ---
 
-# ELITEA-3745: DIAL models answer on the recommended protocol for each model family
+# ELITEA-4049: DIAL models answer on the recommended protocol for each model family
 
 **Module:** model-settings · **Priority:** Critical · **Type:** Functional
 

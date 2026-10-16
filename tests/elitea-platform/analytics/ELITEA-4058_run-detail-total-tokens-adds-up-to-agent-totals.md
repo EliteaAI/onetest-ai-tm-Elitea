@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3754
+id: ELITEA-4058
 title: "Run detail total tokens add up to the agent and project totals"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:analytics, tokens, run-detail, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6998"]
 ---
 
-# ELITEA-3754: Run detail total tokens add up to the agent and project totals
+# ELITEA-4058: Run detail total tokens add up to the agent and project totals
 
 **Module:** analytics · **Priority:** High · **Type:** Functional
 

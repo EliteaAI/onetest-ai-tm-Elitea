@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3749
+id: ELITEA-4053
 title: "DIAL model on Azure OpenAI with reasoning shows a non-blocking warning for GPT and Claude families"
 priority: medium
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:llm-models, dial, reasoning, ui, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6707", "EliteaAI/elitea_issues#6713", "EliteaAI/elitea_issues#6919"]
 ---
 
-# ELITEA-3749: DIAL model on Azure OpenAI with reasoning shows a non-blocking warning for GPT and Claude families
+# ELITEA-4053: DIAL model on Azure OpenAI with reasoning shows a non-blocking warning for GPT and Claude families
 
 **Module:** model-settings · **Priority:** Medium · **Type:** Functional
 

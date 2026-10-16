@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3748
+id: ELITEA-4052
 title: "Non-DIAL credential with reasoning saves without an API protocol error"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:llm-models, reasoning, validation, bedrock, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6713"]
 ---
 
-# ELITEA-3748: Non-DIAL credential with reasoning saves without an API protocol error
+# ELITEA-4052: Non-DIAL credential with reasoning saves without an API protocol error
 
 **Module:** model-settings · **Priority:** High · **Type:** Functional
 

@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3756
+id: ELITEA-4060
 title: "Analytics aggregate views equal the sum of the runs in the window"
 priority: high
 type: functional
@@ -10,7 +10,7 @@ tags: [feat:analytics, aggregates, r-2.0.7]
 requirements: ["EliteaAI/elitea_issues#6566"]
 ---
 
-# ELITEA-3756: Analytics aggregate views equal the sum of the runs in the window
+# ELITEA-4060: Analytics aggregate views equal the sum of the runs in the window
 
 **Module:** analytics · **Priority:** High · **Type:** Functional
 
