@@ -6,7 +6,6 @@ type: regression
 module: chat-interface
 status: draft
 execution_type: manual
-automation_test_id: []
 tags: [automated:UI:regression, feat:chat, feat:agents, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6368]
 ---

@@ -4,8 +4,8 @@ title: "Agent icon can be changed and persists on the agents list card"
 priority: low
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:agents]
 requirements: []
 automation_test_id: tests.ui.agents.test_agent_icon_management.TestAgentIconManagement.test_agent_icon_change_persists_on_list_card

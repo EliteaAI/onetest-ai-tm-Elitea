@@ -6,7 +6,6 @@ type: functional
 module: chat-interface
 status: ready
 execution_type: manual
-automation_test_id: []
 tags: [chat, duplicate, sorting, bug-6271, P2]
 requirements: [3837, 6271]
 ---

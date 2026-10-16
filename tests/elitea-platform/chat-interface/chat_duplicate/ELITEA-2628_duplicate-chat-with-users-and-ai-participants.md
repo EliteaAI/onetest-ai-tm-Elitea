@@ -6,7 +6,6 @@ type: functional
 module: chat-interface
 status: ready
 execution_type: manual
-automation_test_id: []
 tags: [chat, duplicate, mixed-participants, team-project, P1]
 requirements: [3837]
 ---
