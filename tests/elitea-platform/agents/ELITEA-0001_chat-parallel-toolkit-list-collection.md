@@ -6,7 +6,6 @@ type: regression
 module: agents
 status: ready
 execution_type: manual
-automation_test_id: []
 tags: [feat:collections, feat:toolkits, eng:backend]
 requirements: [EliteaAI/elitea_issues#4959]
 ---

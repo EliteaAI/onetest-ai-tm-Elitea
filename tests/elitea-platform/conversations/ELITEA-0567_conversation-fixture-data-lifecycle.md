@@ -6,7 +6,6 @@ type: functional
 module: conversations
 status: ready
 execution_type: manual
-automation_test_id: []
 tags: []
 requirements: []
 ---
