@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2743
+id: ELITEA-2752
 title: "Verify pipeline with nested pipeline displays toolkit name when called from Chat page"
 priority: high
 type: functional

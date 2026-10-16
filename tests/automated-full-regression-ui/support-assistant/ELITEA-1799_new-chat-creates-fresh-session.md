@@ -4,7 +4,7 @@ title: "New Chat button creates fresh session and moves previous to history"
 priority: high
 type: functional
 module: support-assistant
-status: draft
+status: ready
 execution_type: automated
 tags: [automated:UI:regression, feat:support-assistant]
 requirements: []

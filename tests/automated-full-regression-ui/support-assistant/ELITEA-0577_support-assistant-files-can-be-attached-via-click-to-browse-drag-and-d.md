@@ -4,7 +4,7 @@ title: "Support Assistant — Files Can Be Attached via Click-to-Browse, Drag-an
 priority: critical
 type: functional
 module: elitea-chat-bot
-status: draft
+status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.support_assistant.test_support_assistant_smoke.TestSupportAssistantAttachments.test_attach_button_present_and_opens_picker

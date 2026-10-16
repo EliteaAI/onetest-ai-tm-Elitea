@@ -6,7 +6,6 @@ type: functional
 module: chat-interface
 status: ready
 execution_type: manual
-automation_test_id: []
 tags: [chat, duplicate, ai-error-state, P2]
 requirements: [3837]
 ---

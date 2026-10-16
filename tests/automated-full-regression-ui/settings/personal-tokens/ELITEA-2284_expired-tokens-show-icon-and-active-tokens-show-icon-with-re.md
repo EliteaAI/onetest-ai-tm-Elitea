@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.admin.test_personal_token_create_and_verify.TestPersonalTokenCreateAndVerify.test_expired_token_shows_expired_icon_and_label
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1176
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2448
 tags: [automated:UI:regression, feat:settings]
 requirements: []
 ---

@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
-  - tests.ui.pipelines.test_pipeline_advanced.TestDiscardChanges.test_discard_reverts_name_change
+  - tests.ui.pipelines.test_pipeline_advanced.TestDiscardChanges.test_save_discard_button_states_toggle_on_edit_and_discard
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1356
 ---
 
