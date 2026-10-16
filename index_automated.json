@@ -21417,82 +21417,6 @@
       "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2800_regression-run-history-and-schedule.md"
     },
     {
-      "id": "ELITEA-2823",
-      "title": "Regression - Toolkit Sections Default States and Layout",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "regression",
-      "priority": "critical",
-      "size": "",
-      "module": "toolkits-indexes",
-      "owner": "",
-      "tags": [
-        "regression",
-        "smoke",
-        "toolkit-sections-redesign",
-        "layout"
-      ],
-      "requirements": [
-        "EL-6252"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2823_regression-toolkit-sections-default-states.md"
-    },
-    {
-      "id": "ELITEA-2824",
-      "title": "Regression - Tools Section Count Updates and Header Toggle",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "regression",
-      "priority": "critical",
-      "size": "",
-      "module": "toolkits-indexes",
-      "owner": "",
-      "tags": [
-        "regression",
-        "smoke",
-        "toolkit-sections-redesign",
-        "tools"
-      ],
-      "requirements": [
-        "EL-6252"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2824_regression-tools-section-count-and-toggle.md"
-    },
-    {
-      "id": "ELITEA-2825",
-      "title": "Regression - Reindex Button Disabled When index_data Tool Unavailable",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "regression",
-      "priority": "critical",
-      "size": "",
-      "module": "toolkits-indexes",
-      "owner": "",
-      "tags": [
-        "regression",
-        "smoke",
-        "toolkit-sections-redesign",
-        "reindex"
-      ],
-      "requirements": [
-        "EL-6252",
-        "EL-6371"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2825_regression-reindex-button-index-data-dependency.md"
-    },
-    {
       "id": "ELITEA-2956",
       "title": "Regression: Background Indexing Continues Across Navigation",
       "status": "draft",
@@ -21605,6 +21529,82 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-2960_regression-stepback-tools-execution-and-results.md"
+    },
+    {
+      "id": "ELITEA-3999",
+      "title": "Regression - Toolkit Sections Default States and Layout",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-sections-redesign",
+        "layout"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-3999_regression-toolkit-sections-default-states.md"
+    },
+    {
+      "id": "ELITEA-4000",
+      "title": "Regression - Tools Section Count Updates and Header Toggle",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-sections-redesign",
+        "tools"
+      ],
+      "requirements": [
+        "EL-6252"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-4000_regression-tools-section-count-and-toggle.md"
+    },
+    {
+      "id": "ELITEA-4001",
+      "title": "Regression - Reindex Button Disabled When index_data Tool Unavailable",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "regression",
+        "smoke",
+        "toolkit-sections-redesign",
+        "reindex"
+      ],
+      "requirements": [
+        "EL-6252",
+        "EL-6371"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-4001_regression-reindex-button-index-data-dependency.md"
     }
   ]
 }
