@@ -5,13 +5,7 @@ priority: high
 type: functional
 module: pipelines
 status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_llm_node
-  - tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_code_node
-  - tests.ui.pipelines.test_pipeline_nodes.TestEditNode.test_edit_node_name
-  - tests.ui.pipelines.test_pipeline_nodes.TestConnectNodes.test_connect_node_to_end
-  - tests.ui.pipelines.test_pipeline_nodes.TestDeleteNode.test_delete_node_via_menu
+execution_type: manual
 tags: []
 requirements: []
 ---

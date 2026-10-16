@@ -7,10 +7,8 @@ module: chat-interface
 status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.chat.test_chat_interface.TestContextAndSettings.test_model_settings_menu
   - tests.ui.chat.test_chat_interface.TestContextAndSettings.test_edit_context_settings
   - tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_sends_file_with_message
-  - tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_opens_picker
   - tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_open_close_sidebar
   - tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_navigate_to_agents_from_sidebar
   - tests.ui.chat.test_chat_interface.TestSearchAndErrorHandling.test_search_conversations_dialog

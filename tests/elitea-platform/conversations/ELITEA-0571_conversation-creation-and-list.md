@@ -5,9 +5,7 @@ priority: high
 type: functional
 module: conversations
 status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.chat.test_conversation_management.TestConversationList.test_conversation_appears_in_list
+execution_type: manual
 tags: []
 requirements: []
 ---

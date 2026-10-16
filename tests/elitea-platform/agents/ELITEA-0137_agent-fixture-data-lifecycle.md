@@ -5,10 +5,7 @@ priority: medium
 type: functional
 module: agents
 status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.agents.test_agent_management.TestAgentIsolation.test_fixture_creates_fresh_agent
-  - tests.ui.agents.test_agent_management.TestAgentIsolation.test_fixture_cleanup_cycle
+execution_type: manual
 tags: []
 requirements: []
 ---

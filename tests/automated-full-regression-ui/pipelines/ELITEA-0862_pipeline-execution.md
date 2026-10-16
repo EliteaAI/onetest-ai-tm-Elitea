@@ -7,9 +7,7 @@ module: pipelines
 status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_execute_simple_pipeline
   - tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_pipeline_response_is_meaningful
-  - tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_rerun_pipeline
   - tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_user_message_visible
 tags: []
 requirements: []

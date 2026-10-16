@@ -8,6 +8,23 @@ to resolve an old id or path found in automation code, reports, dashboards or is
 - Automation repo: `EliteaAI/elitea-testing-public`. Its `@pytest.mark.tms(...)`, `@allure.issue(...)`
   links, AFS file names and `automation_test_id` back-writes follow the id/path recorded here.
 
+## 2026-10-16 — 10 EP cases marked not automated (orphan `tests.ui.*` refs)
+
+Every `automation_test_id` on these cases pointed at a `tests.ui.*` test that does not exist in the automation repo's `main` (`automation/index.json`), and no test there carries their `tms(...)` id. `execution_type` set to `manual`, `automation_test_id` removed; `status: ready` kept. Ids and paths unchanged.
+
+| Case | Path | Removed refs |
+|---|---|---|
+| ELITEA-0137 | `EP/agents/ELITEA-0137_agent-fixture-data-lifecycle.md` | `tests.ui.agents.test_agent_management.TestAgentIsolation.test_fixture_creates_fresh_agent`, `….test_fixture_cleanup_cycle` |
+| ELITEA-0141 | `EP/agents/ELITEA-0141_agent-detail-page-configuration-and-tabs.md` | `tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_has_configuration_and_history_tabs` |
+| ELITEA-0499 | `EP/chat-interface/ELITEA-0499_chat-message-actions-clear-history.md` | `tests.ui.chat.test_chat_interface.TestConversationUIElements.test_clear_chat_history` |
+| ELITEA-0566 | `EP/conversations/ELITEA-0566_conversation-rename-api-direct.md` | `tests.ui.chat.test_conversation_management.TestConversationActions.test_conversation_api_rename` |
+| ELITEA-0568 | `EP/conversations/ELITEA-0568_conversation-delete-with-confirmation.md` | `tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_and_verify_ui` |
+| ELITEA-0569 | `EP/conversations/ELITEA-0569_conversation-management-advanced-features.md` | `tests.ui.chat.test_conversation_management.TestConversationList.test_conversation_appears_in_list`, `….TestConversationParticipants.test_add_teammate_to_conversation` |
+| ELITEA-0570 | `EP/conversations/ELITEA-0570_conversation-rename-and-delete.md` | `tests.ui.chat.test_conversation_management.TestConversationActions.test_conversation_api_rename`, `….test_delete_conversation_and_verify_ui` |
+| ELITEA-0571 | `EP/conversations/ELITEA-0571_conversation-creation-and-list.md` | `tests.ui.chat.test_conversation_management.TestConversationList.test_conversation_appears_in_list` |
+| ELITEA-0857 | `EP/pipelines/ELITEA-0857_pipeline-canvas-zoom-and-view-controls.md` | `tests.ui.pipelines.test_pipeline_nodes.TestCanvasInteractions.test_zoom_controls_exist`, `….test_fit_view_adjusts_viewport` |
+| ELITEA-0863 | `EP/pipelines/ELITEA-0863_pipeline-node-management.md` | `tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_llm_node`, `….test_add_code_node`, `….TestEditNode.test_edit_node_name`, `….TestConnectNodes.test_connect_node_to_end`, `….TestDeleteNode.test_delete_node_via_menu` |
+
 ## 2026-10-16 — remove duplicate custom-theme set ELITEA-4083…4099
 
 Two content-identical copies of the 17 custom-theme cases existed in `AFR/settings/custom-theme/` (all `ready`, none automated). Kept set A ELITEA-4066…4082 (formerly TMS-3543…3559); removed set B ELITEA-4083…4099 (formerly TMS-3579…3595).

@@ -7,13 +7,9 @@ module: pipelines
 status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_decision_node
-  - tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_printer_node
-  - tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_router_node
   - tests.ui.pipelines.test_pipeline_advanced.TestMakeEntrypoint.test_make_node_entrypoint
   - tests.ui.pipelines.test_pipeline_advanced.TestMultiNodeTopology.test_save_multi_node_pipeline
   - tests.ui.pipelines.test_pipeline_advanced.TestMultiNodeTopology.test_three_node_chain
-  - tests.ui.pipelines.test_pipeline_advanced.TestHistoryTab.test_history_tab_opens
 tags: []
 requirements: []
 ---

@@ -5,9 +5,7 @@ priority: high
 type: functional
 module: conversations
 status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.chat.test_conversation_management.TestConversationActions.test_delete_conversation_and_verify_ui
+execution_type: manual
 tags: []
 requirements: []
 ---

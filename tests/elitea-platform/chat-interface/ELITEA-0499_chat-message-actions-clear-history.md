@@ -5,9 +5,7 @@ priority: medium
 type: functional
 module: chat-interface
 status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.chat.test_chat_interface.TestConversationUIElements.test_clear_chat_history
+execution_type: manual
 tags: []
 requirements: []
 ---

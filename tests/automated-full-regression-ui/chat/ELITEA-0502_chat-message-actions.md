@@ -8,7 +8,6 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.chat.test_chat_interface.TestMessageActions.test_copy_message_to_clipboard
-  - tests.ui.chat.test_chat_interface.TestConversationUIElements.test_clear_chat_history
 tags: []
 requirements: []
 ---

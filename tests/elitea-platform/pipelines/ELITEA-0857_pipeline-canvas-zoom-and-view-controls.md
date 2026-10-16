@@ -5,10 +5,7 @@ priority: medium
 type: functional
 module: pipelines
 status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.pipelines.test_pipeline_nodes.TestCanvasInteractions.test_zoom_controls_exist
-  - tests.ui.pipelines.test_pipeline_nodes.TestCanvasInteractions.test_fit_view_adjusts_viewport
+execution_type: manual
 tags: []
 requirements: []
 ---

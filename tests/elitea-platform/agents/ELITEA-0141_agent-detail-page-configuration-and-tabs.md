@@ -5,9 +5,7 @@ priority: high
 type: functional
 module: agents
 status: ready
-execution_type: automated
-automation_test_id:
-  - tests.ui.agents.test_agent_management.TestAgentConfiguration.test_agent_has_configuration_and_history_tabs
+execution_type: manual
 tags: []
 requirements: []
 ---

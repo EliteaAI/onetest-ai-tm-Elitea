@@ -8,8 +8,6 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_message_count_starts_at_zero_and_grows
-  - tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_message_count_after_execution
-  - tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_rerun_pipeline
   - tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_user_message_visible
   - tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_multiple_executions_accumulate
   - tests.ui.pipelines.test_pipeline_execution.TestPipelineExecutionEdgeCases.test_navigate_away_and_reexecute

@@ -8,7 +8,6 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.chat.test_chat_interface.TestSendingMessages.test_send_text_message
-  - tests.ui.chat.test_chat_interface.TestSendingMessages.test_send_message_with_enter_key
   - tests.ui.chat.test_chat_interface.TestSendingMessages.test_cannot_send_empty_message
 tags: []
 requirements: []
