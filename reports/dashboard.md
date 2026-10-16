@@ -1,10 +1,10 @@
 # Test Dashboard
 
-_Generated: 2026-10-16 14:04 UTC_
+_Generated: 2026-10-16 14:49 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-16-290-DEV-SMOKE-PASSED**
+**RUN-ELITEA-2026-10-16-291-DEV-SMOKE-PASSED**
 
 ```mermaid
 pie showData
@@ -27,9 +27,9 @@ pie showData
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE, 16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE, 16-286-DEV-SMOKE, 16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE]
+    x-axis [15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE, 16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE, 16-286-DEV-SMOKE, 16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE]
     y-axis "Tests" 0 --> 62
-    bar "Passed" [2, 57, 2, 2, 2, 2, 2, 2, 2, 2]
+    bar "Passed" [57, 2, 2, 2, 2, 2, 2, 2, 2, 2]
     bar "Failed" [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ```
 
@@ -38,15 +38,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [15-272-DEV-SMOKE, 15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE, 16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE, 16-286-DEV-SMOKE, 16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE]
+    x-axis [15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE, 16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE, 16-286-DEV-SMOKE, 16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE]
     y-axis "Reruns" 0 --> 11
-    line "Reruns" [0, 8, 0, 0, 0, 0, 0, 0, 0, 0]
+    line "Reruns" [8, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ✅ 16-291-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-290-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-289-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-288-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
@@ -56,7 +57,6 @@ xychart-beta
 | ✅ 16-283-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-282-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 15-273-DEV-PIPELINES_2 | 57 | 57 | 0 | 0 | 8 | 100% |
-| ✅ 15-272-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -97,24 +97,24 @@ pie showData
 | onboarding | 0 | 11 |
 | per-run-analytics | 0 | 6 |
 | pipelines | 89 | 96 |
-| settings | 10 | 212 |
+| settings | 10 | 195 |
 | skills | 18 | 66 |
 | social-folders | 0 | 13 |
 | support-assistant | 14 | 24 |
 | toolkit | 0 | 7 |
 | toolkits_UI | 6 | 19 |
-| **All suites** | **226** | **962** |
+| **All suites** | **226** | **945** |
 
 ```mermaid
 pie showData
-    title "Automated vs Manual (962 cases)"
+    title "Automated vs Manual (945 cases)"
     "Automated" : 226
-    "Manual" : 736
+    "Manual" : 719
 ```
 
 ```mermaid
 pie showData
-    title "Automated Cases by Suite (226 of 962)"
+    title "Automated Cases by Suite (226 of 945)"
     "pipelines" : 89
     "agents" : 26
     "artifacts" : 24
