@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2741
+id: ELITEA-2750
 title: "Verify pipeline with MCP displays toolkit name when called from Chat page"
 priority: high
 type: functional

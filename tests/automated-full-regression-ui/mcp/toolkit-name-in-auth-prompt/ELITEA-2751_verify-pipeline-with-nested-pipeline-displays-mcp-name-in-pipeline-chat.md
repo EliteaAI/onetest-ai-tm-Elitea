@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2742
+id: ELITEA-2751
 title: "Verify pipeline with nested pipeline (containing agent with MCP) displays toolkit name in Pipeline chat"
 priority: high
 type: functional
