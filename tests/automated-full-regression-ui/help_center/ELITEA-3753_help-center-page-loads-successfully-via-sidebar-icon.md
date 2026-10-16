@@ -4,13 +4,10 @@ title: "Help Center — page loads successfully via sidebar icon"
 priority: medium
 type: functional
 module: help-center
-status: ready
-execution_type: automated
+status: draft
+execution_type: manual
 tags: [automated:UI:regression, feat:help-center]
 requirements: []
-automation_test_id:
-  - tests.ui.help_center.test_help_center_page_loads.TestHelpCenterPageLoads.test_help_center_page_loads_via_sidebar_icon
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2387
 ---
 
 # ELITEA-3753: Help Center — page loads successfully via sidebar icon

@@ -1,5 +1,5 @@
 ---
-id: ELITEA-3343
+id: ELITEA-3349
 title: "OAuth Toolkit Trigger Restriction — Chat Messages Only"
 priority: critical
 type: regression
@@ -9,7 +9,7 @@ execution_type: manual
 tags: [pipeline, r-2.0.6, trigger, oauth, toolkit, regression]
 requirements: [EliteaAI/elitea_issues#6128]
 ---
-# ELITEA-3343: OAuth Toolkit Trigger Restriction — Chat Messages Only
+# ELITEA-3349: OAuth Toolkit Trigger Restriction — Chat Messages Only
 
 **Module:** Entrypoint Trigger Type · **Priority:** Critical · **Type:** Regression
 

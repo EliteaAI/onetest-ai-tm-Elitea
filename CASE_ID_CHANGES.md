@@ -8,6 +8,60 @@ to resolve an old id or path found in automation code, reports, dashboards or is
 - Automation repo: `EliteaAI/elitea-testing-public`. Its `@pytest.mark.tms(...)`, `@allure.issue(...)`
   links, AFS file names and `automation_test_id` back-writes follow the id/path recorded here.
 
+## 2026-10-16 — rename `TMS-*` custom-theme cases to the `ELITEA-` format
+
+The 34 cases in `AFR/settings/custom-theme/` used a `TMS-<n>` id/file prefix (PR #150). Renamed to free ids ELITEA-4066 … 4099 (ELITEA-3543 … 3595 are partly taken, so the numbers were not reused). Folder and slug unchanged; `id:` and `# ELITEA-<id>` heading updated. Note: TMS-3579 … 3595 are content-identical copies of TMS-3543 … 3559 (same slugs, only the id differs) — both sets are kept, now as ELITEA-4066 … 4082 and ELITEA-4083 … 4099.
+
+| Old id | New id | New path |
+|---|---|---|
+| TMS-3543 | ELITEA-4066 | `AFR/settings/custom-theme/ELITEA-4066_project-theme-applies-admin-custom-colors-without-reload.md` |
+| TMS-3544 | ELITEA-4067 | `AFR/settings/custom-theme/ELITEA-4067_admin-configure-primary-colors-via-color-picker-and-hex.md` |
+| TMS-3545 | ELITEA-4068 | `AFR/settings/custom-theme/ELITEA-4068_custom-logo-upload-replaces-default-in-sidebar.md` |
+| TMS-3546 | ELITEA-4069 | `AFR/settings/custom-theme/ELITEA-4069_export-json-downloads-custom-theme-configuration.md` |
+| TMS-3547 | ELITEA-4070 | `AFR/settings/custom-theme/ELITEA-4070_import-json-applies-theme-settings-correctly.md` |
+| TMS-3548 | ELITEA-4071 | `AFR/settings/custom-theme/ELITEA-4071_admin-theme-changes-reflect-for-all-project-theme-users.md` |
+| TMS-3549 | ELITEA-4072 | `AFR/settings/custom-theme/ELITEA-4072_user-sees-all-four-theme-options-in-preferences.md` |
+| TMS-3550 | ELITEA-4073 | `AFR/settings/custom-theme/ELITEA-4073_dark-mode-applies-standard-dark-theme-correctly.md` |
+| TMS-3551 | ELITEA-4074 | `AFR/settings/custom-theme/ELITEA-4074_light-mode-applies-standard-light-theme-correctly.md` |
+| TMS-3552 | ELITEA-4075 | `AFR/settings/custom-theme/ELITEA-4075_system-theme-follows-os-preference.md` |
+| TMS-3553 | ELITEA-4076 | `AFR/settings/custom-theme/ELITEA-4076_theme-selection-persists-after-page-refresh.md` |
+| TMS-3554 | ELITEA-4077 | `AFR/settings/custom-theme/ELITEA-4077_admin-can-access-custom-theme-page-in-admin-portal.md` |
+| TMS-3555 | ELITEA-4078 | `AFR/settings/custom-theme/ELITEA-4078_base-mode-dropdown-allows-dark-light-selection.md` |
+| TMS-3556 | ELITEA-4079 | `AFR/settings/custom-theme/ELITEA-4079_background-colors-section-allows-editing-all-values.md` |
+| TMS-3557 | ELITEA-4080 | `AFR/settings/custom-theme/ELITEA-4080_border-colors-section-allows-editing-all-values.md` |
+| TMS-3558 | ELITEA-4081 | `AFR/settings/custom-theme/ELITEA-4081_delete-theme-resets-to-default-values.md` |
+| TMS-3559 | ELITEA-4082 | `AFR/settings/custom-theme/ELITEA-4082_save-changes-persists-all-custom-theme-modifications.md` |
+| TMS-3579 | ELITEA-4083 | `AFR/settings/custom-theme/ELITEA-4083_project-theme-applies-admin-custom-colors-without-reload.md` |
+| TMS-3580 | ELITEA-4084 | `AFR/settings/custom-theme/ELITEA-4084_admin-configure-primary-colors-via-color-picker-and-hex.md` |
+| TMS-3581 | ELITEA-4085 | `AFR/settings/custom-theme/ELITEA-4085_custom-logo-upload-replaces-default-in-sidebar.md` |
+| TMS-3582 | ELITEA-4086 | `AFR/settings/custom-theme/ELITEA-4086_export-json-downloads-custom-theme-configuration.md` |
+| TMS-3583 | ELITEA-4087 | `AFR/settings/custom-theme/ELITEA-4087_import-json-applies-theme-settings-correctly.md` |
+| TMS-3584 | ELITEA-4088 | `AFR/settings/custom-theme/ELITEA-4088_admin-theme-changes-reflect-for-all-project-theme-users.md` |
+| TMS-3585 | ELITEA-4089 | `AFR/settings/custom-theme/ELITEA-4089_user-sees-all-four-theme-options-in-preferences.md` |
+| TMS-3586 | ELITEA-4090 | `AFR/settings/custom-theme/ELITEA-4090_dark-mode-applies-standard-dark-theme-correctly.md` |
+| TMS-3587 | ELITEA-4091 | `AFR/settings/custom-theme/ELITEA-4091_light-mode-applies-standard-light-theme-correctly.md` |
+| TMS-3588 | ELITEA-4092 | `AFR/settings/custom-theme/ELITEA-4092_system-theme-follows-os-preference.md` |
+| TMS-3589 | ELITEA-4093 | `AFR/settings/custom-theme/ELITEA-4093_theme-selection-persists-after-page-refresh.md` |
+| TMS-3590 | ELITEA-4094 | `AFR/settings/custom-theme/ELITEA-4094_admin-can-access-custom-theme-page-in-admin-portal.md` |
+| TMS-3591 | ELITEA-4095 | `AFR/settings/custom-theme/ELITEA-4095_base-mode-dropdown-allows-dark-light-selection.md` |
+| TMS-3592 | ELITEA-4096 | `AFR/settings/custom-theme/ELITEA-4096_background-colors-section-allows-editing-all-values.md` |
+| TMS-3593 | ELITEA-4097 | `AFR/settings/custom-theme/ELITEA-4097_border-colors-section-allows-editing-all-values.md` |
+| TMS-3594 | ELITEA-4098 | `AFR/settings/custom-theme/ELITEA-4098_delete-theme-resets-to-default-values.md` |
+| TMS-3595 | ELITEA-4099 | `AFR/settings/custom-theme/ELITEA-4099_save-changes-persists-all-custom-theme-modifications.md` |
+
+## 2026-10-16 — help-center ELITEA-3753 marked not automated
+
+`AFR/help_center/ELITEA-3753_help-center-page-loads-successfully-via-sidebar-icon.md` pointed at `tests.ui.help_center.test_help_center_page_loads…`, which does not exist in the automation repo (its PR #2387 went to the frozen `automation/base` branch and never reached `automation/factory` / `main`). Set back to `status: draft`, `execution_type: manual`; `automation_test_id` and `automation_pr` removed. Id and path unchanged.
+
+## 2026-10-16 — ELITEA-3343: keep the AFR version, drop the EP copy, fix the AFR file id
+
+The same case existed twice: `EP/pipelines/entrypoint-trigger-type/ELITEA-3343_oauth-toolkit-restricts-triggers-to-chat-messages-only.md` and `AFR/pipelines/ELITEA-3349_oauth-toolkit-trigger-restriction-chat-only.md`, whose file name said 3349 while its `id:` said 3343. The EP copy is removed; the AFR file keeps its path and its `id:` / heading are now ELITEA-3349 (unused elsewhere).
+
+| Old id | New id | New path | Note |
+|---|---|---|---|
+| ELITEA-3343 (EP) | — removed | — | kept by the AFR version below |
+| ELITEA-3343 (AFR) | ELITEA-3349 | `AFR/pipelines/ELITEA-3349_oauth-toolkit-trigger-restriction-chat-only.md` | id now matches file name |
+
 ## 2026-10-16 — renumber PR #169 new case colliding with an existing id
 
 PR #169 (fork published agent carries toolkits) added EP case ELITEA-3761, already taken on main. Renumbered to ELITEA-4065 before merge. Folder and slug unchanged; `id:` and `# ELITEA-<id>` heading updated.
