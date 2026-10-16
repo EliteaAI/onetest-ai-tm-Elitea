@@ -9786,8 +9786,8 @@
     {
       "id": "ELITEA-3753",
       "title": "Help Center — page loads successfully via sidebar icon",
-      "status": "ready",
-      "execution_type": "automated",
+      "status": "draft",
+      "execution_type": "manual",
       "type": "functional",
       "priority": "medium",
       "size": "",
@@ -9798,9 +9798,7 @@
         "feat:help-center"
       ],
       "requirements": [],
-      "automation_test_id": [
-        "tests.ui.help_center.test_help_center_page_loads.TestHelpCenterPageLoads.test_help_center_page_loads_via_sidebar_icon"
-      ],
+      "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -13880,7 +13878,7 @@
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-2454_run-details-delete-run-from-history.md"
     },
     {
-      "id": "ELITEA-3343",
+      "id": "ELITEA-3349",
       "title": "OAuth Toolkit Trigger Restriction — Chat Messages Only",
       "status": "draft",
       "execution_type": "manual",
@@ -15661,7 +15659,7 @@
       "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3755_analytics-page-loads-with-default-date-range-and-all-six-tab.md"
     },
     {
-      "id": "TMS-3543",
+      "id": "ELITEA-4066",
       "title": "Project theme applies admin-configured custom colors immediately without page reload",
       "status": "ready",
       "execution_type": "manual",
@@ -15680,10 +15678,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3543_project-theme-applies-admin-custom-colors-without-reload.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4066_project-theme-applies-admin-custom-colors-without-reload.md"
     },
     {
-      "id": "TMS-3544",
+      "id": "ELITEA-4067",
       "title": "Admin can configure Primary Colors via color picker and hex input in Custom Theme",
       "status": "ready",
       "execution_type": "manual",
@@ -15702,10 +15700,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3544_admin-configure-primary-colors-via-color-picker-and-hex.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4067_admin-configure-primary-colors-via-color-picker-and-hex.md"
     },
     {
-      "id": "TMS-3545",
+      "id": "ELITEA-4068",
       "title": "Custom logo upload replaces default Elitea logo in sidebar for Project theme users",
       "status": "ready",
       "execution_type": "manual",
@@ -15725,10 +15723,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3545_custom-logo-upload-replaces-default-in-sidebar.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4068_custom-logo-upload-replaces-default-in-sidebar.md"
     },
     {
-      "id": "TMS-3546",
+      "id": "ELITEA-4069",
       "title": "Export JSON downloads current custom theme configuration to file",
       "status": "ready",
       "execution_type": "manual",
@@ -15748,10 +15746,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3546_export-json-downloads-custom-theme-configuration.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4069_export-json-downloads-custom-theme-configuration.md"
     },
     {
-      "id": "TMS-3547",
+      "id": "ELITEA-4070",
       "title": "Import JSON uploads valid theme file and applies settings correctly",
       "status": "ready",
       "execution_type": "manual",
@@ -15771,10 +15769,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3547_import-json-applies-theme-settings-correctly.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4070_import-json-applies-theme-settings-correctly.md"
     },
     {
-      "id": "TMS-3548",
+      "id": "ELITEA-4071",
       "title": "Admin theme changes reflect for all users who select Project theme",
       "status": "ready",
       "execution_type": "manual",
@@ -15794,10 +15792,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3548_admin-theme-changes-reflect-for-all-project-theme-users.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4071_admin-theme-changes-reflect-for-all-project-theme-users.md"
     },
     {
-      "id": "TMS-3549",
+      "id": "ELITEA-4072",
       "title": "User can see all 4 theme options in Preferences: System, Dark, Light, Project",
       "status": "ready",
       "execution_type": "manual",
@@ -15816,10 +15814,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3549_user-sees-all-four-theme-options-in-preferences.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4072_user-sees-all-four-theme-options-in-preferences.md"
     },
     {
-      "id": "TMS-3550",
+      "id": "ELITEA-4073",
       "title": "Selecting Dark mode applies standard dark theme correctly",
       "status": "ready",
       "execution_type": "manual",
@@ -15838,10 +15836,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3550_dark-mode-applies-standard-dark-theme-correctly.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4073_dark-mode-applies-standard-dark-theme-correctly.md"
     },
     {
-      "id": "TMS-3551",
+      "id": "ELITEA-4074",
       "title": "Selecting Light mode applies standard light theme correctly",
       "status": "ready",
       "execution_type": "manual",
@@ -15860,10 +15858,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3551_light-mode-applies-standard-light-theme-correctly.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4074_light-mode-applies-standard-light-theme-correctly.md"
     },
     {
-      "id": "TMS-3552",
+      "id": "ELITEA-4075",
       "title": "Selecting System theme follows OS dark/light preference",
       "status": "ready",
       "execution_type": "manual",
@@ -15883,10 +15881,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3552_system-theme-follows-os-preference.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4075_system-theme-follows-os-preference.md"
     },
     {
-      "id": "TMS-3553",
+      "id": "ELITEA-4076",
       "title": "Theme selection persists after page refresh via localStorage",
       "status": "ready",
       "execution_type": "manual",
@@ -15906,10 +15904,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3553_theme-selection-persists-after-page-refresh.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4076_theme-selection-persists-after-page-refresh.md"
     },
     {
-      "id": "TMS-3554",
+      "id": "ELITEA-4077",
       "title": "Admin can access Custom Theme page under Features menu in Admin Portal",
       "status": "ready",
       "execution_type": "manual",
@@ -15928,10 +15926,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3554_admin-can-access-custom-theme-page-in-admin-portal.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4077_admin-can-access-custom-theme-page-in-admin-portal.md"
     },
     {
-      "id": "TMS-3555",
+      "id": "ELITEA-4078",
       "title": "Base Mode dropdown allows selection of Dark Mode / Light Mode as foundation",
       "status": "ready",
       "execution_type": "manual",
@@ -15950,10 +15948,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3555_base-mode-dropdown-allows-dark-light-selection.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4078_base-mode-dropdown-allows-dark-light-selection.md"
     },
     {
-      "id": "TMS-3556",
+      "id": "ELITEA-4079",
       "title": "Background Colors section expands and allows editing all 21+ color values",
       "status": "ready",
       "execution_type": "manual",
@@ -15972,10 +15970,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3556_background-colors-section-allows-editing-all-values.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4079_background-colors-section-allows-editing-all-values.md"
     },
     {
-      "id": "TMS-3557",
+      "id": "ELITEA-4080",
       "title": "Border Colors section expands and allows editing all 9+ color values",
       "status": "ready",
       "execution_type": "manual",
@@ -15994,10 +15992,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3557_border-colors-section-allows-editing-all-values.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4080_border-colors-section-allows-editing-all-values.md"
     },
     {
-      "id": "TMS-3558",
+      "id": "ELITEA-4081",
       "title": "Delete Theme resets custom theme configuration to default values",
       "status": "ready",
       "execution_type": "manual",
@@ -16017,10 +16015,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3558_delete-theme-resets-to-default-values.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4081_delete-theme-resets-to-default-values.md"
     },
     {
-      "id": "TMS-3559",
+      "id": "ELITEA-4082",
       "title": "Save Changes button persists all custom theme modifications",
       "status": "ready",
       "execution_type": "manual",
@@ -16040,10 +16038,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3559_save-changes-persists-all-custom-theme-modifications.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4082_save-changes-persists-all-custom-theme-modifications.md"
     },
     {
-      "id": "TMS-3579",
+      "id": "ELITEA-4083",
       "title": "Project theme applies admin-configured custom colors immediately without page reload",
       "status": "ready",
       "execution_type": "manual",
@@ -16062,10 +16060,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3579_project-theme-applies-admin-custom-colors-without-reload.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4083_project-theme-applies-admin-custom-colors-without-reload.md"
     },
     {
-      "id": "TMS-3580",
+      "id": "ELITEA-4084",
       "title": "Admin can configure Primary Colors via color picker and hex input in Custom Theme",
       "status": "ready",
       "execution_type": "manual",
@@ -16084,10 +16082,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3580_admin-configure-primary-colors-via-color-picker-and-hex.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4084_admin-configure-primary-colors-via-color-picker-and-hex.md"
     },
     {
-      "id": "TMS-3581",
+      "id": "ELITEA-4085",
       "title": "Custom logo upload replaces default Elitea logo in sidebar for Project theme users",
       "status": "ready",
       "execution_type": "manual",
@@ -16107,10 +16105,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3581_custom-logo-upload-replaces-default-in-sidebar.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4085_custom-logo-upload-replaces-default-in-sidebar.md"
     },
     {
-      "id": "TMS-3582",
+      "id": "ELITEA-4086",
       "title": "Export JSON downloads current custom theme configuration to file",
       "status": "ready",
       "execution_type": "manual",
@@ -16130,10 +16128,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3582_export-json-downloads-custom-theme-configuration.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4086_export-json-downloads-custom-theme-configuration.md"
     },
     {
-      "id": "TMS-3583",
+      "id": "ELITEA-4087",
       "title": "Import JSON uploads valid theme file and applies settings correctly",
       "status": "ready",
       "execution_type": "manual",
@@ -16153,10 +16151,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3583_import-json-applies-theme-settings-correctly.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4087_import-json-applies-theme-settings-correctly.md"
     },
     {
-      "id": "TMS-3584",
+      "id": "ELITEA-4088",
       "title": "Admin theme changes reflect for all users who select Project theme",
       "status": "ready",
       "execution_type": "manual",
@@ -16176,10 +16174,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3584_admin-theme-changes-reflect-for-all-project-theme-users.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4088_admin-theme-changes-reflect-for-all-project-theme-users.md"
     },
     {
-      "id": "TMS-3585",
+      "id": "ELITEA-4089",
       "title": "User can see all 4 theme options in Preferences: System, Dark, Light, Project",
       "status": "ready",
       "execution_type": "manual",
@@ -16198,10 +16196,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3585_user-sees-all-four-theme-options-in-preferences.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4089_user-sees-all-four-theme-options-in-preferences.md"
     },
     {
-      "id": "TMS-3586",
+      "id": "ELITEA-4090",
       "title": "Selecting Dark mode applies standard dark theme correctly",
       "status": "ready",
       "execution_type": "manual",
@@ -16220,10 +16218,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3586_dark-mode-applies-standard-dark-theme-correctly.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4090_dark-mode-applies-standard-dark-theme-correctly.md"
     },
     {
-      "id": "TMS-3587",
+      "id": "ELITEA-4091",
       "title": "Selecting Light mode applies standard light theme correctly",
       "status": "ready",
       "execution_type": "manual",
@@ -16242,10 +16240,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3587_light-mode-applies-standard-light-theme-correctly.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4091_light-mode-applies-standard-light-theme-correctly.md"
     },
     {
-      "id": "TMS-3588",
+      "id": "ELITEA-4092",
       "title": "Selecting System theme follows OS dark/light preference",
       "status": "ready",
       "execution_type": "manual",
@@ -16265,10 +16263,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3588_system-theme-follows-os-preference.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4092_system-theme-follows-os-preference.md"
     },
     {
-      "id": "TMS-3589",
+      "id": "ELITEA-4093",
       "title": "Theme selection persists after page refresh via localStorage",
       "status": "ready",
       "execution_type": "manual",
@@ -16288,10 +16286,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3589_theme-selection-persists-after-page-refresh.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4093_theme-selection-persists-after-page-refresh.md"
     },
     {
-      "id": "TMS-3590",
+      "id": "ELITEA-4094",
       "title": "Admin can access Custom Theme page under Features menu in Admin Portal",
       "status": "ready",
       "execution_type": "manual",
@@ -16310,10 +16308,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3590_admin-can-access-custom-theme-page-in-admin-portal.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4094_admin-can-access-custom-theme-page-in-admin-portal.md"
     },
     {
-      "id": "TMS-3591",
+      "id": "ELITEA-4095",
       "title": "Base Mode dropdown allows selection of Dark Mode / Light Mode as foundation",
       "status": "ready",
       "execution_type": "manual",
@@ -16332,10 +16330,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3591_base-mode-dropdown-allows-dark-light-selection.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4095_base-mode-dropdown-allows-dark-light-selection.md"
     },
     {
-      "id": "TMS-3592",
+      "id": "ELITEA-4096",
       "title": "Background Colors section expands and allows editing all 21+ color values",
       "status": "ready",
       "execution_type": "manual",
@@ -16354,10 +16352,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3592_background-colors-section-allows-editing-all-values.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4096_background-colors-section-allows-editing-all-values.md"
     },
     {
-      "id": "TMS-3593",
+      "id": "ELITEA-4097",
       "title": "Border Colors section expands and allows editing all 9+ color values",
       "status": "ready",
       "execution_type": "manual",
@@ -16376,10 +16374,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3593_border-colors-section-allows-editing-all-values.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4097_border-colors-section-allows-editing-all-values.md"
     },
     {
-      "id": "TMS-3594",
+      "id": "ELITEA-4098",
       "title": "Delete Theme resets custom theme configuration to default values",
       "status": "ready",
       "execution_type": "manual",
@@ -16399,10 +16397,10 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3594_delete-theme-resets-to-default-values.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4098_delete-theme-resets-to-default-values.md"
     },
     {
-      "id": "TMS-3595",
+      "id": "ELITEA-4099",
       "title": "Save Changes button persists all custom theme modifications",
       "status": "ready",
       "execution_type": "manual",
@@ -16422,7 +16420,7 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/settings/custom-theme/TMS-3595_save-changes-persists-all-custom-theme-modifications.md"
+      "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4099_save-changes-persists-all-custom-theme-modifications.md"
     },
     {
       "id": "ELITEA-2651",
