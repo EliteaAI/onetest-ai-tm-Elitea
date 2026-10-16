@@ -8,6 +8,31 @@ to resolve an old id or path found in automation code, reports, dashboards or is
 - Automation repo: `EliteaAI/elitea-testing-public`. Its `@pytest.mark.tms(...)`, `@allure.issue(...)`
   links, AFS file names and `automation_test_id` back-writes follow the id/path recorded here.
 
+## 2026-10-16 — renumber PR #166 new cases colliding with existing ids
+
+PR #166 (DIAL API protocol / reasoning / analytics) added 18 EP cases numbered ELITEA-3743 … 3760, all already taken on main. Renumbered to ELITEA-4047 … 4064 before merge. Folder and slug unchanged; `id:` and `# ELITEA-<id>` heading updated.
+
+| Old id | New id | New path | Old id kept by |
+|---|---|---|---|
+| ELITEA-3743 | ELITEA-4047 | `EP/model-settings/ELITEA-4047_dial-api-protocol-field-visible-only-for-dial-credentials.md` | `AFR/artifacts/ELITEA-3743_verify-all-files-downloadable-when-agent-creates-multiple-files.md` |
+| ELITEA-3744 | ELITEA-4048 | `EP/model-settings/ELITEA-4048_dial-api-protocol-persists-on-save-and-reload.md` | `AFR/chat/ELITEA-3744_context-budget-panel-reflects-profile-max-tokens.md` |
+| ELITEA-3745 | ELITEA-4049 | `EP/model-settings/ELITEA-4049_dial-model-works-on-recommended-protocol-per-family.md` | `AFR/chat/ELITEA-3745_voice-mini-player-not-visible-by-default-regression.md` |
+| ELITEA-3746 | ELITEA-4050 | `EP/model-settings/ELITEA-4050_dial-reasoning-on-and-off-on-correct-protocol.md` | `AFR/admin/ELITEA-3746_blocked-toolkit-live-reload-case-insensitive.md` |
+| ELITEA-3747 | ELITEA-4051 | `EP/model-settings/ELITEA-4051_reasoning-validation-applies-on-create-and-update.md` | `AFR/admin/ELITEA-3747_blocked-tool-live-reload-case-insensitive.md` |
+| ELITEA-3748 | ELITEA-4052 | `EP/model-settings/ELITEA-4052_non-dial-credential-reasoning-saves-without-protocol-error.md` | `AFR/admin/ELITEA-3748_sensitive-tool-live-reload-case-insensitive.md` |
+| ELITEA-3749 | ELITEA-4053 | `EP/model-settings/ELITEA-4053_dial-azure-protocol-reasoning-shows-non-blocking-warning.md` | `AFR/skills/ELITEA-3749_import-skill-base-version.md` |
+| ELITEA-3750 | ELITEA-4054 | `EP/model-settings/ELITEA-4054_dial-wrong-protocol-for-model-family-returns-visible-error.md` | `AFR/skills/ELITEA-3750_import-skill-non-base-version.md` |
+| ELITEA-3751 | ELITEA-4055 | `EP/model-settings/ELITEA-4055_dial-protocol-change-applies-without-litellm-sync.md` | `AFR/skills/ELITEA-3751_search-skills-by-name.md` |
+| ELITEA-3752 | ELITEA-4056 | `EP/model-settings/ELITEA-4056_openai-compatible-toggle-behaviour-for-dial-claude.md` | `AFR/skills/ELITEA-3752_search-skills-by-tag.md` |
+| ELITEA-3753 | ELITEA-4057 | `EP/analytics/ELITEA-4057_analytics-run-detail-matches-predict-response.md` | `AFR/help_center/ELITEA-3753_help-center-page-loads-successfully-via-sidebar-icon.md` |
+| ELITEA-3754 | ELITEA-4058 | `EP/analytics/ELITEA-4058_run-detail-total-tokens-adds-up-to-agent-totals.md` | `AFR/help_center/ELITEA-3754_help-center-sidebar-interactive-tour-completes-successfully.md` |
+| ELITEA-3755 | ELITEA-4059 | `EP/analytics/ELITEA-4059_run-duration-covers-whole-run-including-first-call.md` | `AFR/settings/analytics/ELITEA-3755_analytics-page-loads-with-default-date-range-and-all-six-tab.md` |
+| ELITEA-3756 | ELITEA-4060 | `EP/analytics/ELITEA-4060_analytics-aggregates-equal-sum-of-runs.md` | `AFR/artifacts/bucket-permissions/ELITEA-3756_api-no-access-permission-enforcement.md` |
+| ELITEA-3757 | ELITEA-4061 | `EP/analytics/ELITEA-4061_costs-by-model-other-row-when-over-display-limit.md` | `AFR/artifacts/bucket-permissions/ELITEA-3757_api-read-only-permission-enforcement.md` |
+| ELITEA-3758 | ELITEA-4062 | `EP/analytics/ELITEA-4062_dial-bare-deployment-names-are-priced.md` | `EP/agents/ELITEA-3758_export-nonempty-editor-notes.md` |
+| ELITEA-3759 | ELITEA-4063 | `EP/analytics/ELITEA-4063_shared-model-same-name-as-own-model-routes-and-budgets-correctly.md` | `EP/agents/ELITEA-3759_export-empty-editor-notes.md` |
+| ELITEA-3760 | ELITEA-4064 | `EP/analytics/ELITEA-4064_per-user-attribution-and-budgets-with-two-users.md` | `EP/agents/ELITEA-3760_fork-modal-nonempty-editor-notes.md` |
+
 ## 2026-10-16 — renumber manual/draft id collisions; drop empty automation_test_id
 
 289 cases renumbered (ELITEA-3758 … ELITEA-4046). Rule: if one AFR file is in the group it keeps the id; otherwise the oldest (first-add date) keeps it. Folder and slug unchanged; `id:` and `# ELITEA-<id>` heading updated.
