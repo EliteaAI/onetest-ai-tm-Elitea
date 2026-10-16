@@ -1,10 +1,10 @@
 # Test Dashboard
 
-_Generated: 2026-10-16 14:49 UTC_
+_Generated: 2026-10-16 15:24 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-16-291-DEV-SMOKE-PASSED**
+**RUN-ELITEA-2026-10-16-292-DEV-SMOKE-PASSED**
 
 ```mermaid
 pie showData
@@ -27,26 +27,17 @@ pie showData
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE, 16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE, 16-286-DEV-SMOKE, 16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE]
-    y-axis "Tests" 0 --> 62
-    bar "Passed" [57, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+    x-axis [16-282-DEV-SMOKE, 16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE, 16-286-DEV-SMOKE, 16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE, 16-292-DEV-SMOKE]
+    y-axis "Tests" 0 --> 15
+    bar "Passed" [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
     bar "Failed" [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-```
-
-### Reruns Trend
-
-```mermaid
-xychart-beta
-    title "Test Reruns (Flakiness Indicator)"
-    x-axis [15-273-DEV-PIPELINES_2, 16-282-DEV-SMOKE, 16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE, 16-286-DEV-SMOKE, 16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE]
-    y-axis "Reruns" 0 --> 11
-    line "Reruns" [8, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ✅ 16-292-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-291-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-290-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-289-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
@@ -56,7 +47,6 @@ xychart-beta
 | ✅ 16-284-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-283-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-282-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
-| ✅ 15-273-DEV-PIPELINES_2 | 57 | 57 | 0 | 0 | 8 | 100% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -70,7 +60,7 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 | Tests in automation | 251 |
 | Tests linked to TMS cases | 251 |
 | Tests without TMS case | 0 |
-| Orphan TMS refs (test missing) | 22 |
+| Orphan TMS refs (test missing) | 0 |
 | **TMS Coverage** | **100.0%** |
 
 ```mermaid
@@ -130,37 +120,5 @@ pie showData
     "help_center" : 1
 ```
 
-### Orphan TMS References
-
-_TMS cases reference tests that don't exist in automation (renamed/deleted?)._
-
-<details>
-<summary>Show 22 orphan refs</summary>
-
-- `tests.ui.chat.test_chat_interface.TestContextAndSettings.test_model_settings_menu` (ELITEA-0500)
-- `tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_opens_picker` (ELITEA-0500)
-- `tests.ui.chat.test_chat_interface.TestConversationUIElements.test_clear_chat_history` (ELITEA-0502)
-- `tests.ui.chat.test_chat_interface.TestSendingMessages.test_send_message_with_enter_key` (ELITEA-0503)
-- `tests.ui.chat.test_chat_interface.test_chat_message_history_displays` (ELITEA-1142)
-- `tests.ui.chat.test_chat_interface.test_chat_page_loads_successfully` (ELITEA-1142)
-- `tests.ui.chat.test_chat_interface.test_message_input_is_functional` (ELITEA-1142)
-- `tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_decision_node` (ELITEA-0858)
-- `tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_printer_node` (ELITEA-0858)
-- `tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_router_node` (ELITEA-0858)
-- `tests.ui.pipelines.test_pipeline_advanced.TestHistoryTab.test_history_tab_opens` (ELITEA-0858)
-- `tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_execute_simple_pipeline` (ELITEA-0862)
-- `tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_message_count_after_execution` (ELITEA-0856)
-- `tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_rerun_pipeline` (ELITEA-0862)
-- `tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_code_node` (ELITEA-0853)
-- `tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_llm_node` (ELITEA-0853)
-- `tests.ui.pipelines.test_pipeline_nodes.TestConnectNodes.test_connect_node_to_end` (ELITEA-0853)
-- `tests.ui.pipelines.test_pipeline_nodes.TestConnectNodes.test_connect_two_custom_nodes` (ELITEA-0853)
-- `tests.ui.pipelines.test_pipeline_nodes.TestDeleteNode.test_delete_node_does_not_remove_end` (ELITEA-0853)
-- `tests.ui.pipelines.test_pipeline_nodes.TestDeleteNode.test_delete_node_via_menu` (ELITEA-0853)
-- `tests.ui.pipelines.test_pipeline_nodes.TestEditNode.test_edit_node_name` (ELITEA-0853)
-- `tests.ui.pipelines.test_pipeline_nodes.TestEditNode.test_node_default_name_matches_type` (ELITEA-0853)
-
-</details>
-
 ---
-_Compared `automation/index.json` (251 tests) with `index_automated.json` (273 refs)_
+_Compared `automation/index.json` (251 tests) with `index_automated.json` (251 refs)_
