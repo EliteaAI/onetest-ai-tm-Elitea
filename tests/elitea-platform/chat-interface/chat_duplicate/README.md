@@ -11,7 +11,7 @@
 This test suite covers the **Duplicate Chat** functionality across Private Projects and Team Projects, validating participant handling, visibility states, and UI behavior.
 
 ### Test Case Range
-- **IDs:** ELITEA-2616 to ELITEA-2640 (25 test cases)
+- **IDs:** ELITEA-3928–ELITEA-3946 (12, renumbered from ELITEA-2616–2627 — see `CASE_ID_CHANGES.md`) and ELITEA-2628 to ELITEA-2640 (13) — 25 test cases
 - **Total Lines:** 1,695
 
 ## Test Coverage
@@ -21,24 +21,24 @@ High priority tests covering essential duplication functionality.
 
 | ID | Title | Key Validation |
 |----|-------|----------------|
-| ELITEA-2616 | Duplicate Chat from Context Menu | New independent chat created, original unchanged |
-| ELITEA-2617 | Participants and Configuration Preserved | All participants copied (Bug #6256 validation) |
-| ELITEA-2618 | Conversation Independence | Messages don't sync between original and duplicate |
-| ELITEA-2619 | Persistence After Refresh | Both chats survive page reload |
-| ELITEA-2620 | Pinned Chat Duplication | Duplicate unpinned, original remains pinned |
-| ELITEA-2621 | Public Chat Visibility Preserved | Duplicate inherits public state (green indicator) |
-| ELITEA-2622 | Public Visibility to All Team Members | Duplicate visible to non-participants |
-| ELITEA-2623 | Nested Public Chat Duplication | Public state preserved through multiple duplications |
-| ELITEA-2624 | Access Control Security | No unauthorized data exposure |
+| ELITEA-3928 | Duplicate Chat from Context Menu | New independent chat created, original unchanged |
+| ELITEA-3930 | Participants and Configuration Preserved | All participants copied (Bug #6256 validation) |
+| ELITEA-3932 | Conversation Independence | Messages don't sync between original and duplicate |
+| ELITEA-3934 | Persistence After Refresh | Both chats survive page reload |
+| ELITEA-3936 | Pinned Chat Duplication | Duplicate unpinned, original remains pinned |
+| ELITEA-3938 | Public Chat Visibility Preserved | Duplicate inherits public state (green indicator) |
+| ELITEA-3940 | Public Visibility to All Team Members | Duplicate visible to non-participants |
+| ELITEA-3942 | Nested Public Chat Duplication | Public state preserved through multiple duplications |
+| ELITEA-3943 | Access Control Security | No unauthorized data exposure |
 
 ### 🟡 P1 - Participant Handling & Visibility (12 test cases)
 Medium priority tests for participant management and visibility rules.
 
 | ID | Title | Key Validation |
 |----|-------|----------------|
-| ELITEA-2625 | AI Participants Only (Private) | Agent/Pipeline/Toolkit/MCP preserved |
-| ELITEA-2626 | AI Configuration Retained | AI participant settings intact |
-| ELITEA-2627 | No Unintended User Addition | AI-only chats stay AI-only |
+| ELITEA-3944 | AI Participants Only (Private) | Agent/Pipeline/Toolkit/MCP preserved |
+| ELITEA-3945 | AI Configuration Retained | AI participant settings intact |
+| ELITEA-3946 | No Unintended User Addition | AI-only chats stay AI-only |
 | ELITEA-2628 | Mixed Participants (Users + AI) | All participant types preserved |
 | ELITEA-2629 | No Participant Crossover | Only original participants copied |
 | ELITEA-2630 | Restrictions Persist | Access control after refresh/API |
@@ -77,7 +77,7 @@ Low priority tests for UI behavior and edge cases.
 
 ### Bug #6256 Fix
 **Issue:** Duplicated chat only copied creator, not all user participants  
-**Validation:** ELITEA-2617, ELITEA-2628  
+**Validation:** ELITEA-3930, ELITEA-2628  
 **Expected:** ALL user participants copied to duplicate
 
 ### Bug #6271 Fix
@@ -91,7 +91,7 @@ Low priority tests for UI behavior and edge cases.
 - Marked with green color/indicator
 - Visible to ALL team members (not just participants)
 - Visibility inherited by duplicate
-- Tests: ELITEA-2621, 2622, 2623, 2631, 2632
+- Tests: ELITEA-3938, 3940, 3942, 2631, 2632
 
 ### Non-Public Chats
 - No green indicator

@@ -22,17 +22,19 @@ The "Bare" personality type:
 
 ## Test Cases Included
 
+_IDs renumbered from ELITEA-1718–1723 to ELITEA-3790–3795 (see `CASE_ID_CHANGES.md`)._
+
 ### P0 - Critical Functionality (5 test cases)
 
-1. **ELITEA-1718:** Verify "Bare" option appears in Context Management modal
-2. **ELITEA-1719:** Verify "Bare" can be selected and saved in User Settings
-3. **ELITEA-1720:** Verify empty system prompt with Bare mode (no custom instructions)
-4. **ELITEA-1721:** Verify custom instructions only with Bare mode
-5. **ELITEA-1722:** Verify LLM native identity in Bare mode
+1. **ELITEA-3790:** Verify "Bare" option appears in Context Management modal
+2. **ELITEA-3791:** Verify "Bare" can be selected and saved in User Settings
+3. **ELITEA-3792:** Verify empty system prompt with Bare mode (no custom instructions)
+4. **ELITEA-3793:** Verify custom instructions only with Bare mode
+5. **ELITEA-3794:** Verify LLM native identity in Bare mode
 
 ### P1 - High Priority (1 test case)
 
-6. **ELITEA-1723:** Verify context management functions in Bare mode
+6. **ELITEA-3795:** Verify context management functions in Bare mode
 
 ## Test Coverage
 
@@ -107,8 +109,8 @@ The "Bare" personality type:
 ## Automation Potential
 
 The following test cases are good candidates for automation:
-- ELITEA-1718, ELITEA-1719: UI visibility and selection (Playwright)
-- ELITEA-1720, ELITEA-1721: System prompt validation (API mocking)
+- ELITEA-3790, ELITEA-3791: UI visibility and selection (Playwright)
+- ELITEA-3792, ELITEA-3793: System prompt validation (API mocking)
 
 ## Reporting
 
