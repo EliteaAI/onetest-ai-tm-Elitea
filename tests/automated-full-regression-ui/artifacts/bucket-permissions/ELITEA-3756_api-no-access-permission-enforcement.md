@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2493
+id: ELITEA-3756
 title: "API: No Access Permission Enforcement (GET, POST, DELETE)"
 priority: critical
 type: security
@@ -13,7 +13,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1577
 requirements: [EliteaAI/elitea_issues#5832]
 ---
 
-# ELITEA-2493: API: No Access Permission Enforcement (GET, POST, DELETE)
+# ELITEA-3756: API: No Access Permission Enforcement (GET, POST, DELETE)
 
 **Module:** artifacts · **Priority:** critical · **Type:** security
 

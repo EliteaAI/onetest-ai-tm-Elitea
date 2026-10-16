@@ -1,5 +1,5 @@
 ---
-id: ELITEA-1739
+id: ELITEA-3751
 title: "Search Skills by Name"
 priority: medium
 type: functional
@@ -12,7 +12,7 @@ automation_test_id: tests.ui.skills.test_skill_search.TestSkillSearch.test_searc
 automation_pr: EliteaAI/elitea-testing-public#208
 ---
 
-# ELITEA-1739: Search Skills by Name
+# ELITEA-3751: Search Skills by Name
 
 **Module:** skills · **Priority:** medium · **Type:** functional
 

@@ -1,5 +1,5 @@
 ---
-id: ELITEA-1737
+id: ELITEA-3749
 title: "Import Skill (Base Version)"
 priority: medium
 type: functional
@@ -11,7 +11,7 @@ tags: [automated:UI:regression, feat:skills]
 requirements: []
 ---
 
-# ELITEA-1737: Import Skill (Base Version)
+# ELITEA-3749: Import Skill (Base Version)
 
 **Module:** skills · **Priority:** medium · **Type:** functional
 

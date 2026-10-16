@@ -1,5 +1,5 @@
 ---
-id: ELITEA-1740
+id: ELITEA-3752
 title: "Search Skills by Tag"
 priority: medium
 type: functional
@@ -12,7 +12,7 @@ tags: [automated:UI:regression, feat:search]
 requirements: []
 ---
 
-# ELITEA-1740: Search Skills by Tag
+# ELITEA-3752: Search Skills by Tag
 
 **Module:** search-and-tag-filtering · **Priority:** medium · **Type:** functional
 

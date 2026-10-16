@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2219
+id: ELITEA-3753
 title: "Help Center — page loads successfully via sidebar icon"
 priority: medium
 type: functional
@@ -13,7 +13,7 @@ automation_test_id:
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2387
 ---
 
-# ELITEA-2219: Help Center — page loads successfully via sidebar icon
+# ELITEA-3753: Help Center — page loads successfully via sidebar icon
 
 **Module:** help-center · **Priority:** medium · **Type:** functional
 

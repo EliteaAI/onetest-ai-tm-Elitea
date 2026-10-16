@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2310
+id: ELITEA-3755
 title: "Analytics page loads with default date range and all six tabs visible"
 priority: high
 type: functional
@@ -13,10 +13,10 @@ automation_test_id:
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1187
 ---
 
-# ELITEA-2310: Analytics page loads with default date range and all six tabs visible
+# ELITEA-3755: Analytics page loads with default date range and all six tabs visible
 
 > **Automated.** Test: `automation/tests/ui/admin/test_analytics_default_load.py` ·
-> AFS: `test-specs/settings-analytics/l2_analytics-page-default-load_ELITEA-2310.md` ·
+> AFS: `test-specs/settings-analytics/l2_analytics-page-default-load_ELITEA-3755.md` ·
 > PR: https://github.com/EliteaAI/elitea-testing-public/pull/1187
 >
 > **Case-text drift found during automation** (steps 3–6): live product shows **7 tabs**

@@ -1,5 +1,5 @@
 ---
-id: ELITEA-1738
+id: ELITEA-3750
 title: "Import Skill Non-Base Version"
 priority: medium
 type: functional
@@ -11,7 +11,7 @@ requirements: []
 automation_test_id: tests.ui.skills.test_skill_export_import.TestSkillExportImportNonBaseVersion.test_import_skill_non_base_version
 ---
 
-# ELITEA-1738: Import Skill Non-Base Version
+# ELITEA-3750: Import Skill Non-Base Version
 
 **Module:** skills · **Priority:** medium · **Type:** functional
 

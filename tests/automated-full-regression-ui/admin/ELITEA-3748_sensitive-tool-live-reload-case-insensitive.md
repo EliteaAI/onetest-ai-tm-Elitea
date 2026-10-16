@@ -1,5 +1,5 @@
 ---
-id: ELITEA-1696
+id: ELITEA-3748
 title: "Sensitive Tool: Live-Reload and Case-Insensitive Matching"
 priority: critical
 type: functional
@@ -11,7 +11,7 @@ requirements: [EliteaAI/elitea_issues#5199]
 automation_test_id:
   - tests.ui.admin.test_guardrails_live_reload.TestSensitiveToolLiveReload.test_sensitive_tool_live_reload_case_insensitive
 ---
-# ELITEA-1696: Sensitive Tool: Live-Reload and Case-Insensitive Matching
+# ELITEA-3748: Sensitive Tool: Live-Reload and Case-Insensitive Matching
 
 **Module:** Admin Portal / Guardrails · **Priority:** Critical · **Type:** Functional
 

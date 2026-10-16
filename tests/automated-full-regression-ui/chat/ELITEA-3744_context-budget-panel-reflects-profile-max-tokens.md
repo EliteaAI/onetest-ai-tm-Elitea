@@ -1,5 +1,5 @@
 ---
-id: ELITEA-1340
+id: ELITEA-3744
 title: "Context Budget Panel Reflects Profile Max Context Tokens"
 priority: high
 type: functional
@@ -12,7 +12,7 @@ automation_test_id:
 tags: []
 requirements: []
 ---
-# ELITEA-1340: Context Budget Panel Reflects Profile Max Context Tokens
+# ELITEA-3744: Context Budget Panel Reflects Profile Max Context Tokens
 
 **Module:** Chat Interface · **Priority:** High · **Type:** Functional
 

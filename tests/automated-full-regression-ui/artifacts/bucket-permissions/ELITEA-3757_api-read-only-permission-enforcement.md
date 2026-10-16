@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2494
+id: ELITEA-3757
 title: "API: Read-only Permission Enforcement (GET allowed, POST/DELETE blocked)"
 priority: critical
 type: security
@@ -13,7 +13,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1577
 requirements: [EliteaAI/elitea_issues#5832]
 ---
 
-# ELITEA-2494: API: Read-only Permission Enforcement (GET allowed, POST/DELETE blocked)
+# ELITEA-3757: API: Read-only Permission Enforcement (GET allowed, POST/DELETE blocked)
 
 **Module:** artifacts · **Priority:** critical · **Type:** security
 

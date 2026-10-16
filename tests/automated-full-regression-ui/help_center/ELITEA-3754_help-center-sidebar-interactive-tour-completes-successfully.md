@@ -1,5 +1,5 @@
 ---
-id: ELITEA-2227
+id: ELITEA-3754
 title: "Help Center — Sidebar Interactive Tour completes successfully by clicking Next through all steps"
 priority: high
 type: functional
@@ -13,7 +13,7 @@ automation_test_id:
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1163
 ---
 
-# ELITEA-2227: Help Center — Sidebar Interactive Tour completes successfully by clicking Next through all steps
+# ELITEA-3754: Help Center — Sidebar Interactive Tour completes successfully by clicking Next through all steps
 
 **Module:** help-center · **Priority:** high · **Type:** functional
 

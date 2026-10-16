@@ -1,5 +1,5 @@
 ---
-id: ELITEA-1695
+id: ELITEA-3747
 title: "Blocked Tool: Live-Reload and Case-Insensitive Matching"
 priority: critical
 type: functional
@@ -11,7 +11,7 @@ requirements: [EliteaAI/elitea_issues#5199]
 automation_test_id:
   - tests.ui.admin.test_guardrails_live_reload.TestBlockedToolLiveReload.test_blocked_tool_live_reload_case_insensitive
 ---
-# ELITEA-1695: Blocked Tool: Live-Reload and Case-Insensitive Matching
+# ELITEA-3747: Blocked Tool: Live-Reload and Case-Insensitive Matching
 
 **Module:** Admin Portal / Guardrails · **Priority:** Critical · **Type:** Functional
 

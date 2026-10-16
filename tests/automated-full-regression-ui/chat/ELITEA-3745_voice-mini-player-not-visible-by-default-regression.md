@@ -1,5 +1,5 @@
 ---
-id: ELITEA-1341
+id: ELITEA-3745
 title: "Voice Mini Player Not Visible by Default in Chat (Regression #5235)"
 priority: high
 type: functional
@@ -11,7 +11,7 @@ automation_test_id:
 tags: []
 requirements: []
 ---
-# ELITEA-1341: Voice Mini Player Not Visible by Default in Chat (Regression #5235)
+# ELITEA-3745: Voice Mini Player Not Visible by Default in Chat (Regression #5235)
 
 **Module:** Voice · **Priority:** High · **Type:** Functional
 
