@@ -1301,8 +1301,8 @@
     {
       "id": "ELITEA-1899",
       "title": "Agent icon can be changed and persists on the agents list card",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "low",
       "size": "",
@@ -20295,7 +20295,7 @@
     {
       "id": "ELITEA-0577",
       "title": "Support Assistant — Files Can Be Attached via Click-to-Browse, Drag-and-Drop, and Clipboard Paste",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
@@ -20564,7 +20564,7 @@
     {
       "id": "ELITEA-1799",
       "title": "New Chat button creates fresh session and moves previous to history",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",
