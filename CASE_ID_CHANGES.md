@@ -8,6 +8,30 @@ to resolve an old id or path found in automation code, reports, dashboards or is
 - Automation repo: `EliteaAI/elitea-testing-public`. Its `@pytest.mark.tms(...)`, `@allure.issue(...)`
   links, AFS file names and `automation_test_id` back-writes follow the id/path recorded here.
 
+## 2026-10-16 — remove duplicate custom-theme set ELITEA-4083…4099
+
+Two content-identical copies of the 17 custom-theme cases existed in `AFR/settings/custom-theme/` (all `ready`, none automated). Kept set A ELITEA-4066…4082 (formerly TMS-3543…3559); removed set B ELITEA-4083…4099 (formerly TMS-3579…3595).
+
+| Old id | New id | New path |
+|---|---|---|
+| ELITEA-4083 (`AFR/settings/custom-theme/ELITEA-4083_project-theme-applies-admin-custom-colors-without-reload.md`) | removed — duplicate of ELITEA-4066 | `AFR/settings/custom-theme/ELITEA-4066_project-theme-applies-admin-custom-colors-without-reload.md` |
+| ELITEA-4084 (`AFR/settings/custom-theme/ELITEA-4084_admin-configure-primary-colors-via-color-picker-and-hex.md`) | removed — duplicate of ELITEA-4067 | `AFR/settings/custom-theme/ELITEA-4067_admin-configure-primary-colors-via-color-picker-and-hex.md` |
+| ELITEA-4085 (`AFR/settings/custom-theme/ELITEA-4085_custom-logo-upload-replaces-default-in-sidebar.md`) | removed — duplicate of ELITEA-4068 | `AFR/settings/custom-theme/ELITEA-4068_custom-logo-upload-replaces-default-in-sidebar.md` |
+| ELITEA-4086 (`AFR/settings/custom-theme/ELITEA-4086_export-json-downloads-custom-theme-configuration.md`) | removed — duplicate of ELITEA-4069 | `AFR/settings/custom-theme/ELITEA-4069_export-json-downloads-custom-theme-configuration.md` |
+| ELITEA-4087 (`AFR/settings/custom-theme/ELITEA-4087_import-json-applies-theme-settings-correctly.md`) | removed — duplicate of ELITEA-4070 | `AFR/settings/custom-theme/ELITEA-4070_import-json-applies-theme-settings-correctly.md` |
+| ELITEA-4088 (`AFR/settings/custom-theme/ELITEA-4088_admin-theme-changes-reflect-for-all-project-theme-users.md`) | removed — duplicate of ELITEA-4071 | `AFR/settings/custom-theme/ELITEA-4071_admin-theme-changes-reflect-for-all-project-theme-users.md` |
+| ELITEA-4089 (`AFR/settings/custom-theme/ELITEA-4089_user-sees-all-four-theme-options-in-preferences.md`) | removed — duplicate of ELITEA-4072 | `AFR/settings/custom-theme/ELITEA-4072_user-sees-all-four-theme-options-in-preferences.md` |
+| ELITEA-4090 (`AFR/settings/custom-theme/ELITEA-4090_dark-mode-applies-standard-dark-theme-correctly.md`) | removed — duplicate of ELITEA-4073 | `AFR/settings/custom-theme/ELITEA-4073_dark-mode-applies-standard-dark-theme-correctly.md` |
+| ELITEA-4091 (`AFR/settings/custom-theme/ELITEA-4091_light-mode-applies-standard-light-theme-correctly.md`) | removed — duplicate of ELITEA-4074 | `AFR/settings/custom-theme/ELITEA-4074_light-mode-applies-standard-light-theme-correctly.md` |
+| ELITEA-4092 (`AFR/settings/custom-theme/ELITEA-4092_system-theme-follows-os-preference.md`) | removed — duplicate of ELITEA-4075 | `AFR/settings/custom-theme/ELITEA-4075_system-theme-follows-os-preference.md` |
+| ELITEA-4093 (`AFR/settings/custom-theme/ELITEA-4093_theme-selection-persists-after-page-refresh.md`) | removed — duplicate of ELITEA-4076 | `AFR/settings/custom-theme/ELITEA-4076_theme-selection-persists-after-page-refresh.md` |
+| ELITEA-4094 (`AFR/settings/custom-theme/ELITEA-4094_admin-can-access-custom-theme-page-in-admin-portal.md`) | removed — duplicate of ELITEA-4077 | `AFR/settings/custom-theme/ELITEA-4077_admin-can-access-custom-theme-page-in-admin-portal.md` |
+| ELITEA-4095 (`AFR/settings/custom-theme/ELITEA-4095_base-mode-dropdown-allows-dark-light-selection.md`) | removed — duplicate of ELITEA-4078 | `AFR/settings/custom-theme/ELITEA-4078_base-mode-dropdown-allows-dark-light-selection.md` |
+| ELITEA-4096 (`AFR/settings/custom-theme/ELITEA-4096_background-colors-section-allows-editing-all-values.md`) | removed — duplicate of ELITEA-4079 | `AFR/settings/custom-theme/ELITEA-4079_background-colors-section-allows-editing-all-values.md` |
+| ELITEA-4097 (`AFR/settings/custom-theme/ELITEA-4097_border-colors-section-allows-editing-all-values.md`) | removed — duplicate of ELITEA-4080 | `AFR/settings/custom-theme/ELITEA-4080_border-colors-section-allows-editing-all-values.md` |
+| ELITEA-4098 (`AFR/settings/custom-theme/ELITEA-4098_delete-theme-resets-to-default-values.md`) | removed — duplicate of ELITEA-4081 | `AFR/settings/custom-theme/ELITEA-4081_delete-theme-resets-to-default-values.md` |
+| ELITEA-4099 (`AFR/settings/custom-theme/ELITEA-4099_save-changes-persists-all-custom-theme-modifications.md`) | removed — duplicate of ELITEA-4082 | `AFR/settings/custom-theme/ELITEA-4082_save-changes-persists-all-custom-theme-modifications.md` |
+
 ## 2026-10-16 — remove content-identical duplicate cases, renumber the `5889` set, drop stray files
 
 Duplicates verified content-identical (ignoring id/status/automation fields). Rule: keep one copy; prefer AFR over EP; keep the non-`draft` status. None of the affected files carried `automation_test_id` or `execution_type: automated`.
