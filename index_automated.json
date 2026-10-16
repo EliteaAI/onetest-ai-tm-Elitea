@@ -3743,10 +3743,8 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.chat.test_chat_interface.TestContextAndSettings.test_model_settings_menu",
         "tests.ui.chat.test_chat_interface.TestContextAndSettings.test_edit_context_settings",
         "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_sends_file_with_message",
-        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_opens_picker",
         "tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_open_close_sidebar",
         "tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_navigate_to_agents_from_sidebar",
         "tests.ui.chat.test_chat_interface.TestSearchAndErrorHandling.test_search_conversations_dialog",
@@ -3793,8 +3791,7 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.chat.test_chat_interface.TestMessageActions.test_copy_message_to_clipboard",
-        "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_clear_chat_history"
+        "tests.ui.chat.test_chat_interface.TestMessageActions.test_copy_message_to_clipboard"
       ],
       "targets": [],
       "dependencies": [],
@@ -3815,7 +3812,6 @@
       "requirements": [],
       "automation_test_id": [
         "tests.ui.chat.test_chat_interface.TestSendingMessages.test_send_text_message",
-        "tests.ui.chat.test_chat_interface.TestSendingMessages.test_send_message_with_enter_key",
         "tests.ui.chat.test_chat_interface.TestSendingMessages.test_cannot_send_empty_message"
       ],
       "targets": [],
@@ -3882,10 +3878,7 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.chat.test_chat_interface.TestPageLoadAndRendering.test_chat_page_loads_with_functional_input",
-        "tests.ui.chat.test_chat_interface.test_chat_page_loads_successfully",
-        "tests.ui.chat.test_chat_interface.test_message_input_is_functional",
-        "tests.ui.chat.test_chat_interface.test_chat_message_history_displays"
+        "tests.ui.chat.test_chat_interface.TestPageLoadAndRendering.test_chat_page_loads_with_functional_input"
       ],
       "targets": [],
       "dependencies": [],
@@ -3905,10 +3898,7 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.chat.test_chat_interface.TestPageLoadAndRendering.test_chat_page_loads_with_functional_input",
-        "tests.ui.chat.test_chat_interface.test_chat_page_loads_successfully",
-        "tests.ui.chat.test_chat_interface.test_message_input_is_functional",
-        "tests.ui.chat.test_chat_interface.test_chat_message_history_displays"
+        "tests.ui.chat.test_chat_interface.TestPageLoadAndRendering.test_chat_page_loads_with_functional_input"
       ],
       "targets": [],
       "dependencies": [],
@@ -11800,14 +11790,6 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_code_node",
-        "tests.ui.pipelines.test_pipeline_nodes.TestAddNode.test_add_llm_node",
-        "tests.ui.pipelines.test_pipeline_nodes.TestEditNode.test_edit_node_name",
-        "tests.ui.pipelines.test_pipeline_nodes.TestEditNode.test_node_default_name_matches_type",
-        "tests.ui.pipelines.test_pipeline_nodes.TestDeleteNode.test_delete_node_does_not_remove_end",
-        "tests.ui.pipelines.test_pipeline_nodes.TestDeleteNode.test_delete_node_via_menu",
-        "tests.ui.pipelines.test_pipeline_nodes.TestConnectNodes.test_connect_node_to_end",
-        "tests.ui.pipelines.test_pipeline_nodes.TestConnectNodes.test_connect_two_custom_nodes",
         "tests.ui.pipelines_2.test_pipeline_nodes.TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end"
       ],
       "targets": [],
@@ -11874,8 +11856,6 @@
       "requirements": [],
       "automation_test_id": [
         "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_message_count_starts_at_zero_and_grows",
-        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_message_count_after_execution",
-        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_rerun_pipeline",
         "tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_user_message_visible",
         "tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_multiple_executions_accumulate",
         "tests.ui.pipelines.test_pipeline_execution.TestPipelineExecutionEdgeCases.test_navigate_away_and_reexecute"
@@ -11898,13 +11878,9 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_decision_node",
-        "tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_printer_node",
-        "tests.ui.pipelines.test_pipeline_advanced.TestAdditionalNodeTypes.test_add_router_node",
         "tests.ui.pipelines.test_pipeline_advanced.TestMakeEntrypoint.test_make_node_entrypoint",
         "tests.ui.pipelines.test_pipeline_advanced.TestMultiNodeTopology.test_save_multi_node_pipeline",
-        "tests.ui.pipelines.test_pipeline_advanced.TestMultiNodeTopology.test_three_node_chain",
-        "tests.ui.pipelines.test_pipeline_advanced.TestHistoryTab.test_history_tab_opens"
+        "tests.ui.pipelines.test_pipeline_advanced.TestMultiNodeTopology.test_three_node_chain"
       ],
       "targets": [],
       "dependencies": [],
@@ -11968,9 +11944,7 @@
       "tags": [],
       "requirements": [],
       "automation_test_id": [
-        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_execute_simple_pipeline",
         "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_pipeline_response_is_meaningful",
-        "tests.ui.pipelines.test_pipeline_execution.TestExecutePipeline.test_rerun_pipeline",
         "tests.ui.pipelines.test_pipeline_execution.TestPipelineChatMessages.test_user_message_visible"
       ],
       "targets": [],
