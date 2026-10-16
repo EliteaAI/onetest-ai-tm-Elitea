@@ -7371,7 +7371,7 @@
     {
       "id": "ELITEA-2757",
       "title": "Chat – Create new conversation from folder context menu",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "manual",
       "type": "functional",
       "priority": "critical",
