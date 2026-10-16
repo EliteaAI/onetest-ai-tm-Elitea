@@ -1,0 +1,29 @@
+{
+  "launch": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0,
+    "reruns": 0
+  },
+  "items": [
+    {
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_page_loads",
+      "name": "test_page_loads",
+      "status": "passed",
+      "duration_ms": 18258,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.smoke.test_ui_smoke.TestHomePage.test_main_content_visible",
+      "name": "test_main_content_visible",
+      "status": "passed",
+      "duration_ms": 9326,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    }
+  ]
+}
