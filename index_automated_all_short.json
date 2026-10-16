@@ -1,6 +1,21 @@
 {
   "cases": [
     {
+      "id": "ELITEA-1694",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/admin/ELITEA-1694_blocked-toolkit-live-reload-case-insensitive.md"
+    },
+    {
+      "id": "ELITEA-1695",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/admin/ELITEA-1695_blocked-tool-live-reload-case-insensitive.md"
+    },
+    {
+      "id": "ELITEA-1696",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/admin/ELITEA-1696_sensitive-tool-live-reload-case-insensitive.md"
+    },
+    {
       "id": "ELITEA-2350",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2350_agent-hub-page-loads-successfully-for-private-project.md"
@@ -409,6 +424,11 @@
       "id": "ELITEA-1920",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1920_build-with-ai-in-chat-agenteditor-works-end-to-end.md"
+    },
+    {
+      "id": "ELITEA-1327",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1327_verify-all-files-downloadable-when-agent-creates-multiple-files.md"
     },
     {
       "id": "ELITEA-1803",
