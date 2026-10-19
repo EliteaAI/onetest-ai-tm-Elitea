@@ -1,42 +1,54 @@
 # Test Dashboard
 
-_Generated: 2026-10-16 15:24 UTC_
+_Generated: 2026-10-19 08:24 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-16-292-DEV-SMOKE-PASSED**
+**RUN-ELITEA-2026-10-19-296-DEV-CHAT-FAILED**
 
 ```mermaid
 pie showData
-    title "Test Results (2 total)"
-    "Passed" : 2
-    "Failed" : 0
+    title "Test Results (29 total)"
+    "Passed" : 25
+    "Failed" : 2
+    "Skipped" : 2
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 2 |
-| Passed | 2 |
-| Failed | 0 |
-| Skipped | 0 |
-| Reruns | 0 |
-| Pass Rate | 100.0% |
+| Total | 29 |
+| Passed | 25 |
+| Failed | 2 |
+| Skipped | 2 |
+| Reruns | 12 |
+| Pass Rate | 86.2% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [16-282-DEV-SMOKE, 16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE, 16-286-DEV-SMOKE, 16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE, 16-292-DEV-SMOKE]
-    y-axis "Tests" 0 --> 15
-    bar "Passed" [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-    bar "Failed" [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    x-axis [16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE, 16-286-DEV-SMOKE, 16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE, 16-292-DEV-SMOKE, 19-296-DEV-CHAT]
+    y-axis "Tests" 0 --> 30
+    bar "Passed" [2, 2, 2, 2, 2, 2, 2, 2, 2, 25]
+    bar "Failed" [0, 0, 0, 0, 0, 0, 0, 0, 0, 2]
+```
+
+### Reruns Trend
+
+```mermaid
+xychart-beta
+    title "Test Reruns (Flakiness Indicator)"
+    x-axis [16-283-DEV-SMOKE, 16-284-DEV-SMOKE, 16-285-DEV-SMOKE, 16-286-DEV-SMOKE, 16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE, 16-292-DEV-SMOKE, 19-296-DEV-CHAT]
+    y-axis "Reruns" 0 --> 15
+    line "Reruns" [0, 0, 0, 0, 0, 0, 0, 0, 0, 12]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 19-296-DEV-CHAT | 29 | 25 | 2 | 2 | 12 | 86% |
 | ✅ 16-292-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-291-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-290-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
@@ -46,7 +58,6 @@ xychart-beta
 | ✅ 16-285-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-284-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-283-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
-| ✅ 16-282-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -57,17 +68,17 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 
 | Metric | Count |
 |--------|-------|
-| Tests in automation | 251 |
+| Tests in automation | 259 |
 | Tests linked to TMS cases | 251 |
-| Tests without TMS case | 0 |
+| Tests without TMS case | 8 |
 | Orphan TMS refs (test missing) | 0 |
-| **TMS Coverage** | **100.0%** |
+| **TMS Coverage** | **96.9%** |
 
 ```mermaid
 pie showData
-    title "TMS Linkage (251 tests)"
+    title "TMS Linkage (259 tests)"
     "Linked to TMS" : 251
-    "No TMS case" : 0
+    "No TMS case" : 8
 ```
 
 ### Automation Coverage by Suite
@@ -120,5 +131,23 @@ pie showData
     "help_center" : 1
 ```
 
+### Tests Without TMS Case
+
+_Tests that exist in automation but have no linked TMS case._
+
+<details>
+<summary>Show 8 unlinked tests</summary>
+
+- `tests.ui.chat.test_chat_interjection_attachment_blocking.TestInterjectionAttachmentBlockingDuringActiveRun.test_attachment_blocked_during_run_plain_text_interjection_still_queues`
+- `tests.ui.chat.test_chat_interjection_fifo_order.TestInterjectionFifoMessageOrderPreservation.test_three_interjections_process_in_fifo_order`
+- `tests.ui.chat.test_chat_interjection_queuing.TestInterjectionQueuingSequentialProcessing.test_interjection_queues_and_processes_in_fifo_order`
+- `tests.ui.chat.test_chat_interjection_stop_preserves_queue.TestInterjectionStopPreservesQueuedMessages.test_stop_rescues_and_auto_drains_queue_without_loss`
+- `tests.ui.settings.test_project_context_ai_generation_char_limit.TestProjectContextAIGenerationCharLimit.test_build_with_ai_short_prompt_under_limit`
+- `tests.ui.settings.test_project_context_ai_generation_char_limit.TestProjectContextAIGenerationCharLimit.test_build_with_ai_verbose_prompt_exceeds_limit`
+- `tests.ui.settings.test_project_context_ai_generation_char_limit.TestProjectContextAIGenerationCharLimit.test_chat_project_context_builder_under_limit`
+- `tests.ui.settings.test_project_context_ai_generation_char_limit.TestProjectContextAIGenerationCharLimit.test_edit_with_ai_expand_content_under_limit`
+
+</details>
+
 ---
-_Compared `automation/index.json` (251 tests) with `index_automated.json` (251 refs)_
+_Compared `automation/index.json` (259 tests) with `index_automated.json` (251 refs)_
