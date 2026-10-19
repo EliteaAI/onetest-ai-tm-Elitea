@@ -53,7 +53,7 @@
     {
       "case_id": "ELITEA-0500",
       "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_sends_file_with_message",
-      "status": "passed"
+      "status": "failed"
     },
     {
       "case_id": "ELITEA-0500",
