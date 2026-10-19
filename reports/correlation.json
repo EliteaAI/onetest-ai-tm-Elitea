@@ -11,9 +11,29 @@
       "status": "passed"
     },
     {
+      "case_id": "ELITEA-2875",
+      "code_ref": "tests.ui.chat.test_chat_interjection_queuing.TestInterjectionQueuingSequentialProcessing.test_interjection_queues_and_processes_in_fifo_order",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2876",
+      "code_ref": "tests.ui.chat.test_chat_interjection_fifo_order.TestInterjectionFifoMessageOrderPreservation.test_three_interjections_process_in_fifo_order",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2877",
+      "code_ref": "tests.ui.chat.test_chat_interjection_attachment_blocking.TestInterjectionAttachmentBlockingDuringActiveRun.test_attachment_blocked_during_run_plain_text_interjection_still_queues",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2878",
+      "code_ref": "tests.ui.chat.test_chat_interjection_stop_preserves_queue.TestInterjectionStopPreservesQueuedMessages.test_stop_rescues_and_auto_drains_queue_without_loss",
+      "status": "passed"
+    },
+    {
       "case_id": "ELITEA-0143",
       "code_ref": "tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0498",
@@ -33,7 +53,7 @@
     {
       "case_id": "ELITEA-0500",
       "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_sends_file_with_message",
-      "status": "failed"
+      "status": "passed"
     },
     {
       "case_id": "ELITEA-0500",
@@ -93,10 +113,6 @@
   ],
   "unmatched_refs": [
     "tests.ui.chat.test_chat_interface.TestPageLoadAndRendering.test_chat_page_loads_with_functional_input",
-    "tests.ui.chat.test_chat_interjection_attachment_blocking.TestInterjectionAttachmentBlockingDuringActiveRun.test_attachment_blocked_during_run_plain_text_interjection_still_queues",
-    "tests.ui.chat.test_chat_interjection_fifo_order.TestInterjectionFifoMessageOrderPreservation.test_three_interjections_process_in_fifo_order",
-    "tests.ui.chat.test_chat_interjection_queuing.TestInterjectionQueuingSequentialProcessing.test_interjection_queues_and_processes_in_fifo_order",
-    "tests.ui.chat.test_chat_interjection_stop_preserves_queue.TestInterjectionStopPreservesQueuedMessages.test_stop_rescues_and_auto_drains_queue_without_loss",
     "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[10k_tokens]",
     "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[32k_tokens]",
     "tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[detailed_description]",
