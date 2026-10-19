@@ -4,10 +4,13 @@ title: "Automated: Basic interjection queuing and sequential processing"
 priority: critical
 type: automated
 module: interjections
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [feat:chat, r-2.0.6, interjection, regression]
 requirements: [EliteaAI/elitea_issues#6115]
+automation_test_id:
+  - tests.ui.chat.test_chat_interjection_queuing.TestInterjectionQueuingSequentialProcessing.test_interjection_queues_and_processes_in_fifo_order
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/6f2c0bc1bf7d6f877888a536bc6a0b7f624a06d5
 ---
 
 # ELITEA-2875: Basic interjection queuing and sequential processing

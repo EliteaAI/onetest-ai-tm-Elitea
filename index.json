@@ -16925,8 +16925,8 @@
     {
       "id": "ELITEA-2875",
       "title": "Automated: Basic interjection queuing and sequential processing",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "automated",
       "priority": "critical",
       "size": "",
@@ -16943,7 +16943,7 @@
         "EliteaAI/elitea_issues#6115"
       ],
       "automation_test_id": [
-        "test_interjection_queuing_sequential"
+        "tests.ui.chat.test_chat_interjection_queuing.TestInterjectionQueuingSequentialProcessing.test_interjection_queues_and_processes_in_fifo_order"
       ],
       "targets": [],
       "dependencies": [],
@@ -16953,8 +16953,8 @@
     {
       "id": "ELITEA-2876",
       "title": "Automated: FIFO message order preservation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "automated",
       "priority": "critical",
       "size": "",
@@ -16972,7 +16972,7 @@
         "EliteaAI/elitea_issues#6457"
       ],
       "automation_test_id": [
-        "test_message_order_fifo"
+        "tests.ui.chat.test_chat_interjection_fifo_order.TestInterjectionFifoMessageOrderPreservation.test_three_interjections_process_in_fifo_order"
       ],
       "targets": [],
       "dependencies": [],
@@ -16982,8 +16982,8 @@
     {
       "id": "ELITEA-2877",
       "title": "Automated: Attachment blocking during active run",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "automated",
       "priority": "critical",
       "size": "",
@@ -17002,7 +17002,7 @@
         "EliteaAI/elitea_issues#6448"
       ],
       "automation_test_id": [
-        "test_attachment_blocking"
+        "tests.ui.chat.test_chat_interjection_attachment_blocking.TestInterjectionAttachmentBlockingDuringActiveRun.test_attachment_blocked_during_run_plain_text_interjection_still_queues"
       ],
       "targets": [],
       "dependencies": [],
@@ -17012,8 +17012,8 @@
     {
       "id": "ELITEA-2878",
       "title": "Automated: Stop preserves queued messages",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "automated",
       "priority": "critical",
       "size": "",
@@ -17031,7 +17031,7 @@
         "EliteaAI/elitea_issues#6115"
       ],
       "automation_test_id": [
-        "test_stop_preserves_queue"
+        "tests.ui.chat.test_chat_interjection_stop_preserves_queue.TestInterjectionStopPreservesQueuedMessages.test_stop_rescues_and_auto_drains_queue_without_loss"
       ],
       "targets": [],
       "dependencies": [],

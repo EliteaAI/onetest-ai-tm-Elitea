@@ -4,10 +4,13 @@ title: "Automated: FIFO message order preservation"
 priority: critical
 type: automated
 module: interjections
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [feat:chat, r-2.0.6, interjection, regression]
 requirements: [EliteaAI/elitea_issues#6115, EliteaAI/elitea_issues#6457]
+automation_test_id:
+  - tests.ui.chat.test_chat_interjection_fifo_order.TestInterjectionFifoMessageOrderPreservation.test_three_interjections_process_in_fifo_order
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/6f2c0bc1bf7d6f877888a536bc6a0b7f624a06d5
 ---
 
 # ELITEA-2876: FIFO message order preservation

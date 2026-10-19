@@ -4,10 +4,13 @@ title: "Automated: Stop preserves queued messages"
 priority: critical
 type: automated
 module: interjections
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [feat:chat, r-2.0.6, interjection, stop, regression]
 requirements: [EliteaAI/elitea_issues#6115]
+automation_test_id:
+  - tests.ui.chat.test_chat_interjection_stop_preserves_queue.TestInterjectionStopPreservesQueuedMessages.test_stop_rescues_and_auto_drains_queue_without_loss
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/6f2c0bc1bf7d6f877888a536bc6a0b7f624a06d5
 ---
 
 # ELITEA-2878: Stop preserves queued messages
