@@ -1,37 +1,37 @@
 # Test Dashboard
 
-_Generated: 2026-10-19 12:47 UTC_
+_Generated: 2026-10-20 11:40 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-19-299-DEV-CHAT-FAILED**
+**RUN-ELITEA-2026-10-20-302-DEV-CHAT-FAILED**
 
 ```mermaid
 pie showData
-    title "Test Results (27 total)"
-    "Passed" : 24
-    "Failed" : 1
-    "Skipped" : 2
+    title "Test Results (47 total)"
+    "Passed" : 22
+    "Failed" : 22
+    "Skipped" : 3
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 27 |
-| Passed | 24 |
-| Failed | 1 |
-| Skipped | 2 |
-| Reruns | 4 |
-| Pass Rate | 88.9% |
+| Total | 47 |
+| Passed | 22 |
+| Failed | 22 |
+| Skipped | 3 |
+| Reruns | 60 |
+| Pass Rate | 46.8% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [16-286-DEV-SMOKE, 16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE, 16-292-DEV-SMOKE, 19-296-DEV-CHAT, 19-297-DEV-CHAT, 19-298-DEV-CHAT, 19-299-DEV-CHAT]
+    x-axis [16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE, 16-292-DEV-SMOKE, 19-296-DEV-CHAT, 19-297-DEV-CHAT, 19-298-DEV-CHAT, 19-299-DEV-CHAT, 20-302-DEV-CHAT]
     y-axis "Tests" 0 --> 31
-    bar "Passed" [2, 2, 2, 2, 2, 2, 25, 26, 24, 24]
-    bar "Failed" [0, 0, 0, 0, 0, 0, 2, 0, 0, 1]
+    bar "Passed" [2, 2, 2, 2, 2, 25, 26, 24, 24, 22]
+    bar "Failed" [0, 0, 0, 0, 0, 2, 0, 0, 1, 22]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [16-286-DEV-SMOKE, 16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE, 16-292-DEV-SMOKE, 19-296-DEV-CHAT, 19-297-DEV-CHAT, 19-298-DEV-CHAT, 19-299-DEV-CHAT]
-    y-axis "Reruns" 0 --> 15
-    line "Reruns" [0, 0, 0, 0, 0, 0, 12, 8, 2, 4]
+    x-axis [16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE, 16-292-DEV-SMOKE, 19-296-DEV-CHAT, 19-297-DEV-CHAT, 19-298-DEV-CHAT, 19-299-DEV-CHAT, 20-302-DEV-CHAT]
+    y-axis "Reruns" 0 --> 63
+    line "Reruns" [0, 0, 0, 0, 0, 12, 8, 2, 4, 60]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 20-302-DEV-CHAT | 47 | 22 | 22 | 3 | 60 | 47% |
 | ❌ 19-299-DEV-CHAT | 27 | 24 | 1 | 2 | 4 | 89% |
 | ✅ 19-298-DEV-CHAT | 26 | 24 | 0 | 2 | 2 | 92% |
 | ✅ 19-297-DEV-CHAT | 28 | 26 | 0 | 2 | 8 | 93% |
@@ -57,7 +58,6 @@ xychart-beta
 | ✅ 16-290-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-289-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-288-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
-| ✅ 16-286-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -68,16 +68,16 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 
 | Metric | Count |
 |--------|-------|
-| Tests in automation | 259 |
-| Tests linked to TMS cases | 255 |
+| Tests in automation | 261 |
+| Tests linked to TMS cases | 257 |
 | Tests without TMS case | 4 |
 | Orphan TMS refs (test missing) | 0 |
 | **TMS Coverage** | **98.5%** |
 
 ```mermaid
 pie showData
-    title "TMS Linkage (259 tests)"
-    "Linked to TMS" : 255
+    title "TMS Linkage (261 tests)"
+    "Linked to TMS" : 257
     "No TMS case" : 4
 ```
 
@@ -89,7 +89,7 @@ pie showData
 | agent_hub | 12 | 21 |
 | agents | 26 | 61 |
 | artifacts | 24 | 80 |
-| chat | 23 | 234 |
+| chat | 25 | 240 |
 | credentials | 1 | 24 |
 | evaluation-run-analytics | 0 | 5 |
 | help_center | 1 | 12 |
@@ -104,22 +104,22 @@ pie showData
 | support-assistant | 14 | 24 |
 | toolkit | 0 | 7 |
 | toolkits_UI | 6 | 19 |
-| **All suites** | **230** | **945** |
+| **All suites** | **232** | **951** |
 
 ```mermaid
 pie showData
-    title "Automated vs Manual (945 cases)"
-    "Automated" : 230
-    "Manual" : 715
+    title "Automated vs Manual (951 cases)"
+    "Automated" : 232
+    "Manual" : 719
 ```
 
 ```mermaid
 pie showData
-    title "Automated Cases by Suite (230 of 945)"
+    title "Automated Cases by Suite (232 of 951)"
     "pipelines" : 89
     "agents" : 26
+    "chat" : 25
     "artifacts" : 24
-    "chat" : 23
     "skills" : 18
     "support-assistant" : 14
     "agent_hub" : 12
@@ -146,4 +146,4 @@ _Tests that exist in automation but have no linked TMS case._
 </details>
 
 ---
-_Compared `automation/index.json` (259 tests) with `index_automated.json` (255 refs)_
+_Compared `automation/index.json` (261 tests) with `index_automated.json` (257 refs)_
