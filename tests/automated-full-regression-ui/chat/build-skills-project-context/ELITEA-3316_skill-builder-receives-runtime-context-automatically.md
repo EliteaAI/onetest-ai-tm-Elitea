@@ -4,8 +4,10 @@ title: "Skill Builder receives runtime_context and creates skill in current proj
 priority: critical
 type: functional
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: tests.ui.chat.test_skill_builder_runtime_context_current_project.TestSkillBuilderRuntimeContext.test_skill_created_in_current_project_only
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/7509c72970efca36faddc66501b255f4db3153f8
 tags: [feat:context-management, feat:toolkits, story:6306, r-2.0.6, runtime-context, skills-builder]
 requirements: [EliteaAI/elitea_issues#6306]
 ---
