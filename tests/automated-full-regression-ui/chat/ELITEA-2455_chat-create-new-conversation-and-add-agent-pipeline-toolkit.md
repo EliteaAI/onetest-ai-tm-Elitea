@@ -4,10 +4,12 @@ title: "Chat – Create new conversation and add Agent, Pipeline, Toolkit, and M
 priority: critical
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:chat]
 requirements: []
+automation_test_id: [tests.ui.chat.test_new_conversation_add_participants.TestNewConversationParticipants.test_new_conversation_add_four_participant_types]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/df8e5edf
 ---
 
 # ELITEA-2455: Chat – Create new conversation and add Agent, Pipeline, Toolkit, and MCP as participants
