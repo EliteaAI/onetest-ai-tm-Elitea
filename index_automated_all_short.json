@@ -1826,6 +1826,36 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-3745_voice-mini-player-not-visible-by-default-regression.md"
     },
     {
+      "id": "ELITEA-3762",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3762_export-conversation-without-attachments-json-download.md"
+    },
+    {
+      "id": "ELITEA-3764",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3764_export-with-attachments-zip-archive-generated.md"
+    },
+    {
+      "id": "ELITEA-3775",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3775_json-all-messages-correct-order.md"
+    },
+    {
+      "id": "ELITEA-3779",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3779_export-option-in-context-menu.md"
+    },
+    {
+      "id": "ELITEA-3784",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3784_export-button-triggers-download.md"
+    },
+    {
+      "id": "ELITEA-3786",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3786_only-creator-can-see-export.md"
+    },
+    {
       "id": "ELITEA-3252",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3252_settings-generate-project-context-respects-2500-char-limit.md"
