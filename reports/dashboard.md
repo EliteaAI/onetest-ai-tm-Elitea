@@ -1,37 +1,37 @@
 # Test Dashboard
 
-_Generated: 2026-10-20 12:17 UTC_
+_Generated: 2026-10-20 14:48 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-20-302-DEV-CHAT-FAILED**
+**RUN-ELITEA-2026-10-20-303-DEV-CHAT-FAILED**
 
 ```mermaid
 pie showData
-    title "Test Results (47 total)"
-    "Passed" : 22
-    "Failed" : 22
+    title "Test Results (67 total)"
+    "Passed" : 43
+    "Failed" : 21
     "Skipped" : 3
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 47 |
-| Passed | 22 |
-| Failed | 22 |
+| Total | 67 |
+| Passed | 43 |
+| Failed | 21 |
 | Skipped | 3 |
-| Reruns | 60 |
-| Pass Rate | 46.8% |
+| Reruns | 120 |
+| Pass Rate | 64.2% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE, 16-292-DEV-SMOKE, 19-296-DEV-CHAT, 19-297-DEV-CHAT, 19-298-DEV-CHAT, 19-299-DEV-CHAT, 20-302-DEV-CHAT]
-    y-axis "Tests" 0 --> 31
-    bar "Passed" [2, 2, 2, 2, 2, 25, 26, 24, 24, 22]
-    bar "Failed" [0, 0, 0, 0, 0, 2, 0, 0, 1, 22]
+    x-axis [16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE, 16-292-DEV-SMOKE, 19-296-DEV-CHAT, 19-297-DEV-CHAT, 19-298-DEV-CHAT, 19-299-DEV-CHAT, 20-302-DEV-CHAT, 20-303-DEV-CHAT]
+    y-axis "Tests" 0 --> 48
+    bar "Passed" [2, 2, 2, 2, 25, 26, 24, 24, 22, 43]
+    bar "Failed" [0, 0, 0, 0, 2, 0, 0, 1, 22, 21]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [16-288-DEV-SMOKE, 16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE, 16-292-DEV-SMOKE, 19-296-DEV-CHAT, 19-297-DEV-CHAT, 19-298-DEV-CHAT, 19-299-DEV-CHAT, 20-302-DEV-CHAT]
-    y-axis "Reruns" 0 --> 63
-    line "Reruns" [0, 0, 0, 0, 0, 12, 8, 2, 4, 60]
+    x-axis [16-289-DEV-SMOKE, 16-290-DEV-SMOKE, 16-291-DEV-SMOKE, 16-292-DEV-SMOKE, 19-296-DEV-CHAT, 19-297-DEV-CHAT, 19-298-DEV-CHAT, 19-299-DEV-CHAT, 20-302-DEV-CHAT, 20-303-DEV-CHAT]
+    y-axis "Reruns" 0 --> 123
+    line "Reruns" [0, 0, 0, 0, 12, 8, 2, 4, 60, 120]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 20-303-DEV-CHAT | 67 | 43 | 21 | 3 | 120 | 64% |
 | ❌ 20-302-DEV-CHAT | 47 | 22 | 22 | 3 | 60 | 47% |
 | ❌ 19-299-DEV-CHAT | 27 | 24 | 1 | 2 | 4 | 89% |
 | ✅ 19-298-DEV-CHAT | 26 | 24 | 0 | 2 | 2 | 92% |
@@ -57,7 +58,6 @@ xychart-beta
 | ✅ 16-291-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-290-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 | ✅ 16-289-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
-| ✅ 16-288-DEV-SMOKE | 2 | 2 | 0 | 0 | 0 | 100% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
