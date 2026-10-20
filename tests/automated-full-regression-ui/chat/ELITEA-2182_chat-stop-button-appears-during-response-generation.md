@@ -4,10 +4,13 @@ title: "Chat – Stop Button Appears During Response Generation"
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:chat, issue:5196]
 requirements: [EliteaAI/elitea_issues#5196]
+automation_test_id:
+  - tests.ui.chat.test_chat_stop_button_cancels_generation.TestChatStopButtonCancelsGeneration.test_stop_cancels_generation_and_restores_input
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/8421e098
 ---
 
 # ELITEA-2182: Chat – Stop Button Appears During Response Generation
