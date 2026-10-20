@@ -4,10 +4,13 @@ title: "Chat – After Stopping Generation New Message Can Be Sent Normally"
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:chat, issue:5196]
 requirements: [EliteaAI/elitea_issues#5196]
+automation_test_id:
+  - tests.ui.chat.test_chat_stop_button_cancels_generation.TestChatStopButtonCancelsGeneration.test_send_new_message_after_stop_works
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/a109e292
 ---
 
 # ELITEA-2183: Chat – After Stopping Generation New Message Can Be Sent Normally
