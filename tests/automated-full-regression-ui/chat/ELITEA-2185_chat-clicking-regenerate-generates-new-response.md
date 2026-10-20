@@ -4,10 +4,13 @@ title: "Chat – Clicking Regenerate Generates a New Response Based on Previous 
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:chat]
 requirements: []
+automation_test_id:
+  - tests.ui.chat.test_chat_regenerate_new_response.TestChatRegenerateNewResponse.test_regenerate_creates_new_response_same_user_input
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/f8589df5
 ---
 
 # ELITEA-2185: Chat – Clicking Regenerate Generates a New Response Based on Previous User Input
