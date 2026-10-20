@@ -8119,6 +8119,163 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-3745_voice-mini-player-not-visible-by-default-regression.md"
     },
     {
+      "id": "ELITEA-3762",
+      "title": "Export Conversation Without Attachments - JSON File Downloaded",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "conversations",
+      "owner": "",
+      "tags": [
+        "eng:frontend",
+        "eng:backend",
+        "feat:chat",
+        "feat:export",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4590"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3762_export-conversation-without-attachments-json-download.md"
+    },
+    {
+      "id": "ELITEA-3764",
+      "title": "Export Conversation With Attachments - ZIP Archive Generated",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "conversations",
+      "owner": "",
+      "tags": [
+        "eng:frontend",
+        "eng:backend",
+        "feat:chat",
+        "feat:export",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4590"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3764_export-with-attachments-zip-archive-generated.md"
+    },
+    {
+      "id": "ELITEA-3775",
+      "title": "Verify JSON Contains All Messages In Correct Order",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "conversations",
+      "owner": "",
+      "tags": [
+        "eng:frontend",
+        "eng:backend",
+        "feat:chat",
+        "feat:export",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4590"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3775_json-all-messages-correct-order.md"
+    },
+    {
+      "id": "ELITEA-3779",
+      "title": "Verify Export Option Appears In Conversation Context Menu",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "conversations",
+      "owner": "",
+      "tags": [
+        "eng:frontend",
+        "feat:chat",
+        "feat:export",
+        "ui",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4590"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3779_export-option-in-context-menu.md"
+    },
+    {
+      "id": "ELITEA-3784",
+      "title": "Verify Export Button Triggers Download",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "conversations",
+      "owner": "",
+      "tags": [
+        "eng:frontend",
+        "eng:backend",
+        "feat:chat",
+        "feat:export",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4590"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3784_export-button-triggers-download.md"
+    },
+    {
+      "id": "ELITEA-3786",
+      "title": "Verify Only Conversation Creator Can See/Use Export Option",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "conversations",
+      "owner": "",
+      "tags": [
+        "eng:frontend",
+        "eng:backend",
+        "feat:chat",
+        "feat:export",
+        "feat:permissions",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4590"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-3786_only-creator-can-see-export.md"
+    },
+    {
       "id": "ELITEA-3252",
       "title": "Settings: Generate Project Context produces content ≤2500 characters",
       "status": "draft",
