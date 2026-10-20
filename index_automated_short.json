@@ -509,6 +509,12 @@
       ]
     },
     {
+      "id": "ELITEA-2455",
+      "automation_test_id": [
+        "tests.ui.chat.test_new_conversation_add_participants.TestNewConversationParticipants.test_new_conversation_add_four_participant_types"
+      ]
+    },
+    {
       "id": "ELITEA-2461",
       "automation_test_id": [
         "tests.ui.chat.test_pin_conversation.TestPinConversationViaPinOnTop.test_pin_conversation_via_pin_on_top"
