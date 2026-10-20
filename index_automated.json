@@ -8485,8 +8485,8 @@
     {
       "id": "ELITEA-3316",
       "title": "Skill Builder receives runtime_context and creates skill in current project only",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -8503,7 +8503,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#6306"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_skill_builder_runtime_context_current_project.TestSkillBuilderRuntimeContext.test_skill_created_in_current_project_only"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8540,8 +8542,8 @@
     {
       "id": "ELITEA-3366",
       "title": "Skill creation from chat with complete information creates skill and chip opens in Canvas",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -8558,7 +8560,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#6239"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_skill_creation_from_chat_chip_canvas.TestSkillCreationFromChat.test_skill_created_from_chat_chip_opens_canvas"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
