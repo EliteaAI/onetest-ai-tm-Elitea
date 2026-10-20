@@ -4,8 +4,10 @@ title: "Project Context creation and update from chat with chip opening in Canva
 priority: critical
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: [tests.ui.chat.test_chat_project_context_builder.TestChatProjectContextBuilder.test_create_and_update_project_context_via_chat_chip_canvas]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/09221399e77424ecedc778e2579d45233697940b
 tags: [feat:chat, story:6239, regression, project-context-builder, happy-path, canvas]
 requirements: [EliteaAI/elitea_issues#6239]
 ---

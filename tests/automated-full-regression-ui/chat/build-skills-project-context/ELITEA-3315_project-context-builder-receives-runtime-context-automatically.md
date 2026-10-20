@@ -4,8 +4,10 @@ title: "Project Context Builder receives runtime_context and creates context in 
 priority: critical
 type: functional
 module: project-context
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id: [tests.ui.chat.test_chat_project_context_cross_project_isolation.TestChatProjectContextCrossProjectIsolation.test_project_context_isolated_to_current_project]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/09221399e77424ecedc778e2579d45233697940b
 tags: [feat:context-management, feat:toolkits, story:6306, r-2.0.6, runtime-context, project-context-builder]
 requirements: [EliteaAI/elitea_issues#6306]
 ---
