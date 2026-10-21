@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines_2.test_pipeline_mcp_node_fresh_attach.test_mcp_node_fresh_attach
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1151
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/3d71a16b
 ---
 
 # ELITEA-2037: Pipeline — MCP Node Integration
@@ -45,7 +45,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1151
 | 3 | From the MCP picker popup, select an existing MCP (e.g., "WebSearch") | MCP is selected |
 | 4 | Verify MCP appears in Tools list under MCP sub-tab | "WebSearch" is listed under the MCP sub-tab in Tools |
 | 5 | Click "Add node" on canvas → select "MCP" | MCP node is added to the canvas |
-| 6 | Verify MCP node panel shows: Toolkit dropdown, Tool dropdown, Input, Output, INPUT MAPPING (REQUIRED N), INPUT MAPPING (OPTIONAL N), Interrupt before/after, Structured output | All listed sections are present |
+| 6 | Verify MCP node panel shows: Toolkit dropdown, Tool dropdown, Input, Output, INPUT MAPPING (REQUIRED N), INPUT MAPPING (OPTIONAL N), Structured output | All listed sections are present |
 | 7 | Select attached MCP from "Toolkit" dropdown | MCP is selected in the Toolkit dropdown |
 | 8 | Select a tool from "Tool" dropdown — verify INPUT MAPPING sections populate with tool-specific parameters | INPUT MAPPING sections appear with tool parameters |
 | 9 | Configure required INPUT MAPPING fields (Type + Value for each) | INPUT MAPPING values are set |

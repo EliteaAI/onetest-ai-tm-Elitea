@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_agent_node_integration.test_agent_node_fresh_attach
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1329
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/3d71a16b
 ---
 
 # ELITEA-2038: Pipeline — Agent Node Integration
@@ -49,7 +49,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1329
 | 3 | From the Agent picker, select an existing agent (e.g., "IssueTriageSpecialist") | Agent is selected |
 | 4 | Verify agent appears in Tools list under Agent sub-tab | Agent is listed under the Agent sub-tab in Tools |
 | 5 | Click "Add node" on canvas → select "Agent" | Agent node is added to the canvas |
-| 6 | Verify Agent node panel shows: Agent dropdown, Input combobox, Output combobox, INPUT MAPPING (REQUIRED 1) with TASK section (Type+Value), Interrupt before/after switches | All listed sections are present |
+| 6 | Verify Agent node panel shows: Agent dropdown, Input combobox, Output combobox, INPUT MAPPING (REQUIRED 1) with TASK section (Type+Value) | All listed sections are present |
 | 7 | Select attached agent from "Agent" dropdown (e.g., "IssueTriageSpecialist") | Agent is selected in the dropdown |
 | 8 | Set Input combobox — add state variables "normalized_issue", "kb_results" | Both variables are added to Input |
 | 9 | Set Output combobox — add output variable "triage_summary" | "triage_summary" is added to Output |

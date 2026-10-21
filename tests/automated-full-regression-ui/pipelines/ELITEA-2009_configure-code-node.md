@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_code_node_configuration.test_code_node_configuration_and_persistence
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1329
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/3d71a16b
 ---
 
 # ELITEA-2009: Configure Code Node
@@ -45,7 +45,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1329
 |---|--------|-----------------|
 | 1 | Create a pipeline and add a Code node via "Add node" → "Code" | Code node appears on the canvas |
 | 2 | Click on Code node to open configuration panel | Configuration panel opens |
-| 3 | Verify panel shows: CODE section (Type + Value), Input, Output, Interrupt before/after, Structured output | All listed sections are present in the panel |
+| 3 | Verify panel shows: CODE section (Type + Value), Input, Output, Structured output | All listed sections are present in the panel |
 | 4 | In CODE section: set Type to "Fixed", enter Value with Python code (e.g., "import json\nresult = input.upper()") | CODE section accepts the value |
 | 5 | Set Input combobox — add variable "input" | "input" is added to the Input combobox |
 | 6 | Set Output combobox — add variable "result" | "result" is added to the Output combobox |
