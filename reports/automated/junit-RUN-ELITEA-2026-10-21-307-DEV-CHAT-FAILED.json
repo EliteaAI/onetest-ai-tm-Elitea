@@ -1,0 +1,368 @@
+{
+  "launch": {
+    "total": 39,
+    "passed": 34,
+    "failed": 3,
+    "skipped": 2,
+    "reruns": 8
+  },
+  "items": [
+    {
+      "code_ref": "tests.ui.chat.test_agent_with_toolkit_chat.TestAgentWithToolkitInChat.test_agent_with_toolkit_executes_in_chat",
+      "name": "test_agent_with_toolkit_executes_in_chat",
+      "status": "passed",
+      "duration_ms": 72244,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_export_download.TestChatExportDownload.test_export_button_triggers_download",
+      "name": "test_export_button_triggers_download",
+      "status": "passed",
+      "duration_ms": 23391,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_export_menu_option.TestChatExportMenuOption.test_export_option_in_conversation_context_menu",
+      "name": "test_export_option_in_conversation_context_menu",
+      "status": "passed",
+      "duration_ms": 11471,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_export_with_attachments_zip.TestChatExportWithAttachmentsZip.test_export_with_attachments_produces_zip",
+      "name": "test_export_with_attachments_produces_zip",
+      "status": "passed",
+      "duration_ms": 30209,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestPageLoadAndRendering.test_chat_page_loads_with_functional_input",
+      "name": "test_chat_page_loads_with_functional_input",
+      "status": "passed",
+      "duration_ms": 16870,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSendingMessages.test_send_text_message",
+      "name": "test_send_text_message",
+      "status": "passed",
+      "duration_ms": 21068,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSendingMessages.test_cannot_send_empty_message",
+      "name": "test_cannot_send_empty_message",
+      "status": "passed",
+      "duration_ms": 16857,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestMessageActions.test_copy_message_to_clipboard",
+      "name": "test_copy_message_to_clipboard",
+      "status": "passed",
+      "duration_ms": 21484,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_model_selector_opens_menu",
+      "name": "test_model_selector_opens_menu",
+      "status": "passed",
+      "duration_ms": 17209,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_attach_files_button_sends_file_with_message",
+      "name": "test_attach_files_button_sends_file_with_message",
+      "status": "passed",
+      "duration_ms": 22172,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestConversationUIElements.test_internal_tools_panel_shows_all_tools",
+      "name": "test_internal_tools_panel_shows_all_tools",
+      "status": "passed",
+      "duration_ms": 17567,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestHashSearch.test_hash_search_participants",
+      "name": "test_hash_search_participants",
+      "status": "passed",
+      "duration_ms": 18395,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestHashSearch.test_add_participant_via_hash_search",
+      "name": "test_add_participant_via_hash_search",
+      "status": "passed",
+      "duration_ms": 17832,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestContextAndSettings.test_edit_context_settings",
+      "name": "test_edit_context_settings",
+      "status": "passed",
+      "duration_ms": 22666,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_open_close_sidebar",
+      "name": "test_open_close_sidebar",
+      "status": "passed",
+      "duration_ms": 17487,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSidebarNavigation.test_navigate_to_agents_from_sidebar",
+      "name": "test_navigate_to_agents_from_sidebar",
+      "status": "passed",
+      "duration_ms": 16702,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSearchAndErrorHandling.test_search_conversations_dialog",
+      "name": "test_search_conversations_dialog",
+      "status": "passed",
+      "duration_ms": 17090,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interface.TestSearchAndErrorHandling.test_handle_message_send_failure",
+      "name": "test_handle_message_send_failure",
+      "status": "passed",
+      "duration_ms": 28346,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interjection_attachment_blocking.TestInterjectionAttachmentBlockingDuringActiveRun.test_attachment_blocked_during_run_plain_text_interjection_still_queues",
+      "name": "test_attachment_blocked_during_run_plain_text_interjection_still_queues",
+      "status": "passed",
+      "duration_ms": 41698,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interjection_fifo_order.TestInterjectionFifoMessageOrderPreservation.test_three_interjections_process_in_fifo_order",
+      "name": "test_three_interjections_process_in_fifo_order",
+      "status": "passed",
+      "duration_ms": 48661,
+      "failure_message": "",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interjection_fifo_order.TestInterjectionFifoMessageOrderPreservation.test_three_interjections_process_in_fifo_order",
+      "name": "test_three_interjections_process_in_fifo_order",
+      "status": "passed",
+      "duration_ms": 52507,
+      "failure_message": "",
+      "reruns": 1,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interjection_queuing.TestInterjectionQueuingSequentialProcessing.test_interjection_queues_and_processes_in_fifo_order",
+      "name": "test_interjection_queues_and_processes_in_fifo_order",
+      "status": "passed",
+      "duration_ms": 41809,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_interjection_stop_preserves_queue.TestInterjectionStopPreservesQueuedMessages.test_stop_rescues_and_auto_drains_queue_without_loss",
+      "name": "test_stop_rescues_and_auto_drains_queue_without_loss",
+      "status": "passed",
+      "duration_ms": 35061,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_regenerate_last_response_only.TestChatRegenerateLastResponseOnly.test_regenerate_only_on_last_llm_response",
+      "name": "test_regenerate_only_on_last_llm_response",
+      "status": "passed",
+      "duration_ms": 23432,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_regenerate_last_response_only.TestChatRegenerateLastResponseOnly.test_regenerate_only_on_last_of_three_responses",
+      "name": "test_regenerate_only_on_last_of_three_responses",
+      "status": "failed",
+      "duration_ms": 30045,
+      "failure_message": "AssertionError: Locator expected to have count '1'\nActual value: 0 \nCall log:\n  - Expect \"to_have_count\" get_by_test_id(\"chat-inject-button\") with timeout 15000ms\n  - waiting for get_by_test_id(\"chat-inject-button\")\n    34 × locator resolved to 0 elements\n       - unexpected value \"0\" tests/ui/chat/test_chat_regenerate_last_response_only.py:129: in test_regenerate_only_on_last_of_three_responses\n    expect(chat.chat_inject_button).to_have_count(1, timeout=UI_TIMEOUT)\nE   AssertionError: Locator ",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_regenerate_new_response.TestChatRegenerateNewResponse.test_regenerate_creates_new_response_same_user_input",
+      "name": "test_regenerate_creates_new_response_same_user_input",
+      "status": "failed",
+      "duration_ms": 38610,
+      "failure_message": "AssertionError: Locator expected to have count '1'\nActual value: 0 \nCall log:\n  - Expect \"to_have_count\" get_by_test_id(\"chat-inject-button\") with timeout 15000ms\n  - waiting for get_by_test_id(\"chat-inject-button\")\n    34 × locator resolved to 0 elements\n       - unexpected value \"0\" tests/ui/chat/test_chat_regenerate_new_response.py:80: in test_regenerate_creates_new_response_same_user_input\n    expect(chat.chat_inject_button).to_have_count(1, timeout=UI_TIMEOUT)\nE   AssertionError: Locator ex",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_stop_button_cancels_generation.TestChatStopButtonCancelsGeneration.test_stop_cancels_generation_and_restores_input",
+      "name": "test_stop_cancels_generation_and_restores_input",
+      "status": "passed",
+      "duration_ms": 18520,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_chat_stop_button_cancels_generation.TestChatStopButtonCancelsGeneration.test_send_new_message_after_stop_works",
+      "name": "test_send_new_message_after_stop_works",
+      "status": "passed",
+      "duration_ms": 22234,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[10k_tokens]",
+      "name": "test_context_budget_reflects_profile_max_tokens[10k_tokens]",
+      "status": "skipped",
+      "duration_ms": 1,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[32k_tokens]",
+      "name": "test_context_budget_reflects_profile_max_tokens[32k_tokens]",
+      "status": "skipped",
+      "duration_ms": 0,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[detailed_description]",
+      "name": "test_create_image[detailed_description]",
+      "status": "passed",
+      "duration_ms": 169594,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_image_creation.TestImageCreation.test_create_image[minimal_prompt]",
+      "name": "test_create_image[minimal_prompt]",
+      "status": "passed",
+      "duration_ms": 128779,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_new_conversation_add_participants.TestNewConversationParticipants.test_new_conversation_add_four_participant_types",
+      "name": "test_new_conversation_add_four_participant_types",
+      "status": "passed",
+      "duration_ms": 28993,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_open_existing_conversation_from_this_week_section.TestOpenExistingConversationFromThisWeekSection.test_open_existing_conversation_from_this_week_section",
+      "name": "test_open_existing_conversation_from_this_week_section",
+      "status": "passed",
+      "duration_ms": 22181,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_pin_conversation.TestPinConversationViaPinOnTop.test_pin_conversation_via_pin_on_top",
+      "name": "test_pin_conversation_via_pin_on_top",
+      "status": "passed",
+      "duration_ms": 28362,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_skill_builder_runtime_context_current_project.TestSkillBuilderRuntimeContext.test_skill_created_in_current_project_only",
+      "name": "test_skill_created_in_current_project_only",
+      "status": "passed",
+      "duration_ms": 49065,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.chat.test_skill_creation_from_chat_chip_canvas.TestSkillCreationFromChat.test_skill_created_from_chat_chip_opens_canvas",
+      "name": "test_skill_created_from_chat_chip_opens_canvas",
+      "status": "passed",
+      "duration_ms": 48715,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/chat/test_skill_creation_from_chat_chip_canvas.py:113: in test_skill_created_from_chat_chip_opens_canvas\n    instructions = skill_form.get_instructions_multiline().lower()\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/skill_form_page.py:854: in get_instructions_multiline\n    return (self.instructions_editor_content.inner_text() or \"\").strip()\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:12419: in inner_text\n    self._sync(self._impl_obj.inner_text(timeout=to_milliseconds(timeout)))\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:514: in inner_text\n    return await self._frame.inner_text(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:748: in inner_text\n    return await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.chat.test_skill_creation_from_chat_chip_canvas.TestSkillCreationFromChat.test_skill_created_from_chat_chip_opens_canvas",
+      "name": "test_skill_created_from_chat_chip_opens_canvas",
+      "status": "passed",
+      "duration_ms": 49318,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/chat/test_skill_creation_from_chat_chip_canvas.py:113: in test_skill_created_from_chat_chip_opens_canvas\n    instructions = skill_form.get_instructions_multiline().lower()\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/skill_form_page.py:854: in get_instructions_multiline\n    return (self.instructions_editor_content.inner_text() or \"\").strip()\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:12419: in inner_text\n    self._sync(self._impl_obj.inner_text(timeout=to_milliseconds(timeout)))\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:514: in inner_text\n    return await self._frame.inner_text(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:748: in inner_text\n    return await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.chat.test_skill_creation_from_chat_chip_canvas.TestSkillCreationFromChat.test_skill_created_from_chat_chip_opens_canvas",
+      "name": "test_skill_created_from_chat_chip_opens_canvas",
+      "status": "failed",
+      "duration_ms": 48141,
+      "failure_message": "playwright._impl._errors.TimeoutError: Locator.inner_text: Timeout 10000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"skill-instructions-editor-content\") tests/ui/chat/test_skill_creation_from_chat_chip_canvas.py:113: in test_skill_created_from_chat_chip_opens_canvas\n    instructions = skill_form.get_instructions_multiline().lower()\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/skill_form_page.py:854: in get_instructions_multiline\n    return (self.instructions_editor_",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/chat/test_skill_creation_from_chat_chip_canvas.py:113: in test_skill_created_from_chat_chip_opens_canvas\n    instructions = skill_form.get_instructions_multiline().lower()\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npages/skill_form_page.py:854: in get_instructions_multiline\n    return (self.instructions_editor_content.inner_text() or \"\").strip()\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:12419: in inner_text\n    self._sync(self._impl_obj.inner_text(timeout=to_milliseconds(timeout)))\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:514: in inner_text\n    return await self._frame.inner_text(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:748: in inner_text\n    return await self._channel.send(\n/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site"
+      ]
+    }
+  ]
+}
