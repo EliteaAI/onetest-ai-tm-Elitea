@@ -4,10 +4,13 @@ title: "Verify Export Option Appears In Conversation Context Menu"
 priority: high
 type: functional
 module: conversations
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [eng:frontend, feat:chat, feat:export, ui, r-2.0.8]
 requirements: [EliteaAI/elitea_issues#4590]
+automation_test_id:
+  - tests.ui.chat.test_chat_export_menu_option.TestChatExportMenuOption.test_export_option_in_conversation_context_menu
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/242a354a
 ---
 # ELITEA-3779: Verify Export Option Appears In Conversation Context Menu
 
