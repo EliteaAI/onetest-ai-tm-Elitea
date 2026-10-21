@@ -4,8 +4,11 @@ title: "Settings: Edit with AI respects 2500-character limit"
 priority: critical
 type: functional
 module: settings
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.settings.test_project_context_ai_generation_char_limit.TestProjectContextAIGenerationCharLimit.test_edit_with_ai_expand_content_under_limit
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/cea34d4ac9ebd459fe1dda2cc3b08f3a59d128a8
 tags: [automated:UI:regression, feat:project-setup, project-context-builder, edit-with-ai, character-limit]
 requirements: [EliteaAI/elitea_issues#6344]
 ---

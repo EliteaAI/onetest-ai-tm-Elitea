@@ -4,8 +4,11 @@ title: "Chat: Project Context Builder tool generates content ≤2500 characters"
 priority: critical
 type: functional
 module: chat
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.settings.test_project_context_ai_generation_char_limit.TestProjectContextAIGenerationCharLimit.test_chat_project_context_builder_under_limit
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/cea34d4ac9ebd459fe1dda2cc3b08f3a59d128a8
 tags: [automated:UI:regression, feat:project-setup, feat:chat, project-context-builder, character-limit]
 requirements: [EliteaAI/elitea_issues#6344]
 ---
