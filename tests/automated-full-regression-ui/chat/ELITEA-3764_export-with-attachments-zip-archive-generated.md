@@ -4,9 +4,11 @@ title: "Export Conversation With Attachments - ZIP Archive Generated"
 priority: high
 type: functional
 module: conversations
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [eng:frontend, eng:backend, feat:chat, feat:export, r-2.0.8]
+automation_test_id: [tests.ui.chat.test_chat_export_with_attachments_zip.TestChatExportWithAttachmentsZip.test_export_with_attachments_produces_zip]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/29411d78397c81460bb05d7d89032aa6bdafbefa
 requirements: [EliteaAI/elitea_issues#4590]
 ---
 # ELITEA-3764: Export Conversation With Attachments - ZIP Archive Generated
