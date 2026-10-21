@@ -5983,8 +5983,8 @@
     {
       "id": "ELITEA-2182",
       "title": "Chat – Stop Button Appears During Response Generation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -5998,7 +5998,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5196"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_stop_button_cancels_generation.TestChatStopButtonCancelsGeneration.test_stop_cancels_generation_and_restores_input"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6007,8 +6009,8 @@
     {
       "id": "ELITEA-2183",
       "title": "Chat – After Stopping Generation New Message Can Be Sent Normally",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -6022,7 +6024,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5196"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_stop_button_cancels_generation.TestChatStopButtonCancelsGeneration.test_send_new_message_after_stop_works"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6031,8 +6035,8 @@
     {
       "id": "ELITEA-2184",
       "title": "Chat – Regenerate Button Visible on Last LLM Response",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -6043,7 +6047,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_regenerate_last_response_only.TestChatRegenerateLastResponseOnly.test_regenerate_only_on_last_llm_response"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6052,8 +6058,8 @@
     {
       "id": "ELITEA-2185",
       "title": "Chat – Clicking Regenerate Generates a New Response Based on Previous User Input",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -6064,7 +6070,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_regenerate_new_response.TestChatRegenerateNewResponse.test_regenerate_creates_new_response_same_user_input"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6097,8 +6105,8 @@
     {
       "id": "ELITEA-2187",
       "title": "Chat – Regenerate Is Only Available on the Last Response Not on Earlier Messages",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -6109,7 +6117,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_regenerate_last_response_only.TestChatRegenerateLastResponseOnly.test_regenerate_only_on_last_of_three_responses"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8149,8 +8159,8 @@
     {
       "id": "ELITEA-3764",
       "title": "Export Conversation With Attachments - ZIP Archive Generated",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8166,7 +8176,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#4590"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_export_with_attachments_zip.TestChatExportWithAttachmentsZip.test_export_with_attachments_produces_zip"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8201,8 +8213,8 @@
     {
       "id": "ELITEA-3779",
       "title": "Verify Export Option Appears In Conversation Context Menu",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8218,7 +8230,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#4590"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_export_menu_option.TestChatExportMenuOption.test_export_option_in_conversation_context_menu"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8227,8 +8241,8 @@
     {
       "id": "ELITEA-3784",
       "title": "Verify Export Button Triggers Download",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -8244,7 +8258,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#4590"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_export_download.TestChatExportDownload.test_export_button_triggers_download"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8280,8 +8296,8 @@
     {
       "id": "ELITEA-3252",
       "title": "Settings: Generate Project Context produces content ≤2500 characters",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -8296,7 +8312,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#6344"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_project_context_ai_generation_char_limit.TestProjectContextAIGenerationCharLimit.test_build_with_ai_short_prompt_under_limit"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8305,8 +8323,8 @@
     {
       "id": "ELITEA-3253",
       "title": "Settings: Generate Project Context shows error when output would exceed 2500 characters",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -8321,7 +8339,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#6344"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_project_context_ai_generation_char_limit.TestProjectContextAIGenerationCharLimit.test_build_with_ai_verbose_prompt_exceeds_limit"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8330,8 +8350,8 @@
     {
       "id": "ELITEA-3254",
       "title": "Chat: Project Context Builder tool generates content ≤2500 characters",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -8347,7 +8367,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#6344"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_project_context_ai_generation_char_limit.TestProjectContextAIGenerationCharLimit.test_chat_project_context_builder_under_limit"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8356,8 +8378,8 @@
     {
       "id": "ELITEA-3255",
       "title": "Settings: Edit with AI respects 2500-character limit",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -8373,7 +8395,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#6344"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.settings.test_project_context_ai_generation_char_limit.TestProjectContextAIGenerationCharLimit.test_edit_with_ai_expand_content_under_limit"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -21033,7 +21057,6 @@
         "EliteaAI/elitea_issues#5114"
       ],
       "automation_test_id": [
-        "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestToolkitCredentialIndicators.test_toolkit_credential_indicators_e2e",
         "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestAgentCredentialIndicators.test_agent_credential_indicators_e2e",
         "tests.ui.toolkits.test_toolkit_indicators_for_credentials.TestPipelineCredentialIndicators.test_pipeline_credential_indicators_e2e"
       ],

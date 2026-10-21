@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.settings.test_project_context_ai_generation_char_limit.TestProjectContextAIGenerationCharLimit.test_edit_with_ai_expand_content_under_limit
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/cea34d4ac9ebd459fe1dda2cc3b08f3a59d128a8
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/4627a0418b9b02cc3c14d2b63ae79fca6597cb22
 tags: [automated:UI:regression, feat:project-setup, project-context-builder, edit-with-ai, character-limit]
 requirements: [EliteaAI/elitea_issues#6344]
 ---
