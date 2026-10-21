@@ -4,10 +4,13 @@ title: "Chat – Regenerate Is Only Available on the Last Response Not on Earlie
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:chat]
 requirements: []
+automation_test_id:
+  - tests.ui.chat.test_chat_regenerate_last_response_only.TestChatRegenerateLastResponseOnly.test_regenerate_only_on_last_of_three_responses
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/586d71d3
 ---
 
 # ELITEA-2187: Chat – Regenerate Is Only Available on the Last Response Not on Earlier Messages
