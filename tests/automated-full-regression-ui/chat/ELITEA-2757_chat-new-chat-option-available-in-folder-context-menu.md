@@ -5,7 +5,10 @@ priority: critical
 type: functional
 module: chat-interface
 status: ready
-execution_type: manual
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_chat_create_conversation_from_folder_context_menu.TestChatCreateConversationFromFolderMenu.test_create_conversation_from_folder_context_menu
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/cf1a0444f98a0cfe63656142c3e5906fbc611713
 tags: [feat:chat, r-2.0.6]
 requirements: [EliteaAI/elitea_issues#1604]
 ---
