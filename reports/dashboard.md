@@ -1,37 +1,37 @@
 # Test Dashboard
 
-_Generated: 2026-10-21 19:03 UTC_
+_Generated: 2026-10-22 07:39 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-21-308-DEV-CHAT-FAILED**
+**RUN-ELITEA-2026-10-22-310-DEV-CHAT-FAILED**
 
 ```mermaid
 pie showData
-    title "Test Results (36 total)"
+    title "Test Results (40 total)"
     "Passed" : 31
-    "Failed" : 3
+    "Failed" : 7
     "Skipped" : 2
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 36 |
+| Total | 40 |
 | Passed | 31 |
-| Failed | 3 |
+| Failed | 7 |
 | Skipped | 2 |
-| Reruns | 0 |
-| Pass Rate | 86.1% |
+| Reruns | 6 |
+| Pass Rate | 77.5% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [19-296-DEV-CHAT, 19-297-DEV-CHAT, 19-298-DEV-CHAT, 19-299-DEV-CHAT, 20-302-DEV-CHAT, 20-303-DEV-CHAT, 21-305-DEV-CHAT, 21-306-DEV-AGENT_HUB, 21-307-DEV-CHAT, 21-308-DEV-CHAT]
+    x-axis [19-297-DEV-CHAT, 19-298-DEV-CHAT, 19-299-DEV-CHAT, 20-302-DEV-CHAT, 20-303-DEV-CHAT, 21-305-DEV-CHAT, 21-306-DEV-AGENT_HUB, 21-307-DEV-CHAT, 21-308-DEV-CHAT, 22-310-DEV-CHAT]
     y-axis "Tests" 0 --> 48
-    bar "Passed" [25, 26, 24, 24, 22, 43, 0, 14, 34, 31]
-    bar "Failed" [2, 0, 0, 1, 22, 21, 0, 8, 3, 3]
+    bar "Passed" [26, 24, 24, 22, 43, 0, 14, 34, 31, 31]
+    bar "Failed" [0, 0, 1, 22, 21, 0, 8, 3, 3, 7]
 ```
 
 ### Reruns Trend
@@ -39,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [19-296-DEV-CHAT, 19-297-DEV-CHAT, 19-298-DEV-CHAT, 19-299-DEV-CHAT, 20-302-DEV-CHAT, 20-303-DEV-CHAT, 21-305-DEV-CHAT, 21-306-DEV-AGENT_HUB, 21-307-DEV-CHAT, 21-308-DEV-CHAT]
+    x-axis [19-297-DEV-CHAT, 19-298-DEV-CHAT, 19-299-DEV-CHAT, 20-302-DEV-CHAT, 20-303-DEV-CHAT, 21-305-DEV-CHAT, 21-306-DEV-AGENT_HUB, 21-307-DEV-CHAT, 21-308-DEV-CHAT, 22-310-DEV-CHAT]
     y-axis "Reruns" 0 --> 123
-    line "Reruns" [12, 8, 2, 4, 60, 120, 0, 30, 8, 0]
+    line "Reruns" [8, 2, 4, 60, 120, 0, 30, 8, 0, 6]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 22-310-DEV-CHAT | 40 | 31 | 7 | 2 | 6 | 78% |
 | ❌ 21-308-DEV-CHAT | 36 | 31 | 3 | 2 | 0 | 86% |
 | ❌ 21-307-DEV-CHAT | 39 | 34 | 3 | 2 | 8 | 87% |
 | ❌ 21-306-DEV-AGENT_HUB | 22 | 14 | 8 | 0 | 30 | 64% |
@@ -57,7 +58,6 @@ xychart-beta
 | ❌ 19-299-DEV-CHAT | 27 | 24 | 1 | 2 | 4 | 89% |
 | ✅ 19-298-DEV-CHAT | 26 | 24 | 0 | 2 | 2 | 92% |
 | ✅ 19-297-DEV-CHAT | 28 | 26 | 0 | 2 | 8 | 93% |
-| ❌ 19-296-DEV-CHAT | 29 | 25 | 2 | 2 | 12 | 86% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -68,17 +68,17 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 
 | Metric | Count |
 |--------|-------|
-| Tests in automation | 272 |
+| Tests in automation | 274 |
 | Tests linked to TMS cases | 272 |
-| Tests without TMS case | 0 |
+| Tests without TMS case | 2 |
 | Orphan TMS refs (test missing) | 0 |
-| **TMS Coverage** | **100.0%** |
+| **TMS Coverage** | **99.3%** |
 
 ```mermaid
 pie showData
-    title "TMS Linkage (272 tests)"
+    title "TMS Linkage (274 tests)"
     "Linked to TMS" : 272
-    "No TMS case" : 0
+    "No TMS case" : 2
 ```
 
 ### Automation Coverage by Suite
@@ -131,5 +131,17 @@ pie showData
     "help_center" : 1
 ```
 
+### Tests Without TMS Case
+
+_Tests that exist in automation but have no linked TMS case._
+
+<details>
+<summary>Show 2 unlinked tests</summary>
+
+- `tests.ui.chat.test_chat_export_download.TestChatExportDownload.test_export_chat_with_messages_without_attachments`
+- `tests.ui.chat.test_chat_streaming_response.TestStreamingResponse.test_streaming_response_displayed_progressively`
+
+</details>
+
 ---
-_Compared `automation/index.json` (272 tests) with `index_automated.json` (272 refs)_
+_Compared `automation/index.json` (274 tests) with `index_automated.json` (272 refs)_
