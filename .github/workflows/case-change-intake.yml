@@ -1,0 +1,136 @@
+# Function: case-change-intake — tells the automation factory that the text of an automated case changed.
+# Collects the case files a push to main touched under tests/automated-full-regression-ui/, keeps those
+# with `execution_type: automated` in the before OR after version (so automated→manual / →deprecated
+# transitions are caught), and POSTs the list to the Elitea pipeline `tms_case_change_intake`
+# (elitea-testing-public: automation/routines/tms_case_change_intake.yml). The pipeline reads each
+# file's before/after itself, drops cosmetic and metadata-only changes, and files one
+# `[Adjust][ELITEA-<id>]` ticket per case that still needs a test update.
+#
+# Loop guard: pushes by the factory's own accounts are ignored (the TMS back-write commits as
+# automation-factory, build-index as github-actions[bot]), and so is any push whose commit
+# messages carry `[skip-intake]` — the factory puts it in the title of its own case-text PRs.
+name: case-change-intake
+on:
+  push:
+    branches: [main]
+    paths:
+      - "tests/automated-full-regression-ui/**"
+permissions:
+  contents: read
+concurrency:
+  group: case-change-intake
+  cancel-in-progress: false
+jobs:
+  intake:
+    if: >-
+      github.actor != 'automation-factory' &&
+      github.actor != 'github-actions[bot]' &&
+      !contains(join(github.event.commits.*.message, ' '), '[skip-intake]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Collect changed automated cases
+        id: collect
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          COMPARE_URL: ${{ github.event.compare }}
+          PUSHER: ${{ github.actor }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re, subprocess
+
+          CASES_DIR = "tests/automated-full-regression-ui"
+          CHUNK = 40  # files per webhook call — keeps the pipeline state small
+
+          def git(*args):
+              return subprocess.run(["git", *args], capture_output=True, text=True).stdout
+
+          after = os.environ["AFTER"]
+          before = os.environ.get("BEFORE", "")
+          if not before or set(before) == {"0"}:
+              before = git("rev-parse", f"{after}^").strip()
+
+          def front_matter(sha, path):
+              if not path:
+                  return {}
+              text = git("show", f"{sha}:{path}")
+              m = re.match(r"^---\s*\n(.*?)\n---\s*\n", text, re.S)
+              if not m:
+                  return {}
+              fm = {}
+              for line in m.group(1).splitlines():
+                  km = re.match(r"^([A-Za-z_][\w-]*):\s*(.*)$", line)
+                  if km:
+                      fm[km.group(1)] = km.group(2).strip().strip("'\"")
+              return fm
+
+          files = []
+          for line in git("diff", "--name-status", "-M", before, after, "--", CASES_DIR).splitlines():
+              parts = line.split("\t")
+              status = parts[0][0]
+              if status == "R":
+                  previous_path, path = parts[1], parts[2]
+              elif status == "D":
+                  previous_path, path = parts[1], ""
+              else:
+                  previous_path, path = (parts[1] if status == "M" else ""), parts[1]
+              if not (path or previous_path).endswith(".md"):
+                  continue
+              old = front_matter(before, previous_path)
+              new = front_matter(after, path)
+              if "automated" not in (old.get("execution_type"), new.get("execution_type")):
+                  continue
+              files.append({
+                  "path": path,
+                  "previous_path": previous_path,
+                  "status": status,
+                  "id": new.get("id") or old.get("id", ""),
+                  "title": new.get("title") or old.get("title", ""),
+              })
+
+          print(f"{len(files)} changed automated case file(s) between {before[:7]}..{after[:7]}")
+          for f in files:
+              print(f"  {f['status']} {f['id']} {f['path'] or f['previous_path']}")
+
+          os.makedirs("payloads", exist_ok=True)
+          for i in range(0, len(files), CHUNK):
+              payload = {
+                  "event": "tms_case_change",
+                  "repository": os.environ["REPOSITORY"],
+                  "before": before,
+                  "after": after,
+                  "compare_url": os.environ.get("COMPARE_URL", ""),
+                  "pusher": os.environ.get("PUSHER", ""),
+                  "files": files[i:i + CHUNK],
+              }
+              with open(f"payloads/{i // CHUNK:03d}.json", "w") as fh:
+                  json.dump(payload, fh, separators=(",", ":"))
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write(f"count={len(files)}\n")
+          PY
+
+      - name: Notify intake pipeline
+        if: steps.collect.outputs.count != '0'
+        env:
+          CASE_INTAKE_URL: ${{ secrets.CASE_INTAKE_URL }}
+          CASE_INTAKE_SECRET: ${{ secrets.CASE_INTAKE_SECRET }}
+        run: |
+          if [ -z "$CASE_INTAKE_URL" ] || [ -z "$CASE_INTAKE_SECRET" ]; then
+            echo "::error::CASE_INTAKE_URL / CASE_INTAKE_SECRET are not set"
+            exit 1
+          fi
+          for f in payloads/*.json; do
+            PAYLOAD=$(cat "$f")
+            SIGNATURE=$(echo -n "$PAYLOAD" | openssl dgst -sha256 -hmac "$CASE_INTAKE_SECRET" | sed 's/^.* //')
+            echo "Sending $f ($(echo "$PAYLOAD" | jq '.files | length') files)"
+            curl -fsSL -X POST "$CASE_INTAKE_URL" \
+              -H "Content-Type: text/plain" \
+              -H "X-Hub-Signature-256: sha256=$SIGNATURE" \
+              -d "$PAYLOAD"
+            echo
+          done
