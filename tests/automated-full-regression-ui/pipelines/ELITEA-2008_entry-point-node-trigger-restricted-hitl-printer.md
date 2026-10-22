@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_entry_point_trigger_restricted_interactive_nodes.test_entry_point_trigger_restricted_interactive_nodes
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1929
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/71481354
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---
@@ -45,7 +45,7 @@ requirements: []
 | 3 | Open Trigger dropdown | Trigger dropdown opens |
 | 4 | Verify only "Chat Message" is available (Schedule and Webhook do NOT appear) | Only "Chat Message" is listed in the Trigger dropdown |
 | 5 | Remove Printer node, add HITL node instead — verify same restriction applies | With HITL node present, only "Chat Message" is available in Trigger dropdown |
-| 6 | Remove HITL, enable "Interrupt after" on any node in pipeline — verify same restriction | With static interrupt enabled, only "Chat Message" is available |
+| 6 | Remove HITL, add a non-entry-point node and set `interrupt_before: [<node id>]` in the YAML view (the per-node Interrupt before/after toggles were removed from node cards, EL-3872), Save — verify same restriction | With static interrupt enabled, only "Chat Message" is available |
 | 7 | Remove all HITL/Printer/interrupt configurations — verify all 3 trigger types become available again | All three trigger types (Chat Message, Schedule, Webhook) are available |
 
 ---
