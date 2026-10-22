@@ -4,8 +4,11 @@ title: "Chat – Message input empty shows no send button; typing shows send but
 priority: critical
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_chat_send_button_visibility_toggle.TestChatSendButtonVisibilityToggle.test_send_button_visibility_toggle_and_clear_on_send
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/44bfbd4d056059a10ca545dcb3694b78791b5283
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
