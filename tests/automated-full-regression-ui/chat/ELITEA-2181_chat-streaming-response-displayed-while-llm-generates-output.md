@@ -4,8 +4,11 @@ title: "Chat – Streaming Response Displayed While LLM Generates Output"
 priority: high
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_chat_streaming_response.TestStreamingResponse.test_streaming_response_displayed_progressively
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/a32e185a946fc4869f61905262aba27e5e8b2ec0
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
