@@ -4,8 +4,11 @@ title: "Verify JSON Contains All Messages In Correct Order"
 priority: critical
 type: functional
 module: conversations
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_chat_export_json_message_order.TestChatExportJsonMessageOrder.test_export_contains_all_messages_in_order
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/1d6e80e53d3e255b4281cb6c0995029e285522c4
 tags: [eng:frontend, eng:backend, feat:chat, feat:export, r-2.0.8]
 requirements: [EliteaAI/elitea_issues#4590]
 ---
