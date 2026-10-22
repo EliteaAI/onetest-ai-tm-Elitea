@@ -1,36 +1,37 @@
 # Test Dashboard
 
-_Generated: 2026-10-22 09:46 UTC_
+_Generated: 2026-10-22 11:55 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-22-311-DEV-CHAT-PASSED**
+**RUN-ELITEA-2026-10-22-312-DEV-CHAT-FAILED**
 
 ```mermaid
 pie showData
-    title "Test Results (0 total)"
-    "Passed" : 0
-    "Failed" : 0
+    title "Test Results (39 total)"
+    "Passed" : 35
+    "Failed" : 2
+    "Skipped" : 2
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 0 |
-| Passed | 0 |
-| Failed | 0 |
-| Skipped | 0 |
+| Total | 39 |
+| Passed | 35 |
+| Failed | 2 |
+| Skipped | 2 |
 | Reruns | 0 |
-| Pass Rate | 0.0% |
+| Pass Rate | 89.7% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [19-298-DEV-CHAT, 19-299-DEV-CHAT, 20-302-DEV-CHAT, 20-303-DEV-CHAT, 21-305-DEV-CHAT, 21-306-DEV-AGENT_HUB, 21-307-DEV-CHAT, 21-308-DEV-CHAT, 22-310-DEV-CHAT, 22-311-DEV-CHAT]
+    x-axis [19-299-DEV-CHAT, 20-302-DEV-CHAT, 20-303-DEV-CHAT, 21-305-DEV-CHAT, 21-306-DEV-AGENT_HUB, 21-307-DEV-CHAT, 21-308-DEV-CHAT, 22-310-DEV-CHAT, 22-311-DEV-CHAT, 22-312-DEV-CHAT]
     y-axis "Tests" 0 --> 48
-    bar "Passed" [24, 24, 22, 43, 0, 14, 34, 31, 31, 0]
-    bar "Failed" [0, 1, 22, 21, 0, 8, 3, 3, 7, 0]
+    bar "Passed" [24, 22, 43, 0, 14, 34, 31, 31, 0, 35]
+    bar "Failed" [1, 22, 21, 0, 8, 3, 3, 7, 0, 2]
 ```
 
 ### Reruns Trend
@@ -38,15 +39,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [19-298-DEV-CHAT, 19-299-DEV-CHAT, 20-302-DEV-CHAT, 20-303-DEV-CHAT, 21-305-DEV-CHAT, 21-306-DEV-AGENT_HUB, 21-307-DEV-CHAT, 21-308-DEV-CHAT, 22-310-DEV-CHAT, 22-311-DEV-CHAT]
+    x-axis [19-299-DEV-CHAT, 20-302-DEV-CHAT, 20-303-DEV-CHAT, 21-305-DEV-CHAT, 21-306-DEV-AGENT_HUB, 21-307-DEV-CHAT, 21-308-DEV-CHAT, 22-310-DEV-CHAT, 22-311-DEV-CHAT, 22-312-DEV-CHAT]
     y-axis "Reruns" 0 --> 123
-    line "Reruns" [2, 4, 60, 120, 0, 30, 8, 0, 6, 0]
+    line "Reruns" [4, 60, 120, 0, 30, 8, 0, 6, 0, 0]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 22-312-DEV-CHAT | 39 | 35 | 2 | 2 | 0 | 90% |
 | ✅ 22-311-DEV-CHAT | 0 | 0 | 0 | 0 | 0 | 0% |
 | ❌ 22-310-DEV-CHAT | 40 | 31 | 7 | 2 | 6 | 78% |
 | ❌ 21-308-DEV-CHAT | 36 | 31 | 3 | 2 | 0 | 86% |
@@ -56,7 +58,6 @@ xychart-beta
 | ❌ 20-303-DEV-CHAT | 67 | 43 | 21 | 3 | 120 | 64% |
 | ❌ 20-302-DEV-CHAT | 47 | 22 | 22 | 3 | 60 | 47% |
 | ❌ 19-299-DEV-CHAT | 27 | 24 | 1 | 2 | 4 | 89% |
-| ✅ 19-298-DEV-CHAT | 26 | 24 | 0 | 2 | 2 | 92% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
@@ -67,17 +68,17 @@ _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
 
 | Metric | Count |
 |--------|-------|
-| Tests in automation | 274 |
+| Tests in automation | 276 |
 | Tests linked to TMS cases | 272 |
-| Tests without TMS case | 2 |
+| Tests without TMS case | 4 |
 | Orphan TMS refs (test missing) | 0 |
-| **TMS Coverage** | **99.3%** |
+| **TMS Coverage** | **98.6%** |
 
 ```mermaid
 pie showData
-    title "TMS Linkage (274 tests)"
+    title "TMS Linkage (276 tests)"
     "Linked to TMS" : 272
-    "No TMS case" : 2
+    "No TMS case" : 4
 ```
 
 ### Automation Coverage by Suite
@@ -135,12 +136,14 @@ pie showData
 _Tests that exist in automation but have no linked TMS case._
 
 <details>
-<summary>Show 2 unlinked tests</summary>
+<summary>Show 4 unlinked tests</summary>
 
+- `tests.ui.chat.test_chat_create_conversation_from_folder_context_menu.TestChatCreateConversationFromFolderMenu.test_create_conversation_from_folder_context_menu`
 - `tests.ui.chat.test_chat_export_download.TestChatExportDownload.test_export_chat_with_messages_without_attachments`
+- `tests.ui.chat.test_chat_send_button_visibility_toggle.TestChatSendButtonVisibilityToggle.test_send_button_visibility_toggle_and_clear_on_send`
 - `tests.ui.chat.test_chat_streaming_response.TestStreamingResponse.test_streaming_response_displayed_progressively`
 
 </details>
 
 ---
-_Compared `automation/index.json` (274 tests) with `index_automated.json` (272 refs)_
+_Compared `automation/index.json` (276 tests) with `index_automated.json` (272 refs)_
