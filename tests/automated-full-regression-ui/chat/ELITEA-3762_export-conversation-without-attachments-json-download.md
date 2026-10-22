@@ -4,8 +4,11 @@ title: "Export Conversation Without Attachments - JSON File Downloaded"
 priority: high
 type: functional
 module: conversations
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_chat_export_download.TestChatExportDownload.test_export_chat_with_messages_without_attachments
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/0f10c546a8855c883ee59d04417b33098bed78ec
 tags: [eng:frontend, eng:backend, feat:chat, feat:export, r-2.0.8]
 requirements: [EliteaAI/elitea_issues#4590]
 ---
