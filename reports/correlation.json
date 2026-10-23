@@ -1,4 +1,65 @@
 {
-  "matched": [],
+  "matched": [
+    {
+      "case_id": "ELITEA-2350",
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project",
+      "status": "failed"
+    },
+    {
+      "case_id": "ELITEA-2352",
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category",
+      "status": "failed"
+    },
+    {
+      "case_id": "ELITEA-2353",
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories",
+      "status": "failed"
+    },
+    {
+      "case_id": "ELITEA-2354",
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_like_agent_list_view.TestAgentHubLikeAgentListView.test_agent_hub_like_agent_from_list_view",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2356",
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal",
+      "status": "failed"
+    },
+    {
+      "case_id": "ELITEA-2357",
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_close_agent_detail_modal.TestAgentHubCloseAgentDetailModal.test_agent_hub_close_agent_detail_modal",
+      "status": "failed"
+    },
+    {
+      "case_id": "ELITEA-2358",
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_like_agent_from_modal.TestAgentHubLikeAgentFromModal.test_agent_hub_like_agent_from_modal",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2359",
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_copy_link_from_modal.TestAgentHubCopyLinkFromModal.test_copy_link_from_modal_navigates_to_agent",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2360",
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_start_conversation_creates_new_chat.TestAgentHubStartConversationCreatesNewChat.test_agent_hub_start_conversation_creates_new_chat",
+      "status": "failed"
+    },
+    {
+      "case_id": "ELITEA-2363",
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_search_bar_filters_in_real_time.TestAgentHubSearchBarFiltersInRealTime.test_agent_hub_search_bar_filters_in_real_time",
+      "status": "failed"
+    },
+    {
+      "case_id": "ELITEA-2366",
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_trending_category.TestAgentHubTrendingCategory.test_agent_hub_trending_category_displays_agents",
+      "status": "passed"
+    },
+    {
+      "case_id": "ELITEA-2367",
+      "code_ref": "tests.ui.agent_hub.test_empty_state.TestCatalogEmptyState.test_empty_state_when_search_matches_no_agents",
+      "status": "failed"
+    }
+  ],
   "unmatched_refs": []
 }
