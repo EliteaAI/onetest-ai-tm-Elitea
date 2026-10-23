@@ -1,0 +1,263 @@
+{
+  "launch": {
+    "total": 24,
+    "passed": 16,
+    "failed": 8,
+    "skipped": 0,
+    "reruns": 36
+  },
+  "items": [
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_close_agent_detail_modal.TestAgentHubCloseAgentDetailModal.test_agent_hub_close_agent_detail_modal",
+      "name": "test_agent_hub_close_agent_detail_modal",
+      "status": "passed",
+      "duration_ms": 22312,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_close_agent_detail_modal.py:70: in test_agent_hub_close_agent_detail_modal\n    assert not console_errors, f\"Unexpected console errors while opening the modal: {console_errors}\"\nE   AssertionError: Unexpected console errors while opening the modal: [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>]\nE   assert not [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elit"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_close_agent_detail_modal.TestAgentHubCloseAgentDetailModal.test_agent_hub_close_agent_detail_modal",
+      "name": "test_agent_hub_close_agent_detail_modal",
+      "status": "passed",
+      "duration_ms": 8694,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_close_agent_detail_modal.py:70: in test_agent_hub_close_agent_detail_modal\n    assert not console_errors, f\"Unexpected console errors while opening the modal: {console_errors}\"\nE   AssertionError: Unexpected console errors while opening the modal: [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>]\nE   assert not [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elit"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_close_agent_detail_modal.TestAgentHubCloseAgentDetailModal.test_agent_hub_close_agent_detail_modal",
+      "name": "test_agent_hub_close_agent_detail_modal",
+      "status": "failed",
+      "duration_ms": 8556,
+      "failure_message": "AssertionError: Unexpected console errors while opening the modal: [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleM",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_close_agent_detail_modal.py:70: in test_agent_hub_close_agent_detail_modal\n    assert not console_errors, f\"Unexpected console errors while opening the modal: {console_errors}\"\nE   AssertionError: Unexpected console errors while opening the modal: [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>]\nE   assert not [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elit"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_copy_link_from_modal.TestAgentHubCopyLinkFromModal.test_copy_link_from_modal_navigates_to_agent",
+      "name": "test_copy_link_from_modal_navigates_to_agent",
+      "status": "passed",
+      "duration_ms": 14536,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories",
+      "name": "test_agent_hub_filter_by_multiple_categories",
+      "status": "passed",
+      "duration_ms": 8472,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_filter_multiple_categories.py:221: in test_agent_hub_filter_by_multiple_categories\n    assert not unexpected_errors, f\"Unexpected console errors: {unexpected_errors}\"\nE   AssertionError: Unexpected console errors: ['Loading the image \\'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png\\' violates the following Content Security Policy directive: \"img-src \\'self\\' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.', 'Failed to load resource: the server responded with a status of 404 ()', 'Failed to load resource: the server responded with a status of 404 ()']\nE   assert not ['Loading the image \\'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png\\' violates the following Content Security Policy directive: \"img-src \\'self\\' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.', 'Fail"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories",
+      "name": "test_agent_hub_filter_by_multiple_categories",
+      "status": "passed",
+      "duration_ms": 7711,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_filter_multiple_categories.py:221: in test_agent_hub_filter_by_multiple_categories\n    assert not unexpected_errors, f\"Unexpected console errors: {unexpected_errors}\"\nE   AssertionError: Unexpected console errors: ['Loading the image \\'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png\\' violates the following Content Security Policy directive: \"img-src \\'self\\' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.', 'Failed to load resource: the server responded with a status of 404 ()', 'Failed to load resource: the server responded with a status of 404 ()']\nE   assert not ['Loading the image \\'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png\\' violates the following Content Security Policy directive: \"img-src \\'self\\' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.', 'Fail"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_filter_multiple_categories.TestAgentHubFilterMultipleCategories.test_agent_hub_filter_by_multiple_categories",
+      "name": "test_agent_hub_filter_by_multiple_categories",
+      "status": "failed",
+      "duration_ms": 7636,
+      "failure_message": "AssertionError: Unexpected console errors: ['Loading the image \\'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png\\' violates the following Content Security Policy directive: \"img-src \\'self\\' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.', 'Failed to load resource: the server responded with a status of 404 ()', 'Failed to load resource: the server responded with a status of 404 ()']\nassert not ['Loadi",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_filter_multiple_categories.py:221: in test_agent_hub_filter_by_multiple_categories\n    assert not unexpected_errors, f\"Unexpected console errors: {unexpected_errors}\"\nE   AssertionError: Unexpected console errors: ['Loading the image \\'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png\\' violates the following Content Security Policy directive: \"img-src \\'self\\' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.', 'Failed to load resource: the server responded with a status of 404 ()', 'Failed to load resource: the server responded with a status of 404 ()']\nE   assert not ['Loading the image \\'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png\\' violates the following Content Security Policy directive: \"img-src \\'self\\' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.', 'Fail"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category",
+      "name": "test_agent_hub_filter_by_single_category",
+      "status": "passed",
+      "duration_ms": 7147,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_filter_single_category.py:103: in test_agent_hub_filter_by_single_category\n    assert not console_capture, (\nE   AssertionError: Unexpected console errors: ['Loading the image \\'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png\\' violates the following Content Security Policy directive: \"img-src \\'self\\' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.', 'Failed to load resource: the server responded with a status of 404 ()', 'Failed to load resource: the server responded with a status of 404 ()']\nE   assert not [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text=Fail"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category",
+      "name": "test_agent_hub_filter_by_single_category",
+      "status": "passed",
+      "duration_ms": 7974,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_filter_single_category.py:103: in test_agent_hub_filter_by_single_category\n    assert not console_capture, (\nE   AssertionError: Unexpected console errors: ['Loading the image \\'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png\\' violates the following Content Security Policy directive: \"img-src \\'self\\' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.', 'Failed to load resource: the server responded with a status of 404 ()', 'Failed to load resource: the server responded with a status of 404 ()']\nE   assert not [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text=Fail"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_filter_single_category.TestAgentHubFilterSingleCategory.test_agent_hub_filter_by_single_category",
+      "name": "test_agent_hub_filter_by_single_category",
+      "status": "failed",
+      "duration_ms": 7462,
+      "failure_message": "AssertionError: Unexpected console errors: ['Loading the image \\'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png\\' violates the following Content Security Policy directive: \"img-src \\'self\\' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.', 'Failed to load resource: the server responded with a status of 404 ()', 'Failed to load resource: the server responded with a status of 404 ()']\nassert not [<Conso",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_filter_single_category.py:103: in test_agent_hub_filter_by_single_category\n    assert not console_capture, (\nE   AssertionError: Unexpected console errors: ['Loading the image \\'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png\\' violates the following Content Security Policy directive: \"img-src \\'self\\' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.', 'Failed to load resource: the server responded with a status of 404 ()', 'Failed to load resource: the server responded with a status of 404 ()']\nE   assert not [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text=Fail"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_like_agent_from_modal.TestAgentHubLikeAgentFromModal.test_agent_hub_like_agent_from_modal",
+      "name": "test_agent_hub_like_agent_from_modal",
+      "status": "passed",
+      "duration_ms": 9603,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_like_agent_list_view.TestAgentHubLikeAgentListView.test_agent_hub_like_agent_from_list_view",
+      "name": "test_agent_hub_like_agent_from_list_view",
+      "status": "passed",
+      "duration_ms": 12479,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal",
+      "name": "test_agent_hub_open_agent_detail_modal",
+      "status": "passed",
+      "duration_ms": 7402,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_open_agent_detail_modal.py:106: in test_agent_hub_open_agent_detail_modal\n    assert not console_errors, f\"Unexpected console errors while opening the modal: {console_errors}\"\nE   AssertionError: Unexpected console errors while opening the modal: [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>]\nE   assert not [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elite"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal",
+      "name": "test_agent_hub_open_agent_detail_modal",
+      "status": "passed",
+      "duration_ms": 7481,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_open_agent_detail_modal.py:106: in test_agent_hub_open_agent_detail_modal\n    assert not console_errors, f\"Unexpected console errors while opening the modal: {console_errors}\"\nE   AssertionError: Unexpected console errors while opening the modal: [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>]\nE   assert not [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elite"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_open_agent_detail_modal.TestAgentHubOpenAgentDetailModal.test_agent_hub_open_agent_detail_modal",
+      "name": "test_agent_hub_open_agent_detail_modal",
+      "status": "failed",
+      "duration_ms": 6955,
+      "failure_message": "AssertionError: Unexpected console errors while opening the modal: [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleM",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_open_agent_detail_modal.py:106: in test_agent_hub_open_agent_detail_modal\n    assert not console_errors, f\"Unexpected console errors while opening the modal: {console_errors}\"\nE   AssertionError: Unexpected console errors while opening the modal: [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>]\nE   assert not [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elite"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project",
+      "name": "test_agent_hub_page_loads_private_project",
+      "status": "passed",
+      "duration_ms": 7727,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_page_loads_private_project.py:132: in test_agent_hub_page_loads_private_project\n    assert not console_capture, (\nE   AssertionError: Unexpected console errors: ['Loading the image \\'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png\\' violates the following Content Security Policy directive: \"img-src \\'self\\' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.', 'Failed to load resource: the server responded with a status of 404 ()', 'Failed to load resource: the server responded with a status of 404 ()']\nE   assert not [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project",
+      "name": "test_agent_hub_page_loads_private_project",
+      "status": "passed",
+      "duration_ms": 10222,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_page_loads_private_project.py:132: in test_agent_hub_page_loads_private_project\n    assert not console_capture, (\nE   AssertionError: Unexpected console errors: ['Loading the image \\'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png\\' violates the following Content Security Policy directive: \"img-src \\'self\\' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.', 'Failed to load resource: the server responded with a status of 404 ()', 'Failed to load resource: the server responded with a status of 404 ()']\nE   assert not [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_page_loads_private_project.TestAgentHubPageLoadsPrivateProject.test_agent_hub_page_loads_private_project",
+      "name": "test_agent_hub_page_loads_private_project",
+      "status": "failed",
+      "duration_ms": 11153,
+      "failure_message": "AssertionError: Unexpected console errors: ['Loading the image \\'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png\\' violates the following Content Security Policy directive: \"img-src \\'self\\' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.', 'Failed to load resource: the server responded with a status of 404 ()', 'Failed to load resource: the server responded with a status of 404 ()']\nassert not [<Conso",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_page_loads_private_project.py:132: in test_agent_hub_page_loads_private_project\n    assert not console_capture, (\nE   AssertionError: Unexpected console errors: ['Loading the image \\'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png\\' violates the following Content Security Policy directive: \"img-src \\'self\\' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.', 'Failed to load resource: the server responded with a status of 404 ()', 'Failed to load resource: the server responded with a status of 404 ()']\nE   assert not [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_search_bar_filters_in_real_time.TestAgentHubSearchBarFiltersInRealTime.test_agent_hub_search_bar_filters_in_real_time",
+      "name": "test_agent_hub_search_bar_filters_in_real_time",
+      "status": "failed",
+      "duration_ms": 9663,
+      "failure_message": "AssertionError: Every visible card should contain 'story' (case-insensitive), but found non-matching card(s): ['QA Test Case GeneratorNew0']\nassert not ['QA Test Case GeneratorNew0'] tests/ui/agent_hub/test_agent_hub_search_bar_filters_in_real_time.py:128: in test_agent_hub_search_bar_filters_in_real_time\n    assert not non_matching, (\nE   AssertionError: Every visible card should contain 'story' (case-insensitive), but found non-matching card(s): ['QA Test Case GeneratorNew0']\nE   assert not ['",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_start_conversation_creates_new_chat.TestAgentHubStartConversationCreatesNewChat.test_agent_hub_start_conversation_creates_new_chat",
+      "name": "test_agent_hub_start_conversation_creates_new_chat",
+      "status": "passed",
+      "duration_ms": 9029,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_start_conversation_creates_new_chat.py:93: in test_agent_hub_start_conversation_creates_new_chat\n    assert not console_errors, f\"Unexpected console errors while opening the modal: {console_errors}\"\nE   AssertionError: Unexpected console errors while opening the modal: [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>]\nE   assert not [<ConsoleMessage type=error text=Loading the imag"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_start_conversation_creates_new_chat.TestAgentHubStartConversationCreatesNewChat.test_agent_hub_start_conversation_creates_new_chat",
+      "name": "test_agent_hub_start_conversation_creates_new_chat",
+      "status": "passed",
+      "duration_ms": 10158,
+      "failure_message": "",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_start_conversation_creates_new_chat.py:93: in test_agent_hub_start_conversation_creates_new_chat\n    assert not console_errors, f\"Unexpected console errors while opening the modal: {console_errors}\"\nE   AssertionError: Unexpected console errors while opening the modal: [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>]\nE   assert not [<ConsoleMessage type=error text=Loading the imag"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_start_conversation_creates_new_chat.TestAgentHubStartConversationCreatesNewChat.test_agent_hub_start_conversation_creates_new_chat",
+      "name": "test_agent_hub_start_conversation_creates_new_chat",
+      "status": "failed",
+      "duration_ms": 9804,
+      "failure_message": "AssertionError: Unexpected console errors while opening the modal: [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleM",
+      "reruns": 2,
+      "rerun_messages": [
+        "tests/ui/agent_hub/test_agent_hub_start_conversation_creates_new_chat.py:93: in test_agent_hub_start_conversation_creates_new_chat\n    assert not console_errors, f\"Unexpected console errors while opening the modal: {console_errors}\"\nE   AssertionError: Unexpected console errors while opening the modal: [<ConsoleMessage type=error text=Loading the image 'https://dev-vm.elitea.ai/app/default_entity_icons/image_14.png' violates the following Content Security Policy directive: \"img-src 'self' https://avatars.githubusercontent.com https://static.cdn.epam.com https://*.epam.com data: blob:\". The action has been blocked.>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>, <ConsoleMessage type=error text=Failed to load resource: the server responded with a status of 404 ()>]\nE   assert not [<ConsoleMessage type=error text=Loading the imag"
+      ]
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_agent_hub_trending_category.TestAgentHubTrendingCategory.test_agent_hub_trending_category_displays_agents",
+      "name": "test_agent_hub_trending_category_displays_agents",
+      "status": "passed",
+      "duration_ms": 9384,
+      "failure_message": "",
+      "reruns": 0,
+      "rerun_messages": []
+    },
+    {
+      "code_ref": "tests.ui.agent_hub.test_empty_state.TestCatalogEmptyState.test_empty_state_when_search_matches_no_agents",
+      "name": "test_empty_state_when_search_matches_no_agents",
+      "status": "failed",
+      "duration_ms": 11659,
+      "failure_message": "AssertionError: Expected no console errors, found 3 error(s)\nassert 3 == 0\n +  where 3 = len(['error', 'error', 'error']) tests/ui/agent_hub/test_empty_state.py:155: in test_empty_state_when_search_matches_no_agents\n    assert len(error_types) == 0, f\"Expected no console errors, found {len(error_types)} error(s)\"\nE   AssertionError: Expected no console errors, found 3 error(s)\nE   assert 3 == 0\nE    +  where 3 = len(['error', 'error', 'error'])",
+      "reruns": 0,
+      "rerun_messages": []
+    }
+  ]
+}
