@@ -1,36 +1,36 @@
 # Test Dashboard
 
-_Generated: 2026-10-23 07:09 UTC_
+_Generated: 2026-10-23 12:18 UTC_
 
 ## Latest Run
 
-**RUN-ELITEA-2026-10-23-315-DEV-CHAT-PASSED**
+**RUN-ELITEA-2026-10-23-318-DEV-AGENT_HUB-FAILED**
 
 ```mermaid
 pie showData
-    title "Test Results (0 total)"
-    "Passed" : 0
-    "Failed" : 0
+    title "Test Results (24 total)"
+    "Passed" : 16
+    "Failed" : 8
 ```
 
 | Metric | Value |
 |--------|-------|
-| Total | 0 |
-| Passed | 0 |
-| Failed | 0 |
+| Total | 24 |
+| Passed | 16 |
+| Failed | 8 |
 | Skipped | 0 |
-| Reruns | 0 |
-| Pass Rate | 0.0% |
+| Reruns | 36 |
+| Pass Rate | 66.7% |
 
 ## Trend (Last 10 Runs)
 
 ```mermaid
 xychart-beta
     title "Pass/Fail Trend"
-    x-axis [20-302-DEV-CHAT, 20-303-DEV-CHAT, 21-305-DEV-CHAT, 21-306-DEV-AGENT_HUB, 21-307-DEV-CHAT, 21-308-DEV-CHAT, 22-310-DEV-CHAT, 22-311-DEV-CHAT, 22-312-DEV-CHAT, 23-315-DEV-CHAT]
+    x-axis [20-303-DEV-CHAT, 21-305-DEV-CHAT, 21-306-DEV-AGENT_HUB, 21-307-DEV-CHAT, 21-308-DEV-CHAT, 22-310-DEV-CHAT, 22-311-DEV-CHAT, 22-312-DEV-CHAT, 23-315-DEV-CHAT, 23-318-DEV-AGENT_HUB]
     y-axis "Tests" 0 --> 48
-    bar "Passed" [22, 43, 0, 14, 34, 31, 31, 0, 35, 0]
-    bar "Failed" [22, 21, 0, 8, 3, 3, 7, 0, 2, 0]
+    bar "Passed" [43, 0, 14, 34, 31, 31, 0, 35, 0, 16]
+    bar "Failed" [21, 0, 8, 3, 3, 7, 0, 2, 0, 8]
 ```
 
 ### Reruns Trend
@@ -38,15 +38,16 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Test Reruns (Flakiness Indicator)"
-    x-axis [20-302-DEV-CHAT, 20-303-DEV-CHAT, 21-305-DEV-CHAT, 21-306-DEV-AGENT_HUB, 21-307-DEV-CHAT, 21-308-DEV-CHAT, 22-310-DEV-CHAT, 22-311-DEV-CHAT, 22-312-DEV-CHAT, 23-315-DEV-CHAT]
+    x-axis [20-303-DEV-CHAT, 21-305-DEV-CHAT, 21-306-DEV-AGENT_HUB, 21-307-DEV-CHAT, 21-308-DEV-CHAT, 22-310-DEV-CHAT, 22-311-DEV-CHAT, 22-312-DEV-CHAT, 23-315-DEV-CHAT, 23-318-DEV-AGENT_HUB]
     y-axis "Reruns" 0 --> 123
-    line "Reruns" [60, 120, 0, 30, 8, 0, 6, 0, 0, 0]
+    line "Reruns" [120, 0, 30, 8, 0, 6, 0, 0, 0, 36]
 ```
 
 ## Run History
 
 | Run | Total | Passed | Failed | Skipped | Reruns | Rate |
 |-----|-------|--------|--------|---------|--------|------|
+| ❌ 23-318-DEV-AGENT_HUB | 24 | 16 | 8 | 0 | 36 | 67% |
 | ✅ 23-315-DEV-CHAT | 0 | 0 | 0 | 0 | 0 | 0% |
 | ❌ 22-312-DEV-CHAT | 39 | 35 | 2 | 2 | 0 | 90% |
 | ✅ 22-311-DEV-CHAT | 0 | 0 | 0 | 0 | 0 | 0% |
@@ -56,7 +57,6 @@ xychart-beta
 | ❌ 21-306-DEV-AGENT_HUB | 22 | 14 | 8 | 0 | 30 | 64% |
 | ✅ 21-305-DEV-CHAT | 0 | 0 | 0 | 0 | 0 | 0% |
 | ❌ 20-303-DEV-CHAT | 67 | 43 | 21 | 3 | 120 | 64% |
-| ❌ 20-302-DEV-CHAT | 47 | 22 | 22 | 3 | 60 | 47% |
 
 ---
 _Source: `reports/automated/junit-RUN-*.json` (20 reports)_
