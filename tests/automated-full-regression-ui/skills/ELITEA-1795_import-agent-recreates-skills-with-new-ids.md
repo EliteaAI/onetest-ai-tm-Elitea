@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
 automation_test_id: tests.ui.skills.test_import_agent_recreates_skills_with_new_ids.TestImportAgentRecreatesSkillsWithNewIds.test_import_agent_recreates_skills_with_new_ids
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2450
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/7dbb1f2cdca1cfa5808110f7366ebe2e9ace2b06
 ---
 
 # ELITEA-1795: Import Agent with attached Skills recreates Skills with new IDs
