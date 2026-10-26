@@ -1,6 +1,6 @@
 ---
 id: ELITEA-3814
-title: "Toolkit configuration error handling with invalid URL formats"
+title: "Credential configuration error handling with invalid URL formats"
 priority: high
 type: functional
 module: toolkits-credentials
@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 ## Preconditions
 
 - User is logged in to `{{base_url}}`
-- User has access to Admin Panel > Toolkits section
+- User has access to Credentials and Toolkits & Indexes sections
 
 ## Test Data
 
@@ -28,18 +28,18 @@ requirements: [EliteaAI/elitea_issues#6810]
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to Admin Panel > Toolkits section | Toolkits page loads successfully |
-| 2 | Start configuring a Jira toolkit | Configuration form opens |
-| 3 | Enter invalid URL (not a URL): `not-a-url` | Field validation triggers |
+| 1 | Navigate to Credentials section | Credentials page loads successfully |
+| 2 | Click "+ Credential" and start configuring a Jira credential | Credential configuration form opens |
+| 3 | Enter invalid Base URL (not a URL): `not-a-url` | Field validation triggers |
 | 4 | Attempt to save or check connection | Appropriate error message displayed: "Invalid URL format" or similar |
 | 5 | Clear field and enter URL without protocol: `jiraeu.epam.com/` | Field validation triggers or warning shown |
 | 6 | Attempt to check connection | Appropriate error or warning about missing protocol |
 | 7 | Clear field and enter URL with spaces: `https://jira eu.epam.com/` | Field validation triggers |
-| 8 | Attempt to save configuration | Error message: "URL contains invalid characters" or similar |
+| 8 | Attempt to save credential | Error message: "URL contains invalid characters" or similar |
 | 9 | Clear field and enter very long valid URL with trailing slash: `https://very-long-subdomain-name-that-exceeds-normal-length.example.com/` | URL accepted, field validation passes |
 | 10 | Click "Check Connection" | URL is normalized (trailing slash removed), connection attempt made |
 | 11 | Verify error message does NOT mention trailing slash issue | If connection fails, error is about unreachable host or credentials, NOT URL format |
-| 12 | Configure toolkit with valid URL + wrong credentials + trailing slash | URL normalized, credentials fail |
+| 12 | Configure credential with valid URL + wrong credentials + trailing slash | URL normalized, credentials fail |
 | 13 | Verify error message mentions credentials, not URL format | Error: "Invalid credentials" or "Authentication failed", NOT URL format error |
 
 ## Expected Final State

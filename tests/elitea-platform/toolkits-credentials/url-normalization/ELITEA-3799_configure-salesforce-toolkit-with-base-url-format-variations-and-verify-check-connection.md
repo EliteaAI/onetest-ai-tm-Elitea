@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 ## Preconditions
 
 - User is logged in to `{{base_url}}`
-- User has access to Admin Panel > Toolkits section
+- User has access to Credentials and Toolkits & Indexes sections
 - Valid Salesforce instance credentials are available
 
 ## Test Data
@@ -32,22 +32,31 @@ requirements: [EliteaAI/elitea_issues#6810]
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to Admin Panel > Toolkits section | Toolkits page loads successfully |
-| 2 | Click "Add Toolkit" or "Configure Salesforce Toolkit" | Salesforce toolkit configuration form opens |
-| 3 | Enter Salesforce base_url WITHOUT trailing slash: `https://company.my.salesforce.com` | URL field accepts the input |
-| 4 | Enter valid Salesforce credentials (username, password, security token) | Credentials fields accept the input |
-| 5 | Click "Check Connection" button | Connection check initiates, loading indicator displayed |
-| 6 | Verify connection result | Success message displayed |
-| 7 | Save the toolkit configuration | Configuration saved successfully |
-| 8 | Edit the same Salesforce toolkit configuration | Configuration form opens with saved values |
-| 9 | Change base_url to include single trailing slash: `https://company.my.salesforce.com/` | URL field accepts the input with trailing slash |
-| 10 | Click "Check Connection" button again | Connection check initiates |
-| 11 | Verify connection result | Success message displayed (URL normalized, OAuth works correctly) |
-| 12 | Edit the configuration again | Configuration form opens |
-| 13 | Change base_url to include multiple trailing slashes: `https://company.my.salesforce.com///` | URL field accepts the input |
-| 14 | Click "Check Connection" button | Connection check initiates |
-| 15 | Verify connection result | Success message displayed (URL normalized, all trailing slashes removed) |
-| 16 | Save the final configuration | Configuration saved successfully with normalized URL |
+| 1 | Navigate to Credentials section | Credentials page loads successfully |
+| 2 | Click "+ Credential" button and select "Salesforce" | New Salesforce Credential form opens |
+| 3 | Enter Display Name: "Salesforce Test 1" | Display Name field accepts the input |
+| 4 | Enter ID (auto-generated or custom) | ID field accepts the input |
+| 5 | Enter Base URL WITHOUT trailing slash: `https://company.my.salesforce.com` | Base URL field accepts the input |
+| 6 | Select Auth type: "Bearer" (or appropriate Salesforce auth type) | Auth type is selected |
+| 7 | Enter valid Salesforce credentials (username, password, security token) | Credentials fields accept the input |
+| 8 | Click "Check Connection" button | Connection check initiates, loading indicator displayed |
+| 9 | Verify connection result | Success message displayed |
+| 10 | Click "Save" button | Credential saved successfully |
+| 11 | Edit the same Salesforce credential | Credential form opens with saved values |
+| 12 | Change Base URL to include single trailing slash: `https://company.my.salesforce.com/` | Base URL field accepts the input with trailing slash |
+| 13 | Click "Check Connection" button again | Connection check initiates |
+| 14 | Verify connection result | Success message displayed (URL normalized, OAuth works correctly) |
+| 15 | Click "Save" button | Credential saved successfully |
+| 16 | Edit the credential again | Credential form opens |
+| 17 | Change Base URL to include multiple trailing slashes: `https://company.my.salesforce.com///` | Base URL field accepts the input |
+| 18 | Click "Check Connection" button | Connection check initiates |
+| 19 | Verify connection result | Success message displayed (URL normalized, all trailing slashes removed) |
+| 20 | Click "Save" button | Credential saved successfully with normalized URL |
+| 21 | Navigate to Toolkits & Indexes section | Toolkits page loads successfully |
+| 22 | Click "+ Toolkit" button and select "Salesforce" | New Salesforce Toolkit form opens |
+| 23 | Enter Toolkit Name: "Salesforce Toolkit Test" | Toolkit Name field accepts the input |
+| 24 | In "Salesforce Configuration" dropdown, select the created credential "Salesforce Test 1" | Credential is selected successfully |
+| 25 | Click "Save" button | Toolkit saved successfully and linked to the normalized credential |
 
 ## Expected Final State
 

@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 ## Preconditions
 
 - User is logged in to `{{base_url}}`
-- GitHub toolkit is configured with base_url containing trailing slash (e.g., `https://github.example.com/api/v3/`)
+- GitHub toolkit is configured with base_url containing trailing slash (e.g., `https://api.github.com`)
 - Check Connection for GitHub toolkit passed successfully
 - User has access to Agents section
 
@@ -22,7 +22,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 | Field | Value |
 |-------|-------|
 | URL | `{{base_url}}/app/` |
-| GitHub base_url | `https://github.example.com/api/v3/` (with trailing slash) |
+| GitHub base_url | `https://api.github.com//` (with trailing slash) |
 | GitHub repository | Valid repository name (e.g., `owner/repo`) |
 | Agent name | `Test Agent - GitHub URL Normalization` |
 

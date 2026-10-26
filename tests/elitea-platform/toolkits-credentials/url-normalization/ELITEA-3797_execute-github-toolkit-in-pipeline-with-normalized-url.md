@@ -22,7 +22,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 | Field | Value |
 |-------|-------|
 | URL | `{{base_url}}/app/` |
-| GitHub base_url | `https://github.example.com/api/v3/` (with trailing slash) |
+| GitHub base_url | `https://api.github.com/` (with trailing slash) |
 | Pipeline name | `Test Pipeline - GitHub URL Normalization` |
 | Repository | Valid repository name |
 

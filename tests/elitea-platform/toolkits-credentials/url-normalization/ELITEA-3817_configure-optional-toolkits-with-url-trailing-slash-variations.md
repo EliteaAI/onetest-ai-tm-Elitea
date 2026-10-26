@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 ## Preconditions
 
 - User is logged in to `{{base_url}}`
-- User has access to Admin Panel > Toolkits section
+- User has access to Credentials and Toolkits & Indexes sections
 - Valid credentials for optional toolkits are available (as applicable)
 
 ## Test Data
@@ -33,21 +33,26 @@ requirements: [EliteaAI/elitea_issues#6810]
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to Admin Panel > Toolkits section | Toolkits page loads successfully |
-| 2 | Configure Azure DevOps Repositories toolkit with organization_url: `https://dev.azure.com/my-org/` | Configuration form accepts URL with trailing slash |
-| 3 | Enter valid credentials for Azure DevOps Repositories | Credentials accepted |
+| 1 | Navigate to Credentials section | Credentials page loads successfully |
+| 2 | Create Azure DevOps credential with organization_url: `https://dev.azure.com/my-org/` | Credential form accepts URL with trailing slash |
+| 3 | Enter valid credentials for Azure DevOps | Credentials accepted |
 | 4 | Click "Check Connection" | Connection check initiates |
 | 5 | Verify connection result (if normalization implemented) | Connection succeeds, or shows appropriate error unrelated to trailing slash |
-| 6 | Save configuration | Configuration saved successfully |
-| 7 | Repeat steps 2-6 for Azure DevOps Test Plans | Test Plans toolkit configured and Check Connection works |
-| 8 | Repeat steps 2-6 for Azure DevOps Wiki | Wiki toolkit configured and Check Connection works |
-| 9 | Repeat steps 2-6 for Azure DevOps Work Items | Work Items toolkit configured and Check Connection works |
-| 10 | Repeat steps 2-6 for Bitbucket (url field) | Bitbucket toolkit configured and Check Connection works |
-| 11 | Repeat steps 2-6 for TestRail (url field) | TestRail toolkit configured and Check Connection works |
-| 12 | Repeat steps 2-6 for ServiceNow (base_url field) | ServiceNow toolkit configured and Check Connection works |
-| 13 | Repeat steps 2-6 for Rally (server field) | Rally toolkit configured and Check Connection works |
-| 14 | For Azure DevOps Work Items, execute a runtime tool call in an Agent | Tool executes successfully (if normalization implemented) |
-| 15 | For Bitbucket, execute a runtime tool call in an Agent | Tool executes successfully (if normalization implemented) |
+| 6 | Save credential | Credential saved successfully |
+| 7 | Navigate to Toolkits & Indexes and create Azure DevOps Repositories toolkit | Toolkit created and linked to credential |
+| 8 | Repeat steps 2-7 for Azure DevOps Test Plans | Test Plans credential and toolkit configured |
+| 9 | Repeat steps 2-7 for Azure DevOps Wiki | Wiki credential and toolkit configured |
+| 10 | Repeat steps 2-7 for Azure DevOps Work Items | Work Items credential and toolkit configured |
+| 11 | Create Bitbucket credential with url field: `https://bitbucket.example.com/` | Bitbucket credential configured |
+| 12 | Create Bitbucket toolkit linked to credential | Bitbucket toolkit created |
+| 13 | Create TestRail credential with url field: `https://testrail.example.com/` | TestRail credential configured |
+| 14 | Create TestRail toolkit linked to credential | TestRail toolkit created |
+| 15 | Create ServiceNow credential with base_url field: `https://company.service-now.com/` | ServiceNow credential configured |
+| 16 | Create ServiceNow toolkit linked to credential | ServiceNow toolkit created |
+| 17 | Create Rally credential with server field: `https://rally1.rallydev.com/` | Rally credential configured |
+| 18 | Create Rally toolkit linked to credential | Rally toolkit created |
+| 19 | For Azure DevOps Work Items toolkit, execute a runtime tool call in an Agent | Tool executes successfully (if normalization implemented) |
+| 20 | For Bitbucket toolkit, execute a runtime tool call in an Agent | Tool executes successfully (if normalization implemented) |
 
 ## Expected Final State
 
