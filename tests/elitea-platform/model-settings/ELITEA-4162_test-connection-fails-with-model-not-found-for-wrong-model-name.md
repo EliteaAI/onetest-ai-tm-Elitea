@@ -20,7 +20,7 @@ requirements: [EliteaAI/elitea_issues#6793]
 | Field | Value |
 |-------|-------|
 | URL | `{{base_url}}/app/settings/ai-providers` |
-| Invalid Model Name variants | A misspelled/non-existent model id, and a garbage string containing a real model token as a substring (e.g. `weomfowemfom gpt-5.6elg erlg krem`) |
+| Invalid Model Name variants | A misspelled/non-existent model id, and a garbage string containing a real model token as a substring (e.g. `sometext gpt-5.6wrongmodel name`) |
 
 ## Steps
 
