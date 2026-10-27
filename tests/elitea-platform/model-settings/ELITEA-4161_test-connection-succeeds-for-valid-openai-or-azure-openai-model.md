@@ -34,7 +34,7 @@ requirements: [EliteaAI/elitea_issues#6793]
 | 4 | Select the saved OpenAI credential | Test connection becomes enabled. |
 | 5 | Click Test connection without saving | Spinner shown; button not re-clickable during request. |
 | 6 | Wait for completion | Result: "Connected in N s", consistent with step 3. |
-| 7 | Repeat steps 2–6 for Azure OpenAI credential/model | Same success result, consistent with recognition indicator. |
+| 7 | Repeat steps 2–6 for Azure OpenAI credential/model if available | Same success result, consistent with recognition indicator. |
 
 ## Expected Final State
 
