@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_decision_node_configuration.test_decision_node_configuration_and_edge_wiring
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1148
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/3d71a16b
 ---
 
 # ELITEA-2034: Pipeline — Decision Node Configuration
@@ -43,7 +43,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1148
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Create a pipeline and add a Decision node via "Add node" → "Decision" | Decision node appears on canvas |
-| 2 | Verify Decision node panel shows: Input combobox, Description text area, DECISION OUTPUTS (chip-style list), Interrupt before/after switches | All listed sections are present |
+| 2 | Verify Decision node panel shows: Input combobox, Description text area, DECISION OUTPUTS (chip-style list) | All listed sections are present |
 | 3 | Set Input combobox with state variables: "normalized_issue", "metadata_json" | Both variables are added to Input |
 | 4 | Fill Description with classification prompt | Description field accepts the classification text |
 | 5 | In DECISION OUTPUTS: add target node names as chips: "bug_responder", "feature_responder", "question_responder" | All three output chips are added |

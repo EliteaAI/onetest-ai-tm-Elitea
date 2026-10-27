@@ -44,7 +44,7 @@ requirements: []
 |---|--------|-----------------|
 | 1 | Create a pipeline; in Tools section click "+ Toolkit" and attach an existing toolkit (e.g., "SDConfluence") | Toolkit appears in the Tools section list |
 | 2 | Add a Toolkit node via "Add node" → "Toolkit" | Toolkit node appears on the canvas |
-| 3 | Click Toolkit node — verify panel shows: Toolkit dropdown, Tool dropdown, Input, Output, INPUT MAPPING (REQUIRED N), INPUT MAPPING (OPTIONAL N), Interrupt before/after, Structured output | All listed sections are present in the panel |
+| 3 | Click Toolkit node — verify panel shows: Toolkit dropdown, Tool dropdown, Input, Output, INPUT MAPPING (REQUIRED N), INPUT MAPPING (OPTIONAL N), Structured output | All listed sections are present in the panel |
 | 4 | Select attached toolkit from "Toolkit" dropdown (e.g., "SDConfluence") | Toolkit is selected in the dropdown |
 | 5 | Select a tool from "Tool" dropdown (e.g., "search_index") — verify INPUT MAPPING sections populate with tool-specific parameters | INPUT MAPPING sections appear with tool-specific parameter fields |
 | 6 | In INPUT MAPPING (REQUIRED): set QUERY Type to "F-String", Value: "{input} error" | QUERY mapping is configured with f-string value |

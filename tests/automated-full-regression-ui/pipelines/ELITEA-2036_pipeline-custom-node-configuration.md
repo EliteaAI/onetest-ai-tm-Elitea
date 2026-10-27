@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_custom_node_configuration.test_custom_node_configuration
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1329
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/3d71a16b
 ---
 
 # ELITEA-2036: Pipeline — Custom Node Configuration

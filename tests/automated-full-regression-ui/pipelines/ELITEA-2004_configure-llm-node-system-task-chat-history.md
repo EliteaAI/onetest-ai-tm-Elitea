@@ -47,7 +47,7 @@ requirements: []
 |---|--------|-----------------|
 | 1 | Create a pipeline and add an LLM node via "Add node" → "LLM" | LLM node appears on the canvas |
 | 2 | Click on the LLM node to open its configuration panel | Configuration panel opens on the right |
-| 3 | Verify panel shows sections: Trigger, SYSTEM, TASK, CHAT HISTORY, Input, Output, Toolkits, Interrupt before/after, Structured output | All listed sections are present in the panel |
+| 3 | Verify panel shows sections: Trigger, SYSTEM, TASK, CHAT HISTORY, Input, Output, Toolkits, Structured output | All listed sections are present in the panel |
 | 4 | In SYSTEM section: set Type to "Fixed", enter Value: "You are a helpful assistant" | SYSTEM section accepts the value |
 | 5 | In TASK section: set Type to "F-String", enter Value: "User Input: {input}" | TASK section accepts the f-string value |
 | 6 | In CHAT HISTORY section: set Type to "Fixed", enter Value: "[]" | CHAT HISTORY section accepts the value |
