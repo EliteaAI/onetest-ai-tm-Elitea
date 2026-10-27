@@ -7,7 +7,7 @@ module: chat-interface
 status: ready
 execution_type: automated
 automation_test_id: tests.ui.chat.test_skill_creation_from_chat_chip_canvas.TestSkillCreationFromChat.test_skill_created_from_chat_chip_opens_canvas
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/7509c72970efca36faddc66501b255f4db3153f8
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/d2e89fd8
 tags: [feat:chat, story:6239, regression, skills-builder, happy-path, canvas]
 requirements: [EliteaAI/elitea_issues#6239]
 ---
