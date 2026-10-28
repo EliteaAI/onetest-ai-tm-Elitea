@@ -14,7 +14,7 @@ requirements: []
 
 **Module:** skills · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that the Instructions field in the Build with AI review form enforces a 2500-character limit, showing a validation error and disabling "Create Skill" when exceeded, and clearing the error when trimmed to the allowed length.
+**Objective:** Verify that the Instructions field in the Build with AI review form enforces the platform's configured Skill instructions limit (default 50000 characters), blocking further input at the cap and disabling "Create Skill" only when genuinely invalid, per EliteaAI/elitea_issues#6744.
 
 ---
 
@@ -22,6 +22,9 @@ requirements: []
 
 - User is logged in to the Elitea platform with admin or editor role.
 - A skill draft has been generated and the review/edit form is displayed.
+- Platform is at the default "Skill Content Max Length" of 50000 characters.
+
+> **Note:** This limit is admin-configurable via Admin → Settings → Runtime ("Skill Content Max Length"). This test case validates behavior against the default value (50000) only; changing the setting itself is out of scope here.
 
 ---
 
@@ -29,8 +32,8 @@ requirements: []
 
 | Field | Value |
 |-------|-------|
-| Over-limit instructions | A string exceeding 2500 characters |
-| Exact-limit instructions | A string of exactly 2500 characters |
+| Exact-limit instructions | A string of exactly 50000 characters |
+| Over-limit paste | A string of 50001+ characters pasted in one paste |
 
 ---
 
@@ -39,17 +42,16 @@ requirements: []
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Generate a skill draft and enter the review form | The review/edit form is displayed |
-| 2 | Clear the Instructions field and paste a string exceeding 2500 characters | The text is entered in the Instructions field |
-| 3 | Verify a validation message is shown for the Instructions field | A validation error message is displayed for the Instructions field |
-| 4 | Verify the "Create Skill" button is inactive/disabled | The "Create Skill" button is disabled or inactive |
-| 5 | Trim the instructions to exactly 2500 characters | The Instructions field contains exactly 2500 characters |
-| 6 | Verify the validation error clears and "Create Skill" becomes active | The validation error disappears and the "Create Skill" button becomes active |
+| 2 | Clear the Instructions field and type or paste text past 50000 characters | Input is hard-blocked at exactly 50000 characters; no further characters can be typed or pasted |
+| 3 | Paste a block of text that would take the field from under the limit to over 50000 characters in one paste | Pasted text is truncated to land exactly at 50000 characters; no error shown, no crash |
+| 4 | With the Instructions field at exactly 50000 characters, verify the "Create Skill" button | "Create Skill" remains enabled |
+| 5 | Verify no hardcoded "2500" character limit message or counter appears anywhere in the form | Only the configured limit (50000 by default) is referenced |
 
 ---
 
 ## Expected Final State
 
-The Instructions field enforces the 2500-character limit: validation error shown when exceeded, cleared when trimmed to the limit, and "Create Skill" enabled only when valid.
+The Instructions field follows the platform's configured Skill instructions limit (50000 by default), with the same hard-input-block behavior as the main Skill editor; "Create Skill" stays enabled as long as content is at or under the limit.
 
 ---
 
@@ -57,8 +59,7 @@ The Instructions field enforces the 2500-character limit: validation error shown
 
 **Pass:**
 - All steps complete without errors.
-- Validation error appears for over-limit input and clears when trimmed to exactly 2500 characters.
+- Input is hard-blocked at exactly 50000 characters, with no stale 2500-character limit or message anywhere in the form.
 
 **Fail:**
-- Any step produces an error or unexpected result.
-- The form accepts instructions exceeding 2500 characters or incorrectly blocks valid instructions.
+- The form still enforces a 2500-character limit, or allows typing/pasting past 50000 characters, or blocks "Create Skill" at exactly 50000 characters.

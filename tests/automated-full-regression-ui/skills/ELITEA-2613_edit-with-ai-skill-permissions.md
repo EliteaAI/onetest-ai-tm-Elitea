@@ -14,7 +14,7 @@ requirements: []
 
 **Module:** skills · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that "Edit with AI" CTA is visible for Admin and Editor roles but hidden for Viewer role, and optionally verify character limit enforcement for instructions (max 2,500 characters).
+**Objective:** Verify that "Edit with AI" CTA is visible for Admin and Editor roles but hidden for Viewer role, and optionally verify character limit enforcement for instructions (the platform's configured Skill instructions limit, default 50,000 characters, per EliteaAI/elitea_issues#6744).
 
 ---
 
@@ -28,6 +28,8 @@ requirements: []
 - The Skills section is available in the project.
 - An existing skill exists that can be viewed/edited.
 
+> **Note:** The instructions character limit (Part D) is admin-configurable via Admin → Settings → Runtime ("Skill Content Max Length"). Part D validates behavior against the default value (50,000) only; changing the setting itself is out of scope here.
+
 ---
 
 ## Test Data
@@ -38,7 +40,7 @@ requirements: []
 | Admin User | User with Admin role in the project |
 | Editor User | User with Editor role in the project |
 | Viewer User | User with Viewer (read-only) role in the project |
-| Long Instructions | Text exceeding 2,500 characters |
+| Long Instructions | Text exceeding the configured Skill instructions limit (50,000 characters by default) |
 
 ---
 
@@ -82,9 +84,9 @@ requirements: []
 | 17 | Open "Edit with AI" for a skill | Wizard opens |
 | 18 | Generate suggestions | Suggestions displayed |
 | 19 | Manually edit the "Suggested" instructions field | Field is editable |
-| 20 | Attempt to enter text exceeding 2,500 characters | Text is entered |
-| 21 | Verify character limit is enforced | Error message or truncation at 2,500 chars |
-| 22 | Verify cannot proceed with over-limit content | Apply/Save is blocked or shows error |
+| 20 | Attempt to type or paste text past the configured limit (50,000 characters by default) | Input is hard-blocked at exactly the configured limit; no further characters can be typed or pasted, no error message shown |
+| 21 | Paste a block of text that would take the field from under the limit to over the limit in one paste | Pasted text is truncated to land exactly at the configured limit; no error shown, no crash |
+| 22 | Verify Apply/Save remains enabled with content at exactly the configured limit | Apply/Save is not blocked when content is at or under the limit |
 
 ---
 
@@ -93,7 +95,7 @@ requirements: []
 1. Admin users see "Edit with AI" CTA and can use the feature.
 2. Editor users see "Edit with AI" CTA and can use the feature.
 3. Viewer users do NOT see "Edit with AI" CTA (feature hidden).
-4. (Optional) Instructions field enforces 2,500 character limit.
+4. (Optional) Instructions field follows the platform's configured Skill instructions limit (50,000 characters by default), with no stale 2,500-character limit remaining anywhere in the form.
 
 ---
 
@@ -103,9 +105,9 @@ requirements: []
 - Admin can see and use "Edit with AI".
 - Editor can see and use "Edit with AI".
 - Viewer cannot see "Edit with AI" CTA.
-- Character limit is enforced (if tested).
+- Character limit (if tested) follows the configured limit, not a stale 2,500-character limit.
 
 **Fail:**
 - Admin or Editor cannot access "Edit with AI".
 - Viewer can see "Edit with AI" CTA.
-- Character limit is not enforced (if tested).
+- Character limit (if tested) is still capped at 2,500 characters, or allows typing/pasting past the configured limit.
