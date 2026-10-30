@@ -1,6 +1,6 @@
 ---
 id: ELITEA-3713
-title: "Verify user receives notification when indexing completes"
+title: "Indexing Control and Notifications"
 priority: critical
 type: functional
 module: indexes
@@ -10,11 +10,17 @@ tags: [feat:indexer, eng:technical-debt, r-2.0.7]
 requirements: [EliteaAI/elitea_issues#6228]
 ---
 
+# ELITEA-3713: Indexing Control and Notifications
+
+**Module:** indexes · **Priority:** critical · **Type:** functional
+
+**Objective:** Verify indexing completion and stop notifications are received, and Stop button correctly terminates indexing.
+
 ## Preconditions
 
 - User is logged in to `{{base_url}}`
-- User has a toolkit with indexing capability configured
-- Notifications are enabled for the user
+- User has toolkit with indexing capability configured
+- Notifications are enabled
 
 ## Test Data
 
@@ -26,22 +32,26 @@ requirements: [EliteaAI/elitea_issues#6228]
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Start indexing for a toolkit | Indexing begins, status shows "in_progress" |
-| 2 | Navigate away to a different section | User is on different page |
+| **COMPLETION NOTIFICATION** | | |
+| 1 | Start indexing for a toolkit | Indexing begins, status "in_progress" |
+| 2 | Navigate away to different section | User on different page |
 | 3 | Wait for indexing to complete | Indexing finishes |
-| 4 | Check notification bell/panel | Notification appears indicating indexing completed |
-| 5 | Verify notification content | Notification shows index name and "completed" status |
-
-## Expected Final State
-
-User receives a notification confirming successful indexing completion.
+| 4 | Check notification bell/panel | Notification appears: indexing completed |
+| 5 | Verify notification content | Shows index name and "completed" status |
+| **STOP NOTIFICATION & BUTTON** | | |
+| 6 | Start new indexing operation | Indexing begins |
+| 7 | While indexing in progress, click Stop button | Stop button clicked |
+| 8 | Verify indexing stops | Status changes to "stopped" |
+| 9 | Verify stopped status displayed | UI shows stopped state |
+| 10 | Check notification panel | Notification appears: indexing stopped |
+| 11 | Verify stop notification content | Shows index name and "stopped" status |
 
 ## Pass/Fail Criteria
 
-**Pass:**
-- Notification is received when indexing completes
-- Notification clearly states index name and success status
+**Pass:** Completion notification received; Stop button stops indexing; stopped notification received.
+**Fail:** No notifications OR Stop button doesn't work OR status incorrect.
 
-**Fail:**
-- No notification received after indexing completes
-- Notification is delayed by more than 1 minute after completion
+## Notes
+
+**Source:** ELITEA-3713 (completion notif), ELITEA-3714 (stop notif), ELITEA-3715 (stop button)
+**Rationale:** Consolidates indexing control & notifications: completion notif validates async updates; stop button + notification validates user control over long operations.
