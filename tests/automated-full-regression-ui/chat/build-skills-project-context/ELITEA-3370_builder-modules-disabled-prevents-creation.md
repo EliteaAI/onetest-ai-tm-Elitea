@@ -4,8 +4,11 @@ title: "Skills Builder and Project Context Builder disabled prevents entity crea
 priority: critical
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_builder_modules_disabled.TestBuilderModulesDisabledPreventsEntityCreation.test_builder_modules_disabled_prevents_entity_creation
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/66410d2d8d7d1e3a07a0ca78043af171e4ebe18e
 tags: [feat:chat, story:6239, regression, skills-builder, project-context-builder, negative]
 requirements: [EliteaAI/elitea_issues#6239]
 ---
