@@ -1,0 +1,724 @@
+{
+  "analysis_summary": {
+    "total_tests_analyzed": 38,
+    "functional_areas": 11,
+    "consolidation_opportunities": 8,
+    "deprecated_tests": 1,
+    "high_priority_tests": 11,
+    "recommended_core_suite_size": 25
+  },
+  "functional_areas": {
+    "skill_crud_operations": {
+      "test_ids": ["ELITEA-2428", "ELITEA-2429", "ELITEA-2430", "ELITEA-2431", "ELITEA-2432"],
+      "description": "Basic CRUD operations for skills (create, edit, view, navigate)",
+      "total_tests": 5
+    },
+    "skill_tagging": {
+      "test_ids": ["ELITEA-2433", "ELITEA-2434"],
+      "description": "Tag management on skills (add, remove, multiple tags)",
+      "total_tests": 2
+    },
+    "skill_invocation": {
+      "test_ids": ["ELITEA-1735", "ELITEA-1736", "ELITEA-2607", "ELITEA-2608", "ELITEA-2609"],
+      "description": "Skill invocation mechanisms (explicit, autonomous, isolation)",
+      "total_tests": 5
+    },
+    "skill_publishing": {
+      "test_ids": ["ELITEA-2595", "ELITEA-2596", "ELITEA-2597", "ELITEA-2598", "ELITEA-2599"],
+      "description": "Publishing workflow (wizard, validation, tokens, unpublish)",
+      "total_tests": 5
+    },
+    "agent_publishing": {
+      "test_ids": ["ELITEA-2600", "ELITEA-2601", "ELITEA-2614"],
+      "description": "Publishing agents with attached skills",
+      "total_tests": 3
+    },
+    "skill_forking": {
+      "test_ids": ["ELITEA-2602", "ELITEA-2603"],
+      "description": "Forking skills across projects",
+      "total_tests": 2
+    },
+    "skill_icons": {
+      "test_ids": ["ELITEA-2604", "ELITEA-2605", "ELITEA-2606"],
+      "description": "Custom icon management (upload, validation, visibility, persistence)",
+      "total_tests": 3
+    },
+    "skill_versioning": {
+      "test_ids": ["ELITEA-2610", "ELITEA-3352", "ELITEA-3353"],
+      "description": "Version management and comparison",
+      "total_tests": 3
+    },
+    "edit_with_ai": {
+      "test_ids": ["ELITEA-2611", "ELITEA-2612", "ELITEA-2613"],
+      "description": "AI-powered skill editing feature",
+      "total_tests": 3
+    },
+    "skill_run_settings": {
+      "test_ids": ["ELITEA-2436", "ELITEA-3825", "ELITEA-3826", "ELITEA-3827", "ELITEA-3828", "ELITEA-3829"],
+      "description": "Model configuration, reasoning settings, context control",
+      "total_tests": 6
+    },
+    "deprecated": {
+      "test_ids": ["ELITEA-2441"],
+      "description": "Tests marked as deprecated (behavior changed intentionally)",
+      "total_tests": 1
+    }
+  },
+  "consolidation_opportunities": [
+    {
+      "consolidation_id": "MERGE-001",
+      "title": "Skill CRUD Operations - Basic Flow",
+      "test_ids_to_merge": ["ELITEA-2428", "ELITEA-2429", "ELITEA-2430", "ELITEA-2431"],
+      "resulting_test_name": "Skill CRUD - Create, Edit, Navigate, and Field Validation",
+      "rationale": "These tests cover sequential CRUD operations that naturally flow together: viewing list, creating with validation, editing fields, and navigation. They can be combined into a single end-to-end workflow.",
+      "consolidated_steps": "1. View skills list (card view) → 2. Create skill with mandatory field validation → 3. Edit name/description/instructions → 4. Navigate using back button → 5. Verify all changes persist",
+      "priority": "medium",
+      "estimated_time_saved": "40%",
+      "risks": "Lower granularity for debugging specific validation failures"
+    },
+    {
+      "consolidation_id": "MERGE-002",
+      "title": "Skill Tagging - Complete Flow",
+      "test_ids_to_merge": ["ELITEA-2433", "ELITEA-2434"],
+      "resulting_test_name": "Skill Tagging - Add, Remove, and Multiple Tags",
+      "rationale": "Both tests cover tag management. They test the same functionality at different scales (single vs multiple tags). Can be merged into one comprehensive tagging test.",
+      "consolidated_steps": "1. Create skill → 2. Add single tag → 3. Verify persistence → 4. Add multiple tags on creation → 5. Add tags after creation → 6. Remove tag → 7. Verify all operations persist",
+      "priority": "medium",
+      "estimated_time_saved": "50%",
+      "risks": "Minimal - tag operations are simple and can be tested together"
+    },
+    {
+      "consolidation_id": "MERGE-003",
+      "title": "Skill Invocation - Explicit and Autonomous Coexistence",
+      "test_ids_to_merge": ["ELITEA-1735", "ELITEA-1736", "ELITEA-2609"],
+      "resulting_test_name": "Skill Invocation - Explicit, Autonomous, and Backward Compatibility",
+      "rationale": "ELITEA-1735 and ELITEA-1736 test similar explicit/autonomous invocation in different contexts (agent vs conversation). ELITEA-2609 tests coexistence. These can be merged into a comprehensive invocation test.",
+      "consolidated_steps": "1. Create skills with distinct formatting → 2. Attach to agent → 3. Test explicit ~skill invocation → 4. Test autonomous context-based invocation → 5. Test coexistence (no double-injection) → 6. Verify in both agent and conversation contexts",
+      "priority": "medium",
+      "estimated_time_saved": "35%",
+      "risks": "Test becomes longer; harder to isolate which invocation mechanism failed"
+    },
+    {
+      "consolidation_id": "MERGE-004",
+      "title": "Skill Publishing - Validation Scenarios",
+      "test_ids_to_merge": ["ELITEA-2596", "ELITEA-2598"],
+      "resulting_test_name": "Skill Publishing - AI Validation (Blockers and Warnings)",
+      "rationale": "Both test validation but with different outcomes (FAIL blockers vs WARN non-blockers). Can be combined into a single validation test covering both scenarios.",
+      "consolidated_steps": "1. Test FAIL scenarios (short content, placeholders, secrets) → 2. Verify publishing blocked → 3. Test WARN scenarios (generic name, no icon) → 4. Verify publishing allowed with warnings → 5. Complete publish with warnings",
+      "priority": "high",
+      "estimated_time_saved": "45%",
+      "risks": "Less focused on specific validation rules; may miss edge cases"
+    },
+    {
+      "consolidation_id": "MERGE-005",
+      "title": "Skill Icons - Complete Lifecycle",
+      "test_ids_to_merge": ["ELITEA-2604", "ELITEA-2605", "ELITEA-2606"],
+      "resulting_test_name": "Skill Icons - Upload, Validation, Visibility, and Version Persistence",
+      "rationale": "All three tests cover icon functionality. Can be merged into comprehensive icon test covering upload, validation, UI visibility, and versioning.",
+      "consolidated_steps": "1. Upload custom icon with format validation → 2. Test oversized file rejection → 3. Delete icon (revert to default) → 4. Verify visibility across UI (list, detail, agent, autocomplete) → 5. Create new version → 6. Verify icon persistence across versions",
+      "priority": "medium",
+      "estimated_time_saved": "40%",
+      "risks": "Test becomes complex; icon bugs may be harder to isolate"
+    },
+    {
+      "consolidation_id": "MERGE-006",
+      "title": "Edit with AI - Complete Feature",
+      "test_ids_to_merge": ["ELITEA-2611", "ELITEA-2612"],
+      "resulting_test_name": "Edit with AI - Happy Path, Navigation, and Error Handling",
+      "rationale": "ELITEA-2611 tests happy path, ELITEA-2612 tests navigation and errors. These naturally flow together as a comprehensive Edit with AI test.",
+      "consolidated_steps": "1. Happy path: prompt input → generation → wizard → apply → 2. Navigation: back button preserves prompt → cancel preserves original → 3. Error handling: empty prompt validation → generation failure with retry",
+      "priority": "high",
+      "estimated_time_saved": "40%",
+      "risks": "Longer test; harder to identify which specific aspect failed"
+    },
+    {
+      "consolidation_id": "MERGE-007",
+      "title": "Skill Run Settings - Model and Context Configuration",
+      "test_ids_to_merge": ["ELITEA-3825", "ELITEA-3826", "ELITEA-3827", "ELITEA-3828"],
+      "resulting_test_name": "Skill Run Settings - Model, Reasoning, Context, and Execution",
+      "rationale": "All four tests cover different aspects of run_settings. Can be consolidated into a single comprehensive test of the run_settings feature.",
+      "consolidated_steps": "1. Configure fixed model with reasoning level and max tokens → 2. Save and verify persistence → 3. Verify test panel initializes with saved settings → 4. Execute skill and verify correct model used → 5. Test context toggle OFF → 6. Verify context excluded from execution",
+      "priority": "critical",
+      "estimated_time_saved": "50%",
+      "risks": "Complex test covering multiple concerns; failure may be harder to diagnose"
+    },
+    {
+      "consolidation_id": "MERGE-008",
+      "title": "Skill Version Comparison - Display and Save",
+      "test_ids_to_merge": ["ELITEA-3352", "ELITEA-3353"],
+      "resulting_test_name": "Skill Version Comparison - Modal, Display, and Independent Saves",
+      "rationale": "Both tests cover the version comparison feature. ELITEA-3352 tests modal opening/layout, ELITEA-3353 tests data display and saves. Natural consolidation.",
+      "consolidated_steps": "1. Open comparison modal → 2. Verify side-by-side layout with correct version names → 3. Verify instructions display → 4. Edit and save Version 1 → 5. Verify Version 2 unchanged → 6. Edit and save Version 2 → 7. Verify independence → 8. Close/reopen to verify persistence",
+      "priority": "critical",
+      "estimated_time_saved": "45%",
+      "risks": "Minimal - both tests cover same feature from different angles"
+    }
+  ],
+  "tests_to_keep_separate": [
+    {
+      "test_id": "ELITEA-2432",
+      "title": "Skill instructions — Markdown edit and preview toggle",
+      "rationale": "Specific UI behavior (markdown toggle) that's distinct from basic CRUD. Should remain separate for focused testing of preview functionality."
+    },
+    {
+      "test_id": "ELITEA-2436",
+      "title": "LLM model settings are configurable",
+      "rationale": "Basic model configuration test that's foundational. While related to run_settings tests, this covers the basic UI/UX of model selection, while 3825-3829 cover the deeper execution behavior."
+    },
+    {
+      "test_id": "ELITEA-2595",
+      "title": "Skill Publishing Wizard — Happy Path",
+      "rationale": "Critical happy path test for publishing. Should remain standalone as the baseline for all publishing tests."
+    },
+    {
+      "test_id": "ELITEA-2597",
+      "title": "Skill Publishing — Token Invalidation and TTL Expiration",
+      "rationale": "Security-critical test covering token behavior. Must remain separate due to its security implications and specific timing requirements (5-minute TTL)."
+    },
+    {
+      "test_id": "ELITEA-2599",
+      "title": "Skill Unpublish and Republish Lifecycle",
+      "rationale": "Complex lifecycle test covering unpublish → EntitySkillMapping preservation → republish → version coexistence. Too complex to merge with other publishing tests."
+    },
+    {
+      "test_id": "ELITEA-2600",
+      "title": "Agent with Skills Publishing Flow",
+      "rationale": "Agent-specific publishing with skill embedding. Distinct from skill publishing; covers different entity type."
+    },
+    {
+      "test_id": "ELITEA-2601",
+      "title": "Agent with Skills — Validation Attribution and Token Invalidation",
+      "rationale": "Complex test covering validation attribution to specific skills and token invalidation on skill changes. Security and validation critical; should remain separate."
+    },
+    {
+      "test_id": "ELITEA-2602",
+      "title": "Fork Skill End-to-End",
+      "rationale": "Comprehensive fork test covering complete workflow including lineage metadata. Should remain standalone as the primary fork test."
+    },
+    {
+      "test_id": "ELITEA-2603",
+      "title": "Fork Non-Base Skill Version",
+      "rationale": "Edge case covering version-specific forking. Important variation that should remain separate to ensure version normalization works correctly."
+    },
+    {
+      "test_id": "ELITEA-2607",
+      "title": "Skill Autonomous Invocation — Core Functionality",
+      "rationale": "High priority test with SECURITY implications (unattached skills must never be invoked). Should remain separate for security validation."
+    },
+    {
+      "test_id": "ELITEA-2608",
+      "title": "Subagent Skills Isolation",
+      "rationale": "Tests critical isolation between parent and subagent skills. Security-relevant; must remain separate to verify no skill bleed."
+    },
+    {
+      "test_id": "ELITEA-2610",
+      "title": "Skill Version Selection Behavior",
+      "rationale": "Version-specific behavior test. Important for versioning correctness; should remain separate."
+    },
+    {
+      "test_id": "ELITEA-2613",
+      "title": "Edit with AI — Skill Permissions",
+      "rationale": "Permission-specific test (Admin/Editor/Viewer). Should remain separate as a focused permissions test."
+    },
+    {
+      "test_id": "ELITEA-2614",
+      "title": "Published Agent Version Cannot Be Modified",
+      "rationale": "Immutability test for published entities. Critical for data integrity; must remain separate."
+    },
+    {
+      "test_id": "ELITEA-3829",
+      "title": "Verify agent uses its own model when running attached skill",
+      "rationale": "Critical test verifying agent precedence over skill settings. Important for backward compatibility; should remain separate from other run_settings tests."
+    }
+  ],
+  "exclude_candidates": [
+    {
+      "test_id": "ELITEA-2441",
+      "title": "Test panel does not create a new Chat conversation",
+      "rationale": "Marked as DEPRECATED (status: deprecated). Behavior intentionally changed per EL-6922. Should be REMOVED from regression suite.",
+      "action": "EXCLUDE",
+      "risk_level": "none"
+    },
+    {
+      "test_id": "ELITEA-2606",
+      "title": "Skill Custom Icon Persistence on Save As Version",
+      "rationale": "Priority: LOW. Icon persistence across versions is already tested in MERGE-005. This is a variation that adds minimal value to core regression.",
+      "action": "CONSIDER_EXCLUDING",
+      "risk_level": "low"
+    },
+    {
+      "test_id": "ELITEA-2603",
+      "title": "Fork Non-Base Skill Version",
+      "rationale": "Priority: MEDIUM (not high/critical). Edge case for forking non-base versions. Core fork functionality is covered by ELITEA-2602. This could be excluded if time is constrained.",
+      "action": "CONSIDER_EXCLUDING_IF_TIME_CONSTRAINED",
+      "risk_level": "medium"
+    }
+  ],
+  "recommended_core_regression_suite": {
+    "consolidated_tests": [
+      "MERGE-001: Skill CRUD - Create, Edit, Navigate, and Field Validation",
+      "MERGE-002: Skill Tagging - Complete Flow",
+      "MERGE-003: Skill Invocation - Explicit, Autonomous, and Backward Compatibility",
+      "MERGE-004: Skill Publishing - Validation Scenarios",
+      "MERGE-005: Skill Icons - Complete Lifecycle",
+      "MERGE-006: Edit with AI - Happy Path, Navigation, and Error Handling",
+      "MERGE-007: Skill Run Settings - Model, Context, and Execution",
+      "MERGE-008: Skill Version Comparison - Modal, Display, and Independent Saves"
+    ],
+    "standalone_tests": [
+      "ELITEA-2432: Skill instructions — Markdown edit and preview toggle",
+      "ELITEA-2436: LLM model settings are configurable",
+      "ELITEA-2595: Skill Publishing Wizard — Happy Path",
+      "ELITEA-2597: Skill Publishing — Token Invalidation and TTL Expiration",
+      "ELITEA-2599: Skill Unpublish and Republish Lifecycle",
+      "ELITEA-2600: Agent with Skills Publishing Flow",
+      "ELITEA-2601: Agent with Skills — Validation Attribution and Token Invalidation",
+      "ELITEA-2602: Fork Skill End-to-End",
+      "ELITEA-2607: Skill Autonomous Invocation — Core Functionality",
+      "ELITEA-2608: Subagent Skills Isolation",
+      "ELITEA-2610: Skill Version Selection Behavior",
+      "ELITEA-2613: Edit with AI — Skill Permissions",
+      "ELITEA-2614: Published Agent Version Cannot Be Modified",
+      "ELITEA-3829: Agent uses own model (not skill settings)"
+    ],
+    "total_tests": 22,
+    "excluded_tests": 1,
+    "optional_tests": 2,
+    "time_reduction_estimate": "35-40%"
+  },
+  "priority_distribution": {
+    "critical": {
+      "count": 8,
+      "test_ids": ["ELITEA-3352", "ELITEA-3353", "ELITEA-3825", "ELITEA-3826", "ELITEA-3827", "ELITEA-3828", "ELITEA-3829", "MERGE-007 (consolidated)", "MERGE-008 (consolidated)"]
+    },
+    "high": {
+      "count": 11,
+      "test_ids": ["ELITEA-2595", "ELITEA-2596", "ELITEA-2597", "ELITEA-2600", "ELITEA-2601", "ELITEA-2602", "ELITEA-2604", "ELITEA-2607", "ELITEA-2611", "ELITEA-2614", "MERGE-004 (consolidated)", "MERGE-006 (consolidated)"]
+    },
+    "medium": {
+      "count": 18,
+      "test_ids": ["ELITEA-1735", "ELITEA-1736", "ELITEA-2428", "ELITEA-2429", "ELITEA-2430", "ELITEA-2431", "ELITEA-2432", "ELITEA-2433", "ELITEA-2434", "ELITEA-2436", "ELITEA-2598", "ELITEA-2599", "ELITEA-2603", "ELITEA-2605", "ELITEA-2608", "ELITEA-2609", "ELITEA-2610", "ELITEA-2612", "ELITEA-2613"]
+    },
+    "low": {
+      "count": 1,
+      "test_ids": ["ELITEA-2606"]
+    }
+  },
+  "risk_analysis": {
+    "high_risk_areas": [
+      {
+        "area": "Security - Skill Isolation",
+        "tests": ["ELITEA-2607", "ELITEA-2608"],
+        "rationale": "Security-critical tests ensuring unattached skills cannot be invoked and subagent skills don't bleed. Must remain in core regression."
+      },
+      {
+        "area": "Publishing - Token Security",
+        "tests": ["ELITEA-2597", "ELITEA-2601"],
+        "rationale": "Token invalidation prevents unauthorized publishing. Security-critical; must remain separate and thorough."
+      },
+      {
+        "area": "Immutability - Published Versions",
+        "tests": ["ELITEA-2614"],
+        "rationale": "Published versions must remain immutable to prevent unintended changes affecting production users."
+      },
+      {
+        "area": "Model Settings - Agent Precedence",
+        "tests": ["ELITEA-3829"],
+        "rationale": "Critical for backward compatibility - agents must use their own model, not skill settings."
+      }
+    ],
+    "consolidation_risks": [
+      {
+        "consolidation": "MERGE-003",
+        "risk": "Medium",
+        "description": "Merging invocation tests may make it harder to isolate which specific invocation mechanism failed (explicit vs autonomous)."
+      },
+      {
+        "consolidation": "MERGE-007",
+        "risk": "Medium-High",
+        "description": "Run settings consolidation creates a complex test covering multiple concerns. Failure diagnosis may be more difficult."
+      }
+    ]
+  },
+  "implementation_recommendations": [
+    {
+      "phase": 1,
+      "title": "Immediate Exclusions",
+      "actions": [
+        "Remove ELITEA-2441 (deprecated)",
+        "Mark ELITEA-2606 as optional/lower priority"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Low-Risk Consolidations",
+      "actions": [
+        "Implement MERGE-002 (Skill Tagging)",
+        "Implement MERGE-008 (Version Comparison)",
+        "Implement MERGE-001 (CRUD Operations)"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Medium-Risk Consolidations",
+      "actions": [
+        "Implement MERGE-005 (Skill Icons)",
+        "Implement MERGE-004 (Publishing Validation)",
+        "Implement MERGE-006 (Edit with AI)"
+      ]
+    },
+    {
+      "phase": 4,
+      "title": "High-Value Consolidations (Review Carefully)",
+      "actions": [
+        "Implement MERGE-003 (Skill Invocation) - review impact on debugging",
+        "Implement MERGE-007 (Run Settings) - ensure proper step isolation for debugging"
+      ]
+    }
+  ],
+  "detailed_test_metadata": [
+    {
+      "id": "ELITEA-1735",
+      "title": "Interact with Skills from Agent",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills"],
+      "key_behaviors": ["explicit ~skill invocation", "autonomous context-based invocation", "skill formatting applies only when invoked"],
+      "consolidation_candidate": "MERGE-003"
+    },
+    {
+      "id": "ELITEA-1736",
+      "title": "Interact with Skills from Conversation",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills"],
+      "key_behaviors": ["~skill invocation in chat", "skill formatting applies only when invoked"],
+      "consolidation_candidate": "MERGE-003"
+    },
+    {
+      "id": "ELITEA-2428",
+      "title": "Skills listing — card view shows correct fields",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills"],
+      "key_behaviors": ["card view displays icon, name, description on hover, tags"],
+      "consolidation_candidate": "MERGE-001"
+    },
+    {
+      "id": "ELITEA-2429",
+      "title": "Skills editor back button returns to Skills list",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills"],
+      "key_behaviors": ["back navigation goes to skills list, not chats"],
+      "consolidation_candidate": "MERGE-001"
+    },
+    {
+      "id": "ELITEA-2430",
+      "title": "Skill creation — mandatory fields validation (Name and Description)",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills"],
+      "key_behaviors": ["name and description required", "save button disabled without mandatory fields"],
+      "consolidation_candidate": "MERGE-001"
+    },
+    {
+      "id": "ELITEA-2431",
+      "title": "Edit Skill name, description, and instructions",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills"],
+      "key_behaviors": ["editing fields persists changes"],
+      "consolidation_candidate": "MERGE-001"
+    },
+    {
+      "id": "ELITEA-2432",
+      "title": "Skill instructions — Markdown edit and preview toggle",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills"],
+      "key_behaviors": ["markdown edit/preview toggle", "preview renders correctly", "changes persist"],
+      "consolidation_candidate": "none - keep separate"
+    },
+    {
+      "id": "ELITEA-2433",
+      "title": "Add, save, and remove a tag on a Skill",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills"],
+      "key_behaviors": ["add tag", "remove tag", "persistence"],
+      "consolidation_candidate": "MERGE-002"
+    },
+    {
+      "id": "ELITEA-2434",
+      "title": "Multiple tags can be saved on a Skill upon and after creation",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills"],
+      "key_behaviors": ["multiple tags on creation", "add tags after creation", "persistence"],
+      "consolidation_candidate": "MERGE-002"
+    },
+    {
+      "id": "ELITEA-2436",
+      "title": "LLM model settings are configurable",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills"],
+      "key_behaviors": ["model selection", "reasoning effort options for reasoning models"],
+      "consolidation_candidate": "none - foundational test"
+    },
+    {
+      "id": "ELITEA-2441",
+      "title": "Test panel does not create a new Chat conversation",
+      "priority": "medium",
+      "module": "skills",
+      "status": "deprecated",
+      "tags": ["automated:UI:regression", "feat:skills"],
+      "key_behaviors": ["DEPRECATED - behavior intentionally changed"],
+      "consolidation_candidate": "EXCLUDE"
+    },
+    {
+      "id": "ELITEA-2595",
+      "title": "Skill Publishing Wizard — Happy Path",
+      "priority": "high",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:publishing"],
+      "key_behaviors": ["3-step wizard", "validation passes", "skill appears in catalog"],
+      "consolidation_candidate": "none - baseline test"
+    },
+    {
+      "id": "ELITEA-2596",
+      "title": "Skill Publishing — AI Validation Blockers",
+      "priority": "high",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:publishing", "feat:validation"],
+      "key_behaviors": ["FAIL status blocks publishing", "short content validation", "placeholder detection", "secrets detection"],
+      "consolidation_candidate": "MERGE-004"
+    },
+    {
+      "id": "ELITEA-2597",
+      "title": "Skill Publishing — Token Invalidation and TTL Expiration",
+      "priority": "high",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:publishing", "feat:security"],
+      "key_behaviors": ["token invalidated on skill modification", "token expires after 5 minutes", "must re-validate"],
+      "consolidation_candidate": "none - security critical"
+    },
+    {
+      "id": "ELITEA-2598",
+      "title": "Skill Publishing — WARN Status Allows Publishing with Warnings",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:publishing", "feat:validation"],
+      "key_behaviors": ["WARN status allows publishing", "generic name warning", "missing icon warning"],
+      "consolidation_candidate": "MERGE-004"
+    },
+    {
+      "id": "ELITEA-2599",
+      "title": "Skill Unpublish and Republish Lifecycle",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:publishing"],
+      "key_behaviors": ["unpublish removes from catalog", "EntitySkillMapping preserved", "republish works", "version coexistence"],
+      "consolidation_candidate": "none - complex lifecycle"
+    },
+    {
+      "id": "ELITEA-2600",
+      "title": "Agent with Skills Publishing Flow",
+      "priority": "high",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:agents", "feat:publishing"],
+      "key_behaviors": ["skills embedded in agent snapshot", "skills NOT in catalog", "agent uses skills correctly", "visible in thought process"],
+      "consolidation_candidate": "none - agent-specific"
+    },
+    {
+      "id": "ELITEA-2601",
+      "title": "Agent with Skills — Validation Attribution and Token Invalidation",
+      "priority": "high",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:agents", "feat:publishing", "feat:validation"],
+      "key_behaviors": ["validation errors attributed to specific skill", "token invalidated on skill add/remove"],
+      "consolidation_candidate": "none - security and validation critical"
+    },
+    {
+      "id": "ELITEA-2602",
+      "title": "Fork Skill End-to-End",
+      "priority": "high",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:fork"],
+      "key_behaviors": ["fork creates complete copy", "lineage metadata stored", "current project excluded from dropdown", "edits don't cross-propagate"],
+      "consolidation_candidate": "none - comprehensive fork test"
+    },
+    {
+      "id": "ELITEA-2603",
+      "title": "Fork Non-Base Skill Version",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:fork", "feat:versioning"],
+      "key_behaviors": ["fork non-base version", "version normalized to 'base' in target", "content preserved"],
+      "consolidation_candidate": "optional - edge case"
+    },
+    {
+      "id": "ELITEA-2604",
+      "title": "Skill Custom Icon Upload and Validation",
+      "priority": "high",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:icon"],
+      "key_behaviors": ["upload png/jpg/gif/webp", "500KB limit enforced", "delete reverts to default"],
+      "consolidation_candidate": "MERGE-005"
+    },
+    {
+      "id": "ELITEA-2605",
+      "title": "Skill Custom Icon Visibility Across UI",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:icon"],
+      "key_behaviors": ["icon visible in CardList", "icon in detail page", "icon in SkillCard", "icon in SkillMenu", "icon in ~mention autocomplete"],
+      "consolidation_candidate": "MERGE-005"
+    },
+    {
+      "id": "ELITEA-2606",
+      "title": "Skill Custom Icon Persistence on Save As Version",
+      "priority": "low",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:icon", "feat:versioning"],
+      "key_behaviors": ["icon persists across versions"],
+      "consolidation_candidate": "optional - lower priority"
+    },
+    {
+      "id": "ELITEA-2607",
+      "title": "Skill Autonomous Invocation — Core Functionality",
+      "priority": "high",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:autonomous-invocation"],
+      "key_behaviors": ["autonomous invocation on context match", "visible in thought process", "unattached skills NEVER invoked (SECURITY)"],
+      "consolidation_candidate": "none - security critical"
+    },
+    {
+      "id": "ELITEA-2608",
+      "title": "Subagent Skills Isolation",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:subagents", "feat:autonomous-invocation"],
+      "key_behaviors": ["subagents use only own skills", "no parent skill bleed", "skill-free subagents work"],
+      "consolidation_candidate": "none - security/isolation critical"
+    },
+    {
+      "id": "ELITEA-2609",
+      "title": "Skill Explicit and Autonomous Invocation Coexistence",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:autonomous-invocation", "feat:backward-compatibility"],
+      "key_behaviors": ["explicit ~skill syntax works", "no double-injection", "both methods coexist"],
+      "consolidation_candidate": "MERGE-003"
+    },
+    {
+      "id": "ELITEA-2610",
+      "title": "Skill Version Selection Behavior",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:versioning", "feat:autonomous-invocation"],
+      "key_behaviors": ["specific version behavior used", "changing version updates behavior", "version selection respected"],
+      "consolidation_candidate": "none - version correctness"
+    },
+    {
+      "id": "ELITEA-2611",
+      "title": "Edit with AI — Skill Happy Path",
+      "priority": "high",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:edit-with-ai"],
+      "key_behaviors": ["multi-step wizard", "current vs suggested comparison", "checkbox selection", "apply only checked suggestions"],
+      "consolidation_candidate": "MERGE-006"
+    },
+    {
+      "id": "ELITEA-2612",
+      "title": "Edit with AI — Skill Navigation and Error Handling",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:edit-with-ai"],
+      "key_behaviors": ["back button preserves prompt", "cancel preserves original", "generation failure shows error with retry", "empty prompt validation"],
+      "consolidation_candidate": "MERGE-006"
+    },
+    {
+      "id": "ELITEA-2613",
+      "title": "Edit with AI — Skill Permissions",
+      "priority": "medium",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:edit-with-ai", "feat:permissions"],
+      "key_behaviors": ["Admin sees CTA", "Editor sees CTA", "Viewer does NOT see CTA", "character limit enforcement"],
+      "consolidation_candidate": "none - permissions test"
+    },
+    {
+      "id": "ELITEA-2614",
+      "title": "Published Agent Version Cannot Be Modified",
+      "priority": "high",
+      "module": "skills",
+      "tags": ["automated:UI:regression", "feat:skills", "feat:agents", "feat:publishing", "feat:immutability"],
+      "key_behaviors": ["published version immutable", "modifications blocked with errors", "unpublish restores editability"],
+      "consolidation_candidate": "none - immutability critical"
+    },
+    {
+      "id": "ELITEA-3352",
+      "title": "Skill Version Comparison Modal Opens with Side-by-Side Layout",
+      "priority": "critical",
+      "module": "skills",
+      "tags": ["feat:skills", "r-2.0.6", "regression", "version-comparison", "story:6304"],
+      "key_behaviors": ["modal opens", "side-by-side layout", "actual version names in headers", "close controls work"],
+      "consolidation_candidate": "MERGE-008"
+    },
+    {
+      "id": "ELITEA-3353",
+      "title": "Skill Version Comparison Displays Instructions and Saves Independently",
+      "priority": "critical",
+      "module": "skills",
+      "tags": ["feat:skills", "r-2.0.6", "regression", "version-comparison", "data-integrity", "story:6304"],
+      "key_behaviors": ["instructions display correctly", "saving one version doesn't affect other", "changes persist"],
+      "consolidation_candidate": "MERGE-008"
+    },
+    {
+      "id": "ELITEA-3825",
+      "title": "Verify fixed model with reasoning level and max tokens persists after save and reload",
+      "priority": "critical",
+      "module": "skill-run-settings",
+      "tags": ["feat:skills", "r-2.0.8"],
+      "key_behaviors": ["fixed model persists", "reasoning level persists", "max tokens persists"],
+      "consolidation_candidate": "MERGE-007"
+    },
+    {
+      "id": "ELITEA-3826",
+      "title": "Verify Test Panel initializes with saved model and settings from run_settings",
+      "priority": "critical",
+      "module": "skill-run-settings",
+      "tags": ["feat:skills", "r-2.0.8"],
+      "key_behaviors": ["test panel initializes with saved settings", "execution uses saved settings"],
+      "consolidation_candidate": "MERGE-007"
+    },
+    {
+      "id": "ELITEA-3827",
+      "title": "Verify skill with fixed model uses the configured model during execution",
+      "priority": "critical",
+      "module": "skill-run-settings",
+      "tags": ["feat:skills", "r-2.0.8"],
+      "key_behaviors": ["execution uses configured model", "project default ignored", "reasoning and tokens applied"],
+      "consolidation_candidate": "MERGE-007"
+    },
+    {
+      "id": "ELITEA-3828",
+      "title": "Verify skill execution excludes project context when toggle is disabled",
+      "priority": "critical",
+      "module": "skill-run-settings",
+      "tags": ["feat:skills", "r-2.0.8"],
+      "key_behaviors": ["context toggle OFF excludes context", "system prompt excludes context", "ignore_project_context respected"],
+      "consolidation_candidate": "MERGE-007"
+    },
+    {
+      "id": "ELITEA-3829",
+      "title": "Verify agent uses its own model when running attached skill, ignoring skill's run_settings",
+      "priority": "critical",
+      "module": "skill-run-settings",
+      "tags": ["feat:skills", "r-2.0.8"],
+      "key_behaviors": ["agent uses own model", "agent ignores skill's run_settings", "backward compatibility"],
+      "consolidation_candidate": "none - backward compatibility critical"
+    }
+  ]
+}
