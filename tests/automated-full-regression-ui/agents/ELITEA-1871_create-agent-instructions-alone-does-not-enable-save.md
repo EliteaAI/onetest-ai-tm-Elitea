@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1871
-title: "Create agent — instructions field alone does not enable Save (name+description both required)"
+title: "Agent lifecycle: Create with validation, edit and persist, discard changes"
 priority: critical
 type: functional
 module: agents
@@ -10,11 +10,11 @@ tags: [automated:UI:regression, feat:agents]
 requirements: []
 ---
 
-# ELITEA-1871: Create agent — instructions field alone does not enable Save (name+description both required)
+# ELITEA-1871: Agent lifecycle: Create with validation, edit and persist, discard changes
 
-**Module:** agents · **Priority:** high · **Type:** functional
+**Module:** agents · **Priority:** critical · **Type:** functional
 
-**Objective:** Verify that the Save button on the Create Agent form only becomes enabled when both the Name and Description fields are filled, and that filling only one field or only Instructions is insufficient.
+**Objective:** Verify the complete agent creation and editing lifecycle: that Save is only enabled when required fields are filled, that edits persist after save and reload, and that the Discard action properly reverts unsaved changes.
 
 ---
 
@@ -29,26 +29,52 @@ requirements: []
 
 | Field | Value |
 |-------|-------|
-| Instructions text | Any test instructions text |
+| Agent Name | Test Lifecycle Agent |
+| Agent Description | Agent for lifecycle testing |
+| Initial Instructions | You are a test assistant. |
+| Updated Instructions | You are an updated test assistant. |
 
 ---
 
 ## Steps
 
+### Part 1: Create Agent with Field Validation
+
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Navigate to the Create Agent page | The Create Agent form is displayed with all fields empty |
-| 2 | Leave Name and Description empty, fill only the Instructions field | Instructions field accepts input |
-| 3 | Verify the Save button is disabled | Save button remains disabled |
-| 4 | Fill Name only — verify Save is still disabled | Name field is filled; Save button remains disabled |
-| 5 | Clear Name, fill Description only — verify Save is still disabled | Description field is filled; Save button remains disabled |
-| 6 | Fill both Name and Description — verify Save becomes enabled | Save button becomes enabled (clickable) |
+| 2 | Fill only the Instructions field with "You are a test assistant." | Instructions field accepts input |
+| 3 | Verify Save button is disabled | Save button remains disabled |
+| 4 | Fill only Name field: "Test Lifecycle Agent" | Name field is filled; Save button remains disabled |
+| 5 | Clear Name, fill only Description: "Agent for lifecycle testing" | Description field is filled; Save button remains disabled |
+| 6 | Fill both Name and Description fields | Both fields are populated |
+| 7 | Verify Save button becomes enabled | Save button becomes enabled (clickable) |
+| 8 | Click Save and wait for confirmation | Agent is created successfully and appears in agents list |
+
+### Part 2: Edit Instructions and Verify Persistence
+
+| # | Action | Expected Result |
+|---|--------|-----------------|
+| 9 | Open the newly created agent's detail page | The agent detail page loads with current values |
+| 10 | Clear the Instructions field and enter: "You are an updated test assistant." | The Instructions field displays the new text |
+| 11 | Click Save and wait for network idle | Save completes successfully; confirmation is shown or save button returns to default state |
+| 12 | Reload the page | The page reloads |
+| 13 | Verify Instructions field contains "You are an updated test assistant." | The Instructions field displays the saved text |
+
+### Part 3: Discard Changes and Verify Revert
+
+| # | Action | Expected Result |
+|---|--------|-----------------|
+| 14 | Modify Name to "Modified Name", Description to "Modified Description", and Instructions to "Modified instructions" | All three fields display new unsaved values |
+| 15 | Click the Discard button (or navigate away and confirm discard) | Discard action is triggered; any confirmation dialog is accepted |
+| 16 | Verify all three fields reverted to their previously saved values | Name: "Test Lifecycle Agent", Description: "Agent for lifecycle testing", Instructions: "You are an updated test assistant." |
 
 ---
 
 ## Expected Final State
 
-With both Name and Description filled, the Save button is enabled. Filling only one or neither required field keeps it disabled.
+- Agent exists with Name "Test Lifecycle Agent", Description "Agent for lifecycle testing", Instructions "You are an updated test assistant."
+- All unsaved modifications were successfully discarded and fields show saved values.
 
 ---
 
@@ -56,8 +82,29 @@ With both Name and Description filled, the Save button is enabled. Filling only 
 
 **Pass:**
 - All steps complete without errors.
-- Save button enables only when both Name and Description are filled.
+- Save button enables only when both Name and Description are filled during creation.
+- Instructions persist correctly after save and reload.
+- Discard action reverts all three fields to their previously saved values.
 
 **Fail:**
 - Any step produces an error or unexpected result.
-- Save button becomes enabled with only one required field filled, or remains disabled even with both filled.
+- Save button behavior is incorrect (enables too early or remains disabled when it should enable).
+- Instructions do not persist after reload.
+- Discard fails to revert fields or reverts them incorrectly.
+
+---
+
+## Notes
+
+**Source functional tests:** ELITEA-1871, ELITEA-1872, ELITEA-1873
+
+**Regression rationale:** Consolidates the critical agent creation, editing, and discard workflow into a single end-to-end test. All key validations and checkpoints from the original three tests are preserved:
+- ELITEA-1871: Save button validation during creation
+- ELITEA-1872: Edit persistence after reload
+- ELITEA-1873: Discard functionality
+
+**Selected checkpoints:**
+- Save button state validation (disabled/enabled based on required fields)
+- Successful agent creation
+- Instruction editing and persistence verification
+- Multi-field discard and revert verification
