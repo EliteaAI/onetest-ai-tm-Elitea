@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_canvas_delete_node.test_delete_middle_node_removes_its_edges_and_persists
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1143
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/d23d9238a2b1c684f7ccd7451ea6ace1e57f18af
 ---
 
 # ELITEA-2060: Pipeline — Node Deletion via Node Menu
@@ -41,9 +41,9 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1143
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Open a pipeline with multiple nodes | Pipeline canvas is displayed with multiple nodes |
-| 2 | Hover over or select a non-entry-point node on the canvas | Node is highlighted or selected |
-| 3 | Locate the node's action buttons (two small buttons on the node header) | Action buttons are visible on the node |
-| 4 | Click the delete button (trash icon) on the node | Node deletion is triggered |
+| 2 | Click a non-entry-point node on the canvas | Node is selected and its configuration side panel opens |
+| 3 | Locate the "Delete node" button in the side panel footer | Delete button is visible in the panel footer |
+| 4 | Click "Delete node" and confirm the "Are you sure to delete this node" dialog | Node deletion is triggered |
 | 5 | Verify node is removed from canvas | Node no longer appears on the canvas |
 | 6 | Verify edges to/from that node are removed | All edges connected to the deleted node are gone |
 | 7 | Verify "Save" button becomes enabled | Save button is active indicating unsaved changes |
@@ -52,7 +52,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1143
 
 ## Expected Final State
 
-The node and all its connected edges are removed from the canvas via the node's trash icon button. The Save button becomes enabled to reflect the unsaved change.
+The node and all its connected edges are removed from the canvas via the side panel's Delete node button. The Save button becomes enabled to reflect the unsaved change.
 
 ---
 
