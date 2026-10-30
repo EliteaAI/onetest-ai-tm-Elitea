@@ -6,7 +6,7 @@ type: functional
 module: toolkits-credentials
 status: draft
 execution_type: manual
-tags: [automated:UI:regression, feat:toolkits]
+tags: [automated:UI:regression, feat:toolkits, extended]
 requirements: []
 ---
 
@@ -63,3 +63,9 @@ The credential is successfully pinned to the top of the list and then unpinned b
 **Fail:**
 - Any step produces an error or unexpected result.
 - Pin/unpin action does not change the credential's position in the list.
+
+---
+
+## Notes
+
+**Regression scope:** This test is marked as **extended** — a convenience feature with low regression risk. Included in extended regression suite or pre-release validation; may be skipped from daily/rapid regression cycles to optimize manual execution time.

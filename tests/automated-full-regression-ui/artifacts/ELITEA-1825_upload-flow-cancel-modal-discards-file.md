@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1825
-title: "Upload Flow – Cancel Upload Modal Discards File Selection"
+title: "Upload Flow: Cancel modal and Close X button discard file selection"
 priority: medium
 type: functional
 module: artifacts
@@ -10,11 +10,11 @@ tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
 
-# ELITEA-1825: Upload Flow – Cancel Upload Modal Discards File Selection
+# ELITEA-1825: Upload Flow: Cancel modal and Close X button discard file selection
 
 **Module:** artifacts · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that clicking Cancel on the "Upload files to ..." modal closes the modal without uploading the selected file and no success notification is shown.
+**Objective:** Verify that clicking Cancel on the upload modal or Close (X) on the duplicate resolution modal properly discards file selection without uploading, and no success notification is shown.
 
 ---
 
@@ -23,6 +23,7 @@ requirements: []
 - User is logged in to the Elitea platform.
 - Bucket "bucket-1" exists.
 - Test file "sample1.txt" is available for upload.
+- Bucket "bucket-1" already contains "duplicate.txt".
 
 ---
 
@@ -31,31 +32,49 @@ requirements: []
 | Field | Value |
 |-------|-------|
 | Bucket name | bucket-1 |
-| File to select | sample1.txt |
+| File for cancel test | sample1.txt |
+| Duplicate file | duplicate.txt |
 
 ---
 
 ## Steps
 
+### Part 1: Cancel Upload Modal
+
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to the Artifacts section in the left sidebar | Artifacts page loads |
-| 2 | Click on "bucket-1" in the bucket list | Bucket is selected |
-| 3 | Click the upload icon in the top-right corner of the main panel | System file explorer opens |
-| 4 | Verify the system file explorer/Open dialog window opens immediately | File explorer is open |
-| 5 | Navigate to the test data folder and select file "sample1.txt" | "sample1.txt" is selected |
-| 6 | Click "Open" in the file explorer | "Upload files to ..." modal opens |
-| 7 | Verify the "Upload files to ..." modal opens with the Path field pre-filled | Modal is open with path pre-filled |
-| 8 | Click "Cancel" in the modal | Modal closes |
-| 9 | Verify the modal is closed | Modal is no longer visible |
-| 10 | Verify "sample.txt" is NOT listed in the file table | No new file appeared in the file table |
-| 11 | Verify no success notification is displayed | No success notification is shown |
+| 1 | Navigate to Artifacts section | Artifacts page loads |
+| 2 | Click on "bucket-1" in bucket list | Bucket is selected |
+| 3 | Click upload icon in top-right corner | System file explorer opens |
+| 4 | Select "sample1.txt" and click Open | "Upload files to..." modal opens with path pre-filled |
+| 5 | Verify modal is open with Path field populated | Modal visible with correct path |
+| 6 | Click Cancel button | Modal closes |
+| 7 | Verify modal is closed | Modal no longer visible |
+| 8 | Verify "sample1.txt" is NOT listed in file table | File not uploaded |
+| 9 | Verify no success notification is displayed | No notification appears |
+
+### Part 2: Close X Button on Duplicate Resolution Modal
+
+| # | Action | Expected Result |
+|---|--------|-----------------|
+| 10 | Click upload icon in top-right corner | System file explorer opens |
+| 11 | Select "duplicate.txt" (same name as existing file) and click Open | "Upload files to..." modal opens |
+| 12 | Verify path shows "bucket-1" | Modal shows correct path |
+| 13 | Click Upload button | Duplicate detection triggers |
+| 14 | Verify "Resolve duplicates" modal opens listing "duplicate.txt" | Duplicate resolution modal appears |
+| 15 | Verify modal shows options: Skip, Replace, Keep both | All resolution options visible |
+| 16 | Click X (close) button in top-right corner of modal | Modal closes |
+| 17 | Verify duplicate resolution modal is closed | Modal no longer visible |
+| 18 | Verify no success notification is displayed | No notification appears |
+| 19 | Verify file table shows only original "duplicate.txt" (no new entry) | Only 1 "duplicate.txt" entry exists |
+| 20 | Verify "Last update" timestamp of "duplicate.txt" is unchanged | Original timestamp intact |
 
 ---
 
 ## Expected Final State
 
-The upload modal is closed by Cancel, no file is uploaded, and no success notification appears. The file table is unchanged.
+- Upload modal Cancel: File not uploaded, no success notification
+- Duplicate modal Close X: No upload occurs, original file unchanged, no new entries, no success notification
 
 ---
 
@@ -63,8 +82,22 @@ The upload modal is closed by Cancel, no file is uploaded, and no success notifi
 
 **Pass:**
 - All steps complete without errors.
-- Modal closes on Cancel, file is not uploaded, and no success notification appears.
+- Both Cancel and Close X properly discard upload without notification; file table unchanged.
 
 **Fail:**
 - Any step produces an error or unexpected result.
-- File is uploaded after Cancel, or success notification appears.
+- File uploads despite Cancel/Close X, or success notification appears incorrectly.
+
+---
+
+## Notes
+
+**Source functional tests:** ELITEA-1825, ELITEA-1833
+
+**Regression rationale:** Consolidates upload cancellation behaviors (Cancel button on upload modal, Close X button on duplicate resolution modal) to verify both properly discard file selection.
+
+**Selected checkpoints:**
+- Upload modal Cancel discards selection (ELITEA-1825)
+- Duplicate resolution modal Close X discards upload (ELITEA-1833)
+- No success notification in either case
+- File table remains unchanged

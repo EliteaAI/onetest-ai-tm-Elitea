@@ -6,7 +6,7 @@ type: functional
 module: toolkits-credentials
 status: draft
 execution_type: manual
-tags: [automated:UI:regression, feat:toolkits]
+tags: [automated:UI:regression, feat:toolkits, extended]
 requirements: []
 ---
 
@@ -63,3 +63,9 @@ The Test connection button provides accurate feedback: a success toast for valid
 **Fail:**
 - Any step produces an error or unexpected result.
 - Success toast appears for invalid credentials, or error does not appear for an invalid token.
+
+---
+
+## Notes
+
+**Regression scope:** This test is marked as **extended** — Test connection functionality is partially covered in ELITEA-1981 (OAuth E2E Journey) where connection test is validated after successful OAuth authorization. Standalone Test connection validation has low regression priority and is included in extended regression suite or pre-release validation.
