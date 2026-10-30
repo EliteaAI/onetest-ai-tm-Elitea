@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1824
-title: "Upload Files to Bucket Subfolder via Three Upload Options and Verify Bucket Selection and Contents"
+title: "Upload Flow: Three upload paths, subfolder/root destinations, nested paths"
 priority: high
 type: functional
 module: artifacts
@@ -10,11 +10,11 @@ tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
 
-# ELITEA-1824: Upload Files to Bucket Subfolder via Three Upload Options and Verify Bucket Selection and Contents
+# ELITEA-1824: Upload Flow: Three upload paths, subfolder/root destinations, nested paths
 
 **Module:** artifacts · **Priority:** high · **Type:** functional
 
-**Objective:** Verify all three upload paths (center button, top-right upload icon, bucket 3-dot menu) work correctly, that uploaded files appear in their correct subfolder locations, and that the URL reflects the selected bucket and folder path.
+**Objective:** Verify all three upload entry points work correctly, that files can be uploaded to subfolders and bucket root, that nested non-existing folder paths are auto-created, and that breadcrumbs and URLs update appropriately.
 
 ---
 
@@ -22,7 +22,7 @@ requirements: []
 
 - User is logged in to the Elitea platform.
 - Bucket "bucket-1" exists and is empty.
-- Test files "sample.txt", "sample.png", and "sample.md" are available for upload.
+- Test files available: sample.txt, sample.png, sample.md, sample2.txt
 
 ---
 
@@ -31,71 +31,87 @@ requirements: []
 | Field | Value |
 |-------|-------|
 | Bucket name | bucket-1 |
-| Subfolder name | a1 |
+| Subfolder (existing) | a1 |
+| Nested subfolder (non-existing) | a1/nested/deep |
 | Upload file 1 | sample.txt |
 | Upload file 2 | sample.png |
 | Upload file 3 | sample.md |
-| Path for option 1 & 2 | bucket-1/a1 |
-| Path for option 3 | bucket-1 (root) |
+| Upload file 4 | sample2.txt |
 
 ---
 
 ## Steps
 
+### Part 1: Center Button Upload to Subfolder
+
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to the Artifacts section in the left sidebar | Artifacts page loads |
-| 2 | Verify that bucket "bucket-1" exists in the bucket list | "bucket-1" is visible |
-| 3 | Click on "bucket-1" in the bucket list | Main panel shows "No files in this bucket" with "Upload files" button |
-| 4 | Verify the main panel shows "No files in this bucket" message with an "Upload files" button in the center | Empty state is displayed |
-| 5 | Click the "Upload files" button in the center of the main panel | System file explorer opens |
-| 6 | Verify the system file explorer/Open dialog window opens immediately | File explorer is open |
-| 7 | Navigate to the test data folder and select file "sample.txt" | "sample.txt" is selected |
-| 8 | Click "Open" in the file explorer | "Upload files to ..." modal opens |
-| 9 | Verify the "Upload files to ..." modal opens with a "Path" field pre-filled with "bucket-1" | Modal is open with path pre-filled |
-| 10 | In the Path field append "/a1" so the path reads "bucket-1/a1" | Path field shows "bucket-1/a1" |
-| 11 | Click "Upload" button in the modal | Upload completes |
-| 12 | Verify a success notification is displayed: "Your file(s) have been successfully uploaded!" | Success notification appears |
-| 13 | Verify in the left panel "bucket-1" expands and subfolder "a1" appears beneath it | "a1" subfolder is visible under "bucket-1" |
-| 14 | Verify the main panel header displays the path "bucket-1 > a1" | Breadcrumb shows "bucket-1 > a1" |
-| 15 | Verify "sample.txt" is listed in the file table with Name, Type, Size and Last update populated | "sample.txt" is listed with all metadata |
-| 16 | Click the upload icon in the top-right corner of the main panel (tooltip: "Upload files") | System file explorer opens |
-| 17 | Verify the system file explorer/Open dialog window opens immediately | File explorer is open |
-| 18 | Navigate to the test data folder and select file "sample.png" | "sample.png" is selected |
-| 19 | Click "Open" in the file explorer | "Upload files to ..." modal opens |
-| 20 | Verify the "Upload files to ..." modal opens with a "Path" field pre-filled with "bucket-1/a1" | Modal shows path "bucket-1/a1" |
-| 21 | Verify the path remains "bucket-1/a1" (no changes needed) | Path is correct |
-| 22 | Click "Upload" button in the modal | Upload completes |
-| 23 | Verify a success notification is displayed: "Your file(s) have been successfully uploaded!" | Success notification appears |
-| 24 | Verify "sample.png" is listed in the file table in the "bucket-1 > a1" view alongside "sample.txt" | Both files are listed |
-| 25 | In the left panel hover over "bucket-1" and click the 3-dot (ellipsis) / actions icon next to the bucket name | Dropdown menu appears |
-| 26 | Verify a dropdown menu appears with options: "Upload files", "Pin to top", "Edit", "Delete" | All options are visible |
-| 27 | Click "Upload files" | System file explorer opens |
-| 28 | Verify the system file explorer/Open dialog window opens immediately | File explorer is open |
-| 29 | Navigate to the test data folder and select file "sample.md" | "sample.md" is selected |
-| 30 | Click "Open" in the file explorer | "Upload files to ..." modal opens |
-| 31 | Verify the "Upload files to ..." modal opens with a "Path" field pre-filled with "bucket-1" | Modal shows root path "bucket-1" |
-| 32 | Verify the path is only "bucket-1" without sub-folder | Path shows "bucket-1" only |
-| 33 | Click "Upload" button in the modal | Upload completes |
-| 34 | Verify a success notification is displayed: "Your file(s) have been successfully uploaded!" | Success notification appears |
-| 35 | Verify the main panel header displays the path "bucket-1" (root level, no subfolder) | Breadcrumb shows "bucket-1" |
-| 36 | Verify "sample.md" is listed in the file table at the root level of "bucket-1" in folder tree | "sample.md" is at root level |
-| 37 | In the left panel click on "bucket-1" | "bucket-1" is selected |
-| 38 | Verify "bucket-1" is highlighted (selected state) and expands to show subfolder "a1" beneath it | Bucket is selected and "a1" is visible |
-| 39 | Click on subfolder "a1" under "bucket-1" in the left panel | "a1" is selected |
-| 40 | Verify "a1" is highlighted and the main panel header displays "bucket-1 > a1" | "a1" is highlighted and breadcrumb is correct |
-| 41 | Verify the file table in the main panel contains exactly 2 files: "sample.txt" and "sample.png" | Exactly 2 files are listed |
-| 42 | Verify "sample.md" is NOT listed in the "bucket-1 > a1" view | "sample.md" is absent from subfolder view |
-| 43 | Click on "bucket-1" in the left panel (root level) | Root level contents are shown |
-| 44 | Verify the main panel header displays "bucket-1" | Breadcrumb shows "bucket-1" |
-| 45 | Verify "sample.md" is listed in the file table at the root level of "bucket-1" | "sample.md" is at root |
-| 46 | Verify the URL in the browser address bar reflects the selected bucket and folder path | URL shows correct bucket and folder parameters |
+| 1 | Navigate to Artifacts section | Artifacts page loads |
+| 2 | Click on "bucket-1" in bucket list | Bucket selected; main panel shows empty state with "Upload files" button |
+| 3 | Click center "Upload files" button | System file explorer opens |
+| 4 | Select "sample.txt" and click Open | "Upload files to..." modal opens with Path: "bucket-1" |
+| 5 | Append "/a1" to path so it reads "bucket-1/a1" | Path field shows "bucket-1/a1" |
+| 6 | Click Upload | Upload completes; success notification appears |
+| 7 | Verify subfolder "a1" appears under "bucket-1" in left panel | Subfolder "a1" is visible |
+| 8 | Verify breadcrumb shows "bucket-1 > a1" | Breadcrumb is correct |
+| 9 | Verify "sample.txt" is listed in file table with metadata | File is present with Name, Type, Size, Last update |
+
+### Part 2: Top-Right Icon Upload to Same Subfolder
+
+| # | Action | Expected Result |
+|---|--------|-----------------|
+| 10 | Click upload icon in top-right corner of main panel | System file explorer opens |
+| 11 | Select "sample.png" and click Open | "Upload files to..." modal opens with Path: "bucket-1/a1" (pre-filled) |
+| 12 | Verify path is pre-filled with "bucket-1/a1" | Path shows current location |
+| 13 | Click Upload | Upload completes; success notification appears |
+| 14 | Verify "sample.png" is listed alongside "sample.txt" in file table | Both files visible in "bucket-1 > a1" |
+
+### Part 3: Bucket 3-Dot Menu Upload to Root
+
+| # | Action | Expected Result |
+|---|--------|-----------------|
+| 15 | In left panel, hover over "bucket-1" and click 3-dot menu | Dropdown menu appears with options |
+| 16 | Verify dropdown shows: Upload files, Pin to top, Edit, Delete | All options visible |
+| 17 | Click "Upload files" | System file explorer opens |
+| 18 | Select "sample.md" and click Open | "Upload files to..." modal opens with Path: "bucket-1" (root only) |
+| 19 | Verify path shows "bucket-1" without subfolder | Path is "bucket-1" |
+| 20 | Click Upload | Upload completes; success notification appears |
+| 21 | Click "bucket-1" (root) in left panel | Root level view loads |
+| 22 | Verify breadcrumb shows "bucket-1" | Breadcrumb at root level |
+| 23 | Verify "sample.md" is listed at root level | File at root, not in subfolder |
+| 24 | Click "a1" subfolder in left panel | Subfolder view loads |
+| 25 | Verify "sample.txt" and "sample.png" are in subfolder; "sample.md" is NOT | Subfolder contains only 2 files |
+
+### Part 4: Nested Non-Existing Folder Auto-Creation
+
+| # | Action | Expected Result |
+|---|--------|-----------------|
+| 26 | Click upload icon in top-right | System file explorer opens |
+| 27 | Select "sample2.txt" and click Open | "Upload files to..." modal opens |
+| 28 | Change path to "bucket-1/a1/nested/deep" (non-existing nested path) | Path field shows nested path |
+| 29 | Click Upload | Upload completes; success notification appears |
+| 30 | In left panel, expand "bucket-1" → "a1" → "nested" | Nested folder structure is auto-created |
+| 31 | Verify "nested" subfolder appears under "a1", and "deep" subfolder under "nested" | Full nested path exists |
+| 32 | Click "deep" subfolder in left panel | Deep folder view loads |
+| 33 | Verify breadcrumb shows "bucket-1 > a1 > nested > deep" | Breadcrumb shows full path |
+| 34 | Verify "sample2.txt" is listed in "deep" folder | File in correct nested location |
+
+### Part 5: URL Verification
+
+| # | Action | Expected Result |
+|---|--------|-----------------|
+| 35 | Navigate between bucket root, "a1", and "deep" folders | Navigation works smoothly |
+| 36 | Verify URL in browser address bar updates with bucket and folder parameters | URL reflects current path selection |
 
 ---
 
 ## Expected Final State
 
-All three upload options work correctly. "sample.txt" and "sample.png" are in subfolder "a1"; "sample.md" is at the root of "bucket-1". The URL reflects the selected bucket and folder path correctly.
+- All three upload entry points function correctly
+- Files uploaded to subfolder "a1": sample.txt, sample.png
+- File uploaded to bucket root: sample.md
+- Nested path "a1/nested/deep" auto-created with sample2.txt
+- Breadcrumbs and URLs update correctly for all navigation
 
 ---
 
@@ -103,7 +119,22 @@ All three upload options work correctly. "sample.txt" and "sample.png" are in su
 
 **Pass:**
 - All steps complete without errors.
-- Files uploaded via all three options appear in correct locations; URL reflects current selection.
+- All upload paths work; files appear in correct locations; nested folders auto-created; breadcrumbs/URLs accurate.
 
 **Fail:**
-- Any upload option fails, or files appear in incorrect locations, or URL does not update correctly.
+- Any upload option fails, files in wrong locations, nested path not created, or breadcrumb/URL incorrect.
+
+---
+
+## Notes
+
+**Source functional tests:** ELITEA-1824, ELITEA-1827, ELITEA-1834, ELITEA-1835
+
+**Regression rationale:** Consolidates all upload path variations into a comprehensive end-to-end flow covering the three upload entry points, subfolder vs root targeting, and nested path auto-creation.
+
+**Selected checkpoints:**
+- Center button upload (ELITEA-1824, ELITEA-1834)
+- Top-right icon upload with pre-filled path (ELITEA-1824, ELITEA-1834)
+- Bucket 3-dot menu upload to root (ELITEA-1824, ELITEA-1835)
+- Nested non-existing folder auto-creation (ELITEA-1827)
+- Breadcrumb and URL updates (ELITEA-1824)
