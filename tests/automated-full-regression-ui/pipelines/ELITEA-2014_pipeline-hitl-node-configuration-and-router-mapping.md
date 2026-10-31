@@ -9,6 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_hitl_node_configuration.test_hitl_node_configuration_and_router_mapping
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/8b46a5d8
 requirements: []
 ---
 
