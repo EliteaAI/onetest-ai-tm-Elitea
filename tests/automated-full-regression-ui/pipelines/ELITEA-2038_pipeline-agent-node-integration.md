@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_agent_node_integration.test_agent_node_fresh_attach
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/3d71a16b
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/9e38607f
 ---
 
 # ELITEA-2038: Pipeline — Agent Node Integration
@@ -45,12 +45,12 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/3d71a16b
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Open a pipeline | Pipeline is open for editing |
-| 2 | In the left panel "Tools" section, click "+ Agent" button | Agent picker opens |
-| 3 | From the Agent picker, select an existing agent (e.g., "IssueTriageSpecialist") | Agent is selected |
-| 4 | Verify agent appears in Tools list under Agent sub-tab | Agent is listed under the Agent sub-tab in Tools |
-| 5 | Click "Add node" on canvas → select "Agent" | Agent node is added to the canvas |
-| 6 | Verify Agent node panel shows: Agent dropdown, Input combobox, Output combobox, INPUT MAPPING (REQUIRED 1) with TASK section (Type+Value) | All listed sections are present |
-| 7 | Select attached agent from "Agent" dropdown (e.g., "IssueTriageSpecialist") | Agent is selected in the dropdown |
+| 2 | Click "Add node" on canvas → select "Agent" (the Tools section no longer has a "+ Agent" button; agents are picked inside the node) | Agent node is added to the canvas |
+| 3 | Open the node's "Agents & Pipelines" picker and select an existing agent (e.g., "IssueTriageSpecialist") | Agent is selected in the node |
+| 4 | Verify the agent appears in the left panel Tools list | Agent card is listed in Tools (attachment is persisted on Save) |
+| 5 | Verify the Agent node panel is open | Node panel shows the Agent picker and the TASK input-mapping field |
+| 6 | Verify Agent node panel shows: Agent picker, TASK field (Type+Value); Input and Output comboboxes are in the collapsed "Advanced" section | All listed sections are present |
+| 7 | Expand "Advanced" in the node panel | Input and Output comboboxes are visible |
 | 8 | Set Input combobox — add state variables "normalized_issue", "kb_results" | Both variables are added to Input |
 | 9 | Set Output combobox — add output variable "triage_summary" | "triage_summary" is added to Output |
 | 10 | In INPUT MAPPING (REQUIRED 1) → TASK: set Type to "F-String", Value: "Triage this critical GitHub issue. Issue: {normalized_issue}" | TASK mapping is configured |
