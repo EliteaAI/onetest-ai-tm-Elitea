@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#3054]
 
 **Module:** Sharepoint · **Priority:** Critical · **Type:** Functional
 
-**Objective:** Verify that delegated authentication flow completes successfully for personal SharePoint URLs (e.g., `https://epam-my.sharepoint.com/personal/username/`) and establishes a valid connection.
+**Objective:** Verify that delegated authentication flow completes successfully for personal SharePoint URLs (e.g., `https://your-tenant-my.sharepoint.com/personal/username/`) and establishes a valid connection.
 
 **Coverage:**
 - Personal SharePoint URL format accepted in Site URL field
@@ -30,7 +30,7 @@ requirements: [EliteaAI/elitea_issues#3054]
 
 ## Test Data
 
-- Site URL: `https://epam-my.sharepoint.com/personal/your_username/`
+- Site URL: `https://your-tenant-my.sharepoint.com/personal/your_username/`
 - OAuth Discovery Endpoint: `https://login.microsoftonline.com/{tenant}/v2.0/.well-known/openid-configuration`
 - Scopes: `Files.ReadWrite.All, Sites.ReadWrite.All, Sites.Selected, User.Read, Notes.ReadWrite.All`
 
@@ -44,7 +44,7 @@ requirements: [EliteaAI/elitea_issues#3054]
 | 4 | Enter ID: "personal_sharepoint_test" | Field populated |
 | 5 | Enter Client ID from Azure App Registration | Field populated (masked) |
 | 6 | Enter Client Secret | Field populated (masked with dots) |
-| 7 | Enter Site URL: `https://epam-my.sharepoint.com/personal/your_username/` | Personal URL format accepted without validation error |
+| 7 | Enter Site URL: `https://your-tenant-my.sharepoint.com/personal/your_username/` | Personal URL format accepted without validation error |
 | 8 | Select Auth Type: "Delegated" | Delegated selected from dropdown |
 | 9 | Enter OAuth Discovery Endpoint | Field populated with Microsoft endpoint URL |
 | 10 | Enter Scopes: `Files.ReadWrite.All, Sites.ReadWrite.All, Sites.Selected, User.Read, Notes.ReadWrite.All` | Scopes field populated |

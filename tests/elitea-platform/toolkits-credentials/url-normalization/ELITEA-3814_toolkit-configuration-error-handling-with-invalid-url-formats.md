@@ -20,7 +20,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 | Test Scenario | Input URL | Expected Behavior |
 |---------------|-----------|-------------------|
 | Invalid URL (not a URL) | `not-a-url` | Validation error: "Invalid URL format" |
-| Missing protocol | `jiraeu.epam.com/` | Validation error or warning |
+| Missing protocol | `jira.example.com/` | Validation error or warning |
 | URL with spaces | `https://jira eu.epam.com/` | Validation error: "URL contains invalid characters" |
 | Very long URL with trailing slash | `https://very-long-subdomain-name-that-exceeds-normal-length.example.com/` | URL normalized, connection attempt (may fail for other reasons, not URL format) |
 
@@ -32,7 +32,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 | 2 | Click "+ Credential" and start configuring a Jira credential | Credential configuration form opens |
 | 3 | Enter invalid Base URL (not a URL): `not-a-url` | Field validation triggers |
 | 4 | Attempt to save or check connection | Appropriate error message displayed: "Invalid URL format" or similar |
-| 5 | Clear field and enter URL without protocol: `jiraeu.epam.com/` | Field validation triggers or warning shown |
+| 5 | Clear field and enter URL without protocol: `jira.example.com/` | Field validation triggers or warning shown |
 | 6 | Attempt to check connection | Appropriate error or warning about missing protocol |
 | 7 | Clear field and enter URL with spaces: `https://jira eu.epam.com/` | Field validation triggers |
 | 8 | Attempt to save credential | Error message: "URL contains invalid characters" or similar |

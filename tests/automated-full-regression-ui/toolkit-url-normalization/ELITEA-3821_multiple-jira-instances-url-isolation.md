@@ -23,7 +23,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 - User is logged in to the Elitea platform
 - User has access to Credentials, Toolkits & Indexes, and Agents sections
 - Valid credentials for two different Jira instances are available
-- Two Jira instances: `https://jiraeu.epam.com` and `https://jira.example.com` (or two different projects on same instance)
+- Two Jira instances: `https://jira.example.com` and `https://jira.example.com` (or two different projects on same instance)
 
 ---
 
@@ -31,8 +31,8 @@ requirements: [EliteaAI/elitea_issues#6810]
 
 | Instance | Credential Name | Base URL | Toolkit Name | Agent Name |
 |----------|----------------|----------|--------------|------------|
-| Jira 1 | autotest_jira1_no_slash | `https://jiraeu.epam.com` (no slash) | autotest_jira_toolkit1 | autotest_agent_jira1 |
-| Jira 2 | autotest_jira2_with_slash | `https://jiraeu.epam.com/` (with slash) | autotest_jira_toolkit2 | autotest_agent_jira2 |
+| Jira 1 | autotest_jira1_no_slash | `https://jira.example.com` (no slash) | autotest_jira_toolkit1 | autotest_agent_jira1 |
+| Jira 2 | autotest_jira2_with_slash | `https://jira.example.com/` (with slash) | autotest_jira_toolkit2 | autotest_agent_jira2 |
 
 ---
 
@@ -44,7 +44,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 |---|--------|-----------------|
 | 1 | Navigate to Credentials section | Credentials page loads |
 | 2 | Create Jira credential "autotest_jira1_no_slash" | Credential form opens |
-| 3 | Enter Base URL WITHOUT trailing slash: `https://jiraeu.epam.com` | Field accepts URL |
+| 3 | Enter Base URL WITHOUT trailing slash: `https://jira.example.com` | Field accepts URL |
 | 4 | Enter valid Jira credentials for first instance | Credentials accepted |
 | 5 | Click "Test connection" | Connection succeeds |
 | 6 | Save credential | Credential "autotest_jira1_no_slash" saved successfully |
@@ -54,7 +54,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 7 | Create Jira credential "autotest_jira2_with_slash" | Credential form opens |
-| 8 | Enter Base URL WITH trailing slash: `https://jiraeu.epam.com/` | Field accepts URL with slash |
+| 8 | Enter Base URL WITH trailing slash: `https://jira.example.com/` | Field accepts URL with slash |
 | 9 | Enter valid Jira credentials for second instance | Credentials accepted |
 | 10 | Click "Test connection" | Connection succeeds (URL normalized) |
 | 11 | Save credential | Credential "autotest_jira2_with_slash" saved successfully |
@@ -82,9 +82,9 @@ requirements: [EliteaAI/elitea_issues#6810]
 | 23 | Save Agent | Agent "autotest_agent_jira1" saved |
 | 24 | Create Agent "autotest_agent_jira2" with toolkit "autotest_jira_toolkit2" | Agent created with second Jira toolkit |
 | 25 | Save Agent | Agent "autotest_agent_jira2" saved |
-| 26 | Execute first Agent with Jira query | Agent executes, connects to jiraeu.epam.com (no slash) |
+| 26 | Execute first Agent with Jira query | Agent executes, connects to jira.example.com (no slash) |
 | 27 | Verify first Agent execution completes successfully | No URL-related errors |
-| 28 | Execute second Agent with Jira query | Agent executes, connects to jiraeu.epam.com/ (normalized) |
+| 28 | Execute second Agent with Jira query | Agent executes, connects to jira.example.com/ (normalized) |
 | 29 | Verify second Agent execution completes successfully | No URL-related errors |
 | 30 | Verify each Agent uses correct Jira credential | Each agent connects to its respective credential configuration |
 | 31 | Execute both Agents in sequence or parallel | Both work independently without interference |

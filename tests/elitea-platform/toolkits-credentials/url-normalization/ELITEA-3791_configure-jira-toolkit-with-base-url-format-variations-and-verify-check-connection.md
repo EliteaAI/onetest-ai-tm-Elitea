@@ -21,9 +21,9 @@ requirements: [EliteaAI/elitea_issues#6810]
 | Field | Value |
 |-------|-------|
 | URL | `{{base_url}}/app/` |
-| Jira base_url variant 1 | `https://jiraeu.epam.com` (no trailing slash) |
-| Jira base_url variant 2 | `https://jiraeu.epam.com/` (single trailing slash) |
-| Jira base_url variant 3 | `https://jiraeu.epam.com///` (multiple trailing slashes) |
+| Jira base_url variant 1 | `https://jira.example.com` (no trailing slash) |
+| Jira base_url variant 2 | `https://jira.example.com/` (single trailing slash) |
+| Jira base_url variant 3 | `https://jira.example.com///` (multiple trailing slashes) |
 | Jira username | Valid Jira username |
 | Jira API token | Valid Jira API token |
 
@@ -34,14 +34,14 @@ requirements: [EliteaAI/elitea_issues#6810]
 | 1 | Navigate to Credentials section | Credentials page loads successfully |
 | 2 | Click "+ Credential" button and select "Jira" | New Jira Credential form opens |
 | 3 | Enter Display Name: "Jira Test 1" | Display Name field accepts the input |
-| 4 | Enter Base URL WITHOUT trailing slash: `https://jiraeu.epam.com` | Base URL field accepts the input |
+| 4 | Enter Base URL WITHOUT trailing slash: `https://jira.example.com` | Base URL field accepts the input |
 | 5 | Select Auth type: "Bearer" and enter valid Jira token. Click "Check Connection" button | Success message displayed: "The connecton is OK!" |
 | 6 | Click "Save" button | Credential saved successfully |
 | 7 | Edit the same Jira credential | Credential form opens with saved values |
-| 8 | Change Base URL to include single trailing slash: `https://jiraeu.epam.com/`. Click "Check Connection" button again | Success message displayed (URL normalized server-side, trailing slashes handled correctly) |
+| 8 | Change Base URL to include single trailing slash: `https://jira.example.com/`. Click "Check Connection" button again | Success message displayed (URL normalized server-side, trailing slashes handled correctly) |
 | 9 | Click "Save" button | Credential saved successfully |
 | 10 | Edit the credential again | Credential form opens |
-| 11 | Change Base URL to include multiple trailing slashes: `https://jiraeu.epam.com///`. Click "Check Connection" button | Success message displayed (URL normalized server-side, trailing slashes handled correctly) |
+| 11 | Change Base URL to include multiple trailing slashes: `https://jira.example.com///`. Click "Check Connection" button | Success message displayed (URL normalized server-side, trailing slashes handled correctly) |
 | 12 | Click "Save" button | Credential saved successfully with normalized URL |
 | 13 | Navigate to Toolkits & Indexes section | Toolkits page loads successfully |
 | 214 | Click "+ Toolkit" button and select "Jira" | New Jira Toolkit form opens |

@@ -21,7 +21,7 @@ requirements: [EliteaAI/elitea_issues#6176]
 | Field | Value |
 |-------|-------|
 | URL | `{{base_url}}/app/` |
-| Test files repository | `https://epam.sharepoint.com/:f:/r/sites/EPAMAlita_test_sam/Shared%20Documents/Test_Chornyi/6176-html-js-test-files` |
+| Test files repository | `{{sharepoint_test_files_url}}` |
 | File | `session-access-targeted.html` — probes `document.cookie`, `localStorage` (keys such as `elitea_mcp_tokens_v1`, `elitea_ui.project.id`, `elitea_ui.project_permission`, `ActiveConversationParticipantKey`), and `window.parent` |
 
 ## Steps

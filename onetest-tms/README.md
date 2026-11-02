@@ -44,5 +44,4 @@ npm test            # spawns the server and exercises the read-only tools
 npm login           # once
 npm publish         # publishes @onetest/tms (public)
 ```
-Or cut a GitHub Release to publish via the `publish-onetest-tms` workflow (needs the `NPM_TOKEN`
-repo secret).
+The canonical source and release pipeline for `@onetest/tms` is [onetest-ai/tms](https://github.com/onetest-ai/tms).

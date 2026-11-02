@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 ## Preconditions
 
 - User is logged in to `{{base_url}}`
-- Three toolkits configured with trailing slashes: Jira (`https://jiraeu.epam.com/`), GitHub (`https://github.example.com/api/v3/`), Salesforce (`https://company.my.salesforce.com/`)
+- Three toolkits configured with trailing slashes: Jira (`https://jira.example.com/`), GitHub (`https://github.example.com/api/v3/`), Salesforce (`https://company.my.salesforce.com/`)
 - Check Connection passed for all three toolkits
 - User has access to Pipelines section
 
@@ -22,7 +22,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 | Field | Value |
 |-------|-------|
 | URL | `{{base_url}}/app/` |
-| Jira base_url | `https://jiraeu.epam.com/` (with trailing slash) |
+| Jira base_url | `https://jira.example.com/` (with trailing slash) |
 | GitHub base_url | `https://github.example.com/api/v3/` (with trailing slash) |
 | Salesforce base_url | `https://company.my.salesforce.com/` (with trailing slash) |
 | Pipeline name | `Multi-Toolkit Pipeline - URL Normalization Test` |

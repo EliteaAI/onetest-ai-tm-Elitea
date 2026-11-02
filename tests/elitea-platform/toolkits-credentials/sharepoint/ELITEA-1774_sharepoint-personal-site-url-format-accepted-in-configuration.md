@@ -22,8 +22,8 @@ requirements: [EliteaAI/elitea_issues#3054]
 
 ## Test Data
 
-- Personal site URL format: `https://epam-my.sharepoint.com/personal/firstname_lastname/`
-- Organizational site URL format (for comparison): `https://epam.sharepoint.com/sites/TeamSite/`
+- Personal site URL format: `https://your-tenant-my.sharepoint.com/personal/firstname_lastname/`
+- Organizational site URL format (for comparison): `https://your-tenant.sharepoint.com/sites/TeamSite/`
 
 ## Steps
 
@@ -31,7 +31,7 @@ requirements: [EliteaAI/elitea_issues#3054]
 |---|--------|----------------|
 | 1 | Navigate to Credentials → Click "+ Credential" | Credential creation form opens |
 | 2 | Select "SharePoint" type | SharePoint configuration form displayed |
-| 3 | Enter personal Site URL: `https://epam-my.sharepoint.com/personal/firstname_lastname/` | URL field populated |
+| 3 | Enter personal Site URL: `https://your-tenant-my.sharepoint.com/personal/firstname_lastname/` | URL field populated |
 | 4 | Tab out of Site URL field or click elsewhere | No validation error appears; Field accepts personal URL format |
 | 5 | Complete other required fields (Client ID, Secret, Auth type) | Fields populated |
 | 6 | Click "Save" or "Test connection" | Action proceeds without URL format rejection |

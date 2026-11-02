@@ -20,7 +20,7 @@ requirements: [EliteaAI/elitea_issues#6176]
 | Field | Value |
 |-------|-------|
 | URL | `{{base_url}}/app/` |
-| Test files repository | `https://epam.sharepoint.com/:f:/r/sites/EPAMAlita_test_sam/Shared%20Documents/Test_Chornyi/6176-html-js-test-files` |
+| Test files repository | `{{sharepoint_test_files_url}}` |
 | File (variant 1) | `inline-script-basic.html` — contains `<script>document.getElementById('out').textContent = 'JS ran';</script>` |
 | File (variant 2) | `inline-script-basic.htm` — identical content, `.htm` extension |
 

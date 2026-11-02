@@ -20,7 +20,7 @@ requirements: [EliteaAI/elitea_issues#6176]
 | Field | Value |
 |-------|-------|
 | URL | `{{base_url}}/app/` |
-| Test files repository | `https://epam.sharepoint.com/:f:/r/sites/EPAMAlita_test_sam/Shared%20Documents/Test_Chornyi/6176-html-js-test-files` |
+| Test files repository | `{{sharepoint_test_files_url}}` |
 | File | `timers-test.html` |
 
 ## Steps

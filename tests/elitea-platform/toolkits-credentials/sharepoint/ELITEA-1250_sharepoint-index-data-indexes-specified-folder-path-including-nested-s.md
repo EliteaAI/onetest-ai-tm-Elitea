@@ -30,7 +30,7 @@ requirements: [ProjectAlita/projectalita.github.io#3367]
 
 ## Test Data
 
-- SharePoint site path: /sites/EPAMAlita_test_sam/Alita_test/
+- SharePoint site path: /sites/test-site/Alita_test/
 - Folder structure: at least 2 levels of nested subfolders, each containing at least 1 file
 - Toolkit name: SharePoint toolkit with REST API access
 - Tool: index_data
@@ -41,7 +41,7 @@ requirements: [ProjectAlita/projectalita.github.io#3367]
 |---|--------|----------------|
 | 1 | Navigate to Toolkits. Open the SharePoint toolkit configured with REST API access. | SharePoint toolkit configuration page is displayed with the index_data tool available. |
 | 2 | Open the index_data tool. Leave the folder path parameter empty. Execute the tool. | Tool executes without error. Documents from the default site root are indexed successfully. No IndexError is thrown. |
-| 3 | Open the index_data tool again. In the folder path parameter, enter a path that contains nested subfolders (e.g., /sites/EPAMAlita_test_sam/Alita_test/). Execute the tool. | Tool executes without error. Indexing starts for the specified folder path. |
+| 3 | Open the index_data tool again. In the folder path parameter, enter a path that contains nested subfolders (e.g., /sites/test-site/Alita_test/). Execute the tool. | Tool executes without error. Indexing starts for the specified folder path. |
 | 4 | Wait for the indexing to complete. Observe the result or success message. | Tool completes successfully. Files from the specified folder AND its nested subfolders are indexed. No IndexError: list index out of range is thrown. The indexed document count is non-zero. |
 | 5 | Use the search or query capability of the SharePoint toolkit to retrieve a document that was located in a nested subfolder of the indexed path. | The document from the nested subfolder is found and retrievable, confirming that nested folders were indexed correctly. |
 

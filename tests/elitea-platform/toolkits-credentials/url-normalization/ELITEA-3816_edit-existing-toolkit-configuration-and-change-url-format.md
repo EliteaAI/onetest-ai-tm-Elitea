@@ -20,7 +20,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 
 | Credential Type | Original URL (no slash) | Modified URL (with slash) |
 |-----------------|------------------------|---------------------------|
-| Jira | `https://jiraeu.epam.com` | `https://jiraeu.epam.com/` |
+| Jira | `https://jira.example.com` | `https://jira.example.com/` |
 | GitHub | `https://github.example.com/api/v3` | `https://github.example.com/api/v3/` |
 | Salesforce | `https://company.my.salesforce.com` | `https://company.my.salesforce.com/` |
 | SonarQube | `https://sonar.example.com` | `https://sonar.example.com/` |
@@ -32,8 +32,8 @@ requirements: [EliteaAI/elitea_issues#6810]
 | 1 | Navigate to Credentials section | Credentials page loads successfully |
 | 2 | Locate pre-configured Jira credential in list | Jira credential visible |
 | 3 | Click "Edit" or open Jira credential configuration | Credential form opens with saved values |
-| 4 | Verify current Base URL: `https://jiraeu.epam.com` (no trailing slash) | URL displayed without trailing slash |
-| 5 | Edit Base URL to add trailing slash: `https://jiraeu.epam.com/` | Field accepts the change |
+| 4 | Verify current Base URL: `https://jira.example.com` (no trailing slash) | URL displayed without trailing slash |
+| 5 | Edit Base URL to add trailing slash: `https://jira.example.com/` | Field accepts the change |
 | 6 | Click "Check Connection" to verify | Connection check initiates |
 | 7 | Verify connection succeeds with new URL format | Success message displayed (URL normalized) |
 | 8 | Click "Save" to update credential | Credential updated successfully |

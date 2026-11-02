@@ -25,7 +25,7 @@ requirements: [EliteaAI/elitea_issues#3054, EliteaAI/elitea_issues#5349]
 ## Test Data
 
 - Malformed URL 1: `my.sharepoint.com/:u:/r/personal/test.pdf` (missing `https://`)
-- Malformed URL 2: `https://epam-my.sharepoint.com` (incomplete path)
+- Malformed URL 2: `https://your-tenant-my.sharepoint.com` (incomplete path)
 
 ## Steps
 

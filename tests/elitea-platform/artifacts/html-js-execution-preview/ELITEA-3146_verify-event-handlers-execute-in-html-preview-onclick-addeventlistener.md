@@ -20,7 +20,7 @@ requirements: [EliteaAI/elitea_issues#6176, EliteaAI/elitea_issues#6494]
 | Field | Value |
 |-------|-------|
 | URL | `{{base_url}}/app/` |
-| Test files repository | `https://epam.sharepoint.com/:f:/r/sites/EPAMAlita_test_sam/Shared%20Documents/Test_Chornyi/6176-html-js-test-files` |
+| Test files repository | `{{sharepoint_test_files_url}}` |
 | File | `js-diagnostic.html` — contains 4 diagnostic tests including Test 3 (`onclick` attribute) and Test 4 (`addEventListener`) |
 
 ## Steps

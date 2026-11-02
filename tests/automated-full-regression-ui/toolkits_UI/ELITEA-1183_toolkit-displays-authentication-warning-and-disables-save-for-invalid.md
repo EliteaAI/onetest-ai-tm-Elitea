@@ -36,7 +36,7 @@ requirements: [EliteaAI/elitea_issues#4906, EliteaAI/elitea_issues#5114]
 |---|---|
 | Jira credential display name | InvalidJira_Test |
 | Jira Bearer token | 1231414Htr3434hR (invalid) |
-| Jira Base URL | https://jiraeu.epam.com |
+| Jira Base URL | https://jira.example.com |
 | Jira toolkit name | InvalidJira_Toolkit_Test |
 | GitHub credential display name | InvalidGitHub_Test |
 | GitHub token | ghp_invalidtoken123456789012345678901234 (invalid) |
@@ -49,7 +49,7 @@ requirements: [EliteaAI/elitea_issues#4906, EliteaAI/elitea_issues#5114]
 |---|--------|----------------|
 | 1 | Navigate to Credentials from sidebar. Click + Credential. | Credential creation form is displayed. |
 | 2 | Select Jira as the credential type. | Jira credential form is displayed. |
-| 3 | Fill in: Display Name = InvalidJira_Test, Bearer token = 1231414Htr3434hR, Base URL = https://jiraeu.epam.com. | All fields are filled with provided values. |
+| 3 | Fill in: Display Name = InvalidJira_Test, Bearer token = 1231414Htr3434hR, Base URL = https://jira.example.com. | All fields are filled with provided values. |
 | 4 | Click Save. | Credential is created successfully and appears in the credentials list. |
 | 5 | Navigate to Toolkits from sidebar. Click + Toolkit. | Toolkit creation form is displayed. |
 | 6 | Select Jira as the toolkit type. | Jira toolkit form is displayed. |
