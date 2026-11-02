@@ -417,27 +417,6 @@
       "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2364_agent-hub-my-liked-filter-shows-only-liked-agents.md"
     },
     {
-      "id": "ELITEA-2365",
-      "title": "Agent Hub — My Liked reload button refreshes list with likes made in another tab",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "agent-hub",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:agent-hub"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2365_agent-hub-my-liked-reload-button-refreshes-list-with-likes-m.md"
-    },
-    {
       "id": "ELITEA-2366",
       "title": "Agent Hub — Trending category displays agents",
       "status": "ready",
@@ -767,7 +746,7 @@
     },
     {
       "id": "ELITEA-1871",
-      "title": "Create agent — instructions field alone does not enable Save (name+description both required)",
+      "title": "Agent lifecycle: Create with validation, edit and persist, discard changes",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -785,48 +764,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/agents/ELITEA-1871_create-agent-instructions-alone-does-not-enable-save.md"
-    },
-    {
-      "id": "ELITEA-1872",
-      "title": "Edit agent instructions and verify persistence",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "critical",
-      "size": "",
-      "module": "agents",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:agents"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1872_edit-agent-instructions-and-verify-persistence.md"
-    },
-    {
-      "id": "ELITEA-1873",
-      "title": "Discard changes resets all unsaved edits",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "critical",
-      "size": "",
-      "module": "agents",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:agents"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1873_discard-changes-resets-all-unsaved-edits.md"
     },
     {
       "id": "ELITEA-1874",
@@ -960,7 +897,7 @@
     },
     {
       "id": "ELITEA-1880",
-      "title": "LLM selector — change model, verify settings dialog, save and persist",
+      "title": "LLM selector: Change model, verify settings dialog, test Anthropic and OpenAI providers",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -978,48 +915,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/agents/ELITEA-1880_llm-selector-change-model-verify-settings-dialog-save-persist.md"
-    },
-    {
-      "id": "ELITEA-1881",
-      "title": "LLM selector — Anthropic models are available and functional (Claude 4.5 Sonnet, Claude 4.6 Sonnet, Claude Haiku 4.5)",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "agents",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:agents"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1881_llm-selector-anthropic-models-are-available-and-functional.md"
-    },
-    {
-      "id": "ELITEA-1882",
-      "title": "LLM selector — OpenAI models are available and functional (GPT-4.1, GPT-5 mini, GPT-5.2, GPT-5.4, GPT-5.4-mini)",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "agents",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:agents"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/agents/ELITEA-1882_llm-selector-openai-models-are-available-and-functional.md"
     },
     {
       "id": "ELITEA-1883",
@@ -1636,7 +1531,7 @@
     },
     {
       "id": "ELITEA-1907",
-      "title": "Build with AI — generated draft includes suggested resources section",
+      "title": "Build with AI — suggested resources section is shown and requires explicit selection",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -1653,28 +1548,7 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1907_build-with-ai-generated-draft-includes-suggested-resources-section.md"
-    },
-    {
-      "id": "ELITEA-1908",
-      "title": "Build with AI — suggested resources require explicit selection before creation",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "agents",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:agents"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1908_build-with-ai-suggested-resources-require-explicit-selection.md"
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1907_build-with-ai-suggested-resources-section-shown-and-selection-required.md"
     },
     {
       "id": "ELITEA-1909",
@@ -1699,7 +1573,7 @@
     },
     {
       "id": "ELITEA-1910",
-      "title": "Build with AI — Suggested Skills section is shown with up to 5 skills",
+      "title": "Build with AI — suggested skills section is shown and selected skills are attached to created agent",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -1716,28 +1590,7 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1910_build-with-ai-suggested-skills-section-shown-with-up-to-5-skills.md"
-    },
-    {
-      "id": "ELITEA-1911",
-      "title": "Build with AI — selected suggested Skills are attached to the created agent",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "agents",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:agents"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1911_build-with-ai-selected-suggested-skills-attached-to-created-agent.md"
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1910_build-with-ai-suggested-skills-section-shown-and-attached.md"
     },
     {
       "id": "ELITEA-1912",
@@ -1846,7 +1699,7 @@
     },
     {
       "id": "ELITEA-1917",
-      "title": "Build with AI — Cancel from prompt step closes modal without creating an agent",
+      "title": "Build with AI — Cancel from any step closes modal without creating an agent",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -1863,28 +1716,7 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1917_build-with-ai-cancel-from-prompt-step-closes-modal.md"
-    },
-    {
-      "id": "ELITEA-1918",
-      "title": "Build with AI — Cancel from review step closes modal without creating an agent",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "agents",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:agents"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1918_build-with-ai-cancel-from-review-step-closes-modal.md"
+      "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1917_build-with-ai-cancel-from-any-step-closes-modal.md"
     },
     {
       "id": "ELITEA-1919",
@@ -2127,7 +1959,7 @@
     },
     {
       "id": "ELITEA-1812",
-      "title": "Bucket Name Is Always Stored and Displayed in Lowercase",
+      "title": "Bucket Name Field: Validation Rules (empty, lowercase, length limits, save/cancel)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -2145,27 +1977,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1812_bucket-name-always-stored-in-lowercase.md"
-    },
-    {
-      "id": "ELITEA-1813",
-      "title": "Bucket Cannot Be Created with an Empty Name Field",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1813_bucket-cannot-be-created-with-empty-name.md"
     },
     {
       "id": "ELITEA-1814",
@@ -2193,27 +2004,6 @@
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1814_bucket-name-rejects-non-alphanumeric-except-hyphen.md"
     },
     {
-      "id": "ELITEA-1815",
-      "title": "Save and Cancel Buttons Active with Valid Values; Cancel Does Not Create Bucket",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1815_save-cancel-buttons-active-cancel-no-create.md"
-    },
-    {
       "id": "ELITEA-1816",
       "title": "Bucket Name Is Read-Only in Edit Mode and Displayed in Lowercase After Creation",
       "status": "draft",
@@ -2233,69 +2023,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1816_bucket-name-readonly-in-edit-mode-lowercase.md"
-    },
-    {
-      "id": "ELITEA-1817",
-      "title": "Create Artifact Bucket with 55-Character Name and Delete It",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1817_create-artifact-bucket-55-char-name-and-delete.md"
-    },
-    {
-      "id": "ELITEA-1818",
-      "title": "Create Artifact Bucket with 56-Character Name and Verify Limit Warning and Delete Cancellation",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1818_create-bucket-56-char-name-limit-warning-cancel-delete.md"
-    },
-    {
-      "id": "ELITEA-1819",
-      "title": "Bucket Name Field Does Not Accept More Than 56 Characters",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1819_bucket-name-field-max-56-characters.md"
     },
     {
       "id": "ELITEA-1820",
@@ -2383,7 +2110,7 @@
     },
     {
       "id": "ELITEA-1824",
-      "title": "Upload Files to Bucket Subfolder via Three Upload Options and Verify Bucket Selection and Contents",
+      "title": "Upload Flow: Three upload paths, subfolder/root destinations, nested paths",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -2404,7 +2131,7 @@
     },
     {
       "id": "ELITEA-1825",
-      "title": "Upload Flow – Cancel Upload Modal Discards File Selection",
+      "title": "Upload Flow: Cancel modal and Close X button discard file selection",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -2445,27 +2172,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1826_upload-flow-upload-multiple-files-at-once.md"
-    },
-    {
-      "id": "ELITEA-1827",
-      "title": "Upload Flow – Upload File to Nested Subfolder Path (Non-Existing Folder)",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1827_upload-flow-nested-subfolder-non-existing.md"
     },
     {
       "id": "ELITEA-1828",
@@ -2579,69 +2285,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1832_upload-flow-duplicate-cancel-stops-entire-upload.md"
-    },
-    {
-      "id": "ELITEA-1833",
-      "title": "Upload Flow – Duplicate Handling: Close X Button on Resolve Duplicates Modal",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1833_upload-flow-duplicate-close-x-button.md"
-    },
-    {
-      "id": "ELITEA-1834",
-      "title": "Upload Flow – File Uploaded to Selected Subfolder When Using Bucket Actions Button",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1834_upload-flow-file-uploaded-to-selected-subfolder.md"
-    },
-    {
-      "id": "ELITEA-1835",
-      "title": "Upload Flow – File Uploaded to Bucket Root When Bucket (Not Subfolder) Is Selected",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1835_upload-flow-file-uploaded-to-bucket-root.md"
     },
     {
       "id": "ELITEA-1836",
@@ -2817,7 +2460,7 @@
     },
     {
       "id": "ELITEA-1844",
-      "title": "Delete Flow – Delete Single File via Actions Dropdown",
+      "title": "Delete Flow: Single file, delete all, cancel/close variations",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -2835,27 +2478,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1844_delete-flow-single-file-actions-dropdown.md"
-    },
-    {
-      "id": "ELITEA-1845",
-      "title": "Delete Flow – Delete Single File via Actions Dropdown – Cancel Keeps File Intact",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1845_delete-flow-single-file-cancel-keeps-file.md"
     },
     {
       "id": "ELITEA-1846",
@@ -2902,69 +2524,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1847_delete-flow-subfolder-checkbox-deletes-contents.md"
-    },
-    {
-      "id": "ELITEA-1848",
-      "title": "Delete Flow – Delete All Files and Folders Using Select All Checkbox via Delete All Files Icon",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1848_delete-flow-all-files-select-all-checkbox.md"
-    },
-    {
-      "id": "ELITEA-1849",
-      "title": "Delete Flow – Cancel Delete All Keeps All Items Intact",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1849_delete-flow-cancel-delete-all-keeps-items.md"
-    },
-    {
-      "id": "ELITEA-1850",
-      "title": "Delete Flow – Close X on Delete Confirmation Modal Keeps Items Intact",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1850_delete-flow-close-x-modal-keeps-items.md"
     },
     {
       "id": "ELITEA-1851",
@@ -4257,48 +3816,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2099_chat-conversation-rename-basic-rename-via-edit-option.md"
     },
     {
-      "id": "ELITEA-2100",
-      "title": "Chat – Conversation Rename – Cancel Discards Changes",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2100_chat-conversation-rename-cancel-discards-changes.md"
-    },
-    {
-      "id": "ELITEA-2101",
-      "title": "Chat – Conversation Rename – Save with 49 Characters",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2101_chat-conversation-rename-save-with-49-characters.md"
-    },
-    {
       "id": "ELITEA-2102",
       "title": "Chat – Conversation Rename – Save with 50 Characters (Boundary)",
       "status": "draft",
@@ -4318,237 +3835,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2102_chat-conversation-rename-save-with-50-characters-boundary.md"
-    },
-    {
-      "id": "ELITEA-2103",
-      "title": "Chat – Conversation Rename – Cannot Type Beyond 50 Characters",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2103_chat-conversation-rename-cannot-type-beyond-50-characters.md"
-    },
-    {
-      "id": "ELITEA-2104",
-      "title": "Chat – Conversation Rename – Cannot Paste More Than 50 Characters",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2104_chat-conversation-rename-cannot-paste-more-than-50-characters.md"
-    },
-    {
-      "id": "ELITEA-2105",
-      "title": "Chat – Conversation Rename – Check Icon Inactive When No Changes Made",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2105_chat-conversation-rename-check-icon-inactive-when-no-changes-made.md"
-    },
-    {
-      "id": "ELITEA-2106",
-      "title": "Chat – Conversation Rename – Check Icon Inactive When Name Field is Empty",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2106_chat-conversation-rename-check-icon-inactive-when-name-field-is-empty.md"
-    },
-    {
-      "id": "ELITEA-2107",
-      "title": "Chat – Conversation Rename – Check Icon Inactive for 1 Character Input",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2107_chat-conversation-rename-check-icon-inactive-for-1-character-input.md"
-    },
-    {
-      "id": "ELITEA-2108",
-      "title": "Chat – Conversation Rename – Check Icon Inactive for 2 Character Input",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2108_chat-conversation-rename-check-icon-inactive-for-2-character-input.md"
-    },
-    {
-      "id": "ELITEA-2109",
-      "title": "Chat – Conversation Rename – Check Icon Becomes Active at 3 Characters",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2109_chat-conversation-rename-check-icon-becomes-active-at-3-characters.md"
-    },
-    {
-      "id": "ELITEA-2110",
-      "title": "Chat – Conversation Rename – Check Icon Inactive When Name Contains Special Characters",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2110_chat-conversation-rename-check-icon-inactive-when-name-contains-special-characters.md"
-    },
-    {
-      "id": "ELITEA-2111",
-      "title": "Chat – Conversation Rename – Tooltip Validation Message Content",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2111_chat-conversation-rename-tooltip-validation-message-content.md"
-    },
-    {
-      "id": "ELITEA-2112",
-      "title": "Chat – Conversation Rename – First Character Cannot Be a Space",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2112_chat-conversation-rename-first-character-cannot-be-a-space.md"
-    },
-    {
-      "id": "ELITEA-2113",
-      "title": "Chat – Conversation Rename – Valid Characters Are Accepted and Saved after invalid values are deleted",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2113_chat-conversation-rename-valid-characters-are-accepted-and-saved-after-invalid-value.md"
     },
     {
       "id": "ELITEA-2114",
@@ -4635,27 +3921,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2117_chat-deletion-of-the-last-remaining-conversation-in-a-project.md"
     },
     {
-      "id": "ELITEA-2118",
-      "title": "Chat – Folder Name Edited Inline During Creation with Default Name Saved",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2118_chat-folder-name-edited-inline-during-creation-with-default-name-saved.md"
-    },
-    {
       "id": "ELITEA-2119",
       "title": "Chat – Folder Name Edited Inline During Creation with Custom Name",
       "status": "draft",
@@ -4717,174 +3982,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2121_chat-folder-rename-via-edit-option-in-context-menu.md"
-    },
-    {
-      "id": "ELITEA-2122",
-      "title": "Chat – Folder Rename – Cancel via X Icon Discards Changes",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2122_chat-folder-rename-cancel-via-x-icon-discards-changes.md"
-    },
-    {
-      "id": "ELITEA-2123",
-      "title": "Chat – Folder Rename – Validation Tooltip Displayed for Invalid Input",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2123_chat-folder-rename-validation-tooltip-displayed-for-invalid-input.md"
-    },
-    {
-      "id": "ELITEA-2124",
-      "title": "Chat – Folder Rename – Check Icon Inactive When Name is Empty",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2124_chat-folder-rename-check-icon-inactive-when-name-is-empty.md"
-    },
-    {
-      "id": "ELITEA-2125",
-      "title": "Chat – Folder Rename – Check Icon Inactive for Less Than 3 Characters",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2125_chat-folder-rename-check-icon-inactive-for-less-than-3-characters.md"
-    },
-    {
-      "id": "ELITEA-2126",
-      "title": "Chat – Folder Rename – Check Icon Becomes Active at 3 Characters",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2126_chat-folder-rename-check-icon-becomes-active-at-3-characters.md"
-    },
-    {
-      "id": "ELITEA-2127",
-      "title": "Chat – Folder Rename – First Character Cannot Be a Space",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2127_chat-folder-rename-first-character-cannot-be-a-space.md"
-    },
-    {
-      "id": "ELITEA-2128",
-      "title": "Chat – Folder Rename – Maximum 50 Characters Accepted",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2128_chat-folder-rename-maximum-50-characters-accepted.md"
-    },
-    {
-      "id": "ELITEA-2129",
-      "title": "Chat – Folder Rename – Cannot Type or Paste Beyond 50 Characters",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2129_chat-folder-rename-cannot-type-or-paste-beyond-50-characters.md"
     },
     {
       "id": "ELITEA-2130",
@@ -4950,27 +4047,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2132_chat-folder-creation-via-chats-header-icon.md"
     },
     {
-      "id": "ELITEA-2133",
-      "title": "Chat – Folder Creation with Custom Name via CHATS Header Icon",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2133_chat-folder-creation-with-custom-name-via-chats-header-icon.md"
-    },
-    {
       "id": "ELITEA-2134",
       "title": "Chat – Folder Creation Cancel Discards New Folder",
       "status": "draft",
@@ -5013,27 +4089,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2135_chat-move-conversation-to-existing-folder-via-move-to-menu.md"
     },
     {
-      "id": "ELITEA-2136",
-      "title": "Chat – Move Conversation to Existing Folder – Conversation Removed from Date Group",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2136_chat-move-conversation-to-existing-folder-conversation-removed-from-date-group.md"
-    },
-    {
       "id": "ELITEA-2137",
       "title": "Chat – Move Conversation to a New Folder via Move To Menu",
       "status": "draft",
@@ -5055,27 +4110,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2137_chat-move-conversation-to-a-new-folder-via-move-to-menu.md"
     },
     {
-      "id": "ELITEA-2138",
-      "title": "Chat – Move Conversation to a New Folder with Custom Name via Move To Menu",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2138_chat-move-conversation-to-a-new-folder-with-custom-name-via-move-to-menu.md"
-    },
-    {
       "id": "ELITEA-2139",
       "title": "Chat – Move Conversation Back to the List via Move To Menu",
       "status": "draft",
@@ -5095,27 +4129,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2139_chat-move-conversation-back-to-the-list-via-move-to-menu.md"
-    },
-    {
-      "id": "ELITEA-2140",
-      "title": "Chat – Conversation Moved from Older Back to List Appears in Today",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2140_chat-conversation-moved-from-older-back-to-list-appears-in-today.md"
     },
     {
       "id": "ELITEA-2141",
@@ -5160,27 +4173,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2142_chat-drag-and-drop-conversation-to-a-folder.md"
     },
     {
-      "id": "ELITEA-2143",
-      "title": "Chat – Drag and Drop Conversation Highlights Target Folder on Hover",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2143_chat-drag-and-drop-conversation-highlights-target-folder-on-hover.md"
-    },
-    {
       "id": "ELITEA-2144",
       "title": "Chat – Drag and Drop Conversation Between Two Folders",
       "status": "draft",
@@ -5221,48 +4213,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2145_chat-drag-and-drop-conversation-back-to-the-general-list.md"
-    },
-    {
-      "id": "ELITEA-2146",
-      "title": "Chat – Folder List is Scrollable When Many Folders Exist",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2146_chat-folder-list-is-scrollable-when-many-folders-exist.md"
-    },
-    {
-      "id": "ELITEA-2147",
-      "title": "Chat – Move To Submenu Folder List is Scrollable When Many Folders Exist",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2147_chat-move-to-submenu-folder-list-is-scrollable-when-many-folders-exist.md"
     },
     {
       "id": "ELITEA-2148",
@@ -5414,69 +4364,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2154_chat-pinned-folder-retains-all-conversations-after-pinning.md"
     },
     {
-      "id": "ELITEA-2155",
-      "title": "Chat – Empty Folder Can Be Pinned",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2155_chat-empty-folder-can-be-pinned.md"
-    },
-    {
-      "id": "ELITEA-2156",
-      "title": "Chat – Empty Folder Can Be Unpinned",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2156_chat-empty-folder-can-be-unpinned.md"
-    },
-    {
-      "id": "ELITEA-2157",
-      "title": "Chat – Conversation Inside a Folder Cannot Be Pinned Separately",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2157_chat-conversation-inside-a-folder-cannot-be-pinned-separately.md"
-    },
-    {
       "id": "ELITEA-2158",
       "title": "Chat – Pin Conversation Inside Folder by Moving It Out First",
       "status": "draft",
@@ -5517,27 +4404,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2159_chat-left-panel-order-verified-after-multiple-pin-actions.md"
-    },
-    {
-      "id": "ELITEA-2160",
-      "title": "Chat – Multiple Conversations Can Be Pinned Independently",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2160_chat-multiple-conversations-can-be-pinned-independently.md"
     },
     {
       "id": "ELITEA-2161",
@@ -5622,27 +4488,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2164_chat-search-cleared-by-clicking-x-icon-restores-default-view.md"
-    },
-    {
-      "id": "ELITEA-2165",
-      "title": "Chat – Search Input Cleared by Deleting Text Updates Results Dynamically",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2165_chat-search-input-cleared-by-deleting-text-updates-results-dynamically.md"
     },
     {
       "id": "ELITEA-2166",
@@ -5750,48 +4595,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2170_chat-team-project-remove-user-from-conversation-via-confirm-dialog.md"
     },
     {
-      "id": "ELITEA-2171",
-      "title": "Chat – Team Project – Cancel Remove User Dialog Keeps User in Participants List",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2171_chat-team-project-cancel-remove-user-dialog-keeps-user-in-participants-list.md"
-    },
-    {
-      "id": "ELITEA-2172",
-      "title": "Chat – Team Project – Conversation Owner Cannot Be Removed from Participants List",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2172_chat-team-project-conversation-owner-cannot-be-removed-from-participants-list.md"
-    },
-    {
       "id": "ELITEA-2173",
       "title": "Chat – Team Project – Mention Single User by Clicking Name in Participants Dropdown",
       "status": "draft",
@@ -5832,48 +4635,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2174_chat-team-project-mention-two-users-by-clicking-their-names.md"
-    },
-    {
-      "id": "ELITEA-2175",
-      "title": "Chat – Team Project – Remove Pre-Selected User from Add Users Modal by Clicking X on Chip",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2175_chat-team-project-remove-pre-selected-user-from-add-users-modal-by-clicking-x-on-chip.md"
-    },
-    {
-      "id": "ELITEA-2176",
-      "title": "Chat – Team Project – Cancel Add Users Modal After Pre-Selecting Users Does Not Add Anyone",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2176_chat-team-project-cancel-add-users-modal-does-not-add-anyone.md"
     },
     {
       "id": "ELITEA-2177",
@@ -5962,8 +4723,8 @@
     {
       "id": "ELITEA-2181",
       "title": "Chat – Streaming Response Displayed While LLM Generates Output",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -5974,7 +4735,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_streaming_response.TestStreamingResponse.test_streaming_response_displayed_progressively"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -6168,48 +4931,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2189_chat-team-project-non-owner-user-cannot-delete-public-conversation.md"
     },
     {
-      "id": "ELITEA-2190",
-      "title": "Chat – Team Project – Non-Owner Cannot Edit Messages in Public Conversation",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2190_chat-team-project-non-owner-cannot-edit-messages-in-public-conversation.md"
-    },
-    {
-      "id": "ELITEA-2191",
-      "title": "Chat – Team Project – Non-Owner Cannot Regenerate LLM Response in Public Conversation",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2191_chat-team-project-non-owner-cannot-regenerate-llm-response.md"
-    },
-    {
       "id": "ELITEA-2192",
       "title": "Chat – Team Project – Conversation Owner Cannot Be Removed from Participants",
       "status": "draft",
@@ -6252,48 +4973,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2193_chat-team-project-owner-can-remove-non-owner-participant.md"
     },
     {
-      "id": "ELITEA-2194",
-      "title": "Chat – Team Project – Cancel Remove Participant Dialog Keeps User in List",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2194_chat-team-project-cancel-remove-participant-dialog-keeps-user-in-list.md"
-    },
-    {
-      "id": "ELITEA-2195",
-      "title": "Chat – File Attachments – Verify Attach Files Option Displays 10 Left Counter",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2195_chat-file-attachments-verify-attach-files-option-displays-10-left-counter.md"
-    },
-    {
       "id": "ELITEA-2196",
       "title": "Chat – File Attachments – Upload Multiple Files and Verify They Display Above Message Input Field",
       "status": "draft",
@@ -6313,69 +4992,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2196_chat-file-attachments-upload-multiple-files-and-verify-display-above-input.md"
-    },
-    {
-      "id": "ELITEA-2197",
-      "title": "Chat – File Attachments – Upload Maximum 10 Files and Verify Limit Warning",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2197_chat-file-attachments-upload-maximum-10-files-and-verify-limit-warning.md"
-    },
-    {
-      "id": "ELITEA-2198",
-      "title": "Chat – Attachment Removal – Remove Individual Files by Clicking X Button",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2198_chat-attachment-removal-remove-individual-files-by-clicking-x-button.md"
-    },
-    {
-      "id": "ELITEA-2199",
-      "title": "Chat – Attachment Preview – Verify Attached Files Display with Filenames and Icons",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2199_chat-attachment-preview-verify-attached-files-display-with-filenames-and-icons.md"
     },
     {
       "id": "ELITEA-2200",
@@ -6420,48 +5036,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2201_chat-file-attachments-send-message-with-attached-files-and-verify-files-included.md"
     },
     {
-      "id": "ELITEA-2202",
-      "title": "Chat – Slash Commands – Verify Typing / When No Toolkits or MCPs Are Added Displays Empty Results",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2202_chat-slash-commands-typing-slash-when-no-toolkits-or-mcps-shows-empty-results.md"
-    },
-    {
-      "id": "ELITEA-2203",
-      "title": "Chat – Slash Commands – Verify Typing / Displays Only Added Toolkit and MCP Participants",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2203_chat-slash-commands-typing-slash-displays-only-added-toolkit-and-mcp.md"
-    },
-    {
       "id": "ELITEA-2204",
       "title": "Chat – Slash Commands – Verify Selecting Toolkit from / Dropdown and Viewing Available Tools",
       "status": "draft",
@@ -6481,27 +5055,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2204_chat-slash-commands-selecting-toolkit-shows-available-tools.md"
-    },
-    {
-      "id": "ELITEA-2205",
-      "title": "Chat – Slash Commands – Verify Selecting MCP from / Dropdown",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2205_chat-slash-commands-selecting-mcp-from-slash-dropdown.md"
     },
     {
       "id": "ELITEA-2206",
@@ -6546,48 +5099,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2207_chat-mentions-with-hash-select-agent-adds-to-participants.md"
     },
     {
-      "id": "ELITEA-2208",
-      "title": "Chat – Mentions with # – Select Pipeline from List and Verify Pipeline is Added to Participants",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2208_chat-mentions-with-hash-select-pipeline-adds-to-participants.md"
-    },
-    {
-      "id": "ELITEA-2209",
-      "title": "Chat – Tool Action Rendering – Verify Tool Call Displays in Thinking Steps When Toolkit Called Directly",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2209_chat-tool-action-rendering-tool-call-in-thinking-steps.md"
-    },
-    {
       "id": "ELITEA-2210",
       "title": "Chat – Tool Output Rendering – Verify Tool Execution Results Display as Chips When Toolkit Called Directly",
       "status": "draft",
@@ -6628,48 +5139,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2211_chat-hitl-authorization-card-displays-for-sensitive-action.md"
-    },
-    {
-      "id": "ELITEA-2212",
-      "title": "Chat – HITL Authorization – Click Authorize Button and Verify Toolkit Tool Executes Directly",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2212_chat-hitl-authorization-click-authorize-executes-toolkit-directly.md"
-    },
-    {
-      "id": "ELITEA-2213",
-      "title": "Chat – HITL Authorization – Click Block Button and Verify Toolkit Tool Does Not Execute",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2213_chat-hitl-authorization-click-block-prevents-toolkit-execution.md"
     },
     {
       "id": "ELITEA-2214",
@@ -6714,69 +5183,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2215_chat-tool-action-and-output-complete-flow-from-direct-toolkit-call.md"
     },
     {
-      "id": "ELITEA-2216",
-      "title": "Context Management – Global Setting Disabled – Verify Context Management Remains Inactive Regardless of Token Usage",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2216_chat-context-management-global-disabled-context-remains-inactive.md"
-    },
-    {
-      "id": "ELITEA-2217",
-      "title": "Context Management – Global Setting Enabled, Auto-Summarization Disabled – Verify No Summarization Occurs When Tokens Exceed Max Limit",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2217_chat-context-management-enabled-auto-summarization-disabled-no-summarization.md"
-    },
-    {
-      "id": "ELITEA-2218",
-      "title": "Context Management – Global Setting Enabled, Auto-Summarization Enabled – Verify Automatic Summarization Occurs When Max Token Count Reached",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2218_chat-context-management-enabled-auto-summarization-enabled-summarizes-at-max.md"
-    },
-    {
       "id": "ELITEA-2455",
       "title": "Chat – Create new conversation and add Agent, Pipeline, Toolkit, and MCP as participants",
       "status": "ready",
@@ -6800,111 +5206,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2455_chat-create-new-conversation-and-add-agent-pipeline-toolkit.md"
     },
     {
-      "id": "ELITEA-2456",
-      "title": "Chat – Conversation deletion with cancel and confirm flow",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2456_chat-conversation-deletion-with-cancel-and-confirm-flow.md"
-    },
-    {
-      "id": "ELITEA-2457",
-      "title": "Chat – Create folder with custom name",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2457_chat-create-folder-with-custom-name.md"
-    },
-    {
-      "id": "ELITEA-2458",
-      "title": "Chat – Folder rename – checkmark inactive when empty, less than 3 characters, or no changes made",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2458_chat-folder-rename-checkmark-inactive-when-empty-less-than-3.md"
-    },
-    {
-      "id": "ELITEA-2459",
-      "title": "Chat – Folder rename – validation tooltip for invalid input and first character cannot be a space",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2459_chat-folder-rename-validation-tooltip-for-invalid-input-and.md"
-    },
-    {
-      "id": "ELITEA-2460",
-      "title": "Chat – Folder displays conversations when expanded and empty state when no conversations",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2460_chat-folder-displays-conversations-when-expanded-and-empty-s.md"
-    },
-    {
       "id": "ELITEA-2461",
       "title": "Chat – Pin a conversation and verify it appears above folders and date groups",
       "status": "ready",
@@ -6926,27 +5227,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2461_chat-pin-a-conversation-and-verify-it-appears-above-folders.md"
-    },
-    {
-      "id": "ELITEA-2462",
-      "title": "Chat – Pin a folder and verify it appears at the top of the left panel",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2462_chat-pin-a-folder-and-verify-it-appears-at-the-top-of-the-le.md"
     },
     {
       "id": "ELITEA-2463",
@@ -7014,8 +5294,8 @@
     {
       "id": "ELITEA-2466",
       "title": "Chat – Message input empty shows no send button; typing shows send button; send clears field",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -7026,7 +5306,9 @@
         "feat:chat"
       ],
       "requirements": [],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_send_button_visibility_toggle.TestChatSendButtonVisibilityToggle.test_send_button_visibility_toggle_and_clear_on_send"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -7225,54 +5507,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2616_stop-button-visible-only-during-thinking-phase.md"
     },
     {
-      "id": "ELITEA-2617",
-      "title": "Chat – Stop During Thinking Phase Halts Execution and Restores Exact Original Input",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat",
-        "issue:5196"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#5196"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2617_stop-during-thinking-restores-exact-input.md"
-    },
-    {
-      "id": "ELITEA-2618",
-      "title": "Chat – No Trace Left in Chat History After Stop",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat",
-        "issue:5196"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#5196"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2618_stop-leaves-no-trace-in-chat-history.md"
-    },
-    {
       "id": "ELITEA-2619",
       "title": "Chat – New Message Sent Normally Immediately After Stop",
       "status": "draft",
@@ -7295,30 +5529,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2619_new-message-sent-normally-immediately-after-stop.md"
-    },
-    {
-      "id": "ELITEA-2620",
-      "title": "Chat – Rapid Double-Stop / Stop-Then-Immediately-Resend Edge Case",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "low",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat",
-        "issue:5196"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#5196"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2620_rapid-double-stop-and-immediate-resend.md"
     },
     {
       "id": "ELITEA-2621",
@@ -7346,35 +5556,10 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2621_stop-targets-correct-conversation-among-multiple-active.md"
     },
     {
-      "id": "ELITEA-2622",
-      "title": "Chat – Stop Signal Correctly Bound to Task ID Under Fast Sequential Stop-Then-Resend",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "low",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat",
-        "eng:backend",
-        "issue:5196"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#5196"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2622_stop-signal-does-not-leak-into-next-generation.md"
-    },
-    {
       "id": "ELITEA-2757",
       "title": "Chat – Create new conversation from folder context menu",
       "status": "ready",
-      "execution_type": "manual",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -7387,7 +5572,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#1604"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_create_conversation_from_folder_context_menu.TestChatCreateConversationFromFolderMenu.test_create_conversation_from_folder_context_menu"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8133,8 +6320,8 @@
     {
       "id": "ELITEA-3762",
       "title": "Export Conversation Without Attachments - JSON File Downloaded",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "high",
       "size": "",
@@ -8150,7 +6337,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#4590"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_export_download.TestChatExportDownload.test_export_chat_with_messages_without_attachments"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8187,8 +6376,8 @@
     {
       "id": "ELITEA-3775",
       "title": "Verify JSON Contains All Messages In Correct Order",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -8204,7 +6393,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#4590"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_export_json_message_order.TestChatExportJsonMessageOrder.test_export_contains_all_messages_in_order"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -8682,8 +6873,8 @@
     {
       "id": "ELITEA-3370",
       "title": "Skills Builder and Project Context Builder disabled prevents entity creation",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -8700,7 +6891,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#6239"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_builder_modules_disabled.TestBuilderModulesDisabledPreventsEntityCreation.test_builder_modules_disabled_prevents_entity_creation"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
@@ -9119,7 +7312,7 @@
     },
     {
       "id": "ELITEA-1962",
-      "title": "Create Credential",
+      "title": "Credential CRUD Journey",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -9137,48 +7330,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/credentials/ELITEA-1962_create-credential.md"
-    },
-    {
-      "id": "ELITEA-1963",
-      "title": "Edit Credential — Rename",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "critical",
-      "size": "",
-      "module": "toolkits-credentials",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:toolkits"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1963_edit-credential-rename.md"
-    },
-    {
-      "id": "ELITEA-1964",
-      "title": "Delete Credential",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "toolkits-credentials",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:toolkits"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1964_delete-credential.md"
     },
     {
       "id": "ELITEA-1965",
@@ -9224,7 +7375,7 @@
     },
     {
       "id": "ELITEA-1967",
-      "title": "Credential — Type-Specific Form Fields",
+      "title": "Credential — Type-Specific Form Fields (Core Types)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -9297,7 +7448,8 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:toolkits"
+        "feat:toolkits",
+        "extended"
       ],
       "requirements": [],
       "automation_test_id": [],
@@ -9381,7 +7533,8 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:toolkits"
+        "feat:toolkits",
+        "extended"
       ],
       "requirements": [],
       "automation_test_id": [],
@@ -9417,7 +7570,7 @@
     },
     {
       "id": "ELITEA-1976",
-      "title": "Credential — Create Private Credential from Toolkit Flow",
+      "title": "Toolkit Credential Creation — Private & Project",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -9435,27 +7588,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/credentials/ELITEA-1976_credential-create-private-credential-from-toolkit-flow.md"
-    },
-    {
-      "id": "ELITEA-1977",
-      "title": "Credential — Create Project Credential from Toolkit Flow",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "toolkits-credentials",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:toolkits"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1977_credential-create-project-credential-from-toolkit-flow.md"
     },
     {
       "id": "ELITEA-1978",
@@ -9522,7 +7654,7 @@
     },
     {
       "id": "ELITEA-1981",
-      "title": "Credential — OAuth-Required Credential Flow (SharePoint Delegated)",
+      "title": "OAuth E2E Journey — SharePoint Delegated",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -9542,71 +7674,8 @@
       "path": "tests/automated-full-regression-ui/credentials/ELITEA-1981_credential-oauth-required-credential-flow-sharepoint-delegated.md"
     },
     {
-      "id": "ELITEA-1982",
-      "title": "Credential — OAuth Authorization Modal Invocation",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "toolkits-credentials",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:toolkits"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1982_credential-oauth-authorization-modal-invocation.md"
-    },
-    {
-      "id": "ELITEA-1983",
-      "title": "Credential — Successful OAuth Completion",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "toolkits-credentials",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:toolkits"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1983_credential-successful-oauth-completion.md"
-    },
-    {
-      "id": "ELITEA-1984",
-      "title": "Credential — Failed OAuth Completion",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "toolkits-credentials",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:toolkits"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1984_credential-failed-oauth-completion.md"
-    },
-    {
-      "id": "ELITEA-1985",
-      "title": "Credential — Saved Credential Reuse After OAuth Authorization",
+      "id": "ELITEA-4127",
+      "title": "Credential — Teams Form Always Has at Least One Pre-selected Scope",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -9618,12 +7687,14 @@
         "automated:UI:regression",
         "feat:toolkits"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#6835"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/credentials/ELITEA-1985_credential-saved-credential-reuse-after-oauth-authorization.md"
+      "path": "tests/automated-full-regression-ui/credentials/ELITEA-4127_credential-teams-form-always-has-preselected-scope.md"
     },
     {
       "id": "ELITEA-3663",
@@ -9764,7 +7835,7 @@
     },
     {
       "id": "ELITEA-2220",
-      "title": "Help Center — Documentation card link redirects to external resource",
+      "title": "Help Center — Card Links Navigation",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -9784,50 +7855,8 @@
       "path": "tests/automated-full-regression-ui/help_center/ELITEA-2220_help-center-documentation-card-link-redirects-to-external-re.md"
     },
     {
-      "id": "ELITEA-2221",
-      "title": "Help Center — Release Notes card link redirects to release notes page",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "help-center",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:help-center"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2221_help-center-release-notes-card-link-redirects-to-release-not.md"
-    },
-    {
-      "id": "ELITEA-2222",
-      "title": "Help Center — Tutorials card link redirects to tutorial resource",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "help-center",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:help-center"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2222_help-center-tutorials-card-link-redirects-to-tutorial-resour.md"
-    },
-    {
       "id": "ELITEA-2223",
-      "title": "Help Center — Video Library \\\"More...\\\" redirects to full video portal",
+      "title": "Help Center — More... Links Expansion",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -9845,27 +7874,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/help_center/ELITEA-2223_help-center-video-library-more-redirects-to-full-video-porta.md"
-    },
-    {
-      "id": "ELITEA-2224",
-      "title": "Help Center — Tutorials \\\"More...\\\" redirects to full tutorials list",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "help-center",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:help-center"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2224_help-center-tutorials-more-redirects-to-full-tutorials-list.md"
     },
     {
       "id": "ELITEA-2225",
@@ -9890,11 +7898,11 @@
     },
     {
       "id": "ELITEA-2226",
-      "title": "Help Center — Sidebar Interactive Tour starts when clicking the link",
+      "title": "Help Center — Interactive Tour Navigation Controls",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
-      "priority": "medium",
+      "priority": "high",
       "size": "",
       "module": "help-center",
       "owner": "",
@@ -9929,48 +7937,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/help_center/ELITEA-2228_help-center-completed-sidebar-interactive-tour-can-be-restar.md"
-    },
-    {
-      "id": "ELITEA-2229",
-      "title": "Help Center — clicking Skip during Sidebar Interactive Tour terminates the tour",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "help-center",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:help-center"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2229_help-center-clicking-skip-during-sidebar-interactive-tour-te.md"
-    },
-    {
-      "id": "ELITEA-2230",
-      "title": "Help Center — Back button navigates to previous step during Interactive Tour",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "help-center",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:help-center"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/help_center/ELITEA-2230_help-center-back-button-navigates-to-previous-step-during-in.md"
     },
     {
       "id": "ELITEA-3753",
@@ -10018,7 +7984,7 @@
     },
     {
       "id": "ELITEA-2833",
-      "title": "Automated: Save without reindex",
+      "title": "Save/Reindex Configuration UX",
       "status": "draft",
       "execution_type": "manual",
       "type": "automated",
@@ -10041,80 +8007,8 @@
       "path": "tests/automated-full-regression-ui/indexing/ELITEA-2833_save-without-reindex-automated.md"
     },
     {
-      "id": "ELITEA-2834",
-      "title": "Automated: Save & Reindex flow",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "automated",
-      "priority": "critical",
-      "size": "",
-      "module": "indexing/save-reindex",
-      "owner": "",
-      "tags": [
-        "feat:indexer",
-        "r-2.0.6",
-        "regression"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6422"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2834_save-and-reindex-flow-automated.md"
-    },
-    {
-      "id": "ELITEA-2835",
-      "title": "Automated: Validation blocks Save & Reindex",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "automated",
-      "priority": "critical",
-      "size": "",
-      "module": "indexing/save-reindex",
-      "owner": "",
-      "tags": [
-        "feat:indexer",
-        "r-2.0.6",
-        "regression"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6422"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2835_validation-blocks-save-and-reindex-automated.md"
-    },
-    {
-      "id": "ELITEA-2836",
-      "title": "Automated: Button states - dirty and clean transitions",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "automated",
-      "priority": "critical",
-      "size": "",
-      "module": "indexing/save-reindex",
-      "owner": "",
-      "tags": [
-        "feat:indexer",
-        "r-2.0.6",
-        "regression"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6422"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2836_button-states-dirty-clean-automated.md"
-    },
-    {
       "id": "ELITEA-2888",
-      "title": "Automated: Configuration persistence after page reload",
+      "title": "Configuration Persistence and Reuse",
       "status": "draft",
       "execution_type": "manual",
       "type": "automated",
@@ -10137,32 +8031,8 @@
       "path": "tests/automated-full-regression-ui/indexing/ELITEA-2888_configuration-persistence-automated.md"
     },
     {
-      "id": "ELITEA-2889",
-      "title": "Automated: Manual reindex uses last saved configuration",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "automated",
-      "priority": "high",
-      "size": "",
-      "module": "indexing/save-reindex",
-      "owner": "",
-      "tags": [
-        "feat:indexer",
-        "r-2.0.6",
-        "regression"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6422"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-2889_manual-reindex-uses-saved-config-automated.md"
-    },
-    {
       "id": "ELITEA-3091",
-      "title": "Automated: Active index searchable during reindexing",
+      "title": "Reindex Preservation — Success Flow",
       "status": "draft",
       "execution_type": "manual",
       "type": "automated",
@@ -10209,31 +8079,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/indexing/ELITEA-3092_failed-reindex-preserves-active-index-automated.md"
-    },
-    {
-      "id": "ELITEA-3093",
-      "title": "Automated: Successful reindex replaces active index",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "automated",
-      "priority": "critical",
-      "size": "",
-      "module": "indexing/reindex-preservation",
-      "owner": "",
-      "tags": [
-        "feat:indexer",
-        "story:6232",
-        "regression",
-        "reindex-preservation"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6232"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3093_successful-reindex-replaces-active-index-automated.md"
     },
     {
       "id": "ELITEA-3094",
@@ -10312,7 +8157,7 @@
     },
     {
       "id": "ELITEA-3713",
-      "title": "Verify user receives notification when indexing completes",
+      "title": "Indexing Control and Notifications",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -10333,54 +8178,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/indexing/ELITEA-3713_user-receives-notification-when-indexing-completes.md"
-    },
-    {
-      "id": "ELITEA-3714",
-      "title": "Verify user receives notification when indexing is stopped",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "critical",
-      "size": "",
-      "module": "indexes",
-      "owner": "",
-      "tags": [
-        "feat:indexer",
-        "eng:technical-debt",
-        "r-2.0.7"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6228"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3714_user-receives-notification-when-indexing-is-stopped.md"
-    },
-    {
-      "id": "ELITEA-3715",
-      "title": "Verify Stop button stops indexing and shows stopped status",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "critical",
-      "size": "",
-      "module": "indexes",
-      "owner": "",
-      "tags": [
-        "feat:indexer",
-        "eng:technical-debt",
-        "r-2.0.7"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6228"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/indexing/ELITEA-3715_stop-button-stops-indexing-and-shows-stopped-status.md"
     },
     {
       "id": "ELITEA-3716",
@@ -11338,11 +9135,11 @@
     },
     {
       "id": "ELITEA-2746",
-      "title": "Verify toolkit name in agent authorization message from Chat page",
+      "title": "Agent Execution Contexts — Chat + Nested MCP Authorization",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
-      "priority": "high",
+      "priority": "critical",
       "size": "",
       "module": "mcp-servers",
       "owner": "",
@@ -11351,7 +9148,8 @@
         "feat:mcp-remote",
         "nfr:usability",
         "r-2.0.6",
-        "feat:chat"
+        "feat:chat",
+        "feat:nested-agent"
       ],
       "requirements": [
         "EliteaAI/elitea_issues#5637"
@@ -11363,8 +9161,8 @@
       "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2746_verify-toolkit-name-in-agent-message-from-chat-page.md"
     },
     {
-      "id": "ELITEA-2747",
-      "title": "Verify nested agent displays toolkit name when MCP authorization is needed",
+      "id": "ELITEA-2749",
+      "title": "Pipeline Execution Contexts — MCP Authorization Messages",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -11377,60 +9175,9 @@
         "feat:mcp-remote",
         "nfr:usability",
         "r-2.0.6",
-        "feat:nested-agent"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#5637"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2747_verify-nested-agent-displays-toolkit-name-when-authorization-needed.md"
-    },
-    {
-      "id": "ELITEA-2748",
-      "title": "Verify nested agent with MCP displays toolkit name from Chat page",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "mcp-servers",
-      "owner": "",
-      "tags": [
-        "feat:mcp-local",
-        "feat:mcp-remote",
-        "nfr:usability",
-        "r-2.0.6",
+        "feat:pipeline",
         "feat:nested-agent",
         "feat:chat"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#5637"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2748_verify-nested-agent-with-mcp-from-chat-page.md"
-    },
-    {
-      "id": "ELITEA-2749",
-      "title": "Verify pipeline with MCP displays toolkit name in Pipeline chat section",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "mcp-servers",
-      "owner": "",
-      "tags": [
-        "feat:mcp-local",
-        "feat:mcp-remote",
-        "nfr:usability",
-        "r-2.0.6",
-        "feat:pipeline"
       ],
       "requirements": [
         "EliteaAI/elitea_issues#5637"
@@ -11442,94 +9189,12 @@
       "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2749_verify-pipeline-with-mcp-displays-toolkit-name-in-pipeline-chat.md"
     },
     {
-      "id": "ELITEA-2750",
-      "title": "Verify pipeline with MCP displays toolkit name when called from Chat page",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "mcp-servers",
-      "owner": "",
-      "tags": [
-        "feat:mcp-local",
-        "feat:mcp-remote",
-        "nfr:usability",
-        "r-2.0.6",
-        "feat:pipeline",
-        "feat:chat"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#5637"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2750_verify-pipeline-with-mcp-called-from-chat-page.md"
-    },
-    {
-      "id": "ELITEA-2751",
-      "title": "Verify pipeline with nested pipeline (containing agent with MCP) displays toolkit name in Pipeline chat",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "mcp-servers",
-      "owner": "",
-      "tags": [
-        "feat:mcp-local",
-        "feat:mcp-remote",
-        "nfr:usability",
-        "r-2.0.6",
-        "feat:pipeline",
-        "feat:nested-agent"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#5637"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2751_verify-pipeline-with-nested-pipeline-displays-mcp-name-in-pipeline-chat.md"
-    },
-    {
-      "id": "ELITEA-2752",
-      "title": "Verify pipeline with nested pipeline displays toolkit name when called from Chat page",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "mcp-servers",
-      "owner": "",
-      "tags": [
-        "feat:mcp-local",
-        "feat:mcp-remote",
-        "nfr:usability",
-        "r-2.0.6",
-        "feat:pipeline",
-        "feat:nested-agent",
-        "feat:chat"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#5637"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2752_verify-pipeline-with-nested-pipeline-called-from-chat-page.md"
-    },
-    {
       "id": "ELITEA-2231",
-      "title": "Onboarding — Welcome to Elitea page is displayed on first login with Sure lets go button and no project loading yet",
+      "title": "Onboarding — Complete First Login Flow",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
-      "priority": "medium",
+      "priority": "critical",
       "size": "",
       "module": "onboarding",
       "owner": "",
@@ -11542,53 +9207,11 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2231_onboarding-welcome-to-elitea-page-is-displayed-on-first-logi.md"
-    },
-    {
-      "id": "ELITEA-2232",
-      "title": "Onboarding — clicking Sure lets go triggers project provisioning and displays onboarding tips slide 1/48 with configuring progress bar",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "onboarding",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:onboarding"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2232_onboarding-clicking-sure-lets-go-triggers-project-provisioni.md"
+      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2231_complete-first-login-flow.md"
     },
     {
       "id": "ELITEA-2233",
-      "title": "Onboarding — ELITEA logo displays green dot indicating active server connection",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "onboarding",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:onboarding"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2233_onboarding-elitea-logo-displays-green-dot-indicating-active.md"
-    },
-    {
-      "id": "ELITEA-2234",
-      "title": "Onboarding — bell notification icon shows red badge/dot on first login",
+      "title": "Onboarding — System Status Indicators",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -11605,28 +9228,7 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2234_onboarding-bell-notification-icon-shows-red-badgedot-on-firs.md"
-    },
-    {
-      "id": "ELITEA-2235",
-      "title": "Onboarding — onboarding tips card is displayed on first login starting at slide 1/48",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "onboarding",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:onboarding"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2235_onboarding-onboarding-tips-card-is-displayed-on-first-login.md"
+      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2233_system-status-indicators.md"
     },
     {
       "id": "ELITEA-2236",
@@ -11651,11 +9253,11 @@
     },
     {
       "id": "ELITEA-2237",
-      "title": "Onboarding — slides can be navigated forward using the Next arrow",
+      "title": "Onboarding — Slide Navigation Mechanics",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
-      "priority": "medium",
+      "priority": "high",
       "size": "",
       "module": "onboarding",
       "owner": "",
@@ -11668,91 +9270,7 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2237_onboarding-slides-can-be-navigated-forward-using-the-next-ar.md"
-    },
-    {
-      "id": "ELITEA-2238",
-      "title": "Onboarding — left arrow is inactive on slide 1 and right arrow is inactive on slide 48",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "onboarding",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:onboarding"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2238_onboarding-left-arrow-is-inactive-on-slide-1-and-right-arrow.md"
-    },
-    {
-      "id": "ELITEA-2239",
-      "title": "Onboarding — slides can be navigated forward and backward from the enlarged/fullscreen state",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "onboarding",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:onboarding"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2239_onboarding-slides-can-be-navigated-forward-and-backward-from.md"
-    },
-    {
-      "id": "ELITEA-2240",
-      "title": "Onboarding — Private and team projects appear in project dropdown after approximately 5 minutes",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "onboarding",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:onboarding"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2240_onboarding-private-and-team-projects-appear-in-project-dropd.md"
-    },
-    {
-      "id": "ELITEA-2241",
-      "title": "Onboarding — clicking \\\"Jump in now!\\\" closes onboarding and shows default project page",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "onboarding",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:onboarding"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2241_onboarding-clicking-jump-in-now-closes-onboarding-and-shows.md"
+      "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2237_slide-navigation-mechanics.md"
     },
     {
       "id": "ELITEA-3624",
@@ -15029,6 +12547,98 @@
       "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-2417_ai-credentials-section-is-hidden-when-no-credentials-are-con.md"
     },
     {
+      "id": "ELITEA-4201",
+      "title": "Test connection succeeds for valid OpenAI and Azure OpenAI models, model recognition agrees",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "settings-ai-configuration",
+      "owner": "",
+      "tags": [
+        "feat:settings",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6793"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-4201_test-connection-succeeds-valid-openai-azure-model-recognition.md"
+    },
+    {
+      "id": "ELITEA-4202",
+      "title": "Test connection error categories and security - Model not found, Authentication failed, Rate limited, Connection failed, no sensitive exposure",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "settings-ai-configuration",
+      "owner": "",
+      "tags": [
+        "feat:settings",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6793"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-4202_test-connection-error-categories-security-validation.md"
+    },
+    {
+      "id": "ELITEA-4203",
+      "title": "DIAL credential test connection validates API protocol correctly",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "settings-ai-configuration",
+      "owner": "",
+      "tags": [
+        "feat:settings",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6793"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-4203_dial-credential-test-connection-validates-api-protocol.md"
+    },
+    {
+      "id": "ELITEA-4204",
+      "title": "Test connection evaluates unsaved form values and has no persistence side effects",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "settings-ai-configuration",
+      "owner": "",
+      "tags": [
+        "feat:settings",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6793"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-4204_test-connection-stateless-unsaved-values-no-persistence.md"
+    },
+    {
       "id": "ELITEA-2311",
       "title": "Overview tab displays all six KPI cards with correct labels and non-empty values",
       "status": "draft",
@@ -15830,6 +13440,156 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-3755_analytics-page-loads-with-default-date-range-and-all-six-tab.md"
+    },
+    {
+      "id": "ELITEA-3830",
+      "title": "Verify 'Agent & Chat Uses' terminology across all Skills Analytics surfaces",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "ui",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "feat:skills",
+        "r-2.0.8",
+        "nfr:usability"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7272"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/analytics/skills-analytics/ELITEA-3830_terminology-consistency-agent-chat-uses-all-surfaces.md"
+    },
+    {
+      "id": "ELITEA-3831",
+      "title": "Verify tooltip content on Skill Activity table headers",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "ui",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "feat:skills",
+        "r-2.0.8",
+        "nfr:usability"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7272"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/analytics/skills-analytics/ELITEA-3831_skill-activity-table-header-tooltips.md"
+    },
+    {
+      "id": "ELITEA-3832",
+      "title": "Verify '—' displayed for skills with 0 runs in AVG LATENCY, TOKENS, COST columns",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "ui",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "feat:skills",
+        "r-2.0.8",
+        "nfr:usability"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7272"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/analytics/skills-analytics/ELITEA-3832_dash-displayed-for-skills-zero-runs.md"
+    },
+    {
+      "id": "ELITEA-3833",
+      "title": "Verify summary card tooltips on Skills tab",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "ui",
+      "priority": "high",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "feat:skills",
+        "r-2.0.8",
+        "nfr:usability"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7272"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/analytics/skills-analytics/ELITEA-3833_summary-card-tooltips-skills-tab.md"
+    },
+    {
+      "id": "ELITEA-3834",
+      "title": "Verify skill detail page metric names and tooltips",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "ui",
+      "priority": "high",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "feat:skills",
+        "r-2.0.8",
+        "nfr:usability"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7272"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/analytics/skills-analytics/ELITEA-3834_skill-detail-page-metrics-tooltips.md"
+    },
+    {
+      "id": "ELITEA-3835",
+      "title": "Verify search functionality with updated terminology",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "ui",
+      "priority": "medium",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "feat:skills",
+        "r-2.0.8",
+        "nfr:usability"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7272"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/analytics/skills-analytics/ELITEA-3835_search-functionality-updated-terminology.md"
     },
     {
       "id": "ELITEA-4066",
@@ -18382,7 +16142,7 @@
     },
     {
       "id": "ELITEA-1735",
-      "title": "Interact with Skills from Agent",
+      "title": "Skill — Invocation (Explicit, Autonomous, Coexistence)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -18392,35 +16152,17 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:skills"
+        "feat:skills",
+        "feat:autonomous-invocation",
+        "feat:backward-compatibility",
+        "regression:merged"
       ],
       "requirements": [],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-1735_interact-with-skills-from-agent.md"
-    },
-    {
-      "id": "ELITEA-1736",
-      "title": "Interact with Skills from Conversation",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-1736_interact-with-skills-from-conversation.md"
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-1735-merged_skill-invocation-explicit-autonomous-coexistence.md"
     },
     {
       "id": "ELITEA-1789",
@@ -18585,7 +16327,7 @@
     },
     {
       "id": "ELITEA-2428",
-      "title": "Skills listing — card view shows correct fields",
+      "title": "Skill — CRUD (Create, Edit, Navigate, Validation)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -18595,77 +16337,15 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:skills"
+        "feat:skills",
+        "regression:merged"
       ],
       "requirements": [],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-2428_skills-listing-card-view-shows-correct-fields.md"
-    },
-    {
-      "id": "ELITEA-2429",
-      "title": "Skills editor back button returns to Skills list",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-2429_skills-editor-back-button-returns-to-skills-list.md"
-    },
-    {
-      "id": "ELITEA-2430",
-      "title": "Skill creation — mandatory fields validation (Name and Description)",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-2430_skill-creation-mandatory-fields-validation-name-and-descript.md"
-    },
-    {
-      "id": "ELITEA-2431",
-      "title": "Edit Skill name, description, and instructions",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-2431_edit-skill-name-description-and-instructions.md"
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-2428-merged_skill-crud-create-edit-navigate-validation.md"
     },
     {
       "id": "ELITEA-2432",
@@ -18690,7 +16370,7 @@
     },
     {
       "id": "ELITEA-2433",
-      "title": "Add, save, and remove a tag on a Skill",
+      "title": "Skill — Tagging (Complete Flow)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -18700,35 +16380,15 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:skills"
+        "feat:skills",
+        "regression:merged"
       ],
       "requirements": [],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-2433_add-save-and-remove-a-tag-on-a-skill.md"
-    },
-    {
-      "id": "ELITEA-2434",
-      "title": "Multiple tags can be saved on a Skill upon and after creation",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-2434_multiple-tags-can-be-saved-on-a-skill-upon-and-after-creatio.md"
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-2433-merged_skill-tagging-complete-flow.md"
     },
     {
       "id": "ELITEA-2435",
@@ -18867,27 +16527,6 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-2440_test-panel-uses-the-currently-selected-skill-versions-instru.md"
     },
     {
-      "id": "ELITEA-2441",
-      "title": "Test panel does not create a new Chat conversation",
-      "status": "deprecated",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-2441_test-panel-does-not-create-a-new-chat-conversation.md"
-    },
-    {
       "id": "ELITEA-2442",
       "title": "Read aloud and Copy to clipboard are enabled on test panel responses",
       "status": "ready",
@@ -18934,7 +16573,7 @@
     },
     {
       "id": "ELITEA-2596",
-      "title": "Skill Publishing — AI Validation Blockers",
+      "title": "Skill — Publishing Validation (Blockers & Warnings)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -18946,14 +16585,15 @@
         "automated:UI:regression",
         "feat:skills",
         "feat:publishing",
-        "feat:validation"
+        "feat:validation",
+        "regression:merged"
       ],
       "requirements": [],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-2596_skill-publishing-ai-validation-blockers.md"
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-2596-merged_publishing-validation-blockers-and-warnings.md"
     },
     {
       "id": "ELITEA-2597",
@@ -18977,29 +16617,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/skills/ELITEA-2597_skill-publishing-token-invalidation-and-ttl.md"
-    },
-    {
-      "id": "ELITEA-2598",
-      "title": "Skill Publishing — WARN Status Allows Publishing with Warnings",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills",
-        "feat:publishing",
-        "feat:validation"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-2598_skill-publishing-warn-status-scenarios.md"
     },
     {
       "id": "ELITEA-2599",
@@ -19117,29 +16734,7 @@
     },
     {
       "id": "ELITEA-2604",
-      "title": "Skill Custom Icon Upload and Validation",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills",
-        "feat:icon"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-2604_skill-icon-upload-and-validation.md"
-    },
-    {
-      "id": "ELITEA-2605",
-      "title": "Skill Custom Icon Visibility Across UI",
+      "title": "Skill — Icons (Upload, Validation, Visibility, Persistence)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -19150,37 +16745,16 @@
       "tags": [
         "automated:UI:regression",
         "feat:skills",
-        "feat:icon"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-2605_skill-icon-visibility-across-ui.md"
-    },
-    {
-      "id": "ELITEA-2606",
-      "title": "Skill Custom Icon Persistence on Save As Version",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "low",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills",
         "feat:icon",
-        "feat:versioning"
+        "feat:versioning",
+        "regression:merged"
       ],
       "requirements": [],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-2606_skill-icon-persistence-on-version.md"
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-2604-merged_skill-icons-upload-validation-visibility-persistence.md"
     },
     {
       "id": "ELITEA-2607",
@@ -19228,29 +16802,6 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-2608_subagent-skills-isolation.md"
     },
     {
-      "id": "ELITEA-2609",
-      "title": "Skill Explicit and Autonomous Invocation Coexistence",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills",
-        "feat:autonomous-invocation",
-        "feat:backward-compatibility"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-2609_skill-explicit-and-autonomous-coexistence.md"
-    },
-    {
       "id": "ELITEA-2610",
       "title": "Skill Version Selection Behavior",
       "status": "draft",
@@ -19275,7 +16826,7 @@
     },
     {
       "id": "ELITEA-2611",
-      "title": "Edit with AI — Skill Happy Path",
+      "title": "Skill — Edit with AI (Happy Path, Navigation, Errors)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -19286,36 +16837,15 @@
       "tags": [
         "automated:UI:regression",
         "feat:skills",
-        "feat:edit-with-ai"
+        "feat:edit-with-ai",
+        "regression:merged"
       ],
       "requirements": [],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-2611_edit-with-ai-skill-happy-path.md"
-    },
-    {
-      "id": "ELITEA-2612",
-      "title": "Edit with AI — Skill Navigation and Error Handling",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills",
-        "feat:edit-with-ai"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-2612_edit-with-ai-skill-navigation-and-errors.md"
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-2611-merged_edit-with-ai-happy-path-navigation-errors.md"
     },
     {
       "id": "ELITEA-2613",
@@ -19366,56 +16896,29 @@
     },
     {
       "id": "ELITEA-3352",
-      "title": "Skill Version Comparison Modal Opens with Side-by-Side Layout",
+      "title": "Skill — Version Comparison (Modal, Display, Saves)",
       "status": "draft",
       "execution_type": "manual",
-      "type": "regression",
+      "type": "functional",
       "priority": "critical",
       "size": "",
       "module": "skills",
       "owner": "",
       "tags": [
+        "automated:UI:regression",
         "feat:skills",
+        "feat:version-comparison",
+        "feat:data-integrity",
         "r-2.0.6",
-        "regression",
-        "version-comparison",
+        "regression:merged",
         "story:6304"
       ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6304"
-      ],
+      "requirements": [],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-3352_skill-version-comparison-modal-opens-side-by-side.md"
-    },
-    {
-      "id": "ELITEA-3353",
-      "title": "Skill Version Comparison Displays Instructions and Saves Independently",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "regression",
-      "priority": "critical",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "feat:skills",
-        "r-2.0.6",
-        "regression",
-        "version-comparison",
-        "data-integrity",
-        "story:6304"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6304"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/ELITEA-3353_skill-version-comparison-instructions-display-and-save-independently.md"
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3352-merged_version-comparison-modal-display-saves.md"
     },
     {
       "id": "ELITEA-3749",
@@ -19510,33 +17013,135 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-3752_search-skills-by-tag.md"
     },
     {
-      "id": "ELITEA-1986",
-      "title": "Build with AI button is visible for admin and editor roles",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
+      "id": "ELITEA-3822",
+      "title": "Verify agent can attach exactly 50 skills (default limit)",
+      "status": "Draft",
+      "execution_type": "Manual",
+      "type": "",
+      "priority": "High",
       "size": "",
-      "module": "skills",
+      "module": "",
       "owner": "",
       "tags": [
-        "automated:UI:regression",
-        "feat:skills"
+        "skills",
+        "agent-editor",
+        "limits",
+        "attach-limit",
+        "S11",
+        "positive-test"
       ],
       "requirements": [],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1986_build-with-ai-button-visible-for-admin-and-editor-roles.md"
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3822.md"
     },
     {
-      "id": "ELITEA-1987",
-      "title": "Build with AI button is NOT visible for viewer role",
+      "id": "ELITEA-3823",
+      "title": "Verify \"Add Skill\" button is disabled when agent reaches configured limit",
+      "status": "Draft",
+      "execution_type": "Manual",
+      "type": "",
+      "priority": "High",
+      "size": "",
+      "module": "",
+      "owner": "",
+      "tags": [
+        "skills",
+        "agent-editor",
+        "limits",
+        "attach-limit",
+        "S11",
+        "ui-validation"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3823.md"
+    },
+    {
+      "id": "ELITEA-3824",
+      "title": "Verify disabled \"Add Skill\" button shows tooltip explaining maximum limit reached",
+      "status": "Draft",
+      "execution_type": "Manual",
+      "type": "",
+      "priority": "High",
+      "size": "",
+      "module": "",
+      "owner": "",
+      "tags": [
+        "skills",
+        "agent-editor",
+        "limits",
+        "attach-limit",
+        "S11",
+        "ui-validation",
+        "tooltip"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3824.md"
+    },
+    {
+      "id": "ELITEA-3825",
+      "title": "Skill — Run Settings (Model, Context, Execution)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
-      "priority": "high",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills",
+        "feat:run-settings",
+        "r-2.0.8",
+        "regression:merged"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3825-merged_run-settings-model-context-execution.md"
+    },
+    {
+      "id": "ELITEA-3829",
+      "title": "Verify agent uses its own model when running attached skill, ignoring skill's run_settings",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skill-run-settings",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6921"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3829_agent-uses-own-model-not-skill-settings.md"
+    },
+    {
+      "id": "ELITEA-1986",
+      "title": "Build with AI — Access Control (Role-Based Visibility)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
       "size": "",
       "module": "skills",
       "owner": "",
@@ -19549,15 +17154,15 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1987_build-with-ai-button-not-visible-for-viewer-role.md"
+      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1986_access-control-role-based-visibility.md"
     },
     {
       "id": "ELITEA-1988",
-      "title": "Clicking Build with AI opens the generation modal",
+      "title": "Build with AI — Complete Happy Path (Generate, Edit, and Create Skill)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
-      "priority": "high",
+      "priority": "critical",
       "size": "",
       "module": "skills",
       "owner": "",
@@ -19570,78 +17175,15 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1988_clicking-build-with-ai-opens-the-generation-modal.md"
-    },
-    {
-      "id": "ELITEA-1989",
-      "title": "Skill draft is generated from a natural-language description",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1989_skill-draft-generated-from-natural-language-description.md"
-    },
-    {
-      "id": "ELITEA-1990",
-      "title": "Generated skill draft fields are editable before creation",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1990_generated-skill-draft-fields-are-editable-before-creation.md"
-    },
-    {
-      "id": "ELITEA-1991",
-      "title": "Create Skill from draft saves Skill and redirects to Skill details page",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1991_create-skill-from-draft-saves-and-redirects-to-skill-details.md"
+      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1988_complete-happy-path-generate-edit-create.md"
     },
     {
       "id": "ELITEA-1992",
-      "title": "Build with AI — generated Skill name adheres to naming rules",
+      "title": "Build with AI — Field Validation (Name, Description, Instructions)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
-      "priority": "medium",
+      "priority": "high",
       "size": "",
       "module": "skills",
       "owner": "",
@@ -19654,70 +17196,7 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1992_build-with-ai-generated-skill-name-adheres-to-naming-rules.md"
-    },
-    {
-      "id": "ELITEA-1993",
-      "title": "Build with AI — name field validation on invalid manual edits",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1993_build-with-ai-name-field-validation-on-invalid-manual-edits.md"
-    },
-    {
-      "id": "ELITEA-1994",
-      "title": "Build with AI — description character limit is enforced",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1994_build-with-ai-description-character-limit-is-enforced.md"
-    },
-    {
-      "id": "ELITEA-1995",
-      "title": "Build with AI — instructions character limit is enforced",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1995_build-with-ai-instructions-character-limit-is-enforced.md"
+      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1992_field-validation-name-description-instructions.md"
     },
     {
       "id": "ELITEA-1996",
@@ -19742,11 +17221,11 @@
     },
     {
       "id": "ELITEA-1997",
-      "title": "Build with AI — Cancel closes the modal without creating a Skill",
+      "title": "Build with AI — Cancel Behavior (All Steps)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
-      "priority": "medium",
+      "priority": "high",
       "size": "",
       "module": "skills",
       "owner": "",
@@ -19759,28 +17238,7 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1997_build-with-ai-cancel-closes-modal-without-creating-skill.md"
-    },
-    {
-      "id": "ELITEA-1998",
-      "title": "Build with AI — Cancel from review step does not create a Skill",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "skills",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:skills"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1998_build-with-ai-cancel-from-review-step-does-not-create-skill.md"
+      "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1997_cancel-behavior-all-steps.md"
     },
     {
       "id": "ELITEA-1999",
@@ -20937,6 +18395,106 @@
       "path": "tests/automated-full-regression-ui/toolkit/sharepoint-read-file-from-sharing-link/ELITEA-2855_read-file-from-sharing-link-oversized-cap-bounded-read-per-type-validation-and-excel-guidance.md"
     },
     {
+      "id": "ELITEA-3818",
+      "title": "Jira Credential URL Normalization - Full Flow",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:toolkits",
+        "feat:agents",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6810"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkit-url-normalization/ELITEA-3818_jira-credential-url-normalization-full-flow.md"
+    },
+    {
+      "id": "ELITEA-3819",
+      "title": "GitHub Credential URL Normalization - Full Flow with Chat",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:toolkits",
+        "feat:chat",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6810"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkit-url-normalization/ELITEA-3819_github-credential-url-normalization-full-flow.md"
+    },
+    {
+      "id": "ELITEA-3820",
+      "title": "SonarQube Credential URL Normalization - Chat Runtime (No Test Connection)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:toolkits",
+        "feat:chat",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6810"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkit-url-normalization/ELITEA-3820_sonarqube-credential-url-normalization-chat-runtime.md"
+    },
+    {
+      "id": "ELITEA-3821",
+      "title": "Multiple Jira Toolkit Instances - URL Format Isolation",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:toolkits",
+        "feat:agents",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6810"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkit-url-normalization/ELITEA-3821_multiple-jira-instances-url-isolation.md"
+    },
+    {
       "id": "ELITEA-1140",
       "title": "Jira and Confluence Toolkit CRUD",
       "status": "ready",
@@ -21330,10 +18888,13 @@
         "regression",
         "smoke",
         "toolkit-sections-redesign",
-        "layout"
+        "layout",
+        "feat:toolkits",
+        "r-2.0.8"
       ],
       "requirements": [
-        "EL-6252"
+        "EL-6252",
+        "EliteaAI/elitea_issues#7045"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -21355,10 +18916,13 @@
         "regression",
         "smoke",
         "toolkit-sections-redesign",
-        "tools"
+        "tools",
+        "feat:toolkits",
+        "r-2.0.8"
       ],
       "requirements": [
-        "EL-6252"
+        "EL-6252",
+        "EliteaAI/elitea_issues#7045"
       ],
       "automation_test_id": [],
       "targets": [],

@@ -509,6 +509,12 @@
       ]
     },
     {
+      "id": "ELITEA-2181",
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_streaming_response.TestStreamingResponse.test_streaming_response_displayed_progressively"
+      ]
+    },
+    {
       "id": "ELITEA-2182",
       "automation_test_id": [
         "tests.ui.chat.test_chat_stop_button_cancels_generation.TestChatStopButtonCancelsGeneration.test_stop_cancels_generation_and_restores_input"
@@ -551,6 +557,18 @@
       ]
     },
     {
+      "id": "ELITEA-2466",
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_send_button_visibility_toggle.TestChatSendButtonVisibilityToggle.test_send_button_visibility_toggle_and_clear_on_send"
+      ]
+    },
+    {
+      "id": "ELITEA-2757",
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_create_conversation_from_folder_context_menu.TestChatCreateConversationFromFolderMenu.test_create_conversation_from_folder_context_menu"
+      ]
+    },
+    {
       "id": "ELITEA-2875",
       "automation_test_id": [
         "tests.ui.chat.test_chat_interjection_queuing.TestInterjectionQueuingSequentialProcessing.test_interjection_queues_and_processes_in_fifo_order"
@@ -588,9 +606,21 @@
       ]
     },
     {
+      "id": "ELITEA-3762",
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_export_download.TestChatExportDownload.test_export_chat_with_messages_without_attachments"
+      ]
+    },
+    {
       "id": "ELITEA-3764",
       "automation_test_id": [
         "tests.ui.chat.test_chat_export_with_attachments_zip.TestChatExportWithAttachmentsZip.test_export_with_attachments_produces_zip"
+      ]
+    },
+    {
+      "id": "ELITEA-3775",
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_export_json_message_order.TestChatExportJsonMessageOrder.test_export_contains_all_messages_in_order"
       ]
     },
     {
@@ -651,6 +681,12 @@
       "id": "ELITEA-3368",
       "automation_test_id": [
         "tests.ui.chat.test_chat_project_context_builder.TestChatProjectContextBuilder.test_create_and_update_project_context_via_chat_chip_canvas"
+      ]
+    },
+    {
+      "id": "ELITEA-3370",
+      "automation_test_id": [
+        "tests.ui.chat.test_builder_modules_disabled.TestBuilderModulesDisabledPreventsEntityCreation.test_builder_modules_disabled_prevents_entity_creation"
       ]
     },
     {
