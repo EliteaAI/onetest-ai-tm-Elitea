@@ -23,7 +23,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 - User is logged in to the Elitea platform
 - User has access to Credentials, Toolkits & Indexes, and Agents sections
 - Valid Jira credentials are available (username and API token)
-- Base URL: `https://jiraeu.epam.com`
+- Base URL: `https://jira.example.com`
 
 ---
 
@@ -33,7 +33,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 |-------|-------|
 | Credential Display Name | autotest_jira_trailing_slash |
 | Credential ID | autotest-jira-trailing-slash |
-| Base URL | `https://jiraeu.epam.com/` (with single trailing slash) |
+| Base URL | `https://jira.example.com/` (with single trailing slash) |
 | Auth Type | Basic |
 | Username | Valid Jira username |
 | API Token | Valid Jira API token |
@@ -53,7 +53,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 | 3 | Select "Jira" credential type | New Jira Credential form opens |
 | 4 | Enter Display Name: "autotest_jira_trailing_slash" | Field accepts input |
 | 5 | Enter ID: "autotest-jira-trailing-slash" | Field accepts input |
-| 6 | Enter Base URL WITH trailing slash: `https://jiraeu.epam.com/` | Field accepts URL with trailing slash, slash remains visible |
+| 6 | Enter Base URL WITH trailing slash: `https://jira.example.com/` | Field accepts URL with trailing slash, slash remains visible |
 | 7 | Select Auth type: "Basic" | Basic auth fields appear |
 | 8 | Enter valid Jira username | Field accepts input |
 | 9 | Enter valid Jira API token | Field accepts input |

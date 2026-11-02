@@ -21,7 +21,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 
 | Toolkit Type | Pre-existing URL Configuration | Status |
 |--------------|-------------------------------|--------|
-| Jira | `https://jiraeu.epam.com` | Configured before enhancement |
+| Jira | `https://jira.example.com` | Configured before enhancement |
 | GitHub | `https://github.example.com/api/v3` | Configured before enhancement |
 | Salesforce | `https://company.my.salesforce.com` | Configured before enhancement |
 | SonarQube | `https://sonar.example.com` | Configured before enhancement |

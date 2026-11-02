@@ -18,16 +18,16 @@ requirements: [EliteaAI/elitea_issues#2584]
 ## Preconditions
 
 - Logged in to ELITEA at {{base_url}}
-- Credential A: Site URL https://5clkvm.sharepoint.com (tenant only)
-- Credential B: Site URL https://5clkvm.sharepoint.com/sites/TestSite (full /sites/ URL)
+- Credential A: Site URL https://your-tenant.sharepoint.com (tenant only)
+- Credential B: Site URL https://your-tenant.sharepoint.com/sites/TestSite (full /sites/ URL)
 - /teams/TestTeam and /sites/TestSite both accessible on the tenant
 - A sub-folder Shared Documents/Reports exists in both sites
 
 ## Test Data
 
-Scenario A: Credential=https://5clkvm.sharepoint.com | Site Path=teams/TestTeam | Tool folder arg=Shared Documents/Reports
-Scenario B: Credential=https://5clkvm.sharepoint.com/sites/TestSite | Site Path=empty | Tool folder arg=Shared Documents/Reports
-Scenario C: Credential=https://5clkvm.sharepoint.com/sites/TestSite | Site Path=teams/TestTeam | Tool folder arg=none
+Scenario A: Credential=https://your-tenant.sharepoint.com | Site Path=teams/TestTeam | Tool folder arg=Shared Documents/Reports
+Scenario B: Credential=https://your-tenant.sharepoint.com/sites/TestSite | Site Path=empty | Tool folder arg=Shared Documents/Reports
+Scenario C: Credential=https://your-tenant.sharepoint.com/sites/TestSite | Site Path=teams/TestTeam | Tool folder arg=none
 
 Note: In all scenarios, the tool-level path arg is a folder path WITHIN the resolved site — it does not override the site resolution.
 

@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 ## Preconditions
 
 - User is logged in to `{{base_url}}`
-- Jira toolkit is configured with base_url containing trailing slash (e.g., `https://jiraeu.epam.com/`)
+- Jira toolkit is configured with base_url containing trailing slash (e.g., `https://jira.example.com/`)
 - Check Connection for Jira toolkit passed successfully
 - User has access to Chat interface with toolkit invocation capability
 
@@ -22,7 +22,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 | Field | Value |
 |-------|-------|
 | URL | `{{base_url}}/app/` |
-| Jira base_url | `https://jiraeu.epam.com/` (with trailing slash) |
+| Jira base_url | `https://jira.example.com/` (with trailing slash) |
 | Jira project key | Valid project key |
 
 ## Steps

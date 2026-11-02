@@ -13,7 +13,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 ## Preconditions
 
 - User is logged in to `{{base_url}}`
-- Jira toolkit is configured with base_url containing trailing slash (e.g., `https://jiraeu.epam.com/`)
+- Jira toolkit is configured with base_url containing trailing slash (e.g., `https://jira.example.com/`)
 - Check Connection for Jira toolkit passed successfully (URL normalized)
 - User has access to Agents section
 
@@ -22,7 +22,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 | Field | Value |
 |-------|-------|
 | URL | `{{base_url}}/app/` |
-| Jira base_url | `https://jiraeu.epam.com/` (with trailing slash) |
+| Jira base_url | `https://jira.example.com/` (with trailing slash) |
 | Jira project key | Valid project key (e.g., `TEST`) |
 | Agent name | `Test Agent - Jira URL Normalization` |
 
@@ -56,7 +56,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 - Jira toolkit tools execute successfully in agent workflow
 - Valid data is returned from Jira API calls
 - No URL-related errors appear in response or logs
-- API endpoint construction produces valid URLs (no double slashes like `https://jiraeu.epam.com//rest/api/...`)
+- API endpoint construction produces valid URLs (no double slashes like `https://jira.example.com//rest/api/...`)
 - Jira client initialization works correctly with normalized URL
 
 **Fail:**

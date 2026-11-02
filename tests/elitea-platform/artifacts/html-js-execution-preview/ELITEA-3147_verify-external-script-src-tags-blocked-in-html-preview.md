@@ -21,7 +21,7 @@ requirements: [EliteaAI/elitea_issues#6176]
 | Field | Value |
 |-------|-------|
 | URL | `{{base_url}}/app/` |
-| Test files repository | `https://epam.sharepoint.com/:f:/r/sites/EPAMAlita_test_sam/Shared%20Documents/Test_Chornyi/6176-html-js-test-files` |
+| Test files repository | `{{sharepoint_test_files_url}}` |
 | File | `external-script.html` — contains `<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>` plus dependent DOM manipulation |
 
 ## Steps

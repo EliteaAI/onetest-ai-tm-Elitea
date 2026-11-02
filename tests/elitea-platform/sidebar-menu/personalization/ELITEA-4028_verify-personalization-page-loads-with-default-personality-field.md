@@ -25,7 +25,7 @@ requirements: [EliteaAI/elitea_issues#5264]
 | Field | Value |
 |-------|-------|
 | URL | `{{base_url}}/app/` |
-| Test User | mariam_hakobyan@epam.com |
+| Test User | {{test_user_email}} |
 
 ## Steps
 

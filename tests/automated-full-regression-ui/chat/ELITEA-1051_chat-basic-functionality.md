@@ -28,7 +28,7 @@ requirements: []
 
 - URL: {{base_url}}
 - Test user: alita@elitea.ai
-- Password: rokziJ-nuvzo4-hucmih
+- Password: {{test_user_password}}
 - Test message: "Hello, this is a test message"
 - AI model: Claude 4.5 Sonnet (default)
 

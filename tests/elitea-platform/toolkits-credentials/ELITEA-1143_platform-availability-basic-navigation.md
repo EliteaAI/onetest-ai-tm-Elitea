@@ -31,7 +31,7 @@ requirements: []
 
 - URL: {{base_url}}
 - Test user: alita@elitea.ai
-- Password: rokziJ-nuvzo4-hucmih
+- Password: {{test_user_password}}
 - API endpoint: {{base_url}}
 
 ## Steps

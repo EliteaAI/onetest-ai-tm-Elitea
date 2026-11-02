@@ -19,13 +19,13 @@ requirements: [EliteaAI/elitea_issues#2584]
 
 - Logged in to ELITEA at {{base_url}}
 - An existing SharePoint toolkit created before R-2.0.4 (no Site Path populated)
-- SharePoint credential with a full /sites/ URL (e.g., https://5clkvm.sharepoint.com/sites/TestSite)
+- SharePoint credential with a full /sites/ URL (e.g., https://your-tenant.sharepoint.com/sites/TestSite)
 - At least one document available at that site
 
 ## Test Data
 
 - Existing toolkit name: Sharepoint regression (pre-feature)
-- Credential Site URL: https://5clkvm.sharepoint.com/sites/TestSite
+- Credential Site URL: https://your-tenant.sharepoint.com/sites/TestSite
 - Document path: a valid server-relative path in the /sites/ library
 
 ## Steps

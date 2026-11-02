@@ -25,7 +25,7 @@ requirements: [EliteaAI/elitea_issues#3054]
 ## Test Data
 
 - Test file: `test-report.pdf` (5-10 pages with text content)
-- Sharing link format: `https://epam-my.sharepoint.com/:b:/p/username/...`
+- Sharing link format: `https://your-tenant-my.sharepoint.com/:b:/p/username/...`
 
 ## Steps
 

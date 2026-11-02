@@ -18,13 +18,13 @@ requirements: [EliteaAI/elitea_issues#2584]
 ## Preconditions
 
 - Logged in to ELITEA at {{base_url}}
-- App registration with Client ID and Client Secret having permissions on https://5clkvm.sharepoint.com/teams/daniyar_community_team
-- /teams/daniyar_community_team has at least one document
+- App registration with Client ID and Client Secret having permissions on https://your-tenant.sharepoint.com/teams/test-team
+- /teams/test-team has at least one document
 
 ## Test Data
 
 - Credential Display Name: SharePoint Teams Creds
-- Site URL: https://5clkvm.sharepoint.com/teams/daniyar_community_team
+- Site URL: https://your-tenant.sharepoint.com/teams/test-team
 - Client ID: (valid app registration value)
 - Client Secret: (valid secret)
 
@@ -32,15 +32,15 @@ requirements: [EliteaAI/elitea_issues#2584]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to Credentials → + Create → SharePoint. Fill in: Display Name 'SharePoint Teams Creds', Site URL 'https://5clkvm.sharepoint.com/teams/daniyar_community_team', Client ID and Client Secret. | Form accepts all values. No validation error on the Site URL field for the /teams/ format. |
+| 1 | Navigate to Credentials → + Create → SharePoint. Fill in: Display Name 'SharePoint Teams Creds', Site URL 'https://your-tenant.sharepoint.com/teams/test-team', Client ID and Client Secret. | Form accepts all values. No validation error on the Site URL field for the /teams/ format. |
 | 2 | Click Test Connection. | Result shows Success. No authentication error, no 'site not found', no timeout. |
 | 3 | Click Save. | Credential is saved. No error toast. |
 | 4 | Navigate to Toolkits → + Create → SharePoint. Select credential 'SharePoint Teams Creds'. Leave Site Path empty. Enable Get files list. Click Save. | Toolkit is saved successfully. |
-| 5 | Open the toolkit, go to Test Settings, select Get files list, click Run Tool. | Files from .../teams/daniyar_community_team are returned. No HTTP errors. |
+| 5 | Open the toolkit, go to Test Settings, select Get files list, click Run Tool. | Files from .../teams/test-team are returned. No HTTP errors. |
 
 ## Expected Final State
 
-Files from .../teams/daniyar_community_team are returned. No HTTP errors.
+Files from .../teams/test-team are returned. No HTTP errors.
 
 ## Pass/Fail Criteria
 

@@ -25,7 +25,7 @@ requirements: [EliteaAI/elitea_issues#3054]
 ## Test Data
 
 - Test file: `data-table.xlsx` with sheets, headers, data rows
-- Sharing link format: `https://epam-my.sharepoint.com/:x:/p/username/...`
+- Sharing link format: `https://your-tenant-my.sharepoint.com/:x:/p/username/...`
 
 ## Steps
 

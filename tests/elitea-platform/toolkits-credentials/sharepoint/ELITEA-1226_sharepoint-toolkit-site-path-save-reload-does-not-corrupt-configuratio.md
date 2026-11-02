@@ -18,7 +18,7 @@ requirements: [EliteaAI/elitea_issues#2584]
 ## Preconditions
 
 - Logged in to ELITEA at {{base_url}}
-- SharePoint toolkit with a tenant-only credential URL (e.g., https://5clkvm.sharepoint.com)
+- SharePoint toolkit with a tenant-only credential URL (e.g., https://your-tenant.sharepoint.com)
 - Both teams/TestTeam and sites/AnotherSite are accessible on the tenant
 
 ## Test Data

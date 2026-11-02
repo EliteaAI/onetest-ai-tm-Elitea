@@ -20,8 +20,8 @@ requirements: [EliteaAI/elitea_issues#6810]
 | Field | Value |
 |-------|-------|
 | URL | `{{base_url}}/app/` |
-| Test URL with trailing slash | `https://jiraeu.epam.com/` |
-| Test URL without trailing slash | `https://jiraeu.epam.com` |
+| Test URL with trailing slash | `https://jira.example.com/` |
+| Test URL without trailing slash | `https://jira.example.com` |
 
 ## Steps
 
@@ -30,8 +30,8 @@ requirements: [EliteaAI/elitea_issues#6810]
 | 1 | Navigate to Credentials section | Credentials page loads successfully |
 | 2 | Click "+ Credential" and select Jira credential type | Credential configuration form opens |
 | 3 | Click in Base URL input field | Field is focused, ready for input |
-| 4 | Type URL with trailing slash: `https://jiraeu.epam.com/` | Field accepts input character by character, no client-side validation preventing trailing slash |
-| 5 | Verify trailing slash is visible in field | URL with trailing slash displayed: `https://jiraeu.epam.com/` |
+| 4 | Type URL with trailing slash: `https://jira.example.com/` | Field accepts input character by character, no client-side validation preventing trailing slash |
+| 5 | Verify trailing slash is visible in field | URL with trailing slash displayed: `https://jira.example.com/` |
 | 6 | Enter Display Name and valid credentials | All required fields populated |
 | 7 | Click "Check Connection" button | Button becomes disabled or shows loading state |
 | 8 | Observe loading indicator during connection check | Loading spinner or progress indicator displayed |
@@ -42,7 +42,7 @@ requirements: [EliteaAI/elitea_issues#6810]
 | 13 | Verify credential saved successfully | Success notification displayed |
 | 14 | Close and reopen the same credential configuration | Credential form opens with saved values |
 | 15 | Check Base URL field content | URL may be displayed as originally entered or normalized (implementation dependent, both acceptable) |
-| 16 | Edit Base URL to remove trailing slash: `https://jiraeu.epam.com` | Field updates |
+| 16 | Edit Base URL to remove trailing slash: `https://jira.example.com` | Field updates |
 | 17 | Click "Check Connection" again | Connection check runs |
 | 18 | Verify connection succeeds identically to version with trailing slash | Success message displayed, behavior identical |
 

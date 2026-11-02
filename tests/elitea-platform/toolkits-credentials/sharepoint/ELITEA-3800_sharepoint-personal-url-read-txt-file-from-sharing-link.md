@@ -25,7 +25,7 @@ requirements: [EliteaAI/elitea_issues#3054]
 ## Test Data
 
 - Test file: `sample-text.txt` containing: "This is a test file for personal SharePoint URL support."
-- Sharing link format: `https://epam-my.sharepoint.com/:t:/p/username/...`
+- Sharing link format: `https://your-tenant-my.sharepoint.com/:t:/p/username/...`
 
 ## Steps
 

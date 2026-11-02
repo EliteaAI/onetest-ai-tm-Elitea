@@ -25,7 +25,7 @@ requirements: [EliteaAI/elitea_issues#3054]
 ## Test Data
 
 - Test file: `test-document.docx` with formatted content (headings, paragraphs, lists)
-- Sharing link format: `https://epam-my.sharepoint.com/:w:/p/username/...`
+- Sharing link format: `https://your-tenant-my.sharepoint.com/:w:/p/username/...`
 
 ## Steps
 
