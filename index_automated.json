@@ -9762,7 +9762,7 @@
     },
     {
       "id": "ELITEA-2005",
-      "title": "Entry Point Node — Trigger Types (Chat Message, Schedule, Webhook)",
+      "title": "Entry Point Node — Trigger Types (Chat Message, Webhook)",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
