@@ -49553,6 +49553,78 @@
       "path": "tests\\elitea-platform\\chat-interface\\ELITEA-0499_chat-message-actions-clear-history.md"
     },
     {
+      "id": "ELITEA-4387",
+      "title": "Duplicate Filename Handling When Downloading Multiple Code Blocks of the Same Language",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "comm:feedback",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7144"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\ELITEA-4387_duplicate-filename-handling-same-language-code-blocks.md"
+    },
+    {
+      "id": "ELITEA-4388",
+      "title": "Mermaid Diagrams and Markdown Tables Do Not Display a Broken or Partial Download Control",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "comm:feedback",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7144"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\ELITEA-4388_mermaid-and-markdown-table-no-broken-download-control.md"
+    },
+    {
+      "id": "ELITEA-4389",
+      "title": "Extremely Large Code Block Download Does Not Degrade Chat Responsiveness",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "comm:feedback",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7144"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\ELITEA-4389_extremely-large-code-block-download-chat-responsiveness.md"
+    },
+    {
       "id": "ELITEA-2840",
       "title": "ask_user - Tool visibility and toggle control in chat modules",
       "status": "draft",
