@@ -43,7 +43,7 @@ requirements: []
 | # | Action | Expected Result |
 |---|--------|----------------|
 | 1 | Open a pipeline. On the canvas, click the '+' button and add two LLM nodes. Connect the first LLM node to the END node by dragging from the bottom handle of the LLM node to the top handle of END. | Two LLM nodes appear on the canvas. A connection line (edge) exists between the first LLM node and END. |
-| 2 | On the second LLM node, click the three-dot menu icon and look for a 'Make entrypoint' option. | The 'Make entrypoint' option appears in the menu (it may not appear if the node is not connected). |
+| 2 | Select the second LLM node so its configuration side panel is open and look for the 'Make Entrypoint' button in the panel footer. | The 'Make Entrypoint' button is shown in the panel footer (node cards are view-only; the three-dot menu no longer carries this action). |
 | 3 | Open a fresh pipeline (or create a new one). Click the '+' button and select 'Decision' from the node type menu. | A new Decision node appears on the canvas. The total node count increases by 1. |
 | 4 | Click the '+' button again and select 'Printer' from the menu. | A new Printer node appears on the canvas. The total node count increases by 1. |
 | 5 | Click the '+' button again and select 'Router' from the menu. | A new Router node appears on the canvas. The total node count increases by 1. |
@@ -59,7 +59,7 @@ The History tab opens and displays version history content.
 
 **Pass:**
 - All advanced node types (Decision, Printer, Router) can be added
-- Entrypoint menu appears on connected pipelines (or gracefully skips)
+- Make Entrypoint is available in the node side panel footer
 - 3-node chain connects correctly with 2+ edges
 - Multi-node pipeline persists after save + reload
 - History tab is accessible
