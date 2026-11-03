@@ -41,7 +41,7 @@ All action-bar controls other than Save/Save As Version/Discard behave exactly a
 
 **Pass:**
 - No adjacent control's visibility/enabled state changed as a side effect of this fix
-- Action bar layout remains visually correct with the three controls hidden/disabled
+- Action bar layout remains visually correct with the three controls hidden
 
 **Fail:**
 - Any adjacent control (Export, three-dot menu, or its entries) is unexpectedly hidden, disabled, or newly exposed for Viewer

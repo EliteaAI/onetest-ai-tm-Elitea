@@ -34052,7 +34052,7 @@
     },
     {
       "id": "ELITEA-4374",
-      "title": "Save, Save As Version, and Discard Are Hidden or Disabled for Viewer on Agent Details",
+      "title": "Save, Save As Version, and Discard Are Hidden for Viewer on Agent Details",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -66076,7 +66076,7 @@
     },
     {
       "id": "ELITEA-4375",
-      "title": "Save, Save As Version, and Discard Remain Hidden or Disabled for Viewer on Pipeline Details (Regression)",
+      "title": "Save, Save As Version, and Discard Remain Hidden for Viewer on Pipeline Details (Regression)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -77430,7 +77430,7 @@
     },
     {
       "id": "ELITEA-4376",
-      "title": "Save, Save As Version, and Discard Remain Hidden or Disabled for Viewer on Skill Details (Regression)",
+      "title": "Save, Save As Version, and Discard Remain Hidden for Viewer on Skill Details (Regression)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
