@@ -49553,6 +49553,225 @@
       "path": "tests\\elitea-platform\\chat-interface\\ELITEA-0499_chat-message-actions-clear-history.md"
     },
     {
+      "id": "ELITEA-4317",
+      "title": "Download Button on Chat Code Block Produces File Matching Block Content",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "comm:feedback",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7144"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\ELITEA-4317_download-button-on-code-block-produces-matching-file.md"
+    },
+    {
+      "id": "ELITEA-4318",
+      "title": "Downloaded Chat Code Block File Has Correct Name and Extension per Language",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "comm:feedback",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7144"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\ELITEA-4318_downloaded-file-extension-matches-code-block-language.md"
+    },
+    {
+      "id": "ELITEA-4321",
+      "title": "Download Control Available Consistently Across Direct Chat, Agent-Participant, and Pipeline-Participant Surfaces",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "comm:feedback",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7144"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\ELITEA-4321_download-control-available-across-chat-surfaces.md"
+    },
+    {
+      "id": "ELITEA-4322",
+      "title": "Code Block Download Control Behaves Correctly With Regenerate, Delete, and Edit-and-Regenerate",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "comm:feedback",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7144"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\ELITEA-4322_download-control-behavior-with-regenerate-delete-edit.md"
+    },
+    {
+      "id": "ELITEA-4323",
+      "title": "Download Button Does Not Interfere With Read Out (TTS) Behavior",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:voice",
+        "comm:feedback",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7144"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\ELITEA-4323_revalidate-tts-read-out-unaffected-by-download-button.md"
+    },
+    {
+      "id": "ELITEA-4324",
+      "title": "Downloaded Code Block Filename Does Not Conflict With or Mimic Conversation Export Naming",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "comm:feedback",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7144"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\ELITEA-4324_download-filename-does-not-collide-with-conversation-export.md"
+    },
+    {
+      "id": "ELITEA-4325",
+      "title": "Parity Re-check: Chat Code Block Download Does Not Regress Artifacts/Canvas MDX Download Pattern",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:artifacts",
+        "feat:canvas",
+        "comm:feedback",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7144"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\ELITEA-4325_parity-recheck-chat-download-vs-artifacts-canvas-download.md"
+    },
+    {
+      "id": "ELITEA-4327",
+      "title": "Download Button Visual Placement and Accessibility in Code Block Toolbar",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "comm:feedback",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7144"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\ELITEA-4327_download-button-visual-placement-and-accessibility.md"
+    },
+    {
+      "id": "ELITEA-4328",
+      "title": "Download Control Visibility Across Project/Permission Contexts",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "comm:feedback",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7144"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\ELITEA-4328_download-control-visibility-across-permission-contexts.md"
+    },
+    {
       "id": "ELITEA-4387",
       "title": "Duplicate Filename Handling When Downloading Multiple Code Blocks of the Same Language",
       "status": "draft",
