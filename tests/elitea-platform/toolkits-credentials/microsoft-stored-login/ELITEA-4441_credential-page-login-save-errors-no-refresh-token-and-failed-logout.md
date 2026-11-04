@@ -6,8 +6,8 @@ type: functional
 module: toolkits-credentials
 status: ready
 execution_type: manual
-tags: [feat:credentials, int:oauth, issue:7262, stored-login, p2]
-requirements: ["EliteaAI/elitea_issues#7262"]
+tags: [feat:credentials, int:oauth, issue:7262, stored-login, p2, issue:7345, int:sharepoint]
+requirements: ["EliteaAI/elitea_issues#7262", "EliteaAI/elitea_issues#7345"]
 ---
 
 # ELITEA-4441: Credential page login: no refresh token from Microsoft, and a Logout that fails on the server
@@ -23,6 +23,8 @@ requirements: ["EliteaAI/elitea_issues#7262"]
 - A team project **P**. The tester is a **project admin**.
 - A Teams credential **C** (Custom app, own Entra app) and a Microsoft test account **MS-A**.
 - For Part A, a way to get a sign-in without a refresh token: an Entra app or credential with **Auto refresh token (offline_access) off**.
+
+**Variants:** run for **Teams** and again for a **SharePoint (Delegated)** credential (#7345). For SharePoint, also check that a schedule with the toolkit stays **blocked** by the risk review after Part A (no saved login).
 
 ---
 

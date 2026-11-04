@@ -6,8 +6,8 @@ type: functional
 module: toolkits-credentials
 status: ready
 execution_type: manual
-tags: [feat:credentials, int:oauth, issue:7262, stored-login, p1]
-requirements: ["EliteaAI/elitea_issues#7262"]
+tags: [feat:credentials, int:oauth, issue:7262, stored-login, p1, issue:7345, int:sharepoint]
+requirements: ["EliteaAI/elitea_issues#7262", "EliteaAI/elitea_issues#7345"]
 ---
 
 # ELITEA-4361: A Microsoft login made while the credential has unsaved edits is not saved
@@ -23,6 +23,8 @@ requirements: ["EliteaAI/elitea_issues#7262"]
 - A team project **P**. The tester is a **project admin**.
 - A saved Teams credential **C** with app **APP1**'s client ID and no saved login.
 - A second Entra app **APP2** with its own client ID and secret.
+
+**Variants:** run for **Teams** and again for a **SharePoint (Delegated)** credential (#7345). For SharePoint, also try an unsaved change of the **site URL** only.
 
 ---
 

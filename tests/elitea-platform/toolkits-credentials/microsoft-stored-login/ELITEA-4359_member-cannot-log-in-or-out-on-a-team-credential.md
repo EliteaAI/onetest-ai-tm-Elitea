@@ -6,8 +6,8 @@ type: security
 module: toolkits-credentials
 status: ready
 execution_type: manual
-tags: [feat:credentials, int:oauth, issue:7262, stored-login, security, roles, p0]
-requirements: ["EliteaAI/elitea_issues#7262"]
+tags: [feat:credentials, int:oauth, issue:7262, stored-login, security, roles, p0, issue:7345, int:sharepoint]
+requirements: ["EliteaAI/elitea_issues#7262", "EliteaAI/elitea_issues#7345"]
 ---
 
 # ELITEA-4359: A project member cannot log in or out on a team Microsoft credential, from the UI or the API
@@ -24,6 +24,8 @@ requirements: ["EliteaAI/elitea_issues#7262"]
 - A Teams credential **C** in P with a login saved by ADM (as in ELITEA-4356 steps 1–2).
 - A Teams credential **C2** in P with no saved login.
 - A Teams toolkit **T** using C.
+
+**Variants:** run the steps for **Teams** and again for **SharePoint (Delegated)** credentials (#7345: SharePoint credential-page logins follow the same rule). For SharePoint, T is a SharePoint toolkit; its page has SharePoint's own login bar.
 
 ---
 
