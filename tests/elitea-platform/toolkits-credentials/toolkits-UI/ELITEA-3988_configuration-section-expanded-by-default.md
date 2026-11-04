@@ -13,13 +13,13 @@ requirements: [EL-6252]
 
 **Module:** Toolkits & Indexes · **Priority:** Critical · **Type:** Functional
 
-**Objective:** Verify that the Configuration section is expanded by default when opening a Toolkit, showing only primary fields with "Show more" link available.
+**Objective:** Verify that the Configuration section is expanded by default when opening a Toolkit, showing only primary fields with "Show less" link available.
 
 **Coverage:**
 - Configuration section expanded on page load
 - Only primary fields visible initially (Toolkit Name, Description, Credentials)
 - Credentials displayed as dropdown (PGVector)
-- "Show more" link visible for additional fields
+- "Show less" link visible for additional fields
 
 ## Preconditions
 
@@ -41,12 +41,12 @@ requirements: [EL-6252]
 | 3 | Observe the Configuration section state on page load. | Configuration section is expanded by default. |
 | 4 | Verify primary fields visible: Toolkit Name, Description, Credentials. | All three primary fields are displayed. |
 | 5 | Verify Credentials field is displayed as a dropdown. | Credentials shows as dropdown selector (e.g., PGVector). |
-| 6 | Verify "Show more" link is visible below primary fields. | "Show more" link/button is present. |
-| 7 | Verify no additional configuration fields are visible initially. | Only primary fields shown; advanced settings hidden. |
+| 6 | Verify "Show less" link is visible below Advanced settings field. | "Show less" link/button is present. |
+| 7 | Verify no additional configuration fields are visible initially. | Primary fields shown; advanced settings expanded. |
 
 ## Expected Final State
 
-Configuration section is expanded by default showing only Toolkit Name, Description, and Credentials (as dropdown), with "Show more" link available for additional fields.
+Configuration section is expanded by default showing only Toolkit Name, Description, and Credentials (as dropdown), with "Show less" link available for additional fields.
 
 ## Pass/Fail Criteria
 
@@ -54,10 +54,10 @@ Configuration section is expanded by default showing only Toolkit Name, Descript
 - Configuration section expanded on page load
 - Only 3 primary fields visible initially
 - Credentials displayed as dropdown
-- "Show more" link visible
+- "Show less" link visible
 
 **Fail:**
 - Configuration section collapsed on load
 - Additional fields visible by default
 - Credentials not displayed as dropdown
-- "Show more" link missing
+- "Show less" link missing

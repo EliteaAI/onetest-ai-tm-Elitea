@@ -16,10 +16,9 @@ requirements: [EL-6252]
 **Objective:** Verify that "Show more" expands additional configuration fields and "Show less" collapses them back.
 
 **Coverage:**
-- "Show more" click reveals additional toolkit-specific fields
-- Additional fields include embedding model, API version, etc.
 - "Show less" collapses the additional fields
-- Primary fields remain visible after collapse
+- "Show more" expands the additional fields again
+- Primary fields remain visible throughout
 
 ## Preconditions
 
@@ -37,29 +36,27 @@ requirements: [EL-6252]
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Navigate to Toolkits & Indexes → open any toolkit. | Toolkit details page opens with Configuration expanded. |
-| 2 | Verify only primary fields visible initially. | Toolkit Name, Description, Credentials visible. |
-| 3 | Click "Show more" link. | Additional configuration fields appear. |
-| 4 | Observe the additional fields revealed. | Fields like Embedding Model, API Version, Space, Limit, Labels, advanced settings visible. |
-| 5 | Verify "Show more" changes to "Show less". | Link text changes to "Show less". |
-| 6 | Click "Show less" link. | Additional fields collapse/hide. |
-| 7 | Verify primary fields remain visible. | Toolkit Name, Description, Credentials still visible. |
-| 8 | Verify "Show less" changes back to "Show more". | Link text changes back to "Show more". |
+| 2 | Verify all fields visible initially, with "Show less" link present. | Toolkit Name, Description, Credentials, and additional fields (e.g., Embedding Model, API Version, Space, Limit, Labels, advanced settings) all visible. |
+| 3 | Click "Show less" link. | Additional fields collapse/hide. |
+| 4 | Verify "Show less" changes to "Show more". | Link text changes to "Show more". |
+| 5 | Verify primary fields remain visible. | Toolkit Name, Description, Credentials still visible. |
+| 6 | Click "Show more" link. | Additional fields expand again. |
+| 7 | Verify "Show more" changes back to "Show less". | Link text changes back to "Show less". |
 
 ## Expected Final State
 
-Configuration section returns to initial state with only primary fields visible and "Show more" link available.
+Configuration section returns to initial state with all fields visible and "Show less" link available.
 
 ## Pass/Fail Criteria
 
 **Pass:**
-- "Show more" reveals additional configuration fields
-- Additional fields include toolkit-specific parameters
-- "Show less" hides additional fields
+- "Show less" hides additional configuration fields
+- "Show more" reveals them again, including toolkit-specific parameters
 - Primary fields always remain visible
 - Link text toggles appropriately
 
 **Fail:**
-- "Show more" doesn't reveal additional fields
-- "Show less" doesn't hide fields
+- "Show less" doesn't hide additional fields
+- "Show more" doesn't reveal fields again
 - Primary fields disappear on toggle
 - Link text doesn't change
