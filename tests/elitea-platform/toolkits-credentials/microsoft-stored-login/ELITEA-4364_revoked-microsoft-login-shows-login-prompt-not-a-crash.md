@@ -32,10 +32,13 @@ requirements: ["EliteaAI/elitea_issues#7037"]
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Run PL. | Both nodes complete and the Teams node returns data. |
-| 2 | At Microsoft, revoke MS-A's sessions: **My Account → Sign out everywhere**, or change MS-A's password. | — |
-| 3 | Wait at least 1 hour, so the cached access token expires. Run PL from a schedule with no browser open. | The Teams node reports that a login is needed (authorization required). The run does not crash with an internal error, and the LLM node still runs if the pipeline allows it. |
-| 4 | Open T. | The bar shows that the saved login is no longer valid (**Not Connected** or a login prompt). |
+| 2 | At Microsoft, revoke MS-A's sessions: **My Account → Sign out everywhere**, or change MS-A's password (or ask the Entra admin to revoke MS-A's sessions). | — |
+| 2a | Right away, run PL from a schedule. | **Record**: it may still work. The backend caches the access token for about its lifetime minus 2 minutes, so a revoke takes effect only when the cache expires. Note how long it keeps working. |
+| 3 | Wait at least 1 hour, so the cached access token expires. Run PL from a schedule with no browser open. | The Teams node reports that a login is needed (authorization required). The run does not crash with an internal error, and the LLM node still runs if the pipeline allows it. Record the error text in the run log. |
+| 4 | Open T and C. | The pages show that the saved login is no longer valid (**Not Connected** or a login prompt). **Record**: the server keeps the dead `refresh_token` and nothing marks it, so both pages may still show **Connected / Logout**. If so, report as a bug. |
+| 4a | As a user with a browser token for C (signed in in chat before step 2), chat with an agent using T. | The browser token works until it expires, then the user is asked to log in. |
 | 5 | On C, log in again as MS-A and run PL. | PL completes with data again. |
+| 6 | Optional: in the tenant, remove MS-A's consent for the app (My Apps → app → revoke, or an admin removes the grant). Repeat step 3. | Same result as step 3. Re-login on C asks for consent again, then works. |
 
 ---
 
@@ -52,4 +55,5 @@ After a new login, PL works. While the login was revoked, the run failed only in
 
 **Fail:**
 - The run fails with a raw stack trace, or hangs.
-- The run keeps using the revoked account.
+- The run keeps using the revoked account after the cache window.
+- The credential page and the toolkit bar keep showing **Connected / Logout** for a login Microsoft refuses.

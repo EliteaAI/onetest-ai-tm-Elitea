@@ -33,6 +33,8 @@ requirements: ["EliteaAI/elitea_issues#7262"]
 | 1 | Open C. Change **Client ID** and **Client secret** to APP2's values. Do **not** click Save. | The form shows unsaved changes. |
 | 2 | Click **Test connection** and complete the Microsoft sign-in. | The toast **"Save the credential first, then log in again: the login must match the saved settings."** appears. |
 | 3 | Check the credential GET response in DevTools. | `data.refresh_token` is not set. The saved client ID is still APP1's. |
+| 3a | Look at the page's login button right after step 2, then reload. | The page must not show **Logout** as if a login were saved. **Record**: the code keeps the browser token from this sign-in, so the page may show Logout until reload. That would repeat the #7262 confusion. |
+| 3b | Without reloading, run a schedule that uses C. | The run asks for a login (nothing stored), whatever the page shows. |
 | 4 | Discard the changes and reload C. Click **Test connection** and sign in. | Toast **"Connected! The login is saved for scheduled runs."** The login is now saved for APP1. |
 
 ---
@@ -50,3 +52,4 @@ C has APP1's settings and a login saved for APP1. No login made for APP2 is stor
 
 **Fail:**
 - A login made with unsaved edits is saved on the credential.
+- After step 2 the page shows **Logout** as a saved login although nothing is saved (report as a bug).
