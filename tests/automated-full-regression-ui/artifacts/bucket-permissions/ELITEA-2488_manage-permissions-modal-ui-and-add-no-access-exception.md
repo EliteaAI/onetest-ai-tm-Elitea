@@ -48,8 +48,8 @@ requirements: [EliteaAI/elitea_issues#5832, EliteaAI/elitea_issues#5912]
 | 2 | Navigate to Artifacts section | Artifacts page loads |
 | 3 | Verify bucket "permissionstest" is visible in sidebar | Bucket is listed |
 | 4 | Click on context menu (3 dots) next to bucket name in sidebar | Context menu opens |
-| 5 | Verify "Manage access" option is present in context menu | "Manage access" option visible |
-| 6 | Click "Manage access" | "Manage Permissions" modal opens |
+| 5 | Verify "Manage permissions" option is present in context menu | "Manage permissions" option visible |
+| 6 | Click "Manage Permissions" | "Manage Permissions" modal opens |
 | 7 | Verify modal header shows "Manage Permissions" with X close button | Header and close button present |
 | 8 | Verify "Default Permissions" section shows "All users have read/write permissions by default." | Default permissions info displayed |
 | 9 | Verify "Exceptions" section header with count | "Exceptions – N" displayed |

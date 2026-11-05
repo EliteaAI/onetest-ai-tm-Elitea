@@ -45,7 +45,7 @@ requirements: [EliteaAI/elitea_issues#5832, EliteaAI/elitea_issues#5912]
 | 2 | Navigate to a Team project | Project opens |
 | 3 | Go to Artifacts and select any bucket | Bucket selected |
 | 4 | Click context menu (3 dots) next to bucket name | Context menu opens |
-| 5 | Verify "Manage access" option IS present | "Manage access" visible in Team project |
+| 5 | Verify "Manage permissions" option IS present | "Manage access" visible in Team project |
 | 6 | Close context menu | Menu closes |
 | 7 | Navigate to a Private project | Project opens |
 | 8 | Go to Artifacts and select any bucket | Bucket selected |

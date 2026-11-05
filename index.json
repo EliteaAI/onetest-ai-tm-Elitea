@@ -11731,27 +11731,6 @@
       "path": "tests\\automated-full-regression-ui\\artifacts\\ELITEA-1822_scroll-through-bucket-list-20-or-more-buckets.md"
     },
     {
-      "id": "ELITEA-1823",
-      "title": "Bucket Highlights on Mouse Hover",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests\\automated-full-regression-ui\\artifacts\\ELITEA-1823_bucket-highlights-on-mouse-hover.md"
-    },
-    {
       "id": "ELITEA-1824",
       "title": "Upload Flow: Three upload paths, subfolder/root destinations, nested paths",
       "status": "draft",
