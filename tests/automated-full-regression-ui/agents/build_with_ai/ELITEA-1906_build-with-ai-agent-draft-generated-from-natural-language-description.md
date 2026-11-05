@@ -39,7 +39,7 @@ requirements: []
 |---|--------|-----------------|
 | 1 | Open the GenerateAgentModal from the New Agent creation page | The modal opens with a prompt input field |
 | 2 | Enter a natural-language description (e.g., "An agent that helps write concise JIRA ticket descriptions") | The input field accepts and displays the entered text |
-| 3 | Click "Generate agent" | The modal shows a loading state while generation is in progress |
+| 3 | Click "Generate Draft" | The modal shows a loading state while generation is in progress |
 | 4 | Wait for generation to complete | The loading state ends and the modal transitions to the review/edit form |
 | 5 | Verify the modal transitions to a review/edit form pre-populated with Name | The Name field is pre-populated with a generated value |
 | 6 | Verify the review/edit form is pre-populated with Description | The Description field is pre-populated with a generated value |

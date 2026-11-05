@@ -37,10 +37,10 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Log in as admin or editor and navigate to New Agent creation | The New Agent creation page is displayed with the tab bar visible |
-| 2 | Click the Magic Wand button in the tab bar | The GenerateAgentModal opens |
+| 1 | Log in as admin or editor and navigate to New Agent creation | The New Agent creation page is displayed with Build with AI button |
+| 2 | Click the Build with AI button in the tab bar | The Build with AI modal opens |
 | 3 | Verify the modal contains a natural-language prompt input field | A text input field for entering a natural-language description is present in the modal |
-| 4 | Verify the modal contains a "Generate agent" button | The "Generate agent" button is visible and enabled |
+| 4 | Verify the modal contains a "Generate Draft" button | The "Generate Draft" button is visible and disabled |
 | 5 | Verify the modal contains a Cancel button | The Cancel button is visible in the modal |
 
 ---
