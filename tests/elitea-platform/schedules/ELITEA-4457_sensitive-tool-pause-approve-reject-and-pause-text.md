@@ -6,8 +6,8 @@ type: functional
 module: schedules
 status: ready
 execution_type: manual
-tags: [feat:schedules, feat:agents, feat:pipelines, issue:7304, issue:7314, r-2.0.8]
-requirements: ["EliteaAI/elitea_issues#7304", "EliteaAI/elitea_issues#7314"]
+tags: [feat:schedules, feat:agents, feat:pipelines, issue:7304, issue:7314, r-2.0.8, issue:7432]
+requirements: ["EliteaAI/elitea_issues#7304", "EliteaAI/elitea_issues#7314", "EliteaAI/elitea_issues#7432"]
 ---
 
 # ELITEA-4457: Schedules — sensitive tool pause: Waiting for approval, approve continues, reject fails, and the pause text counts tools correctly
@@ -67,5 +67,5 @@ Approved runs ended Success after the tool ran; rejected runs ended Failed "reje
 - The "(+N more)" count equals the number of **other** sensitive tools waiting.
 
 **Fail:**
-- A single sensitive tool shows "(+1 more)" (file a bug: elitea_core `pause_schedule_run` counts the repeated interrupt).
+- A single sensitive tool shows "(+1 more)" (known bug [#7432](https://github.com/EliteaAI/elitea_issues/issues/7432): elitea_core `pause_schedule_run` counts the repeated interrupt).
 - Approve restarts the run from the beginning, or reject lets the tool run.

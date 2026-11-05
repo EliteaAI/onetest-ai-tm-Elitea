@@ -6,8 +6,8 @@ type: regression
 module: schedules
 status: draft
 execution_type: manual
-tags: [automated:UI:regression, feat:schedules, feat:guardrails, issue:7314, issue:7304, r-2.0.8]
-requirements: ["EliteaAI/elitea_issues#7314", "EliteaAI/elitea_issues#7304"]
+tags: [automated:UI:regression, feat:schedules, feat:guardrails, issue:7314, issue:7304, r-2.0.8, issue:7432]
+requirements: ["EliteaAI/elitea_issues#7314", "EliteaAI/elitea_issues#7304", "EliteaAI/elitea_issues#7432"]
 ---
 
 # ELITEA-4467: Schedules — Pause and Ask Me Pauses Only for a Listed Sensitive Tool; Approve Continues and Reject Fails
@@ -33,7 +33,7 @@ requirements: ["EliteaAI/elitea_issues#7314", "EliteaAI/elitea_issues#7304"]
 | 1 | Test run SA. | Ends **Success**; the run log has no `paused` line. |
 | 2 | Open SB's Save review. | Lists 'Tool "create_file" of toolkit "<name>" needs approval'. |
 | 3 | Test run SB. | Status **Waiting for approval**; the run log has "Paused for approval: <toolkit> · create_file"; the runs panel shows "Action needed: this run is waiting for you". |
-| 4 | Check the pause text. | No "(+N more)" for a single tool (known bug suspect: "(+1 more)"). |
+| 4 | Check the pause text. | No "(+N more)" for a single tool (known bug #7432: shows "(+1 more)"). |
 | 5 | Open the run's chat and approve. | The file is created; the run ends **Success**. |
 | 6 | Test run SB again and reject. | **Failed** "rejected by the owner"; no new file. |
 
