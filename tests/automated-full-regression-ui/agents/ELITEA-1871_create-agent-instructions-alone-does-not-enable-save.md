@@ -49,7 +49,7 @@ requirements: []
 | 5 | Clear Name, fill only Description: "Agent for lifecycle testing" | Description field is filled; Save button remains disabled |
 | 6 | Fill both Name and Description fields | Both fields are populated |
 | 7 | Verify Save button becomes enabled | Save button becomes enabled (clickable) |
-| 8 | Click Save and wait for confirmation | Agent is created successfully and appears in agents list |
+| 8 | Click Save | Agent is created successfully, page is refreshed and conversation appears. Name of just created agent is displayed in breadcrumbs |
 
 ### Part 2: Edit Instructions and Verify Persistence
 
