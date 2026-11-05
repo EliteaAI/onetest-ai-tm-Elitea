@@ -49,7 +49,7 @@ requirements: []
 | 6 | Verify the bucket name is displayed as a header/title in the top of the main (right) panel | Main panel header shows the bucket name |
 | 7 | Verify the main panel does not display a file table or any file rows | No file table is shown |
 | 8 | Verify the main panel displays an empty state with an icon, the message "No files in this bucket" and an "Upload files" button in the center of the panel | Empty state with icon, message, and upload button is shown in the center |
-| 9 | Verify the top-right of the main panel contains a Search bar and upload / download / delete icons | All top-right icons are present |
+| 9 | Verify the top-right of the main panel contains a Search bar and upload / download / delete icons | All top-right icons aren't present |
 | 10 | Verify the bottom of the left panel displays "Buckets: N  Size: X MB" reflecting the actual number of buckets and total size | Footer shows correct bucket count and size |
 | 11 | Hover over the bucket name in the left panel — verify a tooltip appears showing "Retention Policy: X" and "Number of files: 0" | Tooltip appears with correct retention policy and 0 file count |
 
