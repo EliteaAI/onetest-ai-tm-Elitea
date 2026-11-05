@@ -11,6 +11,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  pull-requests: write
 # Back-to-back pushes must not race each other's index commit.
 concurrency:
   group: build-index
@@ -47,7 +48,10 @@ jobs:
           jq '{cases: [.cases[] | {id, priority, path}]}' index_automated.json > index_automated_all_short.json
           echo "All-short index: $(wc -c < index_automated_all_short.json) bytes ($(jq '.cases | length' index_automated_all_short.json) cases)"
 
+      # main requires a PR (repo ruleset "Default protect"), so the rebuilt index is pushed on a
+      # throwaway branch and left as a PR for a human to merge.
       - name: Commit index if changed
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -58,6 +62,18 @@ jobs:
           fi
           changed=$(git diff --cached --name-only | tr '\n' ' ')
           echo "Changed: $changed"
+          branch="chore/build-index-${GITHUB_RUN_ID}"
+          git checkout -b "$branch"
           git commit -m "chore: rebuild ${changed% }"
-          git pull --rebase origin main
-          git push
+          git push origin "$branch"
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+
+      - name: Open index PR
+        if: steps.commit.outputs.branch != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ steps.commit.outputs.branch }}
+        run: |
+          gh pr create --title "chore: rebuild index (${BRANCH})" \
+            --body "Automated index rebuild from push to main. Please review and merge." \
+            --base main --head "$BRANCH"
