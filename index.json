@@ -12641,6 +12641,31 @@
       "path": "tests\\automated-full-regression-ui\\artifacts\\bucket-permissions\\ELITEA-2488_manage-permissions-modal-ui-and-add-no-access-exception.md"
     },
     {
+      "id": "ELITEA-2488",
+      "title": "Permission Exception Enforcement (No Access / Read-only)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:artifacts",
+        "nfr:security"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5832",
+        "EliteaAI/elitea_issues#5912"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\automated-full-regression-ui\\artifacts\\bucket-permissions\\ELITEA-2488_permission-exception-enforcement-no-access-read-only.md"
+    },
+    {
       "id": "ELITEA-2489",
       "title": "Add Read-only Exception and Verify Enforcement",
       "status": "draft",
@@ -12712,6 +12737,30 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests\\automated-full-regression-ui\\artifacts\\bucket-permissions\\ELITEA-2491_manage-access-not-visible-in-private-public-projects.md"
+    },
+    {
+      "id": "ELITEA-2491",
+      "title": "Manage Permissions Not Visible in Private and Public Projects",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "artifacts",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:artifacts"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5832",
+        "EliteaAI/elitea_issues#5912"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\automated-full-regression-ui\\artifacts\\bucket-permissions\\ELITEA-2491_manage-permissions-not-visible-in-private-public-projects.md"
     },
     {
       "id": "ELITEA-2492",
@@ -26758,6 +26807,248 @@
       "path": "tests\\automated-full-regression-ui\\skills\\ELITEA-3829_agent-uses-own-model-not-skill-settings.md"
     },
     {
+      "id": "ELITEA-3836",
+      "title": "Skill Run API — Execute Default Version and Return run_id",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-executable",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\automated-full-regression-ui\\skills\\ELITEA-3836_skill-run-api-execute-default-version.md"
+    },
+    {
+      "id": "ELITEA-3837",
+      "title": "Skill Run API — Sync Mode Returns Response Successfully",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-executable",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\automated-full-regression-ui\\skills\\ELITEA-3837_skill-run-api-sync-mode.md"
+    },
+    {
+      "id": "ELITEA-3838",
+      "title": "Skill Run Error — Empty/Blank Instructions Returns 400",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-executable",
+        "error-handling",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\automated-full-regression-ui\\skills\\ELITEA-3838_skill-run-error-empty-instructions.md"
+    },
+    {
+      "id": "ELITEA-3839",
+      "title": "Regression — Agent-Attached Skills via load_skill Unchanged",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "regression",
+        "agents",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\automated-full-regression-ui\\skills\\ELITEA-3839_agent-attached-skills-unchanged.md"
+    },
+    {
+      "id": "ELITEA-4253",
+      "title": "Clicking Run on Catalog skill creates chat with skill as participant",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-run",
+        "catalog",
+        "chat",
+        "participant",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\automated-full-regression-ui\\skills\\ELITEA-4253_run-from-catalog-creates-chat-with-skill-participant.md"
+    },
+    {
+      "id": "ELITEA-4254",
+      "title": "Send message to Catalog skill participant in chat",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-run",
+        "catalog",
+        "chat",
+        "messaging",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\automated-full-regression-ui\\skills\\ELITEA-4254_send-message-to-catalog-skill-in-chat.md"
+    },
+    {
+      "id": "ELITEA-4255",
+      "title": "LLM Model/Settings section loads for Catalog skill in chat",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "catalog",
+        "chat",
+        "model-settings",
+        "bug-7219",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922",
+        "EliteaAI/elitea_issues#7219"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\automated-full-regression-ui\\skills\\ELITEA-4255_llm-model-settings-load-correctly-for-catalog-skill.md"
+    },
+    {
+      "id": "ELITEA-4256",
+      "title": "User can override model for Catalog skill participant (per chat)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "catalog",
+        "chat",
+        "model-override",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922",
+        "EliteaAI/elitea_issues#7219"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\automated-full-regression-ui\\skills\\ELITEA-4256_override-model-for-catalog-skill-in-chat.md"
+    },
+    {
+      "id": "ELITEA-4257",
+      "title": "Catalog skill usage billed to user's current project",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "catalog",
+        "chat",
+        "billing",
+        "usage",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\automated-full-regression-ui\\skills\\ELITEA-4257_usage-attribution-to-user-project.md"
+    },
+    {
       "id": "ELITEA-1986",
       "title": "Build with AI — Access Control (Role-Based Visibility)",
       "status": "draft",
@@ -40184,6 +40475,298 @@
       "path": "tests\\elitea-platform\\analytics\\ELITEA-4118_model-scope-labels-edge-cases-deleted-config-other-row-uncovered-views.md"
     },
     {
+      "id": "ELITEA-4390",
+      "title": "New Versions, Models, Trigger Sources, and Recent Runs sections render in correct order for Agent and Pipeline detail views",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "issue:7033",
+        "r-2.0.8",
+        "agent-pipeline-analytics",
+        "layout"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7033"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\analytics\\ELITEA-4390_new-analytics-sections-render-in-correct-order-for-agent-and-pipeline.md"
+    },
+    {
+      "id": "ELITEA-4391",
+      "title": "Versions table reports full historical usage, including non-default, renamed, and deleted versions",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "issue:7033",
+        "r-2.0.8",
+        "agent-pipeline-analytics",
+        "versions"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7033"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\analytics\\ELITEA-4391_versions-table-reports-full-historical-usage-including-non-default-and-deleted-versions.md"
+    },
+    {
+      "id": "ELITEA-4392",
+      "title": "Models table attributes multi-model runs correctly: RUNS per model, LLM CALLS counted separately",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "issue:7033",
+        "r-2.0.8",
+        "agent-pipeline-analytics",
+        "models",
+        "multi-model"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7033"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\analytics\\ELITEA-4392_models-table-counts-multi-model-runs-correctly-without-inflating-run-totals.md"
+    },
+    {
+      "id": "ELITEA-4393",
+      "title": "Trigger Sources table assigns exactly one source per run and never defaults unattributed runs to Manual",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "issue:7033",
+        "r-2.0.8",
+        "agent-pipeline-analytics",
+        "trigger-sources"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7033"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\analytics\\ELITEA-4393_trigger-sources-table-assigns-exactly-one-source-per-run-and-unknown-is-not-manual.md"
+    },
+    {
+      "id": "ELITEA-4394",
+      "title": "Recent Runs STARTED link opens the correct run's own Analytics page with correct project context",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "issue:7033",
+        "r-2.0.8",
+        "agent-pipeline-analytics",
+        "recent-runs",
+        "navigation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7033"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\analytics\\ELITEA-4394_recent-runs-started-link-navigates-to-correct-run-analytics-page.md"
+    },
+    {
+      "id": "ELITEA-4395",
+      "title": "Versions, Models, and Trigger Sources totals reconcile with detail-view KPIs without double-counting, including Unknown rows",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "issue:7033",
+        "r-2.0.8",
+        "agent-pipeline-analytics",
+        "reconciliation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7033"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\analytics\\ELITEA-4395_versions-models-trigger-sources-totals-reconcile-with-detail-view-kpis-without-double-counting.md"
+    },
+    {
+      "id": "ELITEA-4396",
+      "title": "Default sort and per-column sorting work correctly on Versions, Models, Trigger Sources, and Recent Runs",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "analytics",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "issue:7033",
+        "r-2.0.8",
+        "agent-pipeline-analytics",
+        "sorting"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7033"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\analytics\\ELITEA-4396_default-and-per-column-sorting-work-correctly-across-all-four-new-tables.md"
+    },
+    {
+      "id": "ELITEA-4397",
+      "title": "Recent Runs pagination behaves correctly and multi-model runs show all models in the MODEL column",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "analytics",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "issue:7033",
+        "r-2.0.8",
+        "agent-pipeline-analytics",
+        "recent-runs",
+        "pagination",
+        "multi-model"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7033"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\analytics\\ELITEA-4397_recent-runs-pagination-and-multi-model-display-work-correctly.md"
+    },
+    {
+      "id": "ELITEA-4398",
+      "title": "Unknown-value labels, timestamp formatting, and contextual tooltip copy match specification exactly across the four new tables",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "analytics",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "issue:7033",
+        "r-2.0.8",
+        "agent-pipeline-analytics",
+        "wording",
+        "tooltips"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7033"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\analytics\\ELITEA-4398_unknown-value-and-timestamp-formatting-plus-tooltip-copy-match-spec.md"
+    },
+    {
+      "id": "ELITEA-4399",
+      "title": "Empty-state message and date-range filter refresh behave consistently across all four new tables",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "analytics",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "issue:7033",
+        "r-2.0.8",
+        "agent-pipeline-analytics",
+        "empty-state",
+        "date-range"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7033"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\analytics\\ELITEA-4399_empty-state-and-date-range-refresh-consistency-across-all-four-new-tables.md"
+    },
+    {
+      "id": "ELITEA-4400",
+      "title": "Excel export includes Versions, Models, Trigger Sources, and Recent Runs with full dataset, full precision, and Run URLs",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "analytics",
+      "owner": "",
+      "tags": [
+        "feat:analytics",
+        "issue:7033",
+        "r-2.0.8",
+        "agent-pipeline-analytics",
+        "excel-export"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7033"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\analytics\\ELITEA-4400_excel-export-includes-the-four-new-tables-with-full-dataset-and-run-urls.md"
+    },
+    {
       "id": "ELITEA-0242",
       "title": "[EliteaAI/elitea_issues#4919] New Wiki Generation Writes to `wiki-artifacts` Bucket",
       "status": "draft",
@@ -52341,6 +52924,214 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests\\elitea-platform\\chat-interface\\context-management\\ELITEA-0531_verify-context-budget-fully-resets-after-clearing-a-multi-message-chat.md"
+    },
+    {
+      "id": "ELITEA-4390",
+      "title": "Context Budget Message/Token Count Is Correct After Deselecting a Pipeline With 'Messages' State Disabled",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "context-management",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:context-management",
+        "feat:pipelines",
+        "issue:4840",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4840"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\context-management\\ELITEA-4390_context-budget-message-token-count-correct-after-deselecting-pipelin.md"
+    },
+    {
+      "id": "ELITEA-4391",
+      "title": "Pipeline With 'Messages' State Disabled Can Still Be Added, Selected, and Run as a Chat Participant Without Errors",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "context-management",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:context-management",
+        "feat:pipelines",
+        "issue:4840",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4840"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\context-management\\ELITEA-4391_pipeline-with-messages-state-disabled-functions-as-chat-participant-wi.md"
+    },
+    {
+      "id": "ELITEA-4392",
+      "title": "Legacy Pipelines Previously Saved With 'Messages' State Disabled Load and Run Correctly After the Fix",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "context-management",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:context-management",
+        "feat:pipelines",
+        "issue:4840",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4840"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\context-management\\ELITEA-4392_legacy-pipelines-previously-saved-with-messages-state-disabled-load-an.md"
+    },
+    {
+      "id": "ELITEA-4393",
+      "title": "Re-validate: Nested Subagent/Subpipeline Runs Still Add Only +2 Messages to Context (ELITEA-0527)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "context-management",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:context-management",
+        "feat:pipelines",
+        "issue:4840",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4840"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\context-management\\ELITEA-4393_revalidate-nested-subagent-subpipeline-runs-still-add-only-2-messages.md"
+    },
+    {
+      "id": "ELITEA-4394",
+      "title": "Context Budget Counts Correctly When Deselecting Non-Pipeline Participant Types (Agent, Toolkit, MCP) Mid-Conversation",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "context-management",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:context-management",
+        "feat:pipelines",
+        "issue:4840",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4840"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\context-management\\ELITEA-4394_context-budget-counts-correctly-when-deselecting-non-pipeline-partici.md"
+    },
+    {
+      "id": "ELITEA-4395",
+      "title": "Re-validate: Pipeline 'Messages' State Accumulates Correctly Across Multiple Runs (ELITEA-0801)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "context-management",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:context-management",
+        "feat:pipelines",
+        "issue:4840",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4840"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\context-management\\ELITEA-4395_revalidate-pipeline-messages-state-accumulates-correctly-across-mult.md"
+    },
+    {
+      "id": "ELITEA-4396",
+      "title": "Re-validate: Context Budget Updates Correctly After Pipeline Run From the Pipeline Page (ELITEA-0526) and Does Not Reset When Run via Chat (ELITEA-0528)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "context-management",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:context-management",
+        "feat:pipelines",
+        "issue:4840",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4840"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\context-management\\ELITEA-4396_revalidate-context-budget-updates-after-pipeline-run-from-pipeline-p.md"
+    },
+    {
+      "id": "ELITEA-4397",
+      "title": "Pipeline-as-Participant Select/Deselect Flows via '+' Menu and '#' Mention Still Work Correctly",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "context-management",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:context-management",
+        "feat:pipelines",
+        "issue:4840",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4840"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\chat-interface\\context-management\\ELITEA-4397_pipeline-as-participant-select-deselect-flows-via-plus-menu-and-has.md"
     },
     {
       "id": "ELITEA-3428",
@@ -77979,6 +78770,2798 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests\\elitea-platform\\skills\\compare-skill-versions\\ELITEA-3342_skill-instructions-required-field-validation.md"
+    },
+    {
+      "id": "ELITEA-4230",
+      "title": "Skill Run API — Execute Default Version and Return run_id",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-executable",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4230_skill-run-api-execute-default-version-and-return-run-id.md"
+    },
+    {
+      "id": "ELITEA-4231",
+      "title": "Skill Run API — Execute Specific Version",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-executable",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4231_skill-run-api-execute-specific-version.md"
+    },
+    {
+      "id": "ELITEA-4232",
+      "title": "Skill Run API — Sync Mode Returns Response Successfully",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-executable",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4232_skill-run-api-sync-mode-returns-response-successfully.md"
+    },
+    {
+      "id": "ELITEA-4233",
+      "title": "Skill Run Usage Attribution — entity_type='skill' with Correct IDs",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-executable",
+        "usage-tracking",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4233_skill-run-usage-attribution-with-entity-type-skill.md"
+    },
+    {
+      "id": "ELITEA-4234",
+      "title": "Skill Run Response — meta.skill_run Object Present",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-executable",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4234_skill-run-response-meta-contains-skill-run-object.md"
+    },
+    {
+      "id": "ELITEA-4235",
+      "title": "Skill Run Error — Empty/Blank Instructions Returns 400",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-executable",
+        "error-handling",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4235_skill-run-empty-instructions-returns-400.md"
+    },
+    {
+      "id": "ELITEA-4236",
+      "title": "Skill Run Error — Non-existent Skill Returns 404",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-executable",
+        "error-handling",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4236_skill-run-non-existent-skill-returns-404.md"
+    },
+    {
+      "id": "ELITEA-4237",
+      "title": "Skill Run Configuration — LLM Settings Precedence",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-executable",
+        "configuration",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4237_skill-run-llm-settings-precedence.md"
+    },
+    {
+      "id": "ELITEA-4238",
+      "title": "Run button visible on published Catalog skill card",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-run",
+        "catalog",
+        "chat",
+        "participant",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4238_run-button-visible-on-catalog-skill-card.md"
+    },
+    {
+      "id": "ELITEA-4238",
+      "title": "Skill Run Configuration — Project Context Injected by Default",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-executable",
+        "configuration",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4238_skill-run-project-context-injected-by-default.md"
+    },
+    {
+      "id": "ELITEA-4239",
+      "title": "Regression — Agent-Attached Skills via load_skill Unchanged",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "regression",
+        "agents",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4239_agent-attached-skills-via-load-skill-unchanged.md"
+    },
+    {
+      "id": "ELITEA-4239",
+      "title": "Run button NOT visible in Skills list 3-dot menu",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-run",
+        "negative-test",
+        "skills-list",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4239_run-button-not-in-skills-list-menu.md"
+    },
+    {
+      "id": "ELITEA-4240",
+      "title": "Clicking Run on Catalog skill creates chat with skill as participant",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-run",
+        "catalog",
+        "chat",
+        "participant",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4240_run-from-catalog-creates-chat-with-skill-participant.md"
+    },
+    {
+      "id": "ELITEA-4240",
+      "title": "Regression — ~skill Invocation from Agent Chat Unchanged",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "regression",
+        "agents",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4240_tilde-skill-invocation-from-agent-unchanged.md"
+    },
+    {
+      "id": "ELITEA-4241",
+      "title": "Chat with Catalog skill participant appears in Chats list",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-run",
+        "catalog",
+        "chat",
+        "persistence",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4241_chat-with-catalog-skill-shows-in-chats-list.md"
+    },
+    {
+      "id": "ELITEA-4242",
+      "title": "Send message to Catalog skill participant in chat",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-run",
+        "catalog",
+        "chat",
+        "messaging",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4242_send-message-to-catalog-skill-in-chat.md"
+    },
+    {
+      "id": "ELITEA-4243",
+      "title": "Reload preserves chat conversation with Catalog skill participant",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-run",
+        "catalog",
+        "chat",
+        "persistence",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4243_reload-page-preserves-chat-with-catalog-skill.md"
+    },
+    {
+      "id": "ELITEA-4244",
+      "title": "Multi-turn conversation with Catalog skill maintains context",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-run",
+        "catalog",
+        "chat",
+        "multi-turn",
+        "context",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4244_multiple-messages-with-catalog-skill-maintain-context.md"
+    },
+    {
+      "id": "ELITEA-4245",
+      "title": "LLM Model/Settings section loads for Catalog skill in chat",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "catalog",
+        "chat",
+        "model-settings",
+        "bug-7219",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922",
+        "EliteaAI/elitea_issues#7219"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4245_llm-model-settings-load-correctly-for-catalog-skill.md"
+    },
+    {
+      "id": "ELITEA-4246",
+      "title": "User can override model for Catalog skill participant (per chat)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "catalog",
+        "chat",
+        "model-override",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922",
+        "EliteaAI/elitea_issues#7219"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4246_override-model-for-catalog-skill-in-chat.md"
+    },
+    {
+      "id": "ELITEA-4247",
+      "title": "Model override persists within chat session with Catalog skill",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "catalog",
+        "chat",
+        "model-override",
+        "persistence",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4247_model-override-persists-in-chat-session.md"
+    },
+    {
+      "id": "ELITEA-4248",
+      "title": "Can create multiple chats with same Catalog skill",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "catalog",
+        "chat",
+        "multiple-instances",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4248_multiple-chats-with-same-catalog-skill.md"
+    },
+    {
+      "id": "ELITEA-4249",
+      "title": "Catalog skill participant shows version information",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "catalog",
+        "chat",
+        "participant",
+        "versioning",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4249_catalog-skill-version-shown-in-participant-section.md"
+    },
+    {
+      "id": "ELITEA-4250",
+      "title": "Catalog skill usage billed to user's current project",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "catalog",
+        "chat",
+        "billing",
+        "usage",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4250_usage-attribution-to-user-project.md"
+    },
+    {
+      "id": "ELITEA-4251",
+      "title": "Delete chat with Catalog skill participant",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "catalog",
+        "chat",
+        "deletion",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4251_delete-chat-with-catalog-skill-participant.md"
+    },
+    {
+      "id": "ELITEA-4252",
+      "title": "Catalog skill participant settings are read-only in chat",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "catalog",
+        "chat",
+        "read-only",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4252_catalog-skill-participant-settings-read-only.md"
+    },
+    {
+      "id": "ELITEA-4263",
+      "title": "Skill Participant Creation & Message Flow",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "skills",
+        "chat",
+        "participants",
+        "backend",
+        "api"
+      ],
+      "requirements": [
+        "#6923"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4263_skill-participant-creation-and-message-flow.md"
+    },
+    {
+      "id": "ELITEA-4264",
+      "title": "Version Pinning Precedence via entity_settings",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "skills",
+        "chat",
+        "participants",
+        "versioning",
+        "backend",
+        "api"
+      ],
+      "requirements": [
+        "#6923"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4264_version-pinning-precedence-via-entity-settings.md"
+    },
+    {
+      "id": "ELITEA-4265",
+      "title": "Usage Attribution with entity_type: 'skill",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "skills",
+        "chat",
+        "participants",
+        "usage",
+        "attribution",
+        "backend",
+        "api"
+      ],
+      "requirements": [
+        "#6923"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4265_usage-attribution-with-entity-type-skill.md"
+    },
+    {
+      "id": "ELITEA-4266",
+      "title": "Delete Lifecycle with Dummy Replacement",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "skills",
+        "chat",
+        "participants",
+        "lifecycle",
+        "delete",
+        "backend",
+        "api"
+      ],
+      "requirements": [
+        "#6923"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4266_delete-lifecycle-with-dummy-replacement.md"
+    },
+    {
+      "id": "ELITEA-4267",
+      "title": "Rename Lifecycle Updates Participant Display",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "skills",
+        "chat",
+        "participants",
+        "lifecycle",
+        "rename",
+        "backend",
+        "api"
+      ],
+      "requirements": [
+        "#6923"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4267_rename-lifecycle-updates-participant-display.md"
+    },
+    {
+      "id": "ELITEA-4268",
+      "title": "Regression - Existing Participant Types Unaffected",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "skills",
+        "chat",
+        "participants",
+        "regression",
+        "agents",
+        "backend",
+        "api"
+      ],
+      "requirements": [
+        "#6923"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4268_regression-existing-participant-types-unaffected.md"
+    },
+    {
+      "id": "ELITEA-4269",
+      "title": "Add Skill Participant from Plus Menu",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat/skills",
+      "owner": "",
+      "tags": [
+        "user_story:6924",
+        "feat:skills",
+        "feat:chat-participants",
+        "skills-as-participants"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6924"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4269_add-skill-participant-from-plus-menu.md"
+    },
+    {
+      "id": "ELITEA-4270",
+      "title": "Send and Receive Messages with Skill Participant",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat/skills",
+      "owner": "",
+      "tags": [
+        "user_story:6924",
+        "feat:skills",
+        "feat:chat-participants",
+        "skills-as-participants",
+        "streaming"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6924"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4270_send-and-receive-messages-with-skill-participant.md"
+    },
+    {
+      "id": "ELITEA-4271",
+      "title": "Tilde Mention Skill in Chat Without Agent",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat/skills",
+      "owner": "",
+      "tags": [
+        "user_story:6924",
+        "feat:skills",
+        "feat:chat-participants",
+        "skills-as-participants",
+        "mentions"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6924"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4271_tilde-mention-skill-in-chat-without-agent.md"
+    },
+    {
+      "id": "ELITEA-4272",
+      "title": "Version Selection for Skill Participant",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat/skills",
+      "owner": "",
+      "tags": [
+        "user_story:6924",
+        "feat:skills",
+        "feat:chat-participants",
+        "skills-as-participants",
+        "versioning"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6924"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4272_version-selection-for-skill-participant.md"
+    },
+    {
+      "id": "ELITEA-4273",
+      "title": "Remove Skill Participant Preserves History",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat/skills",
+      "owner": "",
+      "tags": [
+        "user_story:6924",
+        "feat:skills",
+        "feat:chat-participants",
+        "skills-as-participants",
+        "message-history"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6924"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4273_remove-skill-participant-preserves-history.md"
+    },
+    {
+      "id": "ELITEA-4274",
+      "title": "Duplicate Prevention - Single Skill Instance Per Chat",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat/skills",
+      "owner": "",
+      "tags": [
+        "user_story:6924",
+        "feat:skills",
+        "feat:chat-participants",
+        "skills-as-participants",
+        "duplicate-prevention"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6924"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4274_duplicate-prevention-single-skill-instance-per-chat.md"
+    },
+    {
+      "id": "ELITEA-4329",
+      "title": "Verify Skill Run History page displays correctly with all required columns and status icons",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6927"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4329_skill-run-history-page-display.md"
+    },
+    {
+      "id": "ELITEA-4330",
+      "title": "Verify clicking a run item restores the conversation in the Run panel",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6927"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4330_run-restoration-from-history.md"
+    },
+    {
+      "id": "ELITEA-4331",
+      "title": "Verify context menu 'Share link' action generates and copies shareable URL",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6927"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4331_context-menu-share-link.md"
+    },
+    {
+      "id": "ELITEA-4332",
+      "title": "Verify context menu 'Restore chat' action restores conversation in Run panel",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6927"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4332_context-menu-restore-chat.md"
+    },
+    {
+      "id": "ELITEA-4333",
+      "title": "Verify context menu 'Analytics' action navigates to run analytics page",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6927"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4333_context-menu-analytics.md"
+    },
+    {
+      "id": "ELITEA-4334",
+      "title": "Verify Date filter returns accurate results in Run History",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6927"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4334_date-filter-functionality.md"
+    },
+    {
+      "id": "ELITEA-4335",
+      "title": "Verify Status filter returns accurate results in Run History",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6927"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4335_status-filter-functionality.md"
+    },
+    {
+      "id": "ELITEA-4336",
+      "title": "Verify Version filter returns accurate results in Run History",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6927"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4336_version-filter-functionality.md"
+    },
+    {
+      "id": "ELITEA-4337",
+      "title": "Verify empty state displays when no skill runs exist in history",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6927"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4337_empty-state-display.md"
+    },
+    {
+      "id": "ELITEA-4338",
+      "title": "Verify skill executions triggered from chat interface are recorded in Run History",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "bug-area:current-release-scope"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6927",
+        "EliteaAI/elitea_issues#7215"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4338_chat-triggered-runs-in-history.md"
+    },
+    {
+      "id": "ELITEA-4339",
+      "title": "Verify skill usage and cost consistency between Usage page and Analytics page",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "feat:analytics",
+        "r-2.0.8",
+        "bug:7207"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6929",
+        "EliteaAI/elitea_issues#7207"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4339_data-consistency-usage-page-vs-analytics-page.md"
+    },
+    {
+      "id": "ELITEA-4340",
+      "title": "Verify standalone and in-agent skill runs are counted separately without double-counting",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "feat:analytics",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6929"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4340_no-double-counting-standalone-in-agent-runs.md"
+    },
+    {
+      "id": "ELITEA-4341",
+      "title": "Verify in-agent skill uses display zero cost and zero tokens by design",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "feat:analytics",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6929"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4341_in-agent-uses-show-zero-cost-and-tokens.md"
+    },
+    {
+      "id": "ELITEA-4342",
+      "title": "Verify sorting by Runs column triggers backend API call to refetch data",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "feat:analytics",
+        "r-2.0.8",
+        "bug:7267"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6929",
+        "EliteaAI/elitea_issues#7267"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4342_sort-by-runs-refetches-from-backend.md"
+    },
+    {
+      "id": "ELITEA-4343",
+      "title": "Verify total skill cost reconciles with Costs tab for the same date range",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "feat:analytics",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6929"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4343_skills-cost-reconciles-with-costs-tab.md"
+    },
+    {
+      "id": "ELITEA-4344",
+      "title": "Verify Skills tab appears in Analytics after Agents & Pipelines tab when Skills module is enabled",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "feat:analytics",
+        "r-2.0.8",
+        "nfr:usability"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6929"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4344_skills-tab-appears-after-agents-pipelines.md"
+    },
+    {
+      "id": "ELITEA-4345",
+      "title": "Verify Skill Detail page displays Used By Agents table with links to agent detail pages",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "feat:analytics",
+        "feat:agents",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6929"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4345_skill-detail-used-by-agents-table-with-links.md"
+    },
+    {
+      "id": "ELITEA-4346",
+      "title": "Verify deleted skill still appears in Analytics with historical data and last known name",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "feat:analytics",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6929"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4346_deleted-skill-shows-with-historical-data.md"
+    },
+    {
+      "id": "ELITEA-4347",
+      "title": "Verify date range filter updates all Skills analytics metrics and charts",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "feat:analytics",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6929"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4347_date-range-filter-applied-to-all-metrics.md"
+    },
+    {
+      "id": "ELITEA-4348",
+      "title": "Verify standalone runs and in-agent uses are displayed in separate columns",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics-skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "feat:analytics",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6929"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4348_standalone-vs-in-agent-runs-displayed-separately.md"
+    },
+    {
+      "id": "ELITEA-4398",
+      "title": "Add skill to chat template via Skills tab in template editor",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-templates/skills",
+      "owner": "",
+      "tags": [
+        "user_story:6925",
+        "feat:skills",
+        "feat:chat-templates",
+        "skills-in-templates"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6925"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4398_add-skill-to-chat-template-via-skills-tab-in-template-editor.md"
+    },
+    {
+      "id": "ELITEA-4399",
+      "title": "Create template with mixed participant types (agent, pipeline, toolkit, user, skill)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-templates/skills",
+      "owner": "",
+      "tags": [
+        "user_story:6925",
+        "feat:skills",
+        "feat:chat-templates",
+        "skills-in-templates"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6925"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4399_create-template-with-mixed-participant-types.md"
+    },
+    {
+      "id": "ELITEA-4400",
+      "title": "New chat from default template with single skill sets skill as active participant",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-templates/skills",
+      "owner": "",
+      "tags": [
+        "user_story:6925",
+        "feat:skills",
+        "feat:chat-templates",
+        "skills-in-templates"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6925"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4400_new-chat-from-default-template-with-single-skill-sets-skill-as-active-participant.md"
+    },
+    {
+      "id": "ELITEA-4401",
+      "title": "New chat from default template with multiple participants has no active participant",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-templates/skills",
+      "owner": "",
+      "tags": [
+        "user_story:6925",
+        "feat:skills",
+        "feat:chat-templates",
+        "skills-in-templates"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6925"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4401_new-chat-from-default-template-with-multiple-participants-has-no-active-participant.md"
+    },
+    {
+      "id": "ELITEA-4402",
+      "title": "Template with deleted skill skips that participant without blocking chat creation",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-templates/skills",
+      "owner": "",
+      "tags": [
+        "user_story:6925",
+        "feat:skills",
+        "feat:chat-templates",
+        "skills-in-templates"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6925"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4402_template-with-deleted-skill-skips-that-participant-without-blocking-chat-creation.md"
+    },
+    {
+      "id": "ELITEA-4403",
+      "title": "Deleting a skill removes it from all chat templates in affected projects",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-templates/skills",
+      "owner": "",
+      "tags": [
+        "user_story:6925",
+        "feat:skills",
+        "feat:chat-templates",
+        "skills-in-templates",
+        "cascade-delete"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6925"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4403_deleting-a-skill-removes-it-from-all-chat-templates-in-affected-projects.md"
+    },
+    {
+      "id": "ELITEA-4404",
+      "title": "Renaming a skill updates its display name in all chat templates",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-templates/skills",
+      "owner": "",
+      "tags": [
+        "user_story:6925",
+        "feat:skills",
+        "feat:chat-templates",
+        "skills-in-templates",
+        "cascade-update"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6925"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4404_renaming-a-skill-updates-its-display-name-in-all-chat-templates.md"
+    },
+    {
+      "id": "ELITEA-4405",
+      "title": "Same skill cannot be added twice to one template",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-templates/skills",
+      "owner": "",
+      "tags": [
+        "user_story:6925",
+        "feat:skills",
+        "feat:chat-templates",
+        "skills-in-templates",
+        "duplicate-prevention"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6925"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4405_same-skill-cannot-be-added-twice-to-one-template.md"
+    },
+    {
+      "id": "ELITEA-4406",
+      "title": "Template list cards and editor display skill icons and names consistently",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-templates/skills",
+      "owner": "",
+      "tags": [
+        "user_story:6925",
+        "feat:skills",
+        "feat:chat-templates",
+        "skills-in-templates",
+        "ui-consistency"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6925"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4406_template-list-cards-and-editor-display-skill-icons-and-names-consistently.md"
+    },
+    {
+      "id": "ELITEA-4407",
+      "title": "Skill Auto-Invocation from Chat Based on User Intent Without Explicit Participant",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-skills-integration",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:skills",
+        "ui",
+        "skill-invocation",
+        "auto-invocation",
+        "metadata-matching"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7126"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4407_skill-auto-invocation-from-chat.md"
+    },
+    {
+      "id": "ELITEA-4408",
+      "title": "Navigate from own skill Run History to Analytics page",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "navigation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4408_navigate-own-skill-run-history-to-analytics.md"
+    },
+    {
+      "id": "ELITEA-4409",
+      "title": "Navigate from Catalog skill Run History to Analytics page",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "catalog",
+        "navigation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4409_navigate-catalog-skill-run-history-to-analytics.md"
+    },
+    {
+      "id": "ELITEA-4410",
+      "title": "Verify Run Header displays correct metadata (date, version, model)",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "metadata"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4410_run-header-displays-correct-metadata.md"
+    },
+    {
+      "id": "ELITEA-4411",
+      "title": "Verify breadcrumbs render and navigate correctly",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "navigation",
+        "breadcrumbs"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4411_breadcrumbs-render-and-navigate-correctly.md"
+    },
+    {
+      "id": "ELITEA-4412",
+      "title": "Verify Costs tab displays accurate total cost",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "costs",
+        "data-accuracy"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4412_costs-tab-total-cost-accuracy.md"
+    },
+    {
+      "id": "ELITEA-4413",
+      "title": "Verify Costs tab shows accurate cost breakdown by component",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "costs",
+        "data-accuracy"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4413_costs-tab-cost-breakdown-accuracy.md"
+    },
+    {
+      "id": "ELITEA-4414",
+      "title": "Verify Cost by User table displays accurate per-user breakdown",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "costs",
+        "tables"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4414_cost-by-user-table-accuracy.md"
+    },
+    {
+      "id": "ELITEA-4415",
+      "title": "Verify Cost by Model table displays accurate per-model breakdown",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "costs",
+        "tables"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4415_cost-by-model-table-accuracy.md"
+    },
+    {
+      "id": "ELITEA-4416",
+      "title": "Verify Tokens tab displays accurate total tokens",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "tokens",
+        "data-accuracy",
+        "bug-check"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4416_tokens-tab-total-tokens-accuracy.md"
+    },
+    {
+      "id": "ELITEA-4417",
+      "title": "Verify Tokens tab shows accurate token breakdown by component",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "tokens",
+        "data-accuracy"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4417_tokens-tab-token-breakdown-accuracy.md"
+    },
+    {
+      "id": "ELITEA-4418",
+      "title": "Verify Token Usage by User table displays accurate per-user breakdown",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "tokens",
+        "tables"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4418_token-usage-by-user-table.md"
+    },
+    {
+      "id": "ELITEA-4419",
+      "title": "Verify Token Usage by Model table displays accurate per-model breakdown",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "tokens",
+        "tables"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4419_token-usage-by-model-table.md"
+    },
+    {
+      "id": "ELITEA-4420",
+      "title": "Verify Health tab displays Health by Event Type table correctly",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "health"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4420_health-tab-event-type-table.md"
+    },
+    {
+      "id": "ELITEA-4421",
+      "title": "Verify Health tab shows Failed Calls section with error details",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "health",
+        "errors"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4421_health-tab-failed-calls-section.md"
+    },
+    {
+      "id": "ELITEA-4422",
+      "title": "Verify Tools tab visibility logic based on tool usage",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "tools",
+        "conditional-visibility"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4422_tools-tab-visibility-logic.md"
+    },
+    {
+      "id": "ELITEA-4423",
+      "title": "Verify Tool Details table displays accurate data when Tools tab visible",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "tools",
+        "data-accuracy"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4423_tool-details-table-accuracy.md"
+    },
+    {
+      "id": "ELITEA-4424",
+      "title": "Verify analytics totals match sum of usage_event rows for run",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "data-accuracy",
+        "backend-validation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4424_analytics-data-reconciles-with-usage-events.md"
+    },
+    {
+      "id": "ELITEA-4425",
+      "title": "Verify analytics data reconciles with Run History row summary",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "integration",
+        "s8-dependency"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928",
+        "EliteaAI/elitea_issues#6927"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4425_analytics-reconciles-with-run-history.md"
+    },
+    {
+      "id": "ELITEA-4426",
+      "title": "Verify run duration calculation is accurate",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "duration",
+        "data-accuracy"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4426_run-duration-calculation-accuracy.md"
+    },
+    {
+      "id": "ELITEA-4427",
+      "title": "Verify empty state when no analytics data exists for run",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "empty-state",
+        "edge-case"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4427_empty-state-no-analytics-data.md"
+    },
+    {
+      "id": "ELITEA-4428",
+      "title": "Verify loading state displays correctly while fetching analytics data",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "loading-state",
+        "ux"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4428_loading-state-during-data-fetch.md"
+    },
+    {
+      "id": "ELITEA-4429",
+      "title": "Verify Excel export functionality downloads correct data",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "export",
+        "excel"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4429_excel-export-functionality.md"
+    },
+    {
+      "id": "ELITEA-4430",
+      "title": "Verify browser refresh preserves selected run context",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "state-management",
+        "navigation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4430_browser-refresh-preserves-run-context.md"
+    },
+    {
+      "id": "ELITEA-4431",
+      "title": "Verify tab switching preserves run context across all tabs",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "state-management",
+        "tabs"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4431_tab-switching-preserves-run-context.md"
+    },
+    {
+      "id": "ELITEA-4432",
+      "title": "Verify backend correctly handles skill-root rows in run-scoped queries",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "backend",
+        "skill-root"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4432_backend-handles-skill-root-rows.md"
+    },
+    {
+      "id": "ELITEA-4433",
+      "title": "Verify analytics_run_detail API endpoint returns correct skill run data",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "backend",
+        "api"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4433_analytics-run-detail-endpoint-for-skills.md"
+    },
+    {
+      "id": "ELITEA-4434",
+      "title": "Verify analytics handles skill runs with multiple model changes correctly",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "multi-model",
+        "edge-case"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4434_multiple-model-changes-handled.md"
+    },
+    {
+      "id": "ELITEA-4435",
+      "title": "Verify direct URL navigation to analytics page works correctly",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "navigation",
+        "url-routing"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4435_direct-url-navigation-to-analytics.md"
+    },
+    {
+      "id": "ELITEA-4436",
+      "title": "Verify version displayed is from run execution, not current editor version",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "version-integrity",
+        "metadata"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4436_version-from-execution-not-editor.md"
+    },
+    {
+      "id": "ELITEA-4437",
+      "title": "Verify model displayed matches run execution model, not current skill settings",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "model-integrity",
+        "metadata"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4437_model-from-execution-not-current-settings.md"
+    },
+    {
+      "id": "ELITEA-4438",
+      "title": "Verify no data leakage between different run analytics pages",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "data-isolation",
+        "security"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4438_no-data-leakage-between-runs.md"
+    },
+    {
+      "id": "ELITEA-4439",
+      "title": "Verify graceful error handling for missing or invalid run_id",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "error-handling",
+        "edge-case"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4439_error-handling-invalid-run-id.md"
+    },
+    {
+      "id": "ELITEA-4440",
+      "title": "Verify SHARE percentages sum to exactly 100% in all analytics tables",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8",
+        "analytics",
+        "calculations",
+        "validation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4440_share-percentages-sum-to-100.md"
+    },
+    {
+      "id": "ELITEA-4447",
+      "title": "Verify skill event has zero tokens and cost when loaded by agent",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "usage-metering",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6926"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4447_verify-skill-event-has-zero-tokens-and-cost-when-loaded-by-agent.md"
+    },
+    {
+      "id": "ELITEA-4448",
+      "title": "Verify agent total cost remains unchanged when loading multiple skills",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "usage-metering",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6926"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4448_verify-agent-total-cost-remains-unchanged-when-loading-multiple-skills.md"
+    },
+    {
+      "id": "ELITEA-4449",
+      "title": "Verify Skills Activity page shows zero cost increment for agent-loaded skills",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "analytics",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6926"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4449_verify-skills-activity-page-shows-zero-cost-increment-for-agent-loaded-skills.md"
+    },
+    {
+      "id": "ELITEA-4450",
+      "title": "Verify standalone skill run has root_entity_type='skill' with actual tokens and cost",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "usage-metering",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6926"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4450_verify-standalone-skill-run-has-root-entity-type-skill-with-actual-tokens-and-cost.md"
+    },
+    {
+      "id": "ELITEA-4451",
+      "title": "Verify agent is root entity and skill is leaf entity when agent loads skill",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "usage-metering",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6926"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4451_verify-agent-is-root-entity-and-skill-is-leaf-entity-when-agent-loads-skill.md"
+    },
+    {
+      "id": "ELITEA-4452",
+      "title": "Verify agent KPIs remain unchanged when skills are added to agent",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "analytics",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6926"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4452_verify-agent-kpis-remain-unchanged-when-skills-are-added-to-agent.md"
+    },
+    {
+      "id": "ELITEA-4453",
+      "title": "Verify standalone skill runs do not increment agent run count in KPIs",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "analytics",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6926"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4453_verify-standalone-skill-runs-do-not-increment-agent-run-count-in-kpis.md"
+    },
+    {
+      "id": "ELITEA-4454",
+      "title": "Verify agent calling unknown skill does not fail with is_error=true",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "usage-metering",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6926"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4454_verify-agent-calling-unknown-skill-does-not-fail-with-is-error-true.md"
+    },
+    {
+      "id": "ELITEA-4455",
+      "title": "Verify deduplication when agent loads same skill multiple times in one run",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "usage-metering",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6926"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\skills\\skill_executable\\ELITEA-4455_verify-deduplication-when-agent-loads-same-skill-multiple-times-in-one-run.md"
     },
     {
       "id": "ELITEA-1050",
