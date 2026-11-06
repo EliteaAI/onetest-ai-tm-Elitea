@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1806
 title: "Artifacts Landing Page – UI Elements with No Buckets"
-priority: medium
+priority: low
 type: functional
 module: artifacts
 status: draft
@@ -12,7 +12,7 @@ requirements: []
 
 # ELITEA-1806: Artifacts Landing Page – UI Elements with No Buckets
 
-**Module:** artifacts · **Priority:** medium · **Type:** functional
+**Module:** artifacts · **Priority:** low · **Type:** functional
 
 **Objective:** Verify that the Artifacts landing page renders the correct empty state UI when a project has no buckets created, including the "No buckets created yet" message in both panels and a zero-count footer.
 

@@ -1,18 +1,18 @@
 ---
 id: ELITEA-2491
 title: "Manage Access Not Visible in Private and Public Projects"
-priority: high
+priority: critical
 type: functional
 module: artifacts
 status: draft
 execution_type: manual
-tags: [automated:UI:regression, feat:artifacts]
+tags: [automated:UI:regression, feat:artifacts, nfr:security]
 requirements: [EliteaAI/elitea_issues#5832, EliteaAI/elitea_issues#5912]
 ---
 
 # ELITEA-2491: Manage Access Not Visible in Private and Public Projects
 
-**Module:** artifacts · **Priority:** high · **Type:** functional
+**Module:** artifacts · **Priority:** critical · **Type:** functional
 
 **Objective:** Verify that the "Manage access" option is NOT available in Private and Public projects — only in Team projects.
 
