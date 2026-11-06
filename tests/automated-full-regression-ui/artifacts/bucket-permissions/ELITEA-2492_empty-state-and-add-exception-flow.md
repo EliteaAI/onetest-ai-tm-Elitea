@@ -1,7 +1,7 @@
 ---
 id: ELITEA-2492
 title: "Empty State Display and Add Exception Flow"
-priority: medium
+priority: low
 type: functional
 module: artifacts
 status: draft
@@ -12,7 +12,7 @@ requirements: [EliteaAI/elitea_issues#5912]
 
 # ELITEA-2492: Empty State Display and Add Exception Flow
 
-**Module:** artifacts · **Priority:** medium · **Type:** functional
+**Module:** artifacts · **Priority:** low · **Type:** functional
 
 **Objective:** Verify the empty state UI when no exceptions exist, and verify the complete flow of adding an exception via the empty state CTA button.
 

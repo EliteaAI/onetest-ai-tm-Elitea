@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1863
-title: "File Preview/Edit – Unsupported File Type (.xlsx) Shows Preview Not Available Message"
+title: "File Preview/Edit – Unsupported File Types Have No Preview (.xlsx shows 'Preview Not Available', .zip has no preview icon)"
 priority: medium
 type: functional
 module: artifacts
@@ -10,11 +10,11 @@ tags: [automated:UI:regression, feat:artifacts]
 requirements: []
 ---
 
-# ELITEA-1863: File Preview/Edit – Unsupported File Type (.xlsx) Shows Preview Not Available Message
+# ELITEA-1863: File Preview/Edit – Unsupported File Types Have No Preview (.xlsx shows 'Preview Not Available', .zip has no preview icon)
 
 **Module:** artifacts · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that clicking the "View/Edit file" icon for an unsupported .xlsx file displays the "Preview Not Available" message with supported formats info and a Download button, with Save/Discard buttons inactive.
+**Objective:** Verify that unsupported file types are handled consistently in the preview flow: a type that still shows a "View/Edit file" icon (.xlsx) opens to a "Preview Not Available" message with a Download button, while a type that offers no preview entry point at all (.zip) shows no "View/Edit file" icon on hover and exposes only Download/Delete in its actions dropdown.
 
 ---
 
@@ -22,6 +22,7 @@ requirements: []
 
 - User is logged in to the Elitea platform.
 - A bucket contains "top-5-soccer-players.xlsx".
+- Bucket "bucket-1" contains "new-file-storage.zip" (ZIP Archive, 230.0 KB).
 
 ---
 
@@ -29,12 +30,18 @@ requirements: []
 
 | Field | Value |
 |-------|-------|
-| File name | top-5-soccer-players.xlsx |
+| .xlsx file | top-5-soccer-players.xlsx |
 | Preview message | Preview Not Available |
+| Bucket name | bucket-1 |
+| .zip file | new-file-storage.zip |
+| .zip file type | ZIP Archive |
+| .zip file size | 230.0 KB |
 
 ---
 
 ## Steps
+
+### Part 1: .xlsx – "Preview Not Available" Message with Download Button
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
@@ -50,11 +57,24 @@ requirements: []
 | 10 | Verify no "Preview" / "Raw" tabs are shown | No tabs are visible |
 | 11 | Click the "Download" button — verify the file starts downloading to the local machine | File download initiates |
 
+### Part 2: .zip – No Preview Icon, Actions Limited to Download/Delete
+
+| # | Action | Expected Result |
+|---|--------|-----------------|
+| 12 | Navigate to the Artifacts section and click on "bucket-1" | Bucket is selected |
+| 13 | Verify "new-file-storage.zip" (ZIP Archive, 230.0 KB) is listed in the file table | File is visible |
+| 14 | Hover over the "new-file-storage.zip" file row | Only 3-dot actions icon appears; no View/Edit icon |
+| 15 | Verify the "View/Edit file" (loop/magnifier) icon is NOT present on the row for this file type | View/Edit icon is absent |
+| 16 | Verify only the 3-dot (ellipsis) actions icon is available on hover | Only actions icon is visible |
+| 17 | Click the 3-dot actions icon | Dropdown menu appears |
+| 18 | Verify the dropdown contains only "Download" and "Delete" — no preview or view/edit option | Only Download and Delete are present |
+| 19 | Click "Download" — verify the ZIP file starts downloading to the local machine | ZIP file download initiates |
+
 ---
 
 ## Expected Final State
 
-The preview panel shows "Preview Not Available" with supported formats info and a Download button. Save/Discard are inactive. No tabs are shown. Download button works.
+Both unsupported file-type handling paths work correctly: .xlsx shows "Preview Not Available" with a working Download button and inactive Save/Discard; .zip shows no View/Edit icon at all and its actions dropdown contains only Download and Delete. Both files download successfully.
 
 ---
 
@@ -62,8 +82,21 @@ The preview panel shows "Preview Not Available" with supported formats info and 
 
 **Pass:**
 - All steps complete without errors.
-- "Preview Not Available" shown; Download button works; Save/Discard inactive.
+- .xlsx: "Preview Not Available" shown; Download button works; Save/Discard inactive; no tabs.
+- .zip: no View/Edit icon; actions limited to Download and Delete; download works.
 
 **Fail:**
 - Any step produces an error or unexpected result.
-- Preview content displayed for unsupported type, or Download button absent.
+- Preview content displayed for either unsupported type, Download button absent/non-functional, or View/Edit icon or extra actions appear where they shouldn't.
+
+---
+
+## Notes
+
+**Source functional tests:** ELITEA-1863, ELITEA-1864
+
+**Regression rationale:** Both tests verify the same "unsupported file type in preview" feature on two branches of its handling (a type still offering a preview entry point that then shows a not-available message, vs. a type offering no preview entry point at all); consolidating avoids duplicated setup while preserving both checkpoints.
+
+**Selected checkpoints:**
+- .xlsx shows "Preview Not Available" with supported-formats info and working Download; Save/Discard inactive; no tabs (ELITEA-1863)
+- .zip has no View/Edit icon on hover; actions dropdown limited to Download/Delete (ELITEA-1864)

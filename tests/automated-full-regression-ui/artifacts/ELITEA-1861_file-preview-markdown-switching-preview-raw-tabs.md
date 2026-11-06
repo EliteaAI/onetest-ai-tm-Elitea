@@ -1,7 +1,7 @@
 ---
 id: ELITEA-1861
 title: "File Preview/Edit – Switching Between Preview and Raw Tabs"
-priority: medium
+priority: low
 type: functional
 module: artifacts
 status: draft
@@ -12,7 +12,7 @@ requirements: []
 
 # ELITEA-1861: File Preview/Edit – Switching Between Preview and Raw Tabs
 
-**Module:** artifacts · **Priority:** medium · **Type:** functional
+**Module:** artifacts · **Priority:** low · **Type:** functional
 
 **Objective:** Verify that switching between the Preview and Raw tabs for a Markdown file correctly toggles button states and content rendering, without losing the original file content.
 
