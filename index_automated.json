@@ -1,6 +1,26 @@
 {
   "cases": [
     {
+      "id": "ELITEA-9999",
+      "title": "Verify build-index workflow PR+merge path",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "low",
+      "size": "",
+      "module": "ci/verification",
+      "owner": "",
+      "tags": [
+        "ci-verification"
+      ],
+      "requirements": [],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/_verify/ELITEA-9999-verify-build-index-dispatch.md"
+    },
+    {
       "id": "ELITEA-3746",
       "title": "Blocked Toolkit: Live-Reload and Case-Insensitive Matching",
       "status": "ready",
