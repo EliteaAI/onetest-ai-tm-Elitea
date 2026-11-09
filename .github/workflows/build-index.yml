@@ -73,4 +73,15 @@ jobs:
             --title "chore: rebuild ${changed% }" \
             --body "Automated index rebuild from push \`${{ github.sha }}\`. [skip-intake]" \
             --base main --head "$branch")
-          gh pr merge "$pr_url" --squash --delete-branch
+
+          # GitHub computes mergeable_state asynchronously after PR creation; an
+          # immediate merge can transiently 422 with "Pull Request is not mergeable".
+          for attempt in 1 2 3 4 5; do
+            if gh pr merge "$pr_url" --squash --delete-branch; then
+              exit 0
+            fi
+            echo "Merge attempt $attempt failed, retrying in 5s..."
+            sleep 5
+          done
+          echo "::error::Failed to merge $pr_url after 5 attempts"
+          exit 1
