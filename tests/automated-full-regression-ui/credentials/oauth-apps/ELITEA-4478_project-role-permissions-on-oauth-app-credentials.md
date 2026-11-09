@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4393
+id: ELITEA-4478
 title: "OAuth Apps — Project Role Permissions on Default App Credentials"
 priority: critical
 type: regression
@@ -10,11 +10,11 @@ tags: [automated:API:regression, feat:credentials, nfr:security, int:outlook, is
 requirements: ["EliteaAI/elitea_issues#7149"]
 ---
 
-# ELITEA-4393: OAuth Apps — Project Role Permissions on Default App Credentials
+# ELITEA-4478: OAuth Apps — Project Role Permissions on Default App Credentials
 
 **Module:** toolkits-credentials/oauth-apps · **Priority:** critical · **Type:** regression
 
-**Objective:** Regression of the viewer / editor / admin permissions on Default app credentials, without a Microsoft sign-in. Manual source: ELITEA-4390.
+**Objective:** Regression of the viewer / editor / admin permissions on Default app credentials, without a Microsoft sign-in. Manual source: ELITEA-4475.
 
 ---
 
