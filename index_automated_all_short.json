@@ -16,6 +16,16 @@
       "path": "tests/automated-full-regression-ui/admin/ELITEA-3748_sensitive-tool-live-reload-case-insensitive.md"
     },
     {
+      "id": "ELITEA-4302",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/admin/oauth-apps/ELITEA-4302_oauth-app-create-edit-delete-with-write-only-secret.md"
+    },
+    {
+      "id": "ELITEA-4303",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/admin/oauth-apps/ELITEA-4303_oauth-app-validation-and-type-switches.md"
+    },
+    {
       "id": "ELITEA-2350",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/agent_hub/ELITEA-2350_agent-hub-page-loads-successfully-for-private-project.md"
@@ -402,13 +412,8 @@
     },
     {
       "id": "ELITEA-1806",
-      "priority": "medium",
+      "priority": "low",
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1806_artifacts-landing-page-ui-elements-no-buckets.md"
-    },
-    {
-      "id": "ELITEA-1807",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1807_artifacts-landing-page-collapse-expand-panels.md"
     },
     {
       "id": "ELITEA-1808",
@@ -449,21 +454,6 @@
       "id": "ELITEA-1820",
       "priority": "medium",
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1820_pin-artifact-bucket-to-top.md"
-    },
-    {
-      "id": "ELITEA-1821",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1821_unpin-artifact-bucket-from-top.md"
-    },
-    {
-      "id": "ELITEA-1822",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1822_scroll-through-bucket-list-20-or-more-buckets.md"
-    },
-    {
-      "id": "ELITEA-1823",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1823_bucket-highlights-on-mouse-hover.md"
     },
     {
       "id": "ELITEA-1824",
@@ -511,11 +501,6 @@
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1836_file-tree-subfolder-expands-collapses-on-click.md"
     },
     {
-      "id": "ELITEA-1837",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1837_file-tree-breadcrumb-updates-on-navigation.md"
-    },
-    {
       "id": "ELITEA-1838",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1838_file-tree-switching-between-buckets.md"
@@ -539,11 +524,6 @@
       "id": "ELITEA-1842",
       "priority": "medium",
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1842_download-flow-cancel-in-progress-stops-zip.md"
-    },
-    {
-      "id": "ELITEA-1843",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1843_download-flow-close-x-zip-progress-modal.md"
     },
     {
       "id": "ELITEA-1844",
@@ -601,18 +581,8 @@
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1858_file-preview-markdown-raw-tab-enables-editing.md"
     },
     {
-      "id": "ELITEA-1859",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1859_file-preview-markdown-raw-discard-reverts.md"
-    },
-    {
-      "id": "ELITEA-1860",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1860_file-preview-markdown-raw-cancel-discard-changes-intact.md"
-    },
-    {
       "id": "ELITEA-1861",
-      "priority": "medium",
+      "priority": "low",
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1861_file-preview-markdown-switching-preview-raw-tabs.md"
     },
     {
@@ -626,16 +596,6 @@
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1863_file-preview-unsupported-xlsx-preview-not-available.md"
     },
     {
-      "id": "ELITEA-1864",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1864_file-preview-unsupported-zip-no-preview-icon.md"
-    },
-    {
-      "id": "ELITEA-1865",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1865_file-preview-context-management-settings-panel.md"
-    },
-    {
       "id": "ELITEA-1866",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1866_create-artifact-bucket-via-toolkit-verify-list-files.md"
@@ -644,11 +604,6 @@
       "id": "ELITEA-1867",
       "priority": "medium",
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1867_artifact-toolkit-creation-fails-bucket-already-exists.md"
-    },
-    {
-      "id": "ELITEA-1868",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1868_cancel-artifact-toolkit-creation-no-toolkit-no-bucket.md"
     },
     {
       "id": "ELITEA-3465",
@@ -671,23 +626,18 @@
       "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2488_manage-permissions-modal-ui-and-add-no-access-exception.md"
     },
     {
-      "id": "ELITEA-2489",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2489_add-read-only-exception-and-verify-enforcement.md"
-    },
-    {
       "id": "ELITEA-2490",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2490_edit-permission-and-bulk-select-all.md"
     },
     {
       "id": "ELITEA-2491",
-      "priority": "high",
+      "priority": "critical",
       "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2491_manage-access-not-visible-in-private-public-projects.md"
     },
     {
       "id": "ELITEA-2492",
-      "priority": "medium",
+      "priority": "low",
       "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2492_empty-state-and-add-exception-flow.md"
     },
     {
@@ -714,11 +664,6 @@
       "id": "ELITEA-3363",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/artifacts/image-vision-user-prompt/ELITEA-3363_read-file-without-user-prompt-returns-generic-caption.md"
-    },
-    {
-      "id": "ELITEA-3364",
-      "priority": "medium",
-      "path": "tests/automated-full-regression-ui/artifacts/image-vision-user-prompt/ELITEA-3364_read-file-user-prompt-works-for-jpeg-format.md"
     },
     {
       "id": "ELITEA-0498",
@@ -1686,6 +1631,36 @@
       "path": "tests/automated-full-regression-ui/credentials/ELITEA-4127_credential-teams-form-always-has-preselected-scope.md"
     },
     {
+      "id": "ELITEA-4304",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/credentials/oauth-apps/ELITEA-4304_credential-form-mode-follows-admin-apps.md"
+    },
+    {
+      "id": "ELITEA-4305",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/credentials/oauth-apps/ELITEA-4305_default-app-credential-saves-with-name-only.md"
+    },
+    {
+      "id": "ELITEA-4306",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/credentials/oauth-apps/ELITEA-4306_credential-shows-error-when-its-app-is-disabled.md"
+    },
+    {
+      "id": "ELITEA-4385",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/credentials/oauth-apps/ELITEA-4385_custom-credential-save-enabled-when-no-app-applies.md"
+    },
+    {
+      "id": "ELITEA-4386",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/credentials/oauth-apps/ELITEA-4386_private-default-app-credential-selectable-in-team-toolkit.md"
+    },
+    {
+      "id": "ELITEA-4478",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/credentials/oauth-apps/ELITEA-4478_project-role-permissions-on-oauth-app-credentials.md"
+    },
+    {
       "id": "ELITEA-3663",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/evaluation-run-analytics/ELITEA-3663_evaluation-analytics-navigation-and-page-structure.md"
@@ -2554,6 +2529,56 @@
       "id": "ELITEA-3734",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-3734_fork-pipeline-blocked-when-destination-project-role-is-viewer.md"
+    },
+    {
+      "id": "ELITEA-4464",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4464_save-rules-per-approval-rule-for-missing-credential.md"
+    },
+    {
+      "id": "ELITEA-4465",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4465_missing-credential-wait-approve-and-reject-via-api.md"
+    },
+    {
+      "id": "ELITEA-4466",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4466_only-the-owner-can-decide-a-waiting-run.md"
+    },
+    {
+      "id": "ELITEA-4467",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4467_pause-and-ask-pauses-only-for-a-listed-sensitive-tool.md"
+    },
+    {
+      "id": "ELITEA-4468",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4468_pipeline-with-a-hitl-node-is-blocked.md"
+    },
+    {
+      "id": "ELITEA-4489",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4489_schedule-create-validation-and-risk-ack-api.md"
+    },
+    {
+      "id": "ELITEA-4490",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4490_pause-resume-edit-rules-and-next-run-api.md"
+    },
+    {
+      "id": "ELITEA-4491",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4491_run-now-and-test-run-contract-api.md"
+    },
+    {
+      "id": "ELITEA-4492",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4492_role-visibility-and-admin-only-routes-api.md"
+    },
+    {
+      "id": "ELITEA-4493",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4493_run-history-and-schedule-run-filters-api.md"
     },
     {
       "id": "ELITEA-2242",
@@ -3794,6 +3819,51 @@
       "id": "ELITEA-3829",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/skills/ELITEA-3829_agent-uses-own-model-not-skill-settings.md"
+    },
+    {
+      "id": "ELITEA-3836",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3836_skill-run-api-execute-default-version.md"
+    },
+    {
+      "id": "ELITEA-3837",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3837_skill-run-api-sync-mode.md"
+    },
+    {
+      "id": "ELITEA-3838",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3838_skill-run-error-empty-instructions.md"
+    },
+    {
+      "id": "ELITEA-3839",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3839_agent-attached-skills-unchanged.md"
+    },
+    {
+      "id": "ELITEA-4253",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4253_run-from-catalog-creates-chat-with-skill-participant.md"
+    },
+    {
+      "id": "ELITEA-4254",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4254_send-message-to-catalog-skill-in-chat.md"
+    },
+    {
+      "id": "ELITEA-4255",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4255_llm-model-settings-load-correctly-for-catalog-skill.md"
+    },
+    {
+      "id": "ELITEA-4256",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4256_override-model-for-catalog-skill-in-chat.md"
+    },
+    {
+      "id": "ELITEA-4257",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4257_usage-attribution-to-user-project.md"
     },
     {
       "id": "ELITEA-1986",

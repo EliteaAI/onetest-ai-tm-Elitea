@@ -82,6 +82,60 @@
       "path": "tests/automated-full-regression-ui/admin/ELITEA-3748_sensitive-tool-live-reload-case-insensitive.md"
     },
     {
+      "id": "ELITEA-4302",
+      "title": "OAuth Apps — Create, Edit and Delete an App, Secret Never Returned",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "admin-portal/oauth-apps",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:admin-platform",
+        "nfr:security",
+        "int:oauth",
+        "issue:7149",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7149"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/admin/oauth-apps/ELITEA-4302_oauth-app-create-edit-delete-with-write-only-secret.md"
+    },
+    {
+      "id": "ELITEA-4303",
+      "title": "OAuth Apps — Server Validation and Credential Type Switches",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "admin-portal/oauth-apps",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:admin-platform",
+        "nfr:security",
+        "int:oauth",
+        "issue:7149",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7149"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/admin/oauth-apps/ELITEA-4303_oauth-app-validation-and-type-switches.md"
+    },
+    {
       "id": "ELITEA-2350",
       "title": "Agent Hub — page loads successfully for Private project",
       "status": "ready",
@@ -1831,7 +1885,7 @@
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
-      "priority": "medium",
+      "priority": "low",
       "size": "",
       "module": "artifacts",
       "owner": "",
@@ -1845,27 +1899,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1806_artifacts-landing-page-ui-elements-no-buckets.md"
-    },
-    {
-      "id": "ELITEA-1807",
-      "title": "Artifacts Landing Page – Collapse and Expand Panels",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1807_artifacts-landing-page-collapse-expand-panels.md"
     },
     {
       "id": "ELITEA-1808",
@@ -2026,7 +2059,7 @@
     },
     {
       "id": "ELITEA-1820",
-      "title": "Pin Artifact Bucket to Top",
+      "title": "Pin and Unpin Artifact Bucket to/from Top",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -2044,69 +2077,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1820_pin-artifact-bucket-to-top.md"
-    },
-    {
-      "id": "ELITEA-1821",
-      "title": "Unpin Artifact Bucket from Top",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1821_unpin-artifact-bucket-from-top.md"
-    },
-    {
-      "id": "ELITEA-1822",
-      "title": "Scroll Through Bucket List with 20 or More Buckets",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1822_scroll-through-bucket-list-20-or-more-buckets.md"
-    },
-    {
-      "id": "ELITEA-1823",
-      "title": "Bucket Highlights on Mouse Hover",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1823_bucket-highlights-on-mouse-hover.md"
     },
     {
       "id": "ELITEA-1824",
@@ -2288,7 +2258,7 @@
     },
     {
       "id": "ELITEA-1836",
-      "title": "File Tree Behavior – Subfolder Expands and Collapses on Click",
+      "title": "File Tree Behavior – Subfolder Expand/Collapse and Breadcrumb/URL Updates on Navigation",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -2306,27 +2276,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1836_file-tree-subfolder-expands-collapses-on-click.md"
-    },
-    {
-      "id": "ELITEA-1837",
-      "title": "File Tree Behavior – Breadcrumb Path Updates on Navigation",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1837_file-tree-breadcrumb-updates-on-navigation.md"
     },
     {
       "id": "ELITEA-1838",
@@ -2418,7 +2367,7 @@
     },
     {
       "id": "ELITEA-1842",
-      "title": "Download Flow – Cancel Download in Progress Stops ZIP Preparation",
+      "title": "Download Flow – Cancel In-Progress ZIP Preparation via Cancel Button or Close X",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -2436,27 +2385,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1842_download-flow-cancel-in-progress-stops-zip.md"
-    },
-    {
-      "id": "ELITEA-1843",
-      "title": "Download Flow – Close X Button on ZIP Progress Modal Cancels Download",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1843_download-flow-close-x-zip-progress-modal.md"
     },
     {
       "id": "ELITEA-1844",
@@ -2573,7 +2501,7 @@
     },
     {
       "id": "ELITEA-1853",
-      "title": "File Preview/Edit – Discard Changes via Discard Button Reverts to Original and Stays in Edit Mode",
+      "title": "File Preview/Edit – Discard Button Reverts Changes and Stays in Edit Mode (Text File and Markdown Raw Tab)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -2594,7 +2522,7 @@
     },
     {
       "id": "ELITEA-1854",
-      "title": "File Preview/Edit – Cancel Discard Warning Returns to Edit Mode with Changes Preserved",
+      "title": "File Preview/Edit – Cancel on Discard Warning Preserves Unsaved Changes (Text File and Markdown Raw Tab)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -2704,54 +2632,12 @@
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1858_file-preview-markdown-raw-tab-enables-editing.md"
     },
     {
-      "id": "ELITEA-1859",
-      "title": "File Preview/Edit – Markdown Raw Tab Discard Reverts Changes and Keeps Editor Open",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1859_file-preview-markdown-raw-discard-reverts.md"
-    },
-    {
-      "id": "ELITEA-1860",
-      "title": "File Preview/Edit – Markdown Raw Tab Cancel Discard Returns to Raw Edit with Changes Intact",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1860_file-preview-markdown-raw-cancel-discard-changes-intact.md"
-    },
-    {
       "id": "ELITEA-1861",
       "title": "File Preview/Edit – Switching Between Preview and Raw Tabs",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
-      "priority": "medium",
+      "priority": "low",
       "size": "",
       "module": "artifacts",
       "owner": "",
@@ -2791,7 +2677,7 @@
     },
     {
       "id": "ELITEA-1863",
-      "title": "File Preview/Edit – Unsupported File Type (.xlsx) Shows Preview Not Available Message",
+      "title": "File Preview/Edit – Unsupported File Types Have No Preview (.xlsx shows 'Preview Not Available', .zip has no preview icon)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -2809,48 +2695,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1863_file-preview-unsupported-xlsx-preview-not-available.md"
-    },
-    {
-      "id": "ELITEA-1864",
-      "title": "File Preview/Edit – Unsupported File Type (.zip) Has No Preview and Only Download/Delete in Actions",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1864_file-preview-unsupported-zip-no-preview-icon.md"
-    },
-    {
-      "id": "ELITEA-1865",
-      "title": "File Preview/Edit – Context Management Settings Panel Opens for Supported File",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1865_file-preview-context-management-settings-panel.md"
     },
     {
       "id": "ELITEA-1866",
@@ -2877,7 +2721,7 @@
     },
     {
       "id": "ELITEA-1867",
-      "title": "Artifact Toolkit Creation Fails When Bucket Name Already Exists",
+      "title": "Artifact Toolkit Creation – Negative Paths (Duplicate Bucket Name Fails, Cancel Creates Nothing)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -2895,27 +2739,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1867_artifact-toolkit-creation-fails-bucket-already-exists.md"
-    },
-    {
-      "id": "ELITEA-1868",
-      "title": "Cancel During Artifact Toolkit Creation Does Not Create Toolkit or Bucket",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1868_cancel-artifact-toolkit-creation-no-toolkit-no-bucket.md"
     },
     {
       "id": "ELITEA-3465",
@@ -2995,7 +2818,7 @@
     },
     {
       "id": "ELITEA-2488",
-      "title": "Manage Permissions Modal UI and Add No Access Exception",
+      "title": "Manage Permissions Modal UI, and Enforcement of No Access and Read-only Exceptions",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -3017,31 +2840,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2488_manage-permissions-modal-ui-and-add-no-access-exception.md"
-    },
-    {
-      "id": "ELITEA-2489",
-      "title": "Add Read-only Exception and Verify Enforcement",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts",
-        "nfr:security"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#5832",
-        "EliteaAI/elitea_issues#5912"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/bucket-permissions/ELITEA-2489_add-read-only-exception-and-verify-enforcement.md"
     },
     {
       "id": "ELITEA-2490",
@@ -3073,13 +2871,14 @@
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
-      "priority": "high",
+      "priority": "critical",
       "size": "",
       "module": "artifacts",
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:artifacts"
+        "feat:artifacts",
+        "nfr:security"
       ],
       "requirements": [
         "EliteaAI/elitea_issues#5832",
@@ -3097,7 +2896,7 @@
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
-      "priority": "medium",
+      "priority": "low",
       "size": "",
       "module": "artifacts",
       "owner": "",
@@ -3194,7 +2993,7 @@
     },
     {
       "id": "ELITEA-3362",
-      "title": "read_file with user_prompt Returns Specific Answer for Image",
+      "title": "read_file with user_prompt Returns Specific Answer for Image (PNG and JPEG)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -3242,31 +3041,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/artifacts/image-vision-user-prompt/ELITEA-3363_read-file-without-user-prompt-returns-generic-caption.md"
-    },
-    {
-      "id": "ELITEA-3364",
-      "title": "read_file with user_prompt Works for JPEG Format",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "artifacts",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:artifacts",
-        "feat:image-vision",
-        "r-2.0.6"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#6530"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/artifacts/image-vision-user-prompt/ELITEA-3364_read-file-user-prompt-works-for-jpeg-format.md"
     },
     {
       "id": "ELITEA-0498",
@@ -7697,6 +7471,170 @@
       "path": "tests/automated-full-regression-ui/credentials/ELITEA-4127_credential-teams-form-always-has-preselected-scope.md"
     },
     {
+      "id": "ELITEA-4304",
+      "title": "OAuth Apps — Credential Form Shows Custom, Switcher, Dropdown or Default Only",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials/oauth-apps",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:credentials",
+        "int:teams",
+        "int:outlook",
+        "int:sharepoint",
+        "issue:7149",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7149"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/credentials/oauth-apps/ELITEA-4304_credential-form-mode-follows-admin-apps.md"
+    },
+    {
+      "id": "ELITEA-4305",
+      "title": "OAuth Apps — Default App Credential Saves With a Name Only and Stores No Client Fields",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials/oauth-apps",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:credentials",
+        "nfr:security",
+        "int:outlook",
+        "issue:7149",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7149"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/credentials/oauth-apps/ELITEA-4305_default-app-credential-saves-with-name-only.md"
+    },
+    {
+      "id": "ELITEA-4306",
+      "title": "OAuth Apps — Credential Shows the Reason When Its App Is Disabled, Then Recovers",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials/oauth-apps",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:credentials",
+        "int:oauth",
+        "issue:7149",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7149"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/credentials/oauth-apps/ELITEA-4306_credential-shows-error-when-its-app-is-disabled.md"
+    },
+    {
+      "id": "ELITEA-4385",
+      "title": "OAuth Apps — Custom Credential Save Is Enabled When All Apps Are Disabled",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials/oauth-apps",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:credentials",
+        "int:outlook",
+        "int:teams",
+        "issue:7384",
+        "issue:7149",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7384",
+        "EliteaAI/elitea_issues#7149"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/credentials/oauth-apps/ELITEA-4385_custom-credential-save-enabled-when-no-app-applies.md"
+    },
+    {
+      "id": "ELITEA-4386",
+      "title": "OAuth Apps — Private Default App Credential Is Selectable in a Team Project Toolkit",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials/oauth-apps",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:credentials",
+        "feat:toolkits",
+        "int:outlook",
+        "issue:7149",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7149"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/credentials/oauth-apps/ELITEA-4386_private-default-app-credential-selectable-in-team-toolkit.md"
+    },
+    {
+      "id": "ELITEA-4478",
+      "title": "OAuth Apps — Project Role Permissions on Default App Credentials",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials/oauth-apps",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:credentials",
+        "nfr:security",
+        "int:outlook",
+        "issue:7149",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7149"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/credentials/oauth-apps/ELITEA-4478_project-role-permissions-on-oauth-app-credentials.md"
+    },
+    {
       "id": "ELITEA-3663",
       "title": "Evaluation Analytics Navigation and Page Structure",
       "status": "draft",
@@ -11618,6 +11556,272 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-3734_fork-pipeline-blocked-when-destination-project-role-is-viewer.md"
+    },
+    {
+      "id": "ELITEA-4464",
+      "title": "Schedules — Missing Credential Is a Notice Under Pause and Ask Me and Blocks Save Under Run Without Asking",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "schedules",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:schedules",
+        "feat:credentials",
+        "issue:7304",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7304"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4464_save-rules-per-approval-rule-for-missing-credential.md"
+    },
+    {
+      "id": "ELITEA-4465",
+      "title": "Schedules — Credential Wait: Run Parks, Approve Refused While Missing, Approve After Adding Starts the Run, Reject Fails It",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "schedules",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:schedules",
+        "feat:credentials",
+        "issue:7304",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7304"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4465_missing-credential-wait-approve-and-reject-via-api.md"
+    },
+    {
+      "id": "ELITEA-4466",
+      "title": "Schedules — Only the Owner Can Decide a Waiting Run; a Run With a Chat Is Decided in Its Chat",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "schedules",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:schedules",
+        "nfr:security",
+        "issue:7304",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7304"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4466_only-the-owner-can-decide-a-waiting-run.md"
+    },
+    {
+      "id": "ELITEA-4467",
+      "title": "Schedules — Pause and Ask Me Pauses Only for a Listed Sensitive Tool; Approve Continues and Reject Fails",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "schedules",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:schedules",
+        "feat:guardrails",
+        "issue:7314",
+        "issue:7304",
+        "r-2.0.8",
+        "issue:7432"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7314",
+        "EliteaAI/elitea_issues#7304",
+        "EliteaAI/elitea_issues#7432"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4467_pause-and-ask-pauses-only-for-a-listed-sensitive-tool.md"
+    },
+    {
+      "id": "ELITEA-4468",
+      "title": "Schedules — Pipeline With a HITL Node Is Blocked; Agent With a Missing Credential Waits Instead",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "schedules",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:schedules",
+        "feat:pipelines",
+        "issue:7304",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7304"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4468_pipeline-with-a-hitl-node-is-blocked.md"
+    },
+    {
+      "id": "ELITEA-4489",
+      "title": "Schedules — Create Validation and Risk Confirmation (API)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "schedules",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:schedules",
+        "issue:7011",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7011"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4489_schedule-create-validation-and-risk-ack-api.md"
+    },
+    {
+      "id": "ELITEA-4490",
+      "title": "Schedules — Pause, Resume and Edit Rules; Paused Schedule Has No Next Run (API)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "schedules",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:schedules",
+        "issue:7011",
+        "issue:7421",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7011",
+        "EliteaAI/elitea_issues#7421"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4490_pause-resume-edit-rules-and-next-run-api.md"
+    },
+    {
+      "id": "ELITEA-4491",
+      "title": "Schedules — Run Now and Test Run Contract: Manual vs Test, One Active Run, Never Saved (API)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "schedules",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:schedules",
+        "issue:7338",
+        "issue:7011",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7338",
+        "EliteaAI/elitea_issues#7011"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4491_run-now-and-test-run-contract-api.md"
+    },
+    {
+      "id": "ELITEA-4492",
+      "title": "Schedules — Admin Sees All, Editor Sees Own; Admin-Only Routes (API)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "schedules",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:schedules",
+        "nfr:security",
+        "issue:7011",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7011"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4492_role-visibility-and-admin-only-routes-api.md"
+    },
+    {
+      "id": "ELITEA-4493",
+      "title": "Schedules — Run History and Schedule Run Filters Accept Valid Values and Reject Invalid Ones (API)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "schedules",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:schedules",
+        "issue:7338",
+        "issue:7435",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7338",
+        "EliteaAI/elitea_issues#7435"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/schedules/ELITEA-4493_run-history-and-schedule-run-filters-api.md"
     },
     {
       "id": "ELITEA-2242",
@@ -17134,6 +17338,248 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/skills/ELITEA-3829_agent-uses-own-model-not-skill-settings.md"
+    },
+    {
+      "id": "ELITEA-3836",
+      "title": "Skill Run API — Execute Default Version and Return run_id",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-executable",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3836_skill-run-api-execute-default-version.md"
+    },
+    {
+      "id": "ELITEA-3837",
+      "title": "Skill Run API — Sync Mode Returns Response Successfully",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-executable",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3837_skill-run-api-sync-mode.md"
+    },
+    {
+      "id": "ELITEA-3838",
+      "title": "Skill Run Error — Empty/Blank Instructions Returns 400",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-executable",
+        "error-handling",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3838_skill-run-error-empty-instructions.md"
+    },
+    {
+      "id": "ELITEA-3839",
+      "title": "Regression — Agent-Attached Skills via load_skill Unchanged",
+      "status": "ready",
+      "execution_type": "automated",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "regression",
+        "agents",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6920"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-3839_agent-attached-skills-unchanged.md"
+    },
+    {
+      "id": "ELITEA-4253",
+      "title": "Clicking Run on Catalog skill creates chat with skill as participant",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-run",
+        "catalog",
+        "chat",
+        "participant",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4253_run-from-catalog-creates-chat-with-skill-participant.md"
+    },
+    {
+      "id": "ELITEA-4254",
+      "title": "Send message to Catalog skill participant in chat",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "skill-run",
+        "catalog",
+        "chat",
+        "messaging",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4254_send-message-to-catalog-skill-in-chat.md"
+    },
+    {
+      "id": "ELITEA-4255",
+      "title": "LLM Model/Settings section loads for Catalog skill in chat",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "catalog",
+        "chat",
+        "model-settings",
+        "bug-7219",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922",
+        "EliteaAI/elitea_issues#7219"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4255_llm-model-settings-load-correctly-for-catalog-skill.md"
+    },
+    {
+      "id": "ELITEA-4256",
+      "title": "User can override model for Catalog skill participant (per chat)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "catalog",
+        "chat",
+        "model-override",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922",
+        "EliteaAI/elitea_issues#7219"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4256_override-model-for-catalog-skill-in-chat.md"
+    },
+    {
+      "id": "ELITEA-4257",
+      "title": "Catalog skill usage billed to user's current project",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "elitea-platform",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "catalog",
+        "chat",
+        "billing",
+        "usage",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4257_usage-attribution-to-user-project.md"
     },
     {
       "id": "ELITEA-1986",
