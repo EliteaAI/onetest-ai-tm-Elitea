@@ -1,11 +1,6 @@
 {
   "cases": [
     {
-      "id": "ELITEA-9999",
-      "priority": "low",
-      "path": "tests/automated-full-regression-ui/_verify/ELITEA-9999-verify-build-index-dispatch.md"
-    },
-    {
       "id": "ELITEA-3746",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/admin/ELITEA-3746_blocked-toolkit-live-reload-case-insensitive.md"
