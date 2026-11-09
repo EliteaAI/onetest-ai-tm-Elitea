@@ -11,6 +11,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  pull-requests: write
 # Back-to-back pushes must not race each other's index commit.
 concurrency:
   group: build-index
@@ -47,7 +48,11 @@ jobs:
           jq '{cases: [.cases[] | {id, priority, path}]}' index_automated.json > index_automated_all_short.json
           echo "All-short index: $(wc -c < index_automated_all_short.json) bytes ($(jq '.cases | length' index_automated_all_short.json) cases)"
 
+      # main requires PRs (no direct pushes), so the rebuild lands via a bot branch + auto-merged PR
+      # instead of `git push origin main`.
       - name: Commit index if changed
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -58,6 +63,14 @@ jobs:
           fi
           changed=$(git diff --cached --name-only | tr '\n' ' ')
           echo "Changed: $changed"
+
+          branch="build-index/${{ github.run_id }}"
+          git checkout -b "$branch"
           git commit -m "chore: rebuild ${changed% }"
-          git pull --rebase origin main
-          git push
+          git push origin "$branch"
+
+          pr_url=$(gh pr create \
+            --title "chore: rebuild ${changed% }" \
+            --body "Automated index rebuild from push \`${{ github.sha }}\`. [skip-intake]" \
+            --base main --head "$branch")
+          gh pr merge "$pr_url" --squash --delete-branch
