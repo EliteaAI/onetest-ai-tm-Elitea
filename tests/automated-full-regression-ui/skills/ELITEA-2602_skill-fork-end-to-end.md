@@ -64,7 +64,7 @@ requirements: []
 | 15 | Verify tags are preserved | Both `test-tag` and `fork-demo` tags are present |
 | 16 | Verify custom icon is preserved | Same custom icon is displayed |
 | 17 | Check the skill's metadata/properties for lineage information | Lineage metadata shows: parent_entity_id, parent_project_id, parent_version_id |
-| 18 | Edit the forked skill's instructions in Project B and save | Changes are saved successfully |
+| 18 | Switch the forked skill's Instructions section to Edit mode (click the "Edit mode" toggle; it opens in Preview), then edit its instructions in Project B and save | Changes are saved successfully |
 | 19 | Navigate back to Project A and open the original skill | Original skill loads |
 | 20 | Verify the original skill's instructions are UNCHANGED | Original instructions remain as they were (no cross-propagation) |
 

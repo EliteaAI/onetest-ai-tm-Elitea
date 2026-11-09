@@ -41,7 +41,7 @@ automation_test_id: tests.ui.skills.test_skill_export_import.TestSkillExportImpo
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Create a Skill with a `base` version, modify the instructions, and save as a new version named `ver_1` | Skill has both `base` and `ver_1` versions saved successfully |
+| 1 | Create a Skill with a `base` version, switch the Instructions section to Edit mode (click the "Edit mode" toggle; detail page opens in Preview), modify the instructions, and save as a new version named `ver_1` | Skill has both `base` and `ver_1` versions saved successfully |
 | 2 | Switch to the `ver_1` version and export this version of the Skill | A `.md` file is downloaded representing the `ver_1` version |
 | 3 | Import the exported `.md` file via the Skills import feature | Import completes without errors; a new Skill entry appears in the Skills list |
 | 4 | Open the imported Skill and verify it has a `base` version created | The imported Skill shows a `base` version (not `ver_1`) |
