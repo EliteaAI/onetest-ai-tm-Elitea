@@ -40,7 +40,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/536
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Navigate to an agent with at least one saved variable | The agent detail page loads with the variable(s) visible in the Variables section |
-| 2 | Remove variable reference from instructions: delete the {{variable}} text | The variable reference is removed from the Instructions field |
+| 2 | Switch the Instructions section to Edit mode (click the "Edit mode" toggle; it opens in Preview mode), then remove variable reference from instructions: delete the {{variable}} text | The variable reference is removed from the Instructions field |
 | 3 | Verify the variable row disappears | The corresponding variable row is no longer shown in the Variables section |
 | 4 | Click Save | Save completes successfully |
 | 5 | Reload the page | The page reloads |

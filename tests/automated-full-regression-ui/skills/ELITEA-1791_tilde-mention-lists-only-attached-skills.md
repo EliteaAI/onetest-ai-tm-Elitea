@@ -46,7 +46,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/282
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Open the Agent in edit mode that has "Skill A" and "Skill B" attached | Agent edit form is open with 2 Skills attached |
-| 2 | Navigate to the Agent instructions field | Instructions text area is focused and editable |
+| 2 | Navigate to the Agent instructions field and switch the Instructions section to Edit mode (click the "Edit mode" toggle; it opens in Preview mode) | Instructions text area is focused and editable |
 | 3 | Type `~` in the instructions field | A suggestion/autocomplete dropdown appears |
 | 4 | Inspect the list of suggestions shown | Only "Skill A" and "Skill B" are listed; "Skill C" is NOT shown |
 | 5 | Select "Skill A" from the suggestions | `~Skill A` (or the appropriate reference syntax) is inserted into the instructions |

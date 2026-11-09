@@ -49,14 +49,14 @@ requirements: [EliteaAI/elitea_issues#6304]
 | 8 | Verify Tools list displays for both versions (read-only) | Tools section visible; shows attached tools for each version |
 | 9 | Verify Skills list displays for both versions (read-only) | Skills section visible; shows attached skills for each version |
 | 10 | Return to Instructions section | Instructions section reloads with original content |
-| 11 | Edit Instructions in Version 1 (left column) to "Updated base instructions" | Text updates in Version 1 column only |
+| 11 | Switch Instructions in Version 1 (left column) to Edit mode (click the "Edit mode" toggle; it opens in Preview), then edit Instructions in Version 1 (left column) to "Updated base instructions" | Text updates in Version 1 column only |
 | 12 | Verify Version 2 (right column) Instructions remains unchanged | Version 2 still shows original "V1 instructions" |
 | 13 | Click Save button for Version 1 column | Save operation executes; success message or indicator appears |
 | 14 | Close the Compare Versions modal | Modal closes |
 | 15 | Reopen Compare Versions modal for same agent | Modal reopens with fresh data |
 | 16 | Verify Version 1 Instructions shows saved changes: "Updated base instructions" | Version 1 displays the updated text |
 | 17 | Verify Version 2 Instructions remains unchanged: "V1 instructions" | Version 2 was not affected by Version 1 save |
-| 18 | Edit Instructions in Version 2 to "Updated v1.0 instructions" | Text updates in Version 2 column only |
+| 18 | Switch Instructions in Version 2 to Edit mode if in Preview, then edit Instructions in Version 2 to "Updated v1.0 instructions" | Text updates in Version 2 column only |
 | 19 | Click Save button for Version 2 column | Save operation executes; success message appears |
 | 20 | Close and reopen modal | Modal reopens |
 | 21 | Verify Version 2 now shows "Updated v1.0 instructions" | Version 2 displays saved changes |
