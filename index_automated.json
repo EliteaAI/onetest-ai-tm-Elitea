@@ -13878,6 +13878,226 @@
       "path": "tests/automated-full-regression-ui/settings/analytics/skills-analytics/ELITEA-3835_search-functionality-updated-terminology.md"
     },
     {
+      "id": "ELITEA-4587",
+      "title": "[Regression] Full Create Backup UI walkthrough — section text, modal defaults, all 3 Chats options' exact filenames, and the 'Backup downloaded.' toast",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "project-backup-restore",
+      "owner": "",
+      "tags": [
+        "feat:backup-restore",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6907"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4587_regression-full-create-backup-ui-walkthrough-section-text-mo.md"
+    },
+    {
+      "id": "ELITEA-4588",
+      "title": "[Regression] Full Restore UI walkthrough — opening the modal, selecting a file, confirming the Chats block reflects that file's content, running a real restore, and verifying the result summary",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "project-backup-restore",
+      "owner": "",
+      "tags": [
+        "feat:backup-restore",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6907"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4588_regression-full-restore-ui-walkthrough-opening-the-modal-sel.md"
+    },
+    {
+      "id": "ELITEA-4589",
+      "title": "[Regression] Selecting 'Do not restore chats' on a chats-included backup restores only non-chat data, leaving every existing chat in the target project byte-for-byte unchanged",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "project-backup-restore",
+      "owner": "",
+      "tags": [
+        "feat:backup-restore",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6907"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4589_regression-selecting-do-not-restore-chats-on-a-chats-include.md"
+    },
+    {
+      "id": "ELITEA-4590",
+      "title": "[Regression] Backing up 'with attachments' when a referenced file is already missing from storage still completes successfully, with the exact 'Backup created. N attachment file(s) could not be included.' toast",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "project-backup-restore",
+      "owner": "",
+      "tags": [
+        "feat:backup-restore",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6907"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4590_regression-backing-up-with-attachments-when-a-referenced-fil.md"
+    },
+    {
+      "id": "ELITEA-4591",
+      "title": "[Regression] Merge-mode restore skips an already-existing chat without duplicating it and preserves live edits; Replace-mode restore deletes all existing chats and replaces them with the backup's exact content",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "project-backup-restore",
+      "owner": "",
+      "tags": [
+        "feat:backup-restore",
+        "regression",
+        "data-integrity",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6907"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4591_regression-merge-mode-restore-skips-an-already-existing-chat.md"
+    },
+    {
+      "id": "ELITEA-4592",
+      "title": "[Regression] 'Restore all chats with attachments' uploads a working attachment into a project that never had it; 'Restore all chats without attachments' never uploads and shows the exact file-not-available placeholder",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "project-backup-restore",
+      "owner": "",
+      "tags": [
+        "feat:backup-restore",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6907"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4592_regression-restore-all-chats-with-attachments-uploads-a-work.md"
+    },
+    {
+      "id": "ELITEA-4593",
+      "title": "[Regression] Cross-project restore is gated behind the foreign-data confirmation checkbox; participants who are not members of the target project are dropped from the live list without losing their message history or author attribution",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "project-backup-restore",
+      "owner": "",
+      "tags": [
+        "feat:backup-restore",
+        "cross-project",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6907"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4593_regression-cross-project-restore-is-gated-behind-the-foreign.md"
+    },
+    {
+      "id": "ELITEA-4594",
+      "title": "[Regression] A private chat restores correctly for its own owner and stays invisible to a different account; a non-owner cannot surface someone else's private chat even when running the restore themselves",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "project-backup-restore",
+      "owner": "",
+      "tags": [
+        "feat:backup-restore",
+        "privacy",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6907"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4594_regression-a-private-chat-restores-correctly-for-its-own-own.md"
+    },
+    {
+      "id": "ELITEA-4595",
+      "title": "[Regression] Viewer has no Backup/Restore access, Editor can only create backups, Admin can do both, in a team project",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "project-backup-restore",
+      "owner": "",
+      "tags": [
+        "feat:backup-restore",
+        "permissions",
+        "regression",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6907"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4595_regression-viewer-has-no-backuprestore-access-editor-can-onl.md"
+    },
+    {
       "id": "ELITEA-4066",
       "title": "Project theme applies admin-configured custom colors immediately without page reload",
       "status": "ready",
