@@ -40,7 +40,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1292
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Open an existing agent's detail page with an embedded chat panel | The agent detail page with embedded chat loads |
+| 1 | Open an existing agent's detail page and click the "Test Agent" toolbar button to open the embedded chat panel | The agent detail page loads and the embedded chat panel opens |
 | 2 | Click the chat input field | The input field is focused |
 | 3 | Press Shift+Enter — verify a new line is inserted and no message is sent | A new line appears in the input field; no message is submitted to the chat |
 | 4 | Type additional text on the new line | The additional text appears on the new line in the input |

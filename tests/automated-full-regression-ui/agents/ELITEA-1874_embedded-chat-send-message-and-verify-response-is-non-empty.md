@@ -43,7 +43,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1292
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Navigate to an existing agent's detail page with instructions "You are a helpful assistant. Reply only with: PONG" | The agent detail page loads |
-| 2 | Locate the embedded chat panel on the right side of the detail page | The embedded chat panel is visible |
+| 2 | Click the "Test Agent" toolbar button to open the embedded chat panel | The embedded chat panel opens next to the configuration and is visible |
 | 3 | Type "PING" in the chat input | The input field displays "PING" |
 | 4 | Press Enter (without Shift) | The message is submitted |
 | 5 | Wait for the assistant response to appear and stabilise | The assistant response is fully rendered |

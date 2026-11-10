@@ -44,7 +44,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1292
 | 1 | Navigate to an agent detail page | The agent detail page loads |
 | 2 | Add starter "How do I create a new agent?" and starter "What toolkits are available?" | Both starters are entered in the Conversation Starters field |
 | 3 | Click Save | Save completes successfully |
-| 4 | Open a new chat session with this agent | A new chat session opens |
+| 4 | Click the "Test Agent" toolbar button to open the embedded chat panel (new chat session with this agent) | The chat panel opens with a new chat session |
 | 5 | Verify both starter chips are visible in the chat before any message is sent | Both starter chip buttons are displayed in the chat panel |
 | 6 | Click one starter chip | The starter chip is clicked |
 | 7 | Verify the starter text is submitted as a pre-filled in the input | The starter text appears in the chat input field |

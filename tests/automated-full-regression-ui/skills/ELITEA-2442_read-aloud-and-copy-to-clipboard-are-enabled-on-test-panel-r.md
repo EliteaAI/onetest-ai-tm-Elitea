@@ -39,9 +39,9 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1462
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Open a Skill and run a test prompt in the test panel | Target page/section loads successfully. |
+| 1 | Open a Skill, click the "Test Skill" toolbar button to open the test panel, and run a test prompt | Target page/section loads successfully. |
 | 2 | Wait for a response to appear | Wait completes; subsequent state is ready. |
-| 3 | Verify the "Read aloud" and "Copy to clipboard" action buttons are active and clickable (not grayed out or disabled) | Condition holds as described. |
+| 3 | Verify the "Read aloud" and "Copy text" (copy to clipboard) action buttons are active and clickable (not grayed out or disabled); clicking Copy text shows the toast "Text copied to clipboard." | Condition holds as described. |
 
 ---
 

@@ -43,7 +43,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1266
 | 1 | Create a Skill with "base" instructions: "Always say BASE" | Operation completes successfully; state updates and confirmation is shown. |
 | 2 | Save As Version "v1" with instructions: "Always say V1" | Operation completes successfully; state updates and confirmation is shown. |
 | 3 | Switch to "v1" in the version selector | Action completes without error and produces the expected UI state. |
-| 4 | Run test prompt: "What should you say?" | Action completes without error and produces the expected UI state. |
+| 4 | Click the "Test Skill" toolbar button to open the test panel, then run test prompt: "What should you say?" | Action completes without error and produces the expected UI state. |
 | 5 | Verify the response contains "V1" (not "BASE") | Condition holds as described. |
 | 6 | Switch to "base" and run the same prompt — verify the response contains "BASE" | Action completes without error and produces the expected UI state. |
 
