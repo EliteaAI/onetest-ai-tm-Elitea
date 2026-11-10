@@ -7471,6 +7471,88 @@
       "path": "tests/automated-full-regression-ui/credentials/ELITEA-4127_credential-teams-form-always-has-preselected-scope.md"
     },
     {
+      "id": "ELITEA-4581",
+      "title": "Dataverse — credential and toolkit API: schemas, vault storage, URL and authority checks, no-login 401, logout",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "toolkits-credentials/dataverse",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:credentials",
+        "feat:toolkits",
+        "int:dataverse",
+        "issue:7037",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7037"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/credentials/dataverse/ELITEA-4581_dataverse-credential-and-toolkit-api-schemas-validation-and-logout.md"
+    },
+    {
+      "id": "ELITEA-4582",
+      "title": "Dataverse — stored login permissions by API: editor 403, admin and personal owner allowed",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-credentials/dataverse",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:credentials",
+        "feat:toolkits",
+        "int:dataverse",
+        "issue:7037",
+        "r-2.0.8",
+        "nfr:security"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7037"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/credentials/dataverse/ELITEA-4582_dataverse-stored-login-permissions-admin-editor-personal.md"
+    },
+    {
+      "id": "ELITEA-4583",
+      "title": "Dataverse — tool input checks that run before any Dataverse call",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "medium",
+      "size": "",
+      "module": "toolkits-credentials/dataverse",
+      "owner": "",
+      "tags": [
+        "automated:API:regression",
+        "feat:credentials",
+        "feat:toolkits",
+        "int:dataverse",
+        "issue:7037",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7037"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/credentials/dataverse/ELITEA-4583_dataverse-tool-input-validation-without-a-login.md"
+    },
+    {
       "id": "ELITEA-4304",
       "title": "OAuth Apps — Credential Form Shows Custom, Switcher, Dropdown or Default Only",
       "status": "draft",
