@@ -1,6 +1,6 @@
 ---
 id: ELITEA-2368
-title: "Agent Hub — E2E start conversation with agent that has no conversation starters, type and send message, receive reply"
+title: "Catalog — E2E start conversation with agent that has no conversation starters, type and send message, receive reply"
 priority: medium
 type: functional
 module: agent-hub
@@ -10,11 +10,11 @@ tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
 ---
 
-# ELITEA-2368: Agent Hub — E2E start conversation with agent that has no conversation starters, type and send message, receive reply
+# ELITEA-2368: Catalog — E2E start conversation with agent that has no conversation starters, type and send message, receive reply
 
 **Module:** agent-hub · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that Agent Hub — E2E start conversation with agent that has no conversation starters, type and send message, receive reply. Success is confirmed when verify the context budget counter in the bottom right updates (if context managment is active).
+**Objective:** Verify that Catalog — E2E start conversation with agent that has no conversation starters, type and send message, receive reply. Success is confirmed when verify the context budget counter in the bottom right updates (if context managment is active).
 
 ---
 
@@ -37,7 +37,7 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to Agent Hub | Target page/section loads successfully. |
+| 1 | Navigate to Catalog (the Agents tab is active) | Catalog loads on the Agents tab (selected). |
 | 2 | Click on an agent card that shows "No predefined conversation starters" (e.g., "Business Analyst") | Control responds; expected next state is shown. |
 | 3 | Verify the detail modal opens displaying agent name, description, "CONVERSATION STARTERS" section with text "No predefined conversation starters – just type your request to begin" and "WELCOME MESSAGE" section with text "No welcome message set – the agent will start without a greeting" | Condition holds as described. |
 | 4 | Click the "Start conversation" button | Control responds; expected next state is shown. |
@@ -66,7 +66,7 @@ Verify the Context Budget counter in the bottom right updates (if context managm
 
 **Pass:**
 - All steps complete without errors.
-- The condition described in the title holds: Agent Hub — E2E start conversation with agent that has no conversation starters, type and send message, receive reply.
+- The condition described in the title holds: Catalog — E2E start conversation with agent that has no conversation starters, type and send message, receive reply.
 
 **Fail:**
 - Any step produces an error or unexpected result.

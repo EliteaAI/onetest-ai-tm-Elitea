@@ -1,6 +1,6 @@
 ---
 id: ELITEA-2356
-title: "Agent Hub — open agent detail modal"
+title: "Catalog — open agent detail modal"
 priority: medium
 type: functional
 module: agent-hub
@@ -13,11 +13,11 @@ automation_test_id:
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1220
 ---
 
-# ELITEA-2356: Agent Hub — open agent detail modal
+# ELITEA-2356: Catalog — open agent detail modal
 
 **Module:** agent-hub · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that Agent Hub — open agent detail modal. Success is confirmed when verify the "start conversation" button is visible at the bottom of the modal.
+**Objective:** Verify that Catalog — open agent detail modal. Success is confirmed when verify the "start conversation" button is visible at the bottom of the modal.
 
 ---
 
@@ -40,7 +40,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1220
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to Agent Hub | Target page/section loads successfully. |
+| 1 | Navigate to Catalog (the Agents tab is active) | Catalog loads on the Agents tab (selected). |
 | 2 | Click on any agent card (e.g., "User Story Creator") | Control responds; expected next state is shown. |
 | 3 | Verify the agent detail modal opens as an overlay | Condition holds as described. |
 | 4 | Verify the modal displays agent icon, agent name, owner name, liked status, copy link icon, "x" cutton and description | Condition holds as described. |
@@ -60,7 +60,7 @@ Verify the "Start conversation" button is visible at the bottom of the modal.
 
 **Pass:**
 - All steps complete without errors.
-- The condition described in the title holds: Agent Hub — open agent detail modal.
+- The condition described in the title holds: Catalog — open agent detail modal.
 
 **Fail:**
 - Any step produces an error or unexpected result.

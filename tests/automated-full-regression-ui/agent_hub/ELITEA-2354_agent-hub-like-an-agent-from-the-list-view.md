@@ -1,6 +1,6 @@
 ---
 id: ELITEA-2354
-title: "Agent Hub — like an agent from the list view"
+title: "Catalog — like an agent from the list view"
 priority: medium
 type: functional
 module: agent-hub
@@ -13,11 +13,11 @@ automation_test_id:
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1216
 ---
 
-# ELITEA-2354: Agent Hub — like an agent from the list view
+# ELITEA-2354: Catalog — like an agent from the list view
 
 **Module:** agent-hub · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that Agent Hub — like an agent from the list view. Success is confirmed when refresh the page and verify the updated like count persists.
+**Objective:** Verify that Catalog — like an agent from the list view. Success is confirmed when refresh the page and verify the updated like count persists.
 
 ---
 
@@ -40,7 +40,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1216
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to Agent Hub | Target page/section loads successfully. |
+| 1 | Navigate to Catalog (the Agents tab is active) | Catalog loads on the Agents tab (selected). |
 | 2 | Locate an agent card showing 0 likes (e.g., "AI Platform Design Advisor") | Action completes without error and produces the expected UI state. |
 | 3 | Click the heart icon on the agent card | Control responds; expected next state is shown. |
 | 4 | Verify the heart icon changes to a filled/active state | Condition holds as described. |
@@ -59,7 +59,7 @@ Refresh the page and verify the updated like count persists.
 
 **Pass:**
 - All steps complete without errors.
-- The condition described in the title holds: Agent Hub — like an agent from the list view.
+- The condition described in the title holds: Catalog — like an agent from the list view.
 
 **Fail:**
 - Any step produces an error or unexpected result.

@@ -1,6 +1,6 @@
 ---
 id: ELITEA-2359
-title: "Agent Hub — copy link from agent detail modal navigates to agent"
+title: "Catalog — copy link from agent detail modal navigates to agent"
 priority: medium
 type: functional
 module: agent-hub
@@ -13,11 +13,11 @@ automation_test_id:
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1421
 ---
 
-# ELITEA-2359: Agent Hub — copy link from agent detail modal navigates to agent
+# ELITEA-2359: Catalog — copy link from agent detail modal navigates to agent
 
 **Module:** agent-hub · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that Agent Hub — copy link from agent detail modal navigates to agent. Success is confirmed when verify all agent details (name, description, conversation starters, welcome message) are displayed correctly.
+**Objective:** Verify that Catalog — copy link from agent detail modal navigates to agent. Success is confirmed when verify all agent details (name, description, conversation starters, welcome message) are displayed correctly.
 
 ---
 
@@ -40,7 +40,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1421
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to Agent Hub | Target page/section loads successfully. |
+| 1 | Navigate to Catalog (the Agents tab is active) | Catalog loads on the Agents tab (selected). |
 | 2 | Click on any agent card to open the detail modal | Control responds; expected next state is shown. |
 | 3 | Click the link/copy icon button in the modal header | Control responds; expected next state is shown. |
 | 4 | Verify a success notification appears (e.g., "Link has been copied to the clipboard") | Condition holds as described. |
@@ -61,7 +61,7 @@ Verify all agent details (name, description, conversation starters, welcome mess
 
 **Pass:**
 - All steps complete without errors.
-- The condition described in the title holds: Agent Hub — copy link from agent detail modal navigates to agent.
+- The condition described in the title holds: Catalog — copy link from agent detail modal navigates to agent.
 
 **Fail:**
 - Any step produces an error or unexpected result.

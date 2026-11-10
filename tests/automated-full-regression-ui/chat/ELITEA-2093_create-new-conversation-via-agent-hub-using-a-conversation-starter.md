@@ -1,6 +1,6 @@
 ---
 id: ELITEA-2093
-title: "Create New Conversation via Agent HUB — Using a Conversation Starter"
+title: "Create New Conversation via Catalog — Using a Conversation Starter"
 priority: high
 type: functional
 module: chat-interface
@@ -10,11 +10,11 @@ tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
 
-# ELITEA-2093: Create New Conversation via Agent HUB — Using a Conversation Starter
+# ELITEA-2093: Create New Conversation via Catalog — Using a Conversation Starter
 
 **Module:** chat-interface · **Priority:** high · **Type:** functional
 
-**Objective:** Verify that selecting a conversation starter in the Agent HUB modal opens the chat with the starter text pre-populated and the agent responds correctly after sending.
+**Objective:** Verify that selecting a conversation starter in the Catalog modal opens the chat with the starter text pre-populated and the agent responds correctly after sending.
 
 ---
 
@@ -38,7 +38,7 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|--------------------|
-| 1 | Navigate to Agent HUB from the left sidebar | Agent HUB page opens |
+| 1 | Navigate to Catalog from the left sidebar | Catalog page opens |
 | 2 | Click on an agent card with predefined conversation starters (e.g. "Assistant for ELITEA Documentation") | Detail modal opens |
 | 3 | Verify CONVERSATION STARTERS section shows clickable starter buttons | Starter buttons visible |
 | 4 | Click the "Tell me about Elitea" starter button | Modal closes; Chat opens with agent pre-loaded |

@@ -23,7 +23,7 @@ requirements: [EliteaAI/elitea_issues#6368]
 - User is logged in to the Elitea platform in a Team project.
 - A conversation is open with:
   - 1 private agent added (e.g., "MyAgent")
-  - 1 public agent from Agent Hub added (e.g., "PublicBot")
+  - 1 public agent from Catalog added (e.g., "PublicBot")
   - 2 users as participants (e.g., "Alice", "Bob")
 
 ---
@@ -33,7 +33,7 @@ requirements: [EliteaAI/elitea_issues#6368]
 | Field | Value |
 |-------|-------|
 | Private Agent | "MyAgent" |
-| Public Agent | "PublicBot" (from Agent Hub) |
+| Public Agent | "PublicBot" (from Catalog) |
 | User 1 | "Alice" |
 | User 2 | "Bob" |
 
@@ -44,12 +44,12 @@ requirements: [EliteaAI/elitea_issues#6368]
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Verify PARTICIPANTS panel shows: MyAgent, PublicBot in AGENTS; Alice, Bob in USERS | All participants visible |
-| 2 | Type `#` in message input | "SEARCH RESULTS" dropdown appears showing ALL agents/pipelines including public ones from Agent Hub |
+| 2 | Type `#` in message input | "SEARCH RESULTS" dropdown appears showing ALL agents/pipelines including public ones from Catalog |
 | 3 | Verify "MyAgent" AND "PublicBot" are both visible in # dropdown | Both private and public agents shown |
 | 4 | Press ESC to close dropdown | Dropdown closes |
 | 5 | Type `&` in message input | Private participant dropdown appears |
 | 6 | Verify dropdown shows ONLY "MyAgent" | Only private agent shown |
-| 7 | Verify "PublicBot" is NOT shown in & dropdown | Public agent from Agent Hub is excluded |
+| 7 | Verify "PublicBot" is NOT shown in & dropdown | Public agent from Catalog is excluded |
 | 8 | Press ESC to close dropdown | Dropdown closes |
 | 9 | Type `+` in message input | User mention dropdown appears |
 | 10 | Verify dropdown shows ONLY users "Alice", "Bob" | Only users shown, NO agents |
@@ -60,7 +60,7 @@ requirements: [EliteaAI/elitea_issues#6368]
 ## Expected Final State
 
 Each trigger character shows the correct entity type:
-- `#` → ALL agents/pipelines (private + public from Agent Hub)
+- `#` → ALL agents/pipelines (private + public from Catalog)
 - `&` → ONLY private agents (excludes public)
 - `+` → ONLY users (excludes all agents)
 

@@ -1,6 +1,6 @@
 ---
 id: ELITEA-2367
-title: "Agent Hub — empty state when no agents match filter or search"
+title: "Catalog — empty state when no agents match filter or search"
 priority: high
 type: functional
 module: agent-hub
@@ -13,11 +13,11 @@ automation_test_id:
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1429
 ---
 
-# ELITEA-2367: Agent Hub — empty state when no agents match filter or search
+# ELITEA-2367: Catalog — empty state when no agents match filter or search
 
 **Module:** agent-hub · **Priority:** high · **Type:** functional
 
-**Objective:** Verify that Agent Hub — empty state when no agents match filter or search. Success is confirmed when verify the layout remains consistent with no broken ui elements.
+**Objective:** Verify that Catalog — empty state when no agents match filter or search. Success is confirmed when verify the layout remains consistent with no broken ui elements.
 
 ---
 
@@ -40,7 +40,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1429
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to Agent Hub | Target page/section loads successfully. |
+| 1 | Navigate to Catalog (the Agents tab is active) | Catalog loads on the Agents tab (selected). |
 | 2 | Apply a category filter that has no agents OR type a search term that matches no agents | Operation completes successfully; state updates and confirmation is shown. |
 | 3 | Verify the "No agents found" message is displayed in the main content area | Condition holds as described. |
 | 4 | Verify a helper message appears (e.g., "Try adjusting your search terms") | Condition holds as described. |
@@ -58,7 +58,7 @@ Verify the layout remains consistent with no broken UI elements.
 
 **Pass:**
 - All steps complete without errors.
-- The condition described in the title holds: Agent Hub — empty state when no agents match filter or search.
+- The condition described in the title holds: Catalog — empty state when no agents match filter or search.
 
 **Fail:**
 - Any step produces an error or unexpected result.

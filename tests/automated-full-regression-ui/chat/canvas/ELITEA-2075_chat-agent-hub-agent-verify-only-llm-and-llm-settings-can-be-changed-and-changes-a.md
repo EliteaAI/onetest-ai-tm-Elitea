@@ -1,6 +1,6 @@
 ---
 id: ELITEA-2075
-title: "Chat – Agent Hub Agent – Verify Only LLM and LLM Settings Can Be Changed and Changes Are Saved Per Conversation Only"
+title: "Chat – Catalog Agent – Verify Only LLM and LLM Settings Can Be Changed and Changes Are Saved Per Conversation Only"
 priority: high
 type: functional
 module: chat-interface
@@ -10,18 +10,18 @@ tags: [automated:UI:regression, feat:chat]
 requirements: []
 ---
 
-# ELITEA-2075: Chat – Agent Hub Agent – Verify Only LLM and LLM Settings Can Be Changed and Changes Are Saved Per Conversation Only
+# ELITEA-2075: Chat – Catalog Agent – Verify Only LLM and LLM Settings Can Be Changed and Changes Are Saved Per Conversation Only
 
 **Module:** chat-interface · **Priority:** high · **Type:** functional
 
-**Objective:** Verify that when opening an Agent Hub agent's settings canvas in a conversation, only the LLM model selector and LLM settings are editable, while all other sections (Instructions, Welcome Message, Tools, Skills) are read-only.
+**Objective:** Verify that when opening an Catalog agent's settings canvas in a conversation, only the LLM model selector and LLM settings are editable, while all other sections (Instructions, Welcome Message, Tools, Skills) are read-only.
 
 ---
 
 ## Preconditions
 
 - User is logged in to the Elitea platform.
-- Agent HUB is accessible from the left sidebar.
+- Catalog is accessible from the left sidebar.
 
 ---
 
@@ -39,7 +39,7 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|--------------------|
-| 1 | Navigate to Agent HUB from the left sidebar | Agent HUB page opens with categories |
+| 1 | Navigate to Catalog from the left sidebar | Catalog page opens with categories |
 | 2 | Locate the "Reflexion" agent and click on it | Agent preview modal opens |
 | 3 | Click the "Start conversation" button | New conversation is created; PARTICIPANTS panel shows "Reflexion v1.0" |
 | 4 | Click the "View settings" button next to the agent in PARTICIPANTS | Agent settings canvas opens showing "Reflexion v1.0" with "Public" label |
@@ -58,7 +58,7 @@ requirements: []
 
 ## Expected Final State
 
-Agent Hub agent's canvas allows LLM model and LLM settings changes only. Instructions and tools remain read-only. The new LLM is used for the conversation.
+Catalog agent's canvas allows LLM model and LLM settings changes only. Instructions and tools remain read-only. The new LLM is used for the conversation.
 
 ---
 
