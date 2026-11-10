@@ -137,7 +137,7 @@
     },
     {
       "id": "ELITEA-2350",
-      "title": "Agent Hub — page loads successfully for Private project",
+      "title": "Catalog — page loads successfully for Private project",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
@@ -160,7 +160,7 @@
     },
     {
       "id": "ELITEA-2351",
-      "title": "Agent Hub — page loads successfully for Team project",
+      "title": "Catalog — page loads successfully for Team project",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -181,7 +181,7 @@
     },
     {
       "id": "ELITEA-2352",
-      "title": "Agent Hub — filter agents by single category",
+      "title": "Catalog — filter agents by single category",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
@@ -204,7 +204,7 @@
     },
     {
       "id": "ELITEA-2353",
-      "title": "Agent Hub — filter agents by multiple categories simultaneously",
+      "title": "Catalog — filter agents by multiple categories simultaneously",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
@@ -227,7 +227,7 @@
     },
     {
       "id": "ELITEA-2354",
-      "title": "Agent Hub — like an agent from the list view",
+      "title": "Catalog — like an agent from the list view",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
@@ -250,7 +250,7 @@
     },
     {
       "id": "ELITEA-2355",
-      "title": "Agent Hub — unlike an agent from the list view",
+      "title": "Catalog — unlike an agent from the list view",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -271,7 +271,7 @@
     },
     {
       "id": "ELITEA-2356",
-      "title": "Agent Hub — open agent detail modal",
+      "title": "Catalog — open agent detail modal",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
@@ -294,7 +294,7 @@
     },
     {
       "id": "ELITEA-2357",
-      "title": "Agent Hub — close agent detail modal with X button",
+      "title": "Catalog — close agent detail modal with X button",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
@@ -317,7 +317,7 @@
     },
     {
       "id": "ELITEA-2358",
-      "title": "Agent Hub — like an agent from the expanded detail modal",
+      "title": "Catalog — like an agent from the expanded detail modal",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
@@ -340,7 +340,7 @@
     },
     {
       "id": "ELITEA-2359",
-      "title": "Agent Hub — copy link from agent detail modal navigates to agent",
+      "title": "Catalog — copy link from agent detail modal navigates to agent",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
@@ -363,7 +363,7 @@
     },
     {
       "id": "ELITEA-2360",
-      "title": "Agent Hub — start conversation creates new chat and redirects to Chat page",
+      "title": "Catalog — start conversation creates new chat and redirects to Chat page",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
@@ -386,7 +386,7 @@
     },
     {
       "id": "ELITEA-2361",
-      "title": "Agent Hub — started conversation has agent added as participant",
+      "title": "Catalog — started conversation has agent added as participant",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -407,7 +407,7 @@
     },
     {
       "id": "ELITEA-2362",
-      "title": "Agent Hub — agent chip visible in message input with version and settings",
+      "title": "Catalog — agent chip visible in message input with version and settings",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -428,7 +428,7 @@
     },
     {
       "id": "ELITEA-2363",
-      "title": "Agent Hub — search bar filters agents in real time",
+      "title": "Catalog — search bar filters agents in real time",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
@@ -451,7 +451,7 @@
     },
     {
       "id": "ELITEA-2364",
-      "title": "Agent Hub — My Liked filter shows only liked agents",
+      "title": "Catalog — My Liked filter shows only liked agents",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -472,7 +472,7 @@
     },
     {
       "id": "ELITEA-2366",
-      "title": "Agent Hub — Trending category displays agents",
+      "title": "Catalog — Trending category displays agents",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
@@ -495,7 +495,7 @@
     },
     {
       "id": "ELITEA-2367",
-      "title": "Agent Hub — empty state when no agents match filter or search",
+      "title": "Catalog — empty state when no agents match filter or search",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
@@ -518,7 +518,7 @@
     },
     {
       "id": "ELITEA-2368",
-      "title": "Agent Hub — E2E start conversation with agent that has no conversation starters, type and send message, receive reply",
+      "title": "Catalog — E2E start conversation with agent that has no conversation starters, type and send message, receive reply",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -539,7 +539,7 @@
     },
     {
       "id": "ELITEA-2369",
-      "title": "Agent Hub — E2E start conversation with agent that has conversation starters, use starter to send message, receive reply",
+      "title": "Catalog — E2E start conversation with agent that has conversation starters, use starter to send message, receive reply",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -3421,7 +3421,7 @@
     },
     {
       "id": "ELITEA-2092",
-      "title": "Create New Conversation via Agent HUB — Start Conversation (No Conversation Starters)",
+      "title": "Create New Conversation via Catalog — Start Conversation (No Conversation Starters)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -3442,7 +3442,7 @@
     },
     {
       "id": "ELITEA-2093",
-      "title": "Create New Conversation via Agent HUB — Using a Conversation Starter",
+      "title": "Create New Conversation via Catalog — Using a Conversation Starter",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -6771,7 +6771,7 @@
     },
     {
       "id": "ELITEA-2075",
-      "title": "Chat – Agent Hub Agent – Verify Only LLM and LLM Settings Can Be Changed and Changes Are Saved Per Conversation Only",
+      "title": "Chat – Catalog Agent – Verify Only LLM and LLM Settings Can Be Changed and Changes Are Saved Per Conversation Only",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
