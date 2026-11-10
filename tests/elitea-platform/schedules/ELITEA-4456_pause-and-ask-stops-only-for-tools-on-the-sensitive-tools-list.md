@@ -22,6 +22,7 @@ Chat (not scheduled) sensitive-tool approval is covered by `sensitive-tool-calli
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-agent-artifact.agent.md`](../../../test-data/schedules/qa-sch-agent-artifact.agent.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - Admin Portal access (platform admin): Configuration → **Guardrails** → **Sensitive Action Tools**.
 - A team project **P**; the tester is the schedule owner.
 - An agent **AG** with a **GitHub** toolkit **GH** ("My GitHub") on a test repository. AG's instructions make it call `get_issue` for prompt A and `create_pull_request` for prompt B.

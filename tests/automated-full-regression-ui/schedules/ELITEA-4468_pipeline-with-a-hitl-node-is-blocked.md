@@ -20,6 +20,7 @@ requirements: ["EliteaAI/elitea_issues#7304"]
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-pipeline-human-steps.pipeline.md`](../../../test-data/schedules/qa-sch-pipeline-human-steps.pipeline.md), [`qa-sch-agent-artifact.agent.md`](../../../test-data/schedules/qa-sch-agent-artifact.agent.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - A pipeline with a **HITL** node (created by API) and a schedule for it.
 - An agent with a missing credential and a "Pause and ask me" schedule (as in ELITEA-4465).
 

@@ -20,6 +20,7 @@ requirements: ["EliteaAI/elitea_issues#7304"]
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-agent-ask-user.agent.md`](../../../test-data/schedules/qa-sch-agent-ask-user.agent.md), [`qa-sch-pipeline-human-steps.pipeline.md`](../../../test-data/schedules/qa-sch-pipeline-human-steps.pipeline.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - A team project **P**; the tester owns the schedules.
 - A pipeline **PL-H** with a **HITL** node, a pipeline **PL-P** with a **Printer** node, an agent **AG-Q** with the internal tool **ask_user** on, and a plain agent **AG**.
 - A way to use up the owner's budget (low user or project budget in Admin Portal).

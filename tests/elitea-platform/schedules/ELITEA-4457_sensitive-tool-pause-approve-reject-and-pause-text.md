@@ -22,6 +22,7 @@ requirements: ["EliteaAI/elitea_issues#7304", "EliteaAI/elitea_issues#7314", "El
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-agent-artifact.agent.md`](../../../test-data/schedules/qa-sch-agent-artifact.agent.md), [`qa-sch-pipeline-basic.pipeline.md`](../../../test-data/schedules/qa-sch-pipeline-basic.pipeline.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - Sensitive Action Tools: `{"artifact": ["create_file"], "github": ["create_pull_request"]}`.
 - Agent **AG** with an Artifact toolkit **ART** and a GitHub toolkit **GH**; a "Pause and ask me" schedule owned by the tester.
 - A pipeline **PL** with a tool node that calls `create_file` through ART, and its own "Pause and ask me" schedule.

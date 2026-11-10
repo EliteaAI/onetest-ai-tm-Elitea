@@ -20,6 +20,7 @@ requirements: ["EliteaAI/elitea_issues#7338", "EliteaAI/elitea_issues#7011", "El
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-agent-basic.agent.md`](../../../test-data/schedules/qa-sch-agent-basic.agent.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - A schedule **S** for agent **AG** with several runs: a cron run (Success), a Run Now (Manual, Failed), a run Awaiting approval, a Skipped run (cron overlap), and runs of two versions.
 - A test run of AG (ELITEA-4482).
 

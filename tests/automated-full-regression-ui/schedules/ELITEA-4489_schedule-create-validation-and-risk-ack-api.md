@@ -20,6 +20,7 @@ requirements: ["EliteaAI/elitea_issues#7011"]
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-agent-artifact.agent.md`](../../../test-data/schedules/qa-sch-agent-artifact.agent.md), [`qa-sch-agent-basic.agent.md`](../../../test-data/schedules/qa-sch-agent-basic.agent.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - An editor or admin JWT for a team project.
 - Agent **A** (default version **VA**) with a toolkit that has a listed sensitive tool; agent **B** with version **VB**.
 - Base body: `{name, entity_type: "agent", application_id: A, version_id: VA, prompt, cron: "0 3 1 1 *", timezone: "Asia/Yerevan", enabled: false, approval_rule: "pause_and_ask"}` sent to `POST /api/v2/elitea_core/schedules/prompt_lib/{project}`.

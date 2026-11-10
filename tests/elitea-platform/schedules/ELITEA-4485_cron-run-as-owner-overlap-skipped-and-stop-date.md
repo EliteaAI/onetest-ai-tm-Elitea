@@ -20,6 +20,7 @@ requirements: ["EliteaAI/elitea_issues#7011", "EliteaAI/elitea_issues#7435"]
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-agent-artifact.agent.md`](../../../test-data/schedules/qa-sch-agent-artifact.agent.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - An agent **AG** with a working model and a toolkit with a listed sensitive tool (e.g. Artifact `list_indexes`).
 - The tester owns the schedules. The project scheduler flags are on (Admin → Configuration → Runtime).
 

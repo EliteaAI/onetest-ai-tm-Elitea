@@ -20,6 +20,7 @@ requirements: ["EliteaAI/elitea_issues#7338", "EliteaAI/elitea_issues#7011"]
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-agent-basic.agent.md`](../../../test-data/schedules/qa-sch-agent-basic.agent.md), [`qa-sch-agent-artifact.agent.md`](../../../test-data/schedules/qa-sch-agent-artifact.agent.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - An agent **AG** whose model works, with no sensitive tool; a **paused** schedule **S** for AG owned by the tester.
 - A second user who is not S's owner (project admin), for step 7.
 
@@ -49,7 +50,7 @@ requirements: ["EliteaAI/elitea_issues#7338", "EliteaAI/elitea_issues#7011"]
 | 11 | Change the prompt (still unsaved) and Test Run after the first ends. | The new run uses the changed prompt. |
 | 12 | Save the form. | The action in the Runs header becomes **Run Now**. The saved schedule has no Last run from the test runs. |
 | 13 | Run History for AG, filter **Trigger type = Test**. | The test runs are listed as Test. |
-| 14 | Open a test run's chat. | **Record**: it is named "Manual run: <agent>" and stored as manual (`execution_type: schedule_manual`), so a reader can't tell it was a test. |
+| 14 | Open a test run's chat. | Named "Manual run: <agent>" (a test run is a real run of the form, not a dry run; accepted). Only the Runs panel and Run History mark it **Test**. |
 | 15 | Test Run an agent with a sensitive tool. | It always pauses for approval (a test run is never auto-approved) and is decided on the form's waiting card. |
 
 ---
@@ -68,4 +69,3 @@ S is still paused with an unchanged Next run; the new schedule is saved with no 
 **Fail:**
 - Run Now changes Next run or activates S; a Test Run saves or activates a schedule, or changes its Last run.
 
-Step 14 is recorded (test runs are not marked in the chat).

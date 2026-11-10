@@ -22,6 +22,7 @@ Known bugs covered: [#7421](https://github.com/EliteaAI/elitea_issues/issues/742
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-agent-basic.agent.md`](../../../test-data/schedules/qa-sch-agent-basic.agent.md), [`qa-sch-pipeline-basic.pipeline.md`](../../../test-data/schedules/qa-sch-pipeline-basic.pipeline.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - A team project **P** with a project admin **ADM**, an editor **ED** and a viewer **VW**.
 - In P, at least: 2 agent schedules and 2 pipeline schedules owned by ADM, 1 schedule owned by ED, one of ADM's schedules **paused**, and schedules whose last run is Success, Failed and Awaiting approval.
 

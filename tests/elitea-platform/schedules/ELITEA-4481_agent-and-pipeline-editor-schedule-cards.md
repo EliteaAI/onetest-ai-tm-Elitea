@@ -20,6 +20,7 @@ requirements: ["EliteaAI/elitea_issues#7011", "EliteaAI/elitea_issues#7338", "El
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-agent-basic.agent.md`](../../../test-data/schedules/qa-sch-agent-basic.agent.md), [`qa-sch-pipeline-basic.pipeline.md`](../../../test-data/schedules/qa-sch-pipeline-basic.pipeline.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - An agent **AG** with 2 schedules owned by the tester (one Active, one Paused) and 1 schedule owned by another user.
 - A pipeline **PL** with 1 schedule.
 - The tester is a project admin (for step 9, also an editor).
