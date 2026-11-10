@@ -24,6 +24,7 @@ requirements: ["EliteaAI/elitea_issues#7304"]
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-agent-artifact.agent.md`](../../../test-data/schedules/qa-sch-agent-artifact.agent.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - Admin Portal access (platform admin).
 - A "Pause and ask me" schedule whose run pauses (sensitive tool, ELITEA-4457), owned by the tester.
 

@@ -20,6 +20,7 @@ requirements: ["EliteaAI/elitea_issues#7011", "EliteaAI/elitea_issues#7338"]
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-agent-basic.agent.md`](../../../test-data/schedules/qa-sch-agent-basic.agent.md), [`qa-sch-agent-artifact.agent.md`](../../../test-data/schedules/qa-sch-agent-artifact.agent.md), [`qa-sch-pipeline-basic.pipeline.md`](../../../test-data/schedules/qa-sch-pipeline-basic.pipeline.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - A team project **P**; the tester is an editor or admin.
 - An agent **AG** with two versions (**base** and **v2**), no sensitive tools.
 - An agent **AG-S** whose toolkit has a tool on the Sensitive Action Tools list (e.g. Artifact `create_file`).
@@ -62,7 +63,7 @@ requirements: ["EliteaAI/elitea_issues#7011", "EliteaAI/elitea_issues#7338"]
 |---|--------|-----------------|
 | 11 | New schedule for **AG-S**, Save. | **Review risks before scheduling** lists 'Tool "create_file" of toolkit "<name>" needs approval' with badge and effect. Confirm → saved. |
 | 12 | Open the saved AG-S schedule. | **Save is disabled** until a field changes; reverting the change disables it again. |
-| 13 | Change only the **description** and Save. | **Record**: the review asks again with the same tools. On 2.0.8 it asks on every edit under "Pause and ask me" (consent is not kept for that rule). |
+| 13 | Change only the **description** and Save. | The review asks again with the same tools: under "Pause and ask me" every save of a schedule with sensitive tools shows the review (accepted behaviour). Confirm → saved. |
 | 14 | Try to change the **enabled** state from the form. | Not possible in the form; use Active / Paused (API returns "enabled cannot be changed by an edit; use the pause or resume action"). |
 
 ### Part C: from an agent / pipeline editor
@@ -91,4 +92,3 @@ Two valid schedules exist (AG and AG-S); every invalid input was refused with a 
 - An invalid cron, timezone, stop date or version is saved.
 - The form opened from an editor lets the entity change.
 
-Step 13 is recorded for the product owner.

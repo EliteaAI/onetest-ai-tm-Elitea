@@ -20,6 +20,7 @@ requirements: ["EliteaAI/elitea_issues#7338", "EliteaAI/elitea_issues#7011"]
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-agent-basic.agent.md`](../../../test-data/schedules/qa-sch-agent-basic.agent.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - A **paused** schedule **S** owned by the caller for agent **A** (working model).
 - A second user who is project admin but not S's owner.
 

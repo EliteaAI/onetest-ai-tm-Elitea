@@ -20,6 +20,7 @@ requirements: ["EliteaAI/elitea_issues#7304"]
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-pipeline-basic.pipeline.md`](../../../test-data/schedules/qa-sch-pipeline-basic.pipeline.md), [`qa-sch-pipeline-human-steps.pipeline.md`](../../../test-data/schedules/qa-sch-pipeline-human-steps.pipeline.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - A team project **P**; the tester owns the schedules ("Pause and ask me").
 - Pipeline **PL-E** (run mode **Entry point**) with a node using a toolkit that needs a sign-in (or a sensitive tool).
 - Pipeline **PL-PAR** with a parallel step whose branch calls a listed sensitive tool.

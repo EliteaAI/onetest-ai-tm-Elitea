@@ -22,6 +22,7 @@ requirements: ["EliteaAI/elitea_issues#7011", "EliteaAI/elitea_issues#7421"]
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-agent-basic.agent.md`](../../../test-data/schedules/qa-sch-agent-basic.agent.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - A schedule **S** with cron `*/5 * * * *`, Active, owned by the tester; other active and paused schedules in the project.
 
 ---

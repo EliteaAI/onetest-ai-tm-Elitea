@@ -20,6 +20,7 @@ requirements: ["EliteaAI/elitea_issues#7011"]
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-agent-basic.agent.md`](../../../test-data/schedules/qa-sch-agent-basic.agent.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - A project admin **ADM** and an editor **ED**; agent **AG** with versions **base** and **v2**; schedules on both versions.
 - Settings → General: the "Get notified" switch for schedule success notices.
 

@@ -14,12 +14,13 @@ requirements: ["EliteaAI/elitea_issues#7338", "EliteaAI/elitea_issues#7435"]
 
 **Module:** schedules · **Priority:** high · **Type:** regression
 
-**Objective:** Regression of the filters behind Run History and the Schedules page (#7338), verified on stage2 on 2026-11-05. Includes the open gap that the Schedules list doesn't validate `status`. Manual source: ELITEA-4483, ELITEA-4479.
+**Objective:** Regression of the filters behind Run History and the Schedules page (#7338), verified on stage2 on 2026-11-05. The Schedules list accepts any `status` value (the UI only sends valid ones). Manual source: ELITEA-4483, ELITEA-4479.
 
 ---
 
 ## Preconditions
 
+- **Test data:** import [`qa-sch-pipeline-basic.pipeline.md`](../../../test-data/schedules/qa-sch-pipeline-basic.pipeline.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - A pipeline **PL** with a schedule **S** that has manual and test runs, one Awaiting approval, of version **V**.
 
 ---
@@ -32,7 +33,7 @@ requirements: ["EliteaAI/elitea_issues#7338", "EliteaAI/elitea_issues#7435"]
 | 2 | Same with `status=waiting_for_approval`, `schedule_id=S`, `version_id=V`. | 200; matching rows only. |
 | 3 | Same with `trigger=bogus`, `status=bogus`, `schedule_id=abc`. | 400 "trigger is not a valid value" / "status is not a valid value" / "schedule_id must be an integer". |
 | 4 | `GET …/schedules/…/S/runs?status=bogus` and `?trigger=schedule_test`. | 400 listing the allowed values (`running, success, failed, skipped, blocked, waiting_for_approval` / `cron, manual, test`). |
-| 5 | `GET …/schedules/prompt_lib/{project}?status=bogus`. | **Expected 400** like step 4. **Today (2026-11-05): 200 with 0 rows** (no validation). |
+| 5 | `GET …/schedules/prompt_lib/{project}?status=bogus`. | 200 with 0 rows (the list does not validate `status`; the UI offers only valid values — accepted). |
 | 6 | `GET …/schedules/prompt_lib/{project}?status=running` while a run of S is active, and after a cron tick was skipped meanwhile. | S is listed (#7435; fix on main, not in 2.0.8). |
 
 ---
