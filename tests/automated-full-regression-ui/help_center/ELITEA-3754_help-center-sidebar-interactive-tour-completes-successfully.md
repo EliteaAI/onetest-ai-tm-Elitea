@@ -40,7 +40,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1163
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to Help Center and click "Sidebar Interactive Tour" | Target page/section loads successfully. |
+| 1 | Open Help Center via the "?" icon at the bottom of the left sidebar (next to Support Bot) and start the Sidebar Interactive Tour (the Interactive Tours card currently shows no links; the tour is started via the `?tour=sidebar` link) | Help Center opens; the sidebar tour starts. |
 | 2 | Verify the tour starts at step 1/17 | Condition holds as described. |
 | 3 | Click the "Next" button | Control responds; expected next state is shown. |
 | 4 | Verify the tour advances to step 2/17 and the highlighted sidebar element changes accordingly and Back button becomes active and coloured accordingly | Condition holds as described. |
