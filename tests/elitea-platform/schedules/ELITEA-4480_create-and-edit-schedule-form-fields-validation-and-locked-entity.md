@@ -20,7 +20,7 @@ requirements: ["EliteaAI/elitea_issues#7011", "EliteaAI/elitea_issues#7338"]
 
 ## Preconditions
 
-- **Test data:** import [`qa-sch-agent-basic.agent.md`](../../../test-data/schedules/qa-sch-agent-basic.agent.md), [`qa-sch-agent-artifact.agent.md`](../../../test-data/schedules/qa-sch-agent-artifact.agent.md), [`qa-sch-pipeline-basic.pipeline.md`](../../../test-data/schedules/qa-sch-pipeline-basic.pipeline.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
+- **Test data:** import [`qa-sch-agent-basic.agent.md`](../../../test-data/schedules/qa-sch-agent-basic.agent.md), [`qa-sch-agent-basic.vars.agent.md`](../../../test-data/schedules/qa-sch-agent-basic.vars.agent.md), [`qa-sch-agent-artifact.agent.md`](../../../test-data/schedules/qa-sch-agent-artifact.agent.md), [`qa-sch-pipeline-basic.pipeline.md`](../../../test-data/schedules/qa-sch-pipeline-basic.pipeline.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - A team project **P**; the tester is an editor or admin.
 - An agent **AG** with two versions (**base** and **v2**), no sensitive tools.
 - An agent **AG-S** whose toolkit has a tool on the Sensitive Action Tools list (e.g. Artifact `create_file`).

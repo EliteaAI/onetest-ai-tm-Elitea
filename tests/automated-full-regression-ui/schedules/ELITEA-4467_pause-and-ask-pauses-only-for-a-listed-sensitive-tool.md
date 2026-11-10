@@ -20,7 +20,7 @@ requirements: ["EliteaAI/elitea_issues#7314", "EliteaAI/elitea_issues#7304", "El
 
 ## Preconditions
 
-- **Test data:** import [`qa-sch-agent-artifact.agent.md`](../../../test-data/schedules/qa-sch-agent-artifact.agent.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
+- **Test data:** import [`qa-sch-agent-artifact.agent.md`](../../../test-data/schedules/qa-sch-agent-artifact.agent.md), [`qa-sch-agent-artifact.non-sensitive.agent.md`](../../../test-data/schedules/qa-sch-agent-artifact.non-sensitive.agent.md) (see [test-data/schedules/README.md](../../../test-data/schedules/README.md) for the extra versions and environment setup).
 - Sensitive Action Tools (Admin Portal → Configuration → Guardrails) contains `{"artifact": ["create_file"]}` and no other Artifact tool.
 - An agent with an Artifact toolkit; instructions: prompt A lists the bucket's files, prompt B creates a file.
 - Two "Pause and ask me" schedules: SA with prompt A, SB with prompt B.
