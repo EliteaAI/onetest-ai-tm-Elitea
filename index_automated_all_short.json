@@ -1541,6 +1541,31 @@
       "path": "tests/automated-full-regression-ui/chat/canvas/ELITEA-2089_chat-edit-agent-in-canvas-mode-verify-changes-synchronize-to-agent.md"
     },
     {
+      "id": "ELITEA-4472",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4472_export-ui-exact-text-and-successful-download.md"
+    },
+    {
+      "id": "ELITEA-4473",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4473_import-modal-exact-text-and-round-trip-with-message-count.md"
+    },
+    {
+      "id": "ELITEA-4474",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4474_export-import-access-control-bug-7165-fix.md"
+    },
+    {
+      "id": "ELITEA-4475",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4475_missing-attachment-exact-text-bug-7208-fix.md"
+    },
+    {
+      "id": "ELITEA-4476",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4476_ai-participant-relinking-and-cross-user-author-display-bug-7427-fix.md"
+    },
+    {
       "id": "ELITEA-1962",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/credentials/ELITEA-1962_create-credential.md"
@@ -3029,6 +3054,51 @@
       "id": "ELITEA-3835",
       "priority": "medium",
       "path": "tests/automated-full-regression-ui/settings/analytics/skills-analytics/ELITEA-3835_search-functionality-updated-terminology.md"
+    },
+    {
+      "id": "ELITEA-4587",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4587_regression-full-create-backup-ui-walkthrough-section-text-mo.md"
+    },
+    {
+      "id": "ELITEA-4588",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4588_regression-full-restore-ui-walkthrough-opening-the-modal-sel.md"
+    },
+    {
+      "id": "ELITEA-4589",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4589_regression-selecting-do-not-restore-chats-on-a-chats-include.md"
+    },
+    {
+      "id": "ELITEA-4590",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4590_regression-backing-up-with-attachments-when-a-referenced-fil.md"
+    },
+    {
+      "id": "ELITEA-4591",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4591_regression-merge-mode-restore-skips-an-already-existing-chat.md"
+    },
+    {
+      "id": "ELITEA-4592",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4592_regression-restore-all-chats-with-attachments-uploads-a-work.md"
+    },
+    {
+      "id": "ELITEA-4593",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4593_regression-cross-project-restore-is-gated-behind-the-foreign.md"
+    },
+    {
+      "id": "ELITEA-4594",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4594_regression-a-private-chat-restores-correctly-for-its-own-own.md"
+    },
+    {
+      "id": "ELITEA-4595",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4595_regression-viewer-has-no-backuprestore-access-editor-can-onl.md"
     },
     {
       "id": "ELITEA-4066",
