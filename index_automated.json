@@ -7085,6 +7085,152 @@
       "path": "tests/automated-full-regression-ui/chat/canvas/ELITEA-2089_chat-edit-agent-in-canvas-mode-verify-changes-synchronize-to-agent.md"
     },
     {
+      "id": "ELITEA-4472",
+      "title": "Export menu/modal show exact specified text and successfully produce a downloadable export",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "chat-export",
+        "regression",
+        "issue:6903",
+        "p0"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6903"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4472_export-ui-exact-text-and-successful-download.md"
+    },
+    {
+      "id": "ELITEA-4473",
+      "title": "Import modal shows exact specified text and a full round trip reproduces the exact message count/order/content",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "chat-import",
+        "regression",
+        "e2e",
+        "issue:6904",
+        "p0"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6904"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4473_import-modal-exact-text-and-round-trip-with-message-count.md"
+    },
+    {
+      "id": "ELITEA-4474",
+      "title": "Export visibility-based access and Import's role-based permission both hold (bug #7165 fix)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "chat-export",
+        "chat-import",
+        "permissions",
+        "regression",
+        "issue:6903",
+        "issue:6904",
+        "issue:7165",
+        "p0"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6903",
+        "EliteaAI/elitea_issues#6904",
+        "EliteaAI/elitea_issues#7165"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4474_export-import-access-control-bug-7165-fix.md"
+    },
+    {
+      "id": "ELITEA-4475",
+      "title": "Export's missing-file count/toast and Import's exact placeholder text remain correct (bug #7208 fix)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "chat-export",
+        "chat-import",
+        "regression",
+        "bugfix",
+        "issue:6903",
+        "issue:6904",
+        "issue:7208",
+        "p0"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6903",
+        "EliteaAI/elitea_issues#6904",
+        "EliteaAI/elitea_issues#7208"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4475_missing-attachment-exact-text-bug-7208-fix.md"
+    },
+    {
+      "id": "ELITEA-4476",
+      "title": "All 7 AI participant types re-link on import, including Catalog/Toolkit/MCP (bug #7427 fix); cross-user author display is preserved",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "chat-import",
+        "regression",
+        "cross-account",
+        "issue:6904",
+        "issue:7427",
+        "p1"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6904",
+        "EliteaAI/elitea_issues#7427"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4476_ai-participant-relinking-and-cross-user-author-display-bug-7427-fix.md"
+    },
+    {
       "id": "ELITEA-1962",
       "title": "Credential CRUD Journey",
       "status": "draft",

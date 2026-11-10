@@ -1541,6 +1541,31 @@
       "path": "tests/automated-full-regression-ui/chat/canvas/ELITEA-2089_chat-edit-agent-in-canvas-mode-verify-changes-synchronize-to-agent.md"
     },
     {
+      "id": "ELITEA-4472",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4472_export-ui-exact-text-and-successful-download.md"
+    },
+    {
+      "id": "ELITEA-4473",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4473_import-modal-exact-text-and-round-trip-with-message-count.md"
+    },
+    {
+      "id": "ELITEA-4474",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4474_export-import-access-control-bug-7165-fix.md"
+    },
+    {
+      "id": "ELITEA-4475",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4475_missing-attachment-exact-text-bug-7208-fix.md"
+    },
+    {
+      "id": "ELITEA-4476",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4476_ai-participant-relinking-and-cross-user-author-display-bug-7427-fix.md"
+    },
+    {
       "id": "ELITEA-1962",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/credentials/ELITEA-1962_create-credential.md"
