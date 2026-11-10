@@ -3056,6 +3056,51 @@
       "path": "tests/automated-full-regression-ui/settings/analytics/skills-analytics/ELITEA-3835_search-functionality-updated-terminology.md"
     },
     {
+      "id": "ELITEA-4619",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4619_regression-full-create-backup-ui-walkthrough-section-text-mo.md"
+    },
+    {
+      "id": "ELITEA-4620",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4620_regression-full-restore-ui-walkthrough-opening-the-modal-sel.md"
+    },
+    {
+      "id": "ELITEA-4621",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4621_regression-selecting-do-not-restore-chats-on-a-chats-include.md"
+    },
+    {
+      "id": "ELITEA-4622",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4622_regression-backing-up-with-attachments-when-a-referenced-fil.md"
+    },
+    {
+      "id": "ELITEA-4623",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4623_regression-merge-mode-restore-skips-an-already-existing-chat.md"
+    },
+    {
+      "id": "ELITEA-4624",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4624_regression-restore-all-chats-with-attachments-uploads-a-work.md"
+    },
+    {
+      "id": "ELITEA-4625",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4625_regression-cross-project-restore-is-gated-behind-the-foreign.md"
+    },
+    {
+      "id": "ELITEA-4626",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4626_regression-a-private-chat-restores-correctly-for-its-own-own.md"
+    },
+    {
+      "id": "ELITEA-4627",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4627_regression-viewer-has-no-backuprestore-access-editor-can-onl.md"
+    },
+    {
       "id": "ELITEA-4066",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4066_project-theme-applies-admin-custom-colors-without-reload.md"
