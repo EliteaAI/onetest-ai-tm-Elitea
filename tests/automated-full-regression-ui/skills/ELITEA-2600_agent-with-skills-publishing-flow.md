@@ -52,7 +52,7 @@ requirements: []
 | 4 | Create an Agent and attach all three skills to it | Agent is created with 3 skills listed as attached |
 | 5 | Open the Agent publish wizard | Publish wizard opens |
 | 6 | Complete the publishing process for the agent | Agent is published successfully |
-| 7 | Navigate to the Agent Hub/Catalog | Published agent appears in the catalog |
+| 7 | Navigate to the Catalog | Published agent appears in the catalog |
 | 8 | Search for the individual skills in the Skills Catalog | Skills are NOT listed as independent entities (they are embedded in agent snapshot) |
 | 9 | Open the published agent from the Catalog | Agent details page loads |
 | 10 | Start a conversation with the published agent | Chat interface opens |

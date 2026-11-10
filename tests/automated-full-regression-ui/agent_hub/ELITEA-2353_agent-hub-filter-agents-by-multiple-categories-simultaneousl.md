@@ -1,6 +1,6 @@
 ---
 id: ELITEA-2353
-title: "Agent Hub — filter agents by multiple categories simultaneously"
+title: "Catalog — filter agents by multiple categories simultaneously"
 priority: high
 type: functional
 module: agent-hub
@@ -13,11 +13,11 @@ automation_test_id:
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1439
 ---
 
-# ELITEA-2353: Agent Hub — filter agents by multiple categories simultaneously
+# ELITEA-2353: Catalog — filter agents by multiple categories simultaneously
 
 **Module:** agent-hub · **Priority:** high · **Type:** functional
 
-**Objective:** Verify that Agent Hub — filter agents by multiple categories simultaneously. Success is confirmed when verify section headers "business analyst" and "elitea" both appear one after another with "reload category items" icon next to each of them.
+**Objective:** Verify that Catalog — filter agents by multiple categories simultaneously. Success is confirmed when verify section headers "business analyst" and "elitea" both appear one after another with "reload category items" icon next to each of them.
 
 ---
 
@@ -40,7 +40,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1439
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to Agent Hub | Target page/section loads successfully. |
+| 1 | Navigate to Catalog (the Agents tab is active) | Catalog loads on the Agents tab (selected). |
 | 2 | Click on "Business Analyst" category filter tab | Control responds; expected next state is shown. |
 | 3 | Click on "Elitea" category filter tab while Business Analyst remains selected | Control responds; expected next state is shown. |
 | 4 | Verify both tabs are highlighted/active simultaneously | Condition holds as described. |
@@ -59,7 +59,7 @@ Verify section headers "Business Analyst" and "Elitea" both appear one after ano
 
 **Pass:**
 - All steps complete without errors.
-- The condition described in the title holds: Agent Hub — filter agents by multiple categories simultaneously.
+- The condition described in the title holds: Catalog — filter agents by multiple categories simultaneously.
 
 **Fail:**
 - Any step produces an error or unexpected result.

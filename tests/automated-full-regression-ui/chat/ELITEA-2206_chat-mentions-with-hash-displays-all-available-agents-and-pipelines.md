@@ -40,7 +40,7 @@ requirements: []
 | 1 | Open a conversation and type '#' in the message input | 'SEARCH RESULTS' dropdown appears |
 | 2 | Verify agents shown with 'Agent' subtitle and agent icons | Agent items visible |
 | 3 | Verify pipelines shown with 'Pipeline' subtitle and pipeline icons | Pipeline items visible |
-| 4 | Verify list includes agents from current project and Agent Hub | All sources represented |
+| 4 | Verify list includes agents from current project and Catalog | All sources represented |
 | 5 | Press elsewhere to close dropdown | Dropdown closes |
 
 ---

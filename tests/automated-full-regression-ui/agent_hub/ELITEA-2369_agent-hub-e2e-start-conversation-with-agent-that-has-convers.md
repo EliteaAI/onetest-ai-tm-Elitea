@@ -1,6 +1,6 @@
 ---
 id: ELITEA-2369
-title: "Agent Hub — E2E start conversation with agent that has conversation starters, use starter to send message, receive reply"
+title: "Catalog — E2E start conversation with agent that has conversation starters, use starter to send message, receive reply"
 priority: medium
 type: functional
 module: agent-hub
@@ -10,11 +10,11 @@ tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
 ---
 
-# ELITEA-2369: Agent Hub — E2E start conversation with agent that has conversation starters, use starter to send message, receive reply
+# ELITEA-2369: Catalog — E2E start conversation with agent that has conversation starters, use starter to send message, receive reply
 
 **Module:** agent-hub · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that Agent Hub — E2E start conversation with agent that has conversation starters, use starter to send message, receive reply. Success is confirmed when verify the agent begins processing (e.g., "thought for x secs" indicator is shown) and tools used are visible.
+**Objective:** Verify that Catalog — E2E start conversation with agent that has conversation starters, use starter to send message, receive reply. Success is confirmed when verify the agent begins processing (e.g., "thought for x secs" indicator is shown) and tools used are visible.
 
 ---
 
@@ -37,7 +37,7 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to Agent Hub | Target page/section loads successfully. |
+| 1 | Navigate to Catalog (the Agents tab is active) | Catalog loads on the Agents tab (selected). |
 | 2 | Click on an agent card that has predefined conversation starters (e.g., "API Testing Buddy") | Control responds; expected next state is shown. |
 | 3 | Verify the detail modal opens displaying agent name and description | Condition holds as described. |
 | 4 | Verify the "CONVERSATION STARTERS" section displays multiple predefined starter options | Condition holds as described. |
@@ -66,7 +66,7 @@ Verify the agent begins processing (e.g., "Thought for X secs" indicator is show
 
 **Pass:**
 - All steps complete without errors.
-- The condition described in the title holds: Agent Hub — E2E start conversation with agent that has conversation starters, use starter to send message, receive reply.
+- The condition described in the title holds: Catalog — E2E start conversation with agent that has conversation starters, use starter to send message, receive reply.
 
 **Fail:**
 - Any step produces an error or unexpected result.

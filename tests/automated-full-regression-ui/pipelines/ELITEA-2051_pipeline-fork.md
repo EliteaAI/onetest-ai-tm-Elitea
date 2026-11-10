@@ -24,7 +24,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1931
 ## Preconditions
 
 - User is logged in to the Elitea platform.
-- A pipeline from a different project is accessible (e.g., via Agent HUB or shared link).
+- A pipeline from a different project is accessible (e.g., via Catalog or shared link).
 
 ---
 
@@ -40,7 +40,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1931
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to a pipeline from a different project (e.g., via Agent HUB or shared link) | Pipeline from another project is displayed |
+| 1 | Navigate to a pipeline from a different project (e.g., via Catalog or shared link) | Pipeline from another project is displayed |
 | 2 | Click three-dot menu → "Fork" | Fork modal opens |
 | 3 | Verify a fork modal opens and fork parameters are displaying | Fork modal shows project selection and fork options |
 | 4 | Select a target project (e.g., private project) and click "Fork" | Fork request is submitted |

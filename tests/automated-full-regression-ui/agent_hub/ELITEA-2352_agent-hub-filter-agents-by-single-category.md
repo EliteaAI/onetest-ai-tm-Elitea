@@ -1,6 +1,6 @@
 ---
 id: ELITEA-2352
-title: "Agent Hub — filter agents by single category"
+title: "Catalog — filter agents by single category"
 priority: medium
 type: functional
 module: agent-hub
@@ -13,11 +13,11 @@ automation_test_id:
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1214
 ---
 
-# ELITEA-2352: Agent Hub — filter agents by single category
+# ELITEA-2352: Catalog — filter agents by single category
 
 **Module:** agent-hub · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that Agent Hub — filter agents by single category. Success is confirmed when verify the section header "business analyst" appears above the results with "reload category items" icon next to it.
+**Objective:** Verify that Catalog — filter agents by single category. Success is confirmed when verify the section header "business analyst" appears above the results with "reload category items" icon next to it.
 
 ---
 
@@ -40,7 +40,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1214
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to Agent Hub | Target page/section loads successfully. |
+| 1 | Navigate to Catalog and confirm the Agents tab is active (not Skills) | Catalog loads on the Agents tab (selected). |
 | 2 | Click on "Business Analyst" category filter tab | Control responds; expected next state is shown. |
 | 3 | Verify the selected tab is highlighted/active | Condition holds as described. |
 | 4 | Verify only Business Analyst agents are displayed (e.g., AI Platform Design Advisor, User Story Creator, Business Analyst) | Condition holds as described. |
@@ -58,7 +58,7 @@ Verify the section header "Business Analyst" appears above the results with "rel
 
 **Pass:**
 - All steps complete without errors.
-- The condition described in the title holds: Agent Hub — filter agents by single category.
+- The condition described in the title holds: Catalog — filter agents by single category.
 
 **Fail:**
 - Any step produces an error or unexpected result.

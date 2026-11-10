@@ -1,6 +1,6 @@
 ---
 id: ELITEA-2366
-title: "Agent Hub — Trending category displays agents"
+title: "Catalog — Trending category displays agents"
 priority: medium
 type: functional
 module: agent-hub
@@ -13,11 +13,11 @@ automation_test_id:
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1429
 ---
 
-# ELITEA-2366: Agent Hub — Trending category displays agents
+# ELITEA-2366: Catalog — Trending category displays agents
 
 **Module:** agent-hub · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that Agent Hub — Trending category displays agents. Success is confirmed when verify the section header "trending" appears above the results with "reload the category items" next to it.
+**Objective:** Verify that Catalog — Trending category displays agents. Success is confirmed when verify the section header "trending" appears above the results with "reload the category items" next to it.
 
 ---
 
@@ -40,7 +40,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1429
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to Agent Hub | Target page/section loads successfully. |
+| 1 | Navigate to Catalog (the Agents tab is active) | Catalog loads on the Agents tab (selected). |
 | 2 | Click the "Trending" category filter tab | Control responds; expected next state is shown. |
 | 3 | Verify the tab is highlighted/active | Condition holds as described. |
 | 4 | Verify agents are displayed under the Trending section | Condition holds as described. |
@@ -58,7 +58,7 @@ Verify the section header "Trending" appears above the results with "Reload the 
 
 **Pass:**
 - All steps complete without errors.
-- The condition described in the title holds: Agent Hub — Trending category displays agents.
+- The condition described in the title holds: Catalog — Trending category displays agents.
 
 **Fail:**
 - Any step produces an error or unexpected result.

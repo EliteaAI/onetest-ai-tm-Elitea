@@ -1,6 +1,6 @@
 ---
 id: ELITEA-2364
-title: "Agent Hub — My Liked filter shows only liked agents"
+title: "Catalog — My Liked filter shows only liked agents"
 priority: medium
 type: functional
 module: agent-hub
@@ -10,11 +10,11 @@ tags: [automated:UI:regression, feat:agent-hub]
 requirements: []
 ---
 
-# ELITEA-2364: Agent Hub — My Liked filter shows only liked agents
+# ELITEA-2364: Catalog — My Liked filter shows only liked agents
 
 **Module:** agent-hub · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that Agent Hub — My Liked filter shows only liked agents. Success is confirmed when unlike an agent while in the my liked view and verify it is removed from the list.
+**Objective:** Verify that Catalog — My Liked filter shows only liked agents. Success is confirmed when unlike an agent while in the my liked view and verify it is removed from the list.
 
 ---
 
@@ -37,7 +37,7 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to Agent Hub | Target page/section loads successfully. |
+| 1 | Navigate to Catalog (the Agents tab is active) | Catalog loads on the Agents tab (selected). |
 | 2 | Like at least one agent from the list | Action completes without error and produces the expected UI state. |
 | 3 | Click the "My Liked" category filter tab | Control responds; expected next state is shown. |
 | 4 | Verify only agents liked by the current user are displayed | Condition holds as described. |
@@ -55,7 +55,7 @@ Unlike an agent while in the My Liked view and verify it is removed from the lis
 
 **Pass:**
 - All steps complete without errors.
-- The condition described in the title holds: Agent Hub — My Liked filter shows only liked agents.
+- The condition described in the title holds: Catalog — My Liked filter shows only liked agents.
 
 **Fail:**
 - Any step produces an error or unexpected result.
