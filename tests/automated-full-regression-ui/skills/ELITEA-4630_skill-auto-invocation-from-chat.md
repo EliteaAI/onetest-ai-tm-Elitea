@@ -4,8 +4,11 @@ title: "ELITEA-4630: Skill Auto-Invocation from Chat Based on User Intent"
 priority: critical
 type: regression
 module: chat-skills-integration
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_chat_skill_auto_invocation_by_intent.TestChatSkillAutoInvocationByIntent.test_skill_auto_invocation_by_intent
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/a984c4bcf084ea8142f1ac959fc8fb3378c76b3a
 tags: [automated:UI:regression, feat:chat, feat:skills, auto-invocation, metadata-matching]
 requirements: [EliteaAI/elitea_issues#7126]
 ---
