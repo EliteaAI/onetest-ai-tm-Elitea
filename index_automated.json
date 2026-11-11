@@ -18214,8 +18214,8 @@
     {
       "id": "ELITEA-4632",
       "title": "ELITEA-4632: Navigate to Skill Run Analytics and Verify Cost Accuracy",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "regression",
       "priority": "critical",
       "size": "",
@@ -18231,7 +18231,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#6928"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_run_analytics_costs.TestSkillRunAnalytics.test_skill_run_analytics_costs_accuracy"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
