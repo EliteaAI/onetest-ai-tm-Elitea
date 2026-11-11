@@ -18298,8 +18298,8 @@
     {
       "id": "ELITEA-4635",
       "title": "ELITEA-4635: Test Skill from Editor via Test Skill Button and Verify Execution",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "regression",
       "priority": "critical",
       "size": "",
@@ -18314,7 +18314,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#6922"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_editor_test_button_execution.TestSkillEditorTestButtonExecution.test_test_skill_button_opens_panel_and_executes_skill"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
