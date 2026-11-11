@@ -17,7 +17,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1356
 
 **Module:** pipelines · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that all canvas control panel buttons (Zoom In, Zoom Out, Fit View, Toggle Interactivity, Toggle cards size, Auto-arrange) function correctly.
+**Objective:** Verify that all canvas control panel buttons (Zoom In, Zoom Out, Fit View, Lock/Unlock, Arrange, Minimap) function correctly.
 
 ---
 
@@ -41,19 +41,19 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1356
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Open a pipeline with nodes in Flow view | Pipeline canvas is displayed |
-| 2 | Locate the Control Panel at bottom-right of canvas with buttons: Zoom In, Zoom Out, Fit View, Toggle Interactivity, Toggle cards size, Auto-arrange | All control panel buttons are visible |
+| 2 | Locate the Control Panel on the canvas with buttons: Zoom In, Zoom Out, Fit View, Lock/Unlock, Arrange, Minimap | All 6 control panel buttons are visible |
 | 3 | Click "Zoom In" — verify canvas zooms in | Canvas zoom level increases |
 | 4 | Click "Zoom Out" — verify canvas zooms out | Canvas zoom level decreases |
 | 5 | Click "Fit View" — verify all nodes fit within viewport | All nodes are visible within the canvas viewport |
-| 6 | Click "Toggle Interactivity" — verify nodes become non-draggable (or re-enable) | Node dragging behavior toggles |
-| 7 | Click "Toggle cards size" — verify node cards change between compact/expanded view | Node card size changes |
-| 8 | Click "Auto-arrange" — verify nodes reposition to an auto-arranged layout | Nodes are repositioned in an organized layout |
+| 6 | Click "Lock canvas" (tooltip changes to "Unlock canvas"), try to drag a node, then click "Unlock canvas" and drag again | While locked, nodes cannot be dragged or connected (pan and zoom still work); after unlocking, node dragging works again |
+| 7 | Click "Arrange" — the menu offers "Arrange top to bottom" and "Arrange left to right" (current orientation is checked); pick an orientation | Nodes are repositioned in an organized layout for the chosen orientation; a node dragged away returns to its arranged position when the same orientation is picked again |
+| 8 | Click "Show minimap", then "Hide minimap" | The minimap appears at the bottom-right of the canvas, then disappears |
 
 ---
 
 ## Expected Final State
 
-All canvas control panel buttons function correctly: Zoom In/Out adjust zoom level, Fit View shows all nodes, Toggle Interactivity locks/unlocks dragging, Toggle cards size changes node card appearance, Auto-arrange repositions nodes.
+All canvas control panel buttons function correctly: Zoom In/Out adjust zoom level, Fit View shows all nodes, Lock/Unlock blocks and restores node dragging, Arrange repositions nodes by the chosen orientation, Minimap shows and hides the minimap.
 
 ---
 
