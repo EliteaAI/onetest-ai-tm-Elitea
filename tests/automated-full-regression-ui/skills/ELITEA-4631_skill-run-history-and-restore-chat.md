@@ -4,8 +4,11 @@ title: "ELITEA-4631: Skill Run History Page Display and Restore Chat from Histor
 priority: critical
 type: regression
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.skills.test_skill_run_history_restore_chat.TestSkillRunHistory.test_skill_run_history_display_and_restore_chat
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/57ec42bf913166045920ee611bda98abb8373475
 tags: [automated:UI:regression, feat:skills, run-history, chat-restore]
 requirements: [EliteaAI/elitea_issues#6927]
 ---
