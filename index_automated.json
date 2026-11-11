@@ -18270,8 +18270,8 @@
     {
       "id": "ELITEA-4634",
       "title": "ELITEA-4634: Run Own Skill from Skills Page and Verify Message Exchange",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "regression",
       "priority": "critical",
       "size": "",
@@ -18287,7 +18287,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#6922"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.skills.test_own_skill_run_message_exchange.TestOwnSkillRunMessageExchange.test_run_own_skill_and_exchange_message"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
