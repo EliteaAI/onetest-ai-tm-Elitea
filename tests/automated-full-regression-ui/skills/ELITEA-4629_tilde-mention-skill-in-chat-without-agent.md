@@ -4,8 +4,11 @@ title: "ELITEA-4629: Tilde Mention Skill in Chat Without Agent Participant"
 priority: critical
 type: regression
 module: chat/skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_chat_tilde_mention_skill_without_agent.TestChatTildeMentionSkillWithoutAgent.test_tilde_mention_skill_without_agent
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/9cb13b3047ebf01332375da1371b68fe343a7a8b
 tags: [automated:UI:regression, feat:skills, feat:chat, tilde-invocation]
 requirements: [EliteaAI/elitea_issues#6924]
 ---
