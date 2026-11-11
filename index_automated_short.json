@@ -1480,6 +1480,12 @@
       ]
     },
     {
+      "id": "ELITEA-4635",
+      "automation_test_id": [
+        "tests.ui.skills.test_skill_editor_test_button_execution.TestSkillEditorTestButtonExecution.test_test_skill_button_opens_panel_and_executes_skill"
+      ]
+    },
+    {
       "id": "ELITEA-1999",
       "automation_test_id": [
         "tests.ui.agents.test_build_with_ai_skill_from_agent.TestBuildWithAISkillFromAgent.test_build_with_ai_skill_auto_attaches_and_redirects_to_agent"
