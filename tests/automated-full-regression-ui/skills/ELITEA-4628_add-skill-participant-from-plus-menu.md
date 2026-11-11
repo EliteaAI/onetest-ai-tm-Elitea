@@ -1,6 +1,6 @@
 ---
 id: ELITEA-4628
-title: "ELITEA-4628: Add Skill Participant from Plus Menu (My Skills & Catalog)"
+title: "ELITEA-4628: Add Skill Participant from Plus Menu in Chat"
 priority: critical
 type: regression
 module: chat/skills
@@ -9,69 +9,77 @@ execution_type: manual
 tags: [automated:UI:regression, feat:skills, feat:chat-participants, skills-as-participants]
 requirements: [EliteaAI/elitea_issues#6924]
 ---
-# ELITEA-4628: Add Skill Participant from Plus Menu (My Skills & Catalog)
+# ELITEA-4628: Add Skill Participant from Plus Menu in Chat
 
 **Module:** Chat / Skills · **Priority:** Critical · **Type:** Regression
 
-**Objective:** Verify that skills can be successfully added as chat participants from the "+" menu, with both "My skills" and "Catalog" sections displaying correctly, and skills appearing in the PARTICIPANTS panel with version badges.
+**Objective:** Verify that skills can be successfully added as chat participants from the "+" menu, including both user's own skills and catalog skills, and that they appear correctly in the PARTICIPANTS panel with version badges.
 
 **Coverage:**
-- Plus menu shows Skills option
-- My skills section displays user's own skills
-- Catalog section displays public skills with badge
-- Skill added to PARTICIPANTS panel with version
-- Version badge displays correctly
+- Plus menu displays Skills option with searchable dropdown
+- User can search and select skills from the list
+- Both "My skills" and "Catalog" skills are available in the dropdown
+- Skills added as participants appear in PARTICIPANTS → SKILLS section
+- Catalog skills display "Catalog" badge
+- Version badges display correctly
 
 ## Preconditions
 
 - User is logged into {{base_url}}
-- User has at least one skill published in "My skills"
-- Catalog has at least one published skill available
+- User has at least one own skill available (e.g., "jira-skill")
+- Catalog has at least one published skill available (e.g., "code-reviewer")
 - User has created or opened a chat session
 
 ## Test Data
 
-| Skill Source | Example Skill | Expected Availability |
-|--------------|---------------|----------------------|
-| My skills | User's own skill (e.g., "jira-skill") | All versions available |
-| Catalog | Public catalog skill (e.g., "animal-joke") | Published versions only |
+| Skill Type | Example Skill | Expected Badge |
+|------------|---------------|----------------|
+| User's own skill | jira-skill | Version badge (e.g., "v1.0") |
+| Catalog skill | code-reviewer | "Catalog" + version badge |
 
 ## Steps
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Open a chat session on {{base_url}} | Chat interface loads successfully |
-| 2 | Click the "+" button in the chat interface | Dropdown menu appears with "Skills" option visible |
-| 3 | Hover over or click "Skills" in the dropdown menu | Submenu expands showing two sections: "My skills" and "Catalog" |
-| 4 | Verify "My skills" section lists user's own skills | User's skills are displayed (e.g., "jira-skill") |
-| 5 | Verify "Catalog" section lists public catalog skills with "Catalog" badge | Catalog skills are displayed with visible "Catalog" badge (e.g., "animal-joke") |
-| 6 | Click a skill from "My skills" | Skill is added to the chat |
-| 7 | Verify the skill appears in the PARTICIPANTS panel on the right side | Skill participant appears in PARTICIPANTS panel with name and version badge (e.g., "jira-skill" with "base" version) |
-| 8 | Click the "+" button again and select a skill from "Catalog" section | Catalog skill is added to chat |
-| 9 | Verify Catalog skill appears in PARTICIPANTS panel with version badge | Catalog skill appears with version badge and "Catalog" indicator |
+| 2 | Click the "+" button in the chat interface | Dropdown menu appears showing options: Attach Files, Modules, Agents, Pipelines, Skills, Toolkits, MCPs, Invite Users |
+| 3 | Click on "Skills" option | Submenu opens with search field "Search skills..." and list of available skills |
+| 4 | Observe the skills list | Both user's own skills (e.g., "code-task-breakdown") and catalog skills (e.g., "code-reviewer", "bug-report-generator") appear in the list |
+| 5 | Identify catalog skills in the list | Catalog skills display "Catalog" badge next to their names |
+| 6 | Click on a user's own skill (e.g., "code-task-breakdown") | Skill is selected |
+| 7 | Verify skill appears in PARTICIPANTS panel | In the right panel under PARTICIPANTS → SKILLS section, the skill appears with name and version badge |
+| 8 | Click "+" button again and select Skills | Skills menu opens again |
+| 9 | Click on a catalog skill (e.g., "code-reviewer" with "Catalog" badge) | Catalog skill is selected |
+| 10 | Verify catalog skill appears in PARTICIPANTS panel | In PARTICIPANTS → SKILLS section, catalog skill appears with name, "Catalog" badge, and version (e.g., "code-r... Catalog v1.0") |
+| 11 | Verify both skills are listed in PARTICIPANTS → SKILLS | Both user's own skill and catalog skill are visible in the SKILLS section with their respective badges |
 
 ## Expected Final State
 
-- Both "My skills" and "Catalog" skills can be successfully added as participants
-- Skills appear in PARTICIPANTS panel with correct name and version badge
-- "+" menu displays skills organized under "My skills" and "Catalog" sections
-- Catalog skills show "Catalog" badge in both menu and participants panel
+- Both user's own skills and catalog skills can be added as participants via "+" menu
+- Skills appear in PARTICIPANTS panel under SKILLS section
+- Catalog skills display "Catalog" badge in both dropdown menu and PARTICIPANTS panel
+- Version badges display correctly for all skills
+- Chat is ready to interact with added skill participants
 
 ## Pass/Fail Criteria
 
 **Pass:**
-- Skills from both sources can be added successfully
-- PARTICIPANTS panel shows all added skills with version badges
-- "+" menu displays correct skill organization and badges
+- "+" menu displays Skills option with searchable dropdown
+- Both user's own skills and catalog skills appear in the list
+- Catalog skills show "Catalog" badge in dropdown
+- Selected skills appear in PARTICIPANTS → SKILLS section
+- Catalog badge and version badges display correctly in PARTICIPANTS panel
+- Multiple skills can be added to the same chat
 
 **Fail:**
-- "+" menu doesn't show Skills option
-- My skills or Catalog section is missing or empty
-- Skills don't appear in PARTICIPANTS panel after adding
-- Version badges are missing or incorrect
+- Skills option missing from "+" menu
+- Skills list doesn't show available skills
+- Catalog badge missing on catalog skills
+- Skills don't appear in PARTICIPANTS panel after selection
+- Version or catalog badges missing or incorrect
 
 ## Notes
 
 **Source functional tests:** ELITEA-4269
-**Regression rationale:** Critical UI workflow for adding skills to chat; covers both user-owned and catalog skill sources.
-**Selected checkpoints:** Menu navigation, skill addition from both sources, participant panel display with versions.
+**Regression rationale:** Critical UI workflow for adding skills to chat via + menu; validates skill discovery, selection, and participant display for both user-owned and catalog skills.
+**Selected checkpoints:** Menu navigation, skill search/selection, participant panel display with badges for both skill types.
