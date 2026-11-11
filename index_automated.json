@@ -18032,6 +18032,210 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-4257_usage-attribution-to-user-project.md"
     },
     {
+      "id": "ELITEA-4628",
+      "title": "ELITEA-4628: Add Skill Participant from Plus Menu in Chat",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "chat/skills",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills",
+        "feat:chat-participants",
+        "skills-as-participants"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6924"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4628_add-skill-participant-from-plus-menu.md"
+    },
+    {
+      "id": "ELITEA-4629",
+      "title": "ELITEA-4629: Tilde Mention Skill in Chat Without Agent Participant",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "chat/skills",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills",
+        "feat:chat",
+        "tilde-invocation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6924"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4629_tilde-mention-skill-in-chat-without-agent.md"
+    },
+    {
+      "id": "ELITEA-4630",
+      "title": "ELITEA-4630: Skill Auto-Invocation from Chat Based on User Intent",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-skills-integration",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "feat:skills",
+        "auto-invocation",
+        "metadata-matching"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7126"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4630_skill-auto-invocation-from-chat.md"
+    },
+    {
+      "id": "ELITEA-4631",
+      "title": "ELITEA-4631: Skill Run History Page Display and Restore Chat from History",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills",
+        "run-history",
+        "chat-restore"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6927"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4631_skill-run-history-and-restore-chat.md"
+    },
+    {
+      "id": "ELITEA-4632",
+      "title": "ELITEA-4632: Navigate to Skill Run Analytics and Verify Cost Accuracy",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills/analytics",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills",
+        "analytics",
+        "cost-tracking",
+        "data-reconciliation"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6928"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4632_skill-run-analytics-cost-accuracy.md"
+    },
+    {
+      "id": "ELITEA-4633",
+      "title": "ELITEA-4633: Run Skill from Catalog Skills Page and Verify Message Exchange",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills/catalog",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills",
+        "catalog",
+        "skill-run",
+        "chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4633_run-skill-from-catalog-skills-page.md"
+    },
+    {
+      "id": "ELITEA-4634",
+      "title": "ELITEA-4634: Run Own Skill from Skills Page and Verify Message Exchange",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills",
+        "skill-run",
+        "chat",
+        "my-skills"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4634_run-own-skill-from-skills-page.md"
+    },
+    {
+      "id": "ELITEA-4635",
+      "title": "ELITEA-4635: Test Skill from Editor via Test Skill Button and Verify Execution",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:skills",
+        "test-panel",
+        "skill-execution"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6922"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4635_test-skill-from-editor-interaction-panel.md"
+    },
+    {
       "id": "ELITEA-1986",
       "title": "Build with AI — Access Control (Role-Based Visibility)",
       "status": "draft",

@@ -3951,6 +3951,46 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-4257_usage-attribution-to-user-project.md"
     },
     {
+      "id": "ELITEA-4628",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4628_add-skill-participant-from-plus-menu.md"
+    },
+    {
+      "id": "ELITEA-4629",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4629_tilde-mention-skill-in-chat-without-agent.md"
+    },
+    {
+      "id": "ELITEA-4630",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4630_skill-auto-invocation-from-chat.md"
+    },
+    {
+      "id": "ELITEA-4631",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4631_skill-run-history-and-restore-chat.md"
+    },
+    {
+      "id": "ELITEA-4632",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4632_skill-run-analytics-cost-accuracy.md"
+    },
+    {
+      "id": "ELITEA-4633",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4633_run-skill-from-catalog-skills-page.md"
+    },
+    {
+      "id": "ELITEA-4634",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4634_run-own-skill-from-skills-page.md"
+    },
+    {
+      "id": "ELITEA-4635",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4635_test-skill-from-editor-interaction-panel.md"
+    },
+    {
       "id": "ELITEA-1986",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1986_access-control-role-based-visibility.md"
