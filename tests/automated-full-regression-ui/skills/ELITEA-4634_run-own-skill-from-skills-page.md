@@ -4,8 +4,11 @@ title: "ELITEA-4634: Run Own Skill from Skills Page and Verify Message Exchange"
 priority: critical
 type: regression
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.skills.test_own_skill_run_message_exchange.TestOwnSkillRunMessageExchange.test_run_own_skill_and_exchange_message
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/9d375cedb4e1c02cc8feb2fd3c8b7e903ea0d46b
 tags: [automated:UI:regression, feat:skills, skill-run, chat, my-skills]
 requirements: [EliteaAI/elitea_issues#6922]
 ---
