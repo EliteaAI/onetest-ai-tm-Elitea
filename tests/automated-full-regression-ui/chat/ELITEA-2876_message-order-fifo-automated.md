@@ -36,6 +36,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/6f2c0bc1
 
 - User is logged in to the Elitea platform.
 - Chat interface is accessible.
+- Settings → General → "Mid-turn input" toggle is enabled for the project.
 
 ---
 
@@ -53,14 +54,14 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/6f2c0bc1
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Login and start long-running agent task | Agent starts processing |
+| 1 | Login, verify Settings → General → "Mid-turn input" toggle is enabled (enable it if off), then start a long-running agent task | Toggle is on; agent starts processing |
 | 2 | Queue message A rapidly | Message A appears in queue |
 | 3 | Queue message B rapidly | Message B appears in queue |
 | 4 | Queue message C rapidly | Message C appears in queue |
 | 5 | Verify queue count shows 3 | Queue indicator displays "Waiting messages · 3" |
 | 6 | Wait for all messages to process | All three messages receive responses sequentially |
 | 7 | Assert processing order matches send order | Messages processed in order: A → B → C |
-| 8 | Verify each message has exactly one response | Each message has exactly one corresponding response |
+| 8 | Verify each message has exactly one response | The main request gets 1 response and each of the 3 queued messages gets its own response (1 + 3 responses, strictly in queue order) |
 
 ---
 
