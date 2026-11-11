@@ -14638,9 +14638,11 @@
       "tags": [
         "feat:settings",
         "feat:modules",
+        "feat:web-search",
         "eng:frontend",
         "eng:automation",
         "issue:6122",
+        "issue:6980",
         "r-2.0.6"
       ],
       "requirements": [
