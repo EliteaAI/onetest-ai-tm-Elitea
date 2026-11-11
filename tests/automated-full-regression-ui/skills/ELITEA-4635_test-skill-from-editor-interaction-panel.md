@@ -4,8 +4,11 @@ title: "ELITEA-4635: Test Skill from Editor via Test Skill Button and Verify Exe
 priority: critical
 type: regression
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.skills.test_skill_editor_test_button_execution.TestSkillEditorTestButtonExecution.test_test_skill_button_opens_panel_and_executes_skill
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/9e4121eb1b8a27ae0e896857e4238f1294a24ad6
 tags: [automated:UI:regression, feat:skills, test-panel, skill-execution]
 requirements: [EliteaAI/elitea_issues#6922]
 ---
