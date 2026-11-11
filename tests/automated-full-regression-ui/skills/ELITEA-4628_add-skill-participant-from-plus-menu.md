@@ -4,8 +4,11 @@ title: "ELITEA-4628: Add Skill Participant from Plus Menu in Chat"
 priority: critical
 type: regression
 module: chat/skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_chat_add_skill_participant_plus_menu.TestChatAddSkillParticipant.test_add_own_and_catalog_skill_participants
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/60d36b5ab7b78b8d3dcc03b71c4face110845094
 tags: [automated:UI:regression, feat:skills, feat:chat-participants, skills-as-participants]
 requirements: [EliteaAI/elitea_issues#6924]
 ---
