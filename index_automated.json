@@ -13071,6 +13071,29 @@
       "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-4204_test-connection-stateless-unsaved-values-no-persistence.md"
     },
     {
+      "id": "ELITEA-4657",
+      "title": "Test Connection result reflects the latest form state, not a stale in-flight request, when Model Name and DIAL API Protocol are both changed while a prior test is still pending",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "ai-configuration",
+      "owner": "",
+      "tags": [
+        "feat:settings",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6793"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-4657_test-connection-reflects-latest-form-state-during-in-flight-request-race.md"
+    },
+    {
       "id": "ELITEA-2311",
       "title": "Overview tab displays all six KPI cards with correct labels and non-empty values",
       "status": "draft",
@@ -14244,6 +14267,29 @@
       "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4627_regression-viewer-has-no-backuprestore-access-editor-can-onl.md"
     },
     {
+      "id": "ELITEA-4656",
+      "title": "Delete Project Data section renders correctly at the bottom of Settings General with accurate counts, present tooltip, and correct confirmation-gating (UI-only, no deletion performed)",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "bulk-delete",
+      "owner": "",
+      "tags": [
+        "feat:settings",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7189"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/bulk-delete/ELITEA-4656_delete-project-data-ui-only-counts-tooltip-select-all-indeterminate-confirmation-gating.md"
+    },
+    {
       "id": "ELITEA-4066",
       "title": "Project theme applies admin-configured custom colors immediately without page reload",
       "status": "ready",
@@ -14711,6 +14757,31 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/settings/default-modules/ELITEA-2653_entity-overrides-do-not-affect-project-defaults.md"
+    },
+    {
+      "id": "ELITEA-4655",
+      "title": "Web Search Default Modules row is present with tooltip, and the Chats default toggle correctly propagates to a new chat and triggers a real web search",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "default-modules",
+      "owner": "",
+      "tags": [
+        "feat:settings",
+        "feat:modules",
+        "feat:chat",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#6982"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/settings/default-modules/ELITEA-4655_web-search-default-modules-tooltip-and-chat-inheritance-triggers-search.md"
     },
     {
       "id": "ELITEA-2671",
@@ -18240,6 +18311,29 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/skills/ELITEA-4635_test-skill-from-editor-interaction-panel.md"
+    },
+    {
+      "id": "ELITEA-4658",
+      "title": "Frontmatter name rename propagates Skill-wide via valid delimiters, then a damaged closing delimiter demotes a later edit to plain body text that does not sync or rename",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.8"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7125"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4658_frontmatter-name-rename-propagates-then-damaged-delimiter-demotes-edit-to-plain-text.md"
     },
     {
       "id": "ELITEA-1986",

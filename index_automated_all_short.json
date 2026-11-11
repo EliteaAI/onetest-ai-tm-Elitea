@@ -2856,6 +2856,11 @@
       "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-4204_test-connection-stateless-unsaved-values-no-persistence.md"
     },
     {
+      "id": "ELITEA-4657",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/ai-configuration/ELITEA-4657_test-connection-reflects-latest-form-state-during-in-flight-request-race.md"
+    },
+    {
       "id": "ELITEA-2311",
       "priority": "medium",
       "path": "tests/automated-full-regression-ui/settings/analytics/ELITEA-2311_overview-tab-displays-all-six-kpi-cards-with-correct-labels.md"
@@ -3101,6 +3106,11 @@
       "path": "tests/automated-full-regression-ui/settings/backup-restore/ELITEA-4627_regression-viewer-has-no-backuprestore-access-editor-can-onl.md"
     },
     {
+      "id": "ELITEA-4656",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/bulk-delete/ELITEA-4656_delete-project-data-ui-only-counts-tooltip-select-all-indeterminate-confirmation-gating.md"
+    },
+    {
       "id": "ELITEA-4066",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/settings/custom-theme/ELITEA-4066_project-theme-applies-admin-custom-colors-without-reload.md"
@@ -3199,6 +3209,11 @@
       "id": "ELITEA-2653",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/settings/default-modules/ELITEA-2653_entity-overrides-do-not-affect-project-defaults.md"
+    },
+    {
+      "id": "ELITEA-4655",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/settings/default-modules/ELITEA-4655_web-search-default-modules-tooltip-and-chat-inheritance-triggers-search.md"
     },
     {
       "id": "ELITEA-2671",
@@ -3989,6 +4004,11 @@
       "id": "ELITEA-4635",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/skills/ELITEA-4635_test-skill-from-editor-interaction-panel.md"
+    },
+    {
+      "id": "ELITEA-4658",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4658_frontmatter-name-rename-propagates-then-damaged-delimiter-demotes-edit-to-plain-text.md"
     },
     {
       "id": "ELITEA-1986",
