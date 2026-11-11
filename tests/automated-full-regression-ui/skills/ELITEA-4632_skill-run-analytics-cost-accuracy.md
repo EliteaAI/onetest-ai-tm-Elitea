@@ -4,8 +4,11 @@ title: "ELITEA-4632: Navigate to Skill Run Analytics and Verify Cost Accuracy"
 priority: critical
 type: regression
 module: skills/analytics
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.skills.test_skill_run_analytics_costs.TestSkillRunAnalytics.test_skill_run_analytics_costs_accuracy
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/0f9e4a4b12208a906dd780c785a92253d94addc2
 tags: [automated:UI:regression, feat:skills, analytics, cost-tracking, data-reconciliation]
 requirements: [EliteaAI/elitea_issues#6928]
 ---
