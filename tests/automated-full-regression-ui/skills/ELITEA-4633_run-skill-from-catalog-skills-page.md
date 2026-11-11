@@ -4,8 +4,11 @@ title: "ELITEA-4633: Run Skill from Catalog Skills Page and Verify Message Excha
 priority: critical
 type: regression
 module: skills/catalog
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.skills.test_catalog_skill_run_message_exchange.TestCatalogSkillRunMessageExchange.test_run_catalog_skill_and_exchange_message
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/fa7be60a088d62dfcc6b67f66961f4df71906801
 tags: [automated:UI:regression, feat:skills, catalog, skill-run, chat]
 requirements: [EliteaAI/elitea_issues#6922]
 ---
