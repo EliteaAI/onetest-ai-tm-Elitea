@@ -1,6 +1,6 @@
 ---
 id: ELITEA-1955
-title: "MCP Integration in Pipeline — MCP Node Without Tool Attached First"
+title: "MCP Integration in Pipeline — Select MCP Directly in Node (Auto-Attach)"
 priority: medium
 type: functional
 module: pipelines
@@ -9,21 +9,21 @@ execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id: tests.ui.pipelines_2.test_pipeline_mcp_node_empty_toolkit_before_attach.test_mcp_node_empty_toolkit_before_attach
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1921
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/4ae2f6894fa99a89b4809cf41c7b2be685c66e64
 ---
 
-# ELITEA-1955: MCP Integration in Pipeline — MCP Node Without Tool Attached First
+# ELITEA-1955: MCP Integration in Pipeline — Select MCP Directly in Node (Auto-Attach)
 
 **Module:** pipelines · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that an MCP node added before attaching an MCP tool shows an empty Toolkit dropdown, and that after attaching an MCP the toolkit becomes available and the node can be configured and saved.
+**Objective:** Verify that the MCP node's picker always lists the project's MCPs (even when nothing is attached in TOOLS), and that picking an MCP directly in the node attaches it to the pipeline automatically, after which the node can be configured and saved.
 
 ---
 
 ## Preconditions
 
 - User is logged in to the Elitea platform.
-- A Remote MCP (e.g., "Web Search") is available in the project.
+- At least one MCP exists in the project (e.g., "Web Search"); otherwise the picker shows "No MCPs in this project yet".
 
 ---
 
@@ -31,7 +31,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1921
 
 | Field | Value |
 |-------|-------|
-| MCP to attach | Web Search |
+| MCP to pick | Web Search (any known project MCP) |
 
 ---
 
@@ -39,24 +39,21 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1921
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Create a new pipeline | Pipeline canvas loads |
-| 2 | Do NOT attach any MCP in the TOOLS section | TOOLS section has no MCP |
-| 3 | Click "Add node" and select "MCP" | MCP node is added to the canvas |
-| 4 | Click on the MCP node to open configuration | Configuration panel opens |
-| 5 | Click "Toolkit" dropdown | Dropdown opens |
-| 6 | Verify dropdown is empty or shows message indicating no MCP tools are attached | Dropdown is empty or shows appropriate message |
-| 7 | Go back to left panel TOOLS section and click "+ MCP" | MCP selection appears |
-| 8 | Attach a Remote MCP (e.g., "Web Search") | MCP is attached in TOOLS section |
-| 9 | Click on MCP node again — open "Toolkit" dropdown | Dropdown opens |
-| 10 | Verify newly attached MCP now appears in the dropdown | "Web Search" is listed in the dropdown |
-| 11 | Select it and configure a tool | Tool is selected |
-| 12 | Save pipeline — verify configuration persists | Pipeline is saved and configuration is correct |
+| 1 | Create a new pipeline | Pipeline canvas loads; nothing is attached in the left TOOLS section |
+| 2 | Add an MCP node | MCP node is added to the canvas |
+| 3 | Open the node's MCP picker | Picker opens |
+| 4 | Inspect the picker | A search textbox, a "Create new" option and a non-empty scrollable list of the project's MCPs are shown |
+| 5 | Type a known MCP name (e.g., "Web Search") into the search box | The list is filtered to matching MCPs |
+| 6 | Select the MCP from the filtered results | The MCP is selected |
+| 7 | Check the node | The MCP is the node's selected value |
+| 8 | Expand the left TOOLS section | The same MCP appears there automatically (auto-attach), without clicking "+ MCP" |
+| 9 | Select a tool and fill its input mapping, save the pipeline, reload — verify configuration persists | Tool and input mapping are saved and still present after reload |
 
 ---
 
 ## Expected Final State
 
-The MCP node is configured with a Toolkit and Tool, and the pipeline is saved successfully.
+The MCP node is configured with an MCP and Tool, the MCP is attached in TOOLS, and the pipeline is saved successfully.
 
 ---
 
@@ -64,8 +61,8 @@ The MCP node is configured with a Toolkit and Tool, and the pipeline is saved su
 
 **Pass:**
 - All steps complete without errors.
-- Toolkit dropdown is empty before attachment and populates after; configuration persists.
+- The picker lists project MCPs before anything is attached; picking one attaches it automatically; configuration persists.
 
 **Fail:**
 - Any step produces an error or unexpected result.
-- Toolkit dropdown does not populate after MCP attachment, or configuration does not persist.
+- The MCP is not auto-attached to TOOLS after being picked, or configuration does not persist.
