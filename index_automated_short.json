@@ -1300,6 +1300,12 @@
       ]
     },
     {
+      "id": "ELITEA-4655",
+      "automation_test_id": [
+        "tests.ui.settings.test_web_search_default_modules_row_and_chat_inheritance.TestWebSearchDefaultModules.test_web_search_default_modules_row_and_chat_inheritance"
+      ]
+    },
+    {
       "id": "ELITEA-2257",
       "automation_test_id": [
         "tests.ui.admin.test_notification_text_content.TestNotificationTextContent.test_notification_text_content_renders_correctly"
