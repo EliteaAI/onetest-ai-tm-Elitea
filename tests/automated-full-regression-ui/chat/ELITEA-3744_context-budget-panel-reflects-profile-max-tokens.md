@@ -4,11 +4,12 @@ title: "Context Window Mode (Balanced/Full) Set in Personal Settings Reflects in
 priority: high
 type: functional
 module: chat-interface
-status: draft
+status: ready
 execution_type: automated
 automation_test_id:
-  - tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[10k_tokens]
-  - tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[32k_tokens]
+  - tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[balanced_mode]
+  - tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[full_mode]
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/f0ec75b20192ddc0053d4d963a4bde27af27e469
 tags: [feat:context-management, r-2.0.8]
 requirements: [EliteaAI/elitea_issues#6898]
 ---
