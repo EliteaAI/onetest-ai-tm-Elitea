@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines_2.test_pipeline_tools_section_mcp_add_view_remove.test_tools_section_mcp_add_view_remove
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1372
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/10d28ba6
 ---
 
 # ELITEA-2065: Pipeline — Tools Section — MCP Sub-tab with Tool Selection

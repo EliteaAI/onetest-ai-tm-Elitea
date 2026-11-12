@@ -10,6 +10,7 @@ automation_test_id:
   - tests.ui.pipelines_2.test_pipeline_toolkit_node_config_and_input_mapping.test_toolkit_node_config_and_input_mapping
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/10d28ba6
 ---
 
 # ELITEA-2010: Pipeline with Toolkit Node
