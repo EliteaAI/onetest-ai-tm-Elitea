@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id: tests.ui.pipelines_2.test_pipeline_mcp_node_empty_toolkit_before_attach.test_mcp_node_empty_toolkit_before_attach
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1921
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/4ae2f6894fa99a89b4809cf41c7b2be685c66e64
 ---
 
 # ELITEA-1955: MCP Integration in Pipeline — Select MCP Directly in Node (Auto-Attach)
