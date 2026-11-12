@@ -1,10 +1,10 @@
 ---
 id: ELITEA-2036
-title: "Pipeline — Custom Node Configuration"
+title: "DEPRECATED — Pipeline — Custom Node Configuration"
 priority: medium
 type: functional
 module: pipelines
-status: ready
+status: deprecated
 execution_type: automated
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
