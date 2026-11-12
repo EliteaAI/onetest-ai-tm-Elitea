@@ -4,8 +4,11 @@ title: "Web Search Default Modules row is present with tooltip, and the Chats de
 priority: high
 type: functional
 module: default-modules
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.settings.test_web_search_default_modules_row_and_chat_inheritance.TestWebSearchDefaultModules.test_web_search_default_modules_row_and_chat_inheritance
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/4ae2f6894fa99a89b4809cf41c7b2be685c66e64
 tags: [feat:settings, feat:modules, feat:chat, r-2.0.8]
 requirements: [EliteaAI/elitea_issues#6982]
 ---
