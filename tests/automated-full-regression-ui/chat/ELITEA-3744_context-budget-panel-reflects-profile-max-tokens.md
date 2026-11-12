@@ -1,28 +1,30 @@
 ---
 id: ELITEA-3744
-title: "Context Budget Panel Reflects Profile Max Context Tokens"
+title: "Context Window Mode (Balanced/Full) Set in Personal Settings Reflects in New Chat's Context Management Widget"
 priority: high
 type: functional
 module: chat-interface
-status: ready
+status: draft
 execution_type: automated
 automation_test_id:
   - tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[10k_tokens]
   - tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[32k_tokens]
-tags: []
-requirements: []
+tags: [feat:context-management, r-2.0.8]
+requirements: [EliteaAI/elitea_issues#6898]
 ---
-# ELITEA-3744: Context Budget Panel Reflects Profile Max Context Tokens
+# ELITEA-3744: Context Window Mode Set in Personal Settings Reflects in New Chat's Context Management Widget
 
 **Module:** Chat Interface · **Priority:** High · **Type:** Functional
 
-**Objective:** Verify that the Context Budget panel in chat reflects the Max Context Tokens value configured in the user's profile settings, confirming the setting propagates correctly to new conversations.
+**Rewrite note (2026-11-12):** Original case asserted the Context Budget panel displays the exact numeric "Max Context Tokens" value from profile settings (10k/32k variants). That field was removed by EliteaAI/elitea_issues#6898 (replaced with a Balanced/Full "Context window" radio, a single personal setting applied across all projects). This rewrite covers the equivalent intent — personal setting propagates correctly to a new chat — under the new mechanism. **Automation test IDs above are stale and will fail; they need a corresponding rewrite in `tests.ui.chat.test_context_management` before this is re-marked `ready`.**
+
+**Objective:** Verify that the Context window mode (Balanced/Full) configured in the user's personal settings propagates correctly into a brand-new chat conversation, and that updating the setting is reflected without stale caching.
 
 **Coverage:**
-- User sets Max Context Tokens in profile (e.g. 10,000 tokens)
+- User sets Context window mode to Full in personal settings (Settings → Memory)
 - User creates a new chat conversation and sends a message
-- Context Budget panel appears and displays the configured token limit
-- Updated profile value (e.g. 32,000 tokens) also propagates correctly (not cached)
+- Context Management widget shows Window: Full and the model's actual full context window as Total window
+- Switching the personal setting back to Balanced and creating another new chat shows Window: Balanced, Total window capped at 272,000
 
 ## Preconditions
 
@@ -33,37 +35,37 @@ requirements: []
 
 ## Test Data
 
-- URL: {{base_url}}
-- Max Context Tokens variant 1: 10,000
-- Max Context Tokens variant 2: 32,000
-- Test message: `at_ctx_budget_test_10k` / `at_ctx_budget_test_32k`
+| Field | Value |
+|-------|-------|
+| URL | `{{base_url}}` |
+| Mode variant 1 | Full |
+| Mode variant 2 | Balanced |
+| Test message | `at_ctx_window_test_full` / `at_ctx_window_test_balanced` |
 
 ## Steps
 
 | # | Action | Expected Result |
-|---|--------|----------------|
-| 1 | Navigate to user profile settings (via user avatar or Settings menu). | Profile settings page loads. |
-| 2 | Locate the Default Context Management section. Enable context management for new conversations. | The context management toggle is ON. |
-| 3 | Set Max Context Tokens to 10,000. Wait for the setting to autosave. Reload the page. | After reload, the Max Context Tokens field shows 10,000 — confirming the value was persisted. |
-| 4 | Navigate to Chat (sidebar). Click 'Create Conversation' to start a new conversation. | A fresh conversation opens with no messages. |
-| 5 | Type a short test message and send it (press Enter). Wait for AI response (up to 30 seconds). | AI responds. The Context Budget panel becomes visible below the chat input or in the sidebar. |
-| 6 | Verify the Context Budget panel is visible and inspect its displayed max token limit. | Context Budget panel shows a max limit equal to 10,000 tokens (matches the profile setting). |
-| 7 | Repeat steps 3–6 with Max Context Tokens set to 32,000. | Context Budget panel shows 32,000 tokens — confirming the updated value propagates without stale caching. |
+|---|--------|-----------------|
+| 1 | Navigate to Settings → Memory (Personalization). | Settings page loads with a "Context window" radio group (Balanced/Full). |
+| 2 | Select "Full". Wait for autosave. Reload the page. | After reload, "Full" remains selected — confirming the value was persisted. |
+| 3 | Navigate to Chat. Click 'Create Conversation' to start a new conversation. | A fresh conversation opens with no messages. |
+| 4 | Type a short test message and send it. Wait for AI response (up to 30 seconds). | AI responds. The Context Management widget becomes visible. |
+| 5 | Inspect the widget's Window mode and Total window value. | Window shows "Full"; Total window equals the active model's actual full context window (not a fixed numeric profile value). |
+| 6 | Repeat steps 2–5 with the personal setting set to "Balanced". | Window shows "Balanced"; Total window is capped at 272,000 (or the model's window, whichever is smaller) — confirming the updated value propagates without stale caching. |
 
 ## Expected Final State
 
-Context Budget panel in chat displays the exact Max Context Tokens value configured in the user profile settings for both tested values.
+The Context Management widget in a new chat reflects the exact Context window mode configured in personal settings for both tested values (Full and Balanced).
 
 ## Pass/Fail Criteria
 
 **Pass:**
-- Profile autosaves max_context_tokens (verified by page reload)
-- Context Budget panel appears after first message
-- Panel displays the exact configured token limit for both 10k and 32k variants
-- No stale/cached value from a previous profile setting
+- Personal setting autosaves window mode (verified by page reload)
+- Context Management widget appears after first message
+- Widget displays the matching window mode and correct Total window for both Full and Balanced
+- No stale/cached value from a previous setting
 
 **Fail:**
-- Context Budget panel does not appear after sending a message
-- Panel shows a different token limit than the profile setting
-- Profile setting does not persist after page reload
-- Feature is entirely absent (skip, not fail, if panel not visible)
+- Widget does not appear after sending a message
+- Widget shows a different window mode or incorrect Total window
+- Setting does not persist after page reload

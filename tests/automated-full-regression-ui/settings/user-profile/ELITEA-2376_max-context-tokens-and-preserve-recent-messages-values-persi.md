@@ -1,20 +1,22 @@
 ---
 id: ELITEA-2376
-title: "Max Context Tokens and Preserve Recent Messages values persist after save and reload"
+title: "Context Window Mode and Preserve Recent Messages Values Persist After Save and Reload"
 priority: medium
 type: functional
 module: settings-user-profile
 status: draft
 execution_type: manual
-tags: [automated:UI:regression, feat:settings]
-requirements: []
+tags: [automated:UI:regression, feat:settings, feat:context-management, r-2.0.8]
+requirements: [EliteaAI/elitea_issues#6898]
 ---
 
-# ELITEA-2376: Max Context Tokens and Preserve Recent Messages values persist after save and reload
+# ELITEA-2376: Context Window Mode and Preserve Recent Messages Values Persist After Save and Reload
 
 **Module:** settings-user-profile · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that Max Context Tokens and Preserve Recent Messages values persist after save and reload. Success is confirmed when verify max context tokens shows 32000 and preserve recent messages shows 10.
+**Rewrite note (2026-11-12):** Original case set a numeric "Max Context Tokens=32000" value, which no longer exists per EliteaAI/elitea_issues#6898. Rewritten to use the new Context window radio (Balanced/Full); "Preserve Recent Messages" is unaffected and kept as-is.
+
+**Objective:** Verify that the Context window mode (Balanced/Full) and Preserve Recent Messages values persist after save and reload.
 
 ---
 
@@ -22,14 +24,14 @@ requirements: []
 
 - User is logged in to the Elitea platform.
 
-
 ---
 
 ## Test Data
 
 | Field | Value |
 |-------|-------|
-| (none required) | — |
+| Context window mode | Full |
+| Preserve Recent Messages | 10 |
 
 ---
 
@@ -38,17 +40,17 @@ requirements: []
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Navigate to Personalization → DEFAULT CONTEXT MANAGEMENT | Target page/section loads successfully. |
-| 2 | Set Max Context Tokens to 32000 | Action completes without error and produces the expected UI state. |
+| 2 | Select "Full" in the Context window radio group | Action completes without error and produces the expected UI state. |
 | 3 | Set Preserve Recent Messages to 10 | Action completes without error and produces the expected UI state. |
-| 4 | Click somewhere on ui to trigger autosave | Control responds; expected next state is shown. |
+| 4 | Click somewhere on UI to trigger autosave | Control responds; expected next state is shown. |
 | 5 | Reload the page | Action completes without error and produces the expected UI state. |
-| 6 | Verify Max Context Tokens shows 32000 and Preserve Recent Messages shows 10 | Condition holds as described. |
+| 6 | Verify Context window shows "Full" and Preserve Recent Messages shows 10 | Condition holds as described. |
 
 ---
 
 ## Expected Final State
 
-Verify Max Context Tokens shows 32000 and Preserve Recent Messages shows 10.
+Context window shows "Full" and Preserve Recent Messages shows 10 after reload.
 
 ---
 
@@ -56,8 +58,8 @@ Verify Max Context Tokens shows 32000 and Preserve Recent Messages shows 10.
 
 **Pass:**
 - All steps complete without errors.
-- The condition described in the title holds: Max Context Tokens and Preserve Recent Messages values persist after save and reload.
+- Both values persist correctly after reload.
 
 **Fail:**
 - Any step produces an error or unexpected result.
-- Any of the expected UI states, validations, or side effects is not observed.
+- Either value reverts or fails to save.

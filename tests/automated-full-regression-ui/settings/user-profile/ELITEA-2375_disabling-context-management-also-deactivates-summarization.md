@@ -1,31 +1,34 @@
 ---
 id: ELITEA-2375
-title: "Disabling context management also deactivates summarization regardless of summarization toggle state"
+title: "DEPRECATED — Disabling context management also deactivates summarization regardless of summarization toggle state"
 priority: medium
 type: functional
 module: settings-user-profile
-status: draft
+status: deprecated
 execution_type: manual
 tags: [automated:UI:regression, feat:settings]
-requirements: []
+requirements: [EliteaAI/elitea_issues#6898]
 ---
 
-# ELITEA-2375: Disabling context management also deactivates summarization regardless of summarization toggle state
+# ELITEA-2375: DEPRECATED — Disabling context management also deactivates summarization regardless of summarization toggle state
 
-**Module:** settings-user-profile · **Priority:** medium · **Type:** functional
+**Deprecation note (2026-11-12):** This case's entire premise depends on turning the overarching Context Management toggle OFF to verify Summarization becomes inactive. That toggle was removed per EliteaAI/elitea_issues#6898 AC4 ("togle was deleted") — there is no longer an action to perform. No rewrite target identified; recommend formal deprecation in `index.json`.
 
-**Objective:** Verify that Disabling context management also deactivates summarization regardless of summarization toggle state. Success is confirmed when verify summarization settings become active again.
+Original content retained below for reference only — do not execute.
 
 ---
 
-## Preconditions
+~~**Objective:** Verify that Disabling context management also deactivates summarization regardless of summarization toggle state. Success is confirmed when verify summarization settings become active again.~~
+
+---
+
+## Preconditions (original, no longer applicable)
 
 - User is logged in to the Elitea platform.
 
-
 ---
 
-## Test Data
+## Test Data (original, no longer applicable)
 
 | Field | Value |
 |-------|-------|
@@ -33,7 +36,7 @@ requirements: []
 
 ---
 
-## Steps
+## Steps (original, no longer applicable)
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
@@ -47,13 +50,13 @@ requirements: []
 
 ---
 
-## Expected Final State
+## Expected Final State (original, no longer applicable)
 
 Verify summarization settings become active again.
 
 ---
 
-## Pass/Fail Criteria
+## Pass/Fail Criteria (original, no longer applicable)
 
 **Pass:**
 - All steps complete without errors.
