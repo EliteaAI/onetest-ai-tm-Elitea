@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines_2.test_pipeline_subgraph_state_sharing.test_subgraph_state_sharing_common_vars
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/79a03e4b4f10fe293a4dc334868a4d828cd20a8a
 ---
 
 # ELITEA-2443: Subgraph State Sharing — Common State Variables
