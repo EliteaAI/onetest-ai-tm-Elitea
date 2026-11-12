@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_code_node_multi_var_dict_return.test_code_node_return_dict_multiple_state_vars
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/96d8e21b
 ---
 
 # ELITEA-2447: Code Node — Return Dict to Modify Multiple State Variables
@@ -45,7 +45,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
 | 3 | In Code node script, return a dict updating multiple state vars: data = elitea_state.get('summary', '') {'summary': data + ' [processed]', 'count': len(data.split()), 'tags': ['processed', 'automated']} | Action completes without error and produces the expected UI state. |
 | 4 | Set Code node Output combobox to map returned keys to state variables and enable structured output | Action completes without error and produces the expected UI state. |
 | 5 | Execute the pipeline | Action completes without error and produces the expected UI state. |
-| 6 | Open Run Details, click Code node step | Target page/section loads successfully. |
+| 6 | Open Run Details, click Code node step | Run Details timeline step label shows the Code node's own name (e.g. "CODE1"), not the sandbox name. |
 | 7 | Verify After state shows: summary updated with appended text, count updated with number, tags updated with list value | Condition holds as described. |
 | 8 | Confirm multiple state variables updated in single Code node execution | Operation completes successfully; state updates and confirmation is shown. |
 
