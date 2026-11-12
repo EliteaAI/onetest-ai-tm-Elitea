@@ -1,31 +1,34 @@
 ---
 id: ELITEA-2391
-title: "Max Context Tokens does not accept non-numeric or negative values"
+title: "DEPRECATED — Max Context Tokens does not accept non-numeric or negative values"
 priority: medium
 type: functional
 module: settings-user-profile
-status: draft
+status: deprecated
 execution_type: manual
 tags: [automated:UI:regression, feat:settings]
-requirements: []
+requirements: [EliteaAI/elitea_issues#6898]
 ---
 
-# ELITEA-2391: Max Context Tokens does not accept non-numeric or negative values
+# ELITEA-2391: DEPRECATED — Max Context Tokens does not accept non-numeric or negative values
 
-**Module:** settings-user-profile · **Priority:** medium · **Type:** functional
+**Deprecation note (2026-11-12):** The numeric "Max Context Tokens" input was removed per EliteaAI/elitea_issues#6898, replaced with a Balanced/Full radio control. Numeric input validation no longer applies — a radio control has no equivalent non-numeric/negative-value failure mode. No rewrite target identified; recommend formal deprecation in `index.json`.
 
-**Objective:** Verify that Max Context Tokens does not accept non-numeric or negative values. Success is confirmed when verify no validation error is shown.
+Original content retained below for reference only — do not execute.
 
 ---
 
-## Preconditions
+~~**Objective:** Verify that Max Context Tokens does not accept non-numeric or negative values. Success is confirmed when verify no validation error is shown.~~
+
+---
+
+## Preconditions (original, no longer applicable)
 
 - User is logged in to the Elitea platform.
 
-
 ---
 
-## Test Data
+## Test Data (original, no longer applicable)
 
 | Field | Value |
 |-------|-------|
@@ -33,7 +36,7 @@ requirements: []
 
 ---
 
-## Steps
+## Steps (original, no longer applicable)
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
@@ -47,13 +50,13 @@ requirements: []
 
 ---
 
-## Expected Final State
+## Expected Final State (original, no longer applicable)
 
 Verify no validation error is shown.
 
 ---
 
-## Pass/Fail Criteria
+## Pass/Fail Criteria (original, no longer applicable)
 
 **Pass:**
 - All steps complete without errors.

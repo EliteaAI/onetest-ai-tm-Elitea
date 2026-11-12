@@ -15,16 +15,18 @@ requirements: [EliteaAI/elitea_issues#6898]
 
 One-time audit/deprecation task for stale pre-existing test cases, not a reusable recurring check — not added to the standing regression suite. Run once to close out the migration, then retire.
 
+**Amendment (2026-11-12):** Added step 7 to extend this audit to ELITEA-2375, ELITEA-2377, and ELITEA-2383, which were missing from the original audit list despite also depending on the Context Management on/off toggle removed per AC4. The actual rewrite/deprecation of all 8 affected cases (ELITEA-3744, 2374, 2375, 2376, 2377, 2383, 2390, 2391) was performed in a follow-up PR ("Update Regression Tests by 6898") rather than left as an open flag.
+
 ## Preconditions
 
 - User is logged in to `{{base_url}}`
-- Access to the OneTest repository to cross-reference ELITEA-3744, ELITEA-2376, ELITEA-2390, ELITEA-2391, ELITEA-2374, ELITEA-3795, and ELITEA-3790
+- Access to the OneTest repository to cross-reference ELITEA-3744, ELITEA-2376, ELITEA-2390, ELITEA-2391, ELITEA-2374, ELITEA-2375, ELITEA-2377, ELITEA-2383, ELITEA-3795, and ELITEA-3790
 
 ## Test Data
 
 | Field | Value |
 |-------|-------|
-| Stale test cases reviewed | ELITEA-3744, ELITEA-2376, ELITEA-2390, ELITEA-2391, ELITEA-2374, ELITEA-3795, ELITEA-3790 |
+| Stale test cases reviewed | ELITEA-3744, ELITEA-2376, ELITEA-2390, ELITEA-2391, ELITEA-2374, ELITEA-2375, ELITEA-2377, ELITEA-2383, ELITEA-3795, ELITEA-3790 |
 
 ## Steps
 
@@ -36,10 +38,11 @@ One-time audit/deprecation task for stale pre-existing test cases, not a reusabl
 | 4 | Review ELITEA-2374 (Context management toggle enables/disables token fields). | Its steps already reference the Balanced/Full radio, but its title/objective still mention "token fields"; flag for a title/objective correction only (not a functional defect). |
 | 5 | Attempt ELITEA-3795 (Context management functions in Bare mode). | The "Max Context Tokens: 1000" precondition can no longer be configured; flag for rewrite using Balanced/Full plus a small-window model to force quick summarization. |
 | 6 | Open the Context Management modal with "Bare" personality active and review against ELITEA-3790 (Bare option appears in modal persona dropdown). | The new Context window section now appears above Persona Management in the modal; confirm this addition does not break the Persona Management section or hide the "Bare" option in the dropdown. |
+| 7 | Review ELITEA-2375 (toggle deactivates summarization) and ELITEA-2383 (general settings independent of toggle). | Both depend on the deleted overarching Context Management toggle (AC4); flag both for deprecation, no rewrite target identified. Review ELITEA-2377 (summarization toggle fields) — its own toggle logic is unaffected, only its stated precondition needs a wording fix to drop the dependency on the deleted toggle. |
 
 ## Expected Final State
 
-All listed stale test cases are confirmed as needing deprecation/rewrite (items 1–5) or a documentation-only correction (item 4), and the modal layout change is confirmed not to regress the Bare-mode persona dropdown (item 6).
+All listed stale test cases are confirmed as needing deprecation/rewrite (items 1–5, 7) or a documentation-only correction (item 4, and the precondition-only fix in item 7 for ELITEA-2377), and the modal layout change is confirmed not to regress the Bare-mode persona dropdown (item 6).
 
 ## Pass/Fail Criteria
 

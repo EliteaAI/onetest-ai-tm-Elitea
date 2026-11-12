@@ -1,31 +1,34 @@
 ---
 id: ELITEA-2383
-title: "General settings (personality and instructions) are independent of context management toggle state"
+title: "DEPRECATED — General settings (personality and instructions) are independent of context management toggle state"
 priority: high
 type: functional
 module: settings-user-profile
-status: draft
+status: deprecated
 execution_type: manual
 tags: [automated:UI:regression, feat:settings]
-requirements: []
+requirements: [EliteaAI/elitea_issues#6898]
 ---
 
-# ELITEA-2383: General settings (personality and instructions) are independent of context management toggle state
+# ELITEA-2383: DEPRECATED — General settings independent of context management toggle state
 
-**Module:** settings-user-profile · **Priority:** high · **Type:** functional
+**Deprecation note (2026-11-12):** Step 2 turns the overarching Context Management toggle OFF — that toggle no longer exists per AC4. Since there is no action left to perform, this case's specific verification (General settings unaffected by toggle state) no longer applies. No rewrite target identified; recommend formal deprecation in `index.json`.
 
-**Objective:** Verify that General settings (personality and instructions) are independent of context management toggle state. Success is confirmed when click save — verify the settings save without error.
+Original content retained below for reference only — do not execute.
 
 ---
 
-## Preconditions
+~~**Objective:** Verify that General settings (personality and instructions) are independent of context management toggle state. Success is confirmed when click save — verify the settings save without error.~~
+
+---
+
+## Preconditions (original, no longer applicable)
 
 - User is logged in to the Elitea platform.
 
-
 ---
 
-## Test Data
+## Test Data (original, no longer applicable)
 
 | Field | Value |
 |-------|-------|
@@ -33,7 +36,7 @@ requirements: []
 
 ---
 
-## Steps
+## Steps (original, no longer applicable)
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
@@ -45,13 +48,13 @@ requirements: []
 
 ---
 
-## Expected Final State
+## Expected Final State (original, no longer applicable)
 
 Click Save — verify the settings save without error.
 
 ---
 
-## Pass/Fail Criteria
+## Pass/Fail Criteria (original, no longer applicable)
 
 **Pass:**
 - All steps complete without errors.
