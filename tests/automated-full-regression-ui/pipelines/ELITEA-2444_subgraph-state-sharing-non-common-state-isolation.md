@@ -45,9 +45,10 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
 | 3 | In parent, add a node that sets state_1 and state_2, then an Agent node calling the child pipeline | Action completes without error and produces the expected UI state. |
 | 4 | Execute the parent pipeline | Action completes without error and produces the expected UI state. |
 | 5 | Open Run Details after execution completes | Target page/section loads successfully. |
-| 6 | Verify state_1 (common) is updated by child execution — After value differs from Before | Condition holds as described. |
-| 7 | Verify state_2 (parent-only, not in child) remains unchanged through the Agent node step | Condition holds as described. |
-| 8 | Verify state_3 (child-only, not in parent) does NOT appear in parent's Run Details state panel | Condition holds as described. |
+| 6 | In the Run Details Timeline, observe the nested child pipeline; check the child's own steps in the chat's thinking/trace view | Timeline shows exactly 2 entries: the parent's first node followed by ONE collapsed entry for the child pipeline (nested steps are grouped, not listed as separate rows); the child's own steps appear when its entry is expanded in the chat's thinking/trace view. |
+| 7 | Verify state_1 (common) is updated by child execution — After value differs from Before | Condition holds as described. |
+| 8 | Verify state_2 (parent-only, not in child) remains unchanged through the Agent node step | Condition holds as described. |
+| 9 | Verify state_3 (child-only, not in parent) does NOT appear in parent's Run Details state panel | Condition holds as described. |
 
 ---
 

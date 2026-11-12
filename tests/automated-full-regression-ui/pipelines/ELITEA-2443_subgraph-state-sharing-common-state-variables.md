@@ -45,7 +45,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
 | 3 | In parent, add a Code/LLM node that sets state_1 to some value, then add an Agent node calling the child pipeline, then connect to END | Action completes without error and produces the expected UI state. |
 | 4 | Execute the parent pipeline with input | Action completes without error and produces the expected UI state. |
 | 5 | Open Run Details after execution completes | Target page/section loads successfully. |
-| 6 | Click on the Agent node step in the timeline | Control responds; expected next state is shown. |
+| 6 | In the Run Details Timeline, observe the nested child pipeline, then click the grouped child-pipeline entry (the Agent node's step); check the child's own steps in the chat's thinking/trace view | Timeline shows exactly 2 entries: the parent's first node followed by ONE collapsed entry for the child pipeline (nested steps are grouped, not listed as separate rows); the entry is selectable and the child's own steps appear when its entry is expanded in the chat's thinking/trace view. |
 | 7 | Verify state Before shows state_1 with value set by the preceding parent node | Condition holds as described. |
 | 8 | Verify state After shows state_1 and state_2 updated by child pipeline execution | Condition holds as described. |
 | 9 | Confirm common-named variables (state_1, state_2) shared data between parent and child | Operation completes successfully; state updates and confirmation is shown. |
