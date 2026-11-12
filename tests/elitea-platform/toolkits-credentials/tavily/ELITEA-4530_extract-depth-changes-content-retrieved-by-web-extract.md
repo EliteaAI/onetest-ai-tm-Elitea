@@ -20,7 +20,7 @@ requirements: [EliteaAI/elitea_issues#6981]
 |-------|-------|
 | Extract Depth | basic, advanced |
 | Target URL | A long, content-rich article |
-| Depth-sensitive URL | `https://www.udemy.com/courses/it-and-software/other-it-and-software` — known to fail extraction at "basic" depth but succeed at "advanced" depth |
+| Depth-sensitive URL | `https://www.udemy.com/course/large-language-models-llms-fundamentals-g` — known to fail extraction at "basic" depth but succeed at "advanced" depth |
 | Thin page | A near-blank landing page |
 | Multi-URL call | 3 URLs extracted together |
 
