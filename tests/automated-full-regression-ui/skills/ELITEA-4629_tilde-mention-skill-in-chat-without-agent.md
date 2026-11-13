@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.chat.test_chat_tilde_mention_skill_without_agent.TestChatTildeMentionSkillWithoutAgent.test_tilde_mention_skill_without_agent
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/9cb13b3047ebf01332375da1371b68fe343a7a8b
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/e09d0080
 tags: [automated:UI:regression, feat:skills, feat:chat, tilde-invocation]
 requirements: [EliteaAI/elitea_issues#6924]
 ---
@@ -50,13 +50,14 @@ requirements: [EliteaAI/elitea_issues#6924]
 | 5 | Complete the message with instructions, e.g., "~animal-joke tell me a joke" | Full message displayed in input |
 | 6 | Send the message | Message sends successfully |
 | 7 | Observe skill execution | Skill executes and returns response in chat thread |
-| 8 | Verify response comes from skill | Response indicates skill execution (e.g., joke appears) |
+| 8 | Open the thinking steps of the response | The skill mentioned with ~ (e.g., "animal-joke") is present in the thinking steps at least once; other skills may also be called - do not assert exact response content |
 
 ## Expected Final State
 
 - ~skill syntax recognized and autocompleted in chat without agent
 - Skill executes successfully via tilde mention
 - Response appears in chat thread
+- Mentioned skill is present in the thinking steps (at least once)
 - Tilde invocation works independently of agent participants
 
 ## Pass/Fail Criteria
@@ -64,7 +65,7 @@ requirements: [EliteaAI/elitea_issues#6924]
 **Pass:**
 - Typing ~ triggers autocomplete with available skills
 - Skill can be mentioned and invoked via ~skill syntax
-- Skill executes and returns response
+- Skill executes and the mentioned skill is present in the thinking steps
 - Works in chat without agent participant
 
 **Fail:**
