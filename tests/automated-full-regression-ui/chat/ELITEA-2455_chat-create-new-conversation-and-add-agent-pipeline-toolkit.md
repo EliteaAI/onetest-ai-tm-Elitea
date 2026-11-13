@@ -9,7 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:chat]
 requirements: []
 automation_test_id: [tests.ui.chat.test_new_conversation_add_participants.TestNewConversationParticipants.test_new_conversation_add_four_participant_types]
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/df8e5edf
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/8b713c60
 ---
 
 # ELITEA-2455: Chat – Create new conversation and add Agent, Pipeline, Skill, Toolkit, and MCP as participants
