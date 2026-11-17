@@ -19,42 +19,52 @@ requirements: []
 
 **Module:** Toolkits Credentials · **Priority:** High · **Type:** Functional
 
-**Objective:** Verify that users can create GitHub credentials, create toolkits using those credentials, and test toolkit settings.
+**Objective:** Verify that users can create GitHub credentials, create a toolkit using those credentials, test the toolkit settings, and execute a toolkit tool from Chat.
 
 ## Preconditions
 
 - User logged into Elitea
 - Valid GitHub token available
-- Access to Credentials/Toolkits sections
+- Access to Credentials, Toolkits and Chat sections
 
 ## Test Data
 
 - URL: {{base_url}}
-- Credential type: GitHub
+- Credential type: GitHub (Base URL `https://api.github.com`, pre-filled)
 - Test token: (from .env.test)
+- Repository: a repository the token can read (e.g. `EliteaAI/elitea-testing`)
+- Test tool: *List branches* (`list_branches_in_repo`)
+- Chat message: `List branches in the repository`
 
 ## Steps
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| ? | Navigate to Credentials, create GitHub credential | Credential created, visible in list |
-| ? | Navigate to Toolkits, create GitHub toolkit | Toolkit created with credential selector |
-| ? | Select credential, configure toolkit | Toolkit linked to credential |
-| ? | On the toolkit detail page, click the **Test** button in the header action bar | The Test Toolkit page opens at `/toolkits/all/{id}/test` (breadcrumb `Toolkits & Indexes / <toolkit> / Test Toolkit`) with a *Test Settings* column showing the tool-selection empty state and a *Results* column |
-| ? | In the Test Settings empty state open the **Tool** select and choose a tool (e.g. *List branches*), then click **Run Test** | The Test Settings panel shows the chosen tool, model selector and parameters; the tool runs with the linked credential and the Results column shows a successful tool result (connection test passes) |
+| 1 | Navigate to Credentials, create a GitHub credential: fill Display Name and Access Token, click **Save** | The page returns to the Credentials list (`/credentials/all`); the credential is visible in the list with its Display Name |
+| 2 | Navigate to Toolkits, click **Create toolkit** and choose the **GitHub** type card | The GitHub toolkit form opens with a credential (GitHub configuration) selector |
+| 3 | Fill Toolkit Name and Description, select the credential from step 1, fill **Repository**, click **Save** | The page leaves the create form; the toolkit is saved and linked to the selected credential |
+| 4 | On the toolkit detail page, click the **Test** button in the header action bar | The Test Toolkit page opens at `/toolkits/all/{id}/test` (breadcrumb `Toolkits & Indexes / <toolkit> / Test Toolkit`) with a *Test Settings* column showing the tool-selection empty state and a *Results* column |
+| 5 | In the Test Settings empty state open the **Tool** select and choose a tool (e.g. *List branches*), then click **Run Test** | The Test Settings panel shows the chosen tool, model selector and parameters; the tool runs with the linked credential and the Results column shows a successful tool result (`list_branches_in_repo`, output lists the branches, e.g. `main`) — no *Error debugging info* |
+| 6 | Open Chat in a new conversation, add the GitHub toolkit as a participant (**+** → **Toolkits**), send `List branches in the repository` | The toolkit's `list_branches_in_repo` tool is called once and returns the repository's branch list; a new AI response appears describing the repository's branches |
 
 ## Expected Final State
 
-Connection test passes
+Connection test passes, and the toolkit executes its tool successfully from Chat.
 
 ## Pass/Fail Criteria
 
 **Pass:**
-- Credential created successfully
-- Toolkit created with credential
+- Credential created successfully and visible in the Credentials list
+- Toolkit created and linked to the credential
 - Test settings validates connection
+- Toolkit tool executes successfully from Chat and the response reflects its result
 
 **Fail:**
 - Credential creation fails
 - Toolkit not linked to credential
 - Test fails with valid token
+- Chat response does not invoke the tool, or the tool call fails
+
+## Cleanup
+
+- Delete the toolkit and the credential created by this case

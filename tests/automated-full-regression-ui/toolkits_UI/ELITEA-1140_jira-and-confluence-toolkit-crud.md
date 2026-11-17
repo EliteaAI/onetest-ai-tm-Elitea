@@ -29,9 +29,11 @@ requirements: []
 - Create Jira credentials
 - Create Jira toolkit using credentials
 - Test Jira toolkit settings
+- Execute a Jira toolkit tool from Chat
 - Create Confluence credentials
 - Create Confluence toolkit using credentials
 - Test Confluence toolkit settings
+- Execute a Confluence toolkit tool from Chat
 - Delete toolkits and credentials
 
 ## Preconditions
@@ -46,8 +48,11 @@ requirements: []
 - URL: {{base_url}}
 - Jira credential display name: AutoTest Jira
 - Confluence credential display name: AutoTest Confluence
-- Toolkit name pattern: AutoTest [Type] Toolkit
+- Toolkit name pattern: AutoTest [Type] <timestamp> — at most 32 characters (the Toolkit Name field caps input at 32)
 - Jira/Confluence settings: base URL, username, API token
+- Confluence toolkit field: Space Key
+- Test tool — Jira: *List projects* (`list_projects`); Confluence: *List pages* (`list_pages_with_label`, label `test`)
+- Chat message — Jira: `List all Jira projects`; Confluence: `Use the list_pages_with_label tool to list pages with label 'test' in Confluence`
 
 ## Steps
 
@@ -59,7 +64,10 @@ requirements: []
 | 4 | Verify the credential appears in the Credentials list with the correct name. | The credential is found in the list with the matching display name. |
 | 5 | Navigate to Toolkits from the sidebar. Click 'Create toolkit'. Select the same toolkit type. Fill in the name, description, select your credential from the dropdown, and fill any type-specific fields (repository, branch, etc.). | The form is filled with the credential selected. |
 | 6 | Click Save. Wait for the page to navigate away from the create page. | The toolkit is created. The URL no longer shows '/create'. |
-| 7 | Clean up: Delete the toolkit and credential you created. Go to each one's detail page, use the delete option, and confirm. | Both the toolkit and credential are deleted successfully. |
+| 7 | On the toolkit detail page, click the **Test** button in the header action bar. | The Test Toolkit page opens at `/toolkits/all/{id}/test` with a *Test Settings* column showing the tool-selection empty state. |
+| 8 | Open the **Tool** select, choose the test tool (Jira: *List projects*; Confluence: *List pages*, fill parameter `label` = `test`), then click **Run Test**. | The Test Settings panel shows the chosen tool; the tool runs with the linked credential and the Results column shows a successful result (Jira: `list_projects` with projects; Confluence: `list_pages_with_label` with pages) — no *Error debugging info*. |
+| 9 | Open Chat in a new conversation, add the toolkit as a participant (**+** → **Toolkits**), and send the chat message from Test Data. | The toolkit's tool (Jira: `list_projects`; Confluence: `list_pages_with_label`) is called once and returns its result successfully; a new AI response appears describing it (Jira projects / Confluence pages). |
+| 10 | Clean up: Delete the toolkit and credential you created. Go to each one's detail page, use the delete option, and confirm. | Both the toolkit and credential are deleted successfully. |
 
 ## Expected Final State
 
@@ -71,11 +79,15 @@ Both the toolkit and credential are deleted successfully.
 - Credential pre-check passes (or test properly skips)
 - Credential created via UI and visible in API
 - Toolkit created with correct credential association
+- Test Toolkit run returns a successful tool result
+- Toolkit tool executes successfully from Chat and the response reflects its result
 - Cleanup completes without errors
 
 **Fail:**
 - Credential creation fails or form validation errors
 - Toolkit creation fails to associate credential
 - Navigation doesn't complete after save
+- Test Toolkit run shows an error with valid credentials
+- Chat response does not invoke the tool, or the tool call fails
 - Cleanup leaves orphaned entities
 - Confluence token expired (expected skip, not failure)

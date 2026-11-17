@@ -6053,7 +6053,7 @@
     {
       "id": "ELITEA-3744",
       "title": "Context Window Mode (Balanced/Full) Set in Personal Settings Reflects in New Chat's Context Management Widget",
-      "status": "draft",
+      "status": "ready",
       "execution_type": "automated",
       "type": "functional",
       "priority": "high",
@@ -6068,8 +6068,8 @@
         "EliteaAI/elitea_issues#6898"
       ],
       "automation_test_id": [
-        "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[10k_tokens]",
-        "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[32k_tokens]"
+        "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[balanced_mode]",
+        "tests.ui.chat.test_context_management.TestContextManagementSettings.test_context_budget_reflects_profile_max_tokens[full_mode]"
       ],
       "targets": [],
       "dependencies": [],
@@ -9047,48 +9047,6 @@
       "path": "tests/automated-full-regression-ui/mcp/ELITEA-1951_mcp-integration-in-agent-nested-agent-with-mcp.md"
     },
     {
-      "id": "ELITEA-1952",
-      "title": "MCP Integration in Pipeline — Add MCP to Tools and Configure MCP Node",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "pipelines",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:pipelines"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1952_mcp-integration-in-pipeline-add-mcp-and-configure-node.md"
-    },
-    {
-      "id": "ELITEA-1953",
-      "title": "MCP Integration in Pipeline — MCP Node Input Mapping Configuration",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "pipelines",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:pipelines"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1953_mcp-integration-in-pipeline-mcp-node-input-mapping-config.md"
-    },
-    {
       "id": "ELITEA-1954",
       "title": "MCP Integration in Pipeline — Change MCP Toolkit and Tool Selection",
       "status": "ready",
@@ -9675,8 +9633,13 @@
       "size": "",
       "module": "pipelines",
       "owner": "",
-      "tags": [],
-      "requirements": [],
+      "tags": [
+        "epic:7093"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7154",
+        "EliteaAI/elitea_issues#7157"
+      ],
       "automation_test_id": [
         "tests.ui.pipelines_2.test_pipeline_nodes.TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end"
       ],
@@ -10173,9 +10136,12 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:pipelines"
+        "feat:pipelines",
+        "epic:7093"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#7157"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -10585,9 +10551,12 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:pipelines"
+        "feat:pipelines",
+        "epic:7093"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#7157"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -10675,9 +10644,12 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:pipelines"
+        "feat:pipelines",
+        "epic:7093"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#7159"
+      ],
       "automation_test_id": [
         "tests.ui.pipelines_2.test_pipeline_mcp_node_fresh_attach.test_mcp_node_fresh_attach"
       ],
@@ -10895,7 +10867,7 @@
     },
     {
       "id": "ELITEA-2047",
-      "title": "Pipeline — Interrupt Before/After Toggles",
+      "title": "Pipeline — Interrupt Before/After (Configured in YAML)",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -10905,9 +10877,12 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:pipelines"
+        "feat:pipelines",
+        "epic:7093"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#7157"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -11192,7 +11167,7 @@
     },
     {
       "id": "ELITEA-2060",
-      "title": "Pipeline — Node Deletion via Node Menu",
+      "title": "Pipeline — Node Deletion via Node Panel Footer",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
@@ -11202,9 +11177,12 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:pipelines"
+        "feat:pipelines",
+        "epic:7093"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#7157"
+      ],
       "automation_test_id": [
         "tests.ui.pipelines.test_pipeline_canvas_delete_node.test_delete_middle_node_removes_its_edges_and_persists"
       ],
@@ -11215,7 +11193,7 @@
     },
     {
       "id": "ELITEA-2061",
-      "title": "Pipeline — Node Duplicate via Node Menu",
+      "title": "Pipeline — Node Auto-Increment Naming",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
@@ -11225,7 +11203,8 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:pipelines"
+        "feat:pipelines",
+        "epic:7093"
       ],
       "requirements": [],
       "automation_test_id": [
@@ -11234,7 +11213,7 @@
       "targets": [],
       "dependencies": [],
       "known_issues": [],
-      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-2061_pipeline-node-duplicate-via-node-menu.md"
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-2061_pipeline-node-auto-increment-naming.md"
     },
     {
       "id": "ELITEA-2062",
@@ -11271,7 +11250,8 @@
       "owner": "",
       "tags": [
         "automated:UI:regression",
-        "feat:pipelines"
+        "feat:pipelines",
+        "epic:7093"
       ],
       "requirements": [],
       "automation_test_id": [
@@ -11396,27 +11376,6 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-2068_pipeline-yaml-editor-invalid-syntax.md"
-    },
-    {
-      "id": "ELITEA-2069",
-      "title": "Pipeline — Execution with Chat Message",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "pipelines",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:pipelines"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-2069_pipeline-execution-with-chat-message.md"
     },
     {
       "id": "ELITEA-2070",
@@ -11789,6 +11748,205 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-3734_fork-pipeline-blocked-when-destination-project-role-is-viewer.md"
+    },
+    {
+      "id": "ELITEA-4714",
+      "title": "Pipeline — New Pipeline Empty Canvas, First Node and Test Pipeline Gate",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:pipelines",
+        "epic:7093"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7154",
+        "EliteaAI/elitea_issues#7155",
+        "EliteaAI/elitea_issues#7156"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4714_pipeline-new-pipeline-empty-canvas-first-node-and-test-pipeline-gate.md"
+    },
+    {
+      "id": "ELITEA-4715",
+      "title": "Pipeline — View-Only Node Cards and Node Configuration Panel",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:pipelines",
+        "epic:7093"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7157"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4715_pipeline-view-only-node-cards-and-node-configuration-panel.md"
+    },
+    {
+      "id": "ELITEA-4716",
+      "title": "Pipeline — Node YAML View: Scope and Two-Way Sync",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:pipelines",
+        "epic:7093"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7158"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4716_pipeline-node-yaml-view-scope-and-two-way-sync.md"
+    },
+    {
+      "id": "ELITEA-4717",
+      "title": "Pipeline — Node YAML View: Validation and Invalid YAML Handling",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:pipelines",
+        "epic:7093"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7158"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4717_pipeline-node-yaml-view-validation-and-invalid-yaml-handling.md"
+    },
+    {
+      "id": "ELITEA-4718",
+      "title": "Pipeline — Tools Selected in Nodes: Auto-Attach and Read-Only TOOLS Section",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:pipelines",
+        "epic:7093"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7159"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4718_pipeline-tools-selected-in-nodes-auto-attach-and-read-only-tools-section.md"
+    },
+    {
+      "id": "ELITEA-4719",
+      "title": "Pipeline — Duplicate Node End-to-End",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:pipelines",
+        "epic:7093"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7161",
+        "EliteaAI/elitea_issues#7418"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4719_pipeline-duplicate-node-end-to-end.md"
+    },
+    {
+      "id": "ELITEA-4720",
+      "title": "Pipeline — Test Pipeline Panel Controls and Session Behavior",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:pipelines",
+        "epic:7093"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7155"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4720_pipeline-test-pipeline-panel-controls-and-session-behavior.md"
+    },
+    {
+      "id": "ELITEA-4721",
+      "title": "Pipeline — Viewer Role Has a Read-Only Pipeline Editor",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:pipelines",
+        "epic:7093"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7157",
+        "EliteaAI/elitea_issues#7158",
+        "EliteaAI/elitea_issues#7159",
+        "EliteaAI/elitea_issues#7161",
+        "EliteaAI/elitea_issues#7407"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4721_pipeline-viewer-role-read-only-editor.md"
     },
     {
       "id": "ELITEA-4464",
