@@ -45,8 +45,8 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/242a354a
 | 4 | Hover the conversation and click its 3-dot menu button | Context menu appears |
 | 5 | Verify context menu options present | Menu displays with multiple options |
 | 6 | Locate "Export" option in menu | "Export" option visible |
-| 7 | Verify menu items order | Options are, in order: Rename, Move to, Playback, **Export**, Share, Pin on top, Delete |
-| 8 | Verify "Export" option positioning | "Export" appears between other options (after Playback, before Share) |
+| 7 | Verify menu items order | Options are, in order (8 items): Rename, Move to, Playback, Duplicate, **Export**, Share, Pin on top, Delete |
+| 8 | Verify "Export" option positioning | "Export" appears between other options (directly after Duplicate, before Share) |
 | 9 | Verify "Export" is enabled | Option not grayed out, clickable |
 | 10 | Verify "Export" label clarity | Text reads "Export" clearly |
 | 11 | Check for icon (if present) | Icon present and appropriate for export action |
