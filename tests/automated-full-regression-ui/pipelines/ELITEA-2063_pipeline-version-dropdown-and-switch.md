@@ -4,8 +4,8 @@ title: "Pipeline — Version Dropdown and Switch"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines, epic:7093]
 requirements: []
 automation_test_id:

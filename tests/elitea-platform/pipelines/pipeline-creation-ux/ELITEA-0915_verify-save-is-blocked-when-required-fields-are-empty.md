@@ -4,7 +4,7 @@ title: "Verify Save Is Blocked When the Required Name Field Is Empty"
 priority: critical
 type: functional
 module: pipeline-creation-ux
-status: draft
+status: ready
 execution_type: manual
 tags: [feat:pipelines, r-2.0.2, 4418, epic:7093]
 requirements: [EliteaAI/elitea_issues#4418, EliteaAI/elitea_issues#7154]

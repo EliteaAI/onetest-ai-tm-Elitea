@@ -4,8 +4,8 @@ title: "Pipeline — Node Deletion via Node Panel Footer"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 tags: [automated:UI:regression, feat:pipelines, epic:7093]
 requirements: [EliteaAI/elitea_issues#7157]
 automation_test_id:

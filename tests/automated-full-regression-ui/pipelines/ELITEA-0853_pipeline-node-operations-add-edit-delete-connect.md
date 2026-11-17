@@ -4,8 +4,8 @@ title: "Pipeline Node Operations - Add, Edit, Delete, Connect"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
 automation_test_id:
   - tests.ui.pipelines_2.test_pipeline_nodes.TestAddNode.test_add_human_in_the_loop_node_and_connect_to_end
 tags: [epic:7093]
