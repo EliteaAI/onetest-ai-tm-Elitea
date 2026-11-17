@@ -1,23 +1,25 @@
 ---
 id: ELITEA-2060
-title: "Pipeline — Node Deletion via Node Menu"
+title: "Pipeline — Node Deletion via Node Panel Footer"
 priority: high
 type: functional
 module: pipelines
 status: ready
 execution_type: automated
-tags: [automated:UI:regression, feat:pipelines]
-requirements: []
+tags: [automated:UI:regression, feat:pipelines, epic:7093]
+requirements: [EliteaAI/elitea_issues#7157]
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_canvas_delete_node.test_delete_middle_node_removes_its_edges_and_persists
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/d23d9238a2b1c684f7ccd7451ea6ace1e57f18af
 ---
 
-# ELITEA-2060: Pipeline — Node Deletion via Node Menu
+# ELITEA-2060: Pipeline — Node Deletion via Node Panel Footer
+
+> **Updated for Pipelines 2.0:** node cards are view-only (#7157) — deletion is done only via the Delete icon in the node configuration panel footer; title and objective updated.
 
 **Module:** pipelines · **Priority:** high · **Type:** functional
 
-**Objective:** Verify that a node can be deleted using the trash icon on the node's action buttons, and that the node and all connected edges are removed with the Save button becoming enabled.
+**Objective:** Verify that a node can be deleted using the Delete icon in the node configuration panel footer (node cards are view-only), and that the node and all connected edges are removed with the Save button becoming enabled.
 
 ---
 

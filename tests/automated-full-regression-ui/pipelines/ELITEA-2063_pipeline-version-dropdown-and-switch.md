@@ -6,7 +6,7 @@ type: functional
 module: pipelines
 status: ready
 execution_type: automated
-tags: [automated:UI:regression, feat:pipelines]
+tags: [automated:UI:regression, feat:pipelines, epic:7093]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_create_version.test_create_pipeline_version_save_list_switch_preserves_canvas_state
@@ -14,6 +14,8 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2325
 ---
 
 # ELITEA-2063: Pipeline — Version Dropdown and Switch
+
+> **Updated for Pipelines 2.0:** content unchanged. Automation check: confirm the spec asserts the canvas topology is restored per version (steps 5 and 7); if not, add it.
 
 **Module:** pipelines · **Priority:** medium · **Type:** functional
 

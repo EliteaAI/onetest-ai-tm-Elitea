@@ -6,10 +6,14 @@ type: functional
 module: pipelines
 status: draft
 execution_type: manual
-tags: [nfr:usability, r-2.0.1]
-requirements: [ProjectAlita/projectalita.github.io#3535]
+tags: [nfr:usability, r-2.0.1, epic:7093]
+requirements: [ProjectAlita/projectalita.github.io#3535, EliteaAI/elitea_issues#3734]
 ---
 # ELITEA-0832: Nested Agent and Pipeline Chipsets Display Correct Names at All Levels
+
+> **Updated for Pipelines 2.0:** UI wording only. Nested levels are inspected in the chat thinking steps. The Run Details timeline groups a nested agent/pipeline call into one step and does not expand it (#3734).
+
+> Retest pending
 
 **Module:** Pipelines · **Priority:** High · **Type:** Functional
 
@@ -25,15 +29,15 @@ requirements: [ProjectAlita/projectalita.github.io#3535]
 ## Preconditions
 
 - Logged in to ELITEA at {{base_url}}
-- "Main Pipeline" exists and contains a step calling "Sub Pipeline"
-- "Sub Pipeline" exists and contains a step calling "Leaf Agent"
+- "Main Pipeline" exists and contains an Agent node calling "Sub Pipeline"
+- "Sub Pipeline" exists and contains an Agent node calling "Leaf Agent"
 - "Leaf Agent" exists and is functional
 - Browser: Chrome/Edge latest
 
 ## Test Data
 
-- Main Pipeline: contains a step calling Sub Pipeline
-- Sub Pipeline: contains a step calling Leaf Agent
+- Main Pipeline: contains an Agent node calling Sub Pipeline
+- Sub Pipeline: contains an Agent node calling Leaf Agent
 - Leaf Agent: any functional agent
 - URL: {{base_url}}
 
@@ -41,12 +45,12 @@ requirements: [ProjectAlita/projectalita.github.io#3535]
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Log in to ELITEA. Navigate to Pipelines in the left sidebar. Confirm the following hierarchy exists: Main Pipeline → (step calling) Sub Pipeline → (step calling) Leaf Agent. Open Main Pipeline. | Main Pipeline detail page loads; nested structure is confirmed in configuration. |
-| 2 | Click Run on Main Pipeline. Wait for the full execution to complete (all three levels must finish). | Main Pipeline executes; nested execution fan-out is triggered. |
-| 3 | Navigate to Main Pipeline's History Runs tab. Open the most recent completed run to view the execution trace. | Execution trace for the run is displayed. |
+| 1 | Log in to ELITEA. Navigate to Pipelines in the left sidebar. Confirm the hierarchy exists: Main Pipeline → (Agent node calling) Sub Pipeline → (Agent node calling) Leaf Agent. Open Main Pipeline. | Main Pipeline detail page loads; nested structure is confirmed in configuration. |
+| 2 | Open Test Pipeline and send a message. Wait for the full execution to complete (all three levels must finish). | Main Pipeline executes; nested execution is triggered. |
+| 3 | In the chat response, expand the thinking steps (or open the run from Run History) to view the execution trace. | Execution trace for the run is displayed. |
 | 4 | At the top level of the execution trace, locate the first chipset entry. Read its label and identify its icon type. | Chipset label reads 'Main Pipeline' with a Pipeline icon (not an Agent icon or generic icon). |
-| 5 | Expand or drill into the execution to show the second level (the step where Sub Pipeline was called). Locate the chipset for this nested element. Read its label and icon type. | Chipset label reads 'Sub Pipeline' with a Pipeline icon — NOT 'Main Pipeline', NOT 'unnamed', NOT a blank/generic label. |
-| 6 | Expand or drill further into Sub Pipeline's execution to reveal the third level (the step where Leaf Agent was called). Locate the chipset for this element. Read its label and icon type. | Chipset label reads 'Leaf Agent' with an Agent icon (not a Pipeline icon) — NOT 'Sub Pipeline' or 'Main Pipeline'. |
+| 5 | Expand the second level (the step where Sub Pipeline was called). Locate the chipset for this nested element. Read its label and icon type. | Chipset label reads 'Sub Pipeline' with a Pipeline icon — NOT 'Main Pipeline', NOT 'unnamed', NOT a blank/generic label. |
+| 6 | Expand further into Sub Pipeline's execution to reveal the third level (the step where Leaf Agent was called). Locate the chipset for this element. Read its label and icon type. | Chipset label reads 'Leaf Agent' with an Agent icon (not a Pipeline icon) — NOT 'Sub Pipeline' or 'Main Pipeline'. |
 | 7 | Review all three levels side by side on screen. Confirm that each level displays exclusively its own entity name and no level shows a parent entity's name, a generic placeholder, or a blank. | All three levels: 'Main Pipeline' (Pipeline icon), 'Sub Pipeline' (Pipeline icon), 'Leaf Agent' (Agent icon) — correct names, correct icons, no duplication. |
 
 ## Expected Final State

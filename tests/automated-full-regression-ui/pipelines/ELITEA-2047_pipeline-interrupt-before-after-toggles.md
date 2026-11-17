@@ -1,27 +1,29 @@
 ---
 id: ELITEA-2047
-title: "Pipeline — Interrupt Before/After Toggles"
+title: "Pipeline — Interrupt Before/After (Configured in YAML)"
 priority: medium
 type: functional
 module: pipelines
 status: draft
 execution_type: manual
-tags: [automated:UI:regression, feat:pipelines]
-requirements: []
+tags: [automated:UI:regression, feat:pipelines, epic:7093]
+requirements: [EliteaAI/elitea_issues#7157]
 ---
 
-# ELITEA-2047: Pipeline — Interrupt Before/After Toggles
+# ELITEA-2047: Pipeline — Interrupt Before/After (Configured in YAML)
+
+> **Updated for Pipelines 2.0:** the per-node "Interrupt before/after" switches no longer exist in the node panel. Interrupts are now set through the pipeline-level `interrupt_before` / `interrupt_after` keys in the page Yaml. The checks themselves are unchanged: the run pauses at the interrupt point, the UI shows the paused state, and execution resumes and completes.
 
 **Module:** pipelines · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that the Interrupt before/after toggles on a node correctly pause pipeline execution at the configured point, and that execution can be resumed after the interrupt.
+**Objective:** Verify that `interrupt_before` and `interrupt_after` set in the pipeline YAML pause execution at the configured point, that the UI shows the paused state, and that execution resumes and completes.
 
 ---
 
 ## Preconditions
 
 - User is logged in to the Elitea platform.
-- A pipeline with a node (e.g., Code node) exists.
+- A saved pipeline exists: "Code 1" (Code, entry point, returns a fixed value) → "Printer 1" (Printer, prints a fixed text) → End.
 
 ---
 
@@ -29,7 +31,10 @@ requirements: []
 
 | Field | Value |
 |-------|-------|
-| (none required) | — |
+| Interrupt after (pipeline level) | `interrupt_after: [Code 1]` |
+| Interrupt before (pipeline level) | `interrupt_before: [Printer 1]` |
+| Run message | `go` |
+| Resume message | `continue` |
 
 ---
 
@@ -37,20 +42,23 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Open a pipeline with a node (e.g., Code node) | Pipeline is open with the node visible |
-| 2 | In node config, locate "Interrupt before" switch | Interrupt before switch is visible |
-| 3 | Locate "Interrupt after" switch | Interrupt after switch is visible |
-| 4 | Toggle "Interrupt after" to enabled | Interrupt after switch is enabled |
-| 5 | Save pipeline | Pipeline saves without errors |
-| 6 | Execute the pipeline — verify execution pauses after that node | Execution pauses after the node with interrupt enabled |
-| 7 | Verify interrupt state shown in UI | UI indicates pipeline is paused at the interrupt point |
-| 8 | Resume execution — verify pipeline completes | Pipeline resumes and completes execution |
+| 1 | Open the pipeline; switch the page toggle to "Yaml" | The page Yaml editor shows the pipeline definition; no `interrupt_before` / `interrupt_after` keys yet |
+| 2 | Add the pipeline-level line `interrupt_after: [Code 1]`; click "Save" | Pipeline saves without errors |
+| 3 | Switch to "Flow" | The edge "Code 1" → "Printer 1" shows the "Interrupt" label |
+| 4 | Click "Test Pipeline"; send `go` | "Code 1" executes; execution pauses **after** "Code 1"; "Printer 1" has not run |
+| 5 | Inspect the chat panel | The UI shows the paused state (e.g. "How to proceed? To resume the pipeline - type anything...") |
+| 6 | Send `continue` | Execution resumes; "Printer 1" runs and its output appears; the run completes |
+| 7 | In page "Yaml", replace the interrupt with `interrupt_before: [Printer 1]`; click "Save" | Pipeline saves without errors; `interrupt_after` is gone |
+| 8 | Send `go` in the Test Pipeline panel | "Code 1" executes; execution pauses **before** "Printer 1"; "Printer 1" has not run |
+| 9 | Inspect the chat panel | The UI shows the paused state |
+| 10 | Send `continue` | Execution resumes; "Printer 1" runs and its output appears; the run completes |
+| 11 | Reload the page; open page "Yaml" | `interrupt_before: [Printer 1]` is still present |
 
 ---
 
 ## Expected Final State
 
-The Interrupt after toggle correctly pauses pipeline execution after the configured node. The UI shows the interrupt state and execution resumes when triggered.
+Both `interrupt_after` and `interrupt_before`, set in the pipeline YAML, pause execution at the configured point. The UI shows the paused state, the run resumes and completes after the user sends a message, and the setting persists after reload.
 
 ---
 
@@ -58,8 +66,8 @@ The Interrupt after toggle correctly pauses pipeline execution after the configu
 
 **Pass:**
 - All steps complete without errors.
-- Interrupt after toggle pauses execution, UI shows interrupt state, and execution resumes successfully.
+- Execution pauses after "Code 1" with `interrupt_after`, and before "Printer 1" with `interrupt_before`; each run resumes and completes.
 
 **Fail:**
-- Any step produces an error or unexpected result.
-- Execution does not pause, interrupt state is not shown, or execution cannot resume.
+- Execution does not pause at the configured point, the paused state is not shown, or the run cannot be resumed.
+- The interrupt setting is lost after save and reload.
