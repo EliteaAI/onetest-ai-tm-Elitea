@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.skills.test_skill_run_analytics_costs.TestSkillRunAnalytics.test_skill_run_analytics_costs_accuracy
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/0f9e4a4b12208a906dd780c785a92253d94addc2
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/af5ccbf8a1f06be24e5c3e5847e88dced1f7dfde
 tags: [automated:UI:regression, feat:skills, analytics, cost-tracking, data-reconciliation]
 requirements: [EliteaAI/elitea_issues#6928]
 ---
@@ -54,7 +54,7 @@ requirements: [EliteaAI/elitea_issues#6928]
 | 6 | Verify breadcrumbs show correct navigation path | Breadcrumbs display: Skills > [Skill Name] > Run [ID] > Analytics |
 | 7 | Verify run header displays correct metadata | Run ID, timestamp, status, version visible |
 | 8 | Click "Costs" tab | Costs tab becomes active |
-| 9 | Verify "Total Cost" summary card displays | Total cost shown with $ amount |
+| 9 | Verify "Total Cost" summary card displays | Total cost shown with $ amount. Costs between $0.0001 and $0.01 are rounded UP to 4 decimals (e.g. 0.000512 is shown as $0.0006); costs below $0.0001 show 5 decimals |
 | 10 | Verify "Cost Breakdown" section shows model-level costs | Cost breakdown by model displayed (e.g., Claude Sonnet: $X.XX) |
 | 11 | Verify "Cost by User" table shows accurate data | If applicable, cost attributed to user correctly |
 | 12 | Verify "Cost by Model" table shows accurate data | Each model's cost and token usage displayed |
