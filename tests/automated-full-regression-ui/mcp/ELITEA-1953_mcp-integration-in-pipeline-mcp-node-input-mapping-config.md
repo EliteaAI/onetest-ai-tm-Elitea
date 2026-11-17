@@ -12,7 +12,7 @@ requirements: []
 
 # ELITEA-1953: DEPRECATED — MCP Integration in Pipeline — MCP Node Input Mapping Configuration
 
-> **Deprecated (Pipelines 2.0, elitea_issues#7093):** merged into ELITEA-2037 (input-mapping type change step moved to 2037).
+> **Deprecated (Pipelines 2.0, elitea_issues#7093):** merged into ELITEA-2037 (input-mapping type change step moved to 2037). **Replaced by:** ELITEA-2037.
 
 **Module:** pipelines · **Priority:** high · **Type:** functional
 

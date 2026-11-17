@@ -12,7 +12,7 @@ requirements: []
 
 # ELITEA-1952: DEPRECATED — MCP Integration in Pipeline — Add MCP to Tools and Configure MCP Node
 
-> **Deprecated (Pipelines 2.0, elitea_issues#7093):** merged into ELITEA-2037 (MCP now picked in the node picker; run step moved to 2037).
+> **Deprecated (Pipelines 2.0, elitea_issues#7093):** merged into ELITEA-2037 (MCP now picked in the node picker; run step moved to 2037). **Replaced by:** ELITEA-2037.
 
 **Module:** pipelines · **Priority:** high · **Type:** functional
 

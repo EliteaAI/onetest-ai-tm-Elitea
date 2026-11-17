@@ -12,7 +12,7 @@ requirements: []
 
 # ELITEA-2069: DEPRECATED — Pipeline — Execution with Chat Message
 
-> **Deprecated (Pipelines 2.0, elitea_issues#7093):** duplicate of ELITEA-0862 (execution), ELITEA-2017 (streaming) and ELITEA-2053 (chat starters).
+> **Deprecated (Pipelines 2.0, elitea_issues#7093):** duplicate of ELITEA-0862 (execution), ELITEA-2017 (streaming) and ELITEA-2053 (chat starters). **Replaced by:** ELITEA-0862, ELITEA-2017, ELITEA-2053.
 
 **Module:** pipelines · **Priority:** high · **Type:** functional
 

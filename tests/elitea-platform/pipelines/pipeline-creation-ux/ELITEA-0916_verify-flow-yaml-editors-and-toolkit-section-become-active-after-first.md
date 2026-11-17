@@ -11,7 +11,7 @@ requirements: [EliteaAI/elitea_issues#4418]
 ---
 # ELITEA-0916: DEPRECATED — Verify Flow/YAML Editors and Toolkit Section Become Active After First Save
 
-> **Deprecated (Pipelines 2.0, elitea_issues#7093):** old create form — editors are active from the start, no first-save gate (elitea_issues#7154).
+> **Deprecated (Pipelines 2.0, elitea_issues#7093):** old create form — editors are active from the start, no first-save gate (elitea_issues#7154). **Replaced by:** ELITEA-4696, ELITEA-4714.
 
 **Module:** Pipeline Creation Ux · **Priority:** Critical · **Type:** Functional
 

@@ -11,7 +11,7 @@ requirements: [EliteaAI/elitea_issues#4418]
 ---
 # ELITEA-0914: DEPRECATED — Verify Toolkit Section Add Buttons Are Hidden Before First Save and Visible After
 
-> **Deprecated (Pipelines 2.0, elitea_issues#7093):** old create form — "+ Toolkit/+ MCP" buttons no longer exist; tools are picked in nodes (elitea_issues#7154, #7159).
+> **Deprecated (Pipelines 2.0, elitea_issues#7093):** old create form — "+ Toolkit/+ MCP" buttons no longer exist; tools are picked in nodes (elitea_issues#7154, #7159). **Replaced by:** ELITEA-4707, ELITEA-4718.
 
 **Module:** Pipeline Creation Ux · **Priority:** Critical · **Type:** Functional
 

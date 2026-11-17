@@ -11,7 +11,7 @@ requirements: [EliteaAI/elitea_issues#4418]
 ---
 # ELITEA-0917: DEPRECATED — Verify Editing an Existing Pipeline Has All Sections Available
 
-> **Deprecated (Pipelines 2.0, elitea_issues#7093):** old create form flow; superseded by the canvas-first editor (elitea_issues#7154).
+> **Deprecated (Pipelines 2.0, elitea_issues#7093):** old create form flow; superseded by the canvas-first editor (elitea_issues#7154). **Replaced by:** ELITEA-4701.
 
 **Module:** Pipeline Creation Ux · **Priority:** Critical · **Type:** Functional
 
