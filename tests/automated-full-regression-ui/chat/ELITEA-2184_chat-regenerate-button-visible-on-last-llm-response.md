@@ -41,8 +41,8 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/1bd3e1ae
 | # | Action | Expected Result |
 |---|--------|--------------------|
 | 1 | Scroll to the last LLM response in the conversation | Last response visible |
-| 2 | Hover over the last response | Regenerate button and action icons (speaker, copy, regenerate, delete) visible |
-| 3 | Hover over any earlier LLM response | No Regenerate button visible on earlier responses |
+| 2 | Hover over the last response | Regenerate button and action icons (read out, copy markdown, copy text, regenerate, delete) visible |
+| 3 | Hover over any earlier LLM response | No Regenerate button (and no Delete) visible on earlier responses; only read out, copy markdown and copy text are offered |
 | 4 | Verify Regenerate only on last response | Only last response has Regenerate |
 
 ---

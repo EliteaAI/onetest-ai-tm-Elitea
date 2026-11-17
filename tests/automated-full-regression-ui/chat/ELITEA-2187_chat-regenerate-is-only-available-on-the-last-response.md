@@ -40,8 +40,8 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/586d71d3
 
 | # | Action | Expected Result |
 |---|--------|--------------------|
-| 1 | Hover over any earlier LLM response (not the last) | No Regenerate text button visible |
-| 2 | Hover over the last LLM response | Regenerate button and regenerate icon visible |
+| 1 | Hover over any earlier LLM response (not the last) | No Regenerate text button visible; no Delete; only read out, copy markdown and copy text are offered |
+| 2 | Hover over the last LLM response | Regenerate button and regenerate icon visible, alongside read out, copy markdown, copy text and delete |
 | 3 | Click Regenerate on last response | New generation triggered correctly |
 
 ---
