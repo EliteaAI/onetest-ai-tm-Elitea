@@ -1,15 +1,17 @@
 ---
 id: ELITEA-0929
-title: "Verify New Pipeline Creation Form Displays Only Basic Configuration Fields"
+title: "DEPRECATED — Verify New Pipeline Creation Form Displays Only Basic Configuration Fields"
 priority: critical
 type: functional
 module: pipeline-creation-ux
-status: ready
+status: deprecated
 execution_type: manual
 tags: [feat:pipelines, r-2.0.2, 4418]
 requirements: [EliteaAI/elitea_issues#4418]
 ---
-# ELITEA-0929: Verify New Pipeline Creation Form Displays Only Basic Configuration Fields
+# ELITEA-0929: DEPRECATED — Verify New Pipeline Creation Form Displays Only Basic Configuration Fields
+
+> **Deprecated (Pipelines 2.0, elitea_issues#7093):** old create form — the editor opens directly on the canvas with all sections (elitea_issues#7154).
 
 **Module:** Pipeline Creation Ux · **Priority:** Critical · **Type:** Functional
 

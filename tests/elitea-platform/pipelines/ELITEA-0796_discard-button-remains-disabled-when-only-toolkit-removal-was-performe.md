@@ -1,24 +1,27 @@
 ---
 id: ELITEA-0796
-title: "Discard Button Remains Disabled When Only Toolkit Removal Was Performed"
+title: "Toolkit Removal Alone Enables Discard, and Discard Restores the Toolkit"
 priority: high
 type: functional
 module: pipelines
 status: draft
 execution_type: manual
-tags: [feat:pipeline_nodes, r-2.0.3]
-requirements: [EliteaAI/elitea_issues#5105]
+tags: [feat:pipeline_nodes, r-2.0.3, epic:7093]
+requirements: [EliteaAI/elitea_issues#5105, EliteaAI/elitea_issues#7159]
 ---
-# ELITEA-0796: Discard Button Remains Disabled When Only Toolkit Removal Was Performed
+# ELITEA-0796: Toolkit Removal Alone Enables Discard, and Discard Restores the Toolkit
+
+> **Updated for Pipelines 2.0:** Behaviour change (#7159). Toolkit removal is no longer auto-saved: removing a toolkit (X) is an unsaved change that enables Save and Discard. Discard restores it, and navigating away without saving does not persist the removal.
 
 **Module:** Pipelines · **Priority:** High · **Type:** Functional
 
-**Objective:** Verify that the Discard button stays inactive (disabled) when the only change made to a pipeline is removing a toolkit from a Toolkit Node or LLM Node, because toolkit removal is an immediate irreversible operation not tracked in the save/discard cycle.
+**Objective:** Verify that removing a toolkit from a Toolkit Node or LLM Node (with no other changes) enables Save and Discard, that Discard restores the toolkit, and that the removal is persisted only on Save.
 
 **Coverage:**
-- Discard button is disabled after toolkit removal in Toolkit Node (no other changes)
-- Discard button is disabled after toolkit removal in LLM Node (no other changes)
-- Behavior is consistent with the documented design: toolkit removal does not activate the Discard flow
+- Discard and Save become enabled after toolkit removal in a Toolkit Node
+- Discard and Save become enabled after toolkit removal in an LLM Node
+- Discard restores the toolkit
+- Removal is not persisted without Save
 
 ## Preconditions
 
@@ -36,24 +39,25 @@ requirements: [EliteaAI/elitea_issues#5105]
 | # | Action | Expected Result |
 |---|--------|----------------|
 | 1 | Open the pipeline with the Toolkit Node. Confirm Save and Discard are both disabled. | Save: disabled. Discard: disabled. |
-| 2 | In the Toolkit Node, click the × / remove button to remove the toolkit (Sharepoint). | Toolkit is removed from the node. Save and Discard remain disabled — toolkit removal is auto-saved to the backend immediately and does not create a pending reversible change. |
-| 3 | Observe the Discard button. | Discard button remains disabled. There is nothing to discard — toolkit removal is already committed. |
-| 4 | Navigate away without clicking Save. Re-open the pipeline. | Pipeline loads with the toolkit already gone — the removal was auto-saved at the moment it happened, not dependent on Save or Discard. |
+| 2 | Open the Toolkit Node panel and click the X (clear) button next to the Toolkit field (Sharepoint). | Toolkit is removed from the node. **Save and Discard become enabled.** |
+| 3 | Click Discard. | Toolkit Sharepoint, tool and Input Mapping are restored on the node and in TOOLS. Save and Discard are disabled. |
+| 4 | Remove the toolkit again (X). Navigate away, choose Leave on the unsaved-changes prompt, then re-open the pipeline. | Pipeline loads with the toolkit still configured — the removal was not saved. |
 | 5 | Open the pipeline with the LLM Node. Confirm Save and Discard are both disabled. | Save: disabled. Discard: disabled. |
-| 6 | In the LLM Node Toolkits section, remove the configured toolkit (Artifacts). | Toolkit entry is removed. Save and Discard remain disabled. |
-| 7 | Observe the Discard button. | Discard button remains disabled. |
+| 6 | Open the LLM Node panel and remove the configured toolkit (Artifacts) from Toolkits & MCPs (X). | Toolkit entry is removed. Save and Discard become enabled. |
+| 7 | Click Discard. | Artifacts toolkit is restored on the LLM Node. Save and Discard are disabled. |
 
 ## Expected Final State
 
-Discard button remains disabled.
+Toolkit removal is tracked as an unsaved change in both node types and is fully reverted by Discard.
 
 ## Pass/Fail Criteria
 
 **Pass:**
-- Discard button remains disabled after toolkit removal in both Toolkit Node and LLM Node scenarios
-- Save button also remains inactive — no pending changes after toolkit removal
-- Navigating away and returning shows the toolkit as already removed (auto-saved)
+- Save and Discard become enabled after toolkit-only removal in both Toolkit Node and LLM Node
+- Discard restores the removed toolkit
+- Navigating away without saving does not persist the removal
 
 **Fail:**
-- Discard or Save button becomes active after toolkit-only removal
-- Navigating away and returning causes the toolkit to reappear (removal was not persisted)
+- Discard stays disabled after toolkit removal
+- Discard does not restore the toolkit
+- Removal is persisted without Save

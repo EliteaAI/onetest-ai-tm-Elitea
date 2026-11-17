@@ -1,15 +1,17 @@
 ---
 id: ELITEA-0913
-title: "Verify Flow and YAML Editors Are Disabled/Hidden Before First Save"
+title: "DEPRECATED — Verify Flow and YAML Editors Are Disabled/Hidden Before First Save"
 priority: critical
 type: functional
 module: pipeline-creation-ux
-status: ready
+status: deprecated
 execution_type: manual
 tags: [feat:pipelines, r-2.0.2, 4418]
 requirements: [EliteaAI/elitea_issues#4418]
 ---
-# ELITEA-0913: Verify Flow and YAML Editors Are Disabled/Hidden Before First Save
+# ELITEA-0913: DEPRECATED — Verify Flow and YAML Editors Are Disabled/Hidden Before First Save
+
+> **Deprecated (Pipelines 2.0, elitea_issues#7093):** old create form — canvas and YAML are usable before the first save (elitea_issues#7154).
 
 **Module:** Pipeline Creation Ux · **Priority:** Critical · **Type:** Functional
 

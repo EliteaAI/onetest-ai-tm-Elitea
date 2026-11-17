@@ -6,22 +6,24 @@ type: functional
 module: pipelines
 status: draft
 execution_type: manual
-tags: [automated:UI:regression, feat:pipelines]
-requirements: []
+tags: [automated:UI:regression, feat:pipelines, epic:7093]
+requirements: [EliteaAI/elitea_issues#7157]
 ---
 
 # ELITEA-2015: Pipeline HITL Node — Runtime Behavior
 
+> **Updated for Pipelines 2.0:** rewritten with concrete topology, configuration via the node panel, exact messages, and two runs (Approve, then Reject).
+
 **Module:** pipelines · **Priority:** high · **Type:** functional
 
-**Objective:** Verify that during pipeline execution, a HITL node correctly pauses execution and displays action buttons (Approve, Edit, Reject), and that each action routes the flow to the configured target node.
+**Objective:** Verify that during pipeline execution a HITL node pauses execution and shows Approve / Edit / Reject actions, and that Approve and Reject route the flow to their configured targets.
 
 ---
 
 ## Preconditions
 
 - User is logged in to the Elitea platform.
-- A pipeline exists with configuration: LLM → HITL → Printer → END, with HITL routes: APPROVE→Printer, REJECT→END.
+- An LLM model is available in the project.
 
 ---
 
@@ -29,7 +31,12 @@ requirements: []
 
 | Field | Value |
 |-------|-------|
-| (none required) | — |
+| Topology | "LLM 1" (LLM, entry point) → "HITL 1" (HITL) → "Printer 1" (Printer) → End |
+| LLM 1 Task | `Write one sentence about testing` |
+| HITL 1 USER MESSAGE | Fixed: `Please review the generated sentence` |
+| HITL 1 routes | Approve → Printer 1 · Edit → Printer 1 · Reject → End |
+| Printer 1 text | Fixed: `Approved output printed` |
+| Run message | `start` |
 
 ---
 
@@ -37,18 +44,18 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Create pipeline: LLM → HITL → Printer → END with HITL routes configured (APPROVE→Printer, REJECT→END) | Pipeline is saved with the described topology |
-| 2 | Execute pipeline with a message | Pipeline starts execution |
-| 3 | Verify pipeline pauses at HITL node — chat shows user message content and action buttons (Approve, Edit, Reject) | Execution pauses, user message is displayed, and Approve/Edit/Reject buttons appear |
-| 4 | Click "Approve" — verify flow continues to configured APPROVE route node | Flow proceeds to the Printer node |
-| 5 | Verify final response appears in chat | Response message is displayed in the chat panel |
-| 6 | Execute again, this time click "Reject" — verify flow goes to END (no further processing) | Pipeline ends without producing a Printer output |
+| 1 | Create a pipeline; add the nodes and configure them in the node panels per Test Data; click "Save" | Pipeline saves; canvas shows LLM 1 → HITL 1 → Printer 1 → End, with HITL routes drawn to "Printer 1" and "End" |
+| 2 | Click "Test Pipeline"; send `start` | "LLM 1" runs and its response appears |
+| 3 | Wait for the run to reach "HITL 1" | Execution pauses. The panel shows the message "Please review the generated sentence" and the buttons "Approve", "Edit", "Reject". "HITL 1" is highlighted on the canvas |
+| 4 | Click "Approve" | Flow continues to "Printer 1"; the text "Approved output printed" appears in the panel; the run completes |
+| 5 | Send `start` again; wait for the HITL pause | The HITL message and the "Approve" / "Edit" / "Reject" buttons appear again |
+| 6 | Click "Reject" | The flow goes to End; "Approved output printed" does NOT appear for this run; the run completes |
 
 ---
 
 ## Expected Final State
 
-The HITL node correctly pauses execution, presents action buttons, and routes to the appropriate target node based on the user's choice (Approve → Printer response; Reject → pipeline ends).
+The HITL node pauses execution and offers Approve / Edit / Reject; Approve routes to "Printer 1" (printed output shown); Reject ends the pipeline without the Printer output.
 
 ---
 
@@ -56,8 +63,8 @@ The HITL node correctly pauses execution, presents action buttons, and routes to
 
 **Pass:**
 - All steps complete without errors.
-- HITL node pauses execution, shows action buttons, and Approve/Reject correctly route to their configured targets.
+- The HITL pause shows the configured message and all three buttons.
+- Approve and Reject route to their configured targets.
 
 **Fail:**
-- Any step produces an error or unexpected result.
-- HITL does not pause, action buttons are missing, or routing does not match configuration.
+- HITL does not pause, buttons are missing, or routing does not match the configuration.

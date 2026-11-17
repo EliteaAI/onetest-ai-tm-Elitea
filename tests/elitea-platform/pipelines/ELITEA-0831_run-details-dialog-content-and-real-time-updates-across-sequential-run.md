@@ -6,10 +6,14 @@ type: functional
 module: pipelines
 status: draft
 execution_type: manual
-tags: [feat:pipelines, story:2186]
-requirements: [ProjectAlita/projectalita.github.io#3584, ProjectAlita/projectalita.github.io#2186]
+tags: [feat:pipelines, story:2186, epic:7093]
+requirements: [ProjectAlita/projectalita.github.io#3584, ProjectAlita/projectalita.github.io#2186, EliteaAI/elitea_issues#7155, EliteaAI/elitea_issues#3734]
 ---
 # ELITEA-0831: Run Details Dialog — Content and Real-Time Updates Across Sequential Runs
+
+> **Updated for Pipelines 2.0:** UI wording only. Runs are triggered from the Test Pipeline panel (#7155), and the canvas "Run N details" chip is unchanged. The timeline groups nested agent/pipeline steps into one step (#3734).
+
+> Retest pending
 
 **Module:** Pipelines · **Priority:** High · **Type:** Functional
 
@@ -24,23 +28,23 @@ requirements: [ProjectAlita/projectalita.github.io#3584, ProjectAlita/projectali
 
 ## Preconditions
 
-- A pipeline with at least one LLM node and at least one variable is published.
-- The pipeline is added as a participant in a Chat conversation.
+- A pipeline with at least one LLM node and at least one variable is saved.
+- The pipeline is opened in the editor with the Test Pipeline panel open (or added as a participant in a Chat conversation).
 
 ## Test Data
 
-- Pipeline: minimum 1 LLM node, 1 variable, published
+- Pipeline: minimum 1 LLM node, 1 variable, saved
 - Chat input to trigger a run: any text (e.g., "run")
 
 ## Steps
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | In chat with the pipeline participant, trigger the 1st run. | Pipeline starts. Run chipset appears in Flow View. |
-| 2 | While the run is In Progress, click the run chipset to open the Run Details dialog. | Dialog is NOT empty. Timeline section shows at least the run start timestamp and the first node in progress. Stop button is enabled. |
-| 3 | Wait for the 1st run to complete. Observe the Run Details dialog. | Timeline shows all completed steps with timestamps. States section shows before/after accordion entries for at least one pipeline variable. |
-| 4 | Close the Run Details dialog. | Dialog closes. Flow View is visible. |
-| 5 | Trigger a 2nd run. Immediately click the chipset to open Run Details. | Dialog reflects the new run's In-Progress state — Timeline shows the current run starting, NOT the 1st run's 'Completed' final state. Content is not empty. |
+| 1 | Trigger the 1st run (send a message in the Test Pipeline panel). | Pipeline starts. The "Run 1 details" chip appears on the canvas. |
+| 2 | While the run is In Progress, click the run chip to open the Run Details dialog. | Dialog is NOT empty. Timeline section shows at least the run start timestamp and the first node in progress. Stop button is enabled. |
+| 3 | Wait for the 1st run to complete. Observe the Run Details dialog. | Timeline shows all completed steps with timestamps (a nested agent/pipeline call appears as one step). States section shows before/after accordion entries for at least one pipeline variable. |
+| 4 | Close the Run Details dialog. | Dialog closes. Flow view is visible. |
+| 5 | Trigger a 2nd run. Immediately click the run chip to open Run Details. | Dialog reflects the new run's In-Progress state — Timeline shows the current run starting, NOT the 1st run's 'Completed' final state. Content is not empty. |
 | 6 | Wait for the 2nd run to complete. Verify the dialog. | Timeline and States sections reflect the 2nd run's data. Data is not stale from the 1st run. |
 | 7 | Repeat steps 5–6 for a 3rd run. | Run Details consistently reflects the active run after each trigger; no empty dialog and no data from previous runs. |
 

@@ -6,17 +6,20 @@ type: functional
 module: pipelines
 status: draft
 execution_type: manual
-tags: [feat:pipeline_nodes, feat:pipelines, R-2.0.1]
-requirements: [ProjectAlita/projectalita.github.io#3752, ProjectAlita/projectalita.github.io#3652]
+tags: [feat:pipeline_nodes, feat:pipelines, R-2.0.1, epic:7093]
+requirements: [ProjectAlita/projectalita.github.io#3752, ProjectAlita/projectalita.github.io#3652, EliteaAI/elitea_issues#7159]
 ---
 # ELITEA-0837: Node-first: Agent Node remains unconfigured when nested agent with same name is attached
 
+> **Updated for Pipelines 2.0:** UI wording only. The old "Attach nested agent/pipeline" flow in TOOLS is gone; the nested entity is attached by picking it in another Agent node's picker (#7159). Configuration is in the side panel (#7157).
+
+> Retest pending
+
 **Module:** Pipelines · **Priority:** Medium · **Type:** Functional
 
-**Objective:** Objective:
-Verify that when an Agent node is created first and later a nested agent or nested pipeline with the same name is attached, the Agent node remains unconfigured and the pipeline YAML contains no InputMapping or spurious "tool" field.
+**Objective:** Verify that when an Agent node is created first and later a nested agent or nested pipeline with the same name is attached, the Agent node remains unconfigured and the pipeline YAML contains no InputMapping or spurious "tool" field.
 
-Coverage:
+**Coverage:**
 - Applicable for both nested agents and nested pipelines.
 - Ensures that attaching a nested entity after node creation does not auto-configure the node.
 
@@ -25,7 +28,7 @@ Coverage:
 - Environment: {{base_url}}
 - Logged in with pipeline.create, pipeline.edit, agents.create permissions
 - Browser: Chrome/Chromium
-No unsaved changes in pipeline editor
+- No unsaved changes in pipeline editor
 
 ## Test Data
 
@@ -38,11 +41,11 @@ No unsaved changes in pipeline editor
 
 | # | Action | Expected Result |
 |---|--------|----------------|
-| 1 | Navigate to Pipelines and create a new pipeline "Same name - TC". | Pipeline editor opens with an empty canvas |
-| 2 | Add an Agent node and set its node name to "TestCaseCreator". | Node appears named "TestCaseCreator"; node config panel shows no toolkit/tool selected |
+| 1 | Navigate to Pipelines and create a new pipeline "Same name - TC". | Pipeline editor opens with the empty-state canvas |
+| 2 | Add an Agent node and set its Name (in the node panel) to "TestCaseCreator". | Node appears named "TestCaseCreator"; its panel shows no agent selected; card summary shows "Not configured" |
 | 3 | Create agent/pipeline named "TestCaseCreator" | Agent/Pipeline are successfully created |
-| 4 | Use the pipeline "Attach nested agent/pipeline" flow to add a nested agent/pipeline named "TestCaseCreator" | Pipeline-level toolkits list shows "TestCaseCreator" attached; the Agent node "TestCaseCreator" remains visually unconfigured and unchanged in its config panel. |
-| 5 | Open the pipeline YAML view. | YAML does NOT include an InputMapping section under the Agent node "TestCaseCreator" and does not add a "tool" field for that node. |
+| 4 | Add a second Agent node, open its panel and pick "TestCaseCreator" in the Agents & Pipelines picker | "TestCaseCreator" is attached and listed in the left TOOLS section (Used by: the second node only); the first Agent node "TestCaseCreator" remains unconfigured and unchanged in its panel. |
+| 5 | Open the first node's YAML tab / the page Yaml view. | YAML does NOT include an InputMapping section under the Agent node "TestCaseCreator" and does not add a "tool" field for that node. |
 | 6 | (Optional) Repeat steps 3–5 for the other entity type if only one was used initially. | Node remains unconfigured; YAML unchanged. |
 
 ## Expected Final State

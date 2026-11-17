@@ -1,16 +1,18 @@
 ---
 id: ELITEA-1953
-title: "MCP Integration in Pipeline — MCP Node Input Mapping Configuration"
+title: "DEPRECATED — MCP Integration in Pipeline — MCP Node Input Mapping Configuration"
 priority: high
 type: functional
 module: pipelines
-status: draft
+status: deprecated
 execution_type: manual
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---
 
-# ELITEA-1953: MCP Integration in Pipeline — MCP Node Input Mapping Configuration
+# ELITEA-1953: DEPRECATED — MCP Integration in Pipeline — MCP Node Input Mapping Configuration
+
+> **Deprecated (Pipelines 2.0, elitea_issues#7093):** merged into ELITEA-2037 (input-mapping type change step moved to 2037).
 
 **Module:** pipelines · **Priority:** high · **Type:** functional
 

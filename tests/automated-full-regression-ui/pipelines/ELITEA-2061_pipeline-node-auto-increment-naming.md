@@ -1,19 +1,21 @@
 ---
 id: ELITEA-2061
-title: "Pipeline — Node Duplicate via Node Menu"
+title: "Pipeline — Node Auto-Increment Naming"
 priority: medium
 type: functional
 module: pipelines
-status: ready
-execution_type: automated
-tags: [automated:UI:regression, feat:pipelines]
+status: draft
+execution_type: manual
+tags: [automated:UI:regression, feat:pipelines, epic:7093]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines_2.test_pipeline_node_auto_increment_naming.test_node_auto_increment_naming_by_type
 automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1356
 ---
 
-# ELITEA-2061: Pipeline — Node Duplicate via Node Menu
+# ELITEA-2061: Pipeline — Node Auto-Increment Naming
+
+> **Updated for Pipelines 2.0:** title corrected — this case covers auto-increment naming of newly added nodes only. Duplicate node (#7161) is covered by ELITEA-4719.
 
 **Module:** pipelines · **Priority:** medium · **Type:** functional
 
@@ -41,9 +43,9 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1356
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Open a pipeline with a configured node | Pipeline is open |
-| 2 | Select a node on canvas of any type (e.g., LLM, Code, Printer) | Node is selected |
+| 2 | Click "+ Node" and add a node of any type (e.g., LLM, Code, Printer) | Node is added |
 | 3 | Verify the added node name is "<NodeType> number" (e.g., "LLM 1", "Code 2") | Node name follows the incremental naming pattern |
-| 4 | Select another node of the same type | Second node of the same type is added |
+| 4 | Click "+ Node" and add another node of the same type | Second node of the same type is added |
 | 5 | Verify the node name increments (e.g., "LLM 2", "Code 3") | New node name is incremented from the previous |
 
 ---

@@ -6,11 +6,13 @@ type: functional
 module: pipelines
 status: draft
 execution_type: manual
-tags: [automated:UI:regression, feat:pipelines]
-requirements: []
+tags: [automated:UI:regression, feat:pipelines, epic:7093]
+requirements: [EliteaAI/elitea_issues#7157]
 ---
 
 # ELITEA-2033: Pipeline — Router Node Configuration
+
+> **Updated for Pipelines 2.0:** wording modernized — the node is added via "+ Node" and configured in the node configuration panel (cards are view-only). Checks unchanged.
 
 **Module:** pipelines · **Priority:** high · **Type:** functional
 
@@ -21,7 +23,7 @@ requirements: []
 ## Preconditions
 
 - User is logged in to the Elitea platform.
-- A pipeline with state variable "input" and target nodes for routing exists.
+- A pipeline with state variable "input" and two target nodes named "approve" and "reject" exists.
 
 ---
 
@@ -40,15 +42,15 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Create a pipeline and add a Router node via "Add node" → "Router" | Router node appears on canvas |
-| 2 | Verify Router node panel shows: Condition (Jinja template text area), Routes (combobox), Input combobox, Default output dropdown | All listed sections are present |
-| 3 | In "Condition" field enter Jinja template: "{% if 'yes' in input %}approve{% else %}reject{% endif %}" | Condition field accepts the Jinja template |
-| 4 | In Routes combobox add route values: "approve", "reject" | Both route values are added |
-| 5 | Set Input combobox to state variable "input" | Input is set to "input" variable |
-| 6 | Set "Default output" dropdown to "END" | Default output is set to END |
-| 7 | Save pipeline | Pipeline saves without errors |
-| 8 | Reload — verify Condition text, Routes values, Input, and Default output persist | All Router node fields are correctly restored after reload |
-| 9 | Verify canvas shows edges from Router to target nodes matching route values | Edges connect Router to "approve" and "reject" target nodes |
+| 1 | Open the pipeline; click "+ Node" and select "Router" | Router node card "Router 1" appears on the canvas |
+| 2 | Click the "Router 1" card | The node configuration panel opens and shows: Condition (Jinja text area), Routes (combobox), Input combobox, Default output dropdown |
+| 3 | In "Condition" enter: {% if 'yes' in input %}approve{% else %}reject{% endif %} | Condition field accepts the Jinja template |
+| 4 | In the Routes combobox add "approve" and "reject" | Both route values are added |
+| 5 | Set the Input combobox to "input" | Input is set to "input" |
+| 6 | Set "Default output" to "END" | Default output is set to END |
+| 7 | Click "Save" | Pipeline saves without errors |
+| 8 | Reload; click the "Router 1" card | Condition text, Routes values, Input and Default output are restored in the panel |
+| 9 | Inspect the canvas | Edges connect "Router 1" to the "approve" and "reject" target nodes |
 
 ---
 

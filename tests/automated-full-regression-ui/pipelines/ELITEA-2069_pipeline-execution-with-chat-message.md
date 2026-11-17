@@ -1,16 +1,18 @@
 ---
 id: ELITEA-2069
-title: "Pipeline — Execution with Chat Message"
+title: "DEPRECATED — Pipeline — Execution with Chat Message"
 priority: high
 type: functional
 module: pipelines
-status: draft
+status: deprecated
 execution_type: manual
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---
 
-# ELITEA-2069: Pipeline — Execution with Chat Message
+# ELITEA-2069: DEPRECATED — Pipeline — Execution with Chat Message
+
+> **Deprecated (Pipelines 2.0, elitea_issues#7093):** duplicate of ELITEA-0862 (execution), ELITEA-2017 (streaming) and ELITEA-2053 (chat starters).
 
 **Module:** pipelines · **Priority:** high · **Type:** functional
 
