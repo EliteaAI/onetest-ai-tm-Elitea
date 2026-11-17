@@ -51,7 +51,7 @@ requirements: [EliteaAI/elitea_issues#6922]
 | 3 | Observe the interaction panel interface | Panel displays with an input field at the bottom, placeholder text "Type your message...", and send button (arrow icon) |
 | 4 | Type a test message in the input field: "run" | Text "run" appears in the input field |
 | 5 | Click the send button (arrow icon →) or press Enter | Message sends successfully |
-| 6 | Observe the execution process | Message appears in the interaction panel thread with user avatar/name |
+| 6 | Observe the execution process | Message appears in the interaction panel thread with the sender avatar and the skill name (sender label reads "<user> to <skill name>"; no specific user name is expected) |
 | 7 | Wait for skill processing | "Thought for X secs" indicator appears showing skill is processing |
 | 8 | Observe execution steps/details | Execution steps display showing skill being added (e.g., "Skill: lmt-answer-format" tag/badge appears) |
 | 9 | Verify execution context shows the skill | In the interaction panel, under the response or in execution details, skill name badge appears (e.g., "Skill: lmt-answer-format" with tool icon and model info like "Bedrock GPT-5.6-Luna") |
