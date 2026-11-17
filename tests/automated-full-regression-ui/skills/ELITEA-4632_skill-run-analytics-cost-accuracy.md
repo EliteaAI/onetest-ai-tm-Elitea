@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.skills.test_skill_run_analytics_costs.TestSkillRunAnalytics.test_skill_run_analytics_costs_accuracy
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/af5ccbf8
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/af5ccbf8a1f06be24e5c3e5847e88dced1f7dfde
 tags: [automated:UI:regression, feat:skills, analytics, cost-tracking, data-reconciliation]
 requirements: [EliteaAI/elitea_issues#6928]
 ---
