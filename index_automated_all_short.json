@@ -1971,16 +1971,6 @@
       "path": "tests/automated-full-regression-ui/mcp/ELITEA-1951_mcp-integration-in-agent-nested-agent-with-mcp.md"
     },
     {
-      "id": "ELITEA-1952",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1952_mcp-integration-in-pipeline-add-mcp-and-configure-node.md"
-    },
-    {
-      "id": "ELITEA-1953",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/mcp/ELITEA-1953_mcp-integration-in-pipeline-mcp-node-input-mapping-config.md"
-    },
-    {
       "id": "ELITEA-1954",
       "priority": "medium",
       "path": "tests/automated-full-regression-ui/mcp/ELITEA-1954_mcp-integration-in-pipeline-change-toolkit-and-tool.md"
@@ -2448,7 +2438,7 @@
     {
       "id": "ELITEA-2061",
       "priority": "medium",
-      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-2061_pipeline-node-duplicate-via-node-menu.md"
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-2061_pipeline-node-auto-increment-naming.md"
     },
     {
       "id": "ELITEA-2062",
@@ -2484,11 +2474,6 @@
       "id": "ELITEA-2068",
       "priority": "medium",
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-2068_pipeline-yaml-editor-invalid-syntax.md"
-    },
-    {
-      "id": "ELITEA-2069",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-2069_pipeline-execution-with-chat-message.md"
     },
     {
       "id": "ELITEA-2070",
@@ -2569,6 +2554,46 @@
       "id": "ELITEA-3734",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-3734_fork-pipeline-blocked-when-destination-project-role-is-viewer.md"
+    },
+    {
+      "id": "ELITEA-4714",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4714_pipeline-new-pipeline-empty-canvas-first-node-and-test-pipeline-gate.md"
+    },
+    {
+      "id": "ELITEA-4715",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4715_pipeline-view-only-node-cards-and-node-configuration-panel.md"
+    },
+    {
+      "id": "ELITEA-4716",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4716_pipeline-node-yaml-view-scope-and-two-way-sync.md"
+    },
+    {
+      "id": "ELITEA-4717",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4717_pipeline-node-yaml-view-validation-and-invalid-yaml-handling.md"
+    },
+    {
+      "id": "ELITEA-4718",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4718_pipeline-tools-selected-in-nodes-auto-attach-and-read-only-tools-section.md"
+    },
+    {
+      "id": "ELITEA-4719",
+      "priority": "medium",
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4719_pipeline-duplicate-node-end-to-end.md"
+    },
+    {
+      "id": "ELITEA-4720",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4720_pipeline-test-pipeline-panel-controls-and-session-behavior.md"
+    },
+    {
+      "id": "ELITEA-4721",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4721_pipeline-viewer-role-read-only-editor.md"
     },
     {
       "id": "ELITEA-4464",
