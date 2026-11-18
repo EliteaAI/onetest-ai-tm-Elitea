@@ -1498,6 +1498,102 @@
       "path": "tests/automated-full-regression-ui/agents/ELITEA-3733_fork-agent-blocked-when-destination-project-role-is-viewer.md"
     },
     {
+      "id": "ELITEA-4741",
+      "title": "Agent Instructions default mode: new unsaved agent opens in Edit, saved agent opens in Preview",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7377"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-4741_new-unsaved-agent-instructions-open-in-edit-mode-by-default.md"
+    },
+    {
+      "id": "ELITEA-4742",
+      "title": "Switching Preview and Edit preserves unsaved agent changes without auto-saving",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7377"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-4742_switching-preview-and-edit-preserves-unsaved-agent-changes.md"
+    },
+    {
+      "id": "ELITEA-4743",
+      "title": "Agent Save, Save As Version, and Discard work with the Preview/Edit Instructions editor",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7377"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-4743_agent-save-save-as-version-and-discard-work-with-preview-edit.md"
+    },
+    {
+      "id": "ELITEA-4744",
+      "title": "Viewer role and published versions keep Instructions read-only in Preview and Edit",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7377"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-4744_viewer-and-published-versions-keep-instructions-read-only-in-preview-and-edit.md"
+    },
+    {
       "id": "ELITEA-1903",
       "title": "Build with AI — Build with AI button visible for admin and editor roles in New Agent creation flow",
       "status": "ready",
@@ -17257,7 +17353,7 @@
     },
     {
       "id": "ELITEA-2432",
-      "title": "Skill instructions — Markdown edit and preview toggle",
+      "title": "Skill and agent instructions — Markdown edit and preview toggle",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -17269,7 +17365,9 @@
         "automated:UI:regression",
         "feat:skills"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#7377"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -18527,6 +18625,102 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/skills/ELITEA-4658_frontmatter-name-rename-propagates-then-damaged-delimiter-demotes-edit-to-plain-text.md"
+    },
+    {
+      "id": "ELITEA-4745",
+      "title": "Skill Instructions default mode: new unsaved skill opens in Edit, saved skill opens in Preview",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7377"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4745_skill-instructions-default-mode-new-unsaved-skill-edit-saved-skill-preview.md"
+    },
+    {
+      "id": "ELITEA-4746",
+      "title": "Switching Preview and Edit preserves unsaved skill changes without auto-saving",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7377"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4746_switching-preview-and-edit-preserves-unsaved-skill-changes.md"
+    },
+    {
+      "id": "ELITEA-4747",
+      "title": "Skill Save As Version, version switching, and Discard work with the Preview/Edit Instructions editor",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7377"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4747_skill-save-as-version-and-discard-work-with-preview-edit.md"
+    },
+    {
+      "id": "ELITEA-4748",
+      "title": "Viewer role keeps skill Instructions read-only in Preview and Edit",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7377"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4748_viewer-role-keeps-skill-instructions-read-only-in-preview-and-edit.md"
     },
     {
       "id": "ELITEA-1986",
