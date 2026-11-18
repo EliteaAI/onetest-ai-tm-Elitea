@@ -1312,6 +1312,12 @@
       ]
     },
     {
+      "id": "ELITEA-4720",
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_test_panel_controls_session.test_pipeline_test_panel_controls_and_session"
+      ]
+    },
+    {
       "id": "ELITEA-2392",
       "automation_test_id": [
         "tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error"
