@@ -63,7 +63,7 @@ requirements: []
 | 7 | Verify error toast: "Version is published and cannot be updated" | Error toast appears |
 | 8 | Attempt to edit the agent's description | Edit is blocked or shows error |
 | 9 | Verify same error message | Error toast appears |
-| 10 | Attempt to edit the agent's instructions | Edit is blocked or shows error |
+| 10 | Attempt to edit the agent's instructions: in the INSTRUCTIONS section, switch to Edit mode (if the switch is offered) and try to type; then open Full Screen (if available) and try to type | Edit is blocked: the Instructions editor is read-only and the text does not change, and Full Screen is read-only too (or an error is shown) |
 | 11 | Verify same error message | Error toast appears |
 | 12 | Attempt to modify tags (add or remove) | Edit is blocked or shows error |
 | 13 | Verify same error message | Error toast appears |
