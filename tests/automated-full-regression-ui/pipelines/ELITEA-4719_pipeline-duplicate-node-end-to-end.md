@@ -4,8 +4,11 @@ title: "Pipeline — Duplicate Node End-to-End"
 priority: medium
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_duplicate_node.test_pipeline_duplicate_node_end_to_end
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/7d3b2c59000857140c8d2a60bbf9e8e14640afed
 tags: [automated:UI:regression, feat:pipelines, epic:7093]
 requirements: [EliteaAI/elitea_issues#7161, EliteaAI/elitea_issues#7418]
 ---
