@@ -1288,6 +1288,18 @@
       ]
     },
     {
+      "id": "ELITEA-4716",
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_node_yaml_view.test_node_yaml_view_scope_and_two_way_sync"
+      ]
+    },
+    {
+      "id": "ELITEA-4717",
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_node_yaml_view.test_node_yaml_view_validation_and_invalid_yaml"
+      ]
+    },
+    {
       "id": "ELITEA-2392",
       "automation_test_id": [
         "tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error"
