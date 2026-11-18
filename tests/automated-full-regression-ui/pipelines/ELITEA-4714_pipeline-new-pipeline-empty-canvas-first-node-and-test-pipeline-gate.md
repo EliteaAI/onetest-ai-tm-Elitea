@@ -4,8 +4,11 @@ title: "Pipeline — New Pipeline Empty Canvas, First Node and Test Pipeline Gat
 priority: critical
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_new_empty_canvas_first_node_test_gate.test_new_pipeline_empty_canvas_first_node_and_test_gate
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/27a0f1c5af0daed703e2526dde80870e18ac113e
 tags: [automated:UI:regression, feat:pipelines, epic:7093]
 requirements: [EliteaAI/elitea_issues#7154, EliteaAI/elitea_issues#7155, EliteaAI/elitea_issues#7156]
 ---
