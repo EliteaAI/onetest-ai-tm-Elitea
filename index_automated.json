@@ -11848,8 +11848,8 @@
     {
       "id": "ELITEA-4714",
       "title": "Pipeline — New Pipeline Empty Canvas, First Node and Test Pipeline Gate",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -11865,7 +11865,9 @@
         "EliteaAI/elitea_issues#7155",
         "EliteaAI/elitea_issues#7156"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_new_empty_canvas_first_node_test_gate.test_new_pipeline_empty_canvas_first_node_and_test_gate"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
