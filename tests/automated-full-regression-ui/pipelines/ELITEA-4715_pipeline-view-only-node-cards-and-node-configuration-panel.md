@@ -4,8 +4,11 @@ title: "Pipeline — View-Only Node Cards and Node Configuration Panel"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_view_only_node_cards_and_config_panel.test_pipeline_view_only_node_cards_and_config_panel
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/7a71eb344058ef1648c91f1a9dffd8cf08451b63
 tags: [automated:UI:regression, feat:pipelines, epic:7093]
 requirements: [EliteaAI/elitea_issues#7157]
 ---
