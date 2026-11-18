@@ -4,8 +4,11 @@ title: "Pipeline — Test Pipeline Panel Controls and Session Behavior"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_test_panel_controls_session.test_pipeline_test_panel_controls_and_session
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/25605a1151d17f7f0561d20fe9b4d00ddf660595
 tags: [automated:UI:regression, feat:pipelines, epic:7093]
 requirements: [EliteaAI/elitea_issues#7155]
 ---
