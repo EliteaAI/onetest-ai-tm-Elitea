@@ -11954,8 +11954,8 @@
     {
       "id": "ELITEA-4718",
       "title": "Pipeline — Tools Selected in Nodes: Auto-Attach and Read-Only TOOLS Section",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -11969,7 +11969,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#7159"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_tools_auto_attach_read_only.test_tools_selected_in_nodes_auto_attach_and_read_only_tools"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
