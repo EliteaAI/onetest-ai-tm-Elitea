@@ -6,7 +6,7 @@ type: regression
 module: agents
 status: draft
 execution_type: manual
-tags: [feat:agents, r-2.0.9, automated:UI:regression]
+tags: [feat:agents, r-2.0.9]
 requirements: [EliteaAI/elitea_issues#7377]
 ---
 

@@ -44,13 +44,13 @@ requirements: []
 | 3 | Click the "Start conversation" button | New conversation is created; PARTICIPANTS panel shows "Reflexion v1.0" |
 | 4 | Click the "View settings" button next to the agent in PARTICIPANTS | Agent settings canvas opens showing "Reflexion v1.0" with "Public" label |
 | 5 | Verify the LLM model selector is visible at the top | LLM model chip (e.g. "GPT-5.4-mini") is displayed and clickable |
-| 6 | Verify the INSTRUCTIONS section appears READ-ONLY | Text is visible but not editable |
+| 6 | Verify the INSTRUCTIONS section appears READ-ONLY | Text is visible but not editable: either no Preview / Edit switch is offered, or Edit mode is offered but the editor is read-only |
 | 7 | Verify module toggles in TOOLS section appear DISABLED | Toggles are greyed out and cannot be changed |
 | 8 | Verify no SAVE button is visible (confirming view-only mode for most settings) | No Save button in canvas header |
 | 9 | Click the LLM model chip and select "Anthropic Claude 4.5 Sonnet" from the dropdown | Model selector updates to show new model |
 | 10 | Click the settings/gear icon next to the LLM model selector | Model settings modal opens with REASONING slider, MAX COMPLETION TOKENS, CAPABILITIES |
 | 11 | Adjust REASONING slider to "High" and click "Apply" | Modal closes; LLM settings updated |
-| 12 | Attempt to click into the INSTRUCTIONS text area | No cursor appears; text cannot be edited |
+| 12 | Attempt to edit the INSTRUCTIONS: if a Preview / Edit switch is offered, switch to Edit and try to type; otherwise click into the INSTRUCTIONS text area | Text cannot be edited: the editor is read-only in Edit mode, or (with no switch) no cursor appears |
 | 13 | Close the canvas by clicking X and verify canvas closes | Conversation view is displayed |
 | 14 | Send a test message "hello" | Agent responds using the newly selected LLM model |
 
