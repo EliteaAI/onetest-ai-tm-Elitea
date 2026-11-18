@@ -4,8 +4,11 @@ title: "Pipeline — Tools Selected in Nodes: Auto-Attach and Read-Only TOOLS Se
 priority: critical
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_tools_auto_attach_read_only.test_tools_selected_in_nodes_auto_attach_and_read_only_tools
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/4cb8ce281ea8ffdada46a64dc5e3e49d01d5aceb
 tags: [automated:UI:regression, feat:pipelines, epic:7093]
 requirements: [EliteaAI/elitea_issues#7159]
 ---
