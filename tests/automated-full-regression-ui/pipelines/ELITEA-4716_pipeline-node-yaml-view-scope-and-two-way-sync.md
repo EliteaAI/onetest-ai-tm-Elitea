@@ -4,8 +4,11 @@ title: "Pipeline — Node YAML View: Scope and Two-Way Sync"
 priority: high
 type: functional
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_node_yaml_view.test_node_yaml_view_scope_and_two_way_sync
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/4192956f2f30261a3b906f374face7b7517ff008
 tags: [automated:UI:regression, feat:pipelines, epic:7093]
 requirements: [EliteaAI/elitea_issues#7158]
 ---
