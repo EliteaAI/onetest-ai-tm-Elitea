@@ -993,6 +993,12 @@
       ]
     },
     {
+      "id": "ELITEA-2033",
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_router_node_configuration.test_router_node_configuration_and_persistence"
+      ]
+    },
+    {
       "id": "ELITEA-2034",
       "automation_test_id": [
         "tests.ui.pipelines.test_pipeline_decision_node_configuration.test_decision_node_configuration_and_edge_wiring"
