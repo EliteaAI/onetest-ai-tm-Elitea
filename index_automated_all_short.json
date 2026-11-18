@@ -321,6 +321,26 @@
       "path": "tests/automated-full-regression-ui/agents/ELITEA-3733_fork-agent-blocked-when-destination-project-role-is-viewer.md"
     },
     {
+      "id": "ELITEA-4741",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-4741_new-unsaved-agent-instructions-open-in-edit-mode-by-default.md"
+    },
+    {
+      "id": "ELITEA-4742",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-4742_switching-preview-and-edit-preserves-unsaved-agent-changes.md"
+    },
+    {
+      "id": "ELITEA-4743",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-4743_agent-save-save-as-version-and-discard-work-with-preview-edit.md"
+    },
+    {
+      "id": "ELITEA-4744",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-4744_viewer-and-published-versions-keep-instructions-read-only-in-preview-and-edit.md"
+    },
+    {
       "id": "ELITEA-1903",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1903_build-with-ai-button-visible-for-admin-and-editor-roles-in-new-agent.md"
@@ -4034,6 +4054,26 @@
       "id": "ELITEA-4658",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/skills/ELITEA-4658_frontmatter-name-rename-propagates-then-damaged-delimiter-demotes-edit-to-plain-text.md"
+    },
+    {
+      "id": "ELITEA-4745",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4745_skill-instructions-default-mode-new-unsaved-skill-edit-saved-skill-preview.md"
+    },
+    {
+      "id": "ELITEA-4746",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4746_switching-preview-and-edit-preserves-unsaved-skill-changes.md"
+    },
+    {
+      "id": "ELITEA-4747",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4747_skill-save-as-version-and-discard-work-with-preview-edit.md"
+    },
+    {
+      "id": "ELITEA-4748",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4748_viewer-role-keeps-skill-instructions-read-only-in-preview-and-edit.md"
     },
     {
       "id": "ELITEA-1986",
