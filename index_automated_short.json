@@ -1300,6 +1300,12 @@
       ]
     },
     {
+      "id": "ELITEA-4718",
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_tools_auto_attach_read_only.test_tools_selected_in_nodes_auto_attach_and_read_only_tools"
+      ]
+    },
+    {
       "id": "ELITEA-2392",
       "automation_test_id": [
         "tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error"
