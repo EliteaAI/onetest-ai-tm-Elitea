@@ -341,6 +341,11 @@
       "path": "tests/automated-full-regression-ui/agents/ELITEA-4744_viewer-and-published-versions-keep-instructions-read-only-in-preview-and-edit.md"
     },
     {
+      "id": "ELITEA-4755",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-4755_agent-test-chat-copy-markdown-and-copy-text-actions.md"
+    },
+    {
       "id": "ELITEA-1903",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1903_build-with-ai-button-visible-for-admin-and-editor-roles-in-new-agent.md"
@@ -1391,6 +1396,11 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-3786_only-creator-can-see-export.md"
     },
     {
+      "id": "ELITEA-4760",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-4760_user-message-copy-markdown-and-copy-text-actions.md"
+    },
+    {
       "id": "ELITEA-3252",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/chat/build-skills-project-context/ELITEA-3252_settings-generate-project-context-respects-2500-char-limit.md"
@@ -2031,6 +2041,11 @@
       "path": "tests/automated-full-regression-ui/mcp/ELITEA-1961_mcp-back-navigation-from-detail-to-list.md"
     },
     {
+      "id": "ELITEA-4759",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-4759_mcp-test-result-copy-markdown-and-copy-text-actions.md"
+    },
+    {
       "id": "ELITEA-2744",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2744_verify-agent-message-displays-toolkit-name-when-authorization-needed.md"
@@ -2614,6 +2629,11 @@
       "id": "ELITEA-4721",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4721_pipeline-viewer-role-read-only-editor.md"
+    },
+    {
+      "id": "ELITEA-4756",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4756_pipeline-test-chat-copy-markdown-and-copy-text-actions.md"
     },
     {
       "id": "ELITEA-4464",
@@ -4076,6 +4096,11 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-4748_viewer-role-keeps-skill-instructions-read-only-in-preview-and-edit.md"
     },
     {
+      "id": "ELITEA-4757",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4757_skill-test-panel-copy-markdown-and-copy-text-actions.md"
+    },
+    {
       "id": "ELITEA-1986",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1986_access-control-role-based-visibility.md"
@@ -4449,6 +4474,11 @@
       "id": "ELITEA-4001",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-4001_regression-reindex-button-index-data-dependency.md"
+    },
+    {
+      "id": "ELITEA-4758",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-4758_toolkit-test-result-copy-markdown-and-copy-text-actions.md"
     }
   ]
 }

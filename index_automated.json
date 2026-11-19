@@ -1594,6 +1594,31 @@
       "path": "tests/automated-full-regression-ui/agents/ELITEA-4744_viewer-and-published-versions-keep-instructions-read-only-in-preview-and-edit.md"
     },
     {
+      "id": "ELITEA-4755",
+      "title": "Regression - Agent test chat: Copy markdown and Copy text icons are visible, clickable and confirmed by a toast",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:agents",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5838"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-4755_agent-test-chat-copy-markdown-and-copy-text-actions.md"
+    },
+    {
       "id": "ELITEA-1903",
       "title": "Build with AI — Build with AI button visible for admin and editor roles in New Agent creation flow",
       "status": "ready",
@@ -6360,6 +6385,30 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-3786_only-creator-can-see-export.md"
     },
     {
+      "id": "ELITEA-4760",
+      "title": "Regression - Test chat: user message Copy markdown and Copy text icons are visible, clickable and confirmed by a toast",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5838"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/ELITEA-4760_user-message-copy-markdown-and-copy-text-actions.md"
+    },
+    {
       "id": "ELITEA-3252",
       "title": "Settings: Generate Project Context produces content ≤2500 characters",
       "status": "ready",
@@ -9309,6 +9358,31 @@
       "path": "tests/automated-full-regression-ui/mcp/ELITEA-1961_mcp-back-navigation-from-detail-to-list.md"
     },
     {
+      "id": "ELITEA-4759",
+      "title": "Regression - MCP test: Copy markdown and Copy text icons are visible, clickable and confirmed by a toast",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "mcp-servers",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:mcp",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5838"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/mcp/ELITEA-4759_mcp-test-result-copy-markdown-and-copy-text-actions.md"
+    },
+    {
       "id": "ELITEA-2744",
       "title": "Verify agent message displays toolkit name when MCP authorization is needed",
       "status": "draft",
@@ -12059,6 +12133,31 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4721_pipeline-viewer-role-read-only-editor.md"
+    },
+    {
+      "id": "ELITEA-4756",
+      "title": "Regression - Pipeline test chat: Copy markdown and Copy text icons are visible, clickable and confirmed by a toast",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:pipelines",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5838"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4756_pipeline-test-chat-copy-markdown-and-copy-text-actions.md"
     },
     {
       "id": "ELITEA-4464",
@@ -18739,6 +18838,31 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-4748_viewer-role-keeps-skill-instructions-read-only-in-preview-and-edit.md"
     },
     {
+      "id": "ELITEA-4757",
+      "title": "Regression - Skill test panel: Copy markdown and Copy text icons are visible, clickable and confirmed by a toast",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:skills",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5838"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4757_skill-test-panel-copy-markdown-and-copy-text-actions.md"
+    },
+    {
       "id": "ELITEA-1986",
       "title": "Build with AI — Access Control (Role-Based Visibility)",
       "status": "draft",
@@ -20558,6 +20682,31 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-4001_regression-reindex-button-index-data-dependency.md"
+    },
+    {
+      "id": "ELITEA-4758",
+      "title": "Regression - Toolkit test: Copy markdown and Copy text icons are visible, clickable and confirmed by a toast",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "toolkits-indexes",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "feat:toolkits",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#5838"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkits_UI/ELITEA-4758_toolkit-test-result-copy-markdown-and-copy-text-actions.md"
     }
   ]
 }
