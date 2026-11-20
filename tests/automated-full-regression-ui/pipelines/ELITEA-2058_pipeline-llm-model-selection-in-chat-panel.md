@@ -34,6 +34,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1364
 | Field | Value |
 |-------|-------|
 | Default model | Anthropic Claude 4.6 Sonnet (or current default) |
+| Model to select | Anthropic Claude Haiku 5.5 (or any other listed model) |
 
 ---
 

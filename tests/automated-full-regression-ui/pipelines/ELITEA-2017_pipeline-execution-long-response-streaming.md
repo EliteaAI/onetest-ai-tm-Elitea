@@ -32,7 +32,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1364
 
 | Field | Value |
 |-------|-------|
-| Model | GPT-5 mini (or equivalent) |
+| Model | Anthropic Claude Haiku 5.5 (or equivalent) |
 | User prompt | Write a 500-word essay on AI |
 | Minimum response length | 200 characters |
 
@@ -43,7 +43,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1364
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Create a pipeline with LLM node as entry point (configure TASK with F-String: "{input}") | Pipeline is created and ready for execution |
-| 2 | In chat panel, select a model via Model Selector Menu (e.g., "GPT-5 mini") | Selected model is displayed in the model selector |
+| 2 | In chat panel, select a model via Model Selector Menu (e.g., "Anthropic Claude Haiku 5.5") | Selected model is displayed in the model selector |
 | 3 | Ask a question requiring lengthy answer: "Write a 500-word essay on AI" | Message is sent to the pipeline |
 | 4 | Verify response streams progressively in chat (not all at once) | Tokens appear incrementally in the chat panel |
 | 5 | Verify final response is complete and exceeds 200 characters | Response content length is greater than 200 characters |
