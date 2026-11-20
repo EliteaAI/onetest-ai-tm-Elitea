@@ -4,8 +4,11 @@ title: "Regression - Test chat: user message Copy markdown and Copy text icons a
 priority: high
 type: regression
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.agents.test_agent_test_chat_user_message_copy_icons.TestAgentTestChatUserMessageCopyIcons.test_user_message_copy_icons_show_tooltip_and_toast
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/5429f57b6083c5621d19f4f0087edebd19812718
 tags: [feat:chat, r-2.0.9, automated:UI:regression]
 requirements: ["EliteaAI/elitea_issues#5838"]
 ---
