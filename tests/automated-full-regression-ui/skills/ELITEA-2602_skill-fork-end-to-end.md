@@ -38,6 +38,8 @@ requirements: []
 | Skill Description | Detailed description for fork testing (100+ characters) |
 | Skill Instructions | Comprehensive instructions for the skill behavior |
 | Skill Tags | `test-tag`, `fork-demo` |
+| Skill Licence | `license: MIT` |
+| Skill Run Settings | A non-default model and Custom max tokens |
 | Custom Icon | Valid PNG/JPG file under 500KB |
 | Modified Instructions (post-fork) | Updated instructions after forking to test independence |
 
@@ -47,7 +49,7 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | In Project A, create a skill with name, description, instructions, multiple tags, and a custom icon | Skill is created with all fields populated |
+| 1 | In Project A, create a skill with name, description, instructions, multiple tags, a custom icon, a licence and the run settings from Test Data | Skill is created with all fields populated |
 | 2 | Save the skill | Skill is saved successfully |
 | 3 | Open the skill's overflow menu (three dots) | Menu appears with available actions |
 | 4 | Verify "Fork" option is present and enabled | Fork option is visible and clickable |
@@ -61,7 +63,7 @@ requirements: []
 | 12 | Navigate to Project B's Skills section | Project B Skills list loads |
 | 13 | Locate the forked skill | Forked skill appears in Project B's skill list |
 | 14 | Open the forked skill and verify all fields | Name, description, instructions match the original |
-| 15 | Verify tags are preserved | Both `test-tag` and `fork-demo` tags are present |
+| 15 | Verify tags are preserved | Both `test-tag` and `fork-demo` tags are present. The licence and run settings (model, max tokens) are preserved |
 | 16 | Verify custom icon is preserved | Same custom icon is displayed |
 | 17 | Check the skill's metadata/properties for lineage information | Lineage metadata shows: parent_entity_id, parent_project_id, parent_version_id |
 | 18 | Edit the forked skill's instructions in Project B and save | Changes are saved successfully |

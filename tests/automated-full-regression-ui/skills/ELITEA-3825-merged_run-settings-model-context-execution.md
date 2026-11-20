@@ -58,7 +58,7 @@ requirements: []
 | 6 | Select reasoning level: "high" | Reasoning level is selected |
 | 7 | Verify "Max Tokens" input field appears | Max Tokens field is displayed |
 | 8 | Enter max tokens: "2000" | Max tokens value is entered |
-| 9 | Click Save | Skill is saved with run_settings configuration |
+| 9 | Click Save | Skill is saved with run_settings configuration. In Instructions **Edit** mode, the frontmatter `metadata` contains `elitea-model`, `elitea-reasoning-effort` and `elitea-max-tokens: "2000"` |
 
 ### Part 2: Persistence After Save and Reload
 
@@ -100,13 +100,13 @@ requirements: []
 | 28 | Navigate to "Run Settings" section | Run Settings section is displayed |
 | 29 | Verify "Use Project Context" toggle or checkbox is present | Context toggle control is displayed |
 | 30 | Set the "Use Project Context" toggle to OFF (or check "Ignore Project Context") | Context toggle is set to OFF (ignore_project_context = true) |
-| 31 | Click Save | Skill is saved with context disabled |
+| 31 | Click Save | Skill is saved with context disabled. The frontmatter `metadata` contains `elitea-ignore-project-context: "true"` |
 | 32 | Open the test panel for the skill | Test panel opens |
 | 33 | Enter prompt: "Tell me about the project context" | Prompt is entered |
 | 34 | Click "Run" or "Send" to execute | Skill execution starts |
 | 35 | Verify the response does NOT include project-specific context information | Project context is excluded from execution |
 | 36 | (If possible) Inspect system prompt or execution logs and verify "ignore_project_context: true" is applied | Context exclusion is confirmed in execution metadata |
-| 37 | Set the "Use Project Context" toggle back to ON | Context toggle is enabled |
+| 37 | Set the "Use Project Context" toggle back to ON | Context toggle is enabled. After saving, `elitea-ignore-project-context` is no longer in the frontmatter |
 | 38 | Save and execute again with the same prompt | Skill execution starts |
 | 39 | Verify the response NOW includes project-specific context information (if available) | Project context is included when toggle is ON |
 

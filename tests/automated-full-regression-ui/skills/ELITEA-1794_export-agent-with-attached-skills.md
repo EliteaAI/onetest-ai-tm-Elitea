@@ -37,6 +37,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/285
 | Agent name | (any Agent with at least one Skill attached, e.g. "Export Test Agent") |
 | Attached Skill name | (e.g., "Formatter") |
 | Attached Skill instructions | (known instructions text to verify in export) |
+| Attached Skill licence | `license: MIT` |
 | Expected export format | `.md` |
 
 ---
@@ -50,8 +51,9 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/285
 | 3 | Verify the exported file has a `.md` extension | Downloaded file is a `.md` file |
 | 4 | Open the exported `.md` file and inspect its contents | File contents are readable |
 | 5 | Verify the Skill name is present in the exported content | The attached Skill's name appears in the file |
-| 6 | Verify the Skill instructions/content are present in the exported file | The Skill's instruction text (not just its ID or name reference) is embedded in the export |
-| 7 | Verify the Skill version is indicated in the exported file | The Skill version (e.g., `base`) is present in the file |
+| 6 | Verify the Skill instructions/content are present in the exported file | The Skill's instruction text (not just its ID or name reference) is embedded in the export. The embedded Skill's frontmatter uses spec keys, with ELITEA fields under `metadata` (for example `elitea-tags`) |
+| 7 | Verify the Skill version is indicated in the exported file | For a `base` version, `elitea-version` is absent from the Skill's `metadata`. For a non-base version, `metadata.elitea-version` is present |
+| 8 | Verify the Skill licence is present in the exported file | `license: MIT` is present in the embedded Skill's frontmatter |
 
 ---
 

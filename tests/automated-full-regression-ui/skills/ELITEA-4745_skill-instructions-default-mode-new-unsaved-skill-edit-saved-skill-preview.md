@@ -51,7 +51,7 @@ Instructions body to type below the frontmatter block:
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Open Skills and click + Skill (Create Skill) | The new skill form opens |
-| 2 | Scroll to the INSTRUCTIONS section without clicking in it | The Preview / Edit switch is visible and Edit is the active option ("Edit mode" has `aria-pressed="true"`). The editor shows an empty frontmatter block with `name:` and `description:` keys, and a "characters left" counter is shown |
+| 2 | Scroll to the INSTRUCTIONS section without clicking in it | The Preview / Edit switch is visible and Edit is the active option ("Edit mode" has `aria-pressed="true"`). The editor shows a frontmatter block with empty `name:` and `description:` keys and a `metadata:` block with `elitea-model` set to the project's default model, and a "characters left" counter is shown |
 | 3 | Click in the editor below the frontmatter block and type the body from Test Data | The text appears as typed, with no extra click or mode change. The "characters left" counter goes down as you type |
 | 4 | Switch to Preview | The body renders as formatted content (heading, numbered item, bold text, inline code). The frontmatter block is not shown. Nothing is saved: the skill does not appear in the Skills list |
 | 5 | Switch back to Edit | The frontmatter block and the body are shown exactly as before. The counter shows the same value as in step 3 |

@@ -42,7 +42,7 @@ requirements: [EliteaAI/elitea_issues#6922, EliteaAI/elitea_issues#7219]
 | 3 | Look for "Context Management" or "LLM Settings" section | Context Management section is visible |
 | 4 | Check the LLM Model/Settings section | **BUG FIX #7219:** Section loads successfully, NO "Failed to load configuration" error message |
 | 5 | Observe the model chip/selector | Model chip displays the skill's configured model name (e.g., "Dial-Anthropic-Sonnet-5.5") |
-| 6 | Check for additional settings display | Temperature, max tokens, and other LLM settings are visible |
+| 6 | Check for additional settings display | Max tokens and reasoning effort (if set) are visible |
 | 7 | Verify settings match skill configuration | Displayed settings match the published skill's configured LLM settings |
 | 8 | Compare with screenshot from bug #7219 | Error message "Failed to load configuration" does NOT appear (bug is fixed) |
 

@@ -14,7 +14,7 @@ requirements: []
 
 **Module:** skills · **Priority:** high · **Type:** functional
 
-**Objective:** Verify that the Build with AI feature correctly validates the Name, Description, and Instructions fields: generated names follow naming rules, manual name edits are validated, and character limits are enforced for Description (2304 chars) and Instructions (50000 chars).
+**Objective:** Verify that the Build with AI feature correctly validates the Name, Description, and Instructions fields: generated names follow naming rules, manual name edits are validated, and character limits are enforced for Description (2304 chars hard limit, warning above 1024 chars) and Instructions (50000 chars).
 
 ---
 
@@ -35,9 +35,11 @@ requirements: []
 | Invalid name (spaces) | "my skill" |
 | Invalid name (leading hyphen) | "-my-skill" |
 | Invalid name (trailing hyphen) | "my-skill-" |
+| Invalid name (consecutive hyphens) | "my--skill" |
 | Invalid name (exceeds 64 chars) | "this-is-a-very-long-skill-name-that-definitely-exceeds-the-sixty-four-character-limit-for-skill-names" |
 | Over-limit description | A string of 2305 characters |
 | Exact-limit description | A string of exactly 2304 characters |
+| Warning-limit description | A string of exactly 1024 characters, and one of 1025 characters |
 | Exact-limit instructions | A string of exactly 50000 characters |
 | Over-limit instructions paste | A string of 50001+ characters pasted in one paste |
 
@@ -52,26 +54,30 @@ requirements: []
 | 2 | After generation, inspect the generated Name in the review form | The Name field is visible and populated |
 | 3 | Verify the generated name contains only lowercase letters, digits, and hyphens | The generated name uses only allowed characters (lowercase, digits, hyphens) |
 | 4 | Verify the generated name does not contain spaces, underscores, or special characters | No spaces, underscores, or special characters are present |
-| 5 | Verify the generated name does not start or end with a hyphen | The first and last characters are not hyphens |
+| 5 | Verify the generated name does not start or end with a hyphen and has no consecutive hyphens (`--`) | The first and last characters are not hyphens; the name contains no `--` |
 | 6 | Verify the generated name does not exceed 64 characters | The name length is 64 characters or fewer |
 | **Manual Name Edit Validation** | | |
 | 7 | Edit the Name field to a name with uppercase letters: "MySkill" | The "Create Skill" button is disabled or a validation error is shown |
 | 8 | Edit the Name field to a name with spaces: "my skill" | The "Create Skill" button is disabled or a validation error is shown |
 | 9 | Edit the Name field to a name starting with a hyphen: "-my-skill" | The "Create Skill" button is disabled or a validation error is shown |
 | 10 | Edit the Name field to a name ending with a hyphen: "my-skill-" | The "Create Skill" button is disabled or a validation error is shown |
-| 11 | Edit the Name field to a name exceeding 64 characters | The "Create Skill" button is disabled or a validation error is shown |
-| 12 | Verify the user cannot create a Skill with any of the above invalid names | Attempting to submit with each invalid name is blocked by validation |
+| 11 | Edit the Name field to a name with consecutive hyphens: "my--skill" | The "Create Skill" button is disabled or a clear validation message about consecutive hyphens is shown |
+| 12 | Edit the Name field to a name exceeding 64 characters | The "Create Skill" button is disabled or a validation error is shown |
+| 13 | Verify the user cannot create a Skill with any of the above invalid names | Attempting to submit with each invalid name is blocked by validation |
 | **Description Character Limit** | | |
-| 13 | Clear the Description field and paste a string of 2305 characters (exceeding 2304 limit) | The text is entered in the Description field |
-| 14 | Verify a validation message is shown for the Description field | A validation error message is displayed for the Description field |
-| 15 | Verify the "Create Skill" button is inactive/disabled | The "Create Skill" button is disabled or inactive |
-| 16 | Trim the description to exactly 2304 characters | The Description field contains exactly 2304 characters |
-| 17 | Verify the validation error clears and "Create Skill" becomes active | The validation error disappears and the "Create Skill" button becomes active |
+| 14 | Clear the Description field and paste a string of 2305 characters (exceeding 2304 limit) | The text is entered in the Description field |
+| 15 | Verify a validation message is shown for the Description field | A validation error message is displayed for the Description field |
+| 16 | Verify the "Create Skill" button is inactive/disabled | The "Create Skill" button is disabled or inactive |
+| 17 | Trim the description to exactly 2304 characters | The Description field contains exactly 2304 characters |
+| 18 | Verify the validation error clears and "Create Skill" becomes active | The validation error disappears and the "Create Skill" button becomes active |
+| 19 | With the description at 2304 characters, verify the length warning | A warning that the description is longer than 1024 characters is shown; it does not block "Create Skill" |
+| 20 | Trim the description to exactly 1025 characters | The 1024-character warning is still shown; "Create Skill" is active |
+| 21 | Trim the description to exactly 1024 characters | The warning disappears; "Create Skill" is active |
 | **Instructions Character Limit** | | |
-| 18 | Clear the Instructions field and type or paste text past 50000 characters | Input is hard-blocked at exactly 50000 characters; no further characters can be typed or pasted |
-| 19 | Paste a block of text that would take the field from under the limit to over 50000 characters in one paste | Pasted text is truncated to land exactly at 50000 characters; no error shown, no crash |
-| 20 | With the Instructions field at exactly 50000 characters, verify the "Create Skill" button | "Create Skill" remains enabled |
-| 21 | Verify no hardcoded "2500" character limit message or counter appears anywhere in the form | Only the configured limit (50000 by default) is referenced |
+| 22 | Clear the Instructions field and type or paste text past 50000 characters | Input is hard-blocked at exactly 50000 characters; no further characters can be typed or pasted |
+| 23 | Paste a block of text that would take the field from under the limit to over 50000 characters in one paste | Pasted text is truncated to land exactly at 50000 characters; no error shown, no crash |
+| 24 | With the Instructions field at exactly 50000 characters, verify the "Create Skill" button | "Create Skill" remains enabled |
+| 25 | Verify no hardcoded "2500" character limit message or counter appears anywhere in the form | Only the configured limit (50000 by default) is referenced |
 
 ---
 

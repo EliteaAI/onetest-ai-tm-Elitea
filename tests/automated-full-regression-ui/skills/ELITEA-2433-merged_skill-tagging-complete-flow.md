@@ -51,7 +51,7 @@ requirements: []
 | 4 | Click Save | Skill is saved successfully |
 | 5 | Navigate to Skills list and verify the tag "regression-v1" appears on the skill card | Tag is visible on the skill card |
 | 6 | Re-open the skill "Single Tag Test Skill" | Skill editor page loads |
-| 7 | Verify tag "regression-v1" is present in the tags field | Tag persisted correctly after save/reload |
+| 7 | Verify tag "regression-v1" is present in the tags field | Tag persisted correctly after save/reload. In Instructions **Edit** mode, the frontmatter has `metadata.elitea-tags: '["regression-v1"]'` |
 | 8 | Remove tag "regression-v1" by clicking the X or delete button on the tag | Tag is removed from the tags field |
 | 9 | Click Save | Skill is saved successfully |
 | 10 | Navigate to Skills list and verify the tag "regression-v1" no longer appears on the card | Tag has been removed and is not displayed |
@@ -67,7 +67,7 @@ requirements: []
 | 15 | Click Save | Skill is created successfully |
 | 16 | Navigate to Skills list and verify all three tags ("api", "automation", "regression") appear on the skill card | All tags are visible on the card |
 | 17 | Re-open the skill "Multi Tag Test Skill" | Skill editor page loads |
-| 18 | Verify all three tags are present in the tags field | All tags persisted correctly |
+| 18 | Verify all three tags are present in the tags field | All tags persisted correctly. `metadata.elitea-tags` in the frontmatter lists all three tags |
 
 ### Part 3: Add Tags After Creation
 
