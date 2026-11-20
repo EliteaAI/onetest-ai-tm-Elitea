@@ -4,8 +4,11 @@ title: "Regression - Skill test panel: Copy markdown and Copy text icons are vis
 priority: critical
 type: regression
 module: skills
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.skills.test_skill_test_panel_copy_icons.test_skill_test_panel_copy_icons_show_tooltip_and_toast
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/3e4174adaa0bb04d6ec10687803d46a0762e393e
 tags: [feat:chat, feat:skills, r-2.0.9, automated:UI:regression]
 requirements: ["EliteaAI/elitea_issues#5838"]
 ---
