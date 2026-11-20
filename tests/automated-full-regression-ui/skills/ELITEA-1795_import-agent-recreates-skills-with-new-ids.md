@@ -51,7 +51,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/7dbb1f2c
 | 4 | Open the imported Agent and inspect the attached Skills | The Skill from the original export is listed as attached to the imported Agent |
 | 5 | Navigate to the Skills section and locate the newly created Skill | A new Skill entry exists with the same name as the original Skill |
 | 6 | Verify the newly created Skill has a new unique ID different from any original Skill ID | The new Skill's ID is different from the source Skill's ID |
-| 7 | Verify the new Skill's instructions and content match the exported content | Skill instructions are correctly populated from the import |
+| 7 | Verify the new Skill's instructions and content match the exported content | Skill instructions are correctly populated from the import. The licence, tags and run settings of the original Skill are restored, and the new Skill version is `base` |
 | 8 | Verify the imported Agent can be saved or used without errors | Agent is functional and saves without errors |
 
 ---

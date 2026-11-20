@@ -58,7 +58,7 @@ requirements: []
 | 11 | Open the forked skill | Forked skill opens |
 | 12 | Verify the skill's version name is "base" (not "v2-enhanced") | Version dropdown shows "base" as the version name |
 | 13 | Verify the instructions match the v2-enhanced version (not original base) | Instructions contain the enhanced content from v2 |
-| 14 | Verify the tags from v2-enhanced are present | Tags `v2-tag` and `enhanced` are present |
+| 14 | Verify the tags from v2-enhanced are present | Tags `v2-tag` and `enhanced` are present. The licence, extra frontmatter keys and run settings of v2-enhanced are preserved |
 | 15 | Verify the forked skill does NOT have the original base version content | Content differs from Project A's base version |
 
 ---

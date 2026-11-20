@@ -39,6 +39,7 @@ note: "Behavioural duplicate of ELITEA-1794 (same objective/steps/pass-criteria 
 | Skill instructions | Export test instructions |
 | Agent name | ExportAgent |
 | Agent skill version | base |
+| Skill licence | `license: MIT` |
 
 ---
 
@@ -46,10 +47,10 @@ note: "Behavioural duplicate of ELITEA-1794 (same objective/steps/pass-criteria 
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Create a Skill "ExportSkill" with instructions "Export test instructions" | "ExportSkill" is created successfully |
+| 1 | Create a Skill "ExportSkill" with instructions "Export test instructions" and `license: MIT` in the frontmatter | "ExportSkill" is created successfully |
 | 2 | Create an Agent "ExportAgent", attach "ExportSkill" (version: base) | "ExportAgent" is created with "ExportSkill" attached |
 | 3 | Export "ExportAgent" as .md | A .md file is downloaded |
-| 4 | Open the exported file and verify it contains the attached Skill's metadata and instructions | The file includes "ExportSkill" metadata and "Export test instructions" content |
+| 4 | Open the exported file and verify it contains the attached Skill's metadata and instructions | The file includes "ExportSkill" metadata and "Export test instructions" content. The embedded Skill has `license: MIT`, ELITEA fields under `metadata`, and no `elitea-version` (the version is `base`) |
 
 ---
 

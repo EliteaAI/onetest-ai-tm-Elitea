@@ -35,7 +35,9 @@ requirements: []
 | Skill name | (any descriptive name, e.g. "Test Export Skill") |
 | Skill version to export | base |
 | Expected export file format | `.md` |
-| Expected fields in exported file | name, description, version, tags, instructions |
+| Skill licence | `license: MIT` (added in the frontmatter editor) |
+| Skill run settings | A non-default model, Custom max tokens, a reasoning effort |
+| Expected fields in exported file | Top level: name, description, license, metadata. `metadata`: elitea-tags, elitea-model, elitea-max-tokens, elitea-reasoning-effort. Instructions body |
 
 ---
 
@@ -43,19 +45,19 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Create a Skill with instructions, description, name, and tags | Skill is created and saved successfully with all fields populated |
+| 1 | Create a Skill with instructions, description, name, tags, a licence (`license: MIT` in the frontmatter) and the run settings from Test Data | Skill is created and saved successfully with all fields populated |
 | 2 | Export the `base` version of the Skill | A file is downloaded; the file has a `.md` extension |
-| 3 | Open the exported `.md` file and verify its contents | File contains: name, description, version, tags, and instructions fields |
+| 3 | Open the exported `.md` file and verify its contents | Top level has only spec keys (`name`, `description`, `license`, `metadata`). `metadata` contains `elitea-tags` (a JSON array string), `elitea-model`, `elitea-max-tokens` and `elitea-reasoning-effort`. The instructions body is present |
 | 4 | Navigate to Skills → Import and import the exported `.md` file | Import completes without errors; a new Skill entry appears in the Skills list |
 | 5 | Verify the imported Skill has a new unique ID | The imported Skill's ID is different from the source Skill's ID |
-| 6 | Verify the `base` version exists on the imported Skill and instructions are populated | `base` version is present and instructions match the exported content |
+| 6 | Verify the `base` version exists on the imported Skill and instructions are populated | `base` version is present and instructions match the exported content. Tags, licence and run settings (model, max tokens, reasoning effort) are restored |
 | 7 | Save the imported Skill | Skill saves without errors; no validation or save errors are shown |
 
 ---
 
 ## Expected Final State
 
-A new Skill exists in the system with a unique ID, a `base` version, and all fields (name, description, tags, instructions) correctly populated from the imported `.md` file.
+A new Skill exists in the system with a unique ID, a `base` version, and all fields (name, description, tags, licence, run settings, instructions) correctly populated from the imported `.md` file.
 
 ---
 
