@@ -4,8 +4,11 @@ title: "Regression - Pipeline test chat: Copy markdown and Copy text icons are v
 priority: critical
 type: regression
 module: pipelines
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.pipelines.test_pipeline_test_chat_copy_icons.test_pipeline_test_chat_copy_icons_show_tooltip_and_toast
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/24c60ce64ea0c4198d62f840a2e7b96119d7a637
 tags: [feat:chat, feat:pipelines, r-2.0.9, automated:UI:regression]
 requirements: ["EliteaAI/elitea_issues#5838"]
 ---
