@@ -4,8 +4,11 @@ title: "Regression - MCP test: Copy markdown and Copy text icons are visible, cl
 priority: critical
 type: regression
 module: mcp-servers
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.mcp.test_mcp_test_result_copy_icons.test_mcp_test_result_copy_icons_show_tooltip_and_toast
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/5844137413e810d61942d7a7aaf5344cf043bb7e
 tags: [feat:chat, feat:mcp, r-2.0.9, automated:UI:regression]
 requirements: ["EliteaAI/elitea_issues#5838"]
 ---
