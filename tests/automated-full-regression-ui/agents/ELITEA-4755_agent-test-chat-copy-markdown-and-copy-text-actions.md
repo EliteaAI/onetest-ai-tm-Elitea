@@ -4,8 +4,11 @@ title: "Regression - Agent test chat: Copy markdown and Copy text icons are visi
 priority: critical
 type: regression
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.agents.test_agent_test_chat_copy_icons.TestAgentTestChatCopyIcons.test_copy_markdown_and_copy_text_icons_show_tooltip_and_toast
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/27a0e60e98bb297bb38047fe3d69a643536fd7c3
 tags: [feat:chat, feat:agents, r-2.0.9, automated:UI:regression]
 requirements: ["EliteaAI/elitea_issues#5838"]
 ---
