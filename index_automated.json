@@ -1596,8 +1596,8 @@
     {
       "id": "ELITEA-4755",
       "title": "Regression - Agent test chat: Copy markdown and Copy text icons are visible, clickable and confirmed by a toast",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "regression",
       "priority": "critical",
       "size": "",
@@ -1612,7 +1612,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5838"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_test_chat_copy_icons.TestAgentTestChatCopyIcons.test_copy_markdown_and_copy_text_icons_show_tooltip_and_toast"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
