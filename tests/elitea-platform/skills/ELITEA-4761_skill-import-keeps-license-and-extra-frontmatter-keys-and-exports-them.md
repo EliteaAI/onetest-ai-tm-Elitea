@@ -6,7 +6,7 @@ type: functional
 module: skills
 status: draft
 execution_type: manual
-tags: [automated:UI:regression, feat:skills]
+tags: [feat:skills]
 requirements: [EliteaAI/elitea_issues#7183]
 ---
 
