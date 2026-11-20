@@ -1330,6 +1330,12 @@
       ]
     },
     {
+      "id": "ELITEA-4756",
+      "automation_test_id": [
+        "tests.ui.pipelines.test_pipeline_test_chat_copy_icons.test_pipeline_test_chat_copy_icons_show_tooltip_and_toast"
+      ]
+    },
+    {
       "id": "ELITEA-2392",
       "automation_test_id": [
         "tests.ui.settings.test_ai_providers_page_sections_load_without_error.TestAIProvidersPageSections.test_ai_providers_page_sections_load_without_error"
