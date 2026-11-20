@@ -9362,8 +9362,8 @@
     {
       "id": "ELITEA-4759",
       "title": "Regression - MCP test: Copy markdown and Copy text icons are visible, clickable and confirmed by a toast",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "regression",
       "priority": "critical",
       "size": "",
@@ -9378,7 +9378,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#5838"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.mcp.test_mcp_test_result_copy_icons.test_mcp_test_result_copy_icons_show_tooltip_and_toast"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],

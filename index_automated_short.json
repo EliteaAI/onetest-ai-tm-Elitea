@@ -726,6 +726,12 @@
       ]
     },
     {
+      "id": "ELITEA-4759",
+      "automation_test_id": [
+        "tests.ui.mcp.test_mcp_test_result_copy_icons.test_mcp_test_result_copy_icons_show_tooltip_and_toast"
+      ]
+    },
+    {
       "id": "ELITEA-0850",
       "automation_test_id": [
         "tests.ui.pipelines_2.test_pipeline_management.TestEditPipeline.test_edit_pipeline_name",
