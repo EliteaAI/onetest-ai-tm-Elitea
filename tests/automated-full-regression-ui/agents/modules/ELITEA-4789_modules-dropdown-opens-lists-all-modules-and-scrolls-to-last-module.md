@@ -4,8 +4,11 @@ title: "Modules dropdown opens from the Tools row, lists every available module 
 priority: critical
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.agents.test_agent_modules_dropdown.test_modules_dropdown_lists_all_modules_and_scrolls_to_last
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/5a48ef4319aa00d01b5008245414fc3911be4b7b
 tags: [automated:UI:regression, feat:agents, nfr:ui, modules, 7380]
 requirements: [EliteaAI/elitea_issues#7380]
 ---
