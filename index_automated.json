@@ -1997,8 +1997,8 @@
     {
       "id": "ELITEA-4791",
       "title": "Attachments module switch in the Modules dropdown controls the agent chat attach icon and file attachment",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -2015,7 +2015,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#7380"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_modules_attachments_switch.test_attachments_module_switch_controls_chat_attach"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
