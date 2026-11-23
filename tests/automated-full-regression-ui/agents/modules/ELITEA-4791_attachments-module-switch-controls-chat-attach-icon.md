@@ -4,8 +4,11 @@ title: "Attachments module switch in the Modules dropdown controls the agent cha
 priority: critical
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.agents.test_agent_modules_attachments_switch.test_attachments_module_switch_controls_chat_attach
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/e330bcbf523b39a257f14ba985c63572331b7fa2
 tags: [automated:UI:regression, feat:agents, nfr:ui, modules, attachments, 7380]
 requirements: [EliteaAI/elitea_issues#7380]
 ---
