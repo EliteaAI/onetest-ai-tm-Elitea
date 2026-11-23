@@ -4,8 +4,11 @@ title: "+ Toolkit, + MCP, + Agent and + Pipeline buttons still work in the Tools
 priority: critical
 type: regression
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.agents.test_agent_modules_tools_row.test_tools_row_quick_add_buttons_work_next_to_modules
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/bc05f6cd560ac37c0f0b51b4f6677d2192223def
 tags: [automated:UI:regression, feat:agents, nfr:ui, modules, regression, 7380]
 requirements: [EliteaAI/elitea_issues#7380]
 ---
