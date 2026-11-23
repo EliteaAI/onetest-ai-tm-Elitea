@@ -1968,8 +1968,8 @@
     {
       "id": "ELITEA-4790",
       "title": "Module switches are kept after Save and reload with switched-ON modules on top, and Discard restores saved states",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -1986,7 +1986,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#7380"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_modules_dropdown.test_module_switches_persist_after_save_on_top_and_discard_restores"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
