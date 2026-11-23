@@ -4,8 +4,11 @@ title: "Save As Version keeps module changes on the new version and leaves the b
 priority: critical
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.agents.test_agent_modules_save_as_version.test_save_as_version_keeps_module_changes_and_base_unchanged
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/ea558396a2b82878e0de5a2832ead35ab41c9254
 tags: [automated:UI:regression, feat:agents, nfr:ui, modules, versioning, 7380]
 requirements: [EliteaAI/elitea_issues#7380]
 ---
