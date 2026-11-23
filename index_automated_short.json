@@ -279,6 +279,12 @@
       ]
     },
     {
+      "id": "ELITEA-4792",
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_modules_save_as_version.test_save_as_version_keeps_module_changes_and_base_unchanged"
+      ]
+    },
+    {
       "id": "ELITEA-1805",
       "automation_test_id": [
         "tests.ui.artifacts.test_artifacts_landing_page_ui.TestArtifactsLandingPageUI.test_landing_page_empty_bucket"
