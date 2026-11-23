@@ -4,8 +4,11 @@ title: "Module switches are kept after Save and reload with switched-ON modules 
 priority: critical
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.agents.test_agent_modules_dropdown.test_module_switches_persist_after_save_on_top_and_discard_restores
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/dab1569866453cd9b8f00ccb852852b99a724112
 tags: [automated:UI:regression, feat:agents, nfr:ui, modules, persistence, 7380]
 requirements: [EliteaAI/elitea_issues#7380]
 ---
