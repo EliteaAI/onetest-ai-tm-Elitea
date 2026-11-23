@@ -2055,8 +2055,8 @@
     {
       "id": "ELITEA-4793",
       "title": "+ Toolkit, + MCP, + Agent and + Pipeline buttons still work in the Tools row next to the + Modules button",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "regression",
       "priority": "critical",
       "size": "",
@@ -2073,7 +2073,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#7380"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_modules_tools_row.test_tools_row_quick_add_buttons_work_next_to_modules"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
