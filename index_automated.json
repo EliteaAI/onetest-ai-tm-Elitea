@@ -1940,8 +1940,8 @@
     {
       "id": "ELITEA-4789",
       "title": "Modules dropdown opens from the Tools row, lists every available module and scrolls to a fully visible last module",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -1957,7 +1957,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#7380"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.agents.test_agent_modules_dropdown.test_modules_dropdown_lists_all_modules_and_scrolls_to_last"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
