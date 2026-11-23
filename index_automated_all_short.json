@@ -421,6 +421,31 @@
       "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1920_build-with-ai-in-chat-agenteditor-works-end-to-end.md"
     },
     {
+      "id": "ELITEA-4789",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/agents/modules/ELITEA-4789_modules-dropdown-opens-lists-all-modules-and-scrolls-to-last-module.md"
+    },
+    {
+      "id": "ELITEA-4790",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/agents/modules/ELITEA-4790_module-switches-persist-after-save-on-top-ordering-and-discard-restores.md"
+    },
+    {
+      "id": "ELITEA-4791",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/agents/modules/ELITEA-4791_attachments-module-switch-controls-chat-attach-icon.md"
+    },
+    {
+      "id": "ELITEA-4792",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/agents/modules/ELITEA-4792_save-as-version-keeps-module-changes-base-version-unchanged.md"
+    },
+    {
+      "id": "ELITEA-4793",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/agents/modules/ELITEA-4793_tools-row-quick-add-buttons-work-next-to-modules-button.md"
+    },
+    {
       "id": "ELITEA-1803",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/artifacts/ELITEA-1803_artifacts-landing-page-ui-bucket-with-files.md"

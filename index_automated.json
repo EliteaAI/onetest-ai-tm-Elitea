@@ -1938,6 +1938,140 @@
       "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1920_build-with-ai-in-chat-agenteditor-works-end-to-end.md"
     },
     {
+      "id": "ELITEA-4789",
+      "title": "Modules dropdown opens from the Tools row, lists every available module and scrolls to a fully visible last module",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:agents",
+        "nfr:ui",
+        "modules",
+        "7380"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7380"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/modules/ELITEA-4789_modules-dropdown-opens-lists-all-modules-and-scrolls-to-last-module.md"
+    },
+    {
+      "id": "ELITEA-4790",
+      "title": "Module switches are kept after Save and reload with switched-ON modules on top, and Discard restores saved states",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:agents",
+        "nfr:ui",
+        "modules",
+        "persistence",
+        "7380"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7380"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/modules/ELITEA-4790_module-switches-persist-after-save-on-top-ordering-and-discard-restores.md"
+    },
+    {
+      "id": "ELITEA-4791",
+      "title": "Attachments module switch in the Modules dropdown controls the agent chat attach icon and file attachment",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:agents",
+        "nfr:ui",
+        "modules",
+        "attachments",
+        "7380"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7380"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/modules/ELITEA-4791_attachments-module-switch-controls-chat-attach-icon.md"
+    },
+    {
+      "id": "ELITEA-4792",
+      "title": "Save As Version keeps module changes on the new version and leaves the base version unchanged",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:agents",
+        "nfr:ui",
+        "modules",
+        "versioning",
+        "7380"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7380"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/modules/ELITEA-4792_save-as-version-keeps-module-changes-base-version-unchanged.md"
+    },
+    {
+      "id": "ELITEA-4793",
+      "title": "+ Toolkit, + MCP, + Agent and + Pipeline buttons still work in the Tools row next to the + Modules button",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:agents",
+        "nfr:ui",
+        "modules",
+        "regression",
+        "7380"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7380"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/modules/ELITEA-4793_tools-row-quick-add-buttons-work-next-to-modules-button.md"
+    },
+    {
       "id": "ELITEA-1803",
       "title": "Artifacts Landing Page UI – Bucket with Files (at least 1 file)",
       "status": "draft",
