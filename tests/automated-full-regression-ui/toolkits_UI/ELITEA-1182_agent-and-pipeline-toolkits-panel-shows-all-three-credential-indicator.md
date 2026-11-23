@@ -16,7 +16,7 @@ requirements: [EliteaAI/elitea_issues#5114]
 
 **Module:** Credential Actions And Status Indicators · **Priority:** Critical · **Type:** Functional
 
-**Objective:** Verify that the Agent menu and the Pipeline configuration Toolkits panel (left side, TOOLS section) expose "Open in new tab", "Reload", Warning/Error status indicator, and a clear warning text message for invalid credentials — each with a correct tooltip — while valid credentials show only the "Open in new tab" icon. For Pipelines, a toolkit is added to the pipeline by adding a Toolkit node and an LLM node on the Flow canvas and selecting the toolkit in each; when the pipeline is misconfigured (invalid credential), the pipeline header (where the VERSION selector is) must show a warning icon with a hover message.
+**Objective:** Verify that the Agent menu exposes "Open in new tab", "Reload", Warning/Error status indicator, and a clear warning text message for invalid credentials — each with a correct tooltip — while valid credentials show only the "Open in new tab" icon. For Pipelines, a toolkit is added by adding a Toolkit node and an LLM node on the Flow canvas and selecting the toolkit in each; the left-side Toolkits panel (TOOLS section) must show "Open in new tab" and a warning text message for an invalid credential, and the pipeline header (where the VERSION selector is) must show a warning icon with a hover message when the pipeline is misconfigured.
 
 **Coverage:**
 - "Open in new tab" icon present and with tooltip in Agent menu (invalid credential)
@@ -25,7 +25,7 @@ requirements: [EliteaAI/elitea_issues#5114]
 - Warning text message containing "Authentication failed:" displayed in Agent menu (invalid credential)
 - Valid credentials in Agent menu show only "Open in new tab" — no Reload, no error indicator, no warning message
 - Pipeline: toolkit is added through a Toolkit node and an LLM node (no direct "add toolkit" to the pipeline)
-- Pipeline: "Open in new tab", "Reload", Warning/Error indicator and warning text "Authentication failed:" in the left-side Toolkits panel (invalid credential)
+- Pipeline: "Open in new tab" icon with tooltip and warning text "Authentication failed:" in the left-side Toolkits panel (invalid credential)
 - Pipeline: warning icon in the header (next to the VERSION selector) with a hover message when the pipeline is misconfigured (invalid credential)
 - Pipeline: valid credentials show only "Open in new tab" in the left-side panel — no Reload, no error indicator, no warning — and no warning icon in the header
 
@@ -73,20 +73,17 @@ requirements: [EliteaAI/elitea_issues#5114]
 | 17 | Observe the TOOLS section in the left side of the pipeline page. | The invalid-credential toolkit is listed in the left panel with "Used by" chips for both the Toolkit node and the LLM node. |
 | 18 | In the left panel, observe the entry for the invalid-credential toolkit. | "Open in new tab" icon is present. |
 | 19 | Hover over the "Open in new tab" icon in the left panel. | Tooltip appears. Text matches expected label (e.g., "Open in new tab"). Not blank. |
-| 20 | In the left panel, observe the same entry. | "Reload" icon is present. |
-| 21 | Hover over the "Reload" icon in the left panel. | Tooltip appears. Text matches expected label (e.g., "Reload and apply changes"). Not blank. |
-| 22 | In the left panel, observe the same entry. | Warning/Error status indicator is visible. |
-| 23 | In the left panel, observe the text warning message near the entry. | Warning message is visible and contains "Authentication failed:" text (e.g., "Authentication failed: Invalid bearer token"). Message is user-friendly, not a raw technical error. |
-| 24 | Observe the pipeline header (the top bar with the VERSION selector and the Save / Save As Version / Discard buttons). | A warning icon is visible in the header, indicating the pipeline is misconfigured. |
-| 25 | Hover over the warning icon in the header. | A hover message (tooltip) appears describing the misconfiguration (e.g., the invalid toolkit credential / authentication failure). Text is meaningful, user-friendly and not blank or a raw key. |
-| 26 | Open Pipeline B from the Pipelines section and switch to the Flow tab. | Pipeline canvas is displayed. The TOOLS section in the left panel does not list the valid-credential toolkit yet. |
-| 27 | Click "+ Node", select the **Toolkit** node type, then select the valid-credential toolkit and a tool in its configuration panel. | Toolkit node is added and shows "<toolkit> › <tool>". |
-| 28 | Click "+ Node", select the **LLM** node type, then add the same valid-credential toolkit to the node's tools. | LLM node is added with the valid toolkit attached. |
-| 29 | Observe the TOOLS section in the left side of the pipeline page. | The valid-credential toolkit is listed with "Used by" chips for both nodes. |
-| 30 | In the left panel, observe the entry for the valid credential. | "Open in new tab" icon is visible. |
-| 31 | Confirm no Reload icon is shown for the valid credential in the left panel. | Reload icon is absent. |
-| 32 | Confirm no Warning/Error status indicator and no warning message is shown for the valid credential in the left panel. | No error/warning badge and no warning text message displayed. |
-| 33 | Observe the pipeline header (the top bar with the VERSION selector). | No warning icon is shown in the header. |
+| 20 | In the left panel, observe the text warning message near the entry. | Warning message is visible and contains "Authentication failed:" text (e.g., "Authentication failed: Invalid bearer token"). Message is user-friendly, not a raw technical error. |
+| 21 | Observe the pipeline header (the top bar with the VERSION selector and the Save / Save As Version / Discard buttons). | A warning icon is visible in the header, indicating the pipeline is misconfigured. |
+| 22 | Hover over the warning icon in the header. | A hover message (tooltip) appears describing the misconfiguration (e.g., the invalid toolkit credential / authentication failure). Text is meaningful, user-friendly and not blank or a raw key. |
+| 23 | Open Pipeline B from the Pipelines section and switch to the Flow tab. | Pipeline canvas is displayed. The TOOLS section in the left panel does not list the valid-credential toolkit yet. |
+| 24 | Click "+ Node", select the **Toolkit** node type, then select the valid-credential toolkit and a tool in its configuration panel. | Toolkit node is added and shows "<toolkit> › <tool>". |
+| 25 | Click "+ Node", select the **LLM** node type, then add the same valid-credential toolkit to the node's tools. | LLM node is added with the valid toolkit attached. |
+| 26 | Observe the TOOLS section in the left side of the pipeline page. | The valid-credential toolkit is listed with "Used by" chips for both nodes. |
+| 27 | In the left panel, observe the entry for the valid credential. | "Open in new tab" icon is visible. |
+| 28 | Confirm no Reload icon is shown for the valid credential in the left panel. | Reload icon is absent. |
+| 29 | Confirm no Warning/Error status indicator and no warning message is shown for the valid credential in the left panel. | No error/warning badge and no warning text message displayed. |
+| 30 | Observe the pipeline header (the top bar with the VERSION selector). | No warning icon is shown in the header. |
 
 ## Expected Final State
 
@@ -96,19 +93,19 @@ No error/warning badge and no warning text message displayed for the valid crede
 
 **Pass:**
 - All three icons/indicators present for invalid credentials in Agent menu
-- Tooltips present with meaningful text for "Open in new tab" and "Reload"
+- Tooltips present with meaningful text for "Open in new tab" and "Reload" in Agent menu
 - Warning text message containing "Authentication failed:" visible for invalid credentials in Agent menu
 - Valid credentials in Agent menu show only "Open in new tab" — no Reload, no warning
 - Toolkit can be added to a pipeline via Toolkit node and via LLM node, and is then listed in the left-side TOOLS panel
-- All three icons/indicators present for invalid credentials in the Pipeline left-side Toolkits panel
-- Tooltips present with meaningful text for "Open in new tab" and "Reload" in the Pipeline left-side panel
+- "Open in new tab" icon with a meaningful tooltip present for the invalid credential in the Pipeline left-side panel
 - Warning text message containing "Authentication failed:" visible in the Pipeline left-side panel for invalid credentials
 - Warning icon is shown in the pipeline header (VERSION selector area) when the pipeline is misconfigured, and hovering it shows a meaningful message
 - Valid credentials in Pipeline show only "Open in new tab" in the left-side panel — no Reload, no warning — and no warning icon in the header
 
 **Fail:**
-- Any icon/indicator missing for invalid credential in Agent menu or in the Pipeline left-side panel
-- Any tooltip blank, missing, or showing a raw key
+- Any icon/indicator missing for invalid credential in Agent menu
+- "Open in new tab" missing or its tooltip blank/missing/raw key in the Pipeline left-side panel
+- Any Agent tooltip blank, missing, or showing a raw key
 - Warning message absent, does not contain "Authentication failed:", or shows a raw technical error string (e.g., raw JSON/Python traceback)
 - Header warning icon missing for a misconfigured pipeline, or its hover message is missing/blank/raw
 - Reload or Warning/Error indicator shown for a valid credential, or a header warning icon shown for a valid pipeline
