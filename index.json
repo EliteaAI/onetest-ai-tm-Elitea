@@ -16137,7 +16137,7 @@
     },
     {
       "id": "ELITEA-3786",
-      "title": "Verify Only Conversation Creator Can See/Use Export Option",
+      "title": "Verify Export Option Visibility for the Chat Creator and Non-Creator Participants by Project Role",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -16151,11 +16151,14 @@
         "feat:chat",
         "feat:export",
         "feat:permissions",
-        "r-2.0.8"
+        "feat:roles-permissions",
+        "r-2.0.8",
+        "issue:7723"
       ],
       "requirements": [
         "EliteaAI/elitea_issues#4590",
-        "EliteaAI/elitea_issues#7489"
+        "EliteaAI/elitea_issues#7489",
+        "EliteaAI/elitea_issues#7723"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -17070,7 +17073,7 @@
     },
     {
       "id": "ELITEA-4474",
-      "title": "Export visibility-based access and Import's role-based permission both hold (bug #7165 fix)",
+      "title": "Export is hidden for Viewer and available to Editor/Admin on visible chats; Import's role-based permission holds (bugs #7165, #7723)",
       "status": "draft",
       "execution_type": "manual",
       "type": "regression",
@@ -17083,16 +17086,19 @@
         "chat-export",
         "chat-import",
         "permissions",
+        "feat:roles-permissions",
         "regression",
         "issue:6903",
         "issue:6904",
         "issue:7165",
+        "issue:7723",
         "p0"
       ],
       "requirements": [
         "EliteaAI/elitea_issues#6903",
         "EliteaAI/elitea_issues#6904",
-        "EliteaAI/elitea_issues#7165"
+        "EliteaAI/elitea_issues#7165",
+        "EliteaAI/elitea_issues#7723"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -17222,10 +17228,12 @@
       "tags": [
         "manual:UI:regression",
         "feat:chat",
-        "share-chat"
+        "share-chat",
+        "issue:7723"
       ],
       "requirements": [
-        "EliteaAI/elitea_issues#7489"
+        "EliteaAI/elitea_issues#7489",
+        "EliteaAI/elitea_issues#7723"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -54467,7 +54475,7 @@
     },
     {
       "id": "ELITEA-4461",
-      "title": "Export access is governed by chat visibility, not role; Import access is governed by project-level permission, not visibility",
+      "title": "Export access requires chat visibility and a non-Viewer project role; Import access is governed by project-level permission, not visibility",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -54480,16 +54488,19 @@
         "chat-export",
         "chat-import",
         "permissions",
+        "feat:roles-permissions",
         "bugfix",
         "issue:6903",
         "issue:6904",
         "issue:7165",
+        "issue:7723",
         "p0"
       ],
       "requirements": [
         "EliteaAI/elitea_issues#6903",
         "EliteaAI/elitea_issues#6904",
-        "EliteaAI/elitea_issues#7165"
+        "EliteaAI/elitea_issues#7165",
+        "EliteaAI/elitea_issues#7723"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -59005,7 +59016,7 @@
     },
     {
       "id": "ELITEA-3786",
-      "title": "Verify Only Conversation Creator Can See/Use Export Option",
+      "title": "Verify Export Option Visibility for the Chat Creator and Non-Creator Participants by Project Role",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -59019,11 +59030,14 @@
         "feat:chat",
         "feat:export",
         "feat:permissions",
-        "r-2.0.8"
+        "feat:roles-permissions",
+        "r-2.0.8",
+        "issue:7723"
       ],
       "requirements": [
         "EliteaAI/elitea_issues#4590",
-        "EliteaAI/elitea_issues#7489"
+        "EliteaAI/elitea_issues#7489",
+        "EliteaAI/elitea_issues#7723"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -59033,7 +59047,7 @@
     },
     {
       "id": "ELITEA-3787",
-      "title": "Verify Non-Creator Users Cannot Export Conversation",
+      "title": "Verify Non-Creator Participants With the Viewer Role Cannot Export, While Editor/Admin Non-Creators Can",
       "status": "ready",
       "execution_type": "manual",
       "type": "functional",
@@ -59047,11 +59061,14 @@
         "feat:chat",
         "feat:export",
         "feat:permissions",
-        "r-2.0.8"
+        "feat:roles-permissions",
+        "r-2.0.8",
+        "issue:7723"
       ],
       "requirements": [
         "EliteaAI/elitea_issues#4590",
-        "EliteaAI/elitea_issues#7489"
+        "EliteaAI/elitea_issues#7489",
+        "EliteaAI/elitea_issues#7723"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -59517,10 +59534,13 @@
       "tags": [
         "feat:chat",
         "access-control",
-        "share-chat"
+        "share-chat",
+        "chat-export",
+        "issue:7723"
       ],
       "requirements": [
-        "EliteaAI/elitea_issues#7489"
+        "EliteaAI/elitea_issues#7489",
+        "EliteaAI/elitea_issues#7723"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -59575,6 +59595,80 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests\\elitea-platform\\conversations\\share-chat\\ELITEA-4810_share-chat-window-server-errors-and-recovery.md"
+    },
+    {
+      "id": "ELITEA-4815",
+      "title": "Export availability follows a participant's role changes and is enforced server-side",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "conversations",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "chat-export",
+        "share-chat",
+        "feat:roles-permissions",
+        "issue:7723",
+        "p1"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7723",
+        "EliteaAI/elitea_issues#7489"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\conversations\\share-chat\\ELITEA-4815_export-availability-follows-participant-role-changes-and-is-enforced-server-side.md"
+    },
+    {
+      "id": "ELITEA-4816",
+      "title": "Chat – Team Project – Mention People with Access Who Never Opened a Restricted Chat",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "conversations",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "share-chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7523"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\conversations\\share-chat\\ELITEA-4816_chat-team-project-mention-people-with-access-who-never-opened-a-restricted-chat.md"
+    },
+    {
+      "id": "ELITEA-4817",
+      "title": "Chat – Team Project – Mention of a User Without Access Rejects the Whole Message",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "conversations",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "share-chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7523"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\conversations\\share-chat\\ELITEA-4817_chat-team-project-mention-of-a-user-without-access-rejects-the-whole-message.md"
     },
     {
       "id": "ELITEA-0572",
