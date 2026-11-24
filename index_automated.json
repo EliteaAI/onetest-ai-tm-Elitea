@@ -4553,7 +4553,7 @@
     },
     {
       "id": "ELITEA-2167",
-      "title": "Chat – Team Project – Create New Conversation and Add Users via Invite Users with Add Confirmation",
+      "title": "Chat – Team Project – Create New Conversation and Add Users via Share Chat",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -4565,7 +4565,9 @@
         "automated:UI:regression",
         "feat:chat"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#7489"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -4574,7 +4576,7 @@
     },
     {
       "id": "ELITEA-2168",
-      "title": "Chat – Team Project – Add Multiple Users, Mention User, View User List and Remove Users from Conversation",
+      "title": "Chat – Team Project – Add Multiple Users, Mention Users, View Users Dropdown and Remove Access",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -4586,33 +4588,14 @@
         "automated:UI:regression",
         "feat:chat"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#7489"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2168_chat-team-project-add-multiple-users-mention-user-view-list-and-remove-users.md"
-    },
-    {
-      "id": "ELITEA-2169",
-      "title": "Chat – Team Project – Add Users as Conversation Participants",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "chat-interface",
-      "owner": "",
-      "tags": [
-        "automated:UI:regression",
-        "feat:chat"
-      ],
-      "requirements": [],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2169_chat-team-project-add-users-as-conversation-participants.md"
     },
     {
       "id": "ELITEA-2170",
@@ -4649,7 +4632,9 @@
         "automated:UI:regression",
         "feat:chat"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#7489"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -4670,7 +4655,9 @@
         "automated:UI:regression",
         "feat:chat"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#7489"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -4973,7 +4960,7 @@
     },
     {
       "id": "ELITEA-2192",
-      "title": "Chat – Team Project – Conversation Owner Cannot Be Removed from Participants",
+      "title": "Chat – Team Project – Chat Owner Cannot Be Removed from Access",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -4985,7 +4972,9 @@
         "automated:UI:regression",
         "feat:chat"
       ],
-      "requirements": [],
+      "requirements": [
+        "EliteaAI/elitea_issues#7489"
+      ],
       "automation_test_id": [],
       "targets": [],
       "dependencies": [],
@@ -6522,7 +6511,8 @@
         "r-2.0.8"
       ],
       "requirements": [
-        "EliteaAI/elitea_issues#4590"
+        "EliteaAI/elitea_issues#4590",
+        "EliteaAI/elitea_issues#7489"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -7527,6 +7517,102 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4476_ai-participant-relinking-and-cross-user-author-display-bug-7427-fix.md"
+    },
+    {
+      "id": "ELITEA-4811",
+      "title": "Chat – Team Project – Share Chat with Selected People and Whole Team Grants Access and Removing Access Revokes It",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "conversations",
+      "owner": "",
+      "tags": [
+        "manual:UI:regression",
+        "feat:chat",
+        "share-chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7489"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/share-chat/ELITEA-4811_chat-team-project-share-chat-with-selected-people-and-whole-team-grants-access-a.md"
+    },
+    {
+      "id": "ELITEA-4812",
+      "title": "Chat – External Chat Link Created, Opened Without Login with Password, Revoked and No Longer Works",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "conversations",
+      "owner": "",
+      "tags": [
+        "manual:UI:regression",
+        "feat:chat",
+        "share-chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7489"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/share-chat/ELITEA-4812_chat-external-chat-link-created-opened-without-login-with-password-revoked-and-n.md"
+    },
+    {
+      "id": "ELITEA-4813",
+      "title": "Chat – Team Project – Shared Chat for a User Who Is Not the Owner Allows Copy Link Only",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "conversations",
+      "owner": "",
+      "tags": [
+        "manual:UI:regression",
+        "feat:chat",
+        "share-chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7489"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/share-chat/ELITEA-4813_chat-team-project-shared-chat-for-a-user-who-is-not-the-owner-allows-copy-link-o.md"
+    },
+    {
+      "id": "ELITEA-4814",
+      "title": "Chat – Team Project – Mentions and Notifications in a Chat Shared with Whole Team",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "conversations",
+      "owner": "",
+      "tags": [
+        "manual:UI:regression",
+        "feat:chat",
+        "share-chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7489"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/share-chat/ELITEA-4814_chat-team-project-mentions-and-notifications-in-a-chat-shared-with-whole-team.md"
     },
     {
       "id": "ELITEA-1962",

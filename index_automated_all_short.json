@@ -1011,11 +1011,6 @@
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2168_chat-team-project-add-multiple-users-mention-user-view-list-and-remove-users.md"
     },
     {
-      "id": "ELITEA-2169",
-      "priority": "high",
-      "path": "tests/automated-full-regression-ui/chat/ELITEA-2169_chat-team-project-add-users-as-conversation-participants.md"
-    },
-    {
       "id": "ELITEA-2170",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/chat/ELITEA-2170_chat-team-project-remove-user-from-conversation-via-confirm-dialog.md"
@@ -1619,6 +1614,26 @@
       "id": "ELITEA-4476",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4476_ai-participant-relinking-and-cross-user-author-display-bug-7427-fix.md"
+    },
+    {
+      "id": "ELITEA-4811",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/chat/share-chat/ELITEA-4811_chat-team-project-share-chat-with-selected-people-and-whole-team-grants-access-a.md"
+    },
+    {
+      "id": "ELITEA-4812",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/chat/share-chat/ELITEA-4812_chat-external-chat-link-created-opened-without-login-with-password-revoked-and-n.md"
+    },
+    {
+      "id": "ELITEA-4813",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/chat/share-chat/ELITEA-4813_chat-team-project-shared-chat-for-a-user-who-is-not-the-owner-allows-copy-link-o.md"
+    },
+    {
+      "id": "ELITEA-4814",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/chat/share-chat/ELITEA-4814_chat-team-project-mentions-and-notifications-in-a-chat-shared-with-whole-team.md"
     },
     {
       "id": "ELITEA-1962",
