@@ -17266,54 +17266,6 @@
       "path": "tests\\automated-full-regression-ui\\chat\\share-chat\\ELITEA-4814_chat-team-project-mentions-and-notifications-in-a-chat-shared-with-whole-team.md"
     },
     {
-      "id": "ELITEA-4816",
-      "title": "Chat – Team Project – Mention People with Access Who Never Opened a Restricted Chat",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "conversations",
-      "owner": "",
-      "tags": [
-        "manual:UI:regression",
-        "feat:chat",
-        "share-chat"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#7523"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests\\automated-full-regression-ui\\chat\\share-chat\\ELITEA-4816_chat-team-project-mention-people-with-access-who-never-opened-a-restricted-chat.md"
-    },
-    {
-      "id": "ELITEA-4817",
-      "title": "Chat – Team Project – Mention of a User Without Access Rejects the Whole Message",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "conversations",
-      "owner": "",
-      "tags": [
-        "manual:UI:regression",
-        "feat:chat",
-        "share-chat"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#7523"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests\\automated-full-regression-ui\\chat\\share-chat\\ELITEA-4817_chat-team-project-mention-of-a-user-without-access-rejects-the-whole-message.md"
-    },
-    {
       "id": "ELITEA-1962",
       "title": "Credential CRUD Journey",
       "status": "draft",
@@ -59671,6 +59623,52 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests\\elitea-platform\\conversations\\share-chat\\ELITEA-4815_export-availability-follows-participant-role-changes-and-is-enforced-server-side.md"
+    },
+    {
+      "id": "ELITEA-4816",
+      "title": "Chat – Team Project – Mention People with Access Who Never Opened a Restricted Chat",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "conversations",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "share-chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7523"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\conversations\\share-chat\\ELITEA-4816_chat-team-project-mention-people-with-access-who-never-opened-a-restricted-chat.md"
+    },
+    {
+      "id": "ELITEA-4817",
+      "title": "Chat – Team Project – Mention of a User Without Access Rejects the Whole Message",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "conversations",
+      "owner": "",
+      "tags": [
+        "feat:chat",
+        "share-chat"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7523"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\conversations\\share-chat\\ELITEA-4817_chat-team-project-mention-of-a-user-without-access-rejects-the-whole-message.md"
     },
     {
       "id": "ELITEA-0572",

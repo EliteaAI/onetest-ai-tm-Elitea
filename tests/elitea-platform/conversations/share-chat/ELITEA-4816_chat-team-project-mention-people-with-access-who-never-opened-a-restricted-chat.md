@@ -6,7 +6,7 @@ type: functional
 module: conversations
 status: draft
 execution_type: manual
-tags: [manual:UI:regression, feat:chat, share-chat]
+tags: [feat:chat, share-chat]
 requirements: [EliteaAI/elitea_issues#7523]
 ---
 
