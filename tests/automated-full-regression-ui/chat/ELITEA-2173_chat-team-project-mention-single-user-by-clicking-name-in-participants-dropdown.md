@@ -7,7 +7,7 @@ module: chat-interface
 status: draft
 execution_type: manual
 tags: [automated:UI:regression, feat:chat]
-requirements: []
+requirements: [EliteaAI/elitea_issues#7489]
 ---
 
 # ELITEA-2173: Chat – Team Project – Mention Single User by Clicking Name in Participants Dropdown
@@ -37,7 +37,7 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|--------------------|
-| 1 | Open conversation, click avatar group to open USERS dropdown | Dropdown shows participants |
+| 1 | Open conversation, click the Users card count ('N users' / 'Whole Team (N)') to open the users dropdown | Dropdown shows the people with access |
 | 2 | Click on user_1's name | @user_1 inserted into message input field |
 | 3 | Verify mention is highlighted/formatted | Mention highlighted |
 | 4 | Type 'hi' and send '@user_1 hi' | Message sent; user_1 receives notification; no LLM response generated |

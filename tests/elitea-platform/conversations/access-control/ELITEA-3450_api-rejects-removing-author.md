@@ -1,31 +1,31 @@
 ---
 id: ELITEA-3450
-title: "API Rejects Removing Author from Conversation"
+title: "API Rejects Removing the Owner from Chat Access"
 priority: critical
 type: functional
 module: conversations
 status: ready
 execution_type: manual
-tags: [feat:chat, access-control, restrict-access, api, security, r-2.0.7]
-requirements: [EliteaAI/elitea_issues#6283]
+tags: [feat:chat, access-control, share-chat, api, security, r-2.0.7]
+requirements: [EliteaAI/elitea_issues#6283, EliteaAI/elitea_issues#7489]
 ---
-# ELITEA-3450: API Rejects Removing Author from Conversation
+# ELITEA-3450: API Rejects Removing the Owner from Chat Access
 
 **Module:** Conversations · **Priority:** Critical · **Type:** Functional
 
-**Objective:** Verify that the server-side API rejects any attempt to restrict a conversation without including the author in the participant list.
+**Objective:** Verify that the server-side API rejects any attempt to save the chat access (Share Chat > Team) without the owner, so the owner always keeps access.
 
 ## Preconditions
 
 - Valid API access token for the conversation author
-- A public conversation exists with known ID
+- A conversation owned by the author exists in a team project, with known ID
 - API testing tool available (Postman, curl, browser dev tools)
 
 ## Test Data
 
 | Field | Value |
 |-------|-------|
-| API Endpoint | /api/conversations/{id}/restrict |
+| API Endpoint | Access request sent by Share Chat > Team > Save (captured in DevTools) |
 | Auth | Valid author token |
 | Method | PUT/POST |
 
@@ -33,17 +33,11 @@ requirements: [EliteaAI/elitea_issues#6283]
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Construct API request to restrict conversation access | Request body prepared |
-| 2 | Set participant list to empty array `[]` | Payload: `{"participants": []}` |
-| 3 | Send PUT/POST request to restrict access endpoint | Server responds |
-| 4 | Verify response status | HTTP 400 Bad Request or 422 Unprocessable Entity |
-| 5 | Verify error message | Message indicates author/creator must be included |
-| 6 | Check conversation state via GET request | Access state UNCHANGED |
-| 7 | Verify author still has access | Author can still open conversation |
-| 8 | Try with list excluding only author | Include other users but not author |
-| 9 | Send request | Server REJECTS with same error |
-| 10 | Try with list including author | Include author + others |
-| 11 | Send request | Server ACCEPTS, operation succeeds |
+| 1 | As the owner, open Share > Team, add a user, click Save; capture the access request in DevTools > Network | Endpoint and payload are recorded |
+| 2 | Replay the request with a payload without the owner (empty list, then only other users) | Server responds |
+| 3 | Verify the response | Rejected (400/422); the message says the owner must keep access |
+| 4 | Reopen Share > Team | The owner is listed with the badge "Owner"; the list is unchanged |
+| 5 | Replay the request with a payload that includes the owner | Request is accepted |
 
 ## Expected Final State
 

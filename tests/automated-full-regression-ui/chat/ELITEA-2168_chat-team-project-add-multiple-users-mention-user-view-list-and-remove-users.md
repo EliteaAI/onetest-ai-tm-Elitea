@@ -1,27 +1,27 @@
 ---
 id: ELITEA-2168
-title: "Chat – Team Project – Add Multiple Users, Mention User, View User List and Remove Users from Conversation"
+title: "Chat – Team Project – Add Multiple Users, Mention Users, View Users Dropdown and Remove Access"
 priority: high
 type: functional
 module: chat-interface
 status: draft
 execution_type: manual
 tags: [automated:UI:regression, feat:chat]
-requirements: []
+requirements: [EliteaAI/elitea_issues#7489]
 ---
 
-# ELITEA-2168: Chat – Team Project – Add Multiple Users, Mention User, View User List and Remove Users from Conversation
+# ELITEA-2168: Chat – Team Project – Add Multiple Users, Mention Users, View Users Dropdown and Remove Access
 
 **Module:** chat-interface · **Priority:** high · **Type:** functional
 
-**Objective:** Verify the complete flow of adding multiple users with deselection, mentioning users, using @Everyone, and removing users via the PARTICIPANTS dropdown.
+**Objective:** Verify the complete flow of adding multiple users with deselection in the Share Chat window, mentioning users, using Everyone, and removing access via the Share Chat window.
 
 ---
 
 ## Preconditions
 
 - User is logged in to the Elitea platform.
-- User is in a Team project with an existing conversation that has participants.
+- User is the owner of an existing conversation in a Team project.
 
 ---
 
@@ -37,24 +37,22 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|--------------------|
-| 1 | Open a conversation in Team project with existing participants | PARTICIPANTS USERS section visible |
-| 2 | Open Invite Users modal and select user_1, user_2, user_3, user_4 | Four user chips shown |
-| 3 | Click X on user_4's chip to deselect | user_4 removed from chips; user_1/2/3 remain |
-| 4 | Click Add; verify user_1/2/3 added to PARTICIPANTS | Three users added |
-| 5 | Verify USERS section shows first 5 avatars and +N indicator for additional users | +N indicator shown |
-| 6 | Open Invite Users again, select user_4, click Cancel | Modal closes; user_4 not added |
-| 7 | Type '@Test Bot hi' and send | Message sent; notification badge appears; no LLM response generated |
-| 8 | Click the USERS avatar group to open dropdown; hover over Admin Bot; click delete icon | Remove user? modal appears |
-| 9 | Click Remove in the modal | Admin Bot removed from dropdown and PARTICIPANTS |
-| 10 | Hover over user_1 and click delete; click Cancel | Modal closes; user_1 not removed |
-| 11 | Click 'All users' at bottom of dropdown; verify @Everyone inserted in message field | @Everyone mention highlighted |
-| 12 | Type 'hi' and send '@Everyone hi' | Message sent; all participants receive notification; no LLM response |
+| 1 | Open the conversation in Team project | PARTICIPANTS panel with the Users card visible |
+| 2 | Open Share > Team; in the search dropdown pick user_1, user_2, user_3, user_4, then click user_4 again | user_4 unchecked; "3 selected" |
+| 3 | Click Add, then Save | user_1/2/3 listed; Users card shows "N users" (owner included) |
+| 4 | Click "N users" on the Users card | Dropdown: Everyone, own row "(You)" (not clickable), then the people, owner first with the badge "Owner" |
+| 5 | Type '@Test Bot hi' and send | Message sent; notification badge appears; no LLM response generated |
+| 6 | Hover a person in the users dropdown | Only "@" is shown; no delete icon |
+| 7 | Open Share > Team, hover user_1, click ×, then Save | user_1 removed; card count −1; user_1 not in the dropdown |
+| 8 | Open Share > Team, hover user_2, click ×, then Cancel and Leave | user_2 keeps access |
+| 9 | Click "Everyone" in the users dropdown | @Everyone inserted and highlighted in the message field |
+| 10 | Type 'hi' and send '@Everyone hi' | Message sent; all people with access receive notification; no LLM response |
 
 ---
 
 ## Expected Final State
 
-Multiple users managed correctly; @mention and @Everyone work; removal via confirm dialog works.
+Multiple users managed via Share Chat; @mention and Everyone work; access removal via Share Chat works.
 
 ---
 

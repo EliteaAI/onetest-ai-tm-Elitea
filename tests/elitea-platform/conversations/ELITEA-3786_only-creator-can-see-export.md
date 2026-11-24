@@ -7,7 +7,7 @@ module: conversations
 status: ready
 execution_type: manual
 tags: [eng:frontend, eng:backend, feat:chat, feat:export, feat:permissions, r-2.0.8]
-requirements: [EliteaAI/elitea_issues#4590]
+requirements: [EliteaAI/elitea_issues#4590, EliteaAI/elitea_issues#7489]
 ---
 # ELITEA-3786: Verify Only Conversation Creator Can See/Use Export Option
 
@@ -26,7 +26,7 @@ requirements: [EliteaAI/elitea_issues#4590]
 - Two user accounts available:
   - User A (conversation creator)
   - User B (non-creator, has access to view conversation)
-- Conversation exists created by User A, shared with User B
+- Conversation created by User A and shared with User B via "⋮" > Share > Team (selected people) > Save
 - Both users can be logged in (test sequentially or in parallel)
 
 ## Test Data
@@ -57,7 +57,7 @@ requirements: [EliteaAI/elitea_issues#4590]
 | 10 | Verify User B can view conversation messages | Messages readable |
 | 11 | Right-click "Test Conversation" | Context menu appears |
 | 12 | Verify "Export" option **NOT** present in menu | **Export option NOT VISIBLE** |
-| 13 | Verify available options | Options may include: View/Open, other non-destructive actions, but NOT Export or Delete |
+| 13 | Verify available options | "Share" is present and only copies the link (toast "Link copied. Only people with access can open it."); no Export, no Delete |
 | 14 | Check conversation settings/toolbar (if any) | Verify no Export option in settings or toolbar |
 | 15 | Verify User B cannot export through any means | No export capability available to User B |
 
