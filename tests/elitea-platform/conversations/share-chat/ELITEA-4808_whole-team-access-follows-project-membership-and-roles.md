@@ -6,8 +6,8 @@ type: functional
 module: conversations
 status: draft
 execution_type: manual
-tags: [feat:chat, access-control, share-chat]
-requirements: [EliteaAI/elitea_issues#7489]
+tags: [feat:chat, access-control, share-chat, chat-export, issue:7723]
+requirements: [EliteaAI/elitea_issues#7489, EliteaAI/elitea_issues#7723]
 ---
 
 # ELITEA-4808: Whole team access follows project membership and roles
@@ -30,7 +30,7 @@ requirements: [EliteaAI/elitea_issues#7489]
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | As User V and as User E, open C1 and click Share in the chat menu and on the Users card | Both can open C1 within their role. Share only copies the link with a toast; no window opens |
+| 1 | As User V and as User E, open C1 and click Share in the chat menu and on the Users card | Both can open C1 within their role. Share only copies the link with a toast; no window opens. In the "⋮" menu of C1, Export is not shown for User V (Viewer) and is shown for User E (Editor) |
 | 2 | As User A, use "Invite to project" in Share > Team to invite User X; User X accepts | User X is a project member; C1 shows "Whole Team (N+1)"; User X can open C1 |
 | 3 | As User A, remove User E from the project in Settings > Users | The count goes down; User E cannot open C1 |
 | 4 | As User A, switch C1 to selected people (User V only) and Save | User X loses access; User V keeps it; counts are correct |
@@ -39,4 +39,4 @@ requirements: [EliteaAI/elitea_issues#7489]
 
 ## Expected Final State
 
-Whole team means current project members; only the owner manages access.
+Whole team means current project members; only the owner manages access; Export is not available to Viewer participants.

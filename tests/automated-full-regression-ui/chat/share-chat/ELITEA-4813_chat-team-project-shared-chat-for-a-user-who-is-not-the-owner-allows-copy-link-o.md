@@ -6,8 +6,8 @@ type: functional
 module: conversations
 status: draft
 execution_type: manual
-tags: [manual:UI:regression, feat:chat, share-chat]
-requirements: [EliteaAI/elitea_issues#7489]
+tags: [manual:UI:regression, feat:chat, share-chat, issue:7723]
+requirements: [EliteaAI/elitea_issues#7489, EliteaAI/elitea_issues#7723]
 ---
 
 # ELITEA-4813: Chat – Team Project – Shared Chat for a User Who Is Not the Owner Allows Copy Link Only
@@ -21,7 +21,7 @@ requirements: [EliteaAI/elitea_issues#7489]
 ## Preconditions
 
 - User is logged in to the Elitea platform.
-- Team project; User A owns chat C1 shared with User B (selected people) and has at least 1 active external link on it.
+- Team project; User B has the Editor role in the project; User A owns chat C1 shared with User B (selected people) and has at least 1 active external link on it.
 - User B is logged in and has access to the Public project.
 
 ---
@@ -31,7 +31,7 @@ requirements: [EliteaAI/elitea_issues#7489]
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | As User B, open C1 and send a message | The message is sent; the Users card shows "N users" without a "🔗" count |
-| 2 | Open the "⋮" menu of C1 | One "Share" item; no Make public, Restrict access or Share externally |
+| 2 | Open the "⋮" menu of C1 | One "Share" item; no Make public, Restrict access or Share externally. Export is present (User B is Editor) |
 | 3 | Click Share | No window opens; the link is copied; toast "Link copied. Only people with access can open it." |
 | 4 | Hover the Users card and click its Share icon | Same as step 3 |
 | 5 | Collapse the Participants panel, open the users dropdown and click Share | No window opens; the link is copied with the same toast |
