@@ -6,8 +6,8 @@ type: functional
 module: chat-interface
 status: ready
 execution_type: manual
-tags: [chat, duplicate, participants, ui-regression, P2]
-requirements: [3837]
+tags: [chat, duplicate, participants, ui-regression, P2, share-chat]
+requirements: [3837, EliteaAI/elitea_issues#7489]
 ---
 # ELITEA-2640: Participant Panel Rendering - No Regression for All Participant Types
 
@@ -42,7 +42,7 @@ requirements: [3837]
 |---|--------|----------------|
 | 1 | Open original chat with all participant types | Chat opens successfully |
 | 2 | Open Participants panel | All participant sections visible |
-| 3 | Verify USERS section displays user avatars/names correctly | Users rendered properly |
+| 3 | Verify the Users card ("Whole Team (N)" / "N users" / "Only You", " · 🔗 n" for the owner) and its users dropdown | Card and dropdown rendered properly |
 | 4 | Verify AGENTS section displays agent icons/names correctly | Agents rendered properly |
 | 5 | Verify PIPELINES section displays pipeline icons/names | Pipelines rendered properly |
 | 6 | Verify TOOLKITS section displays toolkit icons/names | Toolkits rendered properly |
@@ -50,12 +50,13 @@ requirements: [3837]
 | 8 | Document current rendering (screenshots if possible) | Reference state captured |
 | 9 | Duplicate the chat | Duplicate created |
 | 10 | Open duplicated chat and open Participants panel | Participants panel opens |
-| 11 | Verify USERS section renders identically | No visual regression |
+| 11 | Verify the Users card shows the access of the duplicate (not the external links of the original) | Rendered correctly; no layout issues |
 | 12 | Verify AGENTS section renders identically | No visual regression |
 | 13 | Verify PIPELINES section renders identically | No visual regression |
 | 14 | Verify TOOLKITS section renders identically | No visual regression |
 | 15 | Verify MCPS section renders identically | No visual regression |
 | 16 | Check for any layout issues, overlaps, or missing elements | No UI defects |
+| 17 | Collapse the Participants panel and hover each icon | Badges correct; tooltips open to the left |
 
 ## Expected Final State
 

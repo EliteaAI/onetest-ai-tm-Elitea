@@ -1,20 +1,20 @@
 ---
 id: ELITEA-2167
-title: "Chat – Team Project – Create New Conversation and Add Users via Invite Users with Add Confirmation"
+title: "Chat – Team Project – Create New Conversation and Add Users via Share Chat"
 priority: high
 type: functional
 module: chat-interface
 status: draft
 execution_type: manual
 tags: [automated:UI:regression, feat:chat]
-requirements: []
+requirements: [EliteaAI/elitea_issues#7489]
 ---
 
-# ELITEA-2167: Chat – Team Project – Create New Conversation and Add Users via Invite Users with Add Confirmation
+# ELITEA-2167: Chat – Team Project – Create New Conversation and Add Users via Share Chat
 
 **Module:** chat-interface · **Priority:** high · **Type:** functional
 
-**Objective:** Verify the complete flow of creating a conversation in a Team project and adding/cancelling/closing users via the Invite Users modal.
+**Objective:** Verify the complete flow of creating a conversation in a Team project and adding/cancelling/closing users via the Team tab of the Share Chat window.
 
 ---
 
@@ -37,22 +37,21 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|--------------------|
-| 1 | Navigate to Chats in Team project and click + Chat | New conversation opens; PARTICIPANTS panel visible with empty USERS section |
-| 2 | Click + icon and verify 'Invite Users' is in the menu | Invite Users option present |
-| 3 | Click Invite Users | 'Add users' modal opens with search field and Cancel/Add buttons |
-| 4 | Search 'sa' and select first user (e.g. Hrach Sargsyan) | User chip appears; modal stays open |
-| 5 | Search 'ad' and select second user (e.g. Admin Bot) | Two user chips shown; modal stays open |
-| 6 | Click Add button | Modal closes; both users in PARTICIPANTS USERS section |
-| 7 | Click + icon, Invite Users, select a third user, click Cancel | Modal closes; third user not added |
-| 8 | Click + icon, Invite Users, select a fourth user, click X (close) | Modal closes; fourth user not added |
-| 9 | Type 'hi all' and click Send | Message sent; LLM responds; owner avatar added to PARTICIPANTS USERS |
-| 10 | Verify conversation appears in Today with multi-person icon | Conversation listed with users icon |
+| 1 | Navigate to Chats in Team project and click + Chat | New conversation opens; PARTICIPANTS panel visible |
+| 2 | Click "+" in the message input | No 'Invite Users' item in the menu |
+| 3 | Hover the Users card and click its Share icon (or "⋮" > Share) | Share Chat window opens on Team; "People with access – 1" |
+| 4 | Focus the search, type 'sa' and select a user; type 'ad' and select a second user; click Add | Both users are listed after the owner; count = 3 |
+| 5 | Click Save | Toast "Access updated"; the Users card shows "3 users" |
+| 6 | Add a third user, click Cancel, then Leave | Window closes; third user not added (card still "3 users") |
+| 7 | Add a fourth user, click × of the window, then Leave | Window closes; fourth user not added |
+| 8 | Type 'hi all' and click Send | Message sent; LLM responds |
+| 9 | Verify conversation appears in Today with multi-person icon | Conversation listed with users icon |
 
 ---
 
 ## Expected Final State
 
-Conversation created with users added; Cancel and X dismiss without adding; first message shows owner in PARTICIPANTS.
+Conversation created with users added via Share Chat; Cancel and × dismiss without adding.
 
 ---
 
@@ -60,7 +59,7 @@ Conversation created with users added; Cancel and X dismiss without adding; firs
 
 **Pass:**
 - All steps complete without errors.
-- Users added via Add; Cancel/X don't add users; owner appears after first message.
+- Users added via Add and Save; Cancel/× don't add users; the Users card count is correct.
 
 **Fail:**
 - Any step produces an error or unexpected result.

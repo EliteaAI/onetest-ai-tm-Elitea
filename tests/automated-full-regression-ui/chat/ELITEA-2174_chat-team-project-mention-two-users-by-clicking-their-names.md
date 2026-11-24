@@ -7,7 +7,7 @@ module: chat-interface
 status: draft
 execution_type: manual
 tags: [automated:UI:regression, feat:chat]
-requirements: []
+requirements: [EliteaAI/elitea_issues#7489]
 ---
 
 # ELITEA-2174: Chat – Team Project – Mention Two Users by Clicking Their Names in Participants Dropdown
@@ -37,7 +37,7 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|--------------------|
-| 1 | Open USERS dropdown, click on user_1's name | @user_1 inserted |
+| 1 | Click the Users card count ('N users' / 'Whole Team (N)') to open the users dropdown, click on user_1's name | @user_1 inserted |
 | 2 | Reopen USERS dropdown, click on user_2's name | @user_2 appended in message field |
 | 3 | Type 'hi' and send '@user_1 @user_2 hi' | Message sent; both users notified; no LLM response |
 
