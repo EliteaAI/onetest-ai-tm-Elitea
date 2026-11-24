@@ -6494,7 +6494,7 @@
     },
     {
       "id": "ELITEA-3786",
-      "title": "Verify Only Conversation Creator Can See/Use Export Option",
+      "title": "Verify Export Option Visibility for the Chat Creator and Non-Creator Participants by Project Role",
       "status": "draft",
       "execution_type": "manual",
       "type": "functional",
@@ -6508,11 +6508,14 @@
         "feat:chat",
         "feat:export",
         "feat:permissions",
-        "r-2.0.8"
+        "feat:roles-permissions",
+        "r-2.0.8",
+        "issue:7723"
       ],
       "requirements": [
         "EliteaAI/elitea_issues#4590",
-        "EliteaAI/elitea_issues#7489"
+        "EliteaAI/elitea_issues#7489",
+        "EliteaAI/elitea_issues#7723"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -7427,7 +7430,7 @@
     },
     {
       "id": "ELITEA-4474",
-      "title": "Export visibility-based access and Import's role-based permission both hold (bug #7165 fix)",
+      "title": "Export is hidden for Viewer and available to Editor/Admin on visible chats; Import's role-based permission holds (bugs #7165, #7723)",
       "status": "draft",
       "execution_type": "manual",
       "type": "regression",
@@ -7440,16 +7443,19 @@
         "chat-export",
         "chat-import",
         "permissions",
+        "feat:roles-permissions",
         "regression",
         "issue:6903",
         "issue:6904",
         "issue:7165",
+        "issue:7723",
         "p0"
       ],
       "requirements": [
         "EliteaAI/elitea_issues#6903",
         "EliteaAI/elitea_issues#6904",
-        "EliteaAI/elitea_issues#7165"
+        "EliteaAI/elitea_issues#7165",
+        "EliteaAI/elitea_issues#7723"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -7579,10 +7585,12 @@
       "tags": [
         "manual:UI:regression",
         "feat:chat",
-        "share-chat"
+        "share-chat",
+        "issue:7723"
       ],
       "requirements": [
-        "EliteaAI/elitea_issues#7489"
+        "EliteaAI/elitea_issues#7489",
+        "EliteaAI/elitea_issues#7723"
       ],
       "automation_test_id": [],
       "targets": [],
