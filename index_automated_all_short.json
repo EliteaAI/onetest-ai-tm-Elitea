@@ -4176,6 +4176,16 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-4757_skill-test-panel-copy-markdown-and-copy-text-actions.md"
     },
     {
+      "id": "ELITEA-4893",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4893_skill-page-settings-layout-instructions-code-mode-and-test-column.md"
+    },
+    {
+      "id": "ELITEA-4894",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4894_skill-files-tab-tree-viewer-links-and-url-state.md"
+    },
+    {
       "id": "ELITEA-1986",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1986_access-control-role-based-visibility.md"
