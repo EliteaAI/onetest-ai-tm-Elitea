@@ -52,7 +52,7 @@ requirements: []
 |---|--------|-----------------|
 | 1 | Create a new skill with Name "Run Settings Test Skill", Description "Skill for testing run_settings configuration", Instructions "Answer the user's question about the current date and time. If project context is available, mention any project-specific information." | Skill is created successfully |
 | 2 | Open the skill "Run Settings Test Skill" | Skill editor page loads |
-| 3 | Navigate to "Run Settings" or "Model Settings" section (if separate tab or expandable section) | Run Settings section is displayed |
+| 3 | In the Settings tab, expand the collapsed "RUN SETTINGS" section | Run Settings section is displayed |
 | 4 | Select a fixed model: "Claude Opus" (or model different from project default) | Model is selected |
 | 5 | Verify "Reasoning Level" dropdown/selector appears (for reasoning-capable models) | Reasoning Level selector is displayed |
 | 6 | Select reasoning level: "high" | Reasoning level is selected |
@@ -66,7 +66,7 @@ requirements: []
 |---|--------|-----------------|
 | 10 | Navigate away from the skill (e.g., return to Skills list) | Navigation completes successfully |
 | 11 | Re-open the skill "Run Settings Test Skill" | Skill editor page loads |
-| 12 | Navigate to "Run Settings" section | Run Settings section is displayed |
+| 12 | Expand the "RUN SETTINGS" section (it is collapsed after re-opening) | Run Settings section is displayed |
 | 13 | Verify fixed model "Claude Opus" is still selected | Model persisted correctly |
 | 14 | Verify reasoning level "high" is still selected | Reasoning level persisted correctly |
 | 15 | Verify max tokens "2000" is still displayed | Max tokens persisted correctly |
@@ -97,7 +97,7 @@ requirements: []
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 27 | Open the skill "Run Settings Test Skill" | Skill editor page loads |
-| 28 | Navigate to "Run Settings" section | Run Settings section is displayed |
+| 28 | Expand the "RUN SETTINGS" section | Run Settings section is displayed |
 | 29 | Verify "Use Project Context" toggle or checkbox is present | Context toggle control is displayed |
 | 30 | Set the "Use Project Context" toggle to OFF (or check "Ignore Project Context") | Context toggle is set to OFF (ignore_project_context = true) |
 | 31 | Click Save | Skill is saved with context disabled. The frontmatter `metadata` contains `elitea-ignore-project-context: "true"` |
