@@ -19294,6 +19294,54 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-4757_skill-test-panel-copy-markdown-and-copy-text-actions.md"
     },
     {
+      "id": "ELITEA-4893",
+      "title": "Skill page: Settings layout, Instructions preview/code with Copy, and Test column with Full screen",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7573"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4893_skill-page-settings-layout-instructions-code-mode-and-test-column.md"
+    },
+    {
+      "id": "ELITEA-4894",
+      "title": "Skill Files tab: tree, file viewer and menus, Instructions beside the file, SKILL.md links, and URL state after reload",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7573"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4894_skill-files-tab-tree-viewer-links-and-url-state.md"
+    },
+    {
       "id": "ELITEA-1986",
       "title": "Build with AI — Access Control (Role-Based Visibility)",
       "status": "draft",
