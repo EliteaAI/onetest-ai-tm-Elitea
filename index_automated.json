@@ -12431,6 +12431,58 @@
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4756_pipeline-test-chat-copy-markdown-and-copy-text-actions.md"
     },
     {
+      "id": "ELITEA-4838",
+      "title": "Pipeline Agent node - Swarm Mode agent is listed disabled with tooltip and cannot be selected",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:pipelines",
+        "feat:pipeline_nodes",
+        "feat:agents",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7085"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4838_pipeline-agent-node-swarm-agent-disabled-with-tooltip.md"
+    },
+    {
+      "id": "ELITEA-4839",
+      "title": "Pipeline Agent node - search finds the disabled Swarm Mode agent and keeps it disabled",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "pipelines",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:pipelines",
+        "feat:pipeline_nodes",
+        "feat:agents",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7085"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4839_pipeline-agent-node-search-finds-disabled-swarm-agent.md"
+    },
+    {
       "id": "ELITEA-4464",
       "title": "Schedules — Missing Credential Is a Notice Under Pause and Ask Me and Blocks Save Under Run Without Asking",
       "status": "draft",
