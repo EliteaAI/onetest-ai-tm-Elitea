@@ -2681,6 +2681,16 @@
       "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4756_pipeline-test-chat-copy-markdown-and-copy-text-actions.md"
     },
     {
+      "id": "ELITEA-4838",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4838_pipeline-agent-node-swarm-agent-disabled-with-tooltip.md"
+    },
+    {
+      "id": "ELITEA-4839",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/pipelines/ELITEA-4839_pipeline-agent-node-search-finds-disabled-swarm-agent.md"
+    },
+    {
       "id": "ELITEA-4464",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/schedules/ELITEA-4464_save-rules-per-approval-rule-for-missing-credential.md"
