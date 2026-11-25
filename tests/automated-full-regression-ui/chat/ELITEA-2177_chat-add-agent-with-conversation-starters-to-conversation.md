@@ -37,7 +37,7 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|--------------------|
-| 1 | Navigate to Chats, open a conversation, click + icon, select Agents, select 'Claude B' | Agent chip shown; conversation starters visible above input field (max 4) |
+| 1 | Navigate to Chats, open a conversation, click + icon, select Agents, select 'Claude B' | Agent chip shown; conversation starters visible above input field (up to 4 tiles; with more than 4 starters, 3 tiles and a "+N more" tile) |
 | 2 | Verify starters are displayed as clickable pills; hover over truncated starter to see tooltip | Full text shown in tooltip |
 | 3 | Click a conversation starter (e.g. 'here is your task: Explain Exponential Backoff') | Full text inserted in message field |
 | 4 | Verify text is editable and agent name/version still shown in input bar | Text editable; agent chip visible |

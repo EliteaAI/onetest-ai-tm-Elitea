@@ -42,7 +42,7 @@ requirements: []
 | 3 | Click + and select Agents, then select an agent with conversation starters configured (e.g. "Claude B") | Control responds; expected next state is shown. |
 | 4 | Verify the input bar now shows the agent name and version (e.g. "Claude B \| base") with a gear icon and X icon | Condition holds as described. |
 | 5 | Verify the PARTICIPANTS panel shows the AGENTS section with the selected agent | Condition holds as described. |
-| 6 | Verify conversation starter buttons are displayed above the message input field (maximum 4 starters) | Condition holds as described. |
+| 6 | Verify conversation starter buttons are displayed above the message input field | Up to 4 tiles; with more than 4 starters, 3 tiles and a "+N more" tile |
 | 7 | Hover over a starter button with truncated text and verify a tooltip shows the full text | Action completes without error and produces the expected UI state. |
 | 8 | Click on a conversation starter (e.g. "here is your task: Explain Exponential Backoff") | Control responds; expected next state is shown. |
 | 9 | Verify the full starter text is inserted into the message input field and is editable | Condition holds as described. |

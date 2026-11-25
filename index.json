@@ -35365,29 +35365,6 @@
       "path": "tests\\elitea-platform\\agents\\ELITEA-2772_wizard-step-indicator-shows-current-position.md"
     },
     {
-      "id": "ELITEA-2773",
-      "title": "Chat Starters maximum of 4 is enforced in Edit with AI suggestions",
-      "status": "draft",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "medium",
-      "size": "",
-      "module": "agents",
-      "owner": "",
-      "tags": [
-        "feat:agents",
-        "r-2.0.5"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#5893"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests\\elitea-platform\\agents\\ELITEA-2773_chat-starters-maximum-of-4-enforced.md"
-    },
-    {
       "id": "ELITEA-2774",
       "title": "Skills maximum of 5 is enforced in Edit with AI suggestions",
       "status": "draft",
@@ -73449,32 +73426,6 @@
       "path": "tests\\elitea-platform\\pipelines\\pipeline-creation-ux\\ELITEA-0918_verify-chat-pipeline-config-page-scroll-does-not-overflow-into-toolkit.md"
     },
     {
-      "id": "ELITEA-0919",
-      "title": "Verify Page Scrolls to Top With 1 to 4 Conversation Starters",
-      "status": "ready",
-      "execution_type": "manual",
-      "type": "functional",
-      "priority": "high",
-      "size": "",
-      "module": "pipeline-creation-ux",
-      "owner": "",
-      "tags": [
-        "feat:pipelines",
-        "r-2.0.2",
-        "4418",
-        "4685"
-      ],
-      "requirements": [
-        "EliteaAI/elitea_issues#4418",
-        "EliteaAI/elitea_issues#4685"
-      ],
-      "automation_test_id": [],
-      "targets": [],
-      "dependencies": [],
-      "known_issues": [],
-      "path": "tests\\elitea-platform\\pipelines\\pipeline-creation-ux\\ELITEA-0919_verify-page-scrolls-to-top-with-1-to-4-conversation-starters.md"
-    },
-    {
       "id": "ELITEA-0920",
       "title": "Verify Welcome Message and Conversation Starters Are Not Duplicated on Scroll",
       "status": "ready",
@@ -73544,7 +73495,8 @@
       ],
       "requirements": [
         "EliteaAI/elitea_issues#4418",
-        "EliteaAI/elitea_issues#4685"
+        "EliteaAI/elitea_issues#4685",
+        "EliteaAI/elitea_issues#7322"
       ],
       "automation_test_id": [],
       "targets": [],
@@ -110111,6 +110063,616 @@
       "dependencies": [],
       "known_issues": [],
       "path": "tests\\pipeline-nodes-hitl\\ELITEA-1367_swarm-mode-hitl-agent-with-swarm-mode-enabled-pipeline-toolkit-hitl-no.md"
+    },
+    {
+      "id": "ELITEA-4863",
+      "title": "Add chat starters up to the admin limit and verify the counter and disabled add button",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\automated-full-regression-ui\\agents\\configurable-chat-starters-limit\\ELITEA-4863_add-chat-starters-up-to-the-admin-limit-and-verify-the-counter.md"
+    },
+    {
+      "id": "ELITEA-4840",
+      "title": "Validate that Max Chat Starters per Version rejects out-of-range values and saves 1 and 10",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "admin-portal",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [
+        "elitea_issues#7747"
+      ],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4840_validate-that-max-chat-starters-per-version-rejects-out-of-r.md"
+    },
+    {
+      "id": "ELITEA-4841",
+      "title": "Discard or confirm leaving an unsaved Max Chat Starters per Version change",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "admin-portal",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4841_discard-or-confirm-leaving-an-unsaved-max-chat-starters-per.md"
+    },
+    {
+      "id": "ELITEA-4842",
+      "title": "Deliver the admin chat starter limit to the agent editor in a team project",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4842_deliver-the-admin-chat-starter-limit-to-the-agent-editor-in.md"
+    },
+    {
+      "id": "ELITEA-4843",
+      "title": "Enforce the chat starter limit on agent create, version create and MCP version update",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4843_enforce-the-chat-starter-limit-on-agent-create-version-creat.md"
+    },
+    {
+      "id": "ELITEA-4844",
+      "title": "Enforce the chat starter limit with counter, disabled add and tooltips in the agent and pipeline editors",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4844_enforce-the-chat-starter-limit-with-counter-disabled-add-and.md"
+    },
+    {
+      "id": "ELITEA-4845",
+      "title": "Keep existing chat starters when the limit is lowered from 10 to 5 and raised again",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4845_keep-existing-chat-starters-when-the-limit-is-lowered-from-1.md"
+    },
+    {
+      "id": "ELITEA-4846",
+      "title": "Keep all chat starters when copying an agent that is above the limit",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4846_keep-all-chat-starters-when-copying-an-agent-that-is-above-t.md"
+    },
+    {
+      "id": "ELITEA-4847",
+      "title": "Keep up to 10 chat starters when importing JSON and Markdown above the limit",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4847_keep-up-to-10-chat-starters-when-importing-json-and-markdown.md"
+    },
+    {
+      "id": "ELITEA-4848",
+      "title": "Show more chat starters in the new-chat empty state for agents with 5 and 10 starters",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4848_show-more-chat-starters-in-the-new-chat-empty-state-for-agen.md"
+    },
+    {
+      "id": "ELITEA-4849",
+      "title": "Show 3 starter tiles and a +N more tile in participant chat and the pipeline Test panel",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4849_show-3-starter-tiles-and-a-n-more-tile-in-participant-chat-a.md"
+    },
+    {
+      "id": "ELITEA-4850",
+      "title": "Open, scroll and close the All chat starters popover with 10 items",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4850_open-scroll-and-close-the-all-chat-starters-popover-with-10.md"
+    },
+    {
+      "id": "ELITEA-4851",
+      "title": "Keep the chat starter layout unchanged for agents with 0, 1, 3 and 4 starters",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4851_keep-the-chat-starter-layout-unchanged-for-agents-with-0-1-3.md"
+    },
+    {
+      "id": "ELITEA-4852",
+      "title": "Restore Max Chat Starters per Version to the default of 4",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "admin-portal",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [
+        "elitea_issues#7750"
+      ],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4852_restore-max-chat-starters-per-version-to-the-default-of-4.md"
+    },
+    {
+      "id": "ELITEA-4853",
+      "title": "Pick up a changed chat starter limit when the editor is opened without a page reload",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4853_pick-up-a-changed-chat-starter-limit-when-the-editor-is-open.md"
+    },
+    {
+      "id": "ELITEA-4854",
+      "title": "Keep unsaved edits when the limit is lowered while the agent editor is open",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4854_keep-unsaved-edits-when-the-limit-is-lowered-while-the-agent.md"
+    },
+    {
+      "id": "ELITEA-4855",
+      "title": "Reject only the agent with more than 10 chat starters in a mixed import",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4855_reject-only-the-agent-with-more-than-10-chat-starters-in-a-m.md"
+    },
+    {
+      "id": "ELITEA-4856",
+      "title": "Show the N/M counter and enforce the limit in the Generate Agent and Edit with AI modals",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4856_show-the-n-m-counter-and-enforce-the-limit-in-the-generate-a.md"
+    },
+    {
+      "id": "ELITEA-4857",
+      "title": "Suggest at most 4 chat starters in AI drafts and clamp a draft to the limit",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [
+        "elitea_issues#7748"
+      ],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4857_suggest-at-most-4-chat-starters-in-ai-drafts-and-clamp-a-dra.md"
+    },
+    {
+      "id": "ELITEA-4858",
+      "title": "Truncate long chat starters with a tooltip in tiles and the popover",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4858_truncate-long-chat-starters-with-a-tooltip-in-tiles-and-the.md"
+    },
+    {
+      "id": "ELITEA-4859",
+      "title": "Keep the chat starter grid and popover inside a 600px wide chat panel",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4859_keep-the-chat-starter-grid-and-popover-inside-a-600px-wide-c.md"
+    },
+    {
+      "id": "ELITEA-4860",
+      "title": "Load more than 4 chat starters when a participant is added in Canvas mode",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4860_load-more-than-4-chat-starters-when-a-participant-is-added-i.md"
+    },
+    {
+      "id": "ELITEA-4861",
+      "title": "Validate other numeric Admin Features fields after the chat starter limit change",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "high",
+      "size": "",
+      "module": "admin-portal",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4861_validate-other-numeric-admin-features-fields-after-the-chat.md"
+    },
+    {
+      "id": "ELITEA-4862",
+      "title": "Reach and operate the more-starters controls and popover with the keyboard",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "medium",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\agents\\configurable-chat-starters-limit\\ELITEA-4862_reach-and-operate-the-more-starters-controls-and-popover-wit.md"
+    },
+    {
+      "id": "ELITEA-0919",
+      "title": "Verify Page Scrolls to Top With 1 up to the Limit of Conversation Starters",
+      "status": "ready",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "pipeline-creation-ux",
+      "owner": "",
+      "tags": [
+        "feat:pipelines",
+        "r-2.0.2",
+        "4418",
+        "4685"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#4418",
+        "EliteaAI/elitea_issues#4685",
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests\\elitea-platform\\pipelines\\pipeline-creation-ux\\ELITEA-0919_verify-page-scrolls-to-top-with-1-up-to-the-limit-of-conversation-s.md"
     }
   ]
 }
