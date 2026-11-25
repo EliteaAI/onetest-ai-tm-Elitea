@@ -14,7 +14,7 @@ requirements: [EliteaAI/elitea_issues#7377]
 
 **Module:** skills · **Priority:** high · **Type:** functional
 
-**Objective:** Verify that a Viewer cannot change skill Instructions (body or frontmatter) through the new Edit mode or Full Screen, while still being able to read and copy them.
+**Objective:** Verify that a Viewer cannot change skill Instructions (body or frontmatter) through the Edit mode, while still being able to read and copy them.
 
 ---
 
@@ -47,8 +47,7 @@ requirements: [EliteaAI/elitea_issues#7377]
 | 3 | Try to type `READONLY-MARKER` in the body, paste text, and delete text. Then try to change `name:` in the frontmatter | Nothing changes. The Name and Description fields are unchanged |
 | 4 | Check the page actions | Save, Save As Version and Discard are hidden or disabled |
 | 5 | Click Copy to clipboard (in Edit mode, if the switch is offered) and paste into the external text editor | Copy to clipboard is available. The pasted text matches the skill Instructions (in Edit mode, including the frontmatter block) |
-| 6 | Open Full Screen (if available) and try to type `READONLY-MARKER` | Full Screen opens read-only. No edit is possible |
-| 7 | Log in as User A and open "regression-instructions-skill" | The Instructions do not contain `READONLY-MARKER`, and the skill is unchanged |
+| 6 | Log in as User A and open "regression-instructions-skill" | The Instructions do not contain `READONLY-MARKER`, and the skill is unchanged |
 
 ---
 
@@ -61,7 +60,7 @@ requirements: [EliteaAI/elitea_issues#7377]
 ## Pass/Fail Criteria
 
 **Pass:**
-- The Viewer cannot change the body or the frontmatter through inline Edit or Full Screen, and save actions are not available.
+- The Viewer cannot change the body or the frontmatter through Edit mode, and save actions are not available.
 - The Viewer can copy the Instructions.
 
 **Fail:**
@@ -74,3 +73,4 @@ requirements: [EliteaAI/elitea_issues#7377]
 
 - Mirrors agent regression case ELITEA-4744, Part A. The published skill version block stays in ELITEA-4744, Part B, and is not duplicated here.
 - Not duplicated here: Edit with AI hidden for Viewer (ELITEA-2613), and Save / Save As Version / Discard hidden for Viewer on skill details (manual case ELITEA-4376).
+- Updated for EliteaAI/elitea_issues#7573: the skill page has no Full Screen for the instructions. Viewer access to the Files tab is covered in the functional case ELITEA-4892.

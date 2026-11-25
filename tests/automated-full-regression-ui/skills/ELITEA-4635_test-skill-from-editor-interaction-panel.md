@@ -46,8 +46,8 @@ requirements: [EliteaAI/elitea_issues#6922]
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | On the skill editor page, locate the "Test Skill" button in the top toolbar | "Test Skill" button is visible (next to "Edit with AI" button) |
-| 2 | Click the "Test Skill" button | An interaction panel/window opens on the right side of the screen |
+| 1 | On the skill editor page, locate the "Test" button (tooltip "Test skill") in the "Instructions (SKILL.md)" header | "Test" button is visible in the Instructions header; "Edit with AI" is in the Settings / Files tab bar |
+| 2 | Click the "Test" button | A "Test" column opens on the right as a third column. No message is sent automatically |
 | 3 | Observe the interaction panel interface | Panel displays with an input field at the bottom, placeholder text "Type your message...", and send button (arrow icon) |
 | 4 | Type a test message in the input field: "run" | Text "run" appears in the input field |
 | 5 | Click the send button (arrow icon →) or press Enter | Message sends successfully |
@@ -95,4 +95,4 @@ requirements: [EliteaAI/elitea_issues#6922]
 **Source functional tests:** Based on ELITEA-4240, ELITEA-4242 functionality but executed from skill editor Test panel
 **Regression rationale:** Critical workflow for skill developers to test their skills directly from the editor; validates interaction panel functionality, execution visibility, and successful skill runs.
 **Selected checkpoints:** Test Skill button, interaction panel display, message send, execution steps visibility (skill being added), response receipt without errors.
-**UI Context:** Based on skill editor interface with Test Skill button in top toolbar, interaction panel on right side with execution steps showing "Skill: {skill-name}" badge.
+**UI Context:** Since EliteaAI/elitea_issues#7573 the Test button sits in the "Instructions (SKILL.md)" header and opens a "Test" column on the right, with execution steps showing a "Skill: {skill-name}" badge.
