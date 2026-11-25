@@ -421,6 +421,11 @@
       "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1920_build-with-ai-in-chat-agenteditor-works-end-to-end.md"
     },
     {
+      "id": "ELITEA-4863",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/configurable-chat-starters-limit/ELITEA-4863_add-chat-starters-up-to-the-admin-limit-and-verify-the-counter.md"
+    },
+    {
       "id": "ELITEA-4789",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/agents/modules/ELITEA-4789_modules-dropdown-opens-lists-all-modules-and-scrolls-to-last-module.md"

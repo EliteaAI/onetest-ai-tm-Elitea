@@ -1938,6 +1938,31 @@
       "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1920_build-with-ai-in-chat-agenteditor-works-end-to-end.md"
     },
     {
+      "id": "ELITEA-4863",
+      "title": "Add chat starters up to the admin limit and verify the counter and disabled add button",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "high",
+      "size": "",
+      "module": "agents",
+      "owner": "",
+      "tags": [
+        "feat:agents",
+        "feat:chat",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7322"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/agents/configurable-chat-starters-limit/ELITEA-4863_add-chat-starters-up-to-the-admin-limit-and-verify-the-counter.md"
+    },
+    {
       "id": "ELITEA-4789",
       "title": "Modules dropdown opens from the Tools row, lists every available module and scrolls to a fully visible last module",
       "status": "ready",
