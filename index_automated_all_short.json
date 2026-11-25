@@ -2111,6 +2111,26 @@
       "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2749_verify-pipeline-with-mcp-displays-toolkit-name-in-pipeline-chat.md"
     },
     {
+      "id": "ELITEA-4881",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/notifications/ELITEA-4881_admin-notifications-page-defaults-and-save-discard-persisten.md"
+    },
+    {
+      "id": "ELITEA-4882",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/notifications/ELITEA-4882_invited-user-receives-added-notification-and-link-opens-proj.md"
+    },
+    {
+      "id": "ELITEA-4883",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/notifications/ELITEA-4883_removed-user-receives-plain-text-removal-notification-when-e.md"
+    },
+    {
+      "id": "ELITEA-4884",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/notifications/ELITEA-4884_add-toggle-off-suppresses-added-notification-and-on-restores.md"
+    },
+    {
       "id": "ELITEA-2231",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/onboarding/ELITEA-2231_complete-first-login-flow.md"

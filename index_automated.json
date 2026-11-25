@@ -9759,6 +9759,110 @@
       "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2749_verify-pipeline-with-mcp-displays-toolkit-name-in-pipeline-chat.md"
     },
     {
+      "id": "ELITEA-4881",
+      "title": "Admin Notifications page defaults and Save Discard persistence",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "admin-portal",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:admin-platform",
+        "feat:notifications",
+        "issue:7340",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7340"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/notifications/ELITEA-4881_admin-notifications-page-defaults-and-save-discard-persisten.md"
+    },
+    {
+      "id": "ELITEA-4882",
+      "title": "Invited user receives added notification and link opens project Chats",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "notifications",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:admin-platform",
+        "feat:notifications",
+        "issue:7340",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7340"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/notifications/ELITEA-4882_invited-user-receives-added-notification-and-link-opens-proj.md"
+    },
+    {
+      "id": "ELITEA-4883",
+      "title": "Removed user receives plain-text removal notification when enabled",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "notifications",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:admin-platform",
+        "feat:notifications",
+        "issue:7340",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7340"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/notifications/ELITEA-4883_removed-user-receives-plain-text-removal-notification-when-e.md"
+    },
+    {
+      "id": "ELITEA-4884",
+      "title": "Add toggle off suppresses added notification and on restores it",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "admin-portal",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:admin-platform",
+        "feat:notifications",
+        "issue:7340",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7340"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/notifications/ELITEA-4884_add-toggle-off-suppresses-added-notification-and-on-restores.md"
+    },
+    {
       "id": "ELITEA-2231",
       "title": "Onboarding — Complete First Login Flow",
       "status": "draft",
