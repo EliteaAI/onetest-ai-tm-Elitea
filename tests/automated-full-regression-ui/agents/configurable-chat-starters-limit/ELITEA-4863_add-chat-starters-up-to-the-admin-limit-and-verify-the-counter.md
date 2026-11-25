@@ -4,8 +4,11 @@ title: "Add chat starters up to the admin limit and verify the counter and disab
 priority: high
 type: functional
 module: agents
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.agents.test_agent_chat_starters_limit.test_chat_starters_limit_counter_and_disabled_add
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/80a0845f937b08b30401db93584bc5d3279d9e74
 tags: [feat:agents, feat:chat, r-2.0.9, automated:UI:regression]
 requirements: [EliteaAI/elitea_issues#7322]
 ---
