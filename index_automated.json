@@ -20270,6 +20270,31 @@
       "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2427_history-session-shows-correct-preview-and-title.md"
     },
     {
+      "id": "ELITEA-4694",
+      "title": "Regression - GitHub Toolkit search_code returns results or a \\\"No code found\\\" message without errors",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "github-toolkit",
+      "owner": "",
+      "tags": [
+        "bug:7551",
+        "feat:toolkits",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7551"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/toolkit/github-toolkit/ELITEA-4694_github-toolkit-search-code-returns-results-or-no-code-found-without-error.md"
+    },
+    {
       "id": "ELITEA-2698",
       "title": "Tool Groups UI Structure and Sorting",
       "status": "draft",

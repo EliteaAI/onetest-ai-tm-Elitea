@@ -4381,6 +4381,11 @@
       "path": "tests/automated-full-regression-ui/support-assistant/ELITEA-2427_history-session-shows-correct-preview-and-title.md"
     },
     {
+      "id": "ELITEA-4694",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/toolkit/github-toolkit/ELITEA-4694_github-toolkit-search-code-returns-results-or-no-code-found-without-error.md"
+    },
+    {
       "id": "ELITEA-2698",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/toolkit/group-tools-within-toolkit/ELITEA-2698_tool-groups-ui-structure.md"
