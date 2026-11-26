@@ -11158,8 +11158,8 @@
     },
     {
       "id": "ELITEA-2036",
-      "title": "Pipeline — Custom Node Configuration",
-      "status": "ready",
+      "title": "DEPRECATED — Pipeline — Custom Node Configuration",
+      "status": "deprecated",
       "execution_type": "automated",
       "type": "functional",
       "priority": "medium",
