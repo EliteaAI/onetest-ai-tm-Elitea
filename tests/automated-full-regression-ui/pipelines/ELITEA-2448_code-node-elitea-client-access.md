@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_code_node_elitea_client_user_info.test_code_node_elitea_client_user_info
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2091
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/96d8e21b
 ---
 
 # ELITEA-2448: Code Node — elitea_client Access
@@ -44,7 +44,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/2091
 | 2 | In Code node script, use elitea_client to read user information: user_info = elitea_client.get_user_data() user_info | Action completes without error and produces the expected UI state. |
 | 3 | Set Output to a state variable and enable structured output | Action completes without error and produces the expected UI state. |
 | 4 | Execute the pipeline | Action completes without error and produces the expected UI state. |
-| 5 | Verify Code node executes without errors in Run Details | Condition holds as described. |
+| 5 | Verify Code node executes without errors in Run Details | Code node executes without errors; Run Details timeline step label shows the Code node's own name (e.g. "Code1"), not the sandbox name. |
 | 6 | Verify Code node output state variable contains the user information | Condition holds as described. |
 
 ---

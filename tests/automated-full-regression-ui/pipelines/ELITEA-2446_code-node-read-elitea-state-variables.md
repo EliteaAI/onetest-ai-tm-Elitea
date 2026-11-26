@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_code_node_reads_state_variable.test_code_node_reads_elitea_state_variable
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/96d8e21b
 ---
 
 # ELITEA-2446: Code Node — Read elitea_state Variables
@@ -47,7 +47,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
 | 5 | Set Code node Output to a state variable (e.g., code_output) | Action completes without error and produces the expected UI state. |
 | 6 | Enable the structured output | Action completes without error and produces the expected UI state. |
 | 7 | Execute the pipeline | Action completes without error and produces the expected UI state. |
-| 8 | Open Run Details, click on the Code node step | Target page/section loads successfully. |
+| 8 | Open Run Details, click on the Code node step | Run Details timeline step label shows the Code node's own name (e.g. "Code1"), not the sandbox name. |
 | 9 | Verify code_output After value contains the processed user_info value | Condition holds as described. |
 | 10 | Verify no execution errors in timeline | Condition holds as described. |
 | 11 | Open YAML editor — verify Code node shows input: [user_info] and output: code_output | Target page/section loads successfully. |

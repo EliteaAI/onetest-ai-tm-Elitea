@@ -10,7 +10,7 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines.test_pipeline_code_node_input_filtering.test_code_node_input_filtering_selective_state_access
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/96d8e21b
 ---
 
 # ELITEA-2449: Code Node — Input Filtering (Selective State Access)
@@ -46,7 +46,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
 | 4 | In Code node script: available_keys = list(elitea_state.keys()) has_var_c = 'var_c' in elitea_state result = f"Keys: {available_keys}, has_var_c: {has_var_c}" result | Action completes without error and produces the expected UI state. |
 | 5 | Open YAML editor — verify Code node shows input: [var_a, var_b] (var_c not listed) | Target page/section loads successfully. |
 | 6 | Execute the pipeline | Action completes without error and produces the expected UI state. |
-| 7 | Open Run Details, check Code node output | Target page/section loads successfully. |
+| 7 | Open Run Details, check Code node output | Run Details timeline step label shows the Code node's own name (e.g. "CODE1"), not the sandbox name. |
 | 8 | Verify output confirms only var_a and var_b were accessible in elitea_state | Condition holds as described. |
 | 9 | Verify var_c was NOT accessible (has_var_c = False) | Condition holds as described. |
 
