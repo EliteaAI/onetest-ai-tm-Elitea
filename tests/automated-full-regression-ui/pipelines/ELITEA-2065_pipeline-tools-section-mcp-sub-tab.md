@@ -10,14 +10,14 @@ tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 automation_test_id:
   - tests.ui.pipelines_2.test_pipeline_tools_section_mcp_add_view_remove.test_tools_section_mcp_add_view_remove
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1372
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/10d28ba6
 ---
 
 # ELITEA-2065: Pipeline — Tools Section — MCP Sub-tab with Tool Selection
 
 **Module:** pipelines · **Priority:** medium · **Type:** functional
 
-**Objective:** Verify that an MCP can be added to and removed from a pipeline's Tools section via the MCP sub-tab, and that the removal persists after save.
+**Objective:** Verify that an MCP can be added to a pipeline's Tools section by selecting it in an MCP node's picker, and detached by clearing it from the node, and that the removal persists after save.
 
 ---
 
@@ -41,14 +41,14 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1372
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Open a pipeline | Pipeline is loaded in the editor |
-| 2 | In Tools section, click "+ MCP" button | MCP picker opens |
-| 3 | Select an MCP from the picker (e.g., "WebSearch") | MCP is selected |
-| 4 | Verify MCP appears under the "MCP" sub-tab in Tools | "WebSearch" is listed under the MCP sub-tab |
+| 2 | Add an MCP node via the canvas and open its picker (search box, "Create new", project-wide list) | The picker lists the project's MCPs, including "WebSearch" |
+| 3 | Select an MCP in the node's picker (e.g., "WebSearch") | MCP is selected on the node |
+| 4 | Verify the MCP was auto-attached to the left TOOLS section (no "+ MCP" button click) | "WebSearch" appears as a card in TOOLS |
 | 5 | Verify MCP shows its name and tools count or list | MCP entry displays name and tool information |
 | 6 | Click on the attached MCP entry to see its tools/details | MCP details or tools list is shown |
-| 7 | Remove the MCP (click X or delete icon) | MCP is removed from the Tools list |
-| 8 | Verify MCP is removed from the Tools list | "WebSearch" no longer appears in the MCP sub-tab |
-| 9 | Save — verify removal persists | MCP is absent from the Tools list after save |
+| 7 | Open the MCP node's config panel and click the clear (X) button next to the MCP selection (BASIC section) | MCP selection is cleared from the node |
+| 8 | Verify the MCP card disappears from the TOOLS section | "WebSearch" no longer appears in TOOLS (no node uses it, so it auto-detaches) |
+| 9 | Save and reload — verify removal persists | MCP is absent from TOOLS after save and reload |
 
 ---
 
