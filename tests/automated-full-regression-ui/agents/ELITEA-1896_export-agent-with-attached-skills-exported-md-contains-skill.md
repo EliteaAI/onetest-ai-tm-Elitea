@@ -69,3 +69,9 @@ The exported .md file contains the attached Skill's metadata (name, version) and
 **Fail:**
 - Any step produces an error or unexpected result.
 - The exported file is missing the Skill metadata or instructions.
+
+---
+
+## Notes
+
+- "ExportSkill" has no files, so the Agent export stays `.md`. An Agent whose Skill has files exports as `<agent>.agent.zip` (ELITEA-4921).

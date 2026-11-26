@@ -22,7 +22,7 @@ requirements: [EliteaAI/elitea_issues#7183]
 
 - User is logged in to `{{base_url}}` with the Editor or Admin role in the project.
 - Files A and B from Test Data are saved locally as `.md` files.
-- The real `pdf` skill (`SKILL.md`) from https://github.com/anthropics/skills is downloaded.
+- The real `pdf` skill from https://github.com/anthropics/skills is downloaded as a ZIP of the whole `pdf` folder (`SKILL.md` with its reference files and scripts).
 - An agent exists with at least one tool that requires approval before it runs.
 
 ---
@@ -81,7 +81,7 @@ Read the PDF and summarise it.
 | 7 | Export the skill and compare the file with file B | `compatibility`, `allowed-tools`, `argument-hint`, `metadata.author` and `metadata.short-description` are unchanged |
 | 8 | Attach the skill to the agent from Preconditions. In chat, ask the agent to use the tool that requires approval | The approval prompt is shown. `allowed-tools` does not pre-approve the tool |
 | **Real skill** | | |
-| 9 | Import the anthropics `pdf` skill, then repeat steps 2 and 4 for it | Its `license` is kept in the frontmatter and written to the export |
+| 9 | Import the `pdf` skill ZIP (Skills → **Add** → **Import from file**, then **Import**), then repeat step 2. Export the skill and open `pdf/SKILL.md` in the downloaded `pdf.zip` | Its `license` is kept in the frontmatter and in `pdf/SKILL.md` of the export |
 
 ---
 
@@ -109,3 +109,4 @@ The imported skills keep `license` and every extra frontmatter key through save 
 
 - The licence is kept only in the frontmatter. No separate "License" form field is expected; record it if one is shown.
 - Replaces the earlier behaviour where unrecognised keys were dropped (ELITEA-4280).
+- The `pdf` skill has files, so it imports and exports as a ZIP. File handling is covered by ELITEA-4916 and ELITEA-4917.

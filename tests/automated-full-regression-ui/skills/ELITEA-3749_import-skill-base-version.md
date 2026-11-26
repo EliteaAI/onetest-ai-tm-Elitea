@@ -24,7 +24,8 @@ requirements: []
 - User is logged in to the Elitea platform.
 - A project exists and is accessible.
 - The Skills section is available in the project.
-- The Skills → Import feature is available.
+- The Skills → **Add** → **Import from file** feature is available.
+- The Skill created in step 1 has no files (**Files – 0**), so it exports as `.md`.
 
 ---
 
@@ -48,7 +49,7 @@ requirements: []
 | 1 | Create a Skill with instructions, description, name, tags, a licence (`license: MIT` in the frontmatter) and the run settings from Test Data | Skill is created and saved successfully with all fields populated |
 | 2 | Export the `base` version of the Skill | A file is downloaded; the file has a `.md` extension |
 | 3 | Open the exported `.md` file and verify its contents | Top level has only spec keys (`name`, `description`, `license`, `metadata`). `metadata` contains `elitea-tags` (a JSON array string), `elitea-model`, `elitea-max-tokens` and `elitea-reasoning-effort`. The instructions body is present |
-| 4 | Navigate to Skills → Import and import the exported `.md` file | Import completes without errors; a new Skill entry appears in the Skills list |
+| 4 | Open Skills → **Add** → **Import from file**, choose the exported `.md` file, then click **Import** in the **Import parameters** dialog | Import completes without errors; a new Skill entry appears in the Skills list |
 | 5 | Verify the imported Skill has a new unique ID | The imported Skill's ID is different from the source Skill's ID |
 | 6 | Verify the `base` version exists on the imported Skill and instructions are populated | `base` version is present and instructions match the exported content. Tags, licence and run settings (model, max tokens, reasoning effort) are restored |
 | 7 | Save the imported Skill | Skill saves without errors; no validation or save errors are shown |
