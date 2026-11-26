@@ -4186,6 +4186,21 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-4894_skill-files-tab-tree-viewer-links-and-url-state.md"
     },
     {
+      "id": "ELITEA-4922",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4922_skill-zip-package-import-export-reimport-invalid-zip-refused-files-kept-on-version-and-fork.md"
+    },
+    {
+      "id": "ELITEA-4923",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4923_skill-with-files-in-chat-follows-reference-file-runs-python-script-non-python-and-network-blocked.md"
+    },
+    {
+      "id": "ELITEA-4924",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4924_agent-with-file-skill-exports-agent-zip-imports-into-another-project-with-files-skill-works.md"
+    },
+    {
       "id": "ELITEA-1986",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1986_access-control-role-based-visibility.md"

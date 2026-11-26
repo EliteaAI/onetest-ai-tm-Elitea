@@ -19342,6 +19342,86 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-4894_skill-files-tab-tree-viewer-links-and-url-state.md"
     },
     {
+      "id": "ELITEA-4922",
+      "title": "Skill ZIP package: import, export and re-import keep the files; invalid ZIP refused; files kept on Save As Version and fork",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "feat:export",
+        "feat:import-forking",
+        "feat:fork",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7185"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4922_skill-zip-package-import-export-reimport-invalid-zip-refused-files-kept-on-version-and-fork.md"
+    },
+    {
+      "id": "ELITEA-4923",
+      "title": "Skill with files in chat: follows its reference file, runs its Python script on an attached file and returns the created file; non-Python and network blocked",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "feat:chat",
+        "feat:attachments",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7185"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4923_skill-with-files-in-chat-follows-reference-file-runs-python-script-non-python-and-network-blocked.md"
+    },
+    {
+      "id": "ELITEA-4924",
+      "title": "Agent with a file skill exports as .agent.zip and imports into another project with the skill files, and the skill still works",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "feat:agents",
+        "feat:export",
+        "feat:import-forking",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7185"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4924_agent-with-file-skill-exports-agent-zip-imports-into-another-project-with-files-skill-works.md"
+    },
+    {
       "id": "ELITEA-1986",
       "title": "Build with AI — Access Control (Role-Based Visibility)",
       "status": "draft",
