@@ -9,6 +9,7 @@ execution_type: automated
 tags: [automated:UI:regression, feat:skills]
 requirements: []
 automation_test_id: tests.ui.skills.test_skill_export_import.TestSkillExportImportNonBaseVersion.test_import_skill_non_base_version
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/d8174863
 ---
 
 # ELITEA-3750: Import Skill Non-Base Version
