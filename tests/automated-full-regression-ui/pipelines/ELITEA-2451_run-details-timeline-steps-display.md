@@ -44,7 +44,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/1390
 | 2 | Open Run Details | Target page/section loads successfully. |
 | 3 | Verify each executed node appears as a timeline entry with: | Condition holds as described. |
 | 4 | Green dot indicator (successful execution) | Action completes without error and produces the expected UI state. |
-| 5 | Node name(on hover) matching the node id from the pipeline | Action completes without error and produces the expected UI state. |
+| 5 | Node name shown under the dot matching the node id from the pipeline | Action completes without error and produces the expected UI state. |
 | 6 | Timestamp in HH:MM:SS format | Action completes without error and produces the expected UI state. |
 | 7 | Verify nodes appear in execution order (top to bottom = first to last) | Condition holds as described. |
 | 8 | Verify total timeline entries match the number of nodes that executed | Condition holds as described. |
