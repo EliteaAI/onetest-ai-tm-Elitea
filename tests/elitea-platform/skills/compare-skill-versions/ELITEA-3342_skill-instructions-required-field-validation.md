@@ -7,7 +7,7 @@ module: skills
 status: draft
 execution_type: manual
 tags: [feat:skills, r-2.0.6, bug:6565]
-requirements: [EliteaAI/elitea_issues#6304, EliteaAI/elitea_issues#6565]
+requirements: [EliteaAI/elitea_issues#7675, EliteaAI/elitea_issues#6304, EliteaAI/elitea_issues#6565]
 ---
 
 ## Preconditions
@@ -30,14 +30,14 @@ requirements: [EliteaAI/elitea_issues#6304, EliteaAI/elitea_issues#6565]
 | 2 | Verify Instructions field in Version 1 contains text: "This skill performs data analysis and reporting tasks." | Instructions field is populated |
 | 3 | Select all text in Version 1 Instructions field | Text is selected |
 | 4 | Delete all content from Instructions field (Backspace or Delete key) | Field is now empty |
-| 5 | Click Save button for Version 1 | Save attempt is made |
-| 6 | Verify validation error appears | Error message is displayed |
-| 7 | Verify error message indicates Instructions is required | Message: "Instructions field is required" or "Instructions cannot be empty" or similar |
-| 8 | Verify save operation is prevented (no success message) | Save does not execute |
+| 5 | Hover the **Save** button in the Version 1 header | Save is disabled |
+| 6 | Verify the tooltip on the disabled Save | Tooltip is displayed |
+| 7 | Verify the tooltip indicates Instructions is required | Tooltip: "Instructions cannot be empty." |
+| 8 | Verify the Save cannot be clicked (no success message) | Save does not execute |
 | 9 | Verify Instructions field remains empty after failed save attempt | Field is still empty (unsaved state) |
 | 10 | Close and reopen Compare Versions modal | Modal opens with fresh data |
 | 11 | Verify Version 1 Instructions shows original text (empty value was NOT saved) | Original text is displayed: "This skill performs data analysis and reporting tasks." |
-| 12 | Repeat Steps 3-5 for Version 2 Instructions | Validation error appears for Version 2 as well |
+| 12 | Repeat Steps 3-7 for Version 2 Instructions | Version 2 header Save is disabled with the same tooltip |
 
 ## Expected Final State
 

@@ -7,7 +7,7 @@ module: skills
 status: draft
 execution_type: manual
 tags: [feat:skills, r-2.0.6]
-requirements: [EliteaAI/elitea_issues#6304]
+requirements: [EliteaAI/elitea_issues#7675, EliteaAI/elitea_issues#6304]
 ---
 
 ## Preconditions
@@ -29,7 +29,7 @@ requirements: [EliteaAI/elitea_issues#6304]
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Open Compare Versions modal for Test Skill | Modal opens successfully |
-| 2 | Verify Instructions text is displayed for both versions | Instructions text visible side-by-side |
+| 2 | Verify step **1. Instructions** is open and Instructions text is displayed for both versions | Instructions text visible side-by-side |
 | 3 | Verify changed lines/text are highlighted with color | Added text "and generates reports" is highlighted (e.g., green/yellow background) |
 | 4 | Verify highlighting includes **additional visual treatment** beyond color | Highlighting uses pattern, border, icon, or other visual indicator in addition to color |
 | 5 | Verify unchanged content is NOT highlighted | Unchanged text "This skill analyzes data" has no highlighting |

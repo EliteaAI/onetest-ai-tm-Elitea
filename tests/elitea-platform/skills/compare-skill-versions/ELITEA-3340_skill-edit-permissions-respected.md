@@ -7,7 +7,7 @@ module: skills
 status: draft
 execution_type: manual
 tags: [feat:skills, r-2.0.6]
-requirements: [EliteaAI/elitea_issues#6304]
+requirements: [EliteaAI/elitea_issues#7675, EliteaAI/elitea_issues#6304]
 ---
 
 ## Preconditions
@@ -37,7 +37,7 @@ requirements: [EliteaAI/elitea_issues#6304]
 | 6 | Verify Compare Versions button is NOT visible in actions menu | Button is hidden (P0 check confirmed) |
 | 7 | Attempt to access comparison modal via direct URL manipulation (if URL pattern known) | Access denied or modal fails to open |
 | 8 | If modal somehow opens, verify Instructions field is disabled or read-only | Field is read-only or disabled |
-| 9 | If modal somehow opens, verify Save buttons are hidden or disabled | Save buttons not present or disabled |
+| 9 | If modal somehow opens, verify the Save buttons in the version headers are hidden or disabled (Instructions and Files steps) | Save buttons not present or disabled |
 | 10 | If Save button is accessible, attempt to click it and save changes | Save fails with permission error message |
 | 11 | Verify error message indicates lack of edit permissions | Message: "You do not have permission to edit this Skill" or similar |
 

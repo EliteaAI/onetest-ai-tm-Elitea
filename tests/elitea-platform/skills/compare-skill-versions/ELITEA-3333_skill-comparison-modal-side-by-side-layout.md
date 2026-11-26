@@ -7,7 +7,7 @@ module: skills
 status: draft
 execution_type: manual
 tags: [feat:skills, r-2.0.6]
-requirements: [EliteaAI/elitea_issues#6304]
+requirements: [EliteaAI/elitea_issues#7675, EliteaAI/elitea_issues#6304]
 ---
 
 ## Preconditions
@@ -31,10 +31,10 @@ requirements: [EliteaAI/elitea_issues#6304]
 | 3 | Verify modal displays two version columns side-by-side | Two columns are visible with equal width |
 | 4 | Verify left column header shows actual version name (e.g., "base") | Left column labeled with correct version name |
 | 5 | Verify right column header shows actual version name (e.g., "v1.0") | Right column labeled with correct version name |
-| 6 | Verify modal has X close button in top-right corner | Close button is visible |
+| 6 | Verify modal has X close button in top-right corner and the bottom bar shows **← Select versions** on the left and **Next** on the right | Close button and bottom bar buttons are visible |
 | 7 | Click X button | Modal closes and returns to Skill details page |
-| 8 | Reopen modal and verify Cancel/Close action button exists | Cancel button is visible at bottom |
-| 9 | Click Cancel | Modal closes successfully |
+| 8 | Reopen modal and check the step indicator | Three steps (Instructions, Files, Run settings) when a version has files; two steps (Instructions, Run settings) when neither has files |
+| 9 | Go to the last step and click **Finish** | Modal closes successfully |
 
 ## Expected Final State
 
@@ -46,7 +46,7 @@ Version comparison modal opens displaying two Skill versions side-by-side with c
 - Modal opens successfully on button click
 - Two version columns displayed side-by-side
 - Column headers show actual version names (not generic labels)
-- Modal can be closed via X button or Cancel action
+- Modal can be closed via X button or Finish on the last step
 
 **Fail:**
 - Modal fails to open or displays errors

@@ -7,7 +7,7 @@ module: agents
 status: draft
 execution_type: manual
 tags: [feat:agents, r-2.0.6]
-requirements: [EliteaAI/elitea_issues#6304]
+requirements: [EliteaAI/elitea_issues#7675, EliteaAI/elitea_issues#6304]
 ---
 
 ## Preconditions
@@ -41,8 +41,9 @@ requirements: [EliteaAI/elitea_issues#6304]
 | 12 | Edit multiple fields: Instructions, Welcome Message, and Chat Starter (do not save any) | All fields updated but unsaved |
 | 13 | Attempt to close modal | Warning dialog appears (multiple unsaved changes) |
 | 14 | Click "Discard" | Modal closes |
-| 15 | Open modal with no edits made | Modal opens |
-| 16 | Immediately click X button to close (no edits) | Modal closes without warning dialog (no unsaved changes) |
+| 15 | Open modal, edit Instructions in Version 1 (do not save) and click **← Select versions** | Warning "Discard unsaved changes?" appears; click Discard and the version selection opens |
+| 16 | Open modal with no edits made | Modal opens |
+| 17 | Immediately click X button to close (no edits) | Modal closes without warning dialog (no unsaved changes) |
 
 ## Expected Final State
 
