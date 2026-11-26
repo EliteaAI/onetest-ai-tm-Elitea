@@ -49,7 +49,7 @@ requirements: []
 | 1 | Create a skill with valid content that will pass validation | Skill is created and saved successfully |
 | 2 | Open the publish wizard and proceed to Validation step | Validation passes successfully |
 | 3 | Keep the wizard open, open the same skill in a new browser tab | Skill editor opens in second tab |
-| 4 | In the second tab, modify the skill instructions and save | Skill is updated successfully |
+| 4 | In the second tab, switch the Instructions section to Edit mode (click the "Edit mode" toggle; it opens in Preview), then modify the skill instructions and save | Skill is updated successfully |
 | 5 | Return to the first tab with the publish wizard open | Wizard is still on the post-validation step |
 | 6 | Attempt to proceed with publishing (click Next/Publish) | Error message indicates token is invalid due to skill modification |
 | 7 | Verify user must restart the validation process | User is prompted to re-validate or wizard resets to validation step |

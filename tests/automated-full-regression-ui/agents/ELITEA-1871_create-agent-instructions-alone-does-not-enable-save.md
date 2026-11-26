@@ -56,7 +56,7 @@ requirements: []
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 9 | Open the newly created agent's detail page | The agent detail page loads with current values |
-| 10 | Clear the Instructions field and enter: "You are an updated test assistant." | The Instructions field displays the new text |
+| 10 | Switch the Instructions section to Edit mode if it is in Preview (agent detail page opens in Preview), then clear the Instructions field and enter: "You are an updated test assistant." | The Instructions field displays the new text |
 | 11 | Click Save and wait for network idle | Save completes successfully; confirmation is shown or save button returns to default state |
 | 12 | Reload the page | The page reloads |
 | 13 | Verify Instructions field contains "You are an updated test assistant." | The Instructions field displays the saved text |
@@ -65,7 +65,7 @@ requirements: []
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 14 | Modify Name to "Modified Name", Description to "Modified Description", and Instructions to "Modified instructions" | All three fields display new unsaved values |
+| 14 | Switch Instructions to Edit mode if in Preview, then modify Name to "Modified Name", Description to "Modified Description", and Instructions to "Modified instructions" | All three fields display new unsaved values |
 | 15 | Click the Discard button (or navigate away and confirm discard) | Discard action is triggered; any confirmation dialog is accepted |
 | 16 | Verify all three fields reverted to their previously saved values | Name: "Test Lifecycle Agent", Description: "Agent for lifecycle testing", Instructions: "You are an updated test assistant." |
 

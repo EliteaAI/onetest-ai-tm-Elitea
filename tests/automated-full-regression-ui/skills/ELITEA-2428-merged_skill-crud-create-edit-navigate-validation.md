@@ -73,7 +73,7 @@ requirements: []
 | 16 | Open the skill "Test Skill Alpha" created in Part 1 | Skill editor page loads with current values |
 | 17 | Update Name to "Test Skill Alpha Updated" | Name field is updated |
 | 18 | Update Description to "Updated description for testing" | Description field is updated |
-| 19 | Update Instructions to "Updated instructions content" | Instructions field is updated |
+| 19 | Switch the Instructions section to Edit mode (click the "Edit mode" toggle; skill detail page opens in Preview), then update Instructions to "Updated instructions content" | Instructions field is updated |
 | 20 | Click Save | Changes are saved successfully |
 | 21 | Navigate back to Skills list using the back button | Navigation returns to Skills list (NOT to Chats page) |
 | 22 | Re-open the skill "Test Skill Alpha Updated" | Skill editor page loads |

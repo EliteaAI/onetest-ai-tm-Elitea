@@ -42,7 +42,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/564
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Navigate to an agent detail page | The agent detail page loads |
-| 2 | In the Instructions field, type "{{MY_VAR}} and {{API_URL}}" | The text is entered in the Instructions field |
+| 2 | Switch the Instructions section to Edit mode (click the "Edit mode" toggle; it opens in Preview mode), then in the Instructions field, type "{{MY_VAR}} and {{API_URL}}" | The text is entered in the Instructions field |
 | 3 | Verify the Variables section appears automatically with "MY_VAR" and "API_URL" listed | The Variables section is displayed with both variable names as rows |
 | 4 | Enter value "hello_world" for MY_VAR | MY_VAR field shows "hello_world" |
 | 5 | Enter value "https://example.com" for API_URL | API_URL field shows "https://example.com" |

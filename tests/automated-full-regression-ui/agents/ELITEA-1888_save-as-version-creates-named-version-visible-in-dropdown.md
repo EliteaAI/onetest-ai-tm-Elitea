@@ -41,7 +41,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/533
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Navigate to an agent detail page in "base" version | The agent detail page loads with the base version active |
-| 2 | Append a word to the Instructions field | The Instructions field is modified |
+| 2 | Switch the Instructions section to Edit mode (click the "Edit mode" toggle; it opens in Preview mode), then append a word to the Instructions field | The Instructions field is modified |
 | 3 | Click "Save As Version" | A dialog appears asking for a version name |
 | 4 | Verify a dialog appears asking for a version name | The version name input dialog is displayed |
 | 5 | Enter "v2-test" and confirm | The dialog is submitted |

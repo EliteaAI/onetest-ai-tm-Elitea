@@ -51,7 +51,7 @@ requirements: []
 | 2 | Click "Save As Version" or "Create Version" button | Version creation dialog opens |
 | 3 | Name the new version "Version 2" | Version name is entered |
 | 4 | Update Description to "Version 2 description with improvements" | Description is updated |
-| 5 | Update Instructions to "Version 2 instructions: This is the updated content for version 2. It includes enhanced functionality and improvements." | Instructions are updated |
+| 5 | Switch Instructions to Edit mode if in Preview (click the "Edit mode" toggle), then update Instructions to "Version 2 instructions: This is the updated content for version 2. It includes enhanced functionality and improvements." | Instructions are updated |
 | 6 | Save the new version | Version 2 is created successfully |
 | 7 | Navigate to version comparison feature (e.g., click "Compare Versions" button, or select from version dropdown/menu) | Version comparison option is available |
 | 8 | Select base version and Version 2 for comparison | Versions are selected |
@@ -75,7 +75,7 @@ requirements: []
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 18 | In the comparison modal, click "Edit" or enable editing for the left panel (base version) | Base version becomes editable |
-| 19 | Modify the base version instructions to: "Base version instructions: EDITED - This is the modified content for the base version. Changes applied to version 1 only." | Instructions are edited |
+| 19 | Switch the base version Instructions to Edit mode if in Preview (click the "Edit mode" toggle), then modify the base version instructions to: "Base version instructions: EDITED - This is the modified content for the base version. Changes applied to version 1 only." | Instructions are edited |
 | 20 | Click "Save" for the base version (left panel) | Base version is saved |
 | 21 | Verify save success message or indicator appears | Save confirmation is shown |
 | 22 | Verify the right panel (Version 2) instructions remain UNCHANGED: "Version 2 instructions: This is the updated content for version 2. It includes enhanced functionality and improvements." | Version 2 is not affected by base version save |
@@ -89,7 +89,7 @@ requirements: []
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 27 | In the comparison modal, click "Edit" or enable editing for the right panel (Version 2) | Version 2 becomes editable |
-| 28 | Modify Version 2 instructions to: "Version 2 instructions: EDITED - This is the further updated content for version 2. Additional changes applied to version 2 only." | Instructions are edited |
+| 28 | Switch Version 2 Instructions to Edit mode if in Preview (click the "Edit mode" toggle), then modify Version 2 instructions to: "Version 2 instructions: EDITED - This is the further updated content for version 2. Additional changes applied to version 2 only." | Instructions are edited |
 | 29 | Click "Save" for Version 2 (right panel) | Version 2 is saved |
 | 30 | Verify save success message or indicator appears | Save confirmation is shown |
 | 31 | Verify the left panel (base version) instructions remain UNCHANGED: "Base version instructions: EDITED - This is the modified content for the base version. Changes applied to version 1 only." | Base version is not affected by Version 2 save |
