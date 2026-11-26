@@ -7,7 +7,7 @@ module: pipelines
 status: ready
 execution_type: automated
 automation_test_id: tests.ui.pipelines_2.test_pipeline_mcp_node_change_toolkit_and_tool.test_mcp_node_change_toolkit_and_tool
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/513
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/9a5e7892e49557397d002cf6afe60e9381d7ba4e
 tags: [automated:UI:regression, feat:pipelines]
 requirements: []
 ---
@@ -43,13 +43,14 @@ requirements: []
 | 1 | Open a pipeline with an MCP node already configured with a Toolkit and Tool | Configuration panel loads |
 | 2 | Click on the MCP node to open configuration panel | Panel is visible |
 | 3 | Note current Toolkit selection and Tool | Current selections are observed |
-| 4 | Click "Toolkit" dropdown — verify it lists all MCPs attached in the pipeline's TOOLS section | All attached MCPs are listed |
+| 4 | Open the MCP node's MCP picker (it lists every MCP in the project, with a search box) — verify both MCPs attached in the pipeline's TOOLS section are listed | Both attached MCPs are listed in the picker |
 | 5 | Select a different MCP | New Toolkit is selected |
 | 6 | Verify "Tool" dropdown resets and repopulates with tools from the newly selected MCP | Tool dropdown shows tools from the new MCP |
 | 7 | Select a tool from the new MCP | New tool is selected |
 | 8 | Verify Input/Output variables update according to new tool | Variable chips reflect the new tool's parameters |
 | 9 | Save pipeline | Pipeline is saved successfully |
 | 10 | Reload — verify new Toolkit and Tool selections persisted | New selections are unchanged after reload |
+| 11 | In the left TOOLS section, check the selected MCP's card: it shows "Used by: <node name>"; click "Show tools" | The card shows the MCP is used by this node, and the expanded tools list includes the tool configured on the node |
 
 ---
 
