@@ -9485,7 +9485,7 @@
     },
     {
       "id": "ELITEA-1955",
-      "title": "MCP Integration in Pipeline — MCP Node Without Tool Attached First",
+      "title": "MCP Integration in Pipeline — Select MCP Directly in Node (Auto-Attach)",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
