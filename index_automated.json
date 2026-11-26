@@ -10487,7 +10487,7 @@
     },
     {
       "id": "ELITEA-2007",
-      "title": "Entry Point Node — Schedule Trigger Settings Modal",
+      "title": "Pipeline Editor — Schedule Settings on the New Schedule Page",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
@@ -10510,7 +10510,7 @@
     },
     {
       "id": "ELITEA-2008",
-      "title": "Entry Point Node — Trigger Restricted When HITL/Printer/Interrupts Present",
+      "title": "Pipeline Schedule — Blocked When HITL/Printer/Interrupts Present",
       "status": "ready",
       "execution_type": "automated",
       "type": "functional",
