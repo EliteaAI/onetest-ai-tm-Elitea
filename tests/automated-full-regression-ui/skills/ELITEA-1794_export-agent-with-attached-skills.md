@@ -25,7 +25,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/285
 - User is logged in to the Elitea platform.
 - A project exists and is accessible.
 - The Skills and Agents sections are available in the project.
-- An Agent exists with at least one Skill attached.
+- An Agent exists with at least one Skill attached. Every attached Skill has no files (**Files – 0**).
 - The Agent export feature is available.
 
 ---
@@ -34,7 +34,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/285
 
 | Field | Value |
 |-------|-------|
-| Agent name | (any Agent with at least one Skill attached, e.g. "Export Test Agent") |
+| Agent name | (any Agent with at least one Skill attached, e.g. "Export Test Agent"); every attached Skill shows **Files – 0** |
 | Attached Skill name | (e.g., "Formatter") |
 | Attached Skill instructions | (known instructions text to verify in export) |
 | Attached Skill licence | `license: MIT` |
@@ -74,3 +74,9 @@ The exported `.md` file contains full Skill content — including name, version,
 - Any step produces an error or unexpected result.
 - Exported file is missing Skill content (only contains a reference or ID instead of full content).
 - Exported file is not `.md` format.
+
+---
+
+## Notes
+
+- If an attached Skill has files, the Agent exports as `<agent>.agent.zip` instead of `.md`. That case is covered by ELITEA-4921.

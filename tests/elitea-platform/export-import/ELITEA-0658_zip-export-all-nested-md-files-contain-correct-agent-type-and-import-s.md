@@ -26,6 +26,7 @@ requirements: [ProjectAlita/projectalita.github.io#3726]
 - An Agent with ≥1 nested sub-agent exists
 - A Pipeline with ≥1 nested sub-pipeline or agent exists
 - Local filesystem accessible to extract ZIPs; a destination project is accessible
+- The Agent, the Pipeline and their nested entities have no attached skills with files (every skill shows **Files – 0**)
 
 ## Test Data
 

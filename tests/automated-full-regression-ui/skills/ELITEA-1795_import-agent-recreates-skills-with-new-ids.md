@@ -45,8 +45,8 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/7dbb1f2c
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Navigate to Agents and trigger the Import action | Import dialog or file picker is shown |
-| 2 | Select the previously exported Agent `.md` file and confirm the import | Import process completes without errors |
+| 1 | Open Agents → **Add** → **Import from file** | The file picker opens |
+| 2 | Select the previously exported Agent `.md` file. In the **Import parameters** dialog click **Import**, then click **Got it** in **Import Complete** | **Import parameters** lists the Agent and its SKILLS. **Import Complete** lists the Agent and the Skills, with no errors |
 | 3 | Verify the imported Agent appears in the Agents list | A new Agent entry is present; its name matches the exported Agent |
 | 4 | Open the imported Agent and inspect the attached Skills | The Skill from the original export is listed as attached to the imported Agent |
 | 5 | Navigate to the Skills section and locate the newly created Skill | A new Skill entry exists with the same name as the original Skill |

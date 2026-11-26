@@ -23,7 +23,7 @@ automation_pr: https://github.com/EliteaAI/elitea-testing-public/pull/630
 ## Preconditions
 
 - User is logged in to the Elitea platform.
-- An agent with at least one nested agent attached exists.
+- An agent with at least one nested agent attached exists. Neither agent has attached skills with files (every skill shows **Files – 0**).
 
 ---
 

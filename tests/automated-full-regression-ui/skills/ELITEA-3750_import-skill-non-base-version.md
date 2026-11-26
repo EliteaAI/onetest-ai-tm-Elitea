@@ -24,6 +24,7 @@ automation_test_id: tests.ui.skills.test_skill_export_import.TestSkillExportImpo
 - User is logged in to the Elitea platform.
 - A project exists and is accessible.
 - The Skills section is available in the project with export and import capabilities.
+- The Skill created in step 1 has no files (**Files – 0**), so it exports as `.md`.
 
 ---
 
@@ -43,7 +44,7 @@ automation_test_id: tests.ui.skills.test_skill_export_import.TestSkillExportImpo
 |---|--------|-----------------|
 | 1 | Create a Skill with a `base` version, switch the Instructions section to Edit mode (click the "Edit mode" toggle; detail page opens in Preview), modify the instructions, and save as a new version named `ver_1` | Skill has both `base` and `ver_1` versions saved successfully |
 | 2 | Switch to the `ver_1` version and export this version of the Skill | A `.md` file is downloaded representing the `ver_1` version |
-| 3 | Import the exported `.md` file via the Skills import feature | Import completes without errors; a new Skill entry appears in the Skills list |
+| 3 | Open Skills → **Add** → **Import from file**, choose the exported `.md` file, then click **Import** in the **Import parameters** dialog | Import completes without errors; a new Skill entry appears in the Skills list |
 | 4 | Open the imported Skill and verify it has a `base` version created | The imported Skill shows a `base` version (not `ver_1`) |
 | 5 | Verify all fields (name, description, instructions, tags) are populated correctly | All fields match the content from the exported `ver_1` version |
 | 6 | Edit a field on the imported Skill and save | Skill saves without errors; changes are persisted |
