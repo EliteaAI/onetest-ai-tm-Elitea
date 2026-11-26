@@ -4,7 +4,7 @@ title: "Verify no chat is selected on section pages and chat actions don't redir
 priority: high
 type: functional
 module: new-sidebar
-status: draft
+status: ready
 execution_type: manual
 tags: [r-2.0.9, eng:design, nfr:ui]
 requirements: [EliteaAI/elitea_issues#7562, EliteaAI/elitea_issues#7560, EliteaAI/elitea_issues#7564]

@@ -4,7 +4,7 @@ title: "Verify expanded sidebar shows areas in the specified order and no standa
 priority: critical
 type: functional
 module: new-sidebar
-status: draft
+status: ready
 execution_type: manual
 tags: [r-2.0.9, eng:design, nfr:ui]
 requirements: [EliteaAI/elitea_issues#7562]

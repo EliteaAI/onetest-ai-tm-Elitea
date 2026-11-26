@@ -4,7 +4,7 @@ title: "Verify existing deep links still open the correct pages"
 priority: medium
 type: regression
 module: new-sidebar
-status: draft
+status: ready
 execution_type: manual
 tags: [r-2.0.9, eng:design, nfr:ui]
 requirements: [EliteaAI/elitea_issues#7562, EliteaAI/elitea_issues#7560]

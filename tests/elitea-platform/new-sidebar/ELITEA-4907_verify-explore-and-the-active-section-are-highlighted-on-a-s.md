@@ -4,7 +4,7 @@ title: "Verify Explore and the active section are highlighted on a section page"
 priority: high
 type: functional
 module: new-sidebar
-status: draft
+status: ready
 execution_type: manual
 tags: [r-2.0.9, eng:design, nfr:ui]
 requirements: [EliteaAI/elitea_issues#7562, EliteaAI/elitea_issues#7560]

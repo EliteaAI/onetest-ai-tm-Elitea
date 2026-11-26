@@ -4,7 +4,7 @@ title: "Verify expanded and collapsed sidebar match Storybook in dark and light 
 priority: medium
 type: functional
 module: new-sidebar
-status: draft
+status: ready
 execution_type: manual
 tags: [r-2.0.9, eng:design, nfr:ui]
 requirements: [EliteaAI/elitea_issues#7562, EliteaAI/elitea_issues#7560]
