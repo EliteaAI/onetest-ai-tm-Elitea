@@ -7,6 +7,7 @@ module: skills
 status: ready
 execution_type: automated
 automation_test_id: tests.ui.skills.test_skill_export_import.TestSkillExportImport.test_export_and_import_skill_base_version
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/aeba9df974eee2a0bfe5099028f2054fa04f99ec
 tags: [automated:UI:regression, feat:skills]
 requirements: []
 ---
