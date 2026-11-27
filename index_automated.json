@@ -9759,6 +9759,133 @@
       "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2749_verify-pipeline-with-mcp-displays-toolkit-name-in-pipeline-chat.md"
     },
     {
+      "id": "ELITEA-4925",
+      "title": "Sidebar structure, 288 px width and fixed 52 px bottom row with Support Assistant",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "new-sidebar",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "r-2.0.9",
+        "eng:design",
+        "nfr:ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7562"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-4925_sidebar-structure-width-and-fixed-bottom-row-with-support-assistant.md"
+    },
+    {
+      "id": "ELITEA-4926",
+      "title": "Explore opens by hover, click and keyboard and navigates to sections",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "new-sidebar",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "r-2.0.9",
+        "eng:design",
+        "nfr:ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7562",
+        "EliteaAI/elitea_issues#7560"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-4926_explore-opens-by-hover-click-and-keyboard-and-navigates-to-sections.md"
+    },
+    {
+      "id": "ELITEA-4927",
+      "title": "New chat and Chats history in sidebar: create, search, folder, import and scroll",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "new-sidebar",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "r-2.0.9",
+        "eng:design",
+        "nfr:ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7562"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-4927_new-chat-and-chats-history-in-sidebar-create-search-folder-import-and-scroll.md"
+    },
+    {
+      "id": "ELITEA-4928",
+      "title": "Switching project refreshes Chats history and Explore section content",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "new-sidebar",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "r-2.0.9",
+        "eng:design",
+        "nfr:ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7562"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-4928_switching-project-refreshes-chats-history-and-explore-section-content.md"
+    },
+    {
+      "id": "ELITEA-4929",
+      "title": "Navigation guard and collapse/expand preserve unsaved work",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "new-sidebar",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "r-2.0.9",
+        "eng:design",
+        "nfr:ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7562",
+        "EliteaAI/elitea_issues#7560"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-4929_navigation-guard-and-collapse-expand-preserve-unsaved-work.md"
+    },
+    {
       "id": "ELITEA-4881",
       "title": "Admin Notifications page defaults and Save Discard persistence",
       "status": "draft",
