@@ -14,10 +14,10 @@ requirements: [EliteaAI/elitea_issues#7385]
 
 ## Preconditions
 
-- User is logged in to `{{base_url}}` and has a project with the fixtures below. Fixtures are described in [test-data/chat-runs-continue](../../../../test-data/chat-runs-continue/README.md)
-- Pipeline **R7385Pipe** ([YAML](../../../../test-data/chat-runs-continue/r7385-pipe.pipeline.yaml)): `waitSeconds` 10 → LLM → `waitSeconds` 10 → LLM, answers `PIPE-DONE <word>`
+- User is logged in to `{{base_url}}`. Create everything below new for this case (no reuse from earlier runs)
+- Pipeline **R7385Pipe**, imported from [r7385-pipe.pipeline.md](../../../../test-data/chat-runs-continue/r7385-pipe.pipeline.md) (Pipelines → **Add pipeline** → **Import from file**): `waitSeconds` 10 → LLM → `waitSeconds` 10 → LLM, answers `PIPE-DONE <word>`
 - An idle conversation **B** (no run in it) to switch to
-- Conversation **A** with R7385Pipe as the participant, cleared
+- Conversation **A** with R7385Pipe as the participant
 - DevTools → Network is open to watch for `DELETE .../elitea_core/task/...` requests
 
 ## Test Data
@@ -50,3 +50,7 @@ The pipeline run completed; the live view matched a reload.
 
 **Fail:**
 - The run is stopped, shown as idle while running, or differs from the reloaded view
+
+## Teardown
+
+Also after a failed step: stop a run that is still going. Delete the conversations A and B, the pipeline R7385Pipe and the toolkit `r7385_echo`.
