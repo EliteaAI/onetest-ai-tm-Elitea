@@ -7,7 +7,7 @@ module: skill-run-settings
 status: draft
 execution_type: manual
 tags: [feat:skills, r-2.0.8]
-requirements: [EliteaAI/elitea_issues#6921]
+requirements: [EliteaAI/elitea_issues#7675, EliteaAI/elitea_issues#6921]
 ---
 
 ## Preconditions
@@ -33,7 +33,7 @@ requirements: [EliteaAI/elitea_issues#6921]
 | 2 | Click "Compare Versions" or similar action | Version comparison interface opens |
 | 3 | Select Version 1 and Version 2 for comparison | Versions selected |
 | 4 | Click "Compare" | Comparison view displays |
-| 5 | Verify "Run settings" step/section appears in comparison | Run settings section visible |
+| 5 | Click **Next** until the "Run settings" step opens (step 2 when no version has files; step 3 after Files otherwise) | Run settings section visible; bottom bar shows **Previous** and **Finish** |
 | 6 | Observe Model field → Verify shows "No change" (both use GPT-4 Turbo) | Model: No change |
 | 7 | Observe Reasoning level → Verify shows difference: Low → High (highlighted) | Reasoning: Low → High (highlighted/colored) |
 | 8 | Observe Max tokens → Verify shows "No change" (both 4096) | Max tokens: No change |

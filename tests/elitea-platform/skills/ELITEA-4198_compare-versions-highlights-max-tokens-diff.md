@@ -7,7 +7,7 @@ module: skill-run-settings
 status: draft
 execution_type: manual
 tags: [feat:skills, r-2.0.8]
-requirements: [EliteaAI/elitea_issues#6921]
+requirements: [EliteaAI/elitea_issues#7675, EliteaAI/elitea_issues#6921]
 ---
 
 ## Preconditions
@@ -33,7 +33,7 @@ requirements: [EliteaAI/elitea_issues#6921]
 | 2 | Click "Compare Versions" | Version comparison interface opens |
 | 3 | Select Version 1 and Version 2 | Versions selected |
 | 4 | Click "Compare" | Comparison view displays |
-| 5 | Navigate to "Run settings" step in comparison | Run settings section visible |
+| 5 | Click **Next** until the "Run settings" step opens (step 2 when no version has files; step 3 after Files otherwise) | Run settings section visible |
 | 6 | Observe Model field → Verify "No change" | Model: No change |
 | 7 | Observe Reasoning level → Verify "No change" | Reasoning: No change |
 | 8 | Observe Max tokens field → Verify shows difference: 4096 → 8000 (highlighted) | Max tokens: 4096 → 8000 (highlighted) |

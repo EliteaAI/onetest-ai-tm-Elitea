@@ -7,7 +7,7 @@ module: skills
 status: draft
 execution_type: manual
 tags: [feat:skills, r-2.0.6, bug:6563]
-requirements: [EliteaAI/elitea_issues#6304, EliteaAI/elitea_issues#6563]
+requirements: [EliteaAI/elitea_issues#7675, EliteaAI/elitea_issues#6304, EliteaAI/elitea_issues#6563]
 ---
 
 ## Preconditions
@@ -32,7 +32,7 @@ requirements: [EliteaAI/elitea_issues#6304, EliteaAI/elitea_issues#6563]
 | 2 | Share Skill with another user in same org or have them create Version 2 | Version 2 created by different user |
 | 3 | Open Compare Versions modal comparing Version 1 and Version 2 | Modal opens successfully |
 | 4 | Verify Version 1 column header or metadata displays the actual creator name (e.g., "Alice Smith") | Creator name "Alice Smith" is visible |
-| 5 | Verify NO version shows "BY AUTHOR UNAVAILABLE" | Creator metadata is properly fetched and displayed |
+| 5 | Verify NO version shows "BY AUTHOR UNAVAILABLE" or "by Author unavailable" and the meta under the version name is in normal case (e.g. "May 04, 2026, 13:13 · by Alice Smith") | Creator metadata is properly fetched and displayed in normal case, not capitals |
 | 6 | Verify Version 2 column displays the actual creator name (e.g., "Bob Jones") | Creator name "Bob Jones" is visible |
 | 7 | Close modal and select a system-created version (if applicable) | Version selected |
 | 8 | Open Compare Versions modal with system-created version | Modal opens |
