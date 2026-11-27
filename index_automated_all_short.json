@@ -2111,6 +2111,31 @@
       "path": "tests/automated-full-regression-ui/mcp/toolkit-name-in-auth-prompt/ELITEA-2749_verify-pipeline-with-mcp-displays-toolkit-name-in-pipeline-chat.md"
     },
     {
+      "id": "ELITEA-4925",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-4925_sidebar-structure-width-and-fixed-bottom-row-with-support-assistant.md"
+    },
+    {
+      "id": "ELITEA-4926",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-4926_explore-opens-by-hover-click-and-keyboard-and-navigates-to-sections.md"
+    },
+    {
+      "id": "ELITEA-4927",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-4927_new-chat-and-chats-history-in-sidebar-create-search-folder-import-and-scroll.md"
+    },
+    {
+      "id": "ELITEA-4928",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-4928_switching-project-refreshes-chats-history-and-explore-section-content.md"
+    },
+    {
+      "id": "ELITEA-4929",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-4929_navigation-guard-and-collapse-expand-preserve-unsaved-work.md"
+    },
+    {
       "id": "ELITEA-4881",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/notifications/ELITEA-4881_admin-notifications-page-defaults-and-save-discard-persisten.md"
