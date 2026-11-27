@@ -4,8 +4,11 @@ title: "Two chats run at once and Stop in one leaves the other running"
 priority: critical
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_chat_two_runs_stop_one.TestTwoChatsRunStopOneLeavesOther.test_two_chats_run_stop_one_leaves_other
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/ec1cfba7e19c698063c4c3b3a60c822141820f4b
 tags: [automated:UI:regression, feat:chat, r-2.0.9]
 requirements: [EliteaAI/elitea_issues#7385]
 ---
