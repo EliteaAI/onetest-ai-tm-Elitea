@@ -1,0 +1,69 @@
+state:
+  input:
+    type: str
+  messages:
+    type: list
+entry_point: Wait1
+nodes:
+- id: Wait1
+  type: toolkit
+  input: [input]
+  output: [messages]
+  structured_output: false
+  transition: Think1
+  toolkit_name: <Postman Echo delay toolkit name>
+  tool: waitSeconds
+  input_mapping:
+    seconds:
+      type: fixed
+      value: 10
+- id: Think1
+  type: llm
+  prompt:
+    type: string
+    value: ''
+  input: [input]
+  output: [messages]
+  structured_output: false
+  transition: Wait2
+  input_mapping:
+    system:
+      type: fixed
+      value: "You are a test fixture. Reply with exactly one line: PIPE-STEP 1"
+    task:
+      type: fstring
+      value: "{input}"
+    chat_history:
+      type: fixed
+      value: []
+- id: Wait2
+  type: toolkit
+  input: [input]
+  output: [messages]
+  structured_output: false
+  transition: Think2
+  toolkit_name: <Postman Echo delay toolkit name>
+  tool: waitSeconds
+  input_mapping:
+    seconds:
+      type: fixed
+      value: 10
+- id: Think2
+  type: llm
+  prompt:
+    type: string
+    value: ''
+  input: [input]
+  output: [messages]
+  structured_output: false
+  transition: END
+  input_mapping:
+    system:
+      type: fixed
+      value: "You are a test fixture. Reply with exactly one line: PIPE-DONE <the word the user gave, or NONE>"
+    task:
+      type: fstring
+      value: "{input}"
+    chat_history:
+      type: fixed
+      value: []
