@@ -2176,6 +2176,21 @@
       "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-4929_navigation-guard-and-collapse-expand-preserve-unsaved-work.md"
     },
     {
+      "id": "ELITEA-5021",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-5021_pinned-and-recent-grouping-and-pin-unpin-move-items-between-groups.md"
+    },
+    {
+      "id": "ELITEA-5022",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-5022_section-pages-tabs-hidden-filter-panel-and-add-per-section.md"
+    },
+    {
+      "id": "ELITEA-5023",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-5023_explore-list-visibility-by-permissions.md"
+    },
+    {
       "id": "ELITEA-4881",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/notifications/ELITEA-4881_admin-notifications-page-defaults-and-save-discard-persisten.md"
