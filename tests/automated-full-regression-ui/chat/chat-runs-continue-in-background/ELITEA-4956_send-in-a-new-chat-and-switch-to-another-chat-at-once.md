@@ -4,8 +4,11 @@ title: "Send in a new chat and switch to another chat at once"
 priority: critical
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_chat_send_new_chat_switch_away.TestSendInNewChatAndSwitchAway.test_send_in_new_chat_and_switch_away_at_once
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/8eaf405c8ca5f4eeb0e6591f8cec6d307671cf85
 tags: [automated:UI:regression, feat:chat, r-2.0.9]
 requirements: [EliteaAI/elitea_issues#7385]
 ---
