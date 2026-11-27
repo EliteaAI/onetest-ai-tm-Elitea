@@ -27,11 +27,12 @@ requirements: [EliteaAI/elitea_issues#7562, EliteaAI/elitea_issues#7560, EliteaA
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Open a chat, then open **Explore → Skills** | The Skills page opens, and the Chats history is still in the sidebar |
-| 2 | Check the Chats history | No chat is highlighted as selected |
-| 3 | Delete the disposable test chat from the history | The chat is removed, and the user stays on the Skills page with no redirect |
-| 4 | Click another chat in the history | That chat opens and is highlighted |
-| 5 | Repeat steps 1–4 from **Artifacts** | The same behaviour |
+| 1 | Open any chat and look at the chat page | There is no separate CHATS column and no Participants panel; the chat history is only in the sidebar |
+| 2 | Open **Explore → Skills** | The Skills page opens, and the Chats history is still in the sidebar |
+| 3 | Check the Chats history | No chat is highlighted as selected |
+| 4 | Delete the disposable test chat from the history | The chat is removed, and the user stays on the Skills page with no redirect |
+| 5 | Click another chat in the history | That chat opens and is highlighted |
+| 6 | Repeat steps 2–5 from **Artifacts** | The same behaviour |
 
 ## Expected Final State
 
@@ -40,7 +41,7 @@ Only an explicitly clicked chat is selected, and deleting from a non-chat page d
 ## Pass/Fail Criteria
 
 **Pass:**
-- No chat is selected on section/Artifacts pages, delete doesn't redirect, and a click opens the chat
+- The chat page has no CHATS column or Participants panel; no chat is selected on section/Artifacts pages, delete doesn't redirect, and a click opens the chat
 
 **Fail:**
-- A chat is auto-selected, or deleting redirects the user
+- The CHATS column or Participants panel is still on the chat page, a chat is auto-selected, or deleting redirects the user

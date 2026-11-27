@@ -32,6 +32,7 @@ requirements: [EliteaAI/elitea_issues#7562]
 | 2 | Read the items in the list | The items appear in this order: Agents, Pipelines, Skills, Toolkits & Indexes, MCPs, Applications, Credentials (last) |
 | 3 | Move the pointer from **Explore** onto the list | The list stays open |
 | 4 | Move the pointer away from both Explore and the list | The list closes (after a short delay of about 200 ms) |
+| 5 | Hover **Explore** again, then press **Escape** | The list closes |
 
 ## Expected Final State
 
@@ -41,8 +42,8 @@ The Explore list is closed and the current page is unchanged.
 
 **Pass:**
 - Hovering opens the list, and the order matches the Test Data
-- The list stays open on the move to it and closes when the pointer leaves both
+- The list stays open on the move to it and closes when the pointer leaves both or on Escape
 
 **Fail:**
-- The list doesn't open on hover, closes while moving onto it, or stays open after leaving
+- The list doesn't open on hover, closes while moving onto it, or stays open after leaving or after Escape
 - The sections are missing or out of order
