@@ -7663,8 +7663,8 @@
     {
       "id": "ELITEA-4954",
       "title": "Leave a running chat for New chat, Agents, browser Back and Artifacts, then see the New response dot",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -7678,7 +7678,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#7385"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_leave_running_chat_new_response_dot.TestLeaveRunningChatNewResponseDot.test_leave_running_chat_four_ways_then_new_response_dot"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
