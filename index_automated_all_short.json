@@ -4251,6 +4251,16 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-4924_agent-with-file-skill-exports-agent-zip-imports-into-another-project-with-files-skill-works.md"
     },
     {
+      "id": "ELITEA-4965",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4965_compare-skill-versions-files-step-chips-summary-only-changed-and-cards.md"
+    },
+    {
+      "id": "ELITEA-4966",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4966_compare-skill-versions-header-save-stores-instructions-and-file-edit.md"
+    },
+    {
       "id": "ELITEA-1986",
       "priority": "critical",
       "path": "tests/automated-full-regression-ui/skills/build_with_ai/ELITEA-1986_access-control-role-based-visibility.md"

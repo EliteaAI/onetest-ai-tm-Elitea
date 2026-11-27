@@ -19671,6 +19671,58 @@
       "path": "tests/automated-full-regression-ui/skills/ELITEA-4924_agent-with-file-skill-exports-agent-zip-imports-into-another-project-with-files-skill-works.md"
     },
     {
+      "id": "ELITEA-4965",
+      "title": "Compare skill versions: Files step shows chips, summary, Only changed and file cards; step hidden when no version has files",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "nfr:ui",
+        "nfr:usability",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7675"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4965_compare-skill-versions-files-step-chips-summary-only-changed-and-cards.md"
+    },
+    {
+      "id": "ELITEA-4966",
+      "title": "Compare skill versions: header Save stores the Instructions and file edits to one version; blank Instructions and unsaved changes are guarded",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "skills",
+      "owner": "",
+      "tags": [
+        "feat:skills",
+        "nfr:ui",
+        "nfr:usability",
+        "r-2.0.9",
+        "automated:UI:regression"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7675"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/skills/ELITEA-4966_compare-skill-versions-header-save-stores-instructions-and-file-edit.md"
+    },
+    {
       "id": "ELITEA-1986",
       "title": "Build with AI — Access Control (Role-Based Visibility)",
       "status": "draft",
