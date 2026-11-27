@@ -21,10 +21,7 @@ known_issues: [elitea_issues#7763]
 
 ## Preconditions
 
-- User is logged in to `{{base_url}}` and has a project with the fixtures below. Fixtures are described in [test-data/chat-runs-continue](../../../../test-data/chat-runs-continue/README.md)
-- Agent **R7385LongRunner** ([instructions](../../../../test-data/chat-runs-continue/r7385-longrunner.instructions.md)): about 45 s, 5 tool calls (`waitSeconds` 10 s ×3, `getPost`, `getUser`), answers `RUN-DONE <word>`
-- An idle conversation **B** (no run in it) to switch to
-- Conversation **A** with R7385LongRunner as the participant, cleared
+- User is logged in to `{{base_url}}` and has a project (`{project_id}`). Nothing else is needed: the test creates its own toolkits, agent and conversations in **Setup** and deletes them in **Teardown**. It never uses entities left by other tests or earlier runs. The source files are in [test-data/chat-runs-continue](../../../../test-data/chat-runs-continue/README.md)
 - DevTools → Network is open to watch for `DELETE .../elitea_core/task/...` requests
 
 ---
@@ -33,15 +30,31 @@ known_issues: [elitea_issues#7763]
 
 | Field | Value |
 |-------|-------|
+| Run suffix `<sfx>` | 6 random hex characters, new for every run |
 | Message in A | `The word is SMK1.` |
+
+---
+
+## Setup
+
+Every name carries the run suffix `<sfx>` from Test Data, so parallel or repeated runs never meet.
+
+| # | Action | Expected Result |
+|---|--------|-----------------|
+| S1 | Create two OpenAPI toolkits without credentials (`POST {{base_url}}/api/v2/elitea_core/tools/prompt_lib/{project_id}`): `autotest_echo_<sfx>` from [postman-echo-delay.openapi.yaml](../../../../test-data/chat-runs-continue/postman-echo-delay.openapi.yaml) with the tool `waitSeconds`, and `autotest_jph_<sfx>` from [jsonplaceholder.openapi.yaml](../../../../test-data/chat-runs-continue/jsonplaceholder.openapi.yaml) with the tools `getPost` and `getUser` | Both toolkits are created; note their ids |
+| S2 | Create the agent `autotest_runner_<sfx>` (`POST {{base_url}}/api/v2/elitea_core/applications/prompt_lib/{project_id}`) with the instructions from [r7385-longrunner.instructions.md](../../../../test-data/chat-runs-continue/r7385-longrunner.instructions.md), the project's default model, reasoning effort low, step limit 25 | The agent is created; note its id and version id. It runs about 45 s with 5 tool calls (`waitSeconds` 10 s ×3, `getPost`, `getUser`) and answers `RUN-DONE <word>` |
+| S3 | Link both toolkits to the agent's version with the tools above (`PATCH {{base_url}}/api/v2/elitea_core/tool/prompt_lib/{project_id}/{toolkit_id}`) | The agent's toolkits list shows both toolkits |
+| S4 | Create the conversations `autotest_run_A_<sfx>` and `autotest_idle_B_<sfx>` (`POST {{base_url}}/api/v2/elitea_core/conversations/prompt_lib/{project_id}`), then add the agent as the participant of A (in the UI, or `POST {{base_url}}/api/v2/elitea_core/participants/prompt_lib/{project_id}/{conversation_id}`) | The conversations are listed in the chat list and A has only the agent as participant |
 
 ---
 
 ## Steps
 
+- Below, **A** is `autotest_run_A_<sfx>` and **B** is the idle `autotest_idle_B_<sfx>` (no run in it).
+
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | In A, check that the participant button shows R7385LongRunner, then send the message | The run starts and the first tool step appears |
+| 1 | In A, check that the participant button shows `autotest_runner_<sfx>`, then send the message | The run starts and the first tool step appears |
 | 2 | After the first step, click B in the chat list | B opens at once. No dialog, and the network log has no `DELETE /task/...` |
 | 3 | Look at A's row in the chat list | The row shows the running spinner, labelled "Generating…" |
 | 4 | Open A again while the run is still going | A shows the steps that finished while you were away, each with its tool name, plus the Stop button (square icon next to the composer) and "Agent is running…" |
@@ -54,6 +67,18 @@ known_issues: [elitea_issues#7763]
 ## Expected Final State
 
 The run in A finished normally, and the live view after the return matched the server.
+
+---
+
+## Teardown
+
+Always run it, also when a step fails (for example in a `finally` block or a fixture finalizer). A failed delete is logged and doesn't change the verdict.
+
+1. If a run is still going (the test failed midway), stop it first
+2. Delete the conversations A and B (`DELETE {{base_url}}/api/v2/elitea_core/conversation/prompt_lib/{project_id}/{conversation_id}`)
+3. Delete the agent (`DELETE {{base_url}}/api/v2/elitea_core/application/prompt_lib/{project_id}/{agent_id}`)
+4. Delete both toolkits (`DELETE {{base_url}}/api/v2/elitea_core/tool/prompt_lib/{project_id}/{toolkit_id}`)
+5. Check that none of the entities created by this run is left in the project
 
 ---
 
@@ -76,7 +101,7 @@ The run in A finished normally, and the live view after the return matched the s
 - **Source functional tests:** ELITEA-4930 (`tests/elitea-platform/chat-interface/chat-runs-continue-in-background/`)
 - **Regression rationale:** The core #7385 journey: leaving a running chat must not stop the run, and the returned view must follow it live.
 - **Selectors (`data-testid`):** `chat-list-item-running-icon` (row spinner; "Generating…" is its `aria-label`, the hover tooltip may not render headless), `chat-switch-participant-button`, `chat-answer-thought-accordion`
-- Clear the fixture conversations before each run (`DELETE {{base_url}}/api/v2/elitea_core/messages/prompt_lib/{project_id}/{conversation_id}`). Otherwise the agent may reuse earlier results and skip its tools.
+- **Stateless:** each run creates fresh entities and deletes them. Don't reuse a conversation from an earlier run: the agent may reuse the earlier tool results and skip its tools.
 - Return to the chat list in-app (New chat → `sidebar-toggle`), never with `page.goto` or a reload: the New response dot is held in the browser only, and a reload drops it.
 - Leave the running chat with a real click in the chat list, not a URL change.
 - Use the API as the oracle: the conversation (`is_streaming`), `message_traces` for the steps, and `GET {{base_url}}/api/v2/elitea_core/conversations/prompt_lib/{project_id}?limit=100` for `has_running_task`. Watch the network log for `DELETE .../elitea_core/task/...`.

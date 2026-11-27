@@ -20,10 +20,7 @@ requirements: [EliteaAI/elitea_issues#7385]
 
 ## Preconditions
 
-- User is logged in to `{{base_url}}` and has a project with the fixtures below. Fixtures are described in [test-data/chat-runs-continue](../../../../test-data/chat-runs-continue/README.md)
-- Agent **R7385AskUser** ([instructions](../../../../test-data/chat-runs-continue/r7385-askuser.instructions.md)), internal tool Ask User on: waits 10 s, asks "Which JSONPlaceholder post should I look up?" (Post 1 / Post 2), answers `ASK-DONE post <id>`
-- An idle conversation **B** (no run in it) to switch to
-- Conversation **A** with R7385AskUser as the participant, cleared
+- User is logged in to `{{base_url}}` and has a project (`{project_id}`). Nothing else is needed: the test creates its own toolkits, agent and conversations in **Setup** and deletes them in **Teardown**. It never uses entities left by other tests or earlier runs. The source files are in [test-data/chat-runs-continue](../../../../test-data/chat-runs-continue/README.md)
 - DevTools → Network is open to watch for `DELETE .../elitea_core/task/...` requests
 
 ---
@@ -32,12 +29,28 @@ requirements: [EliteaAI/elitea_issues#7385]
 
 | Field | Value |
 |-------|-------|
+| Run suffix `<sfx>` | 6 random hex characters, new for every run |
 | Message in A | `Look up a post for me.` |
 | Answer | Post 2 (its author is Leanne Graham) |
 
 ---
 
+## Setup
+
+Every name carries the run suffix `<sfx>` from Test Data, so parallel or repeated runs never meet.
+
+| # | Action | Expected Result |
+|---|--------|-----------------|
+| S1 | Create two OpenAPI toolkits without credentials (`POST {{base_url}}/api/v2/elitea_core/tools/prompt_lib/{project_id}`): `autotest_echo_<sfx>` from [postman-echo-delay.openapi.yaml](../../../../test-data/chat-runs-continue/postman-echo-delay.openapi.yaml) with the tool `waitSeconds`, and `autotest_jph_<sfx>` from [jsonplaceholder.openapi.yaml](../../../../test-data/chat-runs-continue/jsonplaceholder.openapi.yaml) with the tools `getPost` and `getUser` | Both toolkits are created; note their ids |
+| S2 | Create the agent `autotest_askuser_<sfx>` (`POST {{base_url}}/api/v2/elitea_core/applications/prompt_lib/{project_id}`) with the instructions from [r7385-askuser.instructions.md](../../../../test-data/chat-runs-continue/r7385-askuser.instructions.md), the project's default model, reasoning effort low, step limit 25, and the internal tool **Ask User** on (`meta.internal_tools: ["ask_user"]`) | The agent is created; note its id and version id. It waits 10 s, asks "Which JSONPlaceholder post should I look up?" (Post 1 / Post 2) and answers `ASK-DONE post <id>` |
+| S3 | Link both toolkits to the agent's version with the tools above (`PATCH {{base_url}}/api/v2/elitea_core/tool/prompt_lib/{project_id}/{toolkit_id}`) | The agent's toolkits list shows both toolkits |
+| S4 | Create the conversations `autotest_ask_A_<sfx>` and `autotest_idle_B_<sfx>` (`POST {{base_url}}/api/v2/elitea_core/conversations/prompt_lib/{project_id}`), then add the agent as the participant of A (in the UI, or `POST {{base_url}}/api/v2/elitea_core/participants/prompt_lib/{project_id}/{conversation_id}`) | The conversations are listed in the chat list and A has only the agent as participant |
+
+---
+
 ## Steps
+
+- Below, **A** is `autotest_ask_A_<sfx>` and **B** is the idle `autotest_idle_B_<sfx>` (no run in it).
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
@@ -52,6 +65,18 @@ requirements: [EliteaAI/elitea_issues#7385]
 ## Expected Final State
 
 The question asked while away was answered on return and the run completed.
+
+---
+
+## Teardown
+
+Always run it, also when a step fails (for example in a `finally` block or a fixture finalizer). A failed delete is logged and doesn't change the verdict.
+
+1. If a run is still going (the test failed midway), stop it first
+2. Delete the conversations A and B (`DELETE {{base_url}}/api/v2/elitea_core/conversation/prompt_lib/{project_id}/{conversation_id}`)
+3. Delete the agent (`DELETE {{base_url}}/api/v2/elitea_core/application/prompt_lib/{project_id}/{agent_id}`)
+4. Delete both toolkits (`DELETE {{base_url}}/api/v2/elitea_core/tool/prompt_lib/{project_id}/{toolkit_id}`)
+5. Check that none of the entities created by this run is left in the project
 
 ---
 
@@ -71,7 +96,7 @@ The question asked while away was answered on return and the run completed.
 - **Source functional tests:** ELITEA-4932 (`tests/elitea-platform/chat-interface/chat-runs-continue-in-background/`)
 - **Regression rationale:** A question asked while the user is away must wait on the row and be answerable on return.
 - **Selectors (`data-testid`):** `chat-list-item-unread-badge` with `data-reason=waiting` (tooltip "Waiting for your answer")
-- Clear the fixture conversations before each run (`DELETE {{base_url}}/api/v2/elitea_core/messages/prompt_lib/{project_id}/{conversation_id}`). Otherwise the agent may reuse earlier results and skip its tools.
+- **Stateless:** each run creates fresh entities and deletes them. Don't reuse a conversation from an earlier run: the agent may reuse the earlier tool results and skip its tools.
 - Return to the chat list in-app (New chat → `sidebar-toggle`), never with `page.goto` or a reload: the New response dot is held in the browser only, and a reload drops it.
 - Leave the running chat with a real click in the chat list, not a URL change.
 - Use the API as the oracle: the conversation (`is_streaming`), `message_traces` for the steps, and `GET {{base_url}}/api/v2/elitea_core/conversations/prompt_lib/{project_id}?limit=100` for `has_running_task`. Watch the network log for `DELETE .../elitea_core/task/...`.

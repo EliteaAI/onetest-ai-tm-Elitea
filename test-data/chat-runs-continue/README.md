@@ -26,6 +26,10 @@ Create two OpenAPI toolkits from the specs (no credentials):
 
 Each case names the conversations it needs (for example **A** with R7385LongRunner as the participant, and an idle **B** to switch to). Clear a conversation's messages before reusing it. Otherwise the agent may reuse earlier results and skip its tools.
 
+## Regression cases (ELITEA-4953 to ELITEA-4957)
+
+These cases are stateless. Each one creates its own toolkits, agent and conversations in its **Setup** section from the files above, with a per-run name suffix (`autotest_echo_<sfx>`, `autotest_jph_<sfx>`, `autotest_runner_<sfx>` or `autotest_askuser_<sfx>`, `autotest_run_A_<sfx>`, …), and deletes them in its **Teardown** section, also when the test fails. They never use the persistent fixtures described above.
+
 ## Tips
 
 - Plain chats (ELITEA-4938): if the project's default model loads skills that cap the answer format, pick another model in the composer.
