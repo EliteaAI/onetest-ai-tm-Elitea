@@ -10097,6 +10097,86 @@
       "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-4929_navigation-guard-and-collapse-expand-preserve-unsaved-work.md"
     },
     {
+      "id": "ELITEA-5021",
+      "title": "Pinned and Recent grouping and pin/unpin move items between groups",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "new-sidebar",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "r-2.0.9",
+        "eng:design",
+        "nfr:ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7563",
+        "EliteaAI/elitea_issues#7560"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-5021_pinned-and-recent-grouping-and-pin-unpin-move-items-between-groups.md"
+    },
+    {
+      "id": "ELITEA-5022",
+      "title": "Section pages: tabs by project type, hidden filter panel and Add per section",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "new-sidebar",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "r-2.0.9",
+        "eng:design",
+        "nfr:ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7565",
+        "EliteaAI/elitea_issues#7569",
+        "EliteaAI/elitea_issues#7571",
+        "EliteaAI/elitea_issues#7560"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-5022_section-pages-tabs-hidden-filter-panel-and-add-per-section.md"
+    },
+    {
+      "id": "ELITEA-5023",
+      "title": "Explore list visibility follows permissions",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "regression",
+      "priority": "critical",
+      "size": "",
+      "module": "new-sidebar",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "r-2.0.9",
+        "eng:design",
+        "nfr:ui"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7564",
+        "EliteaAI/elitea_issues#7560"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/new-sidebar/ELITEA-5023_explore-list-visibility-by-permissions.md"
+    },
+    {
       "id": "ELITEA-4881",
       "title": "Admin Notifications page defaults and Save Discard persistence",
       "status": "draft",
