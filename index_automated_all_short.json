@@ -346,6 +346,21 @@
       "path": "tests/automated-full-regression-ui/agents/ELITEA-4755_agent-test-chat-copy-markdown-and-copy-text-actions.md"
     },
     {
+      "id": "ELITEA-5012",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-5012_regression-fork-payload-carries-nested-pipeline-tree-linked-correctly.md"
+    },
+    {
+      "id": "ELITEA-5013",
+      "priority": "high",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-5013_regression-fork-keeps-all-fields-and-the-selected-versions.md"
+    },
+    {
+      "id": "ELITEA-5014",
+      "priority": "critical",
+      "path": "tests/automated-full-regression-ui/agents/ELITEA-5014_regression-catalog-pipeline-data-holds-no-secrets-and-fork-uses-published-tree.md"
+    },
+    {
       "id": "ELITEA-1903",
       "priority": "high",
       "path": "tests/automated-full-regression-ui/agents/build_with_ai/ELITEA-1903_build-with-ai-button-visible-for-admin-and-editor-roles-in-new-agent.md"
