@@ -8,7 +8,7 @@ status: ready
 execution_type: automated
 automation_test_id:
   - tests.ui.chat.test_chat_leave_and_return_running_agent.TestLeaveAndReturnToRunningAgentChat.test_leave_and_return_to_running_agent_chat
-automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/02ab8fa99ae91ae97001be6ec112e5226c19157e
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/710b7cf2eee2957a7c24af220a7368f51f685579
 tags: [automated:UI:regression, feat:chat, r-2.0.9]
 requirements: [EliteaAI/elitea_issues#7385]
 known_issues: [elitea_issues#7763]
