@@ -4,8 +4,11 @@ title: "Leave a running chat for New chat, Agents, browser Back and Artifacts, t
 priority: critical
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_chat_leave_running_chat_new_response_dot.TestLeaveRunningChatNewResponseDot.test_leave_running_chat_four_ways_then_new_response_dot
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/603e2bf2e1e058e0a935ae66129f02f7651dff89
 tags: [automated:UI:regression, feat:chat, r-2.0.9]
 requirements: [EliteaAI/elitea_issues#7385]
 ---
