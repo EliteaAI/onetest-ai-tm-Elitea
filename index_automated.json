@@ -7552,6 +7552,128 @@
       "path": "tests/automated-full-regression-ui/chat/chat-import-export/ELITEA-4476_ai-participant-relinking-and-cross-user-author-display-bug-7427-fix.md"
     },
     {
+      "id": "ELITEA-4953",
+      "title": "Switch chats during an agent run, come back during the run and after it ends",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7385"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [
+        "elitea_issues#7763"
+      ],
+      "path": "tests/automated-full-regression-ui/chat/chat-runs-continue-in-background/ELITEA-4953_switch-chats-during-an-agent-run-come-back-during-the-run-an.md"
+    },
+    {
+      "id": "ELITEA-4954",
+      "title": "Leave a running chat for New chat, Agents, browser Back and Artifacts, then see the New response dot",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7385"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/chat-runs-continue-in-background/ELITEA-4954_leave-a-running-chat-for-new-chat-agents-browser-back-and-ar.md"
+    },
+    {
+      "id": "ELITEA-4955",
+      "title": "An Ask User question reached while away waits on the chat row and can be answered on return",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7385"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/chat-runs-continue-in-background/ELITEA-4955_an-ask-user-question-reached-while-away-waits-on-the-chat-ro.md"
+    },
+    {
+      "id": "ELITEA-4956",
+      "title": "Send in a new chat and switch to another chat at once",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7385"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/chat-runs-continue-in-background/ELITEA-4956_send-in-a-new-chat-and-switch-to-another-chat-at-once.md"
+    },
+    {
+      "id": "ELITEA-4957",
+      "title": "Two chats run at once and Stop in one leaves the other running",
+      "status": "draft",
+      "execution_type": "manual",
+      "type": "functional",
+      "priority": "critical",
+      "size": "",
+      "module": "chat-interface",
+      "owner": "",
+      "tags": [
+        "automated:UI:regression",
+        "feat:chat",
+        "r-2.0.9"
+      ],
+      "requirements": [
+        "EliteaAI/elitea_issues#7385"
+      ],
+      "automation_test_id": [],
+      "targets": [],
+      "dependencies": [],
+      "known_issues": [],
+      "path": "tests/automated-full-regression-ui/chat/chat-runs-continue-in-background/ELITEA-4957_two-chats-run-at-once-and-stop-in-one-leaves-the-other-runni.md"
+    },
+    {
       "id": "ELITEA-4811",
       "title": "Chat – Team Project – Share Chat with Selected People and Whole Team Grants Access and Removing Access Revokes It",
       "status": "draft",
