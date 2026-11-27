@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4965
+id: ELITEA-4974
 title: "Another user's Private project shows its own Project created"
 priority: high
 type: functional

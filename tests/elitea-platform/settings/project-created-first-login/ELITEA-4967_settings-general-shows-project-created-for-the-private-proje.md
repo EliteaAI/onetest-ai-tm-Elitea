@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4958
+id: ELITEA-4967
 title: "Settings → General shows Project created for the Private project"
 priority: critical
 type: functional

@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4968
+id: ELITEA-4977
 title: "General still works when the project info request fails"
 priority: medium
 type: functional

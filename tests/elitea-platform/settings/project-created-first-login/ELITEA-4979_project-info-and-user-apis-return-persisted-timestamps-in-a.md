@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4970
+id: ELITEA-4979
 title: "Project info and user APIs return persisted timestamps in a stable format"
 priority: medium
 type: functional

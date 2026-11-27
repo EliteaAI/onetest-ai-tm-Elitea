@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4966
+id: ELITEA-4975
 title: "Switching the project on Profile and then opening General shows the new project's Project created"
 priority: high
 type: functional

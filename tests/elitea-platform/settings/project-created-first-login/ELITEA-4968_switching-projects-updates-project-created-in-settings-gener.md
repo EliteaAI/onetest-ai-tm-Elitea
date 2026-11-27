@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4959
+id: ELITEA-4968
 title: "Switching projects updates Project created in Settings → General"
 priority: critical
 type: functional

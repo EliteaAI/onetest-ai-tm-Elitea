@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4969
+id: ELITEA-4978
 title: "Clicking First login copies its value like Last login"
 priority: medium
 type: functional

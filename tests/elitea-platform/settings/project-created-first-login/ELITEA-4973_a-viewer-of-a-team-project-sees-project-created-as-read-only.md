@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4964
+id: ELITEA-4973
 title: "A viewer of a team project sees Project created as read-only"
 priority: high
 type: functional
