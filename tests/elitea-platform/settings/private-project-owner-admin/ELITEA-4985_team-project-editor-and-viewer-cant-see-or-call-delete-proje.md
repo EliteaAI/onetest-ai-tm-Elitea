@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4982
+id: ELITEA-4985
 title: "Team project Editor and Viewer can't see or call Delete Project Data"
 priority: critical
 type: functional

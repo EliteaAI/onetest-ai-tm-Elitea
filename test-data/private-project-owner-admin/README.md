@@ -1,6 +1,6 @@
 # Test data: private-project owners hold project Admin (#7507)
 
-Used by `tests/elitea-platform/settings/private-project-owner-admin/` (ELITEA-4980 to ELITEA-4993).
+Used by `tests/elitea-platform/settings/private-project-owner-admin/` (ELITEA-4983 to ELITEA-4996, manual) and `tests/automated-full-regression-ui/settings/private-project-owner-admin/` (ELITEA-4997 to ELITEA-5001, UI regression).
 
 Implementation: admin#83 (`_owner_only_admin` guard), projects#20 (new private projects give the owner admin+editor+viewer), auth_core#38 (migration grants admin to verified owners of existing private projects).
 

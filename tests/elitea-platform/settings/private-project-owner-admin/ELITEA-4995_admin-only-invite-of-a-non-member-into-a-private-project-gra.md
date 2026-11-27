@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4992
+id: ELITEA-4995
 title: "Admin-only invite of a non-member into a private project grants no Admin"
 priority: medium
 type: functional

@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4988
+id: ELITEA-4991
 title: "Granting and revoking team Admin changes access without a new login"
 priority: high
 type: functional

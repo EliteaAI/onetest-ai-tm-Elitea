@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4985
+id: ELITEA-4988
 title: "Restore from the Backup is allowed for the private owner and team Admin only"
 priority: high
 type: functional

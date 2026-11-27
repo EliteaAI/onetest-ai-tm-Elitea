@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4989
+id: ELITEA-4992
 title: "A user can't manage users or roles outside their own private project or promote themselves"
 priority: high
 type: functional

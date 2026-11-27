@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4986
+id: ELITEA-4989
 title: "Private owner holds every admin-only permission; Editor and Viewer members hold none"
 priority: high
 type: functional

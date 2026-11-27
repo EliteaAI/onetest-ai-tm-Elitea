@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4993
+id: ELITEA-4996
 title: "Backup in a private project: Editor member can create but not restore, Viewer has no access"
 priority: medium
 type: functional

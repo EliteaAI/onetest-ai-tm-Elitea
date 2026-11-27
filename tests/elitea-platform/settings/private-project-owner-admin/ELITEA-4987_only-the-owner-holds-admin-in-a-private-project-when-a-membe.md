@@ -1,5 +1,5 @@
 ---
-id: ELITEA-4984
+id: ELITEA-4987
 title: "Only the owner holds Admin in a private project when a member is added or promoted"
 priority: critical
 type: functional
@@ -48,4 +48,4 @@ User A is the only Admin of P-A; B is not a member.
 
 ## Notes
 
-Both requests answer 200 even though `admin` was dropped (the guard strips it without saying so). Record the response text; see also ELITEA-4987 and ELITEA-4992.
+Both requests answer 200 even though `admin` was dropped (the guard strips it without saying so). Record the response text; see also ELITEA-4990 and ELITEA-4995.
