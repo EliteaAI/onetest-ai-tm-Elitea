@@ -4,8 +4,11 @@ title: "An Ask User question reached while away waits on the chat row and can be
 priority: critical
 type: functional
 module: chat-interface
-status: draft
-execution_type: manual
+status: ready
+execution_type: automated
+automation_test_id:
+  - tests.ui.chat.test_chat_ask_user_while_away.TestAskUserWhileAway.test_ask_user_while_away
+automation_pr: https://github.com/EliteaAI/elitea-testing-public/commit/5c07914a83fae0cf695e2fa5a19e7dfa15748cee
 tags: [automated:UI:regression, feat:chat, r-2.0.9]
 requirements: [EliteaAI/elitea_issues#7385]
 ---
