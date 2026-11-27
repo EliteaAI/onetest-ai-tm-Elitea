@@ -41,13 +41,13 @@ known_issues: [elitea_issues#7763]
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | In A, send the message | The run starts and the first tool step appears |
+| 1 | In A, check that the participant button shows R7385LongRunner, then send the message | The run starts and the first tool step appears |
 | 2 | After the first step, click B in the chat list | B opens at once. No dialog, and the network log has no `DELETE /task/...` |
-| 3 | Look at A's row in the chat list | The row shows the running spinner with the tooltip "Generating…" |
-| 4 | Open A again while the run is still going | A shows the steps that finished while you were away, each with its tool name, plus the Stop button and "Agent is running…" |
+| 3 | Look at A's row in the chat list | The row shows the running spinner, labelled "Generating…" |
+| 4 | Open A again while the run is still going | A shows the steps that finished while you were away, each with its tool name, plus the Stop button (square icon next to the composer) and "Agent is running…" |
 | 5 | Stay in A until the run ends | New steps appear live as they start, the running step has a spinner, and the answer ends with `RUN-DONE SMK1` |
-| 6 | Open B, then open A again | A shows the final answer and 5 steps; no streaming indicator. A's row shows no spinner |
-| 7 | Call `GET {{base_url}}/api/v2/elitea_core/message_traces/prompt_lib/{project_id}/{conversation_id}` | 5 traces, the same steps in the same order as the UI |
+| 6 | Open B, then open A again, and expand "Thought for …" | A shows the final answer and 5 tool steps; no streaming indicator. A's row shows no spinner |
+| 7 | Call `GET {{base_url}}/api/v2/elitea_core/message_traces/prompt_lib/{project_id}/{conversation_id}` | 5 `tool_call` traces (plus one `thinking_step`), the same tools in the same order as the UI |
 
 ---
 
@@ -62,7 +62,7 @@ The run in A finished normally, and the live view after the return matched the s
 **Pass:**
 - The run isn't stopped by leaving
 - On return, the finished steps, Stop and "Agent is running…" are shown, and later steps render live
-- After the end the UI shows 5 steps = `message_traces`
+- After the end the UI shows 5 steps = the `tool_call` rows of `message_traces`
 
 **Fail:**
 - A dialog appears or `DELETE /task` is sent on leave
@@ -75,9 +75,14 @@ The run in A finished normally, and the live view after the return matched the s
 
 - **Source functional tests:** ELITEA-4930 (`tests/elitea-platform/chat-interface/chat-runs-continue-in-background/`)
 - **Regression rationale:** The core #7385 journey: leaving a running chat must not stop the run, and the returned view must follow it live.
-- **Selectors (`data-testid`):** `chat-list-item-running-icon` (row spinner, tooltip "Generating…")
+- **Selectors (`data-testid`):** `chat-list-item-running-icon` (row spinner; "Generating…" is its `aria-label`, the hover tooltip may not render headless), `chat-switch-participant-button`, `chat-answer-thought-accordion`
 - Clear the fixture conversations before each run (`DELETE {{base_url}}/api/v2/elitea_core/messages/prompt_lib/{project_id}/{conversation_id}`). Otherwise the agent may reuse earlier results and skip its tools.
 - Return to the chat list in-app (New chat → `sidebar-toggle`), never with `page.goto` or a reload: the New response dot is held in the browser only, and a reload drops it.
 - Leave the running chat with a real click in the chat list, not a URL change.
 - Use the API as the oracle: the conversation (`is_streaming`), `message_traces` for the steps, and `GET {{base_url}}/api/v2/elitea_core/conversations/prompt_lib/{project_id}?limit=100` for `has_running_task`. Watch the network log for `DELETE .../elitea_core/task/...`.
-- Each step row should read "<step>: <tool>". Until #7763 is fixed, rows restored after the return have no tool name, and later steps appear only with the final answer, so this case fails on steps 4–5.
+- Before sending, wait until `chat-switch-participant-button` shows the agent's name. Picking the agent adds it as a participant first and makes it active a moment later; a message sent in between goes to the default assistant, which has no tools.
+- The chat URL gets `?name=<conversation name>` appended. Match `/chat/<id>` as a pattern, not the exact URL.
+- Stop is an icon-only button next to the composer, with no testid and no `aria-label`. `chat-inject-button` is "Send to the running agent" (a message into the running turn), not Stop.
+- After a finished chat is reopened, its steps sit in a collapsed "Thought for …" section (`chat-answer-thought-accordion`, toggle = its inner `button[aria-expanded]`). Expand it before counting steps.
+- `message_traces` also returns one `thinking_step` row. Count only the rows with `kind` = `tool_call`.
+- Each step row should read "<step>: <tool>". #7763 (open) reports that rows restored after the return lose their tool name and later steps appear only with the final answer. On DEV on 2026-11-27 it did not reproduce (3 runs: late steps rendered live, tool names kept). If it fires, the case fails on steps 4–5.

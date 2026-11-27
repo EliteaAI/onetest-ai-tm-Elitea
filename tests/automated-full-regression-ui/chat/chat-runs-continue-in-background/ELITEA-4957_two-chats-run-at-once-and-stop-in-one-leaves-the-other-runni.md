@@ -41,7 +41,7 @@ requirements: [EliteaAI/elitea_issues#7385]
 | # | Action | Expected Result |
 |---|--------|-----------------|
 | 1 | Send the message in A, open C and send its message | Both rows show the running spinner |
-| 2 | In C, wait for the first step and click **Stop** | Exactly one `DELETE /task/...` is sent, for C's run. The Stop button disappears, and C's row gets no dot |
+| 2 | In C, wait for the first step and click **Stop** (square icon next to the composer) | Exactly one `DELETE /task/...` is sent, for C's run. The Stop button disappears, and C's row gets no dot |
 | 3 | Open A | A's run is still going (Stop and "Agent is running…" shown) |
 | 4 | Wait for A to end | A's answer is `RUN-DONE SMK5A` |
 
@@ -74,5 +74,10 @@ C was stopped; A finished normally.
 - Return to the chat list in-app (New chat → `sidebar-toggle`), never with `page.goto` or a reload: the New response dot is held in the browser only, and a reload drops it.
 - Leave the running chat with a real click in the chat list, not a URL change.
 - Use the API as the oracle: the conversation (`is_streaming`), `message_traces` for the steps, and `GET {{base_url}}/api/v2/elitea_core/conversations/prompt_lib/{project_id}?limit=100` for `has_running_task`. Watch the network log for `DELETE .../elitea_core/task/...`.
+- Before sending, wait until `chat-switch-participant-button` shows the agent's name. Picking the agent adds it as a participant first and makes it active a moment later; a message sent in between goes to the default assistant, which has no tools.
+- The chat URL gets `?name=<conversation name>` appended. Match `/chat/<id>` as a pattern, not the exact URL.
+- Stop is an icon-only button next to the composer, with no testid and no `aria-label`. `chat-inject-button` is "Send to the running agent" (a message into the running turn), not Stop.
+- After a finished chat is reopened, its steps sit in a collapsed "Thought for …" section (`chat-answer-thought-accordion`, toggle = its inner `button[aria-expanded]`). Expand it before counting steps.
+- `message_traces` also returns one `thinking_step` row. Count only the rows with `kind` = `tool_call`.
 - Stop must send `DELETE .../elitea_core/task/prompt_lib/{project_id}/{run_uuid}` with C's run uuid only. Take each run uuid from the latest `chat_run_status` "running" socket frame of that chat.
 - Related: ELITEA-2621 checks Stop isolation across two tabs or the widget. This case checks it within one tab while switching chats.

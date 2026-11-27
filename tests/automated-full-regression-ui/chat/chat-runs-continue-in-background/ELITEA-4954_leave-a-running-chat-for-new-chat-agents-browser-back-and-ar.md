@@ -45,7 +45,7 @@ requirements: [EliteaAI/elitea_issues#7385]
 | 3 | Open **Agents** in the left menu | The Agents page opens at once |
 | 4 | Click the browser Back button, then open **Artifacts** | Each page opens at once. No "Response generation is still in progress…" dialog and no "Output is still generating" text anywhere |
 | 5 | Stay away until the run has ended (about 45 s from the send), then open the chat list in-app (New chat → chat list) | A's row shows the dot with the tooltip "New response" |
-| 6 | Open A | The answer `RUN-DONE SMK2` and all 5 steps are shown; no streaming indicator. The dot is gone and stays gone |
+| 6 | Open A and expand "Thought for …" | The answer `RUN-DONE SMK2` and all 5 steps are shown; no streaming indicator. The dot is gone and stays gone |
 
 ---
 
@@ -77,5 +77,10 @@ The run finished while the user was on other pages, and the row marked the new a
 - Return to the chat list in-app (New chat → `sidebar-toggle`), never with `page.goto` or a reload: the New response dot is held in the browser only, and a reload drops it.
 - Leave the running chat with a real click in the chat list, not a URL change.
 - Use the API as the oracle: the conversation (`is_streaming`), `message_traces` for the steps, and `GET {{base_url}}/api/v2/elitea_core/conversations/prompt_lib/{project_id}?limit=100` for `has_running_task`. Watch the network log for `DELETE .../elitea_core/task/...`.
+- Before sending, wait until `chat-switch-participant-button` shows the agent's name. Picking the agent adds it as a participant first and makes it active a moment later; a message sent in between goes to the default assistant, which has no tools.
+- The chat URL gets `?name=<conversation name>` appended. Match `/chat/<id>` as a pattern, not the exact URL.
+- Stop is an icon-only button next to the composer, with no testid and no `aria-label`. `chat-inject-button` is "Send to the running agent" (a message into the running turn), not Stop.
+- After a finished chat is reopened, its steps sit in a collapsed "Thought for …" section (`chat-answer-thought-accordion`, toggle = its inner `button[aria-expanded]`). Expand it before counting steps.
+- `message_traces` also returns one `thinking_step` row. Count only the rows with `kind` = `tool_call`.
 - Assert that the texts "Response generation is still in progress" and "Output is still generating" never appear, and that no native `beforeunload` dialog opens (record `page.on('dialog')`).
 - Come back to the chat list in-app. A page reload drops the New response dot, because it is held in the browser only.

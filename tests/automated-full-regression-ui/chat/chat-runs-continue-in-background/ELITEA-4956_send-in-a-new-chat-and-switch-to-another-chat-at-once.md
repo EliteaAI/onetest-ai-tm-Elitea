@@ -39,7 +39,7 @@ requirements: [EliteaAI/elitea_issues#7385]
 
 | # | Action | Expected Result |
 |---|--------|-----------------|
-| 1 | Click **New chat**, pick R7385LongRunner with `#`, and type the message | The agent is the participant |
+| 1 | Click **New chat**, pick R7385LongRunner with `#`, and type the message | The participant button shows R7385LongRunner |
 | 2 | Click Send, and click B in the chat list within about 1 s | B opens and the user stays on B |
 | 3 | Look at the chat list | The new chat appears with its generated name and the running spinner |
 | 4 | Wait for the run to end (about 45 s), then open the new chat | It shows the user message and the answer `RUN-DONE SMK4` |
@@ -72,5 +72,10 @@ The new chat exists with both messages, although the user left it before the fir
 - Return to the chat list in-app (New chat → `sidebar-toggle`), never with `page.goto` or a reload: the New response dot is held in the browser only, and a reload drops it.
 - Leave the running chat with a real click in the chat list, not a URL change.
 - Use the API as the oracle: the conversation (`is_streaming`), `message_traces` for the steps, and `GET {{base_url}}/api/v2/elitea_core/conversations/prompt_lib/{project_id}?limit=100` for `has_running_task`. Watch the network log for `DELETE .../elitea_core/task/...`.
+- Before sending, wait until `chat-switch-participant-button` shows the agent's name. Picking the agent adds it as a participant first and makes it active a moment later; a message sent in between goes to the default assistant, which has no tools.
+- The chat URL gets `?name=<conversation name>` appended. Match `/chat/<id>` as a pattern, not the exact URL.
+- Stop is an icon-only button next to the composer, with no testid and no `aria-label`. `chat-inject-button` is "Send to the running agent" (a message into the running turn), not Stop.
+- After a finished chat is reopened, its steps sit in a collapsed "Thought for …" section (`chat-answer-thought-accordion`, toggle = its inner `button[aria-expanded]`). Expand it before counting steps.
+- `message_traces` also returns one `thinking_step` row. Count only the rows with `kind` = `tool_call`.
 - To leave before the first chunk, click Send and the chat row in one browser task (for example through `page.evaluate`). Playwright's actionability checks alone can take about 2 s.
 - Delete the created conversation at the end.
