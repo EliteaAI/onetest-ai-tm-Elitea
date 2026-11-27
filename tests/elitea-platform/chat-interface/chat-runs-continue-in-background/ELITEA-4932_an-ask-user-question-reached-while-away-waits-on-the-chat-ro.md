@@ -14,10 +14,10 @@ requirements: [EliteaAI/elitea_issues#7385]
 
 ## Preconditions
 
-- User is logged in to `{{base_url}}` and has a project with the fixtures below. Fixtures are described in [test-data/chat-runs-continue](../../../../test-data/chat-runs-continue/README.md)
-- Agent **R7385AskUser** ([instructions](../../../../test-data/chat-runs-continue/r7385-askuser.instructions.md)), internal tool Ask User on: waits 10 s, asks "Which JSONPlaceholder post should I look up?" (Post 1 / Post 2), answers `ASK-DONE post <id>`
+- User is logged in to `{{base_url}}`. Create everything below new for this case (no reuse from earlier runs)
+- Agent **R7385AskUser**, imported from [r7385-askuser.agent.md](../../../../test-data/chat-runs-continue/r7385-askuser.agent.md) (Agents → **Add agent** → **Import from file**), internal tool Ask User on: waits 10 s, asks "Which JSONPlaceholder post should I look up?" (Post 1 / Post 2), answers `ASK-DONE post <id>`
 - An idle conversation **B** (no run in it) to switch to
-- Conversation **A** with R7385AskUser as the participant, cleared
+- Conversation **A** with R7385AskUser as the participant
 - DevTools → Network is open to watch for `DELETE .../elitea_core/task/...` requests
 
 ## Test Data
@@ -49,3 +49,7 @@ The question asked while away was answered on return and the run completed.
 
 **Fail:**
 - No waiting dot, the card is missing or disabled on return, or answering doesn't resume the run
+
+## Teardown
+
+Also after a failed step: stop a run that is still going. Delete the conversations A and B, the agent R7385AskUser and the toolkits `r7385_echo` and `r7385_jph`.

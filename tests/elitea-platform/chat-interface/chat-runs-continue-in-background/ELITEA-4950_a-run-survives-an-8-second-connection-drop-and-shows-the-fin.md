@@ -14,9 +14,9 @@ requirements: [EliteaAI/elitea_issues#7385]
 
 ## Preconditions
 
-- User is logged in to `{{base_url}}` and has a project with the fixtures below. Fixtures are described in [test-data/chat-runs-continue](../../../../test-data/chat-runs-continue/README.md)
-- Agent **R7385LongRunner** ([instructions](../../../../test-data/chat-runs-continue/r7385-longrunner.instructions.md)): about 45 s, 5 tool calls (`waitSeconds` 10 s ×3, `getPost`, `getUser`), answers `RUN-DONE <word>`
-- Conversation **A** with R7385LongRunner as the participant, cleared
+- User is logged in to `{{base_url}}`. Create everything below new for this case (no reuse from earlier runs)
+- Agent **R7385LongRunner**, imported from [r7385-longrunner.agent.md](../../../../test-data/chat-runs-continue/r7385-longrunner.agent.md) (Agents → **Add agent** → **Import from file**): about 45 s, 5 tool calls (`waitSeconds` 10 s ×3, `getPost`, `getUser`), answers `RUN-DONE <word>`
+- Conversation **A** with R7385LongRunner as the participant
 - DevTools → Network is open to watch for `DELETE .../elitea_core/task/...` requests
 
 ## Test Data
@@ -44,3 +44,7 @@ The run completed and the chat caught up after the reconnect.
 
 **Fail:**
 - The run is stopped, or the chat stays stuck until a reload
+
+## Teardown
+
+Also after a failed step: stop a run that is still going. Delete the conversation A, the agent R7385LongRunner and the toolkits `r7385_echo` and `r7385_jph`.
