@@ -7687,8 +7687,8 @@
     {
       "id": "ELITEA-4955",
       "title": "An Ask User question reached while away waits on the chat row and can be answered on return",
-      "status": "draft",
-      "execution_type": "manual",
+      "status": "ready",
+      "execution_type": "automated",
       "type": "functional",
       "priority": "critical",
       "size": "",
@@ -7702,7 +7702,9 @@
       "requirements": [
         "EliteaAI/elitea_issues#7385"
       ],
-      "automation_test_id": [],
+      "automation_test_id": [
+        "tests.ui.chat.test_chat_ask_user_while_away.TestAskUserWhileAway.test_ask_user_while_away"
+      ],
       "targets": [],
       "dependencies": [],
       "known_issues": [],
